@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T08:45:40Z",
+ "generated_at": "2026-10-27T09:21:17Z",
  "monitor": {
   "last_run": "2026-10-27T08:41:06Z",
   "sec_items": 119,
   "news_items": 645,
-  "candidates": 130,
+  "candidates": 128,
   "claude_enabled": false,
   "model": null,
   "sources": {
@@ -786,7 +786,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 25000000000,
+     "debt": 65400000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -802,17 +802,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 1,
+     "debt": 3,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 5,
-    "degree_curated": 1,
-    "candidate_edges": 4,
+    "degree_curated": 3,
+    "candidate_edges": 2,
     "counterparties": 4,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 25000000000
+    "outflow_total_usd": 65400000000
    }
   },
   {
@@ -1268,7 +1268,7 @@
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
+     "debt": 40400000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1284,7 +1284,7 @@
     "inflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
+     "debt": 2,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1298,10 +1298,10 @@
      "guarantee": 0
     },
     "degree": 6,
-    "degree_curated": 0,
-    "candidate_edges": 6,
+    "degree_curated": 2,
+    "candidate_edges": 4,
     "counterparties": 5,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 40400000000,
     "outflow_total_usd": 0
    }
   },
@@ -4985,6 +4985,38 @@
      "publisher": "CoreWeave",
      "date": "2026-09-18",
      "title": "CoreWeave Prices Upsized $3.7 Billion Convertible Senior Notes Offering"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bank-lenders-bytedance-2026-09-loan",
+   "kind": "debt",
+   "subkind": "syndicated loan (unsecured, offshore)",
+   "from": "bank-lenders",
+   "to": "bytedance",
+   "amount_usd": 29600000000,
+   "amount_text": "$29.6B from nearly 30 banks (upsized from a $20B target); pricing not confirmed in the sources opened",
+   "announced": "2026-09-04",
+   "term": "3 years, with options to extend 2 more years",
+   "status": "announced",
+   "confidence": "reported",
+   "title_en": "ByteDance $29.6B syndicated loan for AI push",
+   "title_zh": "字节跳动 296 亿美元银团贷款支持 AI 扩张",
+   "summary_en": "ByteDance raised a $29.6B unsecured offshore loan coordinated by Citigroup and JPMorgan, up from a $20B target. Sources said the money would mainly fund AI plans and projects outside China; at the time of reporting it was set to be signed shortly.",
+   "summary_zh": "字节跳动获得由花旗和摩根大通统筹的 296 亿美元无抵押境外银团贷款，较 200 亿美元的目标上调。知情人士称资金主要用于 AI 相关计划及海外项目；报道时贷款即将签署。",
+   "sources": [
+    {
+     "url": "https://www.caixinglobal.com/2026-09-07/bytedance-gets-296-billion-loan-to-fuel-ai-ambitions-102482584.html",
+     "publisher": "Caixin Global",
+     "date": "2026-09-07",
+     "title": "ByteDance Gets $29.6 Billion Loan to Fuel AI Ambitions"
+    },
+    {
+     "url": "https://www.investing.com/news/stock-market-news/bytedance-secures-296-billion-loan-in-ai-push-sources-say-4889439",
+     "publisher": "Reuters (via Investing.com)",
+     "date": "2026-09-04",
+     "title": "ByteDance secures $29.6 billion loan in AI push, sources say"
     }
    ],
    "origin": "curated"
@@ -8726,6 +8758,32 @@
    "origin": "curated"
   },
   {
+   "id": "bank-lenders-bytedance-2024-09-loan",
+   "kind": "debt",
+   "subkind": "syndicated loan (unsecured, offshore)",
+   "from": "bank-lenders",
+   "to": "bytedance",
+   "amount_usd": 10800000000,
+   "amount_text": "$10.8B from about 18-20 international and Chinese banks; half term loan, half revolver; three years plus a two-year extension option",
+   "announced": "2024-09-27",
+   "term": "3 years + 2-year extension option",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "ByteDance $10.8B offshore syndicated loan",
+   "title_zh": "字节跳动 108 亿美元境外银团贷款",
+   "summary_en": "ByteDance set up a $10.8B offshore loan with Chinese and international banks, reported as the largest dollar corporate loan in Asia outside Japan. Part of it retired a $5B loan from 2021; Citigroup, Goldman Sachs and JPMorgan coordinated.",
+   "summary_zh": "字节跳动与中资及国际银行签署 108 亿美元境外贷款，据报道是日本以外亚洲规模最大的美元公司贷款，其中部分用于偿还 2021 年的 50 亿美元贷款，花旗、高盛和摩根大通为统筹行。",
+   "sources": [
+    {
+     "url": "https://www.bloomberg.com/news/articles/2024-09-27/bytedance-to-sign-10-8-billion-corporate-loan-in-asian-record",
+     "publisher": "Bloomberg",
+     "date": "2024-09-27",
+     "title": "ByteDance to Sign $10.8 Billion Corporate Loan in Asian Record"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "blackstone-coreweave-2024-05-ddtl2",
    "kind": "debt",
    "subkind": "GPU-backed delayed draw term loan (DDTL 2.0)",
@@ -9234,47 +9292,6 @@
     }
    ],
    "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-china-bank-lenders-bytedance-2026-09-loan",
-   "kind": "debt",
-   "subkind": "syndicated loan (unsecured, offshore)",
-   "from": "bank-lenders",
-   "to": "bytedance",
-   "amount_usd": 29600000000,
-   "amount_text": "$29.6B from nearly 30 banks (upsized from a $20B target after >$30B of orders); SOFR + 68 bp; Chinese banks >60%",
-   "announced": "2026-09-04",
-   "term": "3 years, with options to extend 2 more years",
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "ByteDance $29.6B syndicated loan for AI push",
-   "title_zh": "字节跳动 296 亿美元银团贷款支持 AI 扩张",
-   "summary_en": "ByteDance raised a $29.6B unsecured offshore loan coordinated by Citigroup and JPMorgan, nearly triple its 2024 loan and priced tighter at 68 bp over SOFR. People familiar with the deal said the money would mainly fund AI plans and projects outside China.",
-   "summary_zh": "字节跳动获得由花旗和摩根大通统筹的 296 亿美元无抵押境外银团贷款，规模约为 2024 年贷款的近三倍，利差收窄至 SOFR 加 68 个基点。知情人士称资金主要用于 AI 相关计划及海外项目。",
-   "sources": [
-    {
-     "url": "https://www.caixinglobal.com/2026-09-07/bytedance-gets-296-billion-loan-to-fuel-ai-ambitions-102482584.html",
-     "publisher": "Caixin Global",
-     "date": "2026-09-07",
-     "title": "ByteDance Gets $29.6 Billion Loan to Fuel AI Ambitions"
-    },
-    {
-     "url": "https://www.investing.com/news/stock-market-news/bytedance-secures-296-billion-loan-in-ai-push-sources-say-4889439",
-     "publisher": "Reuters (via Investing.com)",
-     "date": "2026-09-04",
-     "title": "ByteDance secures $29.6 billion loan in AI push, sources say"
-    },
-    {
-     "url": "https://www.investing.com/news/stock-market-news/bytedance-secures-296-billion-loan-as-ai-spending-accelerates-bloomberg-4886971",
-     "publisher": "Bloomberg (via Investing.com)",
-     "date": "2026-09-04",
-     "title": "ByteDance secures $29.6 billion loan as AI spending accelerates"
-    }
-   ],
-   "research_confidence": "reported",
    "extracted_at": "2026-10-27T09:00:00Z",
    "model": "coverage research team (web search, not yet opened)",
    "origin": "candidate"
@@ -12874,35 +12891,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-china-bank-lenders-bytedance-2024-09-loan",
-   "kind": "debt",
-   "subkind": "syndicated loan (unsecured, offshore)",
-   "from": "bank-lenders",
-   "to": "bytedance",
-   "amount_usd": 10800000000,
-   "amount_text": "$10.8B from about 20 international and Chinese banks; upsized after oversubscription",
-   "announced": "2024-09-27",
-   "term": "multi-year term loan / revolver",
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "ByteDance $10.8B offshore syndicated loan",
-   "title_zh": "字节跳动 108 亿美元境外银团贷款",
-   "summary_en": "ByteDance signed a $10.8B offshore loan with about 20 banks, at the time the largest corporate loan in Asia outside Japan for a private company. It partly refinanced a $5B package from 2021; Citigroup, Goldman Sachs and JPMorgan were among the leads.",
-   "summary_zh": "字节跳动与约 20 家国际及中资银行签署 108 亿美元境外贷款，是当时亚洲（日本以外）民营企业规模最大的公司贷款，部分用于再融资 2021 年的 50 亿美元贷款，花旗、高盛和摩根大通为牵头行之一。",
-   "sources": [
-    {
-     "url": "https://www.bloomberg.com/news/articles/2024-09-27/bytedance-to-sign-10-8-billion-corporate-loan-in-asian-record",
-     "publisher": "Bloomberg",
-     "date": "2024-09-27",
-     "title": "ByteDance to Sign $10.8 Billion Corporate Loan in Asian Record"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-bond-investors-broadcom-2024-09-notes",
    "kind": "debt",
    "subkind": "senior notes (public offering)",
@@ -15438,8 +15426,8 @@
  "stats": {
   "entities": 98,
   "edges": 264,
-  "curated_edges": 134,
-  "candidate_edges": 130,
+  "curated_edges": 136,
+  "candidate_edges": 128,
   "by_kind": {
    "order": {
     "count": 41,
@@ -15454,8 +15442,8 @@
     "cancelled": 2
    },
    "debt": {
-    "count": 51,
-    "usd": 623456000000,
+    "count": 53,
+    "usd": 663856000000,
     "undisclosed": 1,
     "cancelled": 0
    },
@@ -15488,8 +15476,8 @@
     "usd": 222147100000
    },
    "debt": {
-    "count": 28,
-    "usd": 173608000000
+    "count": 26,
+    "usd": 133208000000
    },
    "lease": {
     "count": 5,
@@ -15504,7 +15492,7 @@
     "usd": 0
    }
   },
-  "total_usd": 2594886000000,
+  "total_usd": 2635286000000,
   "latest_announced": "2026-10-02"
  },
  "notes": {
