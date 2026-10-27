@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T09:21:17Z",
+ "generated_at": "2026-10-27T09:59:05Z",
  "monitor": {
   "last_run": "2026-10-27T08:41:06Z",
   "sec_items": 119,
   "news_items": 645,
-  "candidates": 128,
+  "candidates": 103,
   "claude_enabled": false,
   "model": null,
   "sources": {
@@ -141,7 +141,7 @@
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
+     "debt": 14730000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -157,24 +157,24 @@
     "inflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
+     "debt": 4,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "outflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 3,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 8,
-    "degree_curated": 0,
-    "candidate_edges": 8,
-    "counterparties": 4,
-    "inflow_total_usd": 0,
+    "degree": 7,
+    "degree_curated": 7,
+    "candidate_edges": 0,
+    "counterparties": 3,
+    "inflow_total_usd": 14730000000,
     "outflow_total_usd": 0
    }
   },
@@ -430,7 +430,7 @@
    "group": "neocloud",
    "ticker": null,
    "country": "MY",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
@@ -449,7 +449,7 @@
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 0,
+     "order": 1,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -465,8 +465,8 @@
      "guarantee": 0
     },
     "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
     "counterparties": 1,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0
@@ -724,12 +724,12 @@
    "group": "hyperscaler",
    "ticker": "BIDU",
    "country": "CN",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
+     "debt": 3380000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -745,7 +745,7 @@
     "inflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
+     "debt": 2,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -759,10 +759,10 @@
      "guarantee": 0
     },
     "degree": 3,
-    "degree_curated": 0,
-    "candidate_edges": 3,
+    "degree_curated": 2,
+    "candidate_edges": 1,
     "counterparties": 1,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 3380000000,
     "outflow_total_usd": 0
    }
   },
@@ -1080,7 +1080,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 368530000000,
+     "debt": 398270000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1096,17 +1096,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 27,
+     "debt": 36,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 45,
-    "degree_curated": 27,
-    "candidate_edges": 18,
+    "degree_curated": 36,
+    "candidate_edges": 9,
     "counterparties": 21,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 368530000000
+    "outflow_total_usd": 398270000000
    }
   },
   {
@@ -1150,10 +1150,10 @@
      "vendor_financing": 1,
      "guarantee": 0
     },
-    "degree": 12,
+    "degree": 11,
     "degree_curated": 3,
-    "candidate_edges": 9,
-    "counterparties": 8,
+    "candidate_edges": 8,
+    "counterparties": 7,
     "inflow_total_usd": 21000000000,
     "outflow_total_usd": 42000000000
    }
@@ -1290,17 +1290,17 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 0,
+     "order": 2,
      "investment": 0,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 6,
-    "degree_curated": 2,
-    "candidate_edges": 4,
-    "counterparties": 5,
+    "degree": 4,
+    "degree_curated": 4,
+    "candidate_edges": 0,
+    "counterparties": 3,
     "inflow_total_usd": 40400000000,
     "outflow_total_usd": 0
    }
@@ -2188,55 +2188,6 @@
    }
   },
   {
-   "id": "huawei",
-   "name": "Huawei",
-   "name_zh": "华为",
-   "group": "chip",
-   "ticker": null,
-   "country": "CN",
-   "origin": "candidate",
-   "stats": {
-    "inflow_usd": {
-     "order": 0,
-     "investment": 0,
-     "debt": 0,
-     "lease": 0,
-     "vendor_financing": 0,
-     "guarantee": 0
-    },
-    "outflow_usd": {
-     "order": 0,
-     "investment": 0,
-     "debt": 0,
-     "lease": 0,
-     "vendor_financing": 0,
-     "guarantee": 0
-    },
-    "inflow_count": {
-     "order": 0,
-     "investment": 0,
-     "debt": 0,
-     "lease": 0,
-     "vendor_financing": 0,
-     "guarantee": 0
-    },
-    "outflow_count": {
-     "order": 0,
-     "investment": 0,
-     "debt": 0,
-     "lease": 0,
-     "vendor_financing": 0,
-     "guarantee": 0
-    },
-    "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
-    "counterparties": 1,
-    "inflow_total_usd": 0,
-    "outflow_total_usd": 0
-   }
-  },
-  {
    "id": "intel",
    "name": "Intel",
    "name_zh": "英特尔",
@@ -2859,15 +2810,15 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 1,
+     "investment": 2,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 8,
-    "degree_curated": 1,
-    "candidate_edges": 7,
+    "degree_curated": 2,
+    "candidate_edges": 6,
     "counterparties": 6,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0
@@ -2978,7 +2929,7 @@
    "group": "model_lab",
    "ticker": null,
    "country": "CN",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
@@ -2998,7 +2949,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 2,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -3013,8 +2964,8 @@
      "guarantee": 0
     },
     "degree": 2,
-    "degree_curated": 0,
-    "candidate_edges": 2,
+    "degree_curated": 2,
+    "candidate_edges": 0,
     "counterparties": 1,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0
@@ -3125,11 +3076,11 @@
    "group": "model_lab",
    "ticker": null,
    "country": "CN",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 6000000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -3145,7 +3096,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 5,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -3160,10 +3111,10 @@
      "guarantee": 0
     },
     "degree": 5,
-    "degree_curated": 0,
-    "candidate_edges": 5,
+    "degree_curated": 5,
+    "candidate_edges": 0,
     "counterparties": 3,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 6000000000,
     "outflow_total_usd": 0
    }
   },
@@ -3438,7 +3389,7 @@
      "guarantee": 105000000000
     },
     "inflow_count": {
-     "order": 2,
+     "order": 4,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -3453,10 +3404,10 @@
      "vendor_financing": 0,
      "guarantee": 1
     },
-    "degree": 23,
-    "degree_curated": 13,
-    "candidate_edges": 10,
-    "counterparties": 20,
+    "degree": 22,
+    "degree_curated": 15,
+    "candidate_edges": 7,
+    "counterparties": 19,
     "inflow_total_usd": 40000000000,
     "outflow_total_usd": 161800000000
    }
@@ -3520,7 +3471,7 @@
    "origin": "core",
    "stats": {
     "inflow_usd": {
-     "order": 320000000000,
+     "order": 327000000000,
      "investment": 0,
      "debt": 43000000000,
      "lease": 0,
@@ -3536,7 +3487,7 @@
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 2,
+     "order": 3,
      "investment": 0,
      "debt": 2,
      "lease": 0,
@@ -3545,17 +3496,17 @@
     },
     "outflow_count": {
      "order": 2,
-     "investment": 1,
+     "investment": 2,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 12,
-    "degree_curated": 7,
-    "candidate_edges": 5,
+    "degree_curated": 9,
+    "candidate_edges": 3,
     "counterparties": 10,
-    "inflow_total_usd": 363000000000,
+    "inflow_total_usd": 370000000000,
     "outflow_total_usd": 40000000000
    }
   },
@@ -3676,7 +3627,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 63000000000,
+     "investment": 69000000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -3692,18 +3643,18 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 3,
+     "investment": 6,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 15,
-    "degree_curated": 3,
-    "candidate_edges": 12,
+    "degree_curated": 6,
+    "candidate_edges": 9,
     "counterparties": 6,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 63000000000
+    "outflow_total_usd": 69000000000
    }
   },
   {
@@ -4404,13 +4355,13 @@
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
+     "debt": 11630000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 0,
+     "order": 7000000000,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -4420,25 +4371,25 @@
     "inflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
+     "debt": 3,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 0,
-     "investment": 0,
+     "order": 2,
+     "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 6,
-    "degree_curated": 0,
-    "candidate_edges": 6,
+    "degree_curated": 6,
+    "candidate_edges": 0,
     "counterparties": 4,
-    "inflow_total_usd": 0,
-    "outflow_total_usd": 0
+    "inflow_total_usd": 11630000000,
+    "outflow_total_usd": 7000000000
    }
   },
   {
@@ -4546,7 +4497,7 @@
    "group": "other",
    "ticker": null,
    "country": "US",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
@@ -4566,7 +4517,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 2,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -4581,8 +4532,8 @@
      "guarantee": 0
     },
     "degree": 2,
-    "degree_curated": 0,
-    "candidate_edges": 2,
+    "degree_curated": 2,
+    "candidate_edges": 0,
     "counterparties": 2,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0
@@ -4836,6 +4787,38 @@
  ],
  "edges": [
   {
+   "id": "bond-investors-tencent-2026-10-dual-currency-notes",
+   "kind": "debt",
+   "subkind": "senior notes (USD and offshore CNY)",
+   "from": "bond-investors",
+   "to": "tencent",
+   "amount_usd": 5700000000,
+   "amount_text": "~$5.7B: $1.3B 2036 + $0.5B 2046 USD notes and CNY 26B (CNY 20B 10-yr, 6B 30-yr) dim sum notes; >$23B orders",
+   "announced": "2026-10-12",
+   "term": "10 to 30 years",
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Tencent ~$5.7B bond sale amid AI spending",
+   "title_zh": "腾讯约 57 亿美元发债应对 AI 支出",
+   "summary_en": "Tencent raised about $5.7B in dollar and offshore yuan bonds, four months after its June deal, with orders above four times the size. Its first-half 2026 capex more than doubled to CNY 96.3B.",
+   "summary_zh": "腾讯在 6 月发债四个月后再发行约 57 亿美元的美元及离岸人民币债券，认购超过四倍。其 2026 年上半年资本开支翻倍至 963 亿元。",
+   "sources": [
+    {
+     "url": "https://money.usnews.com/investing/news/articles/2026-10-12/tencent-sells-dollar-dim-sum-bonds-amid-ai-spending-spree",
+     "publisher": "Reuters (via U.S. News)",
+     "date": "2026-10-12",
+     "title": "Tencent Sells Dollar, Dim Sum Bonds Amid AI Spending Spree"
+    },
+    {
+     "url": "https://www.businessday.co.za/world/international-companies/2026-10-13-tencent-raises-57bn-in-bonds-as-ai-investment-soars/",
+     "publisher": "BusinessDay (Reuters)",
+     "date": "2026-10-13",
+     "title": "Tencent raises $5.7bn in bonds as AI investment soars"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "blackstone-anthropic-2026-10-junior-chip-debt",
    "kind": "debt",
    "subkind": "junior tranche of chip financing (private credit)",
@@ -4895,6 +4878,38 @@
      "publisher": "Fortune",
      "date": "2026-10-26",
      "title": "Anthropic plans to spend up to $567 billion on compute"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "tencent-oracle-2026-10-gpu-rental",
+   "kind": "order",
+   "subkind": "offshore GPU compute rental (Southeast Asia)",
+   "from": "tencent",
+   "to": "oracle",
+   "amount_usd": 7000000000,
+   "amount_text": "~$7B over 5 years for ~100,000 AI chips, ~30% paid upfront, per FT (not confirmed by either company)",
+   "announced": "2026-10-01",
+   "term": "5 years",
+   "status": "reported",
+   "confidence": "reported",
+   "title_en": "Tencent leases 100,000 AI chips from Oracle for ~$7B",
+   "title_zh": "腾讯以约 70 亿美元向甲骨文租用 10 万颗 AI 芯片",
+   "summary_en": "The Financial Times reported that Tencent agreed a five-year, roughly $7B deal to rent about 100,000 advanced AI chips in Oracle data centres in Southeast Asia, with about 30% paid upfront. Neither company confirmed it.",
+   "summary_zh": "据英国《金融时报》报道，腾讯与甲骨文达成为期五年、价值约 70 亿美元的协议，在甲骨文东南亚数据中心租用约 10 万颗先进 AI 芯片，约 30% 预付。双方均未确认。",
+   "sources": [
+    {
+     "url": "https://www.trendforce.com/news/2026/10/01/news-tencent-reportedly-signs-7b-deal-to-lease-100000-ai-chips-from-oracle-in-southeast-asia/",
+     "publisher": "TrendForce (citing FT)",
+     "date": "2026-10-01",
+     "title": "Tencent Reportedly Signs $7B Deal to Lease 100,000 AI Chips From Oracle in Southeast Asia"
+    },
+    {
+     "url": "https://w.media/tencent-leases-100000-ai-chips-from-oracle-for-us-7-billion-report/",
+     "publisher": "W.Media (citing FT)",
+     "date": "2026-10-01",
+     "title": "Tencent leases 100,000 AI chips from Oracle for US$ 7 billion: Report"
     }
    ],
    "origin": "curated"
@@ -5292,6 +5307,38 @@
    "origin": "curated"
   },
   {
+   "id": "private-investors-moonshot-ai-2026-07-round",
+   "kind": "investment",
+   "subkind": "venture equity",
+   "from": "private-investors",
+   "to": "moonshot-ai",
+   "amount_usd": 3500000000,
+   "amount_text": "$3.5B at $35B post-money; National AI Industry Investment Fund among leads; Alibaba participated",
+   "announced": "2026-07-29",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Moonshot AI raises $3.5B at $35B valuation",
+   "title_zh": "月之暗面以 350 亿美元估值融资 35 亿美元",
+   "summary_en": "Moonshot AI reportedly raised $3.5B, well above its $1-2B target, at a $35B valuation after its Kimi K3 model; China's state-backed National AI Industry Investment Fund was among the leads and existing investors including Alibaba took part. Moonshot did not comment.",
+   "summary_zh": "据报道，月之暗面凭借 Kimi K3 模型融资 35 亿美元，远超 10-20 亿美元的目标，估值 350 亿美元；国家人工智能产业投资基金为领投方之一，阿里巴巴等老股东参与。月之暗面未置评。",
+   "sources": [
+    {
+     "url": "https://www.bloomberg.com/news/articles/2026-07-29/china-s-moonshot-ai-passes-funding-goal-to-hit-35-billion-value",
+     "publisher": "Bloomberg",
+     "date": "2026-07-29",
+     "title": "Moonshot AI Surpasses Funding Goal to Hit $35 Billion Value"
+    },
+    {
+     "url": "https://technode.com/2026/07/30/moonshot-ai-reportedly-closes-3-5-billion-round-at-35-billion-valuation/",
+     "publisher": "TechNode",
+     "date": "2026-07-30",
+     "title": "Moonshot AI reportedly closes $3.5 billion round at $35 billion valuation"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "bond-investors-sopaipilla-2026-07-el-paso-notes",
    "kind": "debt",
    "subkind": "private-credit SPV bonds",
@@ -5461,6 +5508,38 @@
      "publisher": "The Standard (Bloomberg)",
      "date": "2026-06-01",
      "title": "SpaceX's US$25b notes offering for debt repayment, AI faces greater skepticism"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bond-investors-tencent-2026-06-dual-currency-notes",
+   "kind": "debt",
+   "subkind": "senior notes (USD and offshore CNY)",
+   "from": "bond-investors",
+   "to": "tencent",
+   "amount_usd": 4660000000,
+   "amount_text": "$4.66B: $1.75B 10-yr + $0.7B 20-yr USD notes and CNY 15B (~$2.21B) 10/30-yr notes; >$17B orders",
+   "announced": "2026-06-09",
+   "term": "10 to 30 years",
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Tencent $4.66B dual-currency bond sale",
+   "title_zh": "腾讯 46.6 亿美元双币种债券",
+   "summary_en": "Tencent sold $2.45B of dollar notes and CNY 15B of offshore yuan notes, its first dollar bonds since 2021, for general corporate purposes including refinancing.",
+   "summary_zh": "腾讯发行 24.5 亿美元美元票据和 150 亿元离岸人民币票据，为 2021 年以来首笔美元债，用于包括再融资在内的一般公司用途。",
+   "sources": [
+    {
+     "url": "https://www.stockopedia.com/share-prices/tencent-holdings-PNK:TCEHY/news/china-apos-s-tencent-raises-4-66-billion-in-dual-currency-bond-deal-updated-019eaa37-4d44-77db-bfa2-02ac47000896/",
+     "publisher": "Stockopedia (Reuters)",
+     "date": "2026-06-09",
+     "title": "China's Tencent raises $4.66 billion in dual-currency bond deal"
+    },
+    {
+     "url": "https://filingreader.com/news-wire/hongkong/2026-06-09/tencent-prices-245bn-and-15bn-yuan-dual-currency-note-offering",
+     "publisher": "FilingReader (HKEX filing summary)",
+     "date": "2026-06-09",
+     "title": "Tencent prices $2.45bn and 15bn yuan dual-currency note offering"
     }
    ],
    "origin": "curated"
@@ -5649,6 +5728,38 @@
      "publisher": "The Block",
      "date": "2026-05-01",
      "title": "IREN closes $3 billion convertible notes offering"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "private-investors-moonshot-ai-2026-05-round",
+   "kind": "investment",
+   "subkind": "venture equity",
+   "from": "private-investors",
+   "to": "moonshot-ai",
+   "amount_usd": 2000000000,
+   "amount_text": "~$2B at $20B+ valuation; led by Meituan's Long-Z Investments",
+   "announced": "2026-05-07",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Moonshot AI raises $2B at $20B valuation",
+   "title_zh": "月之暗面以 200 亿美元估值融资 20 亿美元",
+   "summary_en": "Moonshot AI raised about $2B at a valuation above $20B in a round led by Meituan's Long-Z Investments, with China Mobile and CPE among the participants.",
+   "summary_zh": "月之暗面以超过 200 亿美元估值融资约 20 亿美元，由美团旗下龙珠投资领投，中国移动和源峰等参与。",
+   "sources": [
+    {
+     "url": "https://www.bloomberg.com/news/articles/2026-05-07/kimi-chatbot-maker-moonshot-ai-valued-at-20-billion-in-meituan-led-round",
+     "publisher": "Bloomberg",
+     "date": "2026-05-07",
+     "title": "Kimi Chatbot Maker Moonshot AI Valued at $20 Billion in Meituan-Led Round"
+    },
+    {
+     "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
+     "publisher": "TechCrunch",
+     "date": "2026-05-07",
+     "title": "China's Moonshot AI raises $2B at $20B valuation"
     }
    ],
    "origin": "curated"
@@ -6134,6 +6245,44 @@
    "origin": "curated"
   },
   {
+   "id": "bytedance-aolani-cloud-2026-03-blackwell-rental",
+   "kind": "order",
+   "subkind": "offshore GPU compute rental (Nvidia B200, Malaysia)",
+   "from": "bytedance",
+   "to": "aolani-cloud",
+   "amount_usd": null,
+   "amount_text": "Undisclosed rental value; ~500 Blackwell systems (~36,000 B200 chips) whose hardware would cost >$2.5B, per WSJ",
+   "announced": "2026-03-13",
+   "term": "multi-year (not disclosed)",
+   "status": "in_progress",
+   "confidence": "reported",
+   "title_en": "ByteDance rents Nvidia Blackwell cluster from Aolani Cloud in Malaysia",
+   "title_zh": "字节跳动向 Aolani Cloud 租用马来西亚英伟达 Blackwell 算力",
+   "summary_en": "ByteDance is working with Aolani Cloud to use about 36,000 Nvidia B200 chips in Malaysia, according to the Wall Street Journal, and has made initial payments; Aolani has leased H100 servers to ByteDance there since February 2025. Aolani says its customers do not own the chips; renting capacity outside China is allowed under current US export rules.",
+   "summary_zh": "据《华尔街日报》报道，字节跳动与 Aolani Cloud 合作，在马来西亚使用约 3.6 万颗英伟达 B200 芯片，并已支付首期款项；自 2025 年 2 月起 Aolani 已在当地向字节出租 H100 服务器。Aolani 称客户并不拥有芯片；按现行美国出口规则，租用中国境外的算力是被允许的。",
+   "sources": [
+    {
+     "url": "https://w.media/bytedance-deploys-36000-nvidea-b200-chips-worth-us-2-5-billion-in-malaysia/",
+     "publisher": "W.Media (citing WSJ)",
+     "date": "2026-03-17",
+     "title": "ByteDance deploys 36,000 Nvidia B200 chips worth US$2.5 billion in Malaysia"
+    },
+    {
+     "url": "https://the-decoder.com/bytedance-secures-access-to-nvidia-blackwell-cluster-in-malaysia-circumventing-us-export-ban-on-china/",
+     "publisher": "The Decoder (citing WSJ)",
+     "date": "2026-03-14",
+     "title": "ByteDance secures access to Nvidia Blackwell cluster in Malaysia"
+    },
+    {
+     "url": "https://forbes.pe/uncategorized/2026-03-13/bytedance-compro-chips-de-alta-gama-de-nvidia-informo-el-the-wall-street-journal/",
+     "publisher": "Forbes Peru (citing WSJ)",
+     "date": "2026-03-13",
+     "title": "ByteDance compró chips de alta gama de Nvidia, informó The Wall Street Journal"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "nvidia-nebius-2026-03-equity",
    "kind": "investment",
    "subkind": "equity investment (pre-funded warrants)",
@@ -6608,6 +6757,76 @@
    "origin": "curated"
   },
   {
+   "id": "bytedance-nvidia-2026-01-h200-purchases",
+   "kind": "order",
+   "subkind": "GPU purchase (Nvidia H200)",
+   "from": "bytedance",
+   "to": "nvidia",
+   "amount_usd": null,
+   "amount_text": "~$14B (about CNY 100B) planned 2026 Nvidia chip budget, per SCMP, not a signed contract total; ~10,000 H200 delivered by Aug 2026 per FT",
+   "announced": "2026-01-28",
+   "term": "2026 purchases",
+   "status": "in_progress",
+   "confidence": "reported",
+   "title_en": "ByteDance plans ~$14B of Nvidia H200 purchases in 2026",
+   "title_zh": "字节跳动计划 2026 年采购约 140 亿美元英伟达 H200",
+   "summary_en": "ByteDance planned to spend about $14B on Nvidia chips in 2026 once H200 sales to China were allowed; Beijing reportedly approved H200 purchases for ByteDance, Alibaba and Tencent in January 2026 under conditions. By August 2026 ByteDance had reportedly taken delivery of roughly 10,000 H200s, far below the licence ceiling.",
+   "summary_zh": "字节跳动计划在 H200 获准对华销售后于 2026 年斥资约 140 亿美元采购英伟达芯片；据报道，2026 年 1 月北京有条件批准字节、阿里和腾讯采购 H200。据报道，截至 2026 年 8 月字节约收到 1 万颗 H200，远低于许可上限。",
+   "sources": [
+    {
+     "url": "https://www.scmp.com/tech/big-tech/article/3338191/bytedance-pour-us14-billion-nvidia-chips-2026-computing-demand-surges",
+     "publisher": "South China Morning Post",
+     "date": "2025-12-31",
+     "title": "ByteDance to pour US$14 billion into Nvidia chips in 2026 as computing demand surges"
+    },
+    {
+     "url": "https://finance.yahoo.com/news/exclusive-china-gives-green-light-034839096.html",
+     "publisher": "Reuters (via Yahoo Finance)",
+     "date": "2026-01-28",
+     "title": "Exclusive-China gives nod to ByteDance, Alibaba and Tencent to buy Nvidia's H200 chips - sources"
+    },
+    {
+     "url": "https://www.tomshardware.com/pc-components/gpus/first-nvidia-h200-shipments-reach-bytedance-and-tencent-as-beijing-loosens-its-import-block",
+     "publisher": "Tom's Hardware (citing FT)",
+     "date": "2026-08-19",
+     "title": "First Nvidia H200 shipments reach China, ByteDance and Tencent take deliveries"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "tencent-nvidia-2026-01-h200-purchases",
+   "kind": "order",
+   "subkind": "GPU purchase (Nvidia H200)",
+   "from": "tencent",
+   "to": "nvidia",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; Beijing approval Jan 2026; ~10,000 H200 delivered by Aug 2026 per FT",
+   "announced": "2026-01-28",
+   "term": "2026 purchases",
+   "status": "in_progress",
+   "confidence": "reported",
+   "title_en": "Tencent buys Nvidia H200 chips after approvals",
+   "title_zh": "腾讯获批后采购英伟达 H200",
+   "summary_en": "Tencent was among the first Chinese firms Beijing reportedly allowed to buy Nvidia H200s in January 2026. By August 2026 it had reportedly taken delivery of about 10,000 units.",
+   "summary_zh": "据报道，腾讯是 2026 年 1 月首批获北京批准采购英伟达 H200 的中国企业之一。据报道，截至 2026 年 8 月已收到约 1 万颗。",
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/news/exclusive-china-gives-green-light-034839096.html",
+     "publisher": "Reuters (via Yahoo Finance)",
+     "date": "2026-01-28",
+     "title": "Exclusive-China gives nod to ByteDance, Alibaba and Tencent to buy Nvidia's H200 chips - sources"
+    },
+    {
+     "url": "https://www.tomshardware.com/pc-components/gpus/first-nvidia-h200-shipments-reach-bytedance-and-tencent-as-beijing-loosens-its-import-block",
+     "publisher": "Tom's Hardware (citing FT)",
+     "date": "2026-08-19",
+     "title": "First Nvidia H200 shipments reach China, ByteDance and Tencent take deliveries"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "nvidia-coreweave-2026-01-equity",
    "kind": "investment",
    "subkind": "equity investment (common stock)",
@@ -6635,6 +6854,70 @@
      "publisher": "Bloomberg",
      "date": "2026-01-26",
      "title": "Nvidia Invests $2 Billion More in CoreWeave, Offers New Chip"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "mgx-tiktok-usds-2026-01-equity",
+   "kind": "investment",
+   "subkind": "equity stake (15%, managing investor)",
+   "from": "mgx",
+   "to": "tiktok-usds",
+   "amount_usd": null,
+   "amount_text": "15% stake; price undisclosed; deal values TikTok US at ~$14B per Axios",
+   "announced": "2026-01-22",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "MGX takes 15% of TikTok US joint venture",
+   "title_zh": "MGX 持有 TikTok 美国合资公司 15% 股权",
+   "summary_en": "Abu Dhabi's MGX became one of three 15% managing investors, alongside Oracle and Silver Lake, in the TikTok US joint venture carved out of ByteDance, which keeps 19.9%.",
+   "summary_zh": "阿布扎比 MGX 与甲骨文、银湖一起，成为从字节跳动分拆出的 TikTok 美国合资公司的三家各持 15% 的管理投资方，字节保留 19.9%。",
+   "sources": [
+    {
+     "url": "https://axios.com/2026/01/23/tiktok-deal-trump-app-ban",
+     "publisher": "Axios",
+     "date": "2026-01-23",
+     "title": "TikTok divestiture deal closes"
+    },
+    {
+     "url": "https://www.datacenterdynamics.com/en/news/tiktok-us-spin-off-finalized-led-by-oracle-silver-lake-and-mgx/",
+     "publisher": "DatacenterDynamics",
+     "date": "2026-01-23",
+     "title": "TikTok US spin-off finalized, led by Oracle, Silver Lake and MGX"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "oracle-tiktok-usds-2026-01-equity",
+   "kind": "investment",
+   "subkind": "equity stake (15%, managing investor)",
+   "from": "oracle",
+   "to": "tiktok-usds",
+   "amount_usd": null,
+   "amount_text": "15% stake; price undisclosed; deal values TikTok US at ~$14B per Axios",
+   "announced": "2026-01-22",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Oracle takes 15% of TikTok US joint venture",
+   "title_zh": "甲骨文持有 TikTok 美国合资公司 15% 股权",
+   "summary_en": "ByteDance's TikTok US business moved into a joint venture closed on 22 January 2026 in which Oracle, Silver Lake and MGX each hold 15% as managing investors and ByteDance keeps 19.9%. Oracle also hosts TikTok US data.",
+   "summary_zh": "字节跳动将 TikTok 美国业务转入合资公司，交易于 2026 年 1 月 22 日完成，甲骨文、银湖和 MGX 作为管理投资方各持 15%，字节保留 19.9%。甲骨文同时承担 TikTok 美国数据的托管。",
+   "sources": [
+    {
+     "url": "https://axios.com/2026/01/23/tiktok-deal-trump-app-ban",
+     "publisher": "Axios",
+     "date": "2026-01-23",
+     "title": "TikTok divestiture deal closes"
+    },
+    {
+     "url": "https://www.datacenterdynamics.com/en/news/tiktok-us-spin-off-finalized-led-by-oracle-silver-lake-and-mgx/",
+     "publisher": "DatacenterDynamics",
+     "date": "2026-01-23",
+     "title": "TikTok US spin-off finalized, led by Oracle, Silver Lake and MGX"
     }
    ],
    "origin": "curated"
@@ -6736,6 +7019,38 @@
    "origin": "curated"
   },
   {
+   "id": "alibaba-minimax-2026-01-ipo-cornerstone",
+   "kind": "investment",
+   "subkind": "IPO cornerstone investment",
+   "from": "alibaba",
+   "to": "minimax",
+   "amount_usd": null,
+   "amount_text": "Alibaba's amount undisclosed; IPO raised ~HK$4.8B (~$620M) per Reuters (HK$5.54B with the greenshoe per TechNode)",
+   "announced": "2026-01-09",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Alibaba is cornerstone investor in MiniMax Hong Kong IPO",
+   "title_zh": "阿里巴巴作为基石投资者认购 MiniMax 港股 IPO",
+   "summary_en": "Alibaba was a cornerstone investor, with ADIA, Boyu Capital and Mirae Asset, in MiniMax's Hong Kong IPO, which priced at HK$165 and listed on 9 January 2026.",
+   "summary_zh": "阿里巴巴与阿布扎比投资局、博裕资本、未来资产等作为基石投资者认购 MiniMax 香港 IPO，发行价 165 港元，于 2026 年 1 月 9 日上市。",
+   "sources": [
+    {
+     "url": "https://technode.com/2026/01/09/minimax-lists-in-hong-kong-as-largest-ipo-among-ai-foundation-model-companies/",
+     "publisher": "TechNode",
+     "date": "2026-01-09",
+     "title": "MiniMax lists in Hong Kong as largest IPO among AI foundation model companies"
+    },
+    {
+     "url": "https://uk.marketscreener.com/news/minimax-china-s-second-ai-tiger-to-go-public-doubles-in-value-in-hong-kong-debut-ce7e59d2d988ff27",
+     "publisher": "Reuters (via MarketScreener)",
+     "date": "2026-01-09",
+     "title": "MiniMax, China's second AI tiger to go public, doubles in value in Hong Kong debut"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "apollo-valor-compute-2026-01-xai-gpu-financing",
    "kind": "debt",
    "subkind": "GPU lease financing (SPV)",
@@ -6821,6 +7136,38 @@
      "publisher": "Yahoo Finance (citing Bloomberg)",
      "date": "2025-10-08",
      "title": "Nvidia reportedly to invest up to $2bn in Elon Musk's xAI"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "private-investors-moonshot-ai-2025-12-series-c",
+   "kind": "investment",
+   "subkind": "venture equity (Series C)",
+   "from": "private-investors",
+   "to": "moonshot-ai",
+   "amount_usd": 500000000,
+   "amount_text": "$500M at $4.3B valuation; IDG Capital led with $150M; Alibaba and Tencent took part",
+   "announced": "2025-12-31",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Moonshot AI $500M Series C",
+   "title_zh": "月之暗面 5 亿美元 C 轮融资",
+   "summary_en": "Moonshot AI closed a $500M Series C led by IDG Capital, with existing backers Alibaba and Tencent participating, valuing it at $4.3B.",
+   "summary_zh": "月之暗面完成 5 亿美元 C 轮融资，由 IDG 资本领投，老股东阿里巴巴和腾讯跟投，估值 43 亿美元。",
+   "sources": [
+    {
+     "url": "https://technode.com/2025/12/31/idg-leads-500m-series-c-for-moonshot-ai-oversubscribed-by-alibaba-tencent/",
+     "publisher": "TechNode",
+     "date": "2025-12-31",
+     "title": "IDG leads $500M Series C for Moonshot AI, oversubscribed by Alibaba, Tencent"
+    },
+    {
+     "url": "https://finance.yahoo.com/news/chinas-moonshot-ai-raises-us-093000346.html",
+     "publisher": "Yahoo Finance (SCMP)",
+     "date": "2026-01-01",
+     "title": "China's Moonshot AI raises US$500 million in latest funding round: report"
     }
    ],
    "origin": "curated"
@@ -7972,6 +8319,70 @@
    "origin": "curated"
   },
   {
+   "id": "bond-investors-tencent-2025-09-dim-sum",
+   "kind": "debt",
+   "subkind": "offshore yuan (dim sum) bonds",
+   "from": "bond-investors",
+   "to": "tencent",
+   "amount_usd": 1270000000,
+   "amount_text": "CNY 9B (~$1.27B): CNY 2B 2.1% 5-year, CNY 6B 2.5% 10-year, CNY 1B 3.1% 30-year (tenors per Reuters)",
+   "announced": "2025-09-16",
+   "term": "5 to 30 years",
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Tencent CNY 9B debut dim sum bonds",
+   "title_zh": "腾讯首发 90 亿元离岸人民币债券",
+   "summary_en": "Tencent raised CNY 9B (about $1.27B) in its first offshore yuan bond and first bond sale in four years, for general corporate needs.",
+   "summary_zh": "腾讯发行 90 亿元人民币（约 12.7 亿美元）离岸人民币债券，为其首笔点心债，也是四年来首次发债，用于一般公司用途。",
+   "sources": [
+    {
+     "url": "https://www.bloomberg.com/news/articles/2025-09-16/tencent-markets-first-bond-sale-since-2021-with-dim-sum-notes",
+     "publisher": "Bloomberg",
+     "date": "2025-09-16",
+     "title": "Tencent Raises $1.27 Billion With Its First Dim Sum Bonds"
+    },
+    {
+     "url": "https://technode.com/2025/09/17/tencent-raises-1-27-billion-in-offshore-yuan-bonds-as-ai-spending-slows/",
+     "publisher": "TechNode",
+     "date": "2025-09-17",
+     "title": "Tencent raises $1.27 billion in offshore yuan bonds"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bond-investors-alibaba-2025-09-convertible",
+   "kind": "debt",
+   "subkind": "zero-coupon convertible senior notes",
+   "from": "bond-investors",
+   "to": "alibaba",
+   "amount_usd": 3200000000,
+   "amount_text": "~$3.2B zero-coupon convertible notes due 2032",
+   "announced": "2025-09-11",
+   "term": "due 2032",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Alibaba $3.2B convertible to fund cloud and AI",
+   "title_zh": "阿里巴巴 32 亿美元可转债投向云与 AI",
+   "summary_en": "Alibaba issued about $3.2B of zero-coupon convertible notes due 2032, with proceeds for general corporate purposes with a focus on strengthening cloud infrastructure and its international commerce business.",
+   "summary_zh": "阿里巴巴发行约 32 亿美元、2032 年到期的零息可转换票据，所得款项用于一般公司用途，重点加强云基础设施和国际电商业务。",
+   "sources": [
+    {
+     "url": "https://home.alibabagroup.com/document-1904804083030556672",
+     "publisher": "Alibaba Group",
+     "date": "2025-09-17",
+     "title": "Alibaba Group Announces Completion of Offering of Approximately US$3.2 Billion of Zero Coupon Convertible Senior Notes"
+    },
+    {
+     "url": "https://home.alibabagroup.com/document-1902699196201304064",
+     "publisher": "Alibaba Group",
+     "date": "2025-09-11",
+     "title": "Alibaba Group Announces Proposed Offering of Approximately US$3.2 Billion of Zero Coupon Convertible Senior Notes"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "bond-investors-nebius-2025-09-convertible",
    "kind": "debt",
    "subkind": "convertible senior notes",
@@ -8306,6 +8717,38 @@
    "origin": "curated"
   },
   {
+   "id": "bond-investors-alibaba-2025-07-exchangeable",
+   "kind": "debt",
+   "subkind": "zero-coupon exchangeable bonds (into Alibaba Health)",
+   "from": "bond-investors",
+   "to": "alibaba",
+   "amount_usd": 1530000000,
+   "amount_text": "HK$12.023B (~$1.53B) zero-coupon bonds due July 2032, exchangeable into Alibaba Health shares",
+   "announced": "2025-07-03",
+   "term": "due 2032",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Alibaba HK$12B exchangeable bonds for cloud and commerce",
+   "title_zh": "阿里巴巴 120 亿港元可交换债券用于云与国际电商",
+   "summary_en": "Alibaba sold HK$12.023B of zero-coupon bonds exchangeable into shares of Alibaba Health, with proceeds for general corporate purposes including investment in its cloud infrastructure and international commerce businesses.",
+   "summary_zh": "阿里巴巴发行 120.23 亿港元零息可交换债券（可换股为阿里健康股份），所得款项用于一般公司用途，包括投资云基础设施和国际电商业务。",
+   "sources": [
+    {
+     "url": "https://home.alibabagroup.com/document-1877798736688578560",
+     "publisher": "Alibaba Group",
+     "date": "2025-07-04",
+     "title": "Alibaba Announces Pricing of Offering of HK$12.023 Billion of Zero Coupon Exchangeable Bonds"
+    },
+    {
+     "url": "https://home.alibabagroup.com/document-1877553474665709568",
+     "publisher": "Alibaba Group",
+     "date": "2025-07-03",
+     "title": "Alibaba Group Announces Proposed Offering of Approximately HK$12 Billion of Zero Coupon Exchangeable Bonds"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "morgan-stanley-xai-2025-07-debt",
    "kind": "debt",
    "subkind": "secured notes and term loans",
@@ -8570,6 +9013,64 @@
    "origin": "curated"
   },
   {
+   "id": "bond-investors-baidu-2025-03-exchangeable",
+   "kind": "debt",
+   "subkind": "zero-coupon exchangeable bonds (into Trip.com)",
+   "from": "bond-investors",
+   "to": "baidu",
+   "amount_usd": 2000000000,
+   "amount_text": "$2B zero-coupon bonds due March 2032, exchangeable into Trip.com Hong Kong shares",
+   "announced": "2025-03-07",
+   "term": "due 2032",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Baidu $2B exchangeable bonds into Trip.com",
+   "title_zh": "百度 20 亿美元可交换债（可换携程股份）",
+   "summary_en": "Baidu sold $2B of zero-coupon bonds exchangeable into Trip.com shares, with proceeds to repay debt, pay interest and for general corporate purposes. The deal closed on 12 March 2025.",
+   "summary_zh": "百度发行 20 亿美元零息可交换债券（可交换为携程港股），所得款项用于偿债、付息及一般公司用途，2025 年 3 月 12 日交割。",
+   "sources": [
+    {
+     "url": "https://www.sdxcentral.com/press-releases/baidu-announces-pricing-of-us2-billion-offering-of-zero-coupon-exchangeable-bonds/",
+     "publisher": "PR Newswire (Baidu)",
+     "date": "2025-03-07",
+     "title": "Baidu Announces Pricing of US$2 Billion Offering of Zero Coupon Exchangeable Bonds"
+    },
+    {
+     "url": "https://www.sdxcentral.com/press-releases/baidu-announces-completion-of-us2-billion-offering-of-zero-coupon-exchangeable-bonds/",
+     "publisher": "PR Newswire (Baidu)",
+     "date": "2025-03-12",
+     "title": "Baidu Announces Completion of US$2 Billion Offering of Zero Coupon Exchangeable Bonds"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bond-investors-baidu-2025-03-dim-sum",
+   "kind": "debt",
+   "subkind": "offshore yuan (dim sum) notes",
+   "from": "bond-investors",
+   "to": "baidu",
+   "amount_usd": 1380000000,
+   "amount_text": "CNY 10B (~$1.38B): CNY 7.5B 2.70% 5-year + CNY 2.5B 3.00% 10-year",
+   "announced": "2025-03-05",
+   "term": "5 and 10 years",
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Baidu CNY 10B dim sum bonds",
+   "title_zh": "百度 100 亿元离岸人民币债券",
+   "summary_en": "Baidu raised CNY 10B in offshore yuan notes, its first bond sale since 2021, ahead of a $600M security due in April.",
+   "summary_zh": "百度发行 100 亿元离岸人民币债券，为 2021 年以来首次发债，并在 4 月一笔 6 亿美元债券到期前完成。",
+   "sources": [
+    {
+     "url": "https://www.bloomberg.com/news/articles/2025-03-05/baidu-markets-debut-dim-sum-bond-in-first-offering-since-2021",
+     "publisher": "Bloomberg",
+     "date": "2025-03-05",
+     "title": "Baidu Raises 10 Billion Yuan in First Bond Sale Since 2021"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "softbank-openai-2025-02-cristal",
    "kind": "order",
    "subkind": "enterprise AI purchase commitment (Cristal intelligence)",
@@ -8732,6 +9233,38 @@
    "origin": "curated"
   },
   {
+   "id": "bond-investors-alibaba-2024-11-dual-currency-notes",
+   "kind": "debt",
+   "subkind": "senior unsecured notes (USD and offshore CNY)",
+   "from": "bond-investors",
+   "to": "alibaba",
+   "amount_usd": 5000000000,
+   "amount_text": "$2.65B USD notes ($1B 2030, $1.15B 2035, $0.5B 2054) + CNY 17B (~$2.35B) offshore yuan notes, maturities 2028-2044",
+   "announced": "2024-11-19",
+   "term": "tranches out to 2054",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Alibaba $5B dual-currency bond sale",
+   "title_zh": "阿里巴巴约 50 亿美元双币种债券",
+   "summary_en": "Alibaba priced $2.65B of US dollar notes and CNY 17B of offshore yuan notes, about $5B in total, for general corporate purposes including repaying offshore debt and share buybacks. Both closed by 28 November 2024.",
+   "summary_zh": "阿里巴巴定价发行 26.5 亿美元美元票据及 170 亿元离岸人民币票据，合计约 50 亿美元，用于偿还离岸债务、股份回购等一般公司用途，两部分均于 2024 年 11 月 28 日前交割。",
+   "sources": [
+    {
+     "url": "https://www.businesswire.com/news/home/20241128162517/en/Alibaba-Group-Announces-Completion-of-US2.65-Billion-Offering-of-U.S.-Dollar-denominated-Senior-Unsecured-Notes-and-RMB17-Billion-Offering-of-RMB-denominated-Senior-Unsecured-Notes",
+     "publisher": "Business Wire (Alibaba Group)",
+     "date": "2024-11-28",
+     "title": "Alibaba Group Announces Completion of US$2.65 Billion Offering of U.S. Dollar-denominated Senior Unsecured Notes and RMB17 Billion Offering of RMB-denominated Senior Unsecured Notes"
+    },
+    {
+     "url": "https://www.businesswire.com/news/home/20241119897976/en",
+     "publisher": "Business Wire (Alibaba Group)",
+     "date": "2024-11-19",
+     "title": "Alibaba Group Prices US$2.65 Billion Offering of U.S. Dollar-Denominated Senior Unsecured Notes and RMB17 Billion Offering of RMB-Denominated Senior Unsecured Notes"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "jpmorgan-openai-2024-10-revolver",
    "kind": "debt",
    "subkind": "revolving credit facility",
@@ -8784,6 +9317,70 @@
    "origin": "curated"
   },
   {
+   "id": "tencent-moonshot-ai-2024-08-equity",
+   "kind": "investment",
+   "subkind": "venture equity",
+   "from": "tencent",
+   "to": "moonshot-ai",
+   "amount_usd": null,
+   "amount_text": "Joined a >$300M round at $3.3B valuation; Tencent's share undisclosed",
+   "announced": "2024-08-05",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Tencent invests in Moonshot AI",
+   "title_zh": "腾讯投资月之暗面",
+   "summary_en": "Tencent joined a funding round of more than $300M in Moonshot AI that valued the Kimi maker at $3.3B, alongside Gaorong Capital and existing backer Alibaba.",
+   "summary_zh": "腾讯参与月之暗面逾 3 亿美元融资，估值 33 亿美元，同轮投资方还有高榕资本和老股东阿里巴巴。",
+   "sources": [
+    {
+     "url": "https://bnnbloomberg.ca/business/technology/2024/08/05/tencent-joins-300-million-financing-for-chinas-ai-unicorn",
+     "publisher": "BNN Bloomberg",
+     "date": "2024-08-05",
+     "title": "Tencent joins $300 million financing for China's AI unicorn"
+    },
+    {
+     "url": "https://technode.com/2024/08/06/tencent-joins-moonshot-ai-300-million-funding-round-report-says/",
+     "publisher": "TechNode",
+     "date": "2024-08-06",
+     "title": "Tencent joins Moonshot AI $300 million funding round, report says"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bond-investors-alibaba-2024-05-convertible",
+   "kind": "debt",
+   "subkind": "convertible senior notes",
+   "from": "bond-investors",
+   "to": "alibaba",
+   "amount_usd": 5000000000,
+   "amount_text": "$5B of 0.50% convertible notes due 2031 ($4.5B base + $0.5B option exercised)",
+   "announced": "2024-05-23",
+   "term": "due 2031",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Alibaba $5B convertible notes",
+   "title_zh": "阿里巴巴 50 亿美元可转换票据",
+   "summary_en": "Alibaba sold $5B of 0.50% convertible senior notes due 2031 ($4.5B base plus a $0.5B option), with proceeds mainly for capped call transactions and share buybacks.",
+   "summary_zh": "阿里巴巴发行 50 亿美元、票息 0.50%、2031 年到期的可转换优先票据（基础 45 亿美元加 5 亿美元增发选择权），资金主要用于上限看涨期权交易和股份回购。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312524149515/d779816dex991.htm",
+     "publisher": "SEC (Alibaba Form 6-K)",
+     "date": "2024-05-30",
+     "title": "Alibaba Group Announces Completion of US$5 Billion Offering of Convertible Senior Notes"
+    },
+    {
+     "url": "https://businesswire.com/news/home/20240523807794/en/Alibaba-Group-Prices-US%244500-Million-Offering-of-Convertible-Senior-Notes",
+     "publisher": "Business Wire (Alibaba Group)",
+     "date": "2024-05-23",
+     "title": "Alibaba Group Prices US$4,500 Million Offering of Convertible Senior Notes"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "blackstone-coreweave-2024-05-ddtl2",
    "kind": "debt",
    "subkind": "GPU-backed delayed draw term loan (DDTL 2.0)",
@@ -8805,6 +9402,70 @@
      "publisher": "Blackstone / CoreWeave",
      "date": "2024-05-17",
      "title": "CoreWeave Secures $7.5 Billion Debt Financing Facility led by Blackstone and Magnetar"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "alibaba-minimax-2024-03-equity",
+   "kind": "investment",
+   "subkind": "venture equity (lead investor)",
+   "from": "alibaba",
+   "to": "minimax",
+   "amount_usd": null,
+   "amount_text": "Led a round of at least $600M at >$2.5B valuation; Alibaba's share undisclosed",
+   "announced": "2024-03-05",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Alibaba leads $600M round in MiniMax",
+   "title_zh": "阿里巴巴领投 MiniMax 6 亿美元融资",
+   "summary_en": "Alibaba led a funding round of at least $600M in Shanghai AI start-up MiniMax at a valuation above $2.5B; HongShan (formerly Sequoia China) also committed, and existing backers included Tencent and IDG Capital.",
+   "summary_zh": "阿里巴巴领投上海 AI 初创公司 MiniMax 至少 6 亿美元的融资，估值超过 25 亿美元，红杉中国（现名红杉中国／HongShan）也承诺跟投，老股东包括腾讯和 IDG 资本。",
+   "sources": [
+    {
+     "url": "https://fortune.com/asia/2024/03/05/alibaba-leads-financing-round-chinese-ai-startup-minimax",
+     "publisher": "Fortune (Bloomberg)",
+     "date": "2024-03-05",
+     "title": "Alibaba leads financing round in Chinese AI startup MiniMax"
+    },
+    {
+     "url": "https://siliconangle.com/2024/03/05/report-chinese-ai-startup-minimax-raises-600m-2-5b-valuation-led-alibaba/",
+     "publisher": "SiliconANGLE",
+     "date": "2024-03-05",
+     "title": "Report: Chinese AI startup MiniMax raises $600M at $2.5B valuation, led by Alibaba"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "alibaba-moonshot-ai-2024-02-equity",
+   "kind": "investment",
+   "subkind": "venture equity (lead investor)",
+   "from": "alibaba",
+   "to": "moonshot-ai",
+   "amount_usd": null,
+   "amount_text": "Led a ~$1B round at ~$2.5B valuation; Alibaba's own share undisclosed in the round reports (its annual report later showed ~$0.8B for ~36% over FY2024, per SCMP)",
+   "announced": "2024-02-27",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Alibaba leads $1B round in Moonshot AI",
+   "title_zh": "阿里巴巴领投月之暗面 10 亿美元融资",
+   "summary_en": "Alibaba led a roughly $1B funding round in Moonshot AI, maker of the Kimi chatbot, at about a $2.5B valuation, then the largest single round for a Chinese AI start-up.",
+   "summary_zh": "阿里巴巴领投 Kimi 开发商月之暗面约 10 亿美元融资，估值约 25 亿美元，为当时中国 AI 初创公司最大单笔融资。",
+   "sources": [
+    {
+     "url": "https://www.business-standard.com/world-news/alibaba-leads-largest-financing-deal-to-mint-2-5-billion-china-ai-firm-124022701330_1.html",
+     "publisher": "Business Standard (Bloomberg)",
+     "date": "2024-02-27",
+     "title": "Alibaba leads largest financing deal to mint $2.5 billion China AI firm"
+    },
+    {
+     "url": "https://www.scmp.com/tech/big-tech/article/3264017/alibaba-emerges-major-backer-high-flying-chinese-start-moonshot-ai-36-stake",
+     "publisher": "South China Morning Post",
+     "date": "2024-07-04",
+     "title": "Alibaba emerges as major backer of high-flying Chinese start-up Moonshot AI, with 36% stake"
     }
    ],
    "origin": "curated"
@@ -8941,41 +9602,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-china-bond-investors-tencent-2026-10-bonds",
-   "kind": "debt",
-   "subkind": "senior notes (USD and offshore CNY)",
-   "from": "bond-investors",
-   "to": "tencent",
-   "amount_usd": 5700000000,
-   "amount_text": "~$5.7B: $1.3B 2036 + $0.5B 2046 USD notes and CNY 26B (CNY 20B 10-yr, 6B 30-yr) dim sum notes",
-   "announced": "2026-10-12",
-   "term": "10 to 30 years",
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Tencent ~$5.7B bond sale amid AI spending",
-   "title_zh": "腾讯约 57 亿美元发债应对 AI 支出",
-   "summary_en": "Tencent raised about $5.7B in dollar and offshore yuan bonds, four months after its June deal, with order books more than four times the size. Its first-half 2026 capex more than doubled to CNY 96.3B.",
-   "summary_zh": "腾讯在 6 月发债四个月后再发行约 57 亿美元的美元及离岸人民币债券，认购超过四倍。其 2026 年上半年资本开支翻倍至 963 亿元。",
-   "sources": [
-    {
-     "url": "https://money.usnews.com/investing/news/articles/2026-10-12/tencent-sells-dollar-dim-sum-bonds-amid-ai-spending-spree",
-     "publisher": "Reuters (via U.S. News)",
-     "date": "2026-10-12",
-     "title": "Tencent Sells Dollar, Dim Sum Bonds Amid AI Spending Spree"
-    },
-    {
-     "url": "https://www.businessday.co.za/world/international-companies/2026-10-13-tencent-raises-57bn-in-bonds-as-ai-investment-soars/",
-     "publisher": "BusinessDay (Reuters)",
-     "date": "2026-10-13",
-     "title": "Tencent raises $5.7bn in bonds as AI investment soars"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-microsoft-samsung-2026-10-memory-lta",
    "kind": "order",
    "subkind": "long-term memory supply agreement",
@@ -9003,35 +9629,6 @@
      "publisher": "TrendForce",
      "date": "2026-03-20",
      "title": "Samsung Reportedly Eyes Long-Term Memory Deals with Google, Microsoft; $10B Prepayments Potentially Included"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-china-tencent-oracle-2026-10-gpu-lease",
-   "kind": "order",
-   "subkind": "offshore GPU compute rental (Southeast Asia)",
-   "from": "tencent",
-   "to": "oracle",
-   "amount_usd": 7000000000,
-   "amount_text": "~$7B over 5 years for ~100,000 AI chips, ~30% paid upfront, per FT",
-   "announced": "2026-10-01",
-   "term": "5 years",
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Tencent leases 100,000 AI chips from Oracle for ~$7B",
-   "title_zh": "腾讯以约 70 亿美元向甲骨文租用 10 万颗 AI 芯片",
-   "summary_en": "The Financial Times reported that Tencent agreed a five-year, roughly $7B deal to rent about 100,000 advanced AI chips in Oracle data centres in Southeast Asia, with about 30% paid upfront. Neither company confirmed it.",
-   "summary_zh": "据英国《金融时报》报道，腾讯与甲骨文达成为期五年、价值约 70 亿美元的协议，在甲骨文东南亚数据中心租用约 10 万颗先进 AI 芯片，约 30% 预付。双方均未确认。",
-   "sources": [
-    {
-     "url": "https://www.trendforce.com/news/2026/10/01/news-tencent-reportedly-signs-7b-deal-to-lease-100000-ai-chips-from-oracle-in-southeast-asia/",
-     "publisher": "TrendForce",
-     "date": "2026-10-01",
-     "title": "Tencent Reportedly Signs $7B Deal to Lease 100,000 AI Chips From Oracle in Southeast Asia"
     }
    ],
    "research_confidence": "reported",
@@ -9362,35 +9959,6 @@
     }
    ],
    "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-china-private-investors-moonshot-2026-07-round",
-   "kind": "investment",
-   "subkind": "venture equity",
-   "from": "private-investors",
-   "to": "moonshot-ai",
-   "amount_usd": 3500000000,
-   "amount_text": "$3.5B at $35B post-money; National AI Industry Investment Fund among leads; Alibaba participated",
-   "announced": "2026-07-29",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Moonshot AI raises $3.5B at $35B valuation",
-   "title_zh": "月之暗面以 350 亿美元估值融资 35 亿美元",
-   "summary_en": "Moonshot AI raised $3.5B, well above its $1-2B target, at a $35B valuation after its Kimi K3 model; China's state-backed National AI Industry Investment Fund was among the leads and existing investors including Alibaba took part.",
-   "summary_zh": "月之暗面凭借 Kimi K3 模型融资 35 亿美元，远超 10-20 亿美元的目标，估值 350 亿美元；国家人工智能产业投资基金为领投方之一，阿里巴巴等老股东参与。",
-   "sources": [
-    {
-     "url": "https://www.bloomberg.com/news/articles/2026-07-29/china-s-moonshot-ai-passes-funding-goal-to-hit-35-billion-value",
-     "publisher": "Bloomberg",
-     "date": "2026-07-29",
-     "title": "Moonshot AI Surpasses Funding Goal to Hit $35 Billion Value"
-    }
-   ],
-   "research_confidence": "reported",
    "extracted_at": "2026-10-27T09:00:00Z",
    "model": "coverage research team (web search, not yet opened)",
    "origin": "candidate"
@@ -9828,41 +10396,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-china-bond-investors-tencent-2026-06-bonds",
-   "kind": "debt",
-   "subkind": "senior notes (USD and offshore CNY)",
-   "from": "bond-investors",
-   "to": "tencent",
-   "amount_usd": 4660000000,
-   "amount_text": "$4.66B: $1.75B 10-yr + $0.7B 20-yr USD notes and CNY 15B (~$2.21B) 10/30-yr notes; >$17B orders",
-   "announced": "2026-06-09",
-   "term": "10 to 30 years",
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Tencent $4.66B dual-currency bond sale",
-   "title_zh": "腾讯 46.6 亿美元双币种债券",
-   "summary_en": "Tencent sold $2.45B of dollar notes and CNY 15B of offshore yuan notes, its first dollar bonds since 2021, for general purposes including refinancing as its AI capex climbs.",
-   "summary_zh": "腾讯发行 24.5 亿美元美元票据和 150 亿元离岸人民币票据，为 2021 年以来首笔美元债，用于包括再融资在内的一般用途，同期其 AI 资本开支大增。",
-   "sources": [
-    {
-     "url": "https://www.stockopedia.com/share-prices/tencent-holdings-PNK:TCEHY/news/china-apos-s-tencent-raises-4-66-billion-in-dual-currency-bond-deal-updated-019eaa37-4d44-77db-bfa2-02ac47000896/",
-     "publisher": "Stockopedia (Reuters)",
-     "date": "2026-06-09",
-     "title": "China's Tencent raises $4.66 billion in dual-currency bond deal"
-    },
-    {
-     "url": "https://filingreader.com/news-wire/hongkong/2026-06-09/tencent-prices-245bn-and-15bn-yuan-dual-currency-note-offering",
-     "publisher": "FilingReader (HKEX filing summary)",
-     "date": "2026-06-09",
-     "title": "Tencent prices $2.45bn and 15bn yuan dual-currency note offering"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-financiers-neoclouds-mgx-campus-ai-france-2026-06-second-site",
    "kind": "investment",
    "subkind": "data-centre joint venture expansion",
@@ -9995,41 +10528,6 @@
      "publisher": "Engadget",
      "date": "2026-05-08",
      "title": "Intel has reportedly signed a preliminary deal to produce chips for Apple"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-china-private-investors-moonshot-2026-05-round",
-   "kind": "investment",
-   "subkind": "venture equity",
-   "from": "private-investors",
-   "to": "moonshot-ai",
-   "amount_usd": 2000000000,
-   "amount_text": "~$2B at $20B valuation; led by Meituan's Long-Z Investments",
-   "announced": "2026-05-07",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Moonshot AI raises $2B at $20B valuation",
-   "title_zh": "月之暗面以 200 亿美元估值融资 20 亿美元",
-   "summary_en": "Moonshot AI raised about $2B at a $20B valuation in a round led by Meituan's Long-Z Investments, with Tsinghua Capital, China Mobile and CPE Yuanfeng participating.",
-   "summary_zh": "月之暗面以 200 亿美元估值融资约 20 亿美元，由美团旗下龙珠投资领投，清华资本、中国移动和源峰参与。",
-   "sources": [
-    {
-     "url": "https://techcrunch.com/2026/05/07/chinas-moonshot-ai-raises-2b-at-20b-valuation-as-demand-for-open-source-ai-skyrockets/",
-     "publisher": "TechCrunch",
-     "date": "2026-05-07",
-     "title": "China's Moonshot AI raises $2B at $20B valuation"
-    },
-    {
-     "url": "https://www.bloomberg.com/news/articles/2026-05-07/kimi-chatbot-maker-moonshot-ai-valued-at-20-billion-in-meituan-led-round",
-     "publisher": "Bloomberg",
-     "date": "2026-05-07",
-     "title": "Kimi Chatbot Maker Moonshot AI Valued at $20 Billion in Meituan-Led Round"
     }
    ],
    "research_confidence": "reported",
@@ -10307,41 +10805,6 @@
     }
    ],
    "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-china-bytedance-aolani-2026-03-blackwell",
-   "kind": "order",
-   "subkind": "offshore GPU compute rental (Nvidia B200, Malaysia)",
-   "from": "bytedance",
-   "to": "aolani-cloud",
-   "amount_usd": null,
-   "amount_text": "Undisclosed rental value; ~500 Blackwell systems (~36,000 B200 chips) whose hardware would cost >$2.5B, per WSJ",
-   "announced": "2026-03-13",
-   "term": "multi-year (not disclosed)",
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "ByteDance rents Nvidia Blackwell cluster from Aolani Cloud in Malaysia",
-   "title_zh": "字节跳动向 Aolani Cloud 租用马来西亚英伟达 Blackwell 算力",
-   "summary_en": "ByteDance is working with Aolani Cloud to use about 36,000 Nvidia B200 chips in Malaysia, according to the Wall Street Journal, and has made initial payments; Aolani has leased H100 servers to ByteDance there since February 2025. Renting capacity located outside China is allowed under current US export rules.",
-   "summary_zh": "据《华尔街日报》报道，字节跳动与 Aolani Cloud 合作，在马来西亚使用约 3.6 万颗英伟达 B200 芯片，并已支付首期款项；自 2025 年 2 月起 Aolani 已在当地向字节出租 H100 服务器。按现行美国出口规则，租用中国境外的算力是被允许的。",
-   "sources": [
-    {
-     "url": "https://forbes.pe/uncategorized/2026-03-13/bytedance-compro-chips-de-alta-gama-de-nvidia-informo-el-the-wall-street-journal/",
-     "publisher": "Forbes Peru (citing WSJ)",
-     "date": "2026-03-13",
-     "title": "ByteDance compró chips de alta gama de Nvidia, informó The Wall Street Journal"
-    },
-    {
-     "url": "https://w.media/bytedance-deploys-36000-nvidea-b200-chips-worth-us-2-5-billion-in-malaysia/",
-     "publisher": "W.Media",
-     "date": "2026-03-17",
-     "title": "ByteDance deploys 36,000 Nvidia B200 chips worth US$2.5 billion in Malaysia"
-    }
-   ],
-   "research_confidence": "reported",
    "extracted_at": "2026-10-27T09:00:00Z",
    "model": "coverage research team (web search, not yet opened)",
    "origin": "candidate"
@@ -10697,82 +11160,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-china-alibaba-nvidia-2026-h200",
-   "kind": "order",
-   "subkind": "GPU purchase (Nvidia H200)",
-   "from": "alibaba",
-   "to": "nvidia",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; Alibaba reportedly told Nvidia it wanted >200,000 H200; Beijing approval Jan 2026; no deliveries reported by Aug 2026",
-   "announced": "2026-01-28",
-   "term": "2026 purchases",
-   "status": "reported",
-   "confidence": "unverified",
-   "title_en": "Alibaba cleared to buy Nvidia H200 chips",
-   "title_zh": "阿里巴巴获准采购英伟达 H200",
-   "summary_en": "Alibaba was reported ready to order more than 200,000 H200 chips once allowed, and Beijing gave it, ByteDance and Tencent conditional approval in January 2026. Alibaba was not among the first companies reported to take delivery in August 2026.",
-   "summary_zh": "据报道，阿里巴巴准备在获准后订购超过 20 万颗 H200，2026 年 1 月北京有条件批准阿里、字节和腾讯采购。2026 年 8 月首批交付的报道中未见阿里巴巴。",
-   "sources": [
-    {
-     "url": "https://www.marketscreener.com/news/bytedance-alibaba-keen-to-order-nvidia-h200-chips-after-trump-green-light-sources-say-ce7d51d3d18df525",
-     "publisher": "Reuters (via MarketScreener)",
-     "date": "2025-12-10",
-     "title": "ByteDance, Alibaba keen to order Nvidia H200 chips after Trump green light, sources say"
-    },
-    {
-     "url": "https://finance.yahoo.com/news/exclusive-china-gives-green-light-034839096.html",
-     "publisher": "Reuters (via Yahoo Finance)",
-     "date": "2026-01-28",
-     "title": "Exclusive-China gives nod to ByteDance, Alibaba and Tencent to buy Nvidia's H200 chips - sources"
-    },
-    {
-     "url": "https://www.techtimes.com/articles/325078/20260820/nvidia-h200-chips-enter-china-13-quota-beijing-not-washington-controls-rest.htm",
-     "publisher": "Tech Times",
-     "date": "2026-08-20",
-     "title": "Nvidia H200 Chips Enter China at 13% of Quota"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-china-tencent-nvidia-2026-h200",
-   "kind": "order",
-   "subkind": "GPU purchase (Nvidia H200)",
-   "from": "tencent",
-   "to": "nvidia",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; Beijing approval Jan 2026; ~10,000 H200 delivered by Aug 2026 per FT",
-   "announced": "2026-01-28",
-   "term": "2026 purchases",
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "Tencent buys Nvidia H200 chips after approvals",
-   "title_zh": "腾讯获批后采购英伟达 H200",
-   "summary_en": "Tencent was among the first Chinese firms Beijing allowed to buy Nvidia H200s in January 2026, and the US later licensed it too. By August 2026 it had taken delivery of about 10,000 units.",
-   "summary_zh": "腾讯是 2026 年 1 月首批获北京批准采购英伟达 H200 的中国企业之一，随后也获美国许可。截至 2026 年 8 月已收到约 1 万颗。",
-   "sources": [
-    {
-     "url": "https://finance.yahoo.com/news/exclusive-china-gives-green-light-034839096.html",
-     "publisher": "Reuters (via Yahoo Finance)",
-     "date": "2026-01-28",
-     "title": "Exclusive-China gives nod to ByteDance, Alibaba and Tencent to buy Nvidia's H200 chips - sources"
-    },
-    {
-     "url": "https://www.tomshardware.com/pc-components/gpus/first-nvidia-h200-shipments-reach-bytedance-and-tencent-as-beijing-loosens-its-import-block",
-     "publisher": "Tom's Hardware (citing FT)",
-     "date": "2026-08-19",
-     "title": "First Nvidia H200 shipments reach China, ByteDance and Tencent take deliveries"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-financiers-neoclouds-tesla-xai-2026-01-series-e",
    "kind": "investment",
    "subkind": "preferred stock purchase",
@@ -10843,76 +11230,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-china-mgx-tiktok-usds-2026-01-equity",
-   "kind": "investment",
-   "subkind": "equity stake (15%, managing investor)",
-   "from": "mgx",
-   "to": "tiktok-usds",
-   "amount_usd": null,
-   "amount_text": "15% stake; price undisclosed; deal values TikTok US at ~$14B per Axios",
-   "announced": "2026-01-22",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "MGX takes 15% of TikTok US joint venture",
-   "title_zh": "MGX 持有 TikTok 美国合资公司 15% 股权",
-   "summary_en": "Abu Dhabi's MGX became one of three 15% managing investors, alongside Oracle and Silver Lake, in the TikTok US joint venture carved out of ByteDance, which keeps 19.9%.",
-   "summary_zh": "阿布扎比 MGX 与甲骨文、银湖一起，成为从字节跳动分拆出的 TikTok 美国合资公司的三家各持 15% 的管理投资方，字节保留 19.9%。",
-   "sources": [
-    {
-     "url": "https://axios.com/2026/01/23/tiktok-deal-trump-app-ban",
-     "publisher": "Axios",
-     "date": "2026-01-23",
-     "title": "TikTok divestiture deal closes"
-    },
-    {
-     "url": "https://www.datacenterdynamics.com/en/news/tiktok-us-spin-off-finalized-led-by-oracle-silver-lake-and-mgx/",
-     "publisher": "DatacenterDynamics",
-     "date": "2026-01-23",
-     "title": "TikTok US spin-off finalized, led by Oracle, Silver Lake and MGX"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-china-oracle-tiktok-usds-2026-01-equity",
-   "kind": "investment",
-   "subkind": "equity stake (15%, managing investor)",
-   "from": "oracle",
-   "to": "tiktok-usds",
-   "amount_usd": null,
-   "amount_text": "15% stake; price undisclosed; deal values TikTok US at ~$14B per Axios",
-   "announced": "2026-01-22",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Oracle takes 15% of TikTok US joint venture",
-   "title_zh": "甲骨文持有 TikTok 美国合资公司 15% 股权",
-   "summary_en": "ByteDance's TikTok US business moved into a joint venture in which Oracle, Silver Lake and MGX each hold 15% as managing investors and ByteDance keeps 19.9%. Oracle also hosts TikTok US data.",
-   "summary_zh": "字节跳动将 TikTok 美国业务转入合资公司，甲骨文、银湖和 MGX 作为管理投资方各持 15%，字节保留 19.9%。甲骨文同时承担 TikTok 美国数据的托管。",
-   "sources": [
-    {
-     "url": "https://axios.com/2026/01/23/tiktok-deal-trump-app-ban",
-     "publisher": "Axios",
-     "date": "2026-01-23",
-     "title": "TikTok divestiture deal closes"
-    },
-    {
-     "url": "https://www.datacenterdynamics.com/en/news/tiktok-us-spin-off-finalized-led-by-oracle-silver-lake-and-mgx/",
-     "publisher": "DatacenterDynamics",
-     "date": "2026-01-23",
-     "title": "TikTok US spin-off finalized, led by Oracle, Silver Lake and MGX"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-micron-psmc-2026-01-tongluo-fab",
    "kind": "order",
    "subkind": "fab site purchase",
@@ -10940,41 +11257,6 @@
      "publisher": "StorageNewsletter",
      "date": "2026-03-24",
      "title": "Micron Completes Acquisition of PSMC's Tongluo P5 Site in Taiwan"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-china-alibaba-minimax-2026-01-ipo-cornerstone",
-   "kind": "investment",
-   "subkind": "IPO cornerstone investment",
-   "from": "alibaba",
-   "to": "minimax",
-   "amount_usd": null,
-   "amount_text": "Alibaba's amount undisclosed; IPO raised ~HK$4.8B (~$620M) per Reuters",
-   "announced": "2026-01-09",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Alibaba is cornerstone investor in MiniMax Hong Kong IPO",
-   "title_zh": "阿里巴巴作为基石投资者认购 MiniMax 港股 IPO",
-   "summary_en": "Alibaba was a cornerstone investor, with ADIA, Boyu Capital and Mirae Asset, in MiniMax's Hong Kong IPO, which priced at HK$165 and listed on 9 January 2026.",
-   "summary_zh": "阿里巴巴与阿布扎比投资局、博裕资本、未来资产等作为基石投资者认购 MiniMax 香港 IPO，发行价 165 港元，于 2026 年 1 月 9 日上市。",
-   "sources": [
-    {
-     "url": "https://technode.com/2026/01/09/minimax-lists-in-hong-kong-as-largest-ipo-among-ai-foundation-model-companies/",
-     "publisher": "TechNode",
-     "date": "2026-01-09",
-     "title": "MiniMax lists in Hong Kong as largest IPO among AI foundation model companies"
-    },
-    {
-     "url": "https://uk.marketscreener.com/news/minimax-china-s-second-ai-tiger-to-go-public-doubles-in-value-in-hong-kong-debut-ce7e59d2d988ff27",
-     "publisher": "Reuters (via MarketScreener)",
-     "date": "2026-01-09",
-     "title": "MiniMax, China's second AI tiger to go public, doubles in value in Hong Kong debut"
     }
    ],
    "research_confidence": "reported",
@@ -11159,111 +11441,6 @@
     }
    ],
    "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-china-bytedance-nvidia-2026-h200",
-   "kind": "order",
-   "subkind": "GPU purchase (Nvidia H200)",
-   "from": "bytedance",
-   "to": "nvidia",
-   "amount_usd": null,
-   "amount_text": "~$14B (about CNY 100B) planned 2026 Nvidia chip budget, per SCMP; ~10,000 H200 delivered by Aug 2026 per FT",
-   "announced": "2025-12-31",
-   "term": "2026 purchases",
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "ByteDance plans ~$14B of Nvidia H200 purchases in 2026",
-   "title_zh": "字节跳动计划 2026 年采购约 140 亿美元英伟达 H200",
-   "summary_en": "ByteDance planned to spend about $14B on Nvidia chips in 2026 once H200 sales to China were allowed; Beijing approved H200 purchases for ByteDance, Alibaba and Tencent in January 2026 under conditions. By August 2026 ByteDance had taken delivery of roughly 10,000 H200s, far below the licence ceiling.",
-   "summary_zh": "字节跳动计划在 H200 获准对华销售后于 2026 年斥资约 140 亿美元采购英伟达芯片；2026 年 1 月北京有条件批准字节、阿里和腾讯采购 H200。截至 2026 年 8 月，字节约收到 1 万颗 H200，远低于许可上限。",
-   "sources": [
-    {
-     "url": "https://www.scmp.com/tech/big-tech/article/3338191/bytedance-pour-us14-billion-nvidia-chips-2026-computing-demand-surges",
-     "publisher": "South China Morning Post",
-     "date": "2025-12-31",
-     "title": "ByteDance to pour US$14 billion into Nvidia chips in 2026 as computing demand surges"
-    },
-    {
-     "url": "https://finance.yahoo.com/news/exclusive-china-gives-green-light-034839096.html",
-     "publisher": "Reuters (via Yahoo Finance)",
-     "date": "2026-01-28",
-     "title": "Exclusive-China gives nod to ByteDance, Alibaba and Tencent to buy Nvidia's H200 chips - sources"
-    },
-    {
-     "url": "https://www.tomshardware.com/pc-components/gpus/first-nvidia-h200-shipments-reach-bytedance-and-tencent-as-beijing-loosens-its-import-block",
-     "publisher": "Tom's Hardware (citing FT)",
-     "date": "2026-08-19",
-     "title": "First Nvidia H200 shipments reach China, ByteDance and Tencent take deliveries"
-    },
-    {
-     "url": "https://www.techtimes.com/articles/325078/20260820/nvidia-h200-chips-enter-china-13-quota-beijing-not-washington-controls-rest.htm",
-     "publisher": "Tech Times",
-     "date": "2026-08-20",
-     "title": "Nvidia H200 Chips Enter China at 13% of Quota; Beijing, Not Washington, Controls Rest"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-china-private-investors-moonshot-2025-12-series-c",
-   "kind": "investment",
-   "subkind": "venture equity (Series C)",
-   "from": "private-investors",
-   "to": "moonshot-ai",
-   "amount_usd": 500000000,
-   "amount_text": "$500M at $4.3B valuation; IDG Capital led with $150M; Alibaba and Tencent took part",
-   "announced": "2025-12-31",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Moonshot AI $500M Series C",
-   "title_zh": "月之暗面 5 亿美元 C 轮融资",
-   "summary_en": "Moonshot AI closed a $500M Series C led by IDG Capital, with existing backers Alibaba and Tencent participating, valuing it at $4.3B.",
-   "summary_zh": "月之暗面完成 5 亿美元 C 轮融资，由 IDG 资本领投，老股东阿里巴巴和腾讯跟投，估值 43 亿美元。",
-   "sources": [
-    {
-     "url": "https://technode.com/2025/12/31/idg-leads-500m-series-c-for-moonshot-ai-oversubscribed-by-alibaba-tencent/",
-     "publisher": "TechNode",
-     "date": "2025-12-31",
-     "title": "IDG leads $500M Series C for Moonshot AI, oversubscribed by Alibaba, Tencent"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-china-bytedance-huawei-2026-ascend",
-   "kind": "order",
-   "subkind": "AI chip purchase (Huawei Ascend)",
-   "from": "bytedance",
-   "to": "huawei",
-   "amount_usd": null,
-   "amount_text": "Planned >CNY 40B (~$5.6B) of Ascend purchases in 2026, per reports; no confirmed contract value",
-   "announced": "2025-12-29",
-   "term": "2026 purchases",
-   "status": "reported",
-   "confidence": "unverified",
-   "title_en": "ByteDance plans ~$5.6B of Huawei Ascend chip purchases",
-   "title_zh": "字节跳动计划采购约 400 亿元华为昇腾芯片",
-   "summary_en": "ByteDance reportedly planned to buy more than CNY 40B (about $5.6B) of Huawei Ascend AI chips in 2026, up from almost none the year before, to cover a compute shortfall after Nvidia H20 supply was halted. Neither company confirmed the plan.",
-   "summary_zh": "据报道，字节跳动计划在 2026 年采购超过 400 亿元人民币（约 56 亿美元）的华为昇腾 AI 芯片，而上一年几乎为零，以弥补英伟达 H20 断供后的算力缺口。双方均未确认。",
-   "sources": [
-    {
-     "url": "https://technode.com/2025/12/29/bytedance-reportedly-plans-to-purchase-5-6-billion-worth-of-huaweis-ascend-ai-chips/",
-     "publisher": "TechNode",
-     "date": "2025-12-29",
-     "title": "ByteDance reportedly plans to purchase $5.6 billion worth of Huawei's Ascend AI chips"
-    }
-   ],
-   "research_confidence": "reported",
    "extracted_at": "2026-10-27T09:00:00Z",
    "model": "coverage research team (web search, not yet opened)",
    "origin": "candidate"
@@ -11660,76 +11837,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-china-bond-investors-tencent-2025-09-dim-sum",
-   "kind": "debt",
-   "subkind": "offshore yuan (dim sum) bonds",
-   "from": "bond-investors",
-   "to": "tencent",
-   "amount_usd": 1270000000,
-   "amount_text": "CNY 9B (~$1.27B) in three tranches (5, 10 and 30 years)",
-   "announced": "2025-09-16",
-   "term": "5 to 30 years",
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Tencent CNY 9B debut dim sum bonds",
-   "title_zh": "腾讯首发 90 亿元离岸人民币债券",
-   "summary_en": "Tencent raised CNY 9B (about $1.27B) in its first offshore yuan bond and first bond sale since 2021, amid rising AI spending.",
-   "summary_zh": "腾讯发行 90 亿元人民币（约 12.7 亿美元）离岸人民币债券，为其首笔点心债，也是 2021 年以来首次发债，正值 AI 支出上升期。",
-   "sources": [
-    {
-     "url": "https://www.bloomberg.com/news/articles/2025-09-16/tencent-markets-first-bond-sale-since-2021-with-dim-sum-notes",
-     "publisher": "Bloomberg",
-     "date": "2025-09-16",
-     "title": "Tencent Raises $1.27 Billion With Its First Dim Sum Bonds"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-china-bond-investors-alibaba-2025-09-convertible",
-   "kind": "debt",
-   "subkind": "zero-coupon convertible senior notes",
-   "from": "bond-investors",
-   "to": "alibaba",
-   "amount_usd": 3200000000,
-   "amount_text": "~$3.2B zero-coupon convertible notes due 2032; ~80% of proceeds for cloud and data centres",
-   "announced": "2025-09-11",
-   "term": "due 2032",
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Alibaba $3.2B convertible to fund cloud and AI",
-   "title_zh": "阿里巴巴 32 亿美元可转债投向云与 AI",
-   "summary_en": "Alibaba issued about $3.2B of zero-coupon convertible notes due 2032 and said nearly 80% of the money would go to data centres, technology upgrades and cloud services as it expands AI infrastructure.",
-   "summary_zh": "阿里巴巴发行约 32 亿美元、2032 年到期的零息可转换票据，称近八成资金将用于数据中心、技术升级和云服务，以扩建 AI 基础设施。",
-   "sources": [
-    {
-     "url": "https://home.alibabagroup.com/document-1902699196201304064",
-     "publisher": "Alibaba Group",
-     "date": "2025-09-11",
-     "title": "Alibaba Group Announces Proposed Offering of Approximately US$3.2 Billion of Zero Coupon Convertible Senior Notes"
-    },
-    {
-     "url": "https://home.alibabagroup.com/document-1904804083030556672",
-     "publisher": "Alibaba Group",
-     "date": "2025-09-17",
-     "title": "Alibaba Group Announces Completion of Offering of Approximately US$3.2 Billion of Zero Coupon Convertible Senior Notes"
-    },
-    {
-     "url": "https://www.investing.com/news/stock-market-news/alibaba-to-raise-32-billion-via-convertible-bond-to-fund-cloud-growth-4234690",
-     "publisher": "Reuters (via Investing.com)",
-     "date": "2025-09-11",
-     "title": "Alibaba to raise $3.2 billion via convertible bond to fund cloud growth"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-financiers-neoclouds-asml-mistral-2025-09-series-c",
    "kind": "investment",
    "subkind": "venture round lead",
@@ -12058,41 +12165,6 @@
     }
    ],
    "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-china-bond-investors-alibaba-2025-07-exchangeable",
-   "kind": "debt",
-   "subkind": "zero-coupon exchangeable bonds (into Alibaba Health)",
-   "from": "bond-investors",
-   "to": "alibaba",
-   "amount_usd": 1530000000,
-   "amount_text": "HK$12.023B (~$1.53B) zero-coupon bonds due 2032, exchangeable into Alibaba Health shares",
-   "announced": "2025-07-03",
-   "term": "due 2032",
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Alibaba HK$12B exchangeable bonds for cloud and commerce",
-   "title_zh": "阿里巴巴 120 亿港元可交换债券用于云与国际电商",
-   "summary_en": "Alibaba sold HK$12.023B of zero-coupon bonds exchangeable into shares of Alibaba Health, with proceeds for general purposes including its cloud infrastructure and international commerce businesses.",
-   "summary_zh": "阿里巴巴发行 120.23 亿港元零息可交换债券（可换股为阿里健康股份），所得款项用于一般用途，包括云基础设施和国际电商业务。",
-   "sources": [
-    {
-     "url": "https://home.alibabagroup.com/document-1877798736688578560",
-     "publisher": "Alibaba Group",
-     "date": "2025-07-04",
-     "title": "Alibaba Announces Pricing of Offering of HK$12.023 Billion of Zero Coupon Exchangeable Bonds"
-    },
-    {
-     "url": "https://home.alibabagroup.com/document-1877553474665709568",
-     "publisher": "Alibaba Group",
-     "date": "2025-07-03",
-     "title": "Alibaba Group Announces Proposed Offering of Approximately HK$12 Billion of Zero Coupon Exchangeable Bonds"
-    }
-   ],
-   "research_confidence": "confirmed",
    "extracted_at": "2026-10-27T09:00:00Z",
    "model": "coverage research team (web search, not yet opened)",
    "origin": "candidate"
@@ -12477,70 +12549,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-china-bond-investors-baidu-2025-03-exchangeable",
-   "kind": "debt",
-   "subkind": "zero-coupon exchangeable bonds (into Trip.com)",
-   "from": "bond-investors",
-   "to": "baidu",
-   "amount_usd": 2000000000,
-   "amount_text": "$2B zero-coupon bonds due 2032, exchangeable into Trip.com Hong Kong shares",
-   "announced": "2025-03-07",
-   "term": "due 2032",
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Baidu $2B exchangeable bonds into Trip.com",
-   "title_zh": "百度 20 亿美元可交换债（可换携程股份）",
-   "summary_en": "Baidu sold $2B of zero-coupon bonds exchangeable into Trip.com shares, using proceeds to repay debt, pay interest and for general corporate purposes.",
-   "summary_zh": "百度发行 20 亿美元零息可交换债券（可交换为携程港股），所得款项用于偿债、付息及一般公司用途。",
-   "sources": [
-    {
-     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2025/0307/2025030701427.pdf",
-     "publisher": "HKEX (Baidu announcement)",
-     "date": "2025-03-07",
-     "title": "Baidu, Inc. HKEX announcement: pricing of US$2 billion zero coupon exchangeable bonds"
-    },
-    {
-     "url": "https://www.sdxcentral.com/press-releases/baidu-announces-pricing-of-us2-billion-offering-of-zero-coupon-exchangeable-bonds/",
-     "publisher": "PR Newswire (Baidu)",
-     "date": "2025-03-07",
-     "title": "Baidu Announces Pricing of US$2 Billion Offering of Zero Coupon Exchangeable Bonds"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-china-bond-investors-baidu-2025-03-dim-sum",
-   "kind": "debt",
-   "subkind": "offshore yuan (dim sum) notes",
-   "from": "bond-investors",
-   "to": "baidu",
-   "amount_usd": 1380000000,
-   "amount_text": "CNY 10B (~$1.38B): CNY 7.5B 2.70% due 2030 + CNY 2.5B 3.00% due 2035",
-   "announced": "2025-03-05",
-   "term": "5 and 10 years",
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Baidu CNY 10B dim sum bonds",
-   "title_zh": "百度 100 亿元离岸人民币债券",
-   "summary_en": "Baidu raised CNY 10B in its first bond sale since 2021, for general purposes including repaying debt, as it funds its AI push.",
-   "summary_zh": "百度发行 100 亿元离岸人民币债券，为 2021 年以来首次发债，用于偿债等一般用途，支持其 AI 投入。",
-   "sources": [
-    {
-     "url": "https://www.bloomberg.com/news/articles/2025-03-05/baidu-markets-debut-dim-sum-bond-in-first-offering-since-2021",
-     "publisher": "Bloomberg",
-     "date": "2025-03-05",
-     "title": "Baidu Raises 10 Billion Yuan in First Bond Sale Since 2021"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-malaysia-government-arm-2025-03-licences",
    "kind": "order",
    "subkind": "chip design licences and technology",
@@ -12786,41 +12794,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-china-bond-investors-alibaba-2024-11-bonds",
-   "kind": "debt",
-   "subkind": "senior unsecured notes (USD and offshore CNY)",
-   "from": "bond-investors",
-   "to": "alibaba",
-   "amount_usd": 5000000000,
-   "amount_text": "$2.65B USD notes (2030/2035/2054) + CNY 17B (~$2.35B) dim sum notes",
-   "announced": "2024-11-19",
-   "term": "tranches out to 2054",
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Alibaba $5B dual-currency bond sale",
-   "title_zh": "阿里巴巴约 50 亿美元双币种债券",
-   "summary_en": "Alibaba priced $2.65B of US dollar notes and CNY 17B of offshore yuan notes, about $5B in total and its first public dollar bonds since 2021, for general purposes including debt repayment and buybacks.",
-   "summary_zh": "阿里巴巴定价发行 26.5 亿美元美元票据及 170 亿元离岸人民币票据，合计约 50 亿美元，为 2021 年以来首次公开发行美元债，用于偿债、回购等一般用途。",
-   "sources": [
-    {
-     "url": "https://www.businesswire.com/news/home/20241119897976/en",
-     "publisher": "Business Wire (Alibaba Group)",
-     "date": "2024-11-19",
-     "title": "Alibaba Group Prices US$2.65 Billion Offering of U.S. Dollar-Denominated Senior Unsecured Notes and RMB17 Billion Offering of RMB-Denominated Senior Unsecured Notes"
-    },
-    {
-     "url": "https://www.business-standard.com/amp/world-news/china-s-alibaba-group-raises-5-billion-in-dual-currency-bond-deal-124112000324_1.html",
-     "publisher": "Business Standard (Reuters)",
-     "date": "2024-11-20",
-     "title": "China's Alibaba Group raises $5 billion in dual currency bond deal"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-us-government-tsmc-2024-11-chips-loans",
    "kind": "debt",
    "subkind": "CHIPS Act government loan facility",
@@ -12996,41 +12969,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-china-tencent-moonshot-2024-08-equity",
-   "kind": "investment",
-   "subkind": "venture equity",
-   "from": "tencent",
-   "to": "moonshot-ai",
-   "amount_usd": null,
-   "amount_text": "Joined a >$300M round at $3.3B valuation; Tencent's share undisclosed",
-   "announced": "2024-08-05",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Tencent invests in Moonshot AI",
-   "title_zh": "腾讯投资月之暗面",
-   "summary_en": "Tencent joined a funding round of more than $300M in Moonshot AI that valued the Kimi maker at $3.3B, alongside Gaorong Capital and existing backer Alibaba.",
-   "summary_zh": "腾讯参与月之暗面逾 3 亿美元融资，估值 33 亿美元，同轮投资方还有高榕资本和老股东阿里巴巴。",
-   "sources": [
-    {
-     "url": "https://bnnbloomberg.ca/business/technology/2024/08/05/tencent-joins-300-million-financing-for-chinas-ai-unicorn",
-     "publisher": "BNN Bloomberg",
-     "date": "2024-08-05",
-     "title": "Tencent joins $300 million financing for China's AI unicorn"
-    },
-    {
-     "url": "https://technode.com/2024/08/06/tencent-joins-moonshot-ai-300-million-funding-round-report-says/",
-     "publisher": "TechNode",
-     "date": "2024-08-06",
-     "title": "Tencent joins Moonshot AI $300 million funding round, report says"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-financiers-neoclouds-blue-owl-chirisa-technology-parks-2024-08-coreweave-jv",
    "kind": "investment",
    "subkind": "build-to-suit data-centre joint venture",
@@ -13093,41 +13031,6 @@
      "publisher": "Simpson Thacher",
      "date": "2024-07-16",
      "title": "Simpson Thacher Represents Underwriters in $5 Billion Senior Notes Offering by Broadcom"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-china-bytedance-broadcom-2024-06-asic",
-   "kind": "order",
-   "subkind": "custom AI chip (ASIC) development",
-   "from": "bytedance",
-   "to": "broadcom",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; 5 nm export-compliant ASIC to be made by TSMC",
-   "announced": "2024-06-24",
-   "term": "production not before 2025",
-   "status": "reported",
-   "confidence": "unverified",
-   "title_en": "ByteDance develops custom AI chip with Broadcom",
-   "title_zh": "字节跳动与博通合作研发定制 AI 芯片",
-   "summary_en": "Reuters reported that ByteDance was working with Broadcom on a 5-nanometre AI processor (ASIC) that complies with US export curbs, to be manufactured by TSMC. None of the companies confirmed it.",
-   "summary_zh": "路透社报道，字节跳动正与博通合作开发一款符合美国出口管制的 5 纳米 AI 专用芯片（ASIC），预计由台积电代工。相关公司均未确认。",
-   "sources": [
-    {
-     "url": "https://finance.yahoo.com/news/china-bytedance-working-broadcom-advanced-232741030.html?.tsrc=rss",
-     "publisher": "Reuters (via Yahoo Finance)",
-     "date": "2024-06-24",
-     "title": "China's ByteDance working with Broadcom to develop advanced AI chip, sources say"
-    },
-    {
-     "url": "https://mezha.media/en/2024/06/24/chinese-company-bytedance-cooperates-with-american-broadcom-to-develop-an-advanced-ai-chip",
-     "publisher": "Mezha",
-     "date": "2024-06-24",
-     "title": "Chinese company ByteDance cooperates with American Broadcom to develop an advanced AI chip"
     }
    ],
    "research_confidence": "reported",
@@ -13236,99 +13139,6 @@
     }
    ],
    "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-china-bond-investors-alibaba-2024-05-convertible",
-   "kind": "debt",
-   "subkind": "convertible senior notes",
-   "from": "bond-investors",
-   "to": "alibaba",
-   "amount_usd": 5000000000,
-   "amount_text": "$5B of 0.50% convertible notes due 2031 ($4.5B base + $0.5B option exercised)",
-   "announced": "2024-05-23",
-   "term": "due 2031",
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Alibaba $5B convertible notes",
-   "title_zh": "阿里巴巴 50 亿美元可转换票据",
-   "summary_en": "Alibaba sold $5B of 0.50% convertible senior notes due 2031 ($4.5B base plus a $0.5B option), mainly to fund capped call transactions and share buybacks.",
-   "summary_zh": "阿里巴巴发行 50 亿美元、票息 0.50%、2031 年到期的可转换优先票据（基础 45 亿美元加 5 亿美元增发选择权），资金主要用于上限看涨期权交易和股份回购。",
-   "sources": [
-    {
-     "url": "https://businesswire.com/news/home/20240523807794/en/Alibaba-Group-Prices-US%244500-Million-Offering-of-Convertible-Senior-Notes",
-     "publisher": "Business Wire (Alibaba Group)",
-     "date": "2024-05-23",
-     "title": "Alibaba Group Prices US$4,500 Million Offering of Convertible Senior Notes"
-    },
-    {
-     "url": "https://www.sec.gov/Archives/edgar/data/1577552/000119312524149515/d779816dex991.htm",
-     "publisher": "SEC (Alibaba Form 6-K)",
-     "date": "2024-05-30",
-     "title": "Alibaba Group Announces Completion of US$5 Billion Offering of Convertible Senior Notes"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-china-alibaba-minimax-2024-03-equity",
-   "kind": "investment",
-   "subkind": "venture equity (lead investor)",
-   "from": "alibaba",
-   "to": "minimax",
-   "amount_usd": null,
-   "amount_text": "Led a round of at least $600M at >$2.5B valuation; Alibaba's share undisclosed",
-   "announced": "2024-03-05",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Alibaba leads $600M round in MiniMax",
-   "title_zh": "阿里巴巴领投 MiniMax 6 亿美元融资",
-   "summary_en": "Alibaba led a funding round of at least $600M in Shanghai AI start-up MiniMax at a valuation above $2.5B; existing backers included Tencent, IDG Capital and Hillhouse.",
-   "summary_zh": "阿里巴巴领投上海 AI 初创公司 MiniMax 至少 6 亿美元的融资，估值超过 25 亿美元，老股东包括腾讯、IDG 资本和高瓴。",
-   "sources": [
-    {
-     "url": "https://fortune.com/asia/2024/03/05/alibaba-leads-financing-round-chinese-ai-startup-minimax",
-     "publisher": "Fortune (Bloomberg)",
-     "date": "2024-03-05",
-     "title": "Alibaba leads financing round in Chinese AI startup MiniMax"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-china-alibaba-moonshot-2024-02-equity",
-   "kind": "investment",
-   "subkind": "venture equity (lead investor)",
-   "from": "alibaba",
-   "to": "moonshot-ai",
-   "amount_usd": null,
-   "amount_text": "Led a $1B round at ~$2.5B valuation; Alibaba's own share undisclosed",
-   "announced": "2024-02-27",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Alibaba leads $1B round in Moonshot AI",
-   "title_zh": "阿里巴巴领投月之暗面 10 亿美元融资",
-   "summary_en": "Alibaba led a $1B funding round in Moonshot AI, maker of the Kimi chatbot, at about a $2.5B valuation, then the largest single round for a Chinese AI start-up.",
-   "summary_zh": "阿里巴巴领投 Kimi 开发商月之暗面 10 亿美元融资，估值约 25 亿美元，为当时中国 AI 初创公司最大单笔融资。",
-   "sources": [
-    {
-     "url": "https://www.business-standard.com/world-news/alibaba-leads-largest-financing-deal-to-mint-2-5-billion-china-ai-firm-124022701330_1.html",
-     "publisher": "Business Standard (Bloomberg)",
-     "date": "2024-02-27",
-     "title": "Alibaba leads largest financing deal to mint $2.5 billion China AI firm"
-    }
-   ],
-   "research_confidence": "reported",
    "extracted_at": "2026-10-27T09:00:00Z",
    "model": "coverage research team (web search, not yet opened)",
    "origin": "candidate"
@@ -15424,26 +15234,26 @@
   }
  ],
  "stats": {
-  "entities": 98,
-  "edges": 264,
-  "curated_edges": 136,
-  "candidate_edges": 128,
+  "entities": 97,
+  "edges": 261,
+  "curated_edges": 158,
+  "candidate_edges": 103,
   "by_kind": {
    "order": {
-    "count": 41,
-    "usd": 1210000000000,
-    "undisclosed": 18,
+    "count": 45,
+    "usd": 1217000000000,
+    "undisclosed": 21,
     "cancelled": 0
    },
    "investment": {
-    "count": 33,
-    "usd": 608000000000,
-    "undisclosed": 13,
+    "count": 42,
+    "usd": 614000000000,
+    "undisclosed": 19,
     "cancelled": 2
    },
    "debt": {
-    "count": 53,
-    "usd": 663856000000,
+    "count": 62,
+    "usd": 693596000000,
     "undisclosed": 1,
     "cancelled": 0
    },
@@ -15468,16 +15278,16 @@
   },
   "candidates_by_kind": {
    "order": {
-    "count": 39,
-    "usd": 297789000000
+    "count": 32,
+    "usd": 290789000000
    },
    "investment": {
-    "count": 58,
-    "usd": 222147100000
+    "count": 49,
+    "usd": 216147100000
    },
    "debt": {
-    "count": 26,
-    "usd": 133208000000
+    "count": 17,
+    "usd": 103468000000
    },
    "lease": {
     "count": 5,
@@ -15492,8 +15302,8 @@
     "usd": 0
    }
   },
-  "total_usd": 2635286000000,
-  "latest_announced": "2026-10-02"
+  "total_usd": 2678026000000,
+  "latest_announced": "2026-10-12"
  },
  "notes": {
   "en": "Dollar totals sum curated edges with a disclosed amount, excluding cancelled ones; unverified candidates are counted separately. Descriptive only, not investment advice.",
