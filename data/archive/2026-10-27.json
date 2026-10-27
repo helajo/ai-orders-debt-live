@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T10:11:59Z",
+ "generated_at": "2026-10-27T10:16:40Z",
  "monitor": {
   "last_run": "2026-10-27T08:41:06Z",
   "sec_items": 119,
   "news_items": 645,
-  "candidates": 28,
+  "candidates": 3,
   "claude_enabled": false,
   "model": null,
   "sources": {
@@ -261,7 +261,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 1,
+     "order": 2,
      "investment": 3,
      "debt": 0,
      "lease": 0,
@@ -269,8 +269,8 @@
      "guarantee": 2
     },
     "degree": 16,
-    "degree_curated": 15,
-    "candidate_edges": 1,
+    "degree_curated": 16,
+    "candidate_edges": 0,
     "counterparties": 10,
     "inflow_total_usd": 91430000000,
     "outflow_total_usd": 80680000000
@@ -359,7 +359,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 0,
+     "order": 2,
      "investment": 1,
      "debt": 0,
      "lease": 0,
@@ -367,8 +367,8 @@
      "guarantee": 0
     },
     "degree": 9,
-    "degree_curated": 7,
-    "candidate_edges": 2,
+    "degree_curated": 9,
+    "candidate_edges": 0,
     "counterparties": 6,
     "inflow_total_usd": 0,
     "outflow_total_usd": 5000000000
@@ -539,7 +539,7 @@
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 0,
+     "order": 20600000000,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -555,7 +555,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 2,
+     "order": 6,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -563,11 +563,11 @@
      "guarantee": 0
     },
     "degree": 7,
-    "degree_curated": 2,
-    "candidate_edges": 5,
+    "degree_curated": 6,
+    "candidate_edges": 1,
     "counterparties": 6,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 0
+    "outflow_total_usd": 20600000000
    }
   },
   {
@@ -596,7 +596,7 @@
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 0,
+     "order": 2,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -612,8 +612,8 @@
      "guarantee": 0
     },
     "degree": 4,
-    "degree_curated": 0,
-    "candidate_edges": 4,
+    "degree_curated": 2,
+    "candidate_edges": 2,
     "counterparties": 4,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0
@@ -1031,7 +1031,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 399988000000,
+     "debt": 420738000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1047,17 +1047,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 38,
+     "debt": 44,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 45,
-    "degree_curated": 38,
-    "candidate_edges": 7,
+    "degree_curated": 44,
+    "candidate_edges": 1,
     "counterparties": 21,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 399988000000
+    "outflow_total_usd": 420738000000
    }
   },
   {
@@ -1072,13 +1072,13 @@
     "inflow_usd": {
      "order": 21000000000,
      "investment": 0,
-     "debt": 0,
+     "debt": 17500000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 0,
+     "order": 200000000000,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -1086,15 +1086,15 @@
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 2,
+     "order": 5,
      "investment": 0,
-     "debt": 0,
+     "debt": 4,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 0,
+     "order": 1,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -1102,11 +1102,11 @@
      "guarantee": 0
     },
     "degree": 11,
-    "degree_curated": 3,
-    "candidate_edges": 8,
+    "degree_curated": 11,
+    "candidate_edges": 0,
     "counterparties": 7,
-    "inflow_total_usd": 21000000000,
-    "outflow_total_usd": 42000000000
+    "inflow_total_usd": 38500000000,
+    "outflow_total_usd": 242000000000
    }
   },
   {
@@ -2711,7 +2711,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 9,
+     "order": 11,
      "investment": 3,
      "debt": 0,
      "lease": 2,
@@ -2719,8 +2719,8 @@
      "guarantee": 1
     },
     "degree": 19,
-    "degree_curated": 17,
-    "candidate_edges": 2,
+    "degree_curated": 19,
+    "candidate_edges": 0,
     "counterparties": 13,
     "inflow_total_usd": 55000000000,
     "outflow_total_usd": 95200000000
@@ -2787,13 +2787,13 @@
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
+     "debt": 1750000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 0,
+     "order": 1800000000,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -2801,15 +2801,15 @@
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 0,
+     "order": 1,
      "investment": 0,
-     "debt": 0,
+     "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 0,
+     "order": 1,
      "investment": 1,
      "debt": 0,
      "lease": 0,
@@ -2817,11 +2817,11 @@
      "guarantee": 0
     },
     "degree": 4,
-    "degree_curated": 1,
-    "candidate_edges": 3,
+    "degree_curated": 4,
+    "candidate_edges": 0,
     "counterparties": 4,
-    "inflow_total_usd": 0,
-    "outflow_total_usd": 0
+    "inflow_total_usd": 1750000000,
+    "outflow_total_usd": 1800000000
    }
   },
   {
@@ -2865,10 +2865,10 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 11,
+    "degree": 10,
     "degree_curated": 10,
-    "candidate_edges": 1,
-    "counterparties": 9,
+    "candidate_edges": 0,
+    "counterparties": 8,
     "inflow_total_usd": 280000000000,
     "outflow_total_usd": 45100000000
    }
@@ -3332,7 +3332,7 @@
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 6300000000,
+     "order": 29500000000,
      "investment": 50000000000,
      "debt": 0,
      "lease": 1500000000,
@@ -3340,7 +3340,7 @@
      "guarantee": 105000000000
     },
     "inflow_count": {
-     "order": 4,
+     "order": 5,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -3348,7 +3348,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 3,
+     "order": 6,
      "investment": 9,
      "debt": 0,
      "lease": 1,
@@ -3356,11 +3356,11 @@
      "guarantee": 1
     },
     "degree": 22,
-    "degree_curated": 18,
-    "candidate_edges": 4,
+    "degree_curated": 22,
+    "candidate_edges": 0,
     "counterparties": 19,
     "inflow_total_usd": 40000000000,
-    "outflow_total_usd": 162800000000
+    "outflow_total_usd": 186000000000
    }
   },
   {
@@ -3397,7 +3397,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 11,
+     "order": 12,
      "investment": 5,
      "debt": 0,
      "lease": 0,
@@ -3405,8 +3405,8 @@
      "guarantee": 0
     },
     "degree": 29,
-    "degree_curated": 28,
-    "candidate_edges": 1,
+    "degree_curated": 29,
+    "candidate_edges": 0,
     "counterparties": 20,
     "inflow_total_usd": 177120000000,
     "outflow_total_usd": 737400000000
@@ -3615,10 +3615,10 @@
    "group": "chip",
    "ticker": "6770.TW",
    "country": "TW",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
-     "order": 0,
+     "order": 1800000000,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -3634,7 +3634,7 @@
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 0,
+     "order": 1,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -3650,10 +3650,10 @@
      "guarantee": 0
     },
     "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
     "counterparties": 1,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 1800000000,
     "outflow_total_usd": 0
    }
   },
@@ -3765,7 +3765,7 @@
    "origin": "core",
    "stats": {
     "inflow_usd": {
-     "order": 0,
+     "order": 216500000000,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -3781,7 +3781,7 @@
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 1,
+     "order": 6,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -3789,18 +3789,18 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 0,
+     "order": 1,
      "investment": 3,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 11,
-    "degree_curated": 4,
-    "candidate_edges": 7,
-    "counterparties": 10,
-    "inflow_total_usd": 0,
+    "degree": 10,
+    "degree_curated": 10,
+    "candidate_edges": 0,
+    "counterparties": 9,
+    "inflow_total_usd": 216500000000,
     "outflow_total_usd": 1000000000
    }
   },
@@ -3914,7 +3914,7 @@
     "inflow_usd": {
      "order": 0,
      "investment": 26507100000,
-     "debt": 0,
+     "debt": 1500000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -3930,7 +3930,7 @@
     "inflow_count": {
      "order": 2,
      "investment": 1,
-     "debt": 0,
+     "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -3944,10 +3944,10 @@
      "guarantee": 0
     },
     "degree": 6,
-    "degree_curated": 5,
-    "candidate_edges": 1,
+    "degree_curated": 6,
+    "candidate_edges": 0,
     "counterparties": 6,
-    "inflow_total_usd": 26507100000,
+    "inflow_total_usd": 28007100000,
     "outflow_total_usd": 1900000000
    }
   },
@@ -4410,7 +4410,7 @@
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 0,
+     "order": 16500000000,
      "investment": 2000000000,
      "debt": 0,
      "lease": 0,
@@ -4426,7 +4426,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 1,
+     "order": 2,
      "investment": 1,
      "debt": 0,
      "lease": 0,
@@ -4434,11 +4434,11 @@
      "guarantee": 0
     },
     "degree": 3,
-    "degree_curated": 2,
-    "candidate_edges": 1,
+    "degree_curated": 3,
+    "candidate_edges": 0,
     "counterparties": 3,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 2000000000
+    "outflow_total_usd": 18500000000
    }
   },
   {
@@ -4500,9 +4500,9 @@
    "origin": "core",
    "stats": {
     "inflow_usd": {
-     "order": 0,
+     "order": 43800000000,
      "investment": 0,
-     "debt": 0,
+     "debt": 5000000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -4516,9 +4516,9 @@
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 0,
+     "order": 4,
      "investment": 0,
-     "debt": 0,
+     "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -4532,10 +4532,10 @@
      "guarantee": 0
     },
     "degree": 5,
-    "degree_curated": 0,
-    "candidate_edges": 5,
+    "degree_curated": 5,
+    "candidate_edges": 0,
     "counterparties": 4,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 48800000000,
     "outflow_total_usd": 0
    }
   },
@@ -4559,7 +4559,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 8900000000,
-     "debt": 0,
+     "debt": 5000000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -4575,17 +4575,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 1,
-     "debt": 0,
+     "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 2,
-    "degree_curated": 1,
-    "candidate_edges": 1,
+    "degree_curated": 2,
+    "candidate_edges": 0,
     "counterparties": 2,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 8900000000
+    "outflow_total_usd": 13900000000
    }
   },
   {
@@ -5656,6 +5656,38 @@
    "origin": "curated"
   },
   {
+   "id": "broadcom-samsung-2026-07-memory-foundry-mou",
+   "kind": "order",
+   "subkind": "memory, foundry and packaging MOU",
+   "from": "broadcom",
+   "to": "samsung",
+   "amount_usd": 200000000000,
+   "amount_text": "Estimated >$200B of collaboration over five years through 2030 per Samsung; non-binding MOU, not placed orders",
+   "announced": "2026-07-25",
+   "term": "Through 2030",
+   "status": "announced",
+   "confidence": "confirmed",
+   "title_en": "Broadcom and Samsung sign $200B memory and foundry MOU",
+   "title_zh": "博通与三星签署 2000 亿美元存储与代工合作备忘录",
+   "summary_en": "Samsung and Broadcom signed an MOU under which Samsung would supply HBM4 and HBM4E and build Broadcom products on 2nm and smaller processes at Pyeongtaek, valued by Samsung at more than $200B over five years; it is a statement of intent rather than a binding contract.",
+   "summary_zh": "三星与博通签署谅解备忘录，三星将供应 HBM4/HBM4E，并在平泽以 2 纳米及更先进工艺代工博通产品，三星估计五年合作规模超过 2000 亿美元；该备忘录为意向而非具约束力的合同。",
+   "sources": [
+    {
+     "url": "https://news.samsung.com/global/samsung-electronics-and-broadcom-expand-strategic-collaboration-across-memory-and-foundry-technologies",
+     "publisher": "Samsung Newsroom",
+     "date": "2026-07-25",
+     "title": "Samsung Electronics and Broadcom Expand Strategic Collaboration Across Memory and Foundry Technologies"
+    },
+    {
+     "url": "https://www.manufacturingdive.com/news/samsung-broadcom-200b-memory-chip-deal-AI-semiconductors/826479/",
+     "publisher": "Manufacturing Dive",
+     "date": "2026-07-27",
+     "title": "Samsung, Broadcom reach $200B AI memory chip deal"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "nvidia-naver-2026-07-equity",
    "kind": "investment",
    "subkind": "equity investment",
@@ -5947,6 +5979,38 @@
      "publisher": "Reuters",
      "date": "2026-07-08",
      "title": "Amazon aims to raise $25 billion from bond sale, source says"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "apple-broadcom-2026-07-extension",
+   "kind": "order",
+   "subkind": "multi-year custom chip supply agreement",
+   "from": "apple",
+   "to": "broadcom",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; no financial terms published",
+   "announced": "2026-07-06",
+   "term": "Through 2031",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Apple extends Broadcom chip deal through 2031",
+   "title_zh": "苹果与博通芯片合作延长至 2031 年",
+   "summary_en": "Broadcom disclosed in a securities filing that it will keep developing and supplying custom chips to Apple through 2031; analysts put Apple at about 20% of Broadcom's revenue.",
+   "summary_zh": "博通在证券文件中披露，将继续为苹果开发和供应定制芯片至 2031 年；分析师称苹果约占博通营收两成。",
+   "sources": [
+    {
+     "url": "https://www.macrumors.com/2026/07/06/apple-and-broadcom-extend-deal/",
+     "publisher": "MacRumors",
+     "date": "2026-07-06",
+     "title": "Apple and Broadcom Extend Chip Supply Deal to 2031"
+    },
+    {
+     "url": "https://appleinsider.com/articles/26/07/06/apple-broadcom-renew-partnership-through-2031",
+     "publisher": "AppleInsider",
+     "date": "2026-07-06",
+     "title": "Apple secures custom chip supplies from Broadcom until 2031"
     }
    ],
    "origin": "curated"
@@ -6664,6 +6728,38 @@
    "origin": "curated"
   },
   {
+   "id": "meta-broadcom-2026-04-mtia",
+   "kind": "order",
+   "subkind": "custom AI accelerator partnership (MTIA)",
+   "from": "meta",
+   "to": "broadcom",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; initial commitment of more than 1 GW, the first phase of a multi-gigawatt rollout",
+   "announced": "2026-04-14",
+   "term": "Through 2029",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Meta commits to multi-gigawatt MTIA custom chips with Broadcom",
+   "title_zh": "Meta 与博通签署数吉瓦 MTIA 定制芯片合作",
+   "summary_en": "Broadcom and Meta extended their custom-silicon partnership through 2029 across several MTIA generations, with Meta committing to an initial deployment of more than 1 GW on 2nm; Hock Tan moves from Meta's board to an advisory role.",
+   "summary_zh": "博通与 Meta 将定制芯片合作延长至 2029 年，覆盖多代 MTIA，Meta 承诺首期部署逾 1 吉瓦的 2 纳米芯片；博通 CEO 陈福阳将由 Meta 董事会转任顾问。",
+   "sources": [
+    {
+     "url": "https://www.globenewswire.com/news-release/2026/04/14/3273998/19933/en/broadcom-announces-extended-partnership-with-meta-to-deploy-technology-to-support-multi-gigawatts-of-meta-s-custom-silicon-mtia.html",
+     "publisher": "Broadcom (GlobeNewswire)",
+     "date": "2026-04-14",
+     "title": "Broadcom Announces Extended Partnership with Meta to Deploy Technology to Support Multi-Gigawatts of Meta's Custom Silicon, MTIA"
+    },
+    {
+     "url": "https://www.cnbc.com/2026/04/14/meta-commits-to-one-gigawatt-of-custom-chips-with-broadcom-as-hock-tan-agrees-to-leave-board.html",
+     "publisher": "CNBC",
+     "date": "2026-04-14",
+     "title": "Meta commits to 1 gigawatt of custom chips with Broadcom"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "anthropic-coreweave-2026-04-cloud",
    "kind": "order",
    "subkind": "cloud compute contract",
@@ -6769,6 +6865,38 @@
      "publisher": "CoreWeave (Business Wire)",
      "date": "2026-04-09",
      "title": "CoreWeave and Meta Announce $21 Billion Expanded AI Infrastructure Agreement"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "alphabet-broadcom-2026-04-tpu-lta",
+   "kind": "order",
+   "subkind": "long-term custom TPU development and supply agreement",
+   "from": "alphabet",
+   "to": "broadcom",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; no pricing or minimum volumes disclosed",
+   "announced": "2026-04-06",
+   "term": "Through 2031",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Google locks in Broadcom for TPUs through 2031",
+   "title_zh": "谷歌与博通签署至 2031 年的 TPU 长期协议",
+   "summary_en": "Broadcom disclosed in an 8-K a long-term agreement to develop and supply future generations of Google's custom TPUs, plus a supply-assurance deal for networking and other parts of Google's AI racks through 2031, alongside expanded TPU capacity for Anthropic.",
+   "summary_zh": "博通在 8-K 中披露与谷歌签订长期协议，开发并供应未来多代定制 TPU，另签供应保障协议覆盖谷歌 AI 机架的网络及其他部件至 2031 年，同时扩大为 Anthropic 提供的 TPU 产能。",
+   "sources": [
+    {
+     "url": "https://fudzilla.com/broadcom-locks-in-google-tpu-work-through-2031/",
+     "publisher": "Fudzilla",
+     "date": "2026-04-07",
+     "title": "Broadcom locks in Google TPU work through 2031"
+    },
+    {
+     "url": "https://www.boardroomalpha.com/sec/avgo-8-k-2026-04-06-0001193125-26-144028",
+     "publisher": "Boardroom Alpha (Broadcom 8-K mirror)",
+     "date": "2026-04-06",
+     "title": "Broadcom 8-K, 6 Apr 2026"
     }
    ],
    "origin": "curated"
@@ -6946,6 +7074,102 @@
    "origin": "curated"
   },
   {
+   "id": "meta-arm-2026-03-agi-cpu",
+   "kind": "order",
+   "subkind": "data-centre CPU purchase (Arm AGI CPU)",
+   "from": "meta",
+   "to": "arm",
+   "amount_usd": null,
+   "amount_text": "Undisclosed",
+   "announced": "2026-03-24",
+   "term": null,
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Meta is first customer for Arm's own AGI CPU",
+   "title_zh": "Meta 成为 Arm 自研 AGI CPU 首个客户",
+   "summary_en": "Arm launched its first in-house chip, the AGI CPU made on TSMC 3nm, with Meta, which co-developed it, as the first customer, moving Arm beyond licensing into selling silicon.",
+   "summary_zh": "Arm 推出首款自研芯片——采用台积电 3 纳米的 AGI CPU，共同开发者 Meta 为首个客户，标志 Arm 从授权模式转向直接销售芯片。",
+   "sources": [
+    {
+     "url": "https://www.cnbc.com/2026/03/24/arm-launches-its-own-cpu-with-meta-as-first-customer.html",
+     "publisher": "CNBC",
+     "date": "2026-03-24",
+     "title": "Arm launches its own CPU, with Meta as first customer"
+    },
+    {
+     "url": "https://gizmodo.com/arm-lends-a-hand-launches-in-house-ai-chip-with-meta-as-its-first-customer-2000737555",
+     "publisher": "Gizmodo",
+     "date": "2026-03-24",
+     "title": "Arm Launches In-House AI Chip With Meta as Its First Customer"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "openai-arm-2026-03-agi-cpu",
+   "kind": "order",
+   "subkind": "data-centre CPU customer (Arm AGI CPU)",
+   "from": "openai",
+   "to": "arm",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; named as an early customer, no volumes or terms disclosed",
+   "announced": "2026-03-24",
+   "term": null,
+   "status": "announced",
+   "confidence": "reported",
+   "title_en": "OpenAI named as early customer for Arm's AGI CPU",
+   "title_zh": "OpenAI 被列为 Arm AGI CPU 的早期客户",
+   "summary_en": "OpenAI was named among the early customers for Arm's first in-house data-centre chip, the AGI CPU, alongside Cloudflare and SAP; no order size was given.",
+   "summary_zh": "OpenAI 与 Cloudflare、SAP 一同被列为 Arm 首款自研数据中心芯片 AGI CPU 的早期客户；未披露订单规模。",
+   "sources": [
+    {
+     "url": "https://www.cnbc.com/2026/03/24/arm-launches-its-own-cpu-with-meta-as-first-customer.html",
+     "publisher": "CNBC",
+     "date": "2026-03-24",
+     "title": "Arm launches its own CPU, with Meta as first customer"
+    },
+    {
+     "url": "https://www.technology.org/2026/03/25/arm-ai-chip-first-time-meta/",
+     "publisher": "Technology.org",
+     "date": "2026-03-25",
+     "title": "Arm Unveils First In-House Chip, the AGI CPU"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "amd-samsung-2026-03-hbm4-mou",
+   "kind": "order",
+   "subkind": "memory supply MOU (HBM4, DDR5)",
+   "from": "amd",
+   "to": "samsung",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; no volumes, prices or term disclosed",
+   "announced": "2026-03-18",
+   "term": null,
+   "status": "announced",
+   "confidence": "confirmed",
+   "title_en": "AMD and Samsung MOU for primary HBM4 supply",
+   "title_zh": "AMD 与三星签署 HBM4 主力供应谅解备忘录",
+   "summary_en": "Samsung and AMD signed an MOU to align on primary HBM4 supply for the Instinct MI455X GPU and DRAM for EPYC Venice, and to discuss Samsung foundry work; Lisa Su revisited Samsung in October 2026 as talks on a firmer long-term deal continued.",
+   "summary_zh": "三星与 AMD 签署谅解备忘录，三星将作为 Instinct MI455X GPU 的 HBM4 主力供应商并为 EPYC Venice 提供 DRAM，双方还将探讨代工合作；2026 年 10 月苏姿丰再访三星，长期协议仍在商谈。",
+   "sources": [
+    {
+     "url": "https://news.samsung.com/global/samsung-and-amd-expand-strategic-collaboration-on-next-generation-ai-memory-solutions",
+     "publisher": "Samsung Newsroom",
+     "date": "2026-03-18",
+     "title": "Samsung, AMD Expand Strategic Collaboration on Next-Generation AI Memory Solutions"
+    },
+    {
+     "url": "https://en.sedaily.com/finance/2026/10/07/amds-lisa-su-visits-samsung-pledges-broader-partnership",
+     "publisher": "Seoul Economic Daily",
+     "date": "2026-10-07",
+     "title": "AMD's Lisa Su Visits Samsung, Signals Broader Partnership"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "bond-investors-nebius-2026-03-convertible",
    "kind": "debt",
    "subkind": "convertible senior notes",
@@ -7101,6 +7325,70 @@
      "publisher": "Treasury & Risk (Bloomberg)",
      "date": "2026-03-11",
      "title": "Amazon issuing nearly $50 billion in bonds"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "apple-tsmc-2025-foundry-purchases",
+   "kind": "order",
+   "subkind": "foundry wafer purchases (2025 total)",
+   "from": "apple",
+   "to": "tsmc",
+   "amount_usd": 20600000000,
+   "amount_text": "NT$645.1B of 2025 revenue from 'client B', widely reported to be Apple (17% of TSMC revenue, down from 22%); ~US$20.6B at the exchange rate used for client A",
+   "announced": "2026-03-06",
+   "term": "Calendar 2025",
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Apple paid TSMC about $20.6B in 2025",
+   "title_zh": "苹果 2025 年向台积电支付约 206 亿美元",
+   "summary_en": "TSMC's second-largest customer in 2025, reported to be Apple, contributed NT$645.1B, up 3.3% but slipping to 17% of revenue as Nvidia's AI orders overtook it. TSMC does not name customers.",
+   "summary_zh": "台积电 2025 年第二大客户（据报道为苹果）贡献 6451 亿新台币，增长 3.3%，但占比降至 17%，被英伟达的 AI 订单超越；台积电并未点名客户。",
+   "sources": [
+    {
+     "url": "https://www.taiwannews.com.tw/news/6310676",
+     "publisher": "Taiwan News",
+     "date": "2026-03-06",
+     "title": "Nvidia overtakes Apple as TSMC's largest customer"
+    },
+    {
+     "url": "https://www.notebookcheck.net/Nvidia-reportedly-overtook-Apple-to-become-TSMC-s-biggest-customer-in-2025-due-to-exceptional-Data-Center-revenue-growth.1208840.0.html",
+     "publisher": "Notebookcheck",
+     "date": "2026-03-06",
+     "title": "Nvidia reportedly overtook Apple to become TSMC's biggest customer in 2025"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "nvidia-tsmc-2025-foundry-purchases",
+   "kind": "order",
+   "subkind": "foundry wafer and packaging purchases (2025 total)",
+   "from": "nvidia",
+   "to": "tsmc",
+   "amount_usd": 23200000000,
+   "amount_text": "NT$726.9B (~US$23.2B) of 2025 revenue from TSMC's 'client A', widely reported to be Nvidia (TSMC does not name customers); 19% of TSMC revenue (12% in 2024)",
+   "announced": "2026-03-06",
+   "term": "Calendar 2025",
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Nvidia becomes TSMC's largest customer ($23B in 2025)",
+   "title_zh": "英伟达成为台积电最大客户（2025 年约 232 亿美元）",
+   "summary_en": "TSMC's 2025 figures show its largest customer, reported to be Nvidia, paid NT$726.9B (about $23.2B), more than double 2024, overtaking Apple. The identification comes from press reports and Jensen Huang's remarks, not from TSMC.",
+   "summary_zh": "台积电 2025 年数据显示，第一大客户（据报道为英伟达）贡献营收 7269 亿新台币（约 232 亿美元），较 2024 年翻倍以上，超越苹果；客户身份来自媒体报道和黄仁勋的表述，台积电并未点名。",
+   "sources": [
+    {
+     "url": "https://www.taiwannews.com.tw/news/6310676",
+     "publisher": "Taiwan News",
+     "date": "2026-03-06",
+     "title": "Nvidia overtakes Apple as TSMC's largest customer"
+    },
+    {
+     "url": "https://view.asiae.co.kr/en/article/2026030610061501773",
+     "publisher": "The Asia Business Daily",
+     "date": "2026-03-06",
+     "title": "Nvidia Surpasses Apple to Become TSMC's Largest Customer Amid AI Boom"
     }
    ],
    "origin": "curated"
@@ -7293,6 +7581,38 @@
      "publisher": "Yahoo Finance",
      "date": "2026-03-31",
      "title": "OpenAI closes $122bn funding round at $852bn valuation"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "apple-tsmc-2026-02-arizona-chips",
+   "kind": "order",
+   "subkind": "chip purchases from TSMC Arizona",
+   "from": "apple",
+   "to": "tsmc",
+   "amount_usd": null,
+   "amount_text": "Undisclosed value; more than 100 million advanced chips from TSMC Arizona in 2026",
+   "announced": "2026-02-24",
+   "term": "2026",
+   "status": "in_progress",
+   "confidence": "reported",
+   "title_en": "Apple to buy 100M+ chips from TSMC Arizona in 2026",
+   "title_zh": "苹果 2026 年将从台积电亚利桑那厂采购逾 1 亿颗芯片",
+   "summary_en": "Apple said it is on track to buy more than 100 million advanced chips from TSMC's Arizona fab in 2026, up from 2025, under its $600B US investment pledge; procurement chief David Tom said Apple is taking as much of the fab's output as it can.",
+   "summary_zh": "苹果表示，作为其 6000 亿美元在美投资承诺的一部分，2026 年将从台积电亚利桑那厂采购逾 1 亿颗先进芯片，较 2025 年增加；其采购主管 David Tom 称苹果会尽可能买下该厂产能。",
+   "sources": [
+    {
+     "url": "https://www.mactech.com/2026/02/27/apple-will-buy-more-than-100-million-chips-from-tsmc-arizona-this-year/amp/",
+     "publisher": "MacTech",
+     "date": "2026-02-27",
+     "title": "Apple will buy more than 100 million chips from TSMC Arizona this year"
+    },
+    {
+     "url": "https://finviz.com/news/325711/apple-to-purchase-100m-chips-from-taiwan-semiconductor-manufacturing-tsm-arizona-facility",
+     "publisher": "Finviz (Insider Monkey)",
+     "date": "2026-02-25",
+     "title": "Apple to Purchase 100M Chips from TSMC Arizona Facility"
     }
    ],
    "origin": "curated"
@@ -7638,6 +7958,38 @@
    "origin": "curated"
   },
   {
+   "id": "nvidia-micron-2026-02-hbm4",
+   "kind": "order",
+   "subkind": "HBM4 supply (Vera Rubin)",
+   "from": "nvidia",
+   "to": "micron",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; Micron's HBM4 sales passed $1B within about four months of first shipments (exact Feb 2026 shipment day not given)",
+   "announced": "2026-02-01",
+   "term": null,
+   "status": "in_progress",
+   "confidence": "reported",
+   "title_en": "Micron supplies HBM4 for Nvidia's Vera Rubin",
+   "title_zh": "美光为英伟达 Vera Rubin 供应 HBM4",
+   "summary_en": "Micron began HBM4 shipments in February 2026 and announced high-volume production aimed at Nvidia's Vera Rubin platform; Jensen Huang said all three memory makers are qualified and producing. Date uses -01 for the unknown day.",
+   "summary_zh": "美光于 2026 年 2 月开始出货 HBM4，并宣布面向英伟达 Vera Rubin 平台量产；黄仁勋表示三家存储厂商均已通过认证并在生产。日期中的日为占位（-01）。",
+   "sources": [
+    {
+     "url": "https://biz.heraldcorp.com/article/10787653",
+     "publisher": "The Korea Herald",
+     "date": "2026-06-25",
+     "title": "World's third-largest memory chip maker reports fiscal Q3 2026 earnings"
+    },
+    {
+     "url": "https://apps.digitimes.com/news/a20260107PD236/nvidia-hbm4-micron-2026-rubin.html",
+     "publisher": "DIGITIMES",
+     "date": "2026-01-07",
+     "title": "Nvidia HBM4 and Micron in 2026 Rubin supply"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "bytedance-nvidia-2026-01-h200-purchases",
    "kind": "order",
    "subkind": "GPU purchase (Nvidia H200)",
@@ -7772,6 +8124,38 @@
    "origin": "curated"
   },
   {
+   "id": "nvidia-samsung-2026-01-hbm4",
+   "kind": "order",
+   "subkind": "HBM4 supply (Vera Rubin)",
+   "from": "nvidia",
+   "to": "samsung",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; supply-chain estimates put Samsung at ~25-30% of Nvidia's HBM4 volume",
+   "announced": "2026-01-26",
+   "term": null,
+   "status": "in_progress",
+   "confidence": "reported",
+   "title_en": "Samsung starts HBM4 shipments to Nvidia",
+   "title_zh": "三星开始向英伟达供应 HBM4",
+   "summary_en": "Samsung was reported to begin official HBM4 shipments to Nvidia (and AMD) in February 2026 after passing qualification, with pricing near what Nvidia agreed with SK hynix.",
+   "summary_zh": "据报道，三星通过认证后于 2026 年 2 月开始向英伟达（及 AMD）正式供应 HBM4，价格接近英伟达与 SK 海力士商定的水平。",
+   "sources": [
+    {
+     "url": "https://www.trendforce.com/news/2026/01/26/news-samsung-reportedly-set-to-begin-official-hbm4-shipments-to-nvidia-and-amd-in-february/",
+     "publisher": "TrendForce",
+     "date": "2026-01-26",
+     "title": "Samsung Reportedly Set to Begin Official HBM4 Shipments to NVIDIA and AMD in February"
+    },
+    {
+     "url": "https://www.trendforce.com/news/2026/01/28/news-sk-hynix-reportedly-to-supply-about-two-thirds-of-nvidia-hbm4-samsung-targets-early-delivery/",
+     "publisher": "TrendForce",
+     "date": "2026-01-28",
+     "title": "SK hynix Reportedly to Supply About Two-Thirds of NVIDIA HBM4; Samsung Targets Early Delivery"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "mgx-tiktok-usds-2026-01-equity",
    "kind": "investment",
    "subkind": "equity stake (15%, managing investor)",
@@ -7831,6 +8215,38 @@
      "publisher": "DatacenterDynamics",
      "date": "2026-01-23",
      "title": "TikTok US spin-off finalized, led by Oracle, Silver Lake and MGX"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "micron-psmc-2026-01-tongluo-fab",
+   "kind": "order",
+   "subkind": "fab site purchase",
+   "from": "micron",
+   "to": "psmc",
+   "amount_usd": 1800000000,
+   "amount_text": "$1.8B cash for the P5 site (land, buildings, cleanroom; no tools)",
+   "announced": "2026-01-17",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Micron buys PSMC's Tongluo fab for $1.8B to add DRAM/HBM capacity",
+   "title_zh": "美光以 18 亿美元收购力积电铜锣晶圆厂，扩充 DRAM/HBM 产能",
+   "summary_en": "Micron agreed to buy Powerchip's P5 fab site in Tongluo, Taiwan, with about 300,000 sq ft of 300mm cleanroom, for $1.8B in cash and closed the deal on 15 March 2026; it will retrofit the site for leading-edge DRAM including HBM.",
+   "summary_zh": "美光以 18 亿美元现金收购力积电位于台湾铜锣的 P5 厂区（约 30 万平方英尺 12 英寸洁净室），于 2026 年 3 月 15 日完成交割，将改造用于包括 HBM 在内的先进 DRAM。",
+   "sources": [
+    {
+     "url": "https://www.datacenterdynamics.com/en/news/micron-acquires-powerchips-p5-taiwanese-fab-for-18bn-will-ramp-up-dram-output-at-site-by-2027/",
+     "publisher": "DatacenterDynamics",
+     "date": "2026-01-19",
+     "title": "Micron acquires Powerchip's P5 Taiwanese fab for $1.8bn"
+    },
+    {
+     "url": "https://www.storagenewsletter.com/2026/03/24/micron-completes-acquisition-of-psmcs-tongluo-p5-site-in-taiwan/",
+     "publisher": "StorageNewsletter",
+     "date": "2026-03-24",
+     "title": "Micron Completes Acquisition of PSMC's Tongluo P5 Site in Taiwan"
     }
    ],
    "origin": "curated"
@@ -8087,6 +8503,38 @@
      "publisher": "Apollo",
      "date": "2026-01-07",
      "title": "Apollo Backs $5.4 Billion Valor and xAI Data Center Compute Infrastructure Transaction"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bond-investors-broadcom-2026-01-notes",
+   "kind": "debt",
+   "subkind": "senior notes (public offering)",
+   "from": "bond-investors",
+   "to": "broadcom",
+   "amount_usd": 4500000000,
+   "amount_text": "$4.5B: $750M 4.30% due 2031, $1.25B 4.60% due 2033, $1.25B 4.95% due 2036, $1.25B 5.70% due 2056",
+   "announced": "2026-01-06",
+   "term": "2031-2056",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Broadcom $4.5B bond sale (January 2026)",
+   "title_zh": "博通发行 45 亿美元债券（2026 年 1 月）",
+   "summary_en": "Broadcom sold $4.5B of senior notes in four tranches due 2031 to 2056 for general corporate purposes, including redeeming earlier notes.",
+   "summary_zh": "博通发行四档共 45 亿美元优先票据（2031 至 2056 年到期），用于一般公司用途，包括赎回早期票据。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526007683/d917883d424b2.htm",
+     "publisher": "Broadcom (SEC 424B2)",
+     "date": "2026-01-07",
+     "title": "Broadcom prospectus supplement"
+    },
+    {
+     "url": "https://www.wlrk.com/transaction/broadcom-in-its-4-5-billion-registered-public-offering-of-senior-notes/",
+     "publisher": "Wachtell Lipton",
+     "date": "2026-01-06",
+     "title": "Broadcom in its $4.5 Billion Registered Public Offering of Senior Notes"
     }
    ],
    "origin": "curated"
@@ -8801,6 +9249,32 @@
      "publisher": "OpenAI",
      "date": "2025-11-03",
      "title": "AWS and OpenAI announce multi-year strategic partnership"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "samsung-nvidia-2025-10-ai-megafactory",
+   "kind": "order",
+   "subkind": "GPU purchase (AI factory)",
+   "from": "samsung",
+   "to": "nvidia",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; more than 50,000 Nvidia GPUs",
+   "announced": "2025-10-31",
+   "term": null,
+   "status": "in_progress",
+   "confidence": "confirmed",
+   "title_en": "Samsung builds an AI Megafactory on 50,000+ Nvidia GPUs",
+   "title_zh": "三星以 5 万余块英伟达 GPU 打造 AI 超级工厂",
+   "summary_en": "Samsung said it will deploy more than 50,000 Nvidia GPUs and the Omniverse platform in an AI Megafactory that runs its chip, mobile and robotics manufacturing; the two also work together on HBM4.",
+   "summary_zh": "三星宣布将部署 5 万余块英伟达 GPU 及 Omniverse 平台，建设覆盖其芯片、手机和机器人制造的 AI 超级工厂；双方还在 HBM4 方面合作。",
+   "sources": [
+    {
+     "url": "https://news.samsung.com/global/samsung-teams-with-nvidia-to-lead-the-transformation-of-global-intelligent-manufacturing-through-new-ai-megafactory",
+     "publisher": "Samsung Newsroom",
+     "date": "2025-10-31",
+     "title": "Samsung Teams with NVIDIA to Lead the Transformation of Global Intelligent Manufacturing through New AI Megafactory"
     }
    ],
    "origin": "curated"
@@ -10104,6 +10578,38 @@
    "origin": "curated"
   },
   {
+   "id": "apple-samsung-2025-08-austin-chips",
+   "kind": "order",
+   "subkind": "chip manufacturing partnership (Austin fab)",
+   "from": "apple",
+   "to": "samsung",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; part of Apple's American Manufacturing Program",
+   "announced": "2025-08-06",
+   "term": null,
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Apple to have Samsung make new chips in Austin, Texas",
+   "title_zh": "苹果委托三星在德州奥斯汀生产新型芯片",
+   "summary_en": "Apple named Samsung's Austin fab as a partner in its American Manufacturing Program to launch a new chipmaking technology; Apple did not say what the chips are, and industry experts expect stacked image sensors for future iPhones.",
+   "summary_zh": "苹果在“美国制造计划”中宣布与三星奥斯汀工厂合作推出全新芯片制造技术；苹果未说明具体产品，业内预计为用于未来 iPhone 的堆叠式图像传感器。",
+   "sources": [
+    {
+     "url": "https://www.iphoneincanada.ca/2025/08/07/samsung-apple-sensors-texas",
+     "publisher": "iPhone in Canada",
+     "date": "2025-08-07",
+     "title": "Samsung to Manufacture iPhone Image Sensors in Texas as Part of US Investment"
+    },
+    {
+     "url": "https://www.koreaherald.com/article/10549200",
+     "publisher": "The Korea Herald",
+     "date": "2025-08-07",
+     "title": "Back-to-back wins with Apple, Tesla lift prospects for Samsung's struggling chip units"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "morgan-stanley-coreweave-2025-07-ddtl3",
    "kind": "debt",
    "subkind": "GPU-backed delayed draw term loan (DDTL 3.0)",
@@ -10131,6 +10637,38 @@
      "publisher": "The Asset",
      "date": "2025-08-01",
      "title": "CoreWeave closes US$2.6 billion loan for OpenAI commitment"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "tesla-samsung-2025-07-ai6-foundry",
+   "kind": "order",
+   "subkind": "foundry manufacturing contract (AI6 chips, Taylor fab)",
+   "from": "tesla",
+   "to": "samsung",
+   "amount_usd": 16500000000,
+   "amount_text": "~$16.5B (KRW 22.76 trillion) from 24 Jul 2025 to 31 Dec 2033; Musk called it a minimum",
+   "announced": "2025-07-28",
+   "term": "Jul 2025 to end-2033",
+   "status": "in_progress",
+   "confidence": "reported",
+   "title_en": "Tesla $16.5B AI6 chip foundry contract with Samsung",
+   "title_zh": "特斯拉与三星的 165 亿美元 AI6 芯片代工合同",
+   "summary_en": "Samsung disclosed a $16.5B chip manufacturing contract with an unnamed client running to 2033, and Elon Musk confirmed it is Tesla, whose AI6 chip will be made at Samsung's Taylor, Texas fab.",
+   "summary_zh": "三星披露一份为期至 2033 年、金额 165 亿美元的芯片代工合同，客户未具名；马斯克确认客户为特斯拉，其 AI6 芯片将在三星德州泰勒工厂生产。",
+   "sources": [
+    {
+     "url": "https://www.koreatimes.co.kr/amp/business/tech-science/20250728/samsung-foundry-wins-165-bil-chip-order-from-tesla",
+     "publisher": "The Korea Times",
+     "date": "2025-07-28",
+     "title": "Samsung foundry wins $16.5 bil. chip order from Tesla"
+    },
+    {
+     "url": "https://tomshardware.com/tech-industry/semiconductors/samsung-inks-usd16-5-billion-tesla-ai-chip-deal-elon-musk-says-samsung-will-produce-new-a16-chips-the-strategic-importance-of-this-is-hard-to-overstate",
+     "publisher": "Tom's Hardware",
+     "date": "2025-07-28",
+     "title": "Samsung inks $16.5 billion Tesla AI chip deal"
     }
    ],
    "origin": "curated"
@@ -10606,6 +11144,70 @@
    "origin": "curated"
   },
   {
+   "id": "bond-investors-micron-2025-04-notes",
+   "kind": "debt",
+   "subkind": "senior unsecured notes",
+   "from": "bond-investors",
+   "to": "micron",
+   "amount_usd": 1750000000,
+   "amount_text": "$1.75B: $500M 5.65% notes due 2032 + $1.25B 6.05% notes due 2035",
+   "announced": "2025-04-24",
+   "term": "2032 and 2035",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Micron $1.75B senior notes",
+   "title_zh": "美光发行 17.5 亿美元优先票据",
+   "summary_en": "Micron sold $1.75B of senior notes due 2032 and 2035 (closed 29 April 2025); proceeds were mainly to redeem its 2027 notes and unwind related swaps.",
+   "summary_zh": "美光发行 17.5 亿美元 2032 年及 2035 年到期优先票据（2025 年 4 月 29 日交割），所得主要用于赎回 2027 年到期票据及结清相关利率互换。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465925038821/tm2511594d5_fwp.htm",
+     "publisher": "Micron (SEC FWP)",
+     "date": "2025-04-24",
+     "title": "Micron pricing term sheet"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465925039497/tm2511594-4_424b5.htm",
+     "publisher": "Micron (SEC 424B5)",
+     "date": "2025-04-25",
+     "title": "Micron prospectus supplement"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "amd-tsmc-2025-04-n2-arizona",
+   "kind": "order",
+   "subkind": "foundry manufacturing (TSMC N2 and Arizona)",
+   "from": "amd",
+   "to": "tsmc",
+   "amount_usd": null,
+   "amount_text": "Undisclosed",
+   "announced": "2025-04-14",
+   "term": null,
+   "status": "in_progress",
+   "confidence": "confirmed",
+   "title_en": "AMD makes 2nm EPYC Venice and US-built CPUs at TSMC",
+   "title_zh": "AMD 在台积电生产 2 纳米 EPYC Venice 及美国制造 CPU",
+   "summary_en": "AMD said its next EPYC 'Venice' CPU is the industry's first HPC product taped out on TSMC's 2nm (N2) process, and that it validated 5th Gen EPYC CPUs at TSMC's Arizona fab, its first products made in the US.",
+   "summary_zh": "AMD 宣布其下一代 EPYC “Venice” 处理器是业界首款在台积电 2 纳米（N2）工艺流片的高性能计算产品，并已在台积电亚利桑那厂完成第五代 EPYC 验证，这是 AMD 首批美国制造产品。",
+   "sources": [
+    {
+     "url": "https://ir.amd.com/news-events/press-releases/detail/1245/amd-achieves-first-tsmc-n2-product-silicon-milestone",
+     "publisher": "AMD",
+     "date": "2025-04-14",
+     "title": "AMD Achieves First TSMC N2 Product Silicon Milestone"
+    },
+    {
+     "url": "https://www.datacenterdynamics.com/en/news/amd-unveils-first-2nm-epyc-cpu-venice-announces-chip-production-at-tsmc-arizona-fab",
+     "publisher": "DatacenterDynamics",
+     "date": "2025-04-15",
+     "title": "AMD unveils first 2nm EPYC CPU Venice, announces chip production at TSMC Arizona fab"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "softbank-openai-2025-03-equity",
    "kind": "investment",
    "subkind": "equity investment (funding round lead)",
@@ -11000,6 +11602,38 @@
    "origin": "curated"
   },
   {
+   "id": "bond-investors-broadcom-2025-01-notes",
+   "kind": "debt",
+   "subkind": "senior notes (public offering)",
+   "from": "bond-investors",
+   "to": "broadcom",
+   "amount_usd": 3000000000,
+   "amount_text": "$3B: $1.1B 4.80% due 2028, $800M 5.05% due 2030, $1.1B 5.20% due 2032",
+   "announced": "2025-01-06",
+   "term": "2028-2032",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Broadcom $3B bond sale (January 2025)",
+   "title_zh": "博通发行 30 亿美元债券（2025 年 1 月）",
+   "summary_en": "Broadcom sold $3B of senior notes in three tranches to prepay part of its VMware term loans.",
+   "summary_zh": "博通发行三档共 30 亿美元优先票据，用于提前偿还部分 VMware 定期贷款。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312525002369/d879262dfwp.htm",
+     "publisher": "Broadcom (SEC FWP)",
+     "date": "2025-01-06",
+     "title": "Broadcom pricing term sheet"
+    },
+    {
+     "url": "https://stblaw.com/about-us/news/view/2025/01/10/simpson-thacher-represents-underwriters-in-$3-billion-senior-notes-offering-by-broadcom",
+     "publisher": "Simpson Thacher",
+     "date": "2025-01-10",
+     "title": "Simpson Thacher Represents Underwriters in $3 Billion Senior Notes Offering by Broadcom"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "mgx-xai-2024-12-series-c",
    "kind": "investment",
    "subkind": "venture round participation",
@@ -11090,6 +11724,38 @@
    "origin": "curated"
   },
   {
+   "id": "us-government-tsmc-2024-11-chips-loans",
+   "kind": "debt",
+   "subkind": "CHIPS Act government loan facility",
+   "from": "us-government",
+   "to": "tsmc",
+   "amount_usd": 5000000000,
+   "amount_text": "$5B of loans in the finalised CHIPS award (alongside $6.6B of grants, not counted here); amount drawn not disclosed",
+   "announced": "2024-11-15",
+   "term": null,
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "US CHIPS award gives TSMC Arizona $5B of loans",
+   "title_zh": "美国芯片法案向台积电亚利桑那提供 50 亿美元贷款",
+   "summary_en": "The Commerce Department finalised TSMC's CHIPS award for its Arizona fabs: $6.6B of grants plus $5B in loans. The loans are counted here; the grants are not debt.",
+   "summary_zh": "美国商务部敲定台积电亚利桑那工厂的芯片法案支持：66 亿美元补贴，外加 50 亿美元贷款。此处仅计入贷款，补贴不属于债务。",
+   "sources": [
+    {
+     "url": "https://www.manufacturingdive.com/news/biden-administration-finalizes-tsmc-chips-award-phoenix-arizona/733048/",
+     "publisher": "Manufacturing Dive",
+     "date": "2024-11-15",
+     "title": "Biden administration finalizes TSMC CHIPS award"
+    },
+    {
+     "url": "https://www.koreatimes.co.kr/amp/world/20241115/us-finalizes-66-billion-chips-award-for-tsmc-ahead-of-trump-return",
+     "publisher": "The Korea Times (Reuters)",
+     "date": "2024-11-15",
+     "title": "US finalizes $6.6 billion chips award for TSMC ahead of Trump return"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "jpmorgan-openai-2024-10-revolver",
    "kind": "debt",
    "subkind": "revolving credit facility",
@@ -11169,6 +11835,38 @@
      "publisher": "Bloomberg",
      "date": "2024-09-27",
      "title": "ByteDance to Sign $10.8 Billion Corporate Loan in Asian Record"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bond-investors-broadcom-2024-09-notes",
+   "kind": "debt",
+   "subkind": "senior notes (public offering)",
+   "from": "bond-investors",
+   "to": "broadcom",
+   "amount_usd": 5000000000,
+   "amount_text": "$5B in four tranches (notes due 2028-2034); priced 26 Sep, settled 2 Oct 2024; to prepay term loans",
+   "announced": "2024-09-26",
+   "term": "2028-2034",
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Broadcom $5B bond sale (September 2024)",
+   "title_zh": "博通发行 50 亿美元债券（2024 年 9 月）",
+   "summary_en": "Broadcom sold a further $5B of senior notes in four tranches after the Fed's rate cut, using the proceeds to prepay VMware-related term loans.",
+   "summary_zh": "博通在美联储降息后再发行四档共 50 亿美元优先票据，所得用于提前偿还与 VMware 相关的定期贷款。",
+   "sources": [
+    {
+     "url": "https://stblaw.com/about-us/news/view/2024/10/02/broadcom-completes-$5-billion-senior-notes-offering",
+     "publisher": "Simpson Thacher",
+     "date": "2024-10-02",
+     "title": "Broadcom Completes $5 Billion Senior Notes Offering"
+    },
+    {
+     "url": "https://globalcapital.com/article/2dtbrgjosh4z1vb4e330g/corporate-bonds/broadcom-brings-5bn-bond-after-fed-rate-cut",
+     "publisher": "GlobalCapital",
+     "date": "2024-09-26",
+     "title": "Broadcom brings $5bn bond after Fed rate cut"
     }
    ],
    "origin": "curated"
@@ -11297,6 +11995,38 @@
      "publisher": "TechNode",
      "date": "2024-08-06",
      "title": "Tencent joins Moonshot AI $300 million funding round, report says"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bond-investors-broadcom-2024-07-notes",
+   "kind": "debt",
+   "subkind": "investment-grade senior notes",
+   "from": "bond-investors",
+   "to": "broadcom",
+   "amount_usd": 5000000000,
+   "amount_text": "$5B in three tranches (notes due 2027, 2029, 2031); to prepay VMware acquisition term loans",
+   "announced": "2024-07-08",
+   "term": "2027-2031",
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Broadcom $5B bond sale (July 2024)",
+   "title_zh": "博通发行 50 亿美元债券（2024 年 7 月）",
+   "summary_en": "Broadcom sold $5B of investment-grade bonds in three parts, led by BofA, BNP Paribas and HSBC, to repay part of the loans that funded its VMware purchase.",
+   "summary_zh": "博通发行三档共 50 亿美元投资级债券，由美国银行、法巴和汇丰牵头，用于偿还收购 VMware 的部分贷款。",
+   "sources": [
+    {
+     "url": "https://news.bloombergtax.com/mergers-and-acquisitions/broadcom-kicks-off-bond-sale-to-refinance-loans-for-vmware-deal",
+     "publisher": "Bloomberg Tax",
+     "date": "2024-07-08",
+     "title": "Broadcom Sells $5 Billion of Bonds to Refinance VMware Loan"
+    },
+    {
+     "url": "https://stblaw.com/about-us/news/view/2024/07/16/simpson-thacher-represents-underwriters-in-$5-billion-senior-notes-offering-by-broadcom",
+     "publisher": "Simpson Thacher",
+     "date": "2024-07-16",
+     "title": "Simpson Thacher Represents Underwriters in $5 Billion Senior Notes Offering by Broadcom"
     }
    ],
    "origin": "curated"
@@ -11552,6 +12282,32 @@
    "origin": "curated"
   },
   {
+   "id": "bond-investors-sk-hynix-2024-01-dollar-bonds",
+   "kind": "debt",
+   "subkind": "US dollar bonds (3- and 5-year)",
+   "from": "bond-investors",
+   "to": "sk-hynix",
+   "amount_usd": 1500000000,
+   "amount_text": "$1.5B: $500M 3-year and $1B 5-year notes (day of pricing about 9 Jan 2024)",
+   "announced": "2024-01-10",
+   "term": "3 and 5 years",
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "SK hynix $1.5B dollar bond sale",
+   "title_zh": "SK 海力士发行 15 亿美元美元债",
+   "summary_en": "SK hynix raised $1.5B in dollar bonds: $500M of three-year notes at 145 bp over Treasuries and $1B of five-year notes at 167 bp, amid strong demand.",
+   "summary_zh": "SK 海力士发行 15 亿美元美元债：5 亿美元三年期（较美债利差 145 个基点）和 10 亿美元五年期（利差 167 个基点），需求旺盛。",
+   "sources": [
+    {
+     "url": "https://www.kedglobal.com/newsView/ked202401100006",
+     "publisher": "KED Global",
+     "date": "2024-01-10",
+     "title": "SK Hynix raises $1.5 bn in foreign bonds amid high demand"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "amazon-anthropic-2023-equity",
    "kind": "investment",
    "subkind": "equity investment (convertible notes)",
@@ -11642,531 +12398,6 @@
    "origin": "curated"
   },
   {
-   "id": "cov-memory-foundry-microsoft-samsung-2026-10-memory-lta",
-   "kind": "order",
-   "subkind": "long-term memory supply agreement",
-   "from": "microsoft",
-   "to": "samsung",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; March 2026 reports said Samsung discussed more than $10B of prepayments from Microsoft; October reports cite 20-25% upfront prepayments",
-   "announced": "2026-10-09",
-   "term": "More than 5 years (reported)",
-   "status": "reported",
-   "confidence": "unverified",
-   "title_en": "Microsoft long-term memory supply deal with Samsung",
-   "title_zh": "微软与三星的长期存储供应协议",
-   "summary_en": "Korean press reported that Samsung has locked almost 80% of its 2027 memory output into long-term agreements with customers including Microsoft, Nvidia and Google; earlier reports said Samsung sought more than $10B in prepayments from Microsoft. Samsung has not confirmed customer-level terms.",
-   "summary_zh": "据韩国媒体报道，三星已将 2027 年近 80% 的存储产能纳入与微软、英伟达、谷歌等客户的长期协议；此前报道称三星寻求微软支付逾 100 亿美元预付款。三星未确认各客户条款。",
-   "sources": [
-    {
-     "url": "https://sammyfans.com/2026/10/09/samsung-2027-memory-supply-ltas/",
-     "publisher": "Sammy Fans (citing Korea Economic Daily)",
-     "date": "2026-10-09",
-     "title": "Samsung locks most 2027 memory supply under LTAs"
-    },
-    {
-     "url": "https://www.trendforce.com/news/2026/03/20/news-samsung-reportedly-eyes-long-term-memory-deals-with-google-microsoft-10b-prepayments-potentially-included/",
-     "publisher": "TrendForce",
-     "date": "2026-03-20",
-     "title": "Samsung Reportedly Eyes Long-Term Memory Deals with Google, Microsoft; $10B Prepayments Potentially Included"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-broadcom-samsung-2026-07-memory-foundry-mou",
-   "kind": "order",
-   "subkind": "memory, foundry and packaging MOU",
-   "from": "broadcom",
-   "to": "samsung",
-   "amount_usd": 200000000000,
-   "amount_text": "Estimated >$200B (~KRW 265 trillion) of collaboration through 2030 per Samsung; non-binding MOU, not placed orders",
-   "announced": "2026-07-25",
-   "term": "Through 2030",
-   "status": "announced",
-   "confidence": "unverified",
-   "title_en": "Broadcom and Samsung sign $200B memory and foundry MOU",
-   "title_zh": "博通与三星签署 2000 亿美元存储与代工合作备忘录",
-   "summary_en": "Samsung and Broadcom signed an MOU under which Samsung would supply HBM4 and HBM4E and build Broadcom products on 2nm and smaller processes at Pyeongtaek, valued by Samsung at more than $200B over five years; it is a statement of intent rather than a binding contract.",
-   "summary_zh": "三星与博通签署谅解备忘录，三星将供应 HBM4/HBM4E，并在平泽以 2 纳米及更先进工艺代工博通产品，三星估计五年合作规模超过 2000 亿美元；该备忘录为意向而非具约束力的合同。",
-   "sources": [
-    {
-     "url": "https://news.samsung.com/global/samsung-electronics-and-broadcom-expand-strategic-collaboration-across-memory-and-foundry-technologies",
-     "publisher": "Samsung Newsroom",
-     "date": "2026-07-25",
-     "title": "Samsung Electronics and Broadcom Expand Strategic Collaboration Across Memory and Foundry Technologies"
-    },
-    {
-     "url": "https://www.manufacturingdive.com/news/samsung-broadcom-200b-memory-chip-deal-AI-semiconductors/826479/",
-     "publisher": "Manufacturing Dive",
-     "date": "2026-07-27",
-     "title": "Samsung, Broadcom reach $200B AI memory chip deal"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-apple-broadcom-2026-07-extension",
-   "kind": "order",
-   "subkind": "multi-year custom chip supply agreement",
-   "from": "apple",
-   "to": "broadcom",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; no financial terms published",
-   "announced": "2026-07-06",
-   "term": "Through 2031",
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Apple extends Broadcom chip deal through 2031",
-   "title_zh": "苹果与博通芯片合作延长至 2031 年",
-   "summary_en": "Broadcom confirmed it will keep developing and supplying custom chips, including wireless parts, to Apple through 2031; reports say the work extends to Baltra, Apple's AI server chip. Apple is about 20% of Broadcom's revenue, per analysts.",
-   "summary_zh": "博通确认将继续为苹果开发和供应定制芯片（含无线芯片）至 2031 年；报道称合作延伸至苹果 AI 服务器芯片 Baltra。分析师称苹果约占博通营收两成。",
-   "sources": [
-    {
-     "url": "https://www.macrumors.com/2026/07/06/apple-and-broadcom-extend-deal/",
-     "publisher": "MacRumors",
-     "date": "2026-07-06",
-     "title": "Apple and Broadcom Extend Chip Supply Deal to 2031"
-    },
-    {
-     "url": "https://appleinsider.com/articles/26/07/06/apple-broadcom-renew-partnership-through-2031",
-     "publisher": "AppleInsider",
-     "date": "2026-07-06",
-     "title": "Apple secures custom chip supplies from Broadcom until 2031"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-meta-broadcom-2026-04-mtia",
-   "kind": "order",
-   "subkind": "custom AI accelerator partnership (MTIA)",
-   "from": "meta",
-   "to": "broadcom",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; initial commitment of more than 1 GW, the first phase of a multi-gigawatt rollout",
-   "announced": "2026-04-14",
-   "term": "Through 2029",
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Meta commits to multi-gigawatt MTIA custom chips with Broadcom",
-   "title_zh": "Meta 与博通签署数吉瓦 MTIA 定制芯片合作",
-   "summary_en": "Broadcom and Meta extended their custom-silicon partnership through 2029 across several MTIA generations, with Meta committing to an initial deployment of more than 1 GW on 2nm; Broadcom CEO Hock Tan left Meta's board.",
-   "summary_zh": "博通与 Meta 将定制芯片合作延长至 2029 年，覆盖多代 MTIA，Meta 承诺首期部署逾 1 吉瓦的 2 纳米芯片；博通 CEO 陈福阳退出 Meta 董事会。",
-   "sources": [
-    {
-     "url": "https://www.globenewswire.com/news-release/2026/04/14/3273998/19933/en/broadcom-announces-extended-partnership-with-meta-to-deploy-technology-to-support-multi-gigawatts-of-meta-s-custom-silicon-mtia.html",
-     "publisher": "Broadcom (GlobeNewswire)",
-     "date": "2026-04-14",
-     "title": "Broadcom Announces Extended Partnership with Meta to Deploy Technology to Support Multi-Gigawatts of Meta's Custom Silicon, MTIA"
-    },
-    {
-     "url": "https://www.cnbc.com/2026/04/14/meta-commits-to-one-gigawatt-of-custom-chips-with-broadcom-as-hock-tan-agrees-to-leave-board.html",
-     "publisher": "CNBC",
-     "date": "2026-04-14",
-     "title": "Meta commits to 1 gigawatt of custom chips with Broadcom"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-alphabet-broadcom-2026-04-tpu-lta",
-   "kind": "order",
-   "subkind": "long-term custom TPU development and supply agreement",
-   "from": "alphabet",
-   "to": "broadcom",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; no pricing or minimum volumes disclosed",
-   "announced": "2026-04-06",
-   "term": "Through up to 2031",
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Google locks in Broadcom for TPUs through 2031",
-   "title_zh": "谷歌与博通签署至 2031 年的 TPU 长期协议",
-   "summary_en": "Broadcom disclosed a long-term agreement to develop and supply future generations of Google's custom TPUs, plus a supply-assurance deal for networking and other parts of Google's AI racks through 2031, alongside expanded TPU capacity for Anthropic.",
-   "summary_zh": "博通披露与谷歌签订长期协议，开发并供应未来多代定制 TPU，另签供应保障协议覆盖谷歌 AI 机架的网络及其他部件至 2031 年，同时扩大为 Anthropic 提供的 TPU 产能。",
-   "sources": [
-    {
-     "url": "https://www.sec.gov/Archives/edgar/data/0001730168/000119312526295589/d84378d8k.htm",
-     "publisher": "Broadcom (SEC 8-K)",
-     "date": "2026-04-06",
-     "title": "Broadcom 8-K"
-    },
-    {
-     "url": "https://fudzilla.com/broadcom-locks-in-google-tpu-work-through-2031/",
-     "publisher": "Fudzilla",
-     "date": "2026-04-07",
-     "title": "Broadcom locks in Google TPU work through 2031"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-meta-arm-2026-03-agi-cpu",
-   "kind": "order",
-   "subkind": "data-centre CPU purchase (Arm AGI CPU)",
-   "from": "meta",
-   "to": "arm",
-   "amount_usd": null,
-   "amount_text": "Undisclosed",
-   "announced": "2026-03-24",
-   "term": null,
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Meta is first customer for Arm's own AGI CPU",
-   "title_zh": "Meta 成为 Arm 自研 AGI CPU 首个客户",
-   "summary_en": "Arm launched its first in-house chip, the 136-core AGI CPU made on TSMC 3nm, with Meta, which co-developed it, as the first customer, moving Arm beyond licensing into selling silicon.",
-   "summary_zh": "Arm 推出首款自研芯片——采用台积电 3 纳米、136 核的 AGI CPU，共同开发者 Meta 为首个客户，标志 Arm 从授权模式转向直接销售芯片。",
-   "sources": [
-    {
-     "url": "https://www.cnbc.com/2026/03/24/arm-launches-its-own-cpu-with-meta-as-first-customer.html",
-     "publisher": "CNBC",
-     "date": "2026-03-24",
-     "title": "Arm launches its own CPU, with Meta as first customer"
-    },
-    {
-     "url": "https://gizmodo.com/arm-lends-a-hand-launches-in-house-ai-chip-with-meta-as-its-first-customer-2000737555",
-     "publisher": "Gizmodo",
-     "date": "2026-03-24",
-     "title": "Arm Launches In-House AI Chip With Meta as Its First Customer"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-openai-arm-2026-03-agi-cpu",
-   "kind": "order",
-   "subkind": "data-centre CPU purchase commitment (Arm AGI CPU)",
-   "from": "openai",
-   "to": "arm",
-   "amount_usd": null,
-   "amount_text": "Undisclosed",
-   "announced": "2026-03-24",
-   "term": null,
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "OpenAI commits to buy Arm's AGI CPU",
-   "title_zh": "OpenAI 承诺采购 Arm AGI CPU",
-   "summary_en": "OpenAI was named among the committed customers for Arm's first in-house data-centre chip, the AGI CPU, alongside Cloudflare and SAP.",
-   "summary_zh": "OpenAI 与 Cloudflare、SAP 一同被列为 Arm 首款自研数据中心芯片 AGI CPU 的承诺客户。",
-   "sources": [
-    {
-     "url": "https://www.cnbc.com/2026/03/24/arm-launches-its-own-cpu-with-meta-as-first-customer.html",
-     "publisher": "CNBC",
-     "date": "2026-03-24",
-     "title": "Arm launches its own CPU, with Meta as first customer"
-    },
-    {
-     "url": "https://www.technology.org/2026/03/25/arm-ai-chip-first-time-meta/",
-     "publisher": "Technology.org",
-     "date": "2026-03-25",
-     "title": "Arm Unveils First In-House Chip, the AGI CPU"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-amd-samsung-2026-03-hbm4-mou",
-   "kind": "order",
-   "subkind": "memory supply MOU (HBM4, DDR5)",
-   "from": "amd",
-   "to": "samsung",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; no volumes, prices or term disclosed",
-   "announced": "2026-03-18",
-   "term": null,
-   "status": "announced",
-   "confidence": "unverified",
-   "title_en": "AMD and Samsung MOU for primary HBM4 supply",
-   "title_zh": "AMD 与三星签署 HBM4 主力供应谅解备忘录",
-   "summary_en": "Samsung and AMD signed an MOU to align on primary HBM4 supply for the Instinct MI455X GPU and DRAM for EPYC Venice, and to discuss Samsung foundry work; Lisa Su revisited Samsung in October 2026 as talks on a firmer long-term deal continued.",
-   "summary_zh": "三星与 AMD 签署谅解备忘录，三星将作为 Instinct MI455X GPU 的 HBM4 主力供应商并为 EPYC Venice 提供 DRAM，双方还将探讨代工合作；2026 年 10 月苏姿丰再访三星，长期协议仍在商谈。",
-   "sources": [
-    {
-     "url": "https://news.samsung.com/global/samsung-and-amd-expand-strategic-collaboration-on-next-generation-ai-memory-solutions",
-     "publisher": "Samsung Newsroom",
-     "date": "2026-03-18",
-     "title": "Samsung, AMD Expand Strategic Collaboration on Next-Generation AI Memory Solutions"
-    },
-    {
-     "url": "https://en.sedaily.com/finance/2026/10/07/amds-lisa-su-visits-samsung-pledges-broader-partnership",
-     "publisher": "Seoul Economic Daily",
-     "date": "2026-10-07",
-     "title": "AMD's Lisa Su Visits Samsung, Signals Broader Partnership"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-apple-tsmc-2025-foundry-purchases",
-   "kind": "order",
-   "subkind": "foundry wafer purchases (2025 total)",
-   "from": "apple",
-   "to": "tsmc",
-   "amount_usd": 20600000000,
-   "amount_text": "NT$645.1B of 2025 revenue from 'client B', identified as Apple (17% of TSMC revenue, down from 22%); ~US$20.6B at the exchange rate used for the client-A figure",
-   "announced": "2026-03-06",
-   "term": "Calendar 2025",
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Apple paid TSMC about $20.6B in 2025",
-   "title_zh": "苹果 2025 年向台积电支付约 206 亿美元",
-   "summary_en": "TSMC's second-largest customer in 2025, identified as Apple, contributed NT$645.1B, up 3.3% but slipping to 17% of revenue as Nvidia's AI orders overtook it.",
-   "summary_zh": "台积电 2025 年第二大客户（被认为是苹果）贡献 6451 亿新台币，增长 3.3%，但占比降至 17%，被英伟达的 AI 订单超越。",
-   "sources": [
-    {
-     "url": "https://www.taiwannews.com.tw/news/6310676",
-     "publisher": "Taiwan News",
-     "date": "2026-03-06",
-     "title": "Nvidia overtakes Apple as TSMC's largest customer"
-    },
-    {
-     "url": "https://www.notebookcheck.net/Nvidia-reportedly-overtook-Apple-to-become-TSMC-s-biggest-customer-in-2025-due-to-exceptional-Data-Center-revenue-growth.1208840.0.html",
-     "publisher": "Notebookcheck",
-     "date": "2026-03-06",
-     "title": "Nvidia reportedly overtook Apple to become TSMC's biggest customer in 2025"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-nvidia-tsmc-2025-foundry-purchases",
-   "kind": "order",
-   "subkind": "foundry wafer and packaging purchases (2025 total)",
-   "from": "nvidia",
-   "to": "tsmc",
-   "amount_usd": 23200000000,
-   "amount_text": "NT$726.9B (~US$23.2B) of 2025 revenue from TSMC's 'client A', identified as Nvidia; 19% of TSMC revenue (12% in 2024)",
-   "announced": "2026-03-06",
-   "term": "Calendar 2025",
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Nvidia becomes TSMC's largest customer ($23B in 2025)",
-   "title_zh": "英伟达成为台积电最大客户（2025 年约 232 亿美元）",
-   "summary_en": "TSMC's 2025 annual figures show its largest customer, identified as Nvidia, paid NT$726.9B (about $23.2B), more than double 2024, overtaking Apple; TSMC does not name customers. In October 2025 Nvidia also showed the first US-made Blackwell wafer from TSMC Arizona.",
-   "summary_zh": "台积电 2025 年数据显示，第一大客户（被认为是英伟达）贡献营收 7269 亿新台币（约 232 亿美元），较 2024 年翻倍以上，超越苹果；台积电未披露客户名称。2025 年 10 月英伟达还展示了台积电亚利桑那厂生产的首片美国制造 Blackwell 晶圆。",
-   "sources": [
-    {
-     "url": "https://www.taiwannews.com.tw/news/6310676",
-     "publisher": "Taiwan News",
-     "date": "2026-03-06",
-     "title": "Nvidia overtakes Apple as TSMC's largest customer"
-    },
-    {
-     "url": "https://view.asiae.co.kr/en/article/2026030610061501773",
-     "publisher": "The Asia Business Daily",
-     "date": "2026-03-06",
-     "title": "Nvidia Surpasses Apple to Become TSMC's Largest Customer Amid AI Boom"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-apple-tsmc-2026-02-arizona-chips",
-   "kind": "order",
-   "subkind": "chip purchases from TSMC Arizona",
-   "from": "apple",
-   "to": "tsmc",
-   "amount_usd": null,
-   "amount_text": "Undisclosed value; more than 100 million advanced chips from TSMC Arizona in 2026",
-   "announced": "2026-02-24",
-   "term": "2026",
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "Apple to buy 100M+ chips from TSMC Arizona in 2026",
-   "title_zh": "苹果 2026 年将从台积电亚利桑那厂采购逾 1 亿颗芯片",
-   "summary_en": "Apple said it is on track to buy more than 100 million advanced chips from TSMC's Arizona fab in 2026, a big increase from 2025, under its $600B US investment pledge; its procurement chief said Apple is buying as much of the fab's output as it can.",
-   "summary_zh": "苹果表示，作为其 6000 亿美元在美投资承诺的一部分，2026 年将从台积电亚利桑那厂采购逾 1 亿颗先进芯片，较 2025 年大增；其采购主管称苹果会尽可能买下该厂产能。",
-   "sources": [
-    {
-     "url": "https://www.mactech.com/2026/02/27/apple-will-buy-more-than-100-million-chips-from-tsmc-arizona-this-year/amp/",
-     "publisher": "MacTech",
-     "date": "2026-02-27",
-     "title": "Apple will buy more than 100 million chips from TSMC Arizona this year"
-    },
-    {
-     "url": "https://finviz.com/news/325711/apple-to-purchase-100m-chips-from-taiwan-semiconductor-manufacturing-tsm-arizona-facility",
-     "publisher": "Finviz (Insider Monkey)",
-     "date": "2026-02-25",
-     "title": "Apple to Purchase 100M Chips from TSMC Arizona Facility"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-nvidia-micron-2026-02-hbm4",
-   "kind": "order",
-   "subkind": "HBM4 supply (Vera Rubin)",
-   "from": "nvidia",
-   "to": "micron",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; Micron passed $1B of HBM4 sales within about four months of first shipments (day of first shipment in Feb 2026 not given)",
-   "announced": "2026-02-01",
-   "term": null,
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "Micron supplies HBM4 for Nvidia's Vera Rubin",
-   "title_zh": "美光为英伟达 Vera Rubin 供应 HBM4",
-   "summary_en": "Micron confirmed HBM4 shipments in February 2026 and mass production for Nvidia's Vera Rubin platform, dispelling reports it had been left out; Jensen Huang said all three memory makers are qualified and producing.",
-   "summary_zh": "美光于 2026 年 2 月确认出货 HBM4 并为英伟达 Vera Rubin 平台量产，打消了其被排除在外的传闻；黄仁勋表示三家存储厂商均已通过认证并在生产。",
-   "sources": [
-    {
-     "url": "https://biz.heraldcorp.com/article/10787653",
-     "publisher": "The Korea Herald",
-     "date": "2026-06-25",
-     "title": "World's third-largest memory chip maker reports fiscal Q3 2026 earnings"
-    },
-    {
-     "url": "https://apps.digitimes.com/news/a20260107PD236/nvidia-hbm4-micron-2026-rubin.html",
-     "publisher": "DIGITIMES",
-     "date": "2026-01-07",
-     "title": "Nvidia HBM4 and Micron in 2026 Rubin supply"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-nvidia-samsung-2026-01-hbm4",
-   "kind": "order",
-   "subkind": "HBM4 supply (Vera Rubin)",
-   "from": "nvidia",
-   "to": "samsung",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; supply-chain estimates put Samsung at ~25-30% of Nvidia's HBM4 volume",
-   "announced": "2026-01-26",
-   "term": null,
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "Samsung starts HBM4 shipments to Nvidia",
-   "title_zh": "三星开始向英伟达供应 HBM4",
-   "summary_en": "Samsung was reported to begin official HBM4 shipments to Nvidia (and AMD) in February 2026 after passing qualification, with pricing near what Nvidia agreed with SK hynix.",
-   "summary_zh": "据报道，三星通过认证后于 2026 年 2 月开始向英伟达（及 AMD）正式供应 HBM4，价格接近英伟达与 SK 海力士商定的水平。",
-   "sources": [
-    {
-     "url": "https://www.trendforce.com/news/2026/01/26/news-samsung-reportedly-set-to-begin-official-hbm4-shipments-to-nvidia-and-amd-in-february/",
-     "publisher": "TrendForce",
-     "date": "2026-01-26",
-     "title": "Samsung Reportedly Set to Begin Official HBM4 Shipments to NVIDIA and AMD in February"
-    },
-    {
-     "url": "https://www.trendforce.com/news/2026/01/28/news-sk-hynix-reportedly-to-supply-about-two-thirds-of-nvidia-hbm4-samsung-targets-early-delivery/",
-     "publisher": "TrendForce",
-     "date": "2026-01-28",
-     "title": "SK hynix Reportedly to Supply About Two-Thirds of NVIDIA HBM4; Samsung Targets Early Delivery"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-micron-psmc-2026-01-tongluo-fab",
-   "kind": "order",
-   "subkind": "fab site purchase",
-   "from": "micron",
-   "to": "psmc",
-   "amount_usd": 1800000000,
-   "amount_text": "$1.8B cash for the P5 site (land, buildings, cleanroom; no tools)",
-   "announced": "2026-01-17",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Micron buys PSMC's Tongluo fab for $1.8B to add DRAM/HBM capacity",
-   "title_zh": "美光以 18 亿美元收购力积电铜锣晶圆厂，扩充 DRAM/HBM 产能",
-   "summary_en": "Micron agreed to buy Powerchip's P5 fab site in Tongluo, Taiwan, with about 300,000 sq ft of 300mm cleanroom, for $1.8B in cash and closed the deal on 15 March 2026; it will retrofit the site for leading-edge DRAM including HBM.",
-   "summary_zh": "美光以 18 亿美元现金收购力积电位于台湾铜锣的 P5 厂区（约 30 万平方英尺 12 英寸洁净室），于 2026 年 3 月 15 日完成交割，将改造用于包括 HBM 在内的先进 DRAM。",
-   "sources": [
-    {
-     "url": "https://www.datacenterdynamics.com/en/news/micron-acquires-powerchips-p5-taiwanese-fab-for-18bn-will-ramp-up-dram-output-at-site-by-2027/",
-     "publisher": "DatacenterDynamics",
-     "date": "2026-01-19",
-     "title": "Micron acquires Powerchip's P5 Taiwanese fab for $1.8bn"
-    },
-    {
-     "url": "https://www.storagenewsletter.com/2026/03/24/micron-completes-acquisition-of-psmcs-tongluo-p5-site-in-taiwan/",
-     "publisher": "StorageNewsletter",
-     "date": "2026-03-24",
-     "title": "Micron Completes Acquisition of PSMC's Tongluo P5 Site in Taiwan"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-bond-investors-broadcom-2026-01-notes",
-   "kind": "debt",
-   "subkind": "senior notes (public offering)",
-   "from": "bond-investors",
-   "to": "broadcom",
-   "amount_usd": 4500000000,
-   "amount_text": "$4.5B: $750M 4.30% due 2031, $1.25B 4.60% due 2033, $1.25B 4.95% due 2036, $1.25B 5.70% due 2056",
-   "announced": "2026-01-06",
-   "term": "2031-2056",
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Broadcom $4.5B bond sale (January 2026)",
-   "title_zh": "博通发行 45 亿美元债券（2026 年 1 月）",
-   "summary_en": "Broadcom sold $4.5B of senior notes in four tranches through BofA and J.P. Morgan for general purposes and to redeem notes due 2027-2028.",
-   "summary_zh": "博通通过美国银行和摩根大通发行四档共 45 亿美元优先票据，用于一般用途及赎回 2027-2028 年到期票据。",
-   "sources": [
-    {
-     "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526007683/d917883d424b2.htm",
-     "publisher": "Broadcom (SEC 424B2)",
-     "date": "2026-01-07",
-     "title": "Broadcom prospectus supplement"
-    },
-    {
-     "url": "https://www.wlrk.com/transaction/broadcom-in-its-4-5-billion-registered-public-offering-of-senior-notes/",
-     "publisher": "Wachtell Lipton",
-     "date": "2026-01-06",
-     "title": "Broadcom in its $4.5 Billion Registered Public Offering of Senior Notes"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-arm-dreambig-2025-11-acquisition",
    "kind": "investment",
    "subkind": "acquisition (100% equity)",
@@ -12208,105 +12439,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-memory-foundry-samsung-nvidia-2025-10-ai-megafactory",
-   "kind": "order",
-   "subkind": "GPU purchase (AI factory)",
-   "from": "samsung",
-   "to": "nvidia",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; more than 50,000 Nvidia GPUs",
-   "announced": "2025-10-31",
-   "term": null,
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "Samsung builds an AI Megafactory on 50,000+ Nvidia GPUs",
-   "title_zh": "三星以 5 万余块英伟达 GPU 打造 AI 超级工厂",
-   "summary_en": "Samsung said it will deploy more than 50,000 Nvidia GPUs and the Omniverse platform in an AI Megafactory that runs its chip, mobile and robotics manufacturing; the two also work together on HBM4.",
-   "summary_zh": "三星宣布将部署 5 万余块英伟达 GPU 及 Omniverse 平台，建设覆盖其芯片、手机和机器人制造的 AI 超级工厂；双方还在 HBM4 方面合作。",
-   "sources": [
-    {
-     "url": "https://news.samsung.com/global/samsung-teams-with-nvidia-to-lead-the-transformation-of-global-intelligent-manufacturing-through-new-ai-megafactory",
-     "publisher": "Samsung Newsroom",
-     "date": "2025-10-31",
-     "title": "Samsung Teams with NVIDIA to Lead the Transformation of Global Intelligent Manufacturing through New AI Megafactory"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-apple-samsung-2025-08-austin-chips",
-   "kind": "order",
-   "subkind": "chip manufacturing partnership (Austin fab)",
-   "from": "apple",
-   "to": "samsung",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; part of Apple's American Manufacturing Program",
-   "announced": "2025-08-06",
-   "term": null,
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Apple to have Samsung make new chips in Austin, Texas",
-   "title_zh": "苹果委托三星在德州奥斯汀生产新型芯片",
-   "summary_en": "Apple named Samsung's Austin fab as a partner in its American Manufacturing Program to make chips with a new technology; reports say these are stacked image sensors for future iPhones, ending Sony's sole-supplier role.",
-   "summary_zh": "苹果在“美国制造计划”中宣布由三星奥斯汀工厂以全新技术为其生产芯片；报道称这是用于未来 iPhone 的堆叠式图像传感器，打破索尼独家供货。",
-   "sources": [
-    {
-     "url": "https://www.iphoneincanada.ca/2025/08/07/samsung-apple-sensors-texas",
-     "publisher": "iPhone in Canada",
-     "date": "2025-08-07",
-     "title": "Samsung to Manufacture iPhone Image Sensors in Texas as Part of US Investment"
-    },
-    {
-     "url": "https://www.koreaherald.com/article/10549200",
-     "publisher": "The Korea Herald",
-     "date": "2025-08-07",
-     "title": "Back-to-back wins with Apple, Tesla lift prospects for Samsung's struggling chip units"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-tesla-samsung-2025-07-ai6-foundry",
-   "kind": "order",
-   "subkind": "foundry manufacturing contract (AI6 chips, Taylor fab)",
-   "from": "tesla",
-   "to": "samsung",
-   "amount_usd": 16500000000,
-   "amount_text": "~$16.5B (about KRW 22.8 trillion, 7.6% of Samsung's 2024 sales) from 24 Jul 2025 to end-2033; Musk called it the bare minimum",
-   "announced": "2025-07-28",
-   "term": "Jul 2025 to end-2033",
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "Tesla $16.5B AI6 chip foundry contract with Samsung",
-   "title_zh": "特斯拉与三星的 165 亿美元 AI6 芯片代工合同",
-   "summary_en": "Samsung disclosed a $16.5B chip manufacturing contract with an unnamed client running to 2033, and Elon Musk confirmed it is Tesla, whose AI6 chip will be made at Samsung's Taylor, Texas fab.",
-   "summary_zh": "三星披露一份为期至 2033 年、金额 165 亿美元的芯片代工合同，客户未具名；马斯克确认客户为特斯拉，其 AI6 芯片将在三星德州泰勒工厂生产。",
-   "sources": [
-    {
-     "url": "https://www.koreatimes.co.kr/amp/business/tech-science/20250728/samsung-foundry-wins-165-bil-chip-order-from-tesla",
-     "publisher": "The Korea Times",
-     "date": "2025-07-28",
-     "title": "Samsung foundry wins $16.5 bil. chip order from Tesla"
-    },
-    {
-     "url": "https://tomshardware.com/tech-industry/semiconductors/samsung-inks-usd16-5-billion-tesla-ai-chip-deal-elon-musk-says-samsung-will-produce-new-a16-chips-the-strategic-importance-of-this-is-hard-to-overstate",
-     "publisher": "Tom's Hardware",
-     "date": "2025-07-28",
-     "title": "Samsung inks $16.5 billion Tesla AI chip deal"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-bond-investors-apple-2025-05-notes",
    "kind": "debt",
    "subkind": "senior unsecured notes",
@@ -12342,76 +12474,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-memory-foundry-bond-investors-micron-2025-04-notes",
-   "kind": "debt",
-   "subkind": "senior unsecured notes",
-   "from": "bond-investors",
-   "to": "micron",
-   "amount_usd": 1750000000,
-   "amount_text": "$1.75B: $500M 5.65% notes due 2032 + $1.25B 6.05% notes due 2035",
-   "announced": "2025-04-24",
-   "term": "2032 and 2035",
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Micron $1.75B senior notes",
-   "title_zh": "美光发行 17.5 亿美元优先票据",
-   "summary_en": "Micron sold $1.75B of senior notes due 2032 and 2035 while ramping HBM capacity; in March 2026, flush with AI-memory cash, it launched tender offers to buy back these and other notes.",
-   "summary_zh": "美光在扩充 HBM 产能期间发行 17.5 亿美元 2032 年及 2035 年到期优先票据；2026 年 3 月，凭借 AI 存储带来的充裕现金，美光发起要约回购这些及其他票据。",
-   "sources": [
-    {
-     "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465925038821/tm2511594d5_fwp.htm",
-     "publisher": "Micron (SEC FWP)",
-     "date": "2025-04-24",
-     "title": "Micron pricing term sheet"
-    },
-    {
-     "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465925039497/tm2511594-4_424b5.htm",
-     "publisher": "Micron (SEC 424B5)",
-     "date": "2025-04-25",
-     "title": "Micron prospectus supplement"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-amd-tsmc-2025-04-n2-arizona",
-   "kind": "order",
-   "subkind": "foundry manufacturing (TSMC N2 and Arizona)",
-   "from": "amd",
-   "to": "tsmc",
-   "amount_usd": null,
-   "amount_text": "Undisclosed",
-   "announced": "2025-04-14",
-   "term": null,
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "AMD makes 2nm EPYC Venice and US-built CPUs at TSMC",
-   "title_zh": "AMD 在台积电生产 2 纳米 EPYC Venice 及美国制造 CPU",
-   "summary_en": "AMD said its next EPYC 'Venice' CPU is the industry's first HPC product taped out on TSMC's 2nm (N2) process, and that it validated 5th Gen EPYC CPUs at TSMC's Arizona fab, its first products made in the US.",
-   "summary_zh": "AMD 宣布其下一代 EPYC “Venice” 处理器是业界首款在台积电 2 纳米（N2）工艺流片的高性能计算产品，并已在台积电亚利桑那厂完成第五代 EPYC 验证，这是 AMD 首批美国制造产品。",
-   "sources": [
-    {
-     "url": "https://ir.amd.com/news-events/press-releases/detail/1245/amd-achieves-first-tsmc-n2-product-silicon-milestone",
-     "publisher": "AMD",
-     "date": "2025-04-14",
-     "title": "AMD Achieves First TSMC N2 Product Silicon Milestone"
-    },
-    {
-     "url": "https://www.datacenterdynamics.com/en/news/amd-unveils-first-2nm-epyc-cpu-venice-announces-chip-production-at-tsmc-arizona-fab",
-     "publisher": "DatacenterDynamics",
-     "date": "2025-04-15",
-     "title": "AMD unveils first 2nm EPYC CPU Venice, announces chip production at TSMC Arizona fab"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-malaysia-government-arm-2025-03-licences",
    "kind": "order",
    "subkind": "chip design licences and technology",
@@ -12439,175 +12501,6 @@
      "publisher": "Malay Mail",
      "date": "2025-03-05",
      "title": "Rafizi: Arm deal a radical approach to jumpstart Malaysia's chip-making ambitions"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-bond-investors-broadcom-2025-01-notes",
-   "kind": "debt",
-   "subkind": "senior notes (public offering)",
-   "from": "bond-investors",
-   "to": "broadcom",
-   "amount_usd": 3000000000,
-   "amount_text": "$3B: $1.1B 4.80% due 2028, $800M 5.05% due 2030, $1.1B 5.20% due 2032",
-   "announced": "2025-01-06",
-   "term": "2028-2032",
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Broadcom $3B bond sale (January 2025)",
-   "title_zh": "博通发行 30 亿美元债券（2025 年 1 月）",
-   "summary_en": "Broadcom sold $3B of senior notes in three tranches to prepay part of its VMware term loans.",
-   "summary_zh": "博通发行三档共 30 亿美元优先票据，用于提前偿还部分 VMware 定期贷款。",
-   "sources": [
-    {
-     "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312525002369/d879262dfwp.htm",
-     "publisher": "Broadcom (SEC FWP)",
-     "date": "2025-01-06",
-     "title": "Broadcom pricing term sheet"
-    },
-    {
-     "url": "https://stblaw.com/about-us/news/view/2025/01/10/simpson-thacher-represents-underwriters-in-$3-billion-senior-notes-offering-by-broadcom",
-     "publisher": "Simpson Thacher",
-     "date": "2025-01-10",
-     "title": "Simpson Thacher Represents Underwriters in $3 Billion Senior Notes Offering by Broadcom"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-us-government-tsmc-2024-11-chips-loans",
-   "kind": "debt",
-   "subkind": "CHIPS Act government loan facility",
-   "from": "us-government",
-   "to": "tsmc",
-   "amount_usd": 5000000000,
-   "amount_text": "Up to $5B of low-cost loans in the finalised CHIPS award (alongside $6.6B of grants, not counted here); amount drawn not disclosed",
-   "announced": "2024-11-15",
-   "term": null,
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "US CHIPS award gives TSMC Arizona up to $5B of loans",
-   "title_zh": "美国芯片法案向台积电亚利桑那提供最高 50 亿美元贷款",
-   "summary_en": "The Commerce Department finalised TSMC's CHIPS award for its Arizona fabs: $6.6B of grants paid by milestone plus up to $5B of government loans, with TSMC agreeing to limit buybacks for five years and share excess profits.",
-   "summary_zh": "美国商务部敲定台积电亚利桑那工厂的芯片法案补助：按里程碑拨付 66 亿美元补贴，并提供最高 50 亿美元政府贷款；台积电同意五年内限制回购并分享超额利润。",
-   "sources": [
-    {
-     "url": "https://www.manufacturingdive.com/news/biden-administration-finalizes-tsmc-chips-award-phoenix-arizona/733048/",
-     "publisher": "Manufacturing Dive",
-     "date": "2024-11-15",
-     "title": "Biden administration finalizes TSMC CHIPS award"
-    },
-    {
-     "url": "https://www.koreatimes.co.kr/amp/world/20241115/us-finalizes-66-billion-chips-award-for-tsmc-ahead-of-trump-return",
-     "publisher": "The Korea Times (Reuters)",
-     "date": "2024-11-15",
-     "title": "US finalizes $6.6 billion chips award for TSMC ahead of Trump return"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-bond-investors-broadcom-2024-09-notes",
-   "kind": "debt",
-   "subkind": "senior notes (public offering)",
-   "from": "bond-investors",
-   "to": "broadcom",
-   "amount_usd": 5000000000,
-   "amount_text": "$5B in four tranches; settled 2 Oct 2024; to prepay term A-3 loans",
-   "announced": "2024-09-26",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Broadcom $5B bond sale (September 2024)",
-   "title_zh": "博通发行 50 亿美元债券（2024 年 9 月）",
-   "summary_en": "Broadcom sold a further $5B of senior notes in four tranches after the Fed's rate cut, using the proceeds to prepay VMware-related term loans.",
-   "summary_zh": "博通在美联储降息后再发行四档共 50 亿美元优先票据，所得用于提前偿还与 VMware 相关的定期贷款。",
-   "sources": [
-    {
-     "url": "https://stblaw.com/about-us/news/view/2024/10/02/broadcom-completes-$5-billion-senior-notes-offering",
-     "publisher": "Simpson Thacher",
-     "date": "2024-10-02",
-     "title": "Broadcom Completes $5 Billion Senior Notes Offering"
-    },
-    {
-     "url": "https://globalcapital.com/article/2dtbrgjosh4z1vb4e330g/corporate-bonds/broadcom-brings-5bn-bond-after-fed-rate-cut",
-     "publisher": "GlobalCapital",
-     "date": "2024-09-26",
-     "title": "Broadcom brings $5bn bond after Fed rate cut"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-bond-investors-broadcom-2024-07-notes",
-   "kind": "debt",
-   "subkind": "investment-grade senior notes",
-   "from": "bond-investors",
-   "to": "broadcom",
-   "amount_usd": 5000000000,
-   "amount_text": "$5B in three tranches; to prepay VMware acquisition term loans",
-   "announced": "2024-07-08",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Broadcom $5B bond sale (July 2024)",
-   "title_zh": "博通发行 50 亿美元债券（2024 年 7 月）",
-   "summary_en": "Broadcom sold $5B of investment-grade bonds in three parts, led by BofA, BNP Paribas and HSBC, to repay part of the loans that funded its VMware purchase.",
-   "summary_zh": "博通发行三档共 50 亿美元投资级债券，由美国银行、法巴和汇丰牵头，用于偿还收购 VMware 的部分贷款。",
-   "sources": [
-    {
-     "url": "https://news.bloombergtax.com/mergers-and-acquisitions/broadcom-kicks-off-bond-sale-to-refinance-loans-for-vmware-deal",
-     "publisher": "Bloomberg Tax",
-     "date": "2024-07-08",
-     "title": "Broadcom Sells $5 Billion of Bonds to Refinance VMware Loan"
-    },
-    {
-     "url": "https://stblaw.com/about-us/news/view/2024/07/16/simpson-thacher-represents-underwriters-in-$5-billion-senior-notes-offering-by-broadcom",
-     "publisher": "Simpson Thacher",
-     "date": "2024-07-16",
-     "title": "Simpson Thacher Represents Underwriters in $5 Billion Senior Notes Offering by Broadcom"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-bond-investors-sk-hynix-2024-01-dollar-bonds",
-   "kind": "debt",
-   "subkind": "US dollar bonds (3- and 5-year)",
-   "from": "bond-investors",
-   "to": "sk-hynix",
-   "amount_usd": 1500000000,
-   "amount_text": "~$1.5B of 3- and 5-year notes; ~$6.5B of orders",
-   "announced": "2024-01-10",
-   "term": "3 and 5 years",
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "SK hynix $1.5B dollar bond sale",
-   "title_zh": "SK 海力士发行 15 亿美元美元债",
-   "summary_en": "SK hynix raised about $1.5B in three- and five-year dollar bonds, four times oversubscribed, to repay existing loans as it ramped HBM output for AI chips.",
-   "summary_zh": "SK 海力士发行约 15 亿美元三年期和五年期美元债，获四倍超额认购，用于偿还现有贷款，同时扩大面向 AI 芯片的 HBM 产能。",
-   "sources": [
-    {
-     "url": "https://www.kedglobal.com/newsView/ked202401100006",
-     "publisher": "KED Global",
-     "date": "2024-01-10",
-     "title": "SK Hynix raises $1.5 bn in foreign bonds amid high demand"
     }
    ],
    "research_confidence": "reported",
@@ -14643,14 +14536,14 @@
  ],
  "stats": {
   "entities": 96,
-  "edges": 255,
-  "curated_edges": 227,
-  "candidate_edges": 28,
+  "edges": 254,
+  "curated_edges": 251,
+  "candidate_edges": 3,
   "by_kind": {
    "order": {
-    "count": 57,
-    "usd": 1245439000000,
-    "undisclosed": 28,
+    "count": 74,
+    "usd": 1507539000000,
+    "undisclosed": 40,
     "cancelled": 0
    },
    "investment": {
@@ -14660,8 +14553,8 @@
     "cancelled": 2
    },
    "debt": {
-    "count": 71,
-    "usd": 766814000000,
+    "count": 78,
+    "usd": 792564000000,
     "undisclosed": 1,
     "cancelled": 0
    },
@@ -14686,16 +14579,16 @@
   },
   "candidates_by_kind": {
    "order": {
-    "count": 19,
-    "usd": 262350000000
+    "count": 1,
+    "usd": 250000000
    },
    "investment": {
     "count": 1,
     "usd": 265000000
    },
    "debt": {
-    "count": 8,
-    "usd": 30250000000
+    "count": 1,
+    "usd": 4500000000
    },
    "lease": {
     "count": 0,
@@ -14710,7 +14603,7 @@
     "usd": 0
    }
   },
-  "total_usd": 3035114100000,
+  "total_usd": 3322964100000,
   "latest_announced": "2026-10-26"
  },
  "notes": {
