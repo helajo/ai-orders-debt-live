@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T10:16:40Z",
+ "generated_at": "2026-10-27T10:18:25Z",
  "monitor": {
   "last_run": "2026-10-27T08:41:06Z",
   "sec_items": 119,
   "news_items": 645,
-  "candidates": 3,
+  "candidates": 0,
   "claude_enabled": false,
   "model": null,
   "sources": {
@@ -533,7 +533,7 @@
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
+     "debt": 4500000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -549,7 +549,7 @@
     "inflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
+     "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -563,10 +563,10 @@
      "guarantee": 0
     },
     "degree": 7,
-    "degree_curated": 6,
-    "candidate_edges": 1,
+    "degree_curated": 7,
+    "candidate_edges": 0,
     "counterparties": 6,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 4500000000,
     "outflow_total_usd": 20600000000
    }
   },
@@ -580,7 +580,7 @@
    "origin": "core",
    "stats": {
     "inflow_usd": {
-     "order": 0,
+     "order": 250000000,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -589,14 +589,14 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 265000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 2,
+     "order": 3,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -605,18 +605,18 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 4,
-    "degree_curated": 2,
-    "candidate_edges": 2,
+    "degree_curated": 4,
+    "candidate_edges": 0,
     "counterparties": 4,
-    "inflow_total_usd": 0,
-    "outflow_total_usd": 0
+    "inflow_total_usd": 250000000,
+    "outflow_total_usd": 265000000
    }
   },
   {
@@ -1031,7 +1031,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 420738000000,
+     "debt": 425238000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1047,17 +1047,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 44,
+     "debt": 45,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 45,
-    "degree_curated": 44,
-    "candidate_edges": 1,
+    "degree_curated": 45,
+    "candidate_edges": 0,
     "counterparties": 21,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 420738000000
+    "outflow_total_usd": 425238000000
    }
   },
   {
@@ -1802,11 +1802,11 @@
    "group": "chip",
    "ticker": null,
    "country": "US",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 265000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -1822,7 +1822,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -1837,10 +1837,10 @@
      "guarantee": 0
     },
     "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
     "counterparties": 1,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 265000000,
     "outflow_total_usd": 0
    }
   },
@@ -2586,7 +2586,7 @@
    "group": "other",
    "ticker": null,
    "country": "MY",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
@@ -2597,7 +2597,7 @@
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 0,
+     "order": 250000000,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -2613,7 +2613,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 0,
+     "order": 1,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -2621,11 +2621,11 @@
      "guarantee": 0
     },
     "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
     "counterparties": 1,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 0
+    "outflow_total_usd": 250000000
    }
   },
   {
@@ -9092,6 +9092,38 @@
    "origin": "curated"
   },
   {
+   "id": "arm-dreambig-2025-11-acquisition",
+   "kind": "investment",
+   "subkind": "acquisition (100% equity)",
+   "from": "arm",
+   "to": "dreambig",
+   "amount_usd": 265000000,
+   "amount_text": "~$265M in cash, subject to purchase price adjustments; agreed October 2025 (day not given), disclosed 2025-11-05",
+   "announced": "2025-11-05",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Arm buys AI networking chipmaker DreamBig for $265M",
+   "title_zh": "Arm 以 2.65 亿美元收购 AI 网络芯片商 DreamBig",
+   "summary_en": "Arm agreed in October 2025 to buy 100% of DreamBig Semiconductor, maker of AI networking chiplets and SuperNICs, for about $265M in cash, disclosed with its November 2025 results; the deal closed on 1 July 2026.",
+   "summary_zh": "Arm 于 2025 年 10 月同意以约 2.65 亿美元现金收购 AI 网络小芯片和超级网卡厂商 DreamBig 的全部股权，并在 2025 年 11 月财报中披露；交易于 2026 年 7 月 1 日完成。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000114/arm-20260630.htm",
+     "publisher": "Arm (SEC filing)",
+     "date": "2026-07-29",
+     "title": "Arm quarterly report for the period ended 30 June 2026"
+    },
+    {
+     "url": "https://www.sdxcentral.com/news/arm-to-acquire-ai-networking-chipmaker-dreambig-in-265m-deal/",
+     "publisher": "SDxCentral",
+     "date": "2025-11-06",
+     "title": "Arm to acquire AI networking chipmaker DreamBig in $265M deal"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "bond-investors-cipher-2025-11-notes",
    "kind": "debt",
    "subkind": "high-yield senior secured notes (project)",
@@ -11118,6 +11150,38 @@
    "origin": "curated"
   },
   {
+   "id": "bond-investors-apple-2025-05-notes",
+   "kind": "debt",
+   "subkind": "senior unsecured notes",
+   "from": "bond-investors",
+   "to": "apple",
+   "amount_usd": 4500000000,
+   "amount_text": "$4.5B in four tranches: $1.5B 3-year, $1B 5-year, $1B 7-year, $1B 10-year notes (maturities 2028-2035)",
+   "announced": "2025-05-05",
+   "term": "3 to 10 years",
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Apple $4.5B bond sale, its first in two years",
+   "title_zh": "苹果发行 45 亿美元债券，两年来首次",
+   "summary_en": "Apple sold $4.5B of bonds in four tranches, its first offering in two years, to fund buybacks and repay debt; orders reached about $10B.",
+   "summary_zh": "苹果发行四档共 45 亿美元债券，为两年来首次发债，用于回购股票和偿还债务，认购约 100 亿美元。",
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/news/apples-first-bond-offering-two-152233007.html",
+     "publisher": "Yahoo Finance (Reuters)",
+     "date": "2025-05-06",
+     "title": "Apple prices first bond offering in 2 years"
+    },
+    {
+     "url": "https://www.stblaw.com/about-us/news/view/2025/05/13/simpson-thacher-advises-on-apple-s-$4.5-billion-bond-offering",
+     "publisher": "Simpson Thacher",
+     "date": "2025-05-13",
+     "title": "Simpson Thacher Advises on Apple's $4.5 Billion Bond Offering"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "mizuho-softbank-2025-05-bridge-loan",
    "kind": "debt",
    "subkind": "bridge loan (syndicated)",
@@ -11371,6 +11435,38 @@
      "publisher": "Bloomberg",
      "date": "2025-03-05",
      "title": "Baidu Raises 10 Billion Yuan in First Bond Sale Since 2021"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "malaysia-government-arm-2025-03-licences",
+   "kind": "order",
+   "subkind": "chip design licences and technology",
+   "from": "malaysia-government",
+   "to": "arm",
+   "amount_usd": 250000000,
+   "amount_text": "US$250M (~RM1.1B) over 10 years",
+   "announced": "2025-03-05",
+   "term": "10 years",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Malaysia pays Arm $250M for chip design licences",
+   "title_zh": "马来西亚向 Arm 支付 2.5 亿美元购买芯片设计授权",
+   "summary_en": "Malaysia agreed to pay Arm $250M over ten years for chip design licences and technology so local firms can design their own AI and data-centre chips.",
+   "summary_zh": "马来西亚同意在十年内向 Arm 支付 2.5 亿美元，获取芯片设计授权与技术，帮助本土企业自主设计 AI 与数据中心芯片。",
+   "sources": [
+    {
+     "url": "https://techcrunch.com/2025/03/05/arm-to-sign-250m-chip-deal-with-malaysia",
+     "publisher": "TechCrunch (citing Reuters)",
+     "date": "2025-03-05",
+     "title": "Arm to sign $250M chip deal with Malaysia"
+    },
+    {
+     "url": "https://www.businesstoday.com.my/2025/03/05/malaysia-inks-us250-million-deal-with-softbanks-arm-for-the-provision-of-chip-designs-and-tech/",
+     "publisher": "Business Today (Malaysia)",
+     "date": "2025-03-05",
+     "title": "Malaysia inks US$250 million deal with SoftBank's Arm"
     }
    ],
    "origin": "curated"
@@ -12396,117 +12492,6 @@
     }
    ],
    "origin": "curated"
-  },
-  {
-   "id": "cov-memory-foundry-arm-dreambig-2025-11-acquisition",
-   "kind": "investment",
-   "subkind": "acquisition (100% equity)",
-   "from": "arm",
-   "to": "dreambig",
-   "amount_usd": 265000000,
-   "amount_text": "~$265M in cash, subject to adjustments; agreed October 2025 (day not given)",
-   "announced": "2025-11-05",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Arm buys AI networking chipmaker DreamBig for $265M",
-   "title_zh": "Arm 以 2.65 亿美元收购 AI 网络芯片商 DreamBig",
-   "summary_en": "Arm agreed in October 2025 to buy DreamBig Semiconductor, maker of AI networking chiplets and SuperNICs, for about $265M in cash, disclosed with its November 2025 results; the deal closed on 1 July 2026.",
-   "summary_zh": "Arm 于 2025 年 10 月同意以约 2.65 亿美元现金收购 AI 网络小芯片和超级网卡厂商 DreamBig，并在 2025 年 11 月财报中披露；交易于 2026 年 7 月 1 日完成。",
-   "sources": [
-    {
-     "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323925000043/arm-20250930.htm",
-     "publisher": "Arm (SEC 6-K)",
-     "date": "2025-11-05",
-     "title": "Arm quarterly report for the period ended 30 Sept 2025"
-    },
-    {
-     "url": "https://www.sec.gov/Archives/edgar/data/1973239/000197323926000114/arm-20260630.htm",
-     "publisher": "Arm (SEC filing)",
-     "date": "2026-07-29",
-     "title": "Arm quarterly report for the period ended 30 June 2026"
-    },
-    {
-     "url": "https://www.sdxcentral.com/news/arm-to-acquire-ai-networking-chipmaker-dreambig-in-265m-deal/",
-     "publisher": "SDxCentral",
-     "date": "2025-11-06",
-     "title": "Arm to acquire AI networking chipmaker DreamBig in $265M deal"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-bond-investors-apple-2025-05-notes",
-   "kind": "debt",
-   "subkind": "senior unsecured notes",
-   "from": "bond-investors",
-   "to": "apple",
-   "amount_usd": 4500000000,
-   "amount_text": "$4.5B: $1.5B 4.0% due 2028, $1B 4.2% due 2030, $1B 4.5% due 2032, $1B 4.75% due 2035",
-   "announced": "2025-05-05",
-   "term": "2028-2035",
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Apple $4.5B bond sale, its first in two years",
-   "title_zh": "苹果发行 45 亿美元债券，两年来首次",
-   "summary_en": "Apple sold $4.5B of bonds in four tranches, its first offering in two years, to fund buybacks and repay debt; orders reached about $10B.",
-   "summary_zh": "苹果发行四档共 45 亿美元债券，为两年来首次发债，用于回购股票和偿还债务，认购约 100 亿美元。",
-   "sources": [
-    {
-     "url": "https://finance.yahoo.com/news/apples-first-bond-offering-two-152233007.html",
-     "publisher": "Yahoo Finance (Reuters)",
-     "date": "2025-05-06",
-     "title": "Apple prices first bond offering in 2 years"
-    },
-    {
-     "url": "https://www.stblaw.com/about-us/news/view/2025/05/13/simpson-thacher-advises-on-apple-s-$4.5-billion-bond-offering",
-     "publisher": "Simpson Thacher",
-     "date": "2025-05-13",
-     "title": "Simpson Thacher Advises on Apple's $4.5 Billion Bond Offering"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-malaysia-government-arm-2025-03-licences",
-   "kind": "order",
-   "subkind": "chip design licences and technology",
-   "from": "malaysia-government",
-   "to": "arm",
-   "amount_usd": 250000000,
-   "amount_text": "US$250M (~RM1.1B) over 10 years",
-   "announced": "2025-03-05",
-   "term": "10 years",
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Malaysia pays Arm $250M for chip design licences",
-   "title_zh": "马来西亚向 Arm 支付 2.5 亿美元购买芯片设计授权",
-   "summary_en": "Malaysia agreed to pay Arm $250M over ten years for chip design licences and technology so local firms can design their own AI and data-centre chips.",
-   "summary_zh": "马来西亚同意在十年内向 Arm 支付 2.5 亿美元，获取芯片设计授权与技术，帮助本土企业自主设计 AI 与数据中心芯片。",
-   "sources": [
-    {
-     "url": "https://www.businesstoday.com.my/2025/03/05/malaysia-inks-us250-million-deal-with-softbanks-arm-for-the-provision-of-chip-designs-and-tech/",
-     "publisher": "Business Today (Malaysia)",
-     "date": "2025-03-05",
-     "title": "Malaysia inks US$250 million deal with SoftBank's Arm"
-    },
-    {
-     "url": "https://www.malaymail.com/news/malaysia/2025/03/05/rafizi-arm-deal-a-radical-approach-to-jumpstart-malaysias-chip-making-ambitions/168655",
-     "publisher": "Malay Mail",
-     "date": "2025-03-05",
-     "title": "Rafizi: Arm deal a radical approach to jumpstart Malaysia's chip-making ambitions"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
   }
  ],
  "news": [
@@ -14537,24 +14522,24 @@
  "stats": {
   "entities": 96,
   "edges": 254,
-  "curated_edges": 251,
-  "candidate_edges": 3,
+  "curated_edges": 254,
+  "candidate_edges": 0,
   "by_kind": {
    "order": {
-    "count": 74,
-    "usd": 1507539000000,
+    "count": 75,
+    "usd": 1507789000000,
     "undisclosed": 40,
     "cancelled": 0
    },
    "investment": {
-    "count": 86,
-    "usd": 820991100000,
+    "count": 87,
+    "usd": 821256100000,
     "undisclosed": 32,
     "cancelled": 2
    },
    "debt": {
-    "count": 78,
-    "usd": 792564000000,
+    "count": 79,
+    "usd": 797064000000,
     "undisclosed": 1,
     "cancelled": 0
    },
@@ -14579,16 +14564,16 @@
   },
   "candidates_by_kind": {
    "order": {
-    "count": 1,
-    "usd": 250000000
+    "count": 0,
+    "usd": 0
    },
    "investment": {
-    "count": 1,
-    "usd": 265000000
+    "count": 0,
+    "usd": 0
    },
    "debt": {
-    "count": 1,
-    "usd": 4500000000
+    "count": 0,
+    "usd": 0
    },
    "lease": {
     "count": 0,
@@ -14603,7 +14588,7 @@
     "usd": 0
    }
   },
-  "total_usd": 3322964100000,
+  "total_usd": 3327979100000,
   "latest_announced": "2026-10-26"
  },
  "notes": {
