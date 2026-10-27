@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T09:59:05Z",
+ "generated_at": "2026-10-27T10:04:25Z",
  "monitor": {
   "last_run": "2026-10-27T08:41:06Z",
   "sec_items": 119,
   "news_items": 645,
-  "candidates": 103,
+  "candidates": 78,
   "claude_enabled": false,
   "model": null,
   "sources": {
@@ -87,11 +87,11 @@
    "group": "datacenter",
    "ticker": null,
    "country": "AU",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 16100000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -107,7 +107,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -122,10 +122,10 @@
      "guarantee": 0
     },
     "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
     "counterparties": 1,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 16100000000,
     "outflow_total_usd": 0
    }
   },
@@ -485,14 +485,14 @@
      "order": 0,
      "investment": 0,
      "debt": 0,
-     "lease": 0,
+     "lease": 40000000000,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 3500000000,
+     "debt": 38500000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -501,24 +501,24 @@
      "order": 0,
      "investment": 0,
      "debt": 0,
-     "lease": 0,
+     "lease": 1,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "outflow_count": {
      "order": 0,
-     "investment": 0,
-     "debt": 1,
+     "investment": 1,
+     "debt": 2,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 5,
-    "degree_curated": 1,
-    "candidate_edges": 4,
+    "degree_curated": 4,
+    "candidate_edges": 1,
     "counterparties": 5,
-    "inflow_total_usd": 0,
-    "outflow_total_usd": 3500000000
+    "inflow_total_usd": 40000000000,
+    "outflow_total_usd": 38500000000
    }
   },
   {
@@ -729,7 +729,7 @@
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 3380000000,
+     "debt": 3998000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -745,7 +745,7 @@
     "inflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 2,
+     "debt": 3,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -759,10 +759,10 @@
      "guarantee": 0
     },
     "degree": 3,
-    "degree_curated": 2,
-    "candidate_edges": 1,
+    "degree_curated": 3,
+    "candidate_edges": 0,
     "counterparties": 1,
-    "inflow_total_usd": 3380000000,
+    "inflow_total_usd": 3998000000,
     "outflow_total_usd": 0
    }
   },
@@ -786,7 +786,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 65400000000,
+     "debt": 87400000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -802,17 +802,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 3,
+     "debt": 4,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 5,
-    "degree_curated": 3,
-    "candidate_edges": 2,
+    "degree_curated": 4,
+    "candidate_edges": 1,
     "counterparties": 4,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 65400000000
+    "outflow_total_usd": 87400000000
    }
   },
   {
@@ -875,7 +875,7 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 7000000000,
      "debt": 27300000000,
      "lease": 0,
      "vendor_financing": 0,
@@ -891,7 +891,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 2,
      "lease": 1,
      "vendor_financing": 0,
@@ -906,10 +906,10 @@
      "guarantee": 0
     },
     "degree": 5,
-    "degree_curated": 4,
-    "candidate_edges": 1,
+    "degree_curated": 5,
+    "candidate_edges": 0,
     "counterparties": 4,
-    "inflow_total_usd": 27300000000,
+    "inflow_total_usd": 34300000000,
     "outflow_total_usd": 0
    }
   },
@@ -932,8 +932,8 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 0,
-     "debt": 25500000000,
+     "investment": 21100000000,
+     "debt": 35500000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -948,18 +948,18 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 0,
-     "debt": 2,
+     "investment": 2,
+     "debt": 3,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 5,
-    "degree_curated": 2,
-    "candidate_edges": 3,
+    "degree_curated": 5,
+    "candidate_edges": 0,
     "counterparties": 5,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 25500000000
+    "outflow_total_usd": 56600000000
    }
   },
   {
@@ -969,10 +969,10 @@
    "group": "energy",
    "ticker": "BE",
    "country": "US",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
-     "order": 0,
+     "order": 25000000000,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -988,7 +988,7 @@
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 0,
+     "order": 2,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -1004,10 +1004,10 @@
      "guarantee": 0
     },
     "degree": 2,
-    "degree_curated": 0,
-    "candidate_edges": 2,
+    "degree_curated": 2,
+    "candidate_edges": 0,
     "counterparties": 1,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 25000000000,
     "outflow_total_usd": 0
    }
   },
@@ -1030,8 +1030,8 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 0,
-     "debt": 0,
+     "investment": 14000000000,
+     "debt": 2400000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1046,18 +1046,18 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 0,
-     "debt": 0,
+     "investment": 5,
+     "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 7,
-    "degree_curated": 0,
-    "candidate_edges": 7,
-    "counterparties": 6,
+    "degree": 6,
+    "degree_curated": 6,
+    "candidate_edges": 0,
+    "counterparties": 5,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 0
+    "outflow_total_usd": 16400000000
    }
   },
   {
@@ -1080,7 +1080,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 398270000000,
+     "debt": 399988000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1096,17 +1096,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 36,
+     "debt": 38,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 45,
-    "degree_curated": 36,
-    "candidate_edges": 9,
+    "degree_curated": 38,
+    "candidate_edges": 7,
     "counterparties": 21,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 398270000000
+    "outflow_total_usd": 399988000000
    }
   },
   {
@@ -1165,12 +1165,12 @@
    "group": "spv",
    "ticker": null,
    "country": "US",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
+     "debt": 35000000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1186,7 +1186,7 @@
     "inflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
+     "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1200,10 +1200,10 @@
      "guarantee": 0
     },
     "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
     "counterparties": 1,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 35000000000,
     "outflow_total_usd": 0
    }
   },
@@ -1214,7 +1214,7 @@
    "group": "financier",
    "ticker": "BAM",
    "country": "CA",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
@@ -1225,7 +1225,7 @@
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 0,
+     "order": 25000000000,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -1234,14 +1234,14 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 0,
-     "lease": 0,
+     "lease": 1,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 0,
+     "order": 2,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -1249,11 +1249,11 @@
      "guarantee": 0
     },
     "degree": 5,
-    "degree_curated": 0,
-    "candidate_edges": 5,
+    "degree_curated": 4,
+    "candidate_edges": 1,
     "counterparties": 4,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 0
+    "outflow_total_usd": 25000000000
    }
   },
   {
@@ -1312,11 +1312,11 @@
    "group": "chip",
    "ticker": "688256.SS",
    "country": "CN",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 560000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -1332,7 +1332,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -1347,10 +1347,10 @@
      "guarantee": 0
     },
     "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
     "counterparties": 1,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 560000000,
     "outflow_total_usd": 0
    }
   },
@@ -1459,7 +1459,7 @@
    "group": "other",
    "ticker": "0941.HK",
    "country": "CN",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
@@ -1470,7 +1470,7 @@
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 0,
+     "order": 139000000,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -1486,7 +1486,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 0,
+     "order": 1,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -1494,11 +1494,11 @@
      "guarantee": 0
     },
     "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
     "counterparties": 1,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 0
+    "outflow_total_usd": 139000000
    }
   },
   {
@@ -1508,11 +1508,11 @@
    "group": "datacenter",
    "ticker": null,
    "country": "US",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 4000000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -1528,7 +1528,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 2,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -1543,10 +1543,10 @@
      "guarantee": 0
     },
     "degree": 2,
-    "degree_curated": 0,
-    "candidate_edges": 2,
+    "degree_curated": 2,
+    "candidate_edges": 0,
     "counterparties": 1,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 4000000000,
     "outflow_total_usd": 0
    }
   },
@@ -1669,7 +1669,7 @@
      "order": 0,
      "investment": 0,
      "debt": 0,
-     "lease": 0,
+     "lease": 2940000000,
      "vendor_financing": 0,
      "guarantee": 0
     },
@@ -1685,16 +1685,16 @@
      "order": 0,
      "investment": 1,
      "debt": 0,
-     "lease": 0,
+     "lease": 1,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 20,
-    "degree_curated": 19,
-    "candidate_edges": 1,
+    "degree_curated": 20,
+    "candidate_edges": 0,
     "counterparties": 12,
     "inflow_total_usd": 108450000000,
-    "outflow_total_usd": 0
+    "outflow_total_usd": 2940000000
    }
   },
   {
@@ -1724,7 +1724,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 2,
      "lease": 0,
      "vendor_financing": 0,
@@ -1739,8 +1739,8 @@
      "guarantee": 0
     },
     "degree": 5,
-    "degree_curated": 2,
-    "candidate_edges": 3,
+    "degree_curated": 3,
+    "candidate_edges": 2,
     "counterparties": 4,
     "inflow_total_usd": 9400000000,
     "outflow_total_usd": 0
@@ -1753,12 +1753,12 @@
    "group": "neocloud",
    "ticker": null,
    "country": "US",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
-     "debt": 0,
+     "investment": 5000000000,
+     "debt": 22000000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1773,8 +1773,8 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
-     "debt": 0,
+     "investment": 1,
+     "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1788,10 +1788,10 @@
      "guarantee": 0
     },
     "degree": 2,
-    "degree_curated": 0,
-    "candidate_edges": 2,
+    "degree_curated": 2,
+    "candidate_edges": 0,
     "counterparties": 2,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 27000000000,
     "outflow_total_usd": 0
    }
   },
@@ -1949,12 +1949,12 @@
    "group": "neocloud",
    "ticker": null,
    "country": "AU",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
+     "debt": 10000000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1970,7 +1970,7 @@
     "inflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
+     "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1984,10 +1984,10 @@
      "guarantee": 0
     },
     "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
     "counterparties": 1,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 10000000000,
     "outflow_total_usd": 0
    }
   },
@@ -2145,11 +2145,11 @@
    "group": "datacenter",
    "ticker": null,
    "country": "US",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 1000000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -2165,7 +2165,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 2,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -2180,10 +2180,10 @@
      "guarantee": 0
     },
     "degree": 2,
-    "degree_curated": 0,
-    "candidate_edges": 2,
+    "degree_curated": 2,
+    "candidate_edges": 0,
     "counterparties": 2,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 1000000000,
     "outflow_total_usd": 0
    }
   },
@@ -2346,7 +2346,7 @@
     "inflow_usd": {
      "order": 9700000000,
      "investment": 0,
-     "debt": 5300000000,
+     "debt": 7700000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -2362,7 +2362,7 @@
     "inflow_count": {
      "order": 1,
      "investment": 0,
-     "debt": 2,
+     "debt": 3,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -2376,10 +2376,10 @@
      "guarantee": 0
     },
     "degree": 4,
-    "degree_curated": 3,
-    "candidate_edges": 1,
+    "degree_curated": 4,
+    "candidate_edges": 0,
     "counterparties": 3,
-    "inflow_total_usd": 15000000000,
+    "inflow_total_usd": 17400000000,
     "outflow_total_usd": 0
    }
   },
@@ -2439,7 +2439,7 @@
    "group": "financier",
    "ticker": "KKR",
    "country": "US",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
@@ -2467,15 +2467,15 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
     "counterparties": 1,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0
@@ -2488,10 +2488,10 @@
    "group": "chip",
    "ticker": null,
    "country": "CN",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
-     "order": 0,
+     "order": 139000000,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -2507,7 +2507,7 @@
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 0,
+     "order": 1,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -2523,10 +2523,10 @@
      "guarantee": 0
     },
     "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
     "counterparties": 1,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 139000000,
     "outflow_total_usd": 0
    }
   },
@@ -3223,7 +3223,7 @@
    "group": "hyperscaler",
    "ticker": "035420.KS",
    "country": "KR",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
@@ -3253,13 +3253,13 @@
      "order": 0,
      "investment": 0,
      "debt": 0,
-     "lease": 0,
+     "lease": 1,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 2,
-    "degree_curated": 0,
-    "candidate_edges": 2,
+    "degree_curated": 1,
+    "candidate_edges": 1,
     "counterparties": 2,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0
@@ -3398,15 +3398,15 @@
     },
     "outflow_count": {
      "order": 2,
-     "investment": 7,
+     "investment": 8,
      "debt": 0,
      "lease": 1,
      "vendor_financing": 0,
      "guarantee": 1
     },
     "degree": 22,
-    "degree_curated": 15,
-    "candidate_edges": 7,
+    "degree_curated": 16,
+    "candidate_edges": 6,
     "counterparties": 19,
     "inflow_total_usd": 40000000000,
     "outflow_total_usd": 161800000000
@@ -3566,13 +3566,13 @@
    "group": "datacenter",
    "ticker": null,
    "country": "US",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
-     "lease": 0,
+     "debt": 1100000000,
+     "lease": 2940000000,
      "vendor_financing": 0,
      "guarantee": 0
     },
@@ -3587,8 +3587,8 @@
     "inflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
-     "lease": 0,
+     "debt": 1,
+     "lease": 1,
      "vendor_financing": 0,
      "guarantee": 0
     },
@@ -3601,10 +3601,10 @@
      "guarantee": 0
     },
     "degree": 2,
-    "degree_curated": 0,
-    "candidate_edges": 2,
+    "degree_curated": 2,
+    "candidate_edges": 0,
     "counterparties": 2,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 4040000000,
     "outflow_total_usd": 0
    }
   },
@@ -3627,7 +3627,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 69000000000,
+     "investment": 69560000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -3643,18 +3643,18 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 6,
+     "investment": 7,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 15,
-    "degree_curated": 6,
-    "candidate_edges": 9,
+    "degree_curated": 7,
+    "candidate_edges": 8,
     "counterparties": 6,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 69000000000
+    "outflow_total_usd": 69560000000
    }
   },
   {
@@ -3796,10 +3796,10 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 2,
+    "degree": 1,
     "degree_curated": 1,
-    "candidate_edges": 1,
-    "counterparties": 2,
+    "candidate_edges": 0,
+    "counterparties": 1,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0
    }
@@ -3823,7 +3823,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 1000000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -3839,18 +3839,18 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 1,
+     "investment": 2,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 11,
-    "degree_curated": 2,
-    "candidate_edges": 9,
+    "degree_curated": 3,
+    "candidate_edges": 8,
     "counterparties": 10,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 0
+    "outflow_total_usd": 1000000000
    }
   },
   {
@@ -4168,7 +4168,7 @@
      "order": 0,
      "investment": 250000000000,
      "debt": 0,
-     "lease": 0,
+     "lease": 40000000000,
      "vendor_financing": 0,
      "guarantee": 0
     },
@@ -4184,16 +4184,16 @@
      "order": 0,
      "investment": 1,
      "debt": 0,
-     "lease": 0,
+     "lease": 1,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 6,
-    "degree_curated": 5,
-    "candidate_edges": 1,
+    "degree_curated": 6,
+    "candidate_edges": 0,
     "counterparties": 6,
     "inflow_total_usd": 75000000000,
-    "outflow_total_usd": 250000000000
+    "outflow_total_usd": 290000000000
    }
   },
   {
@@ -4207,7 +4207,7 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 3000000000,
      "debt": 18000000000,
      "lease": 0,
      "vendor_financing": 0,
@@ -4223,7 +4223,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
@@ -4238,10 +4238,10 @@
      "guarantee": 0
     },
     "degree": 2,
-    "degree_curated": 1,
-    "candidate_edges": 1,
+    "degree_curated": 2,
+    "candidate_edges": 0,
     "counterparties": 2,
-    "inflow_total_usd": 18000000000,
+    "inflow_total_usd": 21000000000,
     "outflow_total_usd": 0
    }
   },
@@ -4301,7 +4301,7 @@
    "group": "datacenter",
    "ticker": null,
    "country": "US",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
@@ -4321,7 +4321,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -4336,8 +4336,8 @@
      "guarantee": 0
     },
     "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
     "counterparties": 1,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0
@@ -4787,6 +4787,38 @@
  ],
  "edges": [
   {
+   "id": "spacex-apollo-2026-10-gpu-finance-lease",
+   "kind": "lease",
+   "subkind": "GPU master finance lease",
+   "from": "spacex",
+   "to": "apollo",
+   "amount_usd": 40000000000,
+   "amount_text": "~$40B binding commitment; Apollo-managed entity buys the chips and servers and leases them to SpaceX on ~5-5.25-year leases; closing expected by year-end 2026",
+   "announced": "2026-10-26",
+   "term": "Leases start H1 2027 as each tranche is delivered; ~5-5.25 years",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "SpaceX (xAI) signs $40B Apollo-led GPU lease financing",
+   "title_zh": "SpaceX（xAI）签署阿波罗牵头的 400 亿美元 GPU 租赁融资",
+   "summary_en": "SpaceX, xAI's parent, disclosed in a regulatory filing a binding commitment of about $40B under which an Apollo-managed entity buys Nvidia AI chips and data-centre equipment and leases them to SpaceX; it called it the largest committed GPU financing.",
+   "summary_zh": "xAI 母公司 SpaceX 在监管文件中披露约 400 亿美元的有约束力承诺：由阿波罗管理的实体购买英伟达 AI 芯片和数据中心设备并租给 SpaceX，租期约 5 至 5.25 年，SpaceX 称其为最大的已承诺 GPU 融资。",
+   "sources": [
+    {
+     "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
+     "publisher": "TechCrunch",
+     "date": "2026-10-26",
+     "title": "SpaceX locks in $40B GPU financing deal with Apollo"
+    },
+    {
+     "url": "https://money.usnews.com/investing/news/articles/2026-10-26/spacex-enters-40-billion-deal-with-apollo-for-ai-chip-financing",
+     "publisher": "U.S. News (Reuters)",
+     "date": "2026-10-26",
+     "title": "SpaceX Enters $40 Billion Deal With Apollo for AI Chip Financing"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "bond-investors-tencent-2026-10-dual-currency-notes",
    "kind": "debt",
    "subkind": "senior notes (USD and offshore CNY)",
@@ -4915,6 +4947,96 @@
    "origin": "curated"
   },
   {
+   "id": "samsung-helix-digital-infrastructure-2026-09-equity",
+   "kind": "investment",
+   "subkind": "equity commitment",
+   "from": "samsung",
+   "to": "helix-digital-infrastructure",
+   "amount_usd": 1000000000,
+   "amount_text": "$1B combined: $500M from Samsung Electronics and $500M from five affiliates",
+   "announced": "2026-09-29",
+   "term": null,
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Samsung commits $1B to KKR-led Helix",
+   "title_zh": "三星向 KKR 牵头的 Helix 投资 10 亿美元",
+   "summary_en": "Samsung Electronics and five affiliates agreed to invest a combined $1B in Helix Digital Infrastructure, the KKR-led AI infrastructure platform backed by Nvidia.",
+   "summary_zh": "三星电子及五家关联公司同意合计向 KKR 牵头、英伟达支持的 AI 基础设施平台 Helix 数字基础设施投资 10 亿美元（三星电子 5 亿美元，五家关联公司合计 5 亿美元）。",
+   "sources": [
+    {
+     "url": "https://www.koreatimes.co.kr/business/companies/20260929/samsung-group-to-invest-1-bil-in-ai-infrastructure-company-helix",
+     "publisher": "The Korea Times",
+     "date": "2026-09-29",
+     "title": "Samsung Group to invest $1 bil. in AI infrastructure company Helix"
+    },
+    {
+     "url": "https://thenextweb.com/news/samsung-1bn-helix-kkr-ai-infrastructure",
+     "publisher": "The Next Web",
+     "date": "2026-09-29",
+     "title": "Samsung and five affiliates put $1bn into KKR's AI infrastructure firm"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "blue-owl-stack-infrastructure-2026-09-project-jupiter-equity",
+   "kind": "investment",
+   "subkind": "data-centre equity",
+   "from": "blue-owl",
+   "to": "stack-infrastructure",
+   "amount_usd": 3000000000,
+   "amount_text": "~$3B of equity per a person familiar with the terms (Reuters, 2026-09-24); not confirmed by Blue Owl",
+   "announced": "2026-09-24",
+   "term": "Oracle-leased campus in Doña Ana County, New Mexico",
+   "status": "in_progress",
+   "confidence": "reported",
+   "title_en": "Blue Owl's ~$3B equity in Oracle's Project Jupiter campus",
+   "title_zh": "Blue Owl 在甲骨文 Project Jupiter 园区约 30 亿美元股权投资",
+   "summary_en": "Blue Owl, owner of developer STACK Infrastructure, has about $3B of equity in Project Jupiter, the AI campus in New Mexico built for Oracle and OpenAI. In September 2026 Oracle sent a force majeure notice over delays securing power; Blue Owl said the notice does not change the financial commitments.",
+   "summary_zh": "开发商 STACK Infrastructure 的母公司 Blue Owl 在新墨西哥州为甲骨文和 OpenAI 建设的 Project Jupiter AI 园区持有约 30 亿美元股权（知情人士透露，Blue Owl 未确认）。2026 年 9 月甲骨文因供电延误发出不可抗力通知；Blue Owl 称该通知不改变资金承诺。",
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/technology/ai/articles/analysis-oracle-blue-owl-project-225500245.html",
+     "publisher": "Yahoo Finance (Reuters)",
+     "date": "2026-09-24",
+     "title": "Analysis-Oracle, Blue Owl project delay sends ripples through AI financing, sources say"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bond-investors-powerhouse-data-centers-2026-09-richmond-notes",
+   "kind": "debt",
+   "subkind": "high-yield project bonds",
+   "from": "bond-investors",
+   "to": "powerhouse-data-centers",
+   "amount_usd": 1100000000,
+   "amount_text": "~$1.1B five-year notes (reports range $1.1-1.15B), priced at 98.5 to yield 9.25%; S&P BB- on the notes; Goldman Sachs led",
+   "announced": "2026-09-23",
+   "term": "5 years",
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "$1.1B junk bonds for Blue Owl-backed CoreWeave data centre",
+   "title_zh": "Blue Owl 支持的 CoreWeave 数据中心发行 11 亿美元垃圾债",
+   "summary_en": "A project company backed by Blue Owl affiliates and developed with PowerHouse Data Centers sold about $1.1B of five-year junk bonds to build the 76 MW Digital Drive campus near Richmond, Virginia, fully leased to CoreWeave; the 9.25% yield was about 2.7 points above similarly rated debt.",
+   "summary_zh": "由 Blue Owl 关联方支持、PowerHouse 数据中心参与开发的项目公司发行约 11 亿美元五年期垃圾债，用于建设弗吉尼亚州里士满附近、全部租给 CoreWeave 的 76 兆瓦 Digital Drive 园区；9.25% 的收益率比同评级债券高约 2.7 个百分点。",
+   "sources": [
+    {
+     "url": "https://www.bloomberg.com/news/articles/2026-09-23/coreweave-tied-data-center-raises-1-1-billion-in-junk-bonds",
+     "publisher": "Bloomberg",
+     "date": "2026-09-23",
+     "title": "CoreWeave-Tied Data Center Raises $1.1 Billion in Junk Bonds"
+    },
+    {
+     "url": "https://dealroom.co/news/155885-coreweave-tied-data-center-lands-1-1b-in-junk-bonds/",
+     "publisher": "Dealroom",
+     "date": "2026-09-23",
+     "title": "CoreWeave-tied data center lands $1.1B in junk bonds"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "bond-investors-softbank-2026-09-bonds",
    "kind": "debt",
    "subkind": "high-yield senior notes (USD + EUR)",
@@ -4942,6 +5064,38 @@
      "publisher": "Bloomberg",
      "date": "2026-04-01",
      "title": "SoftBank Pays Record 8.5% on Part of $3.6 Billion Bond Sale"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "coreweave-powerhouse-data-centers-2026-09-richmond-lease",
+   "kind": "lease",
+   "subkind": "15-year data-centre lease",
+   "from": "coreweave",
+   "to": "powerhouse-data-centers",
+   "amount_usd": 2940000000,
+   "amount_text": "$2.94B over 15 years (per Bloomberg, from the bond marketing)",
+   "announced": "2026-09-21",
+   "term": "15 years; operations targeted 2027-2028",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "CoreWeave 15-year, $2.94B lease of Richmond Digital Drive campus",
+   "title_zh": "CoreWeave 以 29.4 亿美元租用里士满 Digital Drive 园区 15 年",
+   "summary_en": "CoreWeave leases all 76 MW of IT capacity at the Digital Drive campus near Richmond, Virginia, under a 15-year contract worth $2.94B; its rent services the project's $1.1B junk bonds.",
+   "summary_zh": "CoreWeave 以价值 29.4 亿美元的 15 年合同租下弗吉尼亚州里士满附近 Digital Drive 园区全部 76 兆瓦 IT 容量；租金用于偿付该项目 11 亿美元垃圾债。",
+   "sources": [
+    {
+     "url": "https://www.bloomberg.com/news/articles/2026-09-21/coreweave-tied-data-center-project-kicks-off-junk-bond-offering",
+     "publisher": "Bloomberg",
+     "date": "2026-09-21",
+     "title": "CoreWeave-Tied Data Center Project Kicks Off Junk-Bond Offering"
+    },
+    {
+     "url": "https://www.briefs.co/news/goldman-leads-sale-of-1-1-billion-junk-bond-for-coreweave-le/",
+     "publisher": "Briefs",
+     "date": "2026-09-21",
+     "title": "Goldman Leads $1.1B Junk Bond for CoreWeave Center"
     }
    ],
    "origin": "curated"
@@ -5000,6 +5154,38 @@
      "publisher": "CoreWeave",
      "date": "2026-09-18",
      "title": "CoreWeave Prices Upsized $3.7 Billion Convertible Senior Notes Offering"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bank-lenders-crux-ai-2026-09-tpu-loan",
+   "kind": "debt",
+   "subkind": "chip-backed bank loan",
+   "from": "bank-lenders",
+   "to": "crux-ai",
+   "amount_usd": 22000000000,
+   "amount_text": "~$22B being lined up by 10 banks incl. Goldman Sachs, SMBC, Barclays, BNP Paribas, Bank of Nova Scotia (Bloomberg); separate $1B revolver not counted; not confirmed closed",
+   "announced": "2026-09-16",
+   "term": null,
+   "status": "reported",
+   "confidence": "reported",
+   "title_en": "Banks line up $22B chip loan for Blackstone-Google Crux AI",
+   "title_zh": "银行为黑石与谷歌的 Crux AI 安排 220 亿美元芯片贷款",
+   "summary_en": "A group of 10 banks is lining up about $22B of debt for Crux AI to buy Google TPUs, secured on the chips and customer contracts, Bloomberg reported; the banks are working to syndicate it and closing was not confirmed.",
+   "summary_zh": "据彭博报道，10 家银行正为 Crux AI 安排约 220 亿美元债务用于购买谷歌 TPU，以芯片和客户合同作抵押，并寻求银团分销；该融资是否已完成尚未得到确认。",
+   "sources": [
+    {
+     "url": "https://pulse2.com/crux-ai-lines-up-22-billion-chip-loan-from-10-banks-to-buy-google-tpus/",
+     "publisher": "Pulse 2.0 (Bloomberg)",
+     "date": "2026-09-16",
+     "title": "Crux AI Lines Up $22 Billion Chip Loan From 10 Banks To Buy Google TPUs"
+    },
+    {
+     "url": "https://wsau.com/2026/09/16/banks-provide-22-billion-chip-loan-to-blackstone-alphabet-cloud-venture-bloomberg-news-reports/",
+     "publisher": "WSAU (Reuters)",
+     "date": "2026-09-16",
+     "title": "Banks provide $22 billion chip loan to Blackstone-Alphabet cloud venture, Bloomberg News reports"
     }
    ],
    "origin": "curated"
@@ -5064,6 +5250,38 @@
      "publisher": "Reuters via The Standard",
      "date": "2026-09-01",
      "title": "Anthropic signs US$35 billion cloud deal with Nvidia-backed Lambda, source says"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "blue-owl-iren-2026-08-gpu-financing",
+   "kind": "debt",
+   "subkind": "GPU-backed term loan and senior secured notes",
+   "from": "blue-owl",
+   "to": "iren",
+   "amount_usd": 2400000000,
+   "amount_text": "$2.4B: $1.2B senior secured term loan + $1.2B senior secured notes, led by Blue Owl-managed funds, drawn in tranches",
+   "announced": "2026-08-28",
+   "term": null,
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Blue Owl leads $2.4B GPU financing for IREN",
+   "title_zh": "Blue Owl 牵头为 IREN 提供 24 亿美元 GPU 融资",
+   "summary_en": "Blue Owl-managed funds led a $2.4B compute-equipment financing for IREN, split between a term loan and secured notes, to buy Nvidia Blackwell Ultra GPUs for IREN's Mackenzie campus in British Columbia.",
+   "summary_zh": "Blue Owl 管理的基金牵头为 IREN 提供 24 亿美元算力设备融资（定期贷款与有担保票据各 12 亿美元），用于购买部署在不列颠哥伦比亚省 Mackenzie 园区的英伟达 Blackwell Ultra GPU。",
+   "sources": [
+    {
+     "url": "https://www.blueowl.com/news/blue-owl-managed-funds-lead-24-billion-ai-factory-financing-iren",
+     "publisher": "Blue Owl",
+     "date": "2026-08-28",
+     "title": "Blue Owl Managed Funds Lead $2.4 Billion AI Factory Financing for IREN"
+    },
+    {
+     "url": "https://www.prnewswire.com/news-releases/blue-owl-managed-funds-lead-24-billion-ai-factory-financing-iren-302863057.html",
+     "publisher": "PR Newswire",
+     "date": "2026-08-28",
+     "title": "Blue Owl Managed Funds Lead $2.4 Billion AI Factory Financing for IREN"
     }
    ],
    "origin": "curated"
@@ -5339,6 +5557,38 @@
    "origin": "curated"
   },
   {
+   "id": "naver-brookfield-2026-07-ai-factory-compute",
+   "kind": "lease",
+   "subkind": "GPU and data-centre equipment SPV (usage fees)",
+   "from": "naver",
+   "to": "brookfield",
+   "amount_usd": null,
+   "amount_text": "Brookfield to invest up to $9B in an SPV that owns the GPUs and equipment; Naver's AI factory operator pays usage-based fees (no fee level disclosed); structure still under discussion",
+   "announced": "2026-07-27",
+   "term": "GAK Sejong site 55 MW in H1 2027, 200 MW by 2028",
+   "status": "announced",
+   "confidence": "confirmed",
+   "title_en": "Brookfield to fund up to $9B of compute for Naver's AI factory",
+   "title_zh": "布鲁克菲尔德为 NAVER AI 工厂提供最高 90 亿美元算力融资",
+   "summary_en": "Brookfield plans to invest up to $9B in an SPV that buys GPUs and data-centre equipment for Naver's AI factory in Sejong, South Korea; Naver's operating company procures compute from the SPV and pays fees based on usage. Nvidia plans a $1B investment in Naver.",
+   "summary_zh": "布鲁克菲尔德计划向一个特殊目的实体投入最高 90 亿美元，为 NAVER 位于韩国世宗的 AI 工厂购买 GPU 和数据中心设备；NAVER 的运营公司向该实体采购算力并按使用量付费，具体结构仍在商讨。英伟达计划向 NAVER 投资 10 亿美元。",
+   "sources": [
+    {
+     "url": "https://www.aap.com.au/aapreleases/cision20260725ae12156/",
+     "publisher": "AAP (Cision release)",
+     "date": "2026-07-27",
+     "title": "NAVER Partners with Brookfield and NVIDIA to Expand Korea's National AI Factory Infrastructure Buildout"
+    },
+    {
+     "url": "https://www.bnnbloomberg.ca/business/company-news/2026/07/27/brookfield-to-commit-up-to-9-billion-to-expand-south-korean-ai-data-centre/",
+     "publisher": "BNN Bloomberg",
+     "date": "2026-07-27",
+     "title": "Brookfield to commit up to $9 billion to expand South Korean AI data centre"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "bond-investors-sopaipilla-2026-07-el-paso-notes",
    "kind": "debt",
    "subkind": "private-credit SPV bonds",
@@ -5481,6 +5731,38 @@
    "origin": "curated"
   },
   {
+   "id": "brookfield-bloom-energy-2026-06-expansion",
+   "kind": "order",
+   "subkind": "fuel-cell power framework expansion",
+   "from": "brookfield",
+   "to": "bloom-energy",
+   "amount_usd": 20000000000,
+   "amount_text": "Framework raised from $5B to $25B; $20B increment counted here (the original $5B is a separate edge)",
+   "announced": "2026-06-30",
+   "term": null,
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Brookfield expands Bloom Energy partnership to $25B",
+   "title_zh": "布鲁克菲尔德将与 Bloom Energy 的合作扩大至 250 亿美元",
+   "summary_en": "Brookfield raised its framework to finance Bloom Energy fuel-cell power projects for AI infrastructure fivefold, from $5B to $25B, under its AI Infrastructure Fund.",
+   "summary_zh": "布鲁克菲尔德通过其 AI 基础设施基金，将为 Bloom Energy 燃料电池电力项目融资的框架从 50 亿美元扩大五倍至 250 亿美元。",
+   "sources": [
+    {
+     "url": "https://secure.businesswire.com/news/home/20260630023022/en/Brookfield-and-Bloom-Energy-Expand-AI-Infrastructure-Partnership-to-%2425-Billion-Fivefold-Increase-to-Build-and-Finance-Rapid-Power-for-AI-Infrastructure",
+     "publisher": "Business Wire",
+     "date": "2026-06-30",
+     "title": "Brookfield and Bloom Energy Expand AI Infrastructure Partnership to $25 Billion"
+    },
+    {
+     "url": "https://lasvegassun.com/news/2026/jun/30/brookfield-and-bloom-energy-expand-ai-infrastructu/",
+     "publisher": "Las Vegas Sun (Business Wire)",
+     "date": "2026-06-30",
+     "title": "Brookfield and Bloom Energy Expand AI Infrastructure Partnership to $25 Billion"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "bond-investors-spacex-2026-06-bonds",
    "kind": "debt",
    "subkind": "corporate bonds (investment grade)",
@@ -5508,6 +5790,70 @@
      "publisher": "The Standard (Bloomberg)",
      "date": "2026-06-01",
      "title": "SpaceX's US$25b notes offering for debt repayment, AI faces greater skepticism"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "kkr-helix-digital-infrastructure-2026-06-launch",
+   "kind": "investment",
+   "subkind": "platform equity commitments",
+   "from": "kkr",
+   "to": "helix-digital-infrastructure",
+   "amount_usd": null,
+   "amount_text": ">$10B committed in total by founding investors KKR, Kuwait Investment Authority, Nvidia and Vistra (split undisclosed)",
+   "announced": "2026-06-11",
+   "term": null,
+   "status": "in_progress",
+   "confidence": "reported",
+   "title_en": "KKR launches Helix AI infrastructure platform with $10B+",
+   "title_zh": "KKR 以逾 100 亿美元启动 Helix AI 基础设施平台",
+   "summary_en": "KKR launched Helix Digital Infrastructure, led by former AWS CEO Adam Selipsky, with more than $10B committed by KKR, the Kuwait Investment Authority, Nvidia (technology partner) and Vistra (preferred power provider) to build data centres, power and fibre.",
+   "summary_zh": "KKR 启动由前 AWS 首席执行官 Adam Selipsky 领导的 Helix 数字基础设施，KKR、科威特投资局、英伟达（技术伙伴）和 Vistra（首选电力供应商）承诺逾 100 亿美元，用于建设数据中心、电力和光纤。",
+   "sources": [
+    {
+     "url": "https://www.marketscreener.com/news/kkr-launches-helix-a-10bn-platform-for-ai-infrastructure-ce7f5cd8da89f124",
+     "publisher": "MarketScreener",
+     "date": "2026-06-11",
+     "title": "KKR Launches Helix, a $10bn Platform for AI Infrastructure"
+    },
+    {
+     "url": "https://www.dealstreetasia.com/stories/kkr-ai-infrastructure-platform-485308/",
+     "publisher": "DealStreetAsia",
+     "date": "2026-06-11",
+     "title": "KKR launches $10b AI infra platform with Kuwait, Nvidia, Vistra"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "apollo-broadcom-ai-xpv-2026-06-anthropic-chip-loan",
+   "kind": "debt",
+   "subkind": "chip-backed private-credit loan",
+   "from": "apollo",
+   "to": "broadcom-ai-xpv",
+   "amount_usd": 35000000000,
+   "amount_text": "$35B initial capital solution led by Apollo funds with Blackstone and other banks; about half reportedly syndicated; multi-year draw schedule",
+   "announced": "2026-06-09",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Apollo and Blackstone lend $35B to Broadcom's chip SPV for Anthropic",
+   "title_zh": "阿波罗与黑石向博通为 Anthropic 设立的芯片 SPV 贷款 350 亿美元",
+   "summary_en": "Apollo led, with Blackstone and other banks, a $35B initial financing for Broadcom's AI XPV platform, an SPV that buys Google-designed TPUs and leases them to Anthropic, with lease payments repaying the debt. Broadcom covers shortfalls to the senior A1/A2 notes if Anthropic stops paying and the chips cannot be sold for enough.",
+   "summary_zh": "阿波罗牵头、黑石及其他银行参与，为博通 AI XPV 平台提供 350 亿美元首期融资；该特殊目的实体购买谷歌设计的 TPU 并租给 Anthropic，以租金偿债。若 Anthropic 停付且出售芯片不足以偿还，博通负责补足优先级 A1/A2 票据的缺口。",
+   "sources": [
+    {
+     "url": "https://ir.apollo.com/news-events/press-releases/detail/629/apollo-leads-35-billion-capital-solution-for-broadcom-ai",
+     "publisher": "Apollo",
+     "date": "2026-06-09",
+     "title": "Apollo Leads $35 Billion Capital Solution for Broadcom AI XPV Platform"
+    },
+    {
+     "url": "https://pitchbook.com/news/articles/apollo-blackstone-lend-35b-against-ai-chips-computing-power",
+     "publisher": "PitchBook",
+     "date": "2026-06-11",
+     "title": "Apollo, Blackstone lend $35B against AI chips, computing power"
     }
    ],
    "origin": "curated"
@@ -5670,6 +6016,38 @@
      "publisher": "Anthropic",
      "date": "2026-05-28",
      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "blackstone-crux-ai-2026-05-equity",
+   "kind": "investment",
+   "subkind": "joint-venture equity",
+   "from": "blackstone",
+   "to": "crux-ai",
+   "amount_usd": 5000000000,
+   "amount_text": "$5B initial equity from Blackstone; Google supplies TPUs, software and services; up to ~$25B including leverage (Reuters, per Data Center Knowledge)",
+   "announced": "2026-05-18",
+   "term": "500 MW online in 2027",
+   "status": "in_progress",
+   "confidence": "reported",
+   "title_en": "Blackstone commits $5B to Crux AI, its TPU cloud with Google",
+   "title_zh": "黑石向与谷歌合办的 TPU 云 Crux AI 注资 50 亿美元",
+   "summary_en": "Blackstone committed an initial $5B of equity to a TPU cloud venture with Google that rents out Google TPUs as compute-as-a-service, aiming for 500 MW of capacity in 2027; Google veteran Benjamin Treynor Sloss is CEO.",
+   "summary_zh": "黑石承诺首期 50 亿美元股权，与谷歌合办出租谷歌 TPU 算力的云业务，目标在 2027 年上线 500 兆瓦，由谷歌资深基础设施高管 Benjamin Treynor Sloss 任首席执行官。",
+   "sources": [
+    {
+     "url": "https://www.datacenterknowledge.com/infrastructure/blackstone-google-launch-5b-tpu-infrastructure-venture",
+     "publisher": "Data Center Knowledge",
+     "date": "2026-05-19",
+     "title": "Does Google's $5B TPU Deal Signal a New Neocloud Era?"
+    },
+    {
+     "url": "https://thenextweb.com/news/google-blackstone-tpu-cloud-joint-venture-5bn",
+     "publisher": "The Next Web",
+     "date": "2026-05-18",
+     "title": "Blackstone takes the majority position in Google's new TPU cloud"
     }
    ],
    "origin": "curated"
@@ -6649,6 +7027,38 @@
    "origin": "curated"
   },
   {
+   "id": "blackstone-firmus-2026-02-debt-facility",
+   "kind": "debt",
+   "subkind": "private credit facility",
+   "from": "blackstone",
+   "to": "firmus",
+   "amount_usd": 10000000000,
+   "amount_text": "US$10B facility led by Blackstone Tactical Opportunities and Blackstone Credit & Insurance, with Coatue",
+   "announced": "2026-02-09",
+   "term": null,
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Blackstone leads $10B debt facility for Australia's Firmus",
+   "title_zh": "黑石牵头为澳大利亚 Firmus 提供 100 亿美元债务融资",
+   "summary_en": "Blackstone funds led, with Coatue, a US$10B private debt facility for Nvidia-backed Firmus to fund the next stage of its Project Southgate AI factories.",
+   "summary_zh": "黑石基金牵头、Coatue 参与，为英伟达支持的 Firmus 提供 100 亿美元私募信贷额度，用于 Project Southgate AI 工厂下一阶段建设。",
+   "sources": [
+    {
+     "url": "https://www.bloomberg.com/news/articles/2026-02-09/blackstone-coatue-grant-10-billion-loan-to-australia-ai-firm",
+     "publisher": "Bloomberg",
+     "date": "2026-02-09",
+     "title": "Nvidia-Backed AI Startup Gets $10 Billion in Blackstone-Led Loan"
+    },
+    {
+     "url": "https://www.kirkland.com/news/press-release/2026/02/kirkland-represents-blackstone-on-ai-infrastructure-company-firmus-us-10-b-df-facility",
+     "publisher": "Kirkland & Ellis",
+     "date": "2026-02-11",
+     "title": "Kirkland & Ellis press release: Blackstone on Firmus US$10B facility"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "bond-investors-alphabet-2026-02-bonds",
    "kind": "debt",
    "subkind": "corporate bonds incl. 100-year sterling bond",
@@ -7283,6 +7693,38 @@
    "origin": "curated"
   },
   {
+   "id": "nvidia-brookfield-2025-11-ai-infrastructure-fund",
+   "kind": "investment",
+   "subkind": "fund commitment (LP)",
+   "from": "nvidia",
+   "to": "brookfield",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; fund targets $10B of equity, $5B committed at launch by Brookfield, Nvidia, KIA and others; up to $100B of assets with co-investment and debt",
+   "announced": "2025-11-19",
+   "term": null,
+   "status": "in_progress",
+   "confidence": "confirmed",
+   "title_en": "Nvidia joins Brookfield's $100B AI infrastructure programme",
+   "title_zh": "英伟达加入布鲁克菲尔德 1000 亿美元 AI 基础设施计划",
+   "summary_en": "Nvidia and the Kuwait Investment Authority joined as founding investors in the Brookfield Artificial Intelligence Infrastructure Fund, which aims to buy up to $100B of AI assets across energy, land, data centres and compute.",
+   "summary_zh": "英伟达与科威特投资局作为创始投资者加入布鲁克菲尔德人工智能基础设施基金，该基金计划收购最高 1000 亿美元覆盖能源、土地、数据中心和算力的 AI 资产。",
+   "sources": [
+    {
+     "url": "https://www.nasdaq.com/press-release/brookfield-launches-100-billion-ai-infrastructure-program-2025-11-19",
+     "publisher": "Nasdaq (press release)",
+     "date": "2025-11-19",
+     "title": "Brookfield Launches $100 Billion AI Infrastructure Program"
+    },
+    {
+     "url": "https://datacenterdynamics.com/en/news/brookfield-launches-100bn-ai-infrastructure-fund-secures-nvidia-and-kia-as-backers",
+     "publisher": "DCD",
+     "date": "2025-11-19",
+     "title": "Brookfield launches $100bn AI infrastructure fund, secures Nvidia and KIA as backers"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "anthropic-microsoft-2025-11-azure",
    "kind": "order",
    "subkind": "cloud compute commitment",
@@ -7771,6 +8213,38 @@
    "origin": "curated"
   },
   {
+   "id": "blue-owl-beignet-investor-2025-10-hyperion-equity",
+   "kind": "investment",
+   "subkind": "80% joint-venture equity stake",
+   "from": "blue-owl",
+   "to": "beignet-investor",
+   "amount_usd": 7000000000,
+   "amount_text": "~$7B cash contributed by Blue Owl funds for 80% of the JV (Meta keeps 20% and received a ~$3B one-time distribution); total development cost ~$27B",
+   "announced": "2025-10-21",
+   "term": "JV owns the Hyperion campus; Meta leases it on 4-year initial terms with extensions",
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Blue Owl funds take an 80% stake in Meta's Hyperion data-centre JV",
+   "title_zh": "Blue Owl 基金入股 Meta Hyperion 数据中心合资公司 80%",
+   "summary_en": "Blue Owl-managed funds hold 80% of the joint venture that owns Meta's Hyperion campus in Louisiana, having put in about $7B of cash; Meta kept 20% and took a one-time distribution of about $3B. The JV's bonds and Meta's lease are separate edges.",
+   "summary_zh": "Blue Owl 管理的基金持有 Meta 路易斯安那州 Hyperion 园区合资公司 80% 股权，出资约 70 亿美元现金；Meta 保留 20% 并获得约 30 亿美元一次性分配。该合资公司的债券和 Meta 的租约另列。",
+   "sources": [
+    {
+     "url": "https://www.fierce-network.com/newswire/investment-firm-take-80-stake-metas-hyperion-data-center",
+     "publisher": "Fierce Network",
+     "date": "2025-10-21",
+     "title": "Investment firm to take 80% stake in Meta's Hyperion data center"
+    },
+    {
+     "url": "https://www.theasset.com/article/55209/meta-blue-owl-sign-us-27-billion-data-centre-campus-deal",
+     "publisher": "The Asset",
+     "date": "2025-10-29",
+     "title": "Meta, Blue Owl sign US$27 billion data centre campus deal"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "meta-beignet-2025-10-hyperion-lease",
    "kind": "lease",
    "subkind": "data-centre lease (off-balance-sheet SPV)",
@@ -8003,6 +8477,32 @@
    "origin": "curated"
   },
   {
+   "id": "brookfield-bloom-energy-2025-10-fuel-cells",
+   "kind": "order",
+   "subkind": "on-site fuel-cell power framework",
+   "from": "brookfield",
+   "to": "bloom-energy",
+   "amount_usd": 5000000000,
+   "amount_text": "Up to $5B to deploy Bloom fuel cells at Brookfield AI factories (first phase); first deal of Brookfield's AI Infrastructure strategy",
+   "announced": "2025-10-13",
+   "term": null,
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Brookfield's $5B Bloom Energy fuel-cell deal for AI data centres",
+   "title_zh": "布鲁克菲尔德与 Bloom Energy 签订 50 亿美元 AI 数据中心燃料电池协议",
+   "summary_en": "Brookfield agreed to invest up to $5B deploying Bloom Energy's fuel cells as behind-the-meter power for its AI data centres, making Bloom its preferred on-site power supplier.",
+   "summary_zh": "布鲁克菲尔德同意投资最高 50 亿美元，在其 AI 数据中心部署 Bloom Energy 燃料电池作为表后电源，Bloom 成为其首选现场电力供应商。",
+   "sources": [
+    {
+     "url": "https://www.businesswire.com/news/home/20251013114760/en/Brookfield-and-Bloom-Energy-Announce-%245-Billion-Strategic-AI-Infrastructure-Partnership",
+     "publisher": "Business Wire",
+     "date": "2025-10-13",
+     "title": "Brookfield and Bloom Energy Announce $5 Billion Strategic AI Infrastructure Partnership"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "openai-broadcom-2025-10-10gw",
    "kind": "order",
    "subkind": "custom accelerator co-development and supply",
@@ -8154,6 +8654,38 @@
      "publisher": "PYMNTS",
      "date": "2025-09-30",
      "title": "AI Hyperscaler CoreWeave Signs $14.2 Billion Deal With Meta"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "private-investors-cambricon-2025-09-placement",
+   "kind": "investment",
+   "subkind": "A-share private placement (定增)",
+   "from": "private-investors",
+   "to": "cambricon",
+   "amount_usd": 560000000,
+   "amount_text": "CNY 3.985B (~$560M at ~7.11 CNY/USD) at CNY 1,195.02/share to 13 investors incl. GF Fund (CNY 1.208B), UBS AG, New China Asset",
+   "announced": "2025-09-30",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Cambricon CNY 3.99B private placement for large-model chips",
+   "title_zh": "寒武纪 39.85 亿元定增投向大模型芯片",
+   "summary_en": "Cambricon raised CNY 3.985B from 13 institutional investors to fund a chip platform and a software platform for large AI models, plus working capital. The new shares were registered on 16 October 2025.",
+   "summary_zh": "寒武纪向 13 家机构定增募资 39.85 亿元，用于面向大模型的芯片平台和软件平台项目及补充流动资金；新增股份于 2025 年 10 月 16 日完成登记。",
+   "sources": [
+    {
+     "url": "https://finance.sina.com.cn/jjxw/2025-10-20/doc-infuqftf5043954.shtml",
+     "publisher": "新浪财经 Sina Finance",
+     "date": "2025-10-20",
+     "title": "寒武纪近40亿元定增完成，广发基金获配12亿元"
+    },
+    {
+     "url": "https://finance.sina.com.cn/stock/bxjj/2025-10-01/doc-infsiyww1802633.shtml",
+     "publisher": "新浪财经 Sina Finance",
+     "date": "2025-10-01",
+     "title": "1195.02元/股，总金额39.85亿元！寒武纪定增价格出炉"
     }
    ],
    "origin": "curated"
@@ -8485,6 +9017,38 @@
    "origin": "curated"
   },
   {
+   "id": "bond-investors-baidu-2025-09-dim-sum",
+   "kind": "debt",
+   "subkind": "offshore yuan (dim sum) notes",
+   "from": "bond-investors",
+   "to": "baidu",
+   "amount_usd": 618000000,
+   "amount_text": "CNY 4.4B (~$618M at ~7.12 CNY/USD), 1.90% coupon, due 2029",
+   "announced": "2025-09-08",
+   "term": "due 2029",
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Baidu CNY 4.4B dim sum bonds for AI",
+   "title_zh": "百度 44 亿元离岸人民币债券支持 AI",
+   "summary_en": "Baidu sold CNY 4.4B of 1.90% senior unsecured notes due 2029 for general corporate purposes including repaying debt, as it funds AI; completed on 15 September 2025. With the March deal it raised CNY 14.4B in dim sum bonds in 2025.",
+   "summary_zh": "百度发行 44 亿元、票息 1.90%、2029 年到期的高级无抵押票据，用于偿债等一般公司用途，支持其 AI 投入，于 2025 年 9 月 15 日完成；连同 3 月发行，2025 年点心债共募资 144 亿元。",
+   "sources": [
+    {
+     "url": "https://filingreader.com/news-wire/hongkong/2025-09-15/baidu-completes-cny44-bn-senior-notes-offering",
+     "publisher": "FilingReader (HKEX filing summary)",
+     "date": "2025-09-15",
+     "title": "Baidu completes CNY4.4 bn senior notes offering"
+    },
+    {
+     "url": "https://www.cnbc.com/amp/2025/09/17/baidu-shares-ai-partnership-fresh-capital-.html",
+     "publisher": "CNBC",
+     "date": "2025-09-17",
+     "title": "China's Baidu soars 16% to hit 2-year highs amid positive signs for its AI business"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "microsoft-nebius-2025-09-gpu",
    "kind": "order",
    "subkind": "dedicated GPU capacity contract",
@@ -8569,6 +9133,64 @@
    "origin": "curated"
   },
   {
+   "id": "blue-owl-chirisa-technology-parks-2025-08-lancaster-jv",
+   "kind": "investment",
+   "subkind": "data-centre joint venture funding",
+   "from": "blue-owl",
+   "to": "chirisa-technology-parks",
+   "amount_usd": 4000000000,
+   "amount_text": "$4B JV funding (Blue Owl funds, Chirisa Technology Parks affiliates, Machine Investment Group)",
+   "announced": "2025-08-26",
+   "term": null,
+   "status": "in_progress",
+   "confidence": "reported",
+   "title_en": "Blue Owl-led $4B JV funds CoreWeave's Lancaster campus",
+   "title_zh": "Blue Owl 牵头的 40 亿美元合资为 CoreWeave 兰开斯特园区融资",
+   "summary_en": "Blue Owl funds, Chirisa Technology Parks affiliates and Machine Investment Group closed a JV with $4B of funding for the CoreWeave-leased AI campus in Lancaster, Pennsylvania.",
+   "summary_zh": "Blue Owl 基金、Chirisa 科技园关联方与 Machine Investment Group 完成合资，为 CoreWeave 承租的宾夕法尼亚州兰开斯特 AI 园区提供 40 亿美元资金。",
+   "sources": [
+    {
+     "url": "https://irei.com/news/blue-owl-chirisa-technology-parks-and-mig-close-4b-jv/",
+     "publisher": "IREI",
+     "date": "2025-08-26",
+     "title": "Blue Owl, Chirisa Technology Parks and MIG close $4B JV"
+    },
+    {
+     "url": "https://datacenterdynamics.com/en/news/blue-owl-to-fund-build-out-of-pennsylvania-data-center-campus-set-to-host-coreweave",
+     "publisher": "DCD",
+     "date": "2025-08-26",
+     "title": "Blue Owl to fund build-out of Pennsylvania data center campus set to host CoreWeave"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "china-mobile-kunlunxin-2025-08-inference",
+   "kind": "order",
+   "subkind": "AI inference chip procurement (via H3C and ZTE servers)",
+   "from": "china-mobile",
+   "to": "kunlunxin",
+   "amount_usd": 139000000,
+   "amount_text": "Over CNY 1B (~$139M), across China Mobile's 2025-26 inference equipment tender",
+   "announced": "2025-08-21",
+   "term": "2025-2026 procurement",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Baidu's Kunlunxin wins >CNY 1B China Mobile AI chip orders",
+   "title_zh": "百度昆仑芯中标中国移动逾 10 亿元 AI 芯片订单",
+   "summary_en": "Kunlunxin, 59%-owned by Baidu, said it won orders worth over CNY 1B for China Mobile AI projects, with chips going into servers from first-tier suppliers H3C and ZTE. A Huawei-related company won other parts of the tender.",
+   "summary_zh": "百度持股 59% 的昆仑芯宣布获得中国移动 AI 项目逾 10 亿元订单，芯片将用于一级供应商新华三和中兴的服务器；招标其余部分由华为相关公司中标。",
+   "sources": [
+    {
+     "url": "https://www.thestandard.com.hk/innovation/article/309661/Baidu-chip-design-unit-Kunlunxin-wins-over-1-billion-yuan-orders-from-China-Mobile-suppliers",
+     "publisher": "The Standard (Reuters)",
+     "date": "2025-08-22",
+     "title": "Baidu chip design unit Kunlunxin wins over 1 billion yuan orders from China Mobile suppliers"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "meta-alphabet-2025-08-cloud",
    "kind": "order",
    "subkind": "cloud compute contract",
@@ -8628,6 +9250,32 @@
      "publisher": "TeraWulf (press release)",
      "date": "2025-08-18",
      "title": "TeraWulf Announces Fluidstack Expansion with 160 MW CB-5 Lease at Lake Mariner"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "apollo-stream-data-centers-2025-08-majority-stake",
+   "kind": "investment",
+   "subkind": "majority acquisition",
+   "from": "apollo",
+   "to": "stream-data-centers",
+   "amount_usd": null,
+   "amount_text": "Price undisclosed; plus new capital to the land fund to develop 650 MW in Chicago, Atlanta and Dallas",
+   "announced": "2025-08-06",
+   "term": null,
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Apollo funds to buy majority of Stream Data Centers",
+   "title_zh": "阿波罗基金收购 Stream 数据中心多数股权",
+   "summary_en": "Apollo-managed funds agreed to buy a majority stake in hyperscale developer Stream Data Centers from Stream Realty Partners, management keeping a minority stake; closing was expected in 2025 (not confirmed here).",
+   "summary_zh": "阿波罗管理的基金同意从 Stream Realty Partners 收购超大规模数据中心开发商 Stream 数据中心的多数股权，管理层保留少数股权；预计 2025 年交割（此处未核实是否已完成）。",
+   "sources": [
+    {
+     "url": "https://www.apollo.com/institutional/insights-news/pressreleases/2025/08/apollo-funds-to-acquire-majority-stake-in-stream-data-centers-forming-a-scaled-digital-infrastructure-leader-3128284",
+     "publisher": "Apollo",
+     "date": "2025-08-06",
+     "title": "Apollo Funds to Acquire Majority Stake in Stream Data Centers, Forming a Scaled Digital Infrastructure Leader"
     }
    ],
    "origin": "curated"
@@ -8866,6 +9514,32 @@
      "publisher": "Newmark (press release)",
      "date": "2025-05-22",
      "title": "Newmark Facilitates $7.1 Billion Construction Loan to Develop AI Data Center"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "blue-owl-crusoe-2025-05-abilene-jv",
+   "kind": "investment",
+   "subkind": "data-centre joint venture equity",
+   "from": "blue-owl",
+   "to": "crusoe",
+   "amount_usd": null,
+   "amount_text": "$15B joint venture in total (Crusoe, Blue Owl Real Assets funds, Primary Digital Infrastructure); Blue Owl's share undisclosed",
+   "announced": "2025-05-21",
+   "term": "1.2 GW, eight buildings; phase 2 energized mid-2026",
+   "status": "in_progress",
+   "confidence": "confirmed",
+   "title_en": "Blue Owl co-sponsors Crusoe's $15B Abilene campus joint venture",
+   "title_zh": "Blue Owl 联合投资 Crusoe 阿比林园区 150 亿美元合资项目",
+   "summary_en": "Funds managed by Blue Owl's Real Assets platform, Crusoe and Primary Digital Infrastructure jointly sponsor the 1.2 GW Abilene, Texas campus (Stargate, built for Oracle and OpenAI), in a joint venture totalling about $15B. The JPMorgan-led construction loans are separate edges.",
+   "summary_zh": "Blue Owl 旗下实物资产基金与 Crusoe、Primary Digital Infrastructure 共同出资建设得州阿比林 1.2 吉瓦园区（为甲骨文和 OpenAI 的星际之门项目建造），合资项目总额约 150 亿美元。摩根大通牵头的建设贷款另列。",
+   "sources": [
+    {
+     "url": "https://crusoe.ai/newsroom/crusoe-blue-owl-capital-and-primary-digital-infrastructure-enter-joint-venture/",
+     "publisher": "Crusoe",
+     "date": "2025-05-21",
+     "title": "Crusoe, Blue Owl Capital and Primary Digital Infrastructure Enter Joint Venture"
     }
    ],
    "origin": "curated"
@@ -9317,6 +9991,70 @@
    "origin": "curated"
   },
   {
+   "id": "blackstone-airtrunk-2024-09-acquisition",
+   "kind": "investment",
+   "subkind": "acquisition",
+   "from": "blackstone",
+   "to": "airtrunk",
+   "amount_usd": 16100000000,
+   "amount_text": "A$24B enterprise value (~US$16.1B at ~0.67 USD/AUD on 2024-09-04); Blackstone funds with CPP Investments",
+   "announced": "2024-09-04",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Blackstone buys AirTrunk for A$24B",
+   "title_zh": "黑石以 240 亿澳元收购 AirTrunk",
+   "summary_en": "A Blackstone-led consortium including CPP Investments bought Australian data-centre operator AirTrunk at an enterprise value of about A$24B, billed as the largest data-centre deal globally; it closed in December 2024 after regulatory approvals.",
+   "summary_zh": "黑石牵头、加拿大退休金计划投资委员会参与的财团以约 240 亿澳元的企业价值收购澳大利亚数据中心运营商 AirTrunk，被称为全球最大的数据中心交易，于 2024 年 12 月获监管批准后完成。",
+   "sources": [
+    {
+     "url": "https://airtrunk.com/?p=14902",
+     "publisher": "AirTrunk",
+     "date": "2024-12-23",
+     "title": "Completion Of AirTrunk Acquisition By Blackstone - Marking New Era Of Growth"
+    },
+    {
+     "url": "https://www.forbes.com.au/news/innovation/confirmed-airtrunk-acquired-by-blackstone-in-24-billion-deal",
+     "publisher": "Forbes Australia",
+     "date": "2024-09-04",
+     "title": "Confirmed: AirTrunk acquired by Blackstone in $24 billion deal"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "blue-owl-chirisa-technology-parks-2024-08-coreweave-jv",
+   "kind": "investment",
+   "subkind": "build-to-suit data-centre joint venture",
+   "from": "blue-owl",
+   "to": "chirisa-technology-parks",
+   "amount_usd": null,
+   "amount_text": "Up to ~$5B of potential capacity (Blue Owl, Chirisa Technology Parks, PowerHouse), not a committed total; first phase 120 MW near Richmond, Virginia",
+   "announced": "2024-08-29",
+   "term": null,
+   "status": "in_progress",
+   "confidence": "reported",
+   "title_en": "Blue Owl, Chirisa and PowerHouse JV for CoreWeave data centres",
+   "title_zh": "Blue Owl、Chirisa 与 PowerHouse 为 CoreWeave 设立数据中心合资",
+   "summary_en": "Blue Owl, Chirisa Technology Parks and PowerHouse Data Centers formed a partnership able to deploy up to about $5B on AI and HPC data centres, starting with 120 MW at Chirisa's Richmond-area campus delivered for CoreWeave.",
+   "summary_zh": "Blue Owl、Chirisa 科技园与 PowerHouse 数据中心组建合作，可投入最高约 50 亿美元建设 AI 和高性能计算数据中心，首期为 Chirisa 里士满附近园区、为 CoreWeave 交付的 120 兆瓦。",
+   "sources": [
+    {
+     "url": "https://www.datacenterdynamics.com/en/news/blue-owl-chirisa-and-powerhouse-announce-5bn-data-center-jv-for-coreweave/",
+     "publisher": "DCD",
+     "date": "2024-08-29",
+     "title": "Blue Owl, Chirisa, and PowerHouse announce $5bn data center JV for CoreWeave"
+    },
+    {
+     "url": "https://irei.com/news/blue-owl-chirisa-technology-parks-and-powerhouse-data-centers-announce-first-phase-of-5b-jv-development-partnership/",
+     "publisher": "IREI",
+     "date": "2024-08-29",
+     "title": "Blue Owl, Chirisa Technology Parks and PowerHouse Data Centers announce first phase of $5B JV development partnership"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "tencent-moonshot-ai-2024-08-equity",
    "kind": "investment",
    "subkind": "venture equity",
@@ -9561,47 +10299,6 @@
    "origin": "curated"
   },
   {
-   "id": "cov-financiers-neoclouds-spacex-apollo-2026-10-gpu-finance-lease",
-   "kind": "lease",
-   "subkind": "GPU master finance lease",
-   "from": "spacex",
-   "to": "apollo",
-   "amount_usd": 40000000000,
-   "amount_text": "~$40B binding commitment; Apollo and Goldman Sachs lead, with BlackRock, Goldman Sachs Asset Management and KKR affiliates also committing; final pricing and closing pending",
-   "announced": "2026-10-26",
-   "term": "Leasing to start in H1 2027; closing expected before year-end 2026",
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "SpaceX (xAI) signs $40B Apollo-led GPU lease financing",
-   "title_zh": "SpaceX（xAI）签署阿波罗牵头的 400 亿美元 GPU 租赁融资",
-   "summary_en": "A SpaceX filing disclosed a binding commitment of about $40B under which an Apollo-managed entity will buy Nvidia AI chips and data-centre gear and lease them to SpaceX, xAI's parent; it is the largest committed GPU financing reported so far.",
-   "summary_zh": "SpaceX 的监管文件披露约 400 亿美元的有约束力承诺：由阿波罗管理的实体购买英伟达 AI 芯片和数据中心设备并租给 xAI 母公司 SpaceX，是迄今报道的最大一笔已承诺 GPU 融资。",
-   "sources": [
-    {
-     "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
-     "publisher": "TechCrunch",
-     "date": "2026-10-26",
-     "title": "SpaceX locks in $40B GPU financing deal with Apollo"
-    },
-    {
-     "url": "https://finance.yahoo.com/technology/ai/articles/spacex-strikes-40b-gpu-leasing-161956813.html",
-     "publisher": "Yahoo Finance",
-     "date": "2026-10-26",
-     "title": "SpaceX strikes $40B GPU leasing deal with private credit players"
-    },
-    {
-     "url": "https://money.usnews.com/investing/news/articles/2026-10-26/spacex-enters-40-billion-deal-with-apollo-for-ai-chip-financing",
-     "publisher": "U.S. News (Reuters)",
-     "date": "2026-10-26",
-     "title": "SpaceX Enters $40 Billion Deal With Apollo for AI Chip Financing"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-microsoft-samsung-2026-10-memory-lta",
    "kind": "order",
    "subkind": "long-term memory supply agreement",
@@ -9629,193 +10326,6 @@
      "publisher": "TrendForce",
      "date": "2026-03-20",
      "title": "Samsung Reportedly Eyes Long-Term Memory Deals with Google, Microsoft; $10B Prepayments Potentially Included"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-samsung-helix-digital-infrastructure-2026-09-equity",
-   "kind": "investment",
-   "subkind": "equity commitment",
-   "from": "samsung",
-   "to": "helix-digital-infrastructure",
-   "amount_usd": 1000000000,
-   "amount_text": "$1B combined from Samsung Electronics and affiliates",
-   "announced": "2026-09-29",
-   "term": null,
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Samsung commits $1B to KKR-led Helix",
-   "title_zh": "三星向 KKR 牵头的 Helix 投资 10 亿美元",
-   "summary_en": "Samsung Electronics and its affiliates agreed to invest a combined $1B in Helix Digital Infrastructure, the KKR-led AI infrastructure platform backed by Nvidia.",
-   "summary_zh": "三星电子及其关联公司同意合计向 KKR 牵头、英伟达支持的 AI 基础设施平台 Helix 数字基础设施投资 10 亿美元。",
-   "sources": [
-    {
-     "url": "https://www.cnbc.com/2026/09/29/samsung-investment-nvidia-kkr-ai-helix-digital.html",
-     "publisher": "CNBC",
-     "date": "2026-09-29",
-     "title": "Samsung to inject $1 billion into Nvidia- and KKR-backed AI infrastructure firm"
-    },
-    {
-     "url": "https://www.koreaherald.com/article/10887561",
-     "publisher": "The Korea Herald",
-     "date": "2026-09-29",
-     "title": "Samsung commits $1b to KKR-led AI infrastructure push"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-blue-owl-stack-infrastructure-2026-09-project-jupiter-equity",
-   "kind": "investment",
-   "subkind": "data-centre equity",
-   "from": "blue-owl",
-   "to": "stack-infrastructure",
-   "amount_usd": 3000000000,
-   "amount_text": "~$3B of equity (Reuters); 9% yield during construction rising to ~11% once operating (reported); commitment date not stated, figure reported 2026-09-24",
-   "announced": "2026-09-24",
-   "term": "Oracle-leased campus in Doña Ana County, New Mexico; bank loans of up to $18B are a separate edge",
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "Blue Owl's ~$3B equity in Oracle's Project Jupiter campus",
-   "title_zh": "Blue Owl 在甲骨文 Project Jupiter 园区约 30 亿美元股权投资",
-   "summary_en": "Blue Owl, owner of developer STACK Infrastructure, has about $3B of equity in Project Jupiter, the Oracle-leased AI campus in New Mexico financed with up to $18B of bank loans. In September 2026 Oracle sent a force majeure notice over power delays, extending the lower construction-period rent; Blue Owl and Oracle said the financial commitments are unchanged.",
-   "summary_zh": "开发商 STACK Infrastructure 的母公司 Blue Owl 在新墨西哥州由甲骨文承租的 Project Jupiter AI 园区持有约 30 亿美元股权，该项目另有最高 180 亿美元银行贷款。2026 年 9 月甲骨文因供电延误发出不可抗力通知，延长了较低的建设期租金；Blue Owl 与甲骨文均称资金承诺不变。",
-   "sources": [
-    {
-     "url": "https://finance.yahoo.com/technology/ai/articles/analysis-oracle-blue-owl-project-225500245.html",
-     "publisher": "Yahoo Finance (Reuters)",
-     "date": "2026-09-24",
-     "title": "Analysis-Oracle, Blue Owl project delay sends ripples through AI financing, sources say"
-    },
-    {
-     "url": "https://capacityglobal.com/news/165bn-project-jupiter-what-oracles-force-majeure-notice-means-for-ai-data-centre-risk/",
-     "publisher": "Capacity",
-     "date": "2026-09-25",
-     "title": "$165bn Project Jupiter: What Oracle's force majeure notice means for AI data centre risk"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-bond-investors-powerhouse-data-centers-2026-09-richmond-notes",
-   "kind": "debt",
-   "subkind": "high-yield project bonds",
-   "from": "bond-investors",
-   "to": "powerhouse-data-centers",
-   "amount_usd": 1100000000,
-   "amount_text": "~$1.1B five-year notes, priced at 98.5 to yield 9.25%; rated BB- by S&P; Goldman Sachs, Citigroup, Deutsche Bank",
-   "announced": "2026-09-23",
-   "term": "5 years",
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "$1.1B junk bonds for Blue Owl-backed CoreWeave data centre",
-   "title_zh": "Blue Owl 支持的 CoreWeave 数据中心发行 11 亿美元垃圾债",
-   "summary_en": "A project company sponsored by Blue Owl affiliates, Cedarwood Investment Group and PowerHouse Data Centers sold about $1.1B of five-year junk bonds to build the 76 MW Digital Drive campus near Richmond, Virginia, fully leased to CoreWeave; the 9.25% yield was about 2.7 points above similarly rated debt.",
-   "summary_zh": "由 Blue Owl 关联方、Cedarwood Investment Group 与 PowerHouse 数据中心发起的项目公司发行约 11 亿美元五年期垃圾债，用于建设弗吉尼亚州里士满附近、全部租给 CoreWeave 的 76 兆瓦 Digital Drive 园区；9.25% 的收益率比同评级债券高约 2.7 个百分点。",
-   "sources": [
-    {
-     "url": "https://www.bloomberg.com/news/articles/2026-09-23/coreweave-tied-data-center-raises-1-1-billion-in-junk-bonds",
-     "publisher": "Bloomberg",
-     "date": "2026-09-23",
-     "title": "CoreWeave-Tied Data Center Raises $1.1 Billion in Junk Bonds"
-    },
-    {
-     "url": "https://dealroom.co/news/155885-coreweave-tied-data-center-lands-1-1b-in-junk-bonds/",
-     "publisher": "Dealroom",
-     "date": "2026-09-23",
-     "title": "CoreWeave-tied data center lands $1.1B in junk bonds"
-    },
-    {
-     "url": "https://finimize.com/content/goldman-starts-selling-11-billion-of-junk-bonds-for-a-data-center",
-     "publisher": "Finimize",
-     "date": "2026-09-22",
-     "title": "Goldman Starts Selling $1.1 Billion Of Junk Bonds For A Data Center"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-coreweave-powerhouse-data-centers-2026-09-richmond-lease",
-   "kind": "lease",
-   "subkind": "15-year data-centre lease",
-   "from": "coreweave",
-   "to": "powerhouse-data-centers",
-   "amount_usd": 2940000000,
-   "amount_text": "$2.94B over 15 years (as disclosed in the bond marketing)",
-   "announced": "2026-09-21",
-   "term": "15 years; operations targeted 2027-2028",
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "CoreWeave 15-year, $2.94B lease of Richmond Digital Drive campus",
-   "title_zh": "CoreWeave 以 29.4 亿美元租用里士满 Digital Drive 园区 15 年",
-   "summary_en": "CoreWeave committed to lease all 76 MW of IT capacity at the Digital Drive campus near Richmond, Virginia, under a 15-year deal valued at $2.94B; its rent services the project's $1.1B junk bonds, and S&P flagged reliance on a single speculative-grade tenant as the key risk.",
-   "summary_zh": "CoreWeave 承诺以价值 29.4 亿美元的 15 年租约租下弗吉尼亚州里士满附近 Digital Drive 园区全部 76 兆瓦 IT 容量；租金用于偿付该项目 11 亿美元垃圾债，标普指出依赖单一投机级租户是主要风险。",
-   "sources": [
-    {
-     "url": "https://www.briefs.co/news/goldman-leads-sale-of-1-1-billion-junk-bond-for-coreweave-le/",
-     "publisher": "Briefs",
-     "date": "2026-09-21",
-     "title": "Goldman Leads $1.1B Junk Bond for CoreWeave Center"
-    },
-    {
-     "url": "https://www.bloomberg.com/news/articles/2026-09-21/coreweave-tied-data-center-project-kicks-off-junk-bond-offering",
-     "publisher": "Bloomberg",
-     "date": "2026-09-21",
-     "title": "CoreWeave-Tied Data Center Project Kicks Off Junk-Bond Offering"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-bank-lenders-crux-ai-2026-09-tpu-loan",
-   "kind": "debt",
-   "subkind": "chip-backed bank loan",
-   "from": "bank-lenders",
-   "to": "crux-ai",
-   "amount_usd": 22000000000,
-   "amount_text": "~$22B from 10 banks incl. Goldman Sachs, SMBC, Barclays, BNP Paribas, Bank of Nova Scotia, plus a separate $1B revolver (not counted); likely a bridge to later bonds",
-   "announced": "2026-09-16",
-   "term": null,
-   "status": "reported",
-   "confidence": "unverified",
-   "title_en": "Banks line up $22B chip loan for Blackstone-Google Crux AI",
-   "title_zh": "银行为黑石与谷歌的 Crux AI 安排 220 亿美元芯片贷款",
-   "summary_en": "A group of 10 banks is lining up about $22B of debt for Crux AI to buy Google TPUs, secured on the chips and Crux's customer contracts, Bloomberg reported; whether the facility has closed was not confirmed.",
-   "summary_zh": "据彭博报道，10 家银行正为 Crux AI 安排约 220 亿美元债务用于购买谷歌 TPU，以芯片和客户合同作抵押；该融资是否已完成尚未得到确认。",
-   "sources": [
-    {
-     "url": "https://wsau.com/2026/09/16/banks-provide-22-billion-chip-loan-to-blackstone-alphabet-cloud-venture-bloomberg-news-reports/",
-     "publisher": "WSAU (Reuters)",
-     "date": "2026-09-16",
-     "title": "Banks provide $22 billion chip loan to Blackstone-Alphabet cloud venture, Bloomberg News reports"
-    },
-    {
-     "url": "https://pulse2.com/crux-ai-lines-up-22-billion-chip-loan-from-10-banks-to-buy-google-tpus/",
-     "publisher": "Pulse 2.0",
-     "date": "2026-09-17",
-     "title": "Crux AI Lines Up $22 Billion Chip Loan From 10 Banks To Buy Google TPUs"
-    },
-    {
-     "url": "https://runtimewire.com/article/crux-ai-22-billion-tpu-chip-loan-blackstone-google",
-     "publisher": "RuntimeWire",
-     "date": "2026-09-17",
-     "title": "Crux AI lines up reported $22B TPU loan, status still unclear"
     }
    ],
    "research_confidence": "reported",
@@ -9894,41 +10404,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-financiers-neoclouds-blue-owl-iren-2026-08-gpu-financing",
-   "kind": "debt",
-   "subkind": "GPU-backed term loan and senior secured notes",
-   "from": "blue-owl",
-   "to": "iren",
-   "amount_usd": 2400000000,
-   "amount_text": "$2.4B: $1.2B senior secured term loan + $1.2B senior secured notes, led by Blue Owl-managed funds",
-   "announced": "2026-08-28",
-   "term": null,
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Blue Owl leads $2.4B GPU financing for IREN",
-   "title_zh": "Blue Owl 牵头为 IREN 提供 24 亿美元 GPU 融资",
-   "summary_en": "Blue Owl-managed funds led a $2.4B compute-equipment financing for IREN, split between a term loan and secured notes, to pay for Nvidia Blackwell Ultra GPUs at IREN's Mackenzie campus in British Columbia.",
-   "summary_zh": "Blue Owl 管理的基金牵头为 IREN 提供 24 亿美元算力设备融资（定期贷款与有担保票据各半），用于购买部署在不列颠哥伦比亚省 Mackenzie 园区的英伟达 Blackwell Ultra GPU。",
-   "sources": [
-    {
-     "url": "https://www.blueowl.com/news/blue-owl-managed-funds-lead-24-billion-ai-factory-financing-iren",
-     "publisher": "Blue Owl",
-     "date": "2026-08-28",
-     "title": "Blue Owl Managed Funds Lead $2.4 Billion AI Factory Financing for IREN"
-    },
-    {
-     "url": "https://www.prnewswire.com/news-releases/blue-owl-managed-funds-lead-24-billion-ai-factory-financing-iren-302863057.html",
-     "publisher": "PR Newswire",
-     "date": "2026-08-28",
-     "title": "Blue Owl Managed Funds Lead $2.4 Billion AI Factory Financing for IREN"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-public-equity-investors-intel-2026-08-share-sale",
    "kind": "investment",
    "subkind": "public common stock offering",
@@ -9994,47 +10469,6 @@
     }
    ],
    "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-naver-brookfield-2026-07-ai-factory-compute",
-   "kind": "lease",
-   "subkind": "GPU and data-centre equipment SPV (usage fees)",
-   "from": "naver",
-   "to": "brookfield",
-   "amount_usd": 9000000000,
-   "amount_text": "Up to $9B from Brookfield to set up an SPV that owns the GPUs and equipment; non-binding term sheet; Naver pays usage-based fees",
-   "announced": "2026-07-27",
-   "term": "GAK Sejong site 55 MW to 200 MW by 2028",
-   "status": "announced",
-   "confidence": "unverified",
-   "title_en": "Brookfield to fund up to $9B of compute for Naver's AI factory",
-   "title_zh": "布鲁克菲尔德为 NAVER AI 工厂提供最高 90 亿美元算力融资",
-   "summary_en": "Brookfield signed a non-binding term sheet to put up to $9B into an SPV that buys GPUs and data-centre equipment for Naver's AI factory in Sejong, South Korea; Naver procures the compute from the SPV and pays fees based on usage. The financing is a condition of Nvidia's $1B investment in Naver.",
-   "summary_zh": "布鲁克菲尔德签署不具约束力的条款书，向一个特殊目的实体投入最高 90 亿美元，为 NAVER 位于韩国世宗的 AI 工厂购买 GPU 和数据中心设备；NAVER 向该实体采购算力并按使用量付费。这笔融资是英伟达向 NAVER 投资 10 亿美元的前提条件。",
-   "sources": [
-    {
-     "url": "https://www.aap.com.au/aapreleases/cision20260725ae12156/",
-     "publisher": "AAP (Cision release)",
-     "date": "2026-07-27",
-     "title": "NAVER Partners with Brookfield and NVIDIA to Expand Korea's National AI Factory Infrastructure Buildout"
-    },
-    {
-     "url": "https://www.bnnbloomberg.ca/business/company-news/2026/07/27/brookfield-to-commit-up-to-9-billion-to-expand-south-korean-ai-data-centre/",
-     "publisher": "BNN Bloomberg",
-     "date": "2026-07-27",
-     "title": "Brookfield to commit up to $9 billion to expand South Korean AI data centre"
-    },
-    {
-     "url": "https://view.asiae.co.kr/en/article/2026080310290377982",
-     "publisher": "Asia Economy",
-     "date": "2026-08-03",
-     "title": "Naver Unveils AI Factory Contract Structure: Receives NVIDIA GPUs, Eases Financial Burden via Brookfield SPV"
-    }
-   ],
-   "research_confidence": "confirmed",
    "extracted_at": "2026-10-27T09:00:00Z",
    "model": "coverage research team (web search, not yet opened)",
    "origin": "candidate"
@@ -10285,117 +10719,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-financiers-neoclouds-brookfield-bloom-energy-2026-06-expansion",
-   "kind": "order",
-   "subkind": "fuel-cell power framework expansion",
-   "from": "brookfield",
-   "to": "bloom-energy",
-   "amount_usd": 20000000000,
-   "amount_text": "Framework raised from $5B to $25B; $20B increment counted here (the original $5B is a separate edge)",
-   "announced": "2026-06-30",
-   "term": null,
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Brookfield expands Bloom Energy partnership to $25B",
-   "title_zh": "布鲁克菲尔德将与 Bloom Energy 的合作扩大至 250 亿美元",
-   "summary_en": "Brookfield raised its framework to finance Bloom Energy fuel-cell power projects for AI infrastructure fivefold, from $5B to $25B, under its AI Infrastructure Fund.",
-   "summary_zh": "布鲁克菲尔德通过其 AI 基础设施基金，将为 Bloom Energy 燃料电池电力项目融资的框架从 50 亿美元扩大五倍至 250 亿美元。",
-   "sources": [
-    {
-     "url": "https://lasvegassun.com/news/2026/jun/30/brookfield-and-bloom-energy-expand-ai-infrastructu/",
-     "publisher": "Las Vegas Sun (Business Wire)",
-     "date": "2026-06-30",
-     "title": "Brookfield and Bloom Energy Expand AI Infrastructure Partnership to $25 Billion"
-    },
-    {
-     "url": "https://www.barchart.com/story/news/3062609/brookfield-and-bloom-energy-expand-ai-infrastructure-partnership-to-25-billion-fivefold-increase-to-build-and-finance-rapid-power-for-ai-infrastructure",
-     "publisher": "Barchart (Business Wire)",
-     "date": "2026-06-30",
-     "title": "Brookfield and Bloom Energy Expand AI Infrastructure Partnership to $25 Billion"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-kkr-helix-digital-infrastructure-2026-06-launch",
-   "kind": "investment",
-   "subkind": "platform equity commitments",
-   "from": "kkr",
-   "to": "helix-digital-infrastructure",
-   "amount_usd": 10000000000,
-   "amount_text": ">$10B committed by founding investors KKR, Kuwait Investment Authority, Nvidia and Vistra (split undisclosed)",
-   "announced": "2026-06-11",
-   "term": null,
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "KKR launches Helix AI infrastructure platform with $10B+",
-   "title_zh": "KKR 以逾 100 亿美元启动 Helix AI 基础设施平台",
-   "summary_en": "KKR launched Helix Digital Infrastructure, led by former AWS CEO Adam Selipsky, with more than $10B committed by KKR, the Kuwait Investment Authority, Nvidia (technology partner) and Vistra (preferred power provider) to build data centres, power and fibre for hyperscalers.",
-   "summary_zh": "KKR 启动由前 AWS 首席执行官 Adam Selipsky 领导的 Helix 数字基础设施，KKR、科威特投资局、英伟达（技术伙伴）和 Vistra（首选电力供应商）承诺逾 100 亿美元，为超大规模云厂商建设数据中心、电力和光纤。",
-   "sources": [
-    {
-     "url": "https://www.dealstreetasia.com/stories/kkr-ai-infrastructure-platform-485308/",
-     "publisher": "DealStreetAsia",
-     "date": "2026-06-11",
-     "title": "KKR launches $10b AI infra platform with Kuwait, Nvidia, Vistra"
-    },
-    {
-     "url": "https://www.marketscreener.com/news/kkr-launches-helix-a-10bn-platform-for-ai-infrastructure-ce7f5cd8da89f124",
-     "publisher": "MarketScreener",
-     "date": "2026-06-11",
-     "title": "KKR Launches Helix, a $10bn Platform for AI Infrastructure"
-    },
-    {
-     "url": "https://www.crowdfundinsider.com/2026/06/285359-private-capital-bets-bigger-on-ai-as-kkr-led-helix-raises-10-billion/",
-     "publisher": "Crowdfund Insider",
-     "date": "2026-06-11",
-     "title": "Private Capital Bets Bigger on AI as KKR-Led Helix Raises $10 Billion"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-apollo-broadcom-ai-xpv-2026-06-anthropic-chip-loan",
-   "kind": "debt",
-   "subkind": "chip-backed private-credit loan",
-   "from": "apollo",
-   "to": "broadcom-ai-xpv",
-   "amount_usd": 35000000000,
-   "amount_text": "$35B initial loan from Apollo and Blackstone (syndicated; Apollo's insurer Athene took part of the A2 notes, reported); separate from the ~$63B Oct 2026 Blackstone/bank package (its own edge)",
-   "announced": "2026-06-10",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Apollo and Blackstone lend $35B to Broadcom's chip SPV for Anthropic",
-   "title_zh": "阿波罗与黑石向博通为 Anthropic 设立的芯片 SPV 贷款 350 亿美元",
-   "summary_en": "Apollo led, with Blackstone, a $35B initial loan to AI XPV, a Broadcom-arranged vehicle that buys chips (including Google TPUs) and leases them to Anthropic, with lease payments repaying the debt. Broadcom covers shortfalls to the senior A1/A2 notes if Anthropic stops paying and the chips cannot be sold for enough.",
-   "summary_zh": "阿波罗牵头、黑石参与，向博通安排的 AI XPV 实体提供 350 亿美元首期贷款；该实体购买芯片（含谷歌 TPU）并租给 Anthropic，以租金偿债。若 Anthropic 停付且出售芯片不足以偿还，博通负责补足优先级 A1/A2 票据的缺口。",
-   "sources": [
-    {
-     "url": "https://www.axios.com/2026/06/10/apollo-anthropic-blackstone-broadcom",
-     "publisher": "Axios",
-     "date": "2026-06-10",
-     "title": "Apollo leads $35 billion debt deal for Anthropic's compute"
-    },
-    {
-     "url": "https://pitchbook.com/news/articles/apollo-blackstone-lend-35b-against-ai-chips-computing-power",
-     "publisher": "PitchBook",
-     "date": "2026-06-11",
-     "title": "Apollo, Blackstone lend $35B against AI chips, computing power"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-financiers-neoclouds-mgx-campus-ai-france-2026-06-second-site",
    "kind": "investment",
    "subkind": "data-centre joint venture expansion",
@@ -10452,47 +10775,6 @@
      "publisher": "CNBC",
      "date": "2026-07-01",
      "title": "OpenAI, Anthropic backer MGX raises one of the biggest AI funds ever as it closes at $49 billion"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-blackstone-crux-ai-2026-05-equity",
-   "kind": "investment",
-   "subkind": "majority joint-venture equity",
-   "from": "blackstone",
-   "to": "crux-ai",
-   "amount_usd": 5000000000,
-   "amount_text": "$5B initial equity from Blackstone (majority owner); Google supplies TPUs, software and services; up to ~$25B including debt",
-   "announced": "2026-05-18",
-   "term": "500 MW online in 2027",
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "Blackstone commits $5B to Crux AI, its TPU cloud with Google",
-   "title_zh": "黑石向与谷歌合办的 TPU 云 Crux AI 注资 50 亿美元",
-   "summary_en": "Blackstone committed $5B of equity to become majority owner of Crux AI, a neocloud joint venture with Google that rents out Google TPUs, aiming for 500 MW of capacity in 2027; former Google engineering VP Benjamin Treynor Sloss is CEO.",
-   "summary_zh": "黑石承诺 50 亿美元股权，成为与谷歌合资的新型云公司 Crux AI 的控股股东；该公司出租谷歌 TPU 算力，目标在 2027 年上线 500 兆瓦，由前谷歌工程副总裁 Benjamin Treynor Sloss 任首席执行官。",
-   "sources": [
-    {
-     "url": "https://thenextweb.com/news/google-blackstone-tpu-cloud-joint-venture-5bn",
-     "publisher": "The Next Web",
-     "date": "2026-05-18",
-     "title": "Blackstone takes the majority position in Google's new TPU cloud"
-    },
-    {
-     "url": "https://www.datacenterknowledge.com/infrastructure/blackstone-google-launch-5b-tpu-infrastructure-venture",
-     "publisher": "Data Center Knowledge",
-     "date": "2026-05-19",
-     "title": "Does Google's $5B TPU Deal Signal a New Neocloud Era?"
-    },
-    {
-     "url": "https://www.fierce-network.com/cloud/google-building-new-5b-neocloud-blackstone-why",
-     "publisher": "Fierce Network",
-     "date": "2026-05-19",
-     "title": "Google is building a new $5B neocloud with Blackstone"
     }
    ],
    "research_confidence": "reported",
@@ -10971,47 +11253,6 @@
      "publisher": "UAE Preferred",
      "date": "2026-02-13",
      "title": "MGX co-leads $30 billion Anthropic funding round"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-blackstone-firmus-2026-02-debt-facility",
-   "kind": "debt",
-   "subkind": "private credit facility",
-   "from": "blackstone",
-   "to": "firmus",
-   "amount_usd": 10000000000,
-   "amount_text": "US$10B facility led by Blackstone Tactical Opportunities and Blackstone Credit & Insurance, with Coatue",
-   "announced": "2026-02-09",
-   "term": null,
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Blackstone leads $10B debt facility for Australia's Firmus",
-   "title_zh": "黑石牵头为澳大利亚 Firmus 提供 100 亿美元债务融资",
-   "summary_en": "Blackstone funds led, with Coatue, a US$10B private debt facility for Nvidia-backed Firmus to fund the next phase of its Project Southgate AI factories, targeting about 1.6 GW by 2028; it is one of Australia's largest private credit deals.",
-   "summary_zh": "黑石基金牵头、Coatue 参与，为英伟达支持的 Firmus 提供 100 亿美元私募信贷额度，用于 Project Southgate AI 工厂下一阶段建设，目标 2028 年约 1.6 吉瓦，是澳大利亚最大的私募信贷交易之一。",
-   "sources": [
-    {
-     "url": "https://www.bloomberg.com/news/articles/2026-02-09/blackstone-coatue-grant-10-billion-loan-to-australia-ai-firm",
-     "publisher": "Bloomberg",
-     "date": "2026-02-09",
-     "title": "Nvidia-Backed AI Startup Gets $10 Billion in Blackstone-Led Loan"
-    },
-    {
-     "url": "https://www.kirkland.com/news/press-release/2026/02/kirkland-represents-blackstone-on-ai-infrastructure-company-firmus-us-10-b-df-facility",
-     "publisher": "Kirkland & Ellis",
-     "date": "2026-02-09",
-     "title": "Kirkland & Ellis press release: Blackstone on Firmus US$10B facility"
-    },
-    {
-     "url": "https://w.media/firmus-secures-usd-10bn-blackstone-led-deal-to-scale-ai-factories/",
-     "publisher": "W.Media",
-     "date": "2026-02-10",
-     "title": "Firmus secures USD 10bn Blackstone-led deal to scale AI factories"
     }
    ],
    "research_confidence": "reported",
@@ -11516,41 +11757,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-financiers-neoclouds-blue-owl-related-digital-2025-12-michigan-withdrawal",
-   "kind": "investment",
-   "subkind": "data-centre equity (talks abandoned)",
-   "from": "blue-owl",
-   "to": "related-digital",
-   "amount_usd": null,
-   "amount_text": "Equity for a ~$10B, 1 GW Oracle/OpenAI campus in Saline Township, Michigan; not funded by Blue Owl",
-   "announced": "2025-12-17",
-   "term": null,
-   "status": "cancelled",
-   "confidence": "unverified",
-   "title_en": "Blue Owl walks away from funding Oracle's Michigan data centre",
-   "title_zh": "Blue Owl 退出甲骨文密歇根数据中心的融资",
-   "summary_en": "Blue Owl, which had backed Oracle's largest US builds including Abilene, ended talks to provide the equity for the roughly $10B Michigan campus developed by Related Digital for Oracle and OpenAI, the Financial Times reported in mid-December 2025. Oracle said its developer had picked another equity partner; Blackstone later took that role (see the PIMCO-anchored Michigan debt edge).",
-   "summary_zh": "据《金融时报》2025 年 12 月中旬报道，曾支持甲骨文阿比林等大型美国项目的 Blue Owl 终止了为 Related Digital 为甲骨文和 OpenAI 开发的约 100 亿美元密歇根园区提供股权资金的谈判。甲骨文称开发商已选定其他股权伙伴，后由黑石接手（见 PIMCO 牵头的密歇根债务条目）。",
-   "sources": [
-    {
-     "url": "https://www.datacenterdynamics.com/en/news/blue-owl-opts-not-to-fund-oracles-10bn-michigan-data-center/",
-     "publisher": "DCD",
-     "date": "2025-12-17",
-     "title": "Blue Owl opts not to fund Oracle's $10bn Michigan data center"
-    },
-    {
-     "url": "https://finance.yahoo.com/news/funding-stalls-oracle-8217-michigan-155238542.html",
-     "publisher": "Yahoo Finance (FT)",
-     "date": "2025-12-17",
-     "title": "Funding stalls for Oracle's Michigan datacenter as Blue Owl bows out: Financial Times"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-hyperscalers-labs-disney-openai-2025-12-equity",
    "kind": "investment",
    "subkind": "equity investment with warrants",
@@ -11581,41 +11787,6 @@
     }
    ],
    "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-nvidia-brookfield-2025-11-ai-infrastructure-fund",
-   "kind": "investment",
-   "subkind": "fund commitment (LP)",
-   "from": "nvidia",
-   "to": "brookfield",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; fund targets $10B of equity, $5B committed at launch by Brookfield, Nvidia, KIA and others; up to $100B of assets with co-investment and debt",
-   "announced": "2025-11-19",
-   "term": null,
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "Nvidia joins Brookfield's $100B AI infrastructure programme",
-   "title_zh": "英伟达加入布鲁克菲尔德 1000 亿美元 AI 基础设施计划",
-   "summary_en": "Nvidia and the Kuwait Investment Authority joined as founding investors in the Brookfield Artificial Intelligence Infrastructure Fund, which aims to buy up to $100B of AI assets across energy, land, data centres and compute.",
-   "summary_zh": "英伟达与科威特投资局作为创始投资者加入布鲁克菲尔德人工智能基础设施基金，该基金计划收购最高 1000 亿美元覆盖能源、土地、数据中心和算力的 AI 资产。",
-   "sources": [
-    {
-     "url": "https://www.nasdaq.com/press-release/brookfield-launches-100-billion-ai-infrastructure-program-2025-11-19",
-     "publisher": "Nasdaq (press release)",
-     "date": "2025-11-19",
-     "title": "Brookfield Launches $100 Billion AI Infrastructure Program"
-    },
-    {
-     "url": "https://www.bnnbloomberg.ca/business/2025/11/19/brookfield-launches-us100-billion-ai-infrastructure-program-with-nvidia/",
-     "publisher": "BNN Bloomberg",
-     "date": "2025-11-19",
-     "title": "Brookfield launches US$100 billion AI infrastructure program with Nvidia"
-    }
-   ],
-   "research_confidence": "confirmed",
    "extracted_at": "2026-10-27T09:00:00Z",
    "model": "coverage research team (web search, not yet opened)",
    "origin": "candidate"
@@ -11726,117 +11897,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-financiers-neoclouds-blue-owl-beignet-investor-2025-10-hyperion-equity",
-   "kind": "investment",
-   "subkind": "80% joint-venture equity stake",
-   "from": "blue-owl",
-   "to": "beignet-investor",
-   "amount_usd": 7000000000,
-   "amount_text": "~$7B cash contributed by Blue Owl funds for 80% of the JV (Meta keeps 20% and received a ~$3B one-time distribution); total development cost ~$27B",
-   "announced": "2025-10-21",
-   "term": "JV owns the Hyperion campus; Meta leases it on 4-year initial terms with extensions",
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Blue Owl funds take an 80% stake in Meta's Hyperion data-centre JV",
-   "title_zh": "Blue Owl 基金入股 Meta Hyperion 数据中心合资公司 80%",
-   "summary_en": "Blue Owl-managed funds bought 80% of the joint venture that owns Meta's Hyperion campus in Louisiana, putting in about $7B of cash while Meta kept 20% and took a one-time distribution of about $3B. The JV's PIMCO-led bonds, Meta's lease and its residual value guarantee are separate edges.",
-   "summary_zh": "Blue Owl 管理的基金买入持有 Meta 路易斯安那州 Hyperion 园区的合资公司 80% 股权，出资约 70 亿美元现金；Meta 保留 20% 并获得约 30 亿美元一次性分配。该合资公司由 PIMCO 牵头认购的债券、Meta 的租约及残值担保另列。",
-   "sources": [
-    {
-     "url": "https://www.fierce-network.com/newswire/investment-firm-take-80-stake-metas-hyperion-data-center",
-     "publisher": "Fierce Network",
-     "date": "2025-10-21",
-     "title": "Investment firm to take 80% stake in Meta's Hyperion data center"
-    },
-    {
-     "url": "https://convergedigest.com/meta-and-blue-owl-form-27b-jv-for-hyperion-ai-data-center-in-louisiana/",
-     "publisher": "Converge Digest",
-     "date": "2025-10-21",
-     "title": "Meta and Blue Owl form $27B JV for Hyperion AI data center in Louisiana"
-    },
-    {
-     "url": "https://www.theasset.com/article/55209/meta-blue-owl-sign-us-27-billion-data-centre-campus-deal",
-     "publisher": "The Asset",
-     "date": "2025-10-22",
-     "title": "Meta, Blue Owl sign US$27 billion data centre campus deal"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-brookfield-bloom-energy-2025-10-fuel-cells",
-   "kind": "order",
-   "subkind": "on-site fuel-cell power framework",
-   "from": "brookfield",
-   "to": "bloom-energy",
-   "amount_usd": 5000000000,
-   "amount_text": "Up to $5B to deploy Bloom fuel cells at Brookfield AI factories (first phase); first deal of Brookfield's AI Infrastructure strategy",
-   "announced": "2025-10-13",
-   "term": null,
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Brookfield's $5B Bloom Energy fuel-cell deal for AI data centres",
-   "title_zh": "布鲁克菲尔德与 Bloom Energy 签订 50 亿美元 AI 数据中心燃料电池协议",
-   "summary_en": "Brookfield agreed to invest up to $5B deploying Bloom Energy's fuel cells as behind-the-meter power for its AI data centres, making Bloom its preferred on-site power supplier.",
-   "summary_zh": "布鲁克菲尔德同意投资最高 50 亿美元，在其 AI 数据中心部署 Bloom Energy 燃料电池作为表后电源，Bloom 成为其首选现场电力供应商。",
-   "sources": [
-    {
-     "url": "https://www.businesswire.com/news/home/20251013114760/en/Brookfield-and-Bloom-Energy-Announce-%245-Billion-Strategic-AI-Infrastructure-Partnership",
-     "publisher": "Business Wire",
-     "date": "2025-10-13",
-     "title": "Brookfield and Bloom Energy Announce $5 Billion Strategic AI Infrastructure Partnership"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-china-private-investors-cambricon-2025-09-placement",
-   "kind": "investment",
-   "subkind": "A-share private placement (定增)",
-   "from": "private-investors",
-   "to": "cambricon",
-   "amount_usd": 560000000,
-   "amount_text": "CNY 3.985B (~$560M at ~7.11 CNY/USD) at CNY 1,195.02/share to 13 investors incl. GF Fund (CNY 1.208B), UBS AG, New China Asset",
-   "announced": "2025-09-30",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Cambricon CNY 3.99B private placement for large-model chips",
-   "title_zh": "寒武纪 39.85 亿元定增投向大模型芯片",
-   "summary_en": "Cambricon raised CNY 3.985B from 13 institutional investors to fund a chip platform and a software platform for large AI models, plus working capital.",
-   "summary_zh": "寒武纪向 13 家机构定增募资 39.85 亿元，用于面向大模型的芯片平台和软件平台项目及补充流动资金。",
-   "sources": [
-    {
-     "url": "https://www.yicai.com/news/102851353.html",
-     "publisher": "第一财经 Yicai",
-     "date": "2025-09-30",
-     "title": "晚间公告丨9月30日这些公告有看头"
-    },
-    {
-     "url": "https://finance.sina.com.cn/stock/bxjj/2025-10-01/doc-infsiyww1802633.shtml",
-     "publisher": "新浪财经 Sina Finance",
-     "date": "2025-10-01",
-     "title": "1195.02元/股，总金额39.85亿元！寒武纪定增价格出炉"
-    },
-    {
-     "url": "https://finance.sina.com.cn/jjxw/2025-10-20/doc-infuqftf5043954.shtml",
-     "publisher": "新浪财经 Sina Finance",
-     "date": "2025-10-20",
-     "title": "寒武纪近40亿元定增完成，广发基金获配12亿元"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-financiers-neoclouds-asml-mistral-2025-09-series-c",
    "kind": "investment",
    "subkind": "venture round lead",
@@ -11867,47 +11927,6 @@
     }
    ],
    "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-china-bond-investors-baidu-2025-09-dim-sum",
-   "kind": "debt",
-   "subkind": "offshore yuan (dim sum) notes",
-   "from": "bond-investors",
-   "to": "baidu",
-   "amount_usd": 618000000,
-   "amount_text": "CNY 4.4B (~$618M at ~7.12 CNY/USD), 1.90% coupon, due March 2029",
-   "announced": "2025-09-08",
-   "term": "due 2029",
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Baidu CNY 4.4B dim sum bonds for AI",
-   "title_zh": "百度 44 亿元离岸人民币债券支持 AI",
-   "summary_en": "Baidu sold its second dim sum bond, CNY 4.4B of 1.90% notes due March 2029, for general purposes including debt repayment as it funds AI; with the March deal it raised CNY 14.4B in dim sum bonds in 2025.",
-   "summary_zh": "百度发行第二笔点心债，规模 44 亿元、票息 1.90%、2029 年 3 月到期，用于偿债等一般用途，支持其 AI 投入；连同 3 月发行，2025 年点心债共募资 144 亿元。",
-   "sources": [
-    {
-     "url": "https://filingreader.com/news-wire/hongkong/2025-09-08/baidu-prices-offshore-debt-offering-of-44-bn-yuan-senior-notes",
-     "publisher": "FilingReader (HKEX filing summary)",
-     "date": "2025-09-08",
-     "title": "Baidu prices offshore debt offering of 4.4 bn yuan senior notes"
-    },
-    {
-     "url": "https://filingreader.com/news-wire/hongkong/2025-09-15/baidu-completes-cny44-bn-senior-notes-offering",
-     "publisher": "FilingReader (HKEX filing summary)",
-     "date": "2025-09-15",
-     "title": "Baidu completes CNY4.4 bn senior notes offering"
-    },
-    {
-     "url": "https://www.cnbc.com/amp/2025/09/17/baidu-shares-ai-partnership-fresh-capital-.html",
-     "publisher": "CNBC",
-     "date": "2025-09-17",
-     "title": "China's Baidu soars 16% to hit 2-year highs amid positive signs for its AI business"
-    }
-   ],
-   "research_confidence": "reported",
    "extracted_at": "2026-10-27T09:00:00Z",
    "model": "coverage research team (web search, not yet opened)",
    "origin": "candidate"
@@ -11954,41 +11973,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-china-china-mobile-kunlunxin-2025-08-inference",
-   "kind": "order",
-   "subkind": "AI inference chip procurement (via H3C and ZTE servers)",
-   "from": "china-mobile",
-   "to": "kunlunxin",
-   "amount_usd": 139000000,
-   "amount_text": "Over CNY 1B (~$139M), across China Mobile's 2025-26 inference equipment tender",
-   "announced": "2025-08-21",
-   "term": "2025-2026 procurement",
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Baidu's Kunlunxin wins >CNY 1B China Mobile AI chip orders",
-   "title_zh": "百度昆仑芯中标中国移动逾 10 亿元 AI 芯片订单",
-   "summary_en": "Kunlunxin, 59%-owned by Baidu, said it won orders worth over CNY 1B for China Mobile AI projects, with chips going into servers from first-tier suppliers H3C and ZTE. A Huawei-linked company won other parts of the tender.",
-   "summary_zh": "百度持股 59% 的昆仑芯宣布获得中国移动 AI 项目逾 10 亿元订单，芯片将用于一级供应商新华三和中兴的服务器；招标其余部分由华为相关公司中标。",
-   "sources": [
-    {
-     "url": "https://www.thestandard.com.hk/innovation/article/309661/Baidu-chip-design-unit-Kunlunxin-wins-over-1-billion-yuan-orders-from-China-Mobile-suppliers",
-     "publisher": "The Standard (Reuters)",
-     "date": "2025-08-22",
-     "title": "Baidu chip design unit Kunlunxin wins over 1 billion yuan orders from China Mobile suppliers"
-    },
-    {
-     "url": "https://www.aol.com/news/baidu-backed-chip-designer-kunlunxin-043914449.html",
-     "publisher": "Reuters (via AOL)",
-     "date": "2025-08-22",
-     "title": "Baidu chip-design unit Kunlunxin wins over $139 million orders from China Mobile suppliers"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-softbank-intel-2025-08-equity",
    "kind": "investment",
    "subkind": "equity investment (primary share purchase)",
@@ -12024,41 +12008,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-financiers-neoclouds-apollo-stream-data-centers-2025-08-majority-stake",
-   "kind": "investment",
-   "subkind": "majority acquisition",
-   "from": "apollo",
-   "to": "stream-data-centers",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; plus new capital to develop 650 MW in Chicago, Atlanta and Dallas",
-   "announced": "2025-08-06",
-   "term": null,
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Apollo funds to buy majority of Stream Data Centers",
-   "title_zh": "阿波罗基金收购 Stream 数据中心多数股权",
-   "summary_en": "Apollo-managed funds agreed to buy a majority stake in hyperscale developer Stream Data Centers from Stream Realty Partners, with management keeping a minority stake, to expand development for cloud and AI customers; the deal was expected to close in 2025 (closing not checked).",
-   "summary_zh": "阿波罗管理的基金同意从 Stream Realty Partners 收购超大规模数据中心开发商 Stream 数据中心的多数股权，管理层保留少数股权，以扩大面向云和 AI 客户的开发；交易预计 2025 年完成（未核实是否已交割）。",
-   "sources": [
-    {
-     "url": "https://www.apollo.com/institutional/insights-news/pressreleases/2025/08/apollo-funds-to-acquire-majority-stake-in-stream-data-centers-forming-a-scaled-digital-infrastructure-leader-3128284",
-     "publisher": "Apollo",
-     "date": "2025-08-06",
-     "title": "Apollo Funds to Acquire Majority Stake in Stream Data Centers, Forming a Scaled Digital Infrastructure Leader"
-    },
-    {
-     "url": "https://www.rcrwireless.com/?p=422770",
-     "publisher": "RCR Wireless",
-     "date": "2025-08-06",
-     "title": "Apollo buys majority stake in Stream Data Centers"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-apple-samsung-2025-08-austin-chips",
    "kind": "order",
    "subkind": "chip manufacturing partnership (Austin fab)",
@@ -12086,47 +12035,6 @@
      "publisher": "The Korea Herald",
      "date": "2025-08-07",
      "title": "Back-to-back wins with Apple, Tesla lift prospects for Samsung's struggling chip units"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-blue-owl-chirisa-technology-parks-2025-08-lancaster-jv",
-   "kind": "investment",
-   "subkind": "data-centre joint venture funding",
-   "from": "blue-owl",
-   "to": "chirisa-technology-parks",
-   "amount_usd": 4000000000,
-   "amount_text": "$4B JV funding (Blue Owl funds, Chirisa Technology Parks, Machine Investment Group) plus ~$200M of grid upgrades; closed Aug 2025 (day not checked)",
-   "announced": "2025-08-01",
-   "term": null,
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "Blue Owl-led $4B JV funds CoreWeave's Lancaster campus",
-   "title_zh": "Blue Owl 牵头的 40 亿美元合资为 CoreWeave 兰开斯特园区融资",
-   "summary_en": "Blue Owl funds, Chirisa Technology Parks and Machine Investment Group closed a JV with $4B of funding for the CoreWeave-leased AI campus in Lancaster, Pennsylvania. In Feb 2026 Business Insider reported Blue Owl struggled to syndicate the debt; CoreWeave said the site is fully funded and under construction.",
-   "summary_zh": "Blue Owl 基金、Chirisa 科技园与 Machine Investment Group 完成合资，为 CoreWeave 承租的宾夕法尼亚州兰开斯特 AI 园区提供 40 亿美元资金。2026 年 2 月《商业内幕》报道 Blue Owl 难以分销相关债务；CoreWeave 称项目资金已到位且正在建设。",
-   "sources": [
-    {
-     "url": "https://irei.com/news/blue-owl-chirisa-technology-parks-and-mig-close-4b-jv/",
-     "publisher": "IREI",
-     "date": "2025-08-01",
-     "title": "Blue Owl, Chirisa Technology Parks and MIG close $4B JV"
-    },
-    {
-     "url": "https://datacenterdynamics.com/en/news/blue-owl-to-fund-build-out-of-pennsylvania-data-center-campus-set-to-host-coreweave",
-     "publisher": "DCD",
-     "date": "2025-08-01",
-     "title": "Blue Owl to fund build-out of Pennsylvania data center campus set to host CoreWeave"
-    },
-    {
-     "url": "https://fintool.com/news/coreweave-blue-owl-financing-failure",
-     "publisher": "Fintool",
-     "date": "2026-02-01",
-     "title": "CoreWeave, Blue Owl financing failure"
     }
    ],
    "research_confidence": "reported",
@@ -12235,41 +12143,6 @@
     }
    ],
    "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-blue-owl-crusoe-2025-05-abilene-jv",
-   "kind": "investment",
-   "subkind": "data-centre joint venture equity",
-   "from": "blue-owl",
-   "to": "crusoe",
-   "amount_usd": null,
-   "amount_text": "$15B joint venture in total (Crusoe, Blue Owl Real Assets funds, Primary Digital Infrastructure); Blue Owl's share undisclosed",
-   "announced": "2025-05-21",
-   "term": "1.2 GW, eight buildings; phase 2 targeted for mid-2026",
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "Blue Owl co-sponsors Crusoe's $15B Abilene campus joint venture",
-   "title_zh": "Blue Owl 联合投资 Crusoe 阿比林园区 150 亿美元合资项目",
-   "summary_en": "Funds managed by Blue Owl's Real Assets platform, Crusoe and Primary Digital Infrastructure jointly sponsor the 1.2 GW Abilene, Texas campus built for Oracle and OpenAI (Stargate), in a joint venture totalling about $15B. The JPMorgan-led $7.1B construction loan for phase 2 is a separate edge.",
-   "summary_zh": "Blue Owl 旗下实物资产基金与 Crusoe、Primary Digital Infrastructure 共同出资建设得州阿比林 1.2 吉瓦园区（为甲骨文和 OpenAI 的星际之门项目建造），合资项目总额约 150 亿美元。摩根大通牵头的 71 亿美元二期建设贷款另列一条。",
-   "sources": [
-    {
-     "url": "https://crusoe.ai/newsroom/crusoe-blue-owl-capital-and-primary-digital-infrastructure-enter-joint-venture/",
-     "publisher": "Crusoe",
-     "date": "2025-05-21",
-     "title": "Crusoe, Blue Owl Capital and Primary Digital Infrastructure Enter Joint Venture"
-    },
-    {
-     "url": "https://seekingalpha.com/pr/20111983-crusoe-blue-owl-capital-and-primary-digital-infrastructure-enter-second-phase-of-15-billion",
-     "publisher": "Seeking Alpha (press release)",
-     "date": "2025-05-21",
-     "title": "Crusoe, Blue Owl Capital and Primary Digital Infrastructure enter second phase of $15 billion joint venture"
-    }
-   ],
-   "research_confidence": "confirmed",
    "extracted_at": "2026-10-27T09:00:00Z",
    "model": "coverage research team (web search, not yet opened)",
    "origin": "candidate"
@@ -12929,76 +12802,6 @@
     }
    ],
    "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-blackstone-airtrunk-2024-09-acquisition",
-   "kind": "investment",
-   "subkind": "acquisition",
-   "from": "blackstone",
-   "to": "airtrunk",
-   "amount_usd": 16100000000,
-   "amount_text": "A$24B+ enterprise value (~US$16.1B at ~0.67 USD/AUD on 2024-09-04); Blackstone funds with CPP Investments",
-   "announced": "2024-09-04",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Blackstone buys AirTrunk for A$24B",
-   "title_zh": "黑石以 240 亿澳元收购 AirTrunk",
-   "summary_en": "A Blackstone-led consortium including CPP Investments bought Australian data-centre operator AirTrunk at an enterprise value above A$24B, billed as the largest data-centre deal ever; it closed in December 2024 after regulatory approval.",
-   "summary_zh": "黑石牵头、加拿大退休金计划投资委员会参与的财团以超过 240 亿澳元的企业价值收购澳大利亚数据中心运营商 AirTrunk，被称为史上最大的数据中心交易，于 2024 年 12 月获批后完成。",
-   "sources": [
-    {
-     "url": "https://airtrunk.com/?p=14902",
-     "publisher": "AirTrunk",
-     "date": "2024-12-23",
-     "title": "Completion Of AirTrunk Acquisition By Blackstone - Marking New Era Of Growth"
-    },
-    {
-     "url": "https://www.forbes.com.au/news/innovation/confirmed-airtrunk-acquired-by-blackstone-in-24-billion-deal",
-     "publisher": "Forbes Australia",
-     "date": "2024-09-04",
-     "title": "Confirmed: AirTrunk acquired by Blackstone in $24 billion deal"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-blue-owl-chirisa-technology-parks-2024-08-coreweave-jv",
-   "kind": "investment",
-   "subkind": "build-to-suit data-centre joint venture",
-   "from": "blue-owl",
-   "to": "chirisa-technology-parks",
-   "amount_usd": null,
-   "amount_text": "Up to $5B of capital capacity (Blue Owl, Chirisa Technology Parks, PowerHouse); first phase 120 MW near Richmond, Virginia; $750M transaction closed May 2025; announced Aug 2024 (day not checked)",
-   "announced": "2024-08-01",
-   "term": null,
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "Blue Owl, Chirisa and PowerHouse $5B data-centre JV for CoreWeave",
-   "title_zh": "Blue Owl、Chirisa 与 PowerHouse 为 CoreWeave 设立 50 亿美元数据中心合资",
-   "summary_en": "Blue Owl, Chirisa Technology Parks and PowerHouse Data Centers formed a partnership able to deploy up to $5B on turnkey AI data centres for CoreWeave, starting with 120 MW at Chirisa's Richmond-area campus; the JV closed a $750M transaction in May 2025.",
-   "summary_zh": "Blue Owl、Chirisa 科技园与 PowerHouse 数据中心组建可投入最高 50 亿美元的合作，为 CoreWeave 建设交钥匙 AI 数据中心，首期为 Chirisa 里士满附近园区的 120 兆瓦；该合资于 2025 年 5 月完成一笔 7.5 亿美元交易。",
-   "sources": [
-    {
-     "url": "https://www.datacenterdynamics.com/en/news/blue-owl-chirisa-and-powerhouse-announce-5bn-data-center-jv-for-coreweave/",
-     "publisher": "DCD",
-     "date": "2024-08-01",
-     "title": "Blue Owl, Chirisa, and PowerHouse announce $5bn data center JV for CoreWeave"
-    },
-    {
-     "url": "https://www.datacenterdynamics.com/en/news/blue-owl-led-jv-secures-750m-to-build-out-data-centers-for-coreweave/",
-     "publisher": "DCD",
-     "date": "2025-05-28",
-     "title": "Blue Owl-led JV secures $750m to build out data centers for CoreWeave"
-    }
-   ],
-   "research_confidence": "reported",
    "extracted_at": "2026-10-27T09:00:00Z",
    "model": "coverage research team (web search, not yet opened)",
    "origin": "candidate"
@@ -15235,32 +15038,32 @@
  ],
  "stats": {
   "entities": 97,
-  "edges": 261,
-  "curated_edges": 158,
-  "candidate_edges": 103,
+  "edges": 260,
+  "curated_edges": 182,
+  "candidate_edges": 78,
   "by_kind": {
    "order": {
-    "count": 45,
-    "usd": 1217000000000,
+    "count": 48,
+    "usd": 1242139000000,
     "undisclosed": 21,
     "cancelled": 0
    },
    "investment": {
-    "count": 42,
-    "usd": 614000000000,
-    "undisclosed": 19,
+    "count": 54,
+    "usd": 650660000000,
+    "undisclosed": 24,
     "cancelled": 2
    },
    "debt": {
-    "count": 62,
-    "usd": 693596000000,
+    "count": 68,
+    "usd": 764714000000,
     "undisclosed": 1,
     "cancelled": 0
    },
    "lease": {
-    "count": 4,
-    "usd": 1500000000,
-    "undisclosed": 3,
+    "count": 7,
+    "usd": 44440000000,
+    "undisclosed": 4,
     "cancelled": 0
    },
    "vendor_financing": {
@@ -15278,20 +15081,20 @@
   },
   "candidates_by_kind": {
    "order": {
-    "count": 32,
-    "usd": 290789000000
+    "count": 29,
+    "usd": 265650000000
    },
    "investment": {
-    "count": 49,
-    "usd": 216147100000
+    "count": 36,
+    "usd": 169487100000
    },
    "debt": {
-    "count": 17,
-    "usd": 103468000000
+    "count": 11,
+    "usd": 32350000000
    },
    "lease": {
-    "count": 5,
-    "usd": 57440000000
+    "count": 2,
+    "usd": 5500000000
    },
    "vendor_financing": {
     "count": 0,
@@ -15302,8 +15105,8 @@
     "usd": 0
    }
   },
-  "total_usd": 2678026000000,
-  "latest_announced": "2026-10-12"
+  "total_usd": 2853883000000,
+  "latest_announced": "2026-10-26"
  },
  "notes": {
   "en": "Dollar totals sum curated edges with a disclosed amount, excluding cancelled ones; unverified candidates are counted separately. Descriptive only, not investment advice.",
