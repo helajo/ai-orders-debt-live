@@ -824,6 +824,9 @@ html[lang^="zh"] #disc-en, html[lang="en"] #disc-zh { font-size: 12px; color: va
 }
 
 @media (max-width: 760px) {
+  /* 16px text in form fields: iOS Safari zooms the whole page on focus when it is smaller */
+  .field input, .field select, input, select { font-size: 16px; }
+  .live { white-space: nowrap; }
   /* masthead: live status (which stands in for the kicker) + language on row 1,
      then the title and dek at full width so the Chinese title fits on one line */
   .masthead__inner { grid-template-columns: minmax(0, 1fr) auto; gap: 3px 12px; align-items: center; }
@@ -945,6 +948,12 @@ html[lang^="zh"] #disc-en, html[lang="en"] #disc-zh { font-size: 12px; color: va
   .latest__cols { grid-template-columns: minmax(0, 1fr); }
 }
 @media (max-width: 420px) {
+  /* phones: tighter segmented buttons so Graph / Table and Top 20 / 50 / All share one row */
+  .viz .seg__btn { padding-inline: 9px; }
+  .viz__bar > .seg[role="tablist"] { margin-right: 0; }
+  #graph-scope, #table-sort-wrap { margin-left: 4px; }
+  .tile--money .tile__note { white-space: normal; }
+  .brand__sub { -webkit-line-clamp: 3; }
   .deal-amt { font-size: 26px; }
   /* company totals: the deal count needs little room, the two amounts get the rest */
   .panel__totals { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) auto; gap: 6px; }
@@ -952,9 +961,20 @@ html[lang^="zh"] #disc-en, html[lang="en"] #disc-zh { font-size: 12px; color: va
   .flow { grid-template-columns: minmax(0, 1fr) 28px minmax(0, 1fr); }
 }
 
+@media (max-width: 360px) {
+  /* very narrow phones: the scope switch gets its own row so it never covers the Graph / Table tabs */
+  #graph-scope { grid-row: 2; grid-column: 1 / -1; justify-self: start; margin: 0 8px 6px; }
+}
+
 /* ============================================== touch, motion, forced colours */
 @media (pointer: coarse) {
+  /* 16px text in form fields: iOS / iPadOS Safari zooms the page on focus when it is smaller */
+  input, select { font-size: 16px; }
   .chip, .btn, .lang__btn, .field input, .field select { min-height: 44px; }
+  .seg__btn, .seg--sm .seg__btn { min-height: 40px; }
+  /* the deal-mix segments are drawn 10px tall; give each a taller invisible tap area */
+  .mix__seg { position: relative; }
+  .mix__seg::after { content: ""; position: absolute; inset: -14px 0; }
   .icon-btn { min-width: 44px; height: 44px; }
   .seg { padding: 2px; }
   .seg__btn { padding: 9px 14px; }

@@ -683,6 +683,8 @@
     $("table-sort-wrap").hidden = v !== "table";
     if (v === "table") renderTable();
     renderEmpty();
+    // phones and tablets: a company sheet left open from the graph would cover the table
+    if (state.sel && window.matchMedia && window.matchMedia("(max-width: 1080px)").matches) select(null);
     renderVizCount();
   }
 
