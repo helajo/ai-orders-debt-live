@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>AI Orders &amp; Debt Map</title>
+<meta name="description" content="Live, bilingual relationship graph of orders, investments and debt among the AI giants. AI 巨头订单与债务关系图。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="style.css">
+</head>
+<body><div role="note" style="background:#b45309;color:#fff;font:600 14px/1.4 system-ui,sans-serif;padding:8px 16px;text-align:center">Preview · being fact-checked, figures may change &nbsp;|&nbsp; 预览版 · 正在核查，数字可能调整</div>
+<a class="skip" href="#workspace" data-i18n="view_graph">Graph</a>
+
+<header class="masthead">
+  <div class="masthead__inner">
+    <div class="brand">
+      <h1 class="brand__title" data-i18n="brand">AI Orders &amp; Debt Map</h1>
+      <p class="brand__sub" data-i18n="brand_sub">Who owes whom among the AI giants: orders, investments and debt, monitored by Claude</p>
+    </div>
+    <div class="masthead__right">
+      <div class="live" id="live" aria-live="polite">
+        <span class="live__dot" aria-hidden="true"></span>
+        <span class="live__state" id="live-state">Live</span>
+        <span class="live__text" id="live-text"></span>
+      </div>
+      <div class="lang" role="group" aria-label="Language / 语言">
+        <button type="button" id="lang-en" class="lang__btn" lang="en" aria-pressed="true">English</button>
+        <button type="button" id="lang-zh" class="lang__btn" lang="zh-CN" aria-pressed="false">中文</button>
+      </div>
+    </div>
+  </div>
+  <div class="monitor" id="monitor-line"></div>
+</header>
+
+<div class="banner" id="sample-banner" role="status" hidden></div>
+<div class="banner banner--error" id="error-banner" role="alert" hidden>
+  <span data-i18n="load_error"></span>
+</div>
+
+<section class="summary" id="summary" aria-label="Summary">
+  <div class="tile tile--order"><span class="tile__label" data-i18n="sum_orders">Orders</span><span class="tile__value" id="sum-order">–</span><span class="tile__note" id="sum-order-note"></span></div>
+  <div class="tile tile--investment"><span class="tile__label" data-i18n="sum_investments">Investments</span><span class="tile__value" id="sum-investment">–</span><span class="tile__note" id="sum-investment-note"></span></div>
+  <div class="tile tile--debt"><span class="tile__label" data-i18n="sum_debt">Debt</span><span class="tile__value" id="sum-debt">–</span><span class="tile__note" id="sum-debt-note"></span></div>
+  <div class="tile"><span class="tile__label" data-i18n="sum_deals">Deals</span><span class="tile__value" id="sum-deals">–</span><span class="tile__note" id="sum-scope"></span></div>
+  <div class="tile"><span class="tile__label" data-i18n="sum_entities">Companies</span><span class="tile__value" id="sum-entities">–</span><span class="tile__note" id="sum-new"></span></div>
+</section>
+
+<section class="filters" aria-label="Filters">
+  <fieldset class="filters__kinds">
+    <legend data-i18n="f_kinds">Deal type</legend>
+    <div class="chips" id="kind-chips"></div>
+  </fieldset>
+  <button type="button" class="btn filters__more" id="f-more" aria-expanded="false" aria-controls="filters-row"><span data-i18n="f_more">More filters</span> <span class="filters__more-n" id="f-more-n"></span></button>
+  <div class="filters__row" id="filters-row">
+    <label class="field field--search">
+      <span data-i18n="f_search">Search</span>
+      <input type="search" id="f-search" autocomplete="off" spellcheck="false">
+    </label>
+    <label class="field">
+      <span data-i18n="f_group">Sector</span>
+      <select id="f-group"></select>
+    </label>
+    <label class="field">
+      <span data-i18n="f_min">Minimum size</span>
+      <select id="f-min"></select>
+    </label>
+    <label class="field">
+      <span data-i18n="f_period">Period</span>
+      <select id="f-period"></select>
+    </label>
+    <label class="field field--date">
+      <span data-i18n="f_from">From</span>
+      <input type="date" id="f-from">
+    </label>
+    <label class="field field--date">
+      <span data-i18n="f_to">To</span>
+      <input type="date" id="f-to">
+    </label>
+    <label class="check">
+      <input type="checkbox" id="f-unverified" checked>
+      <span data-i18n="f_unverified">Show unverified (machine-extracted)</span>
+    </label>
+    <button type="button" class="btn btn--ghost" id="f-reset" data-i18n="f_reset">Reset filters</button>
+  </div>
+</section>
+
+<main class="workspace" id="workspace">
+  <section class="viz" aria-label="Relationship graph">
+    <div class="viz__bar">
+      <div class="seg" role="tablist" aria-label="View">
+        <button type="button" role="tab" id="tab-graph" class="seg__btn" aria-selected="true" aria-controls="graph-view" data-i18n="view_graph">Graph</button>
+        <button type="button" role="tab" id="tab-table" class="seg__btn" aria-selected="false" aria-controls="table-view" data-i18n="view_table">Table</button>
+      </div>
+      <span class="viz__count" id="viz-count"></span>
+      <div class="viz__tools" id="graph-tools">
+        <button type="button" class="icon-btn" id="zoom-in" data-i18n-title="zoom_in" aria-label="Zoom in">+</button>
+        <button type="button" class="icon-btn" id="zoom-out" data-i18n-title="zoom_out" aria-label="Zoom out">−</button>
+        <button type="button" class="icon-btn icon-btn--wide" id="zoom-fit" data-i18n="zoom_fit">Fit to view</button>
+      </div>
+      <button type="button" class="btn" id="csv" hidden data-i18n="csv">Download CSV</button>
+    </div>
+
+    <div class="graph" id="graph-view" role="tabpanel" aria-labelledby="tab-graph">
+      <svg id="graph-svg" role="img" aria-label="Relationship graph"></svg>
+      <p class="graph__empty" id="graph-empty" hidden data-i18n="graph_empty">No deals match these filters.</p>
+      <div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+    </div>
+
+    <div class="table-wrap" id="table-view" role="tabpanel" aria-labelledby="tab-table" hidden>
+      <table class="deals" id="deals-table">
+        <thead><tr id="deals-head"></tr></thead>
+        <tbody id="deals-body"></tbody>
+      </table>
+    </div>
+
+    <div class="legend" id="legend">
+      <div class="legend__groups" id="legend-groups"></div>
+      <div class="legend__keys">
+        <span class="legend__key"><svg width="26" height="10" aria-hidden="true"><line x1="1" y1="5" x2="20" y2="5" class="lk-line"/><path d="M19 1 L25 5 L19 9 Z" class="lk-head"/></svg><span data-i18n="legend_arrow">Arrow = direction money flows</span></span>
+        <span class="legend__key"><svg width="26" height="10" aria-hidden="true"><line x1="1" y1="5" x2="25" y2="5" class="lk-line lk-dash"/></svg><span data-i18n="legend_dashed">Dashed = unverified</span></span>
+        <span class="legend__key"><svg width="26" height="12" aria-hidden="true"><line x1="1" y1="3" x2="25" y2="3" class="lk-line" style="stroke-width:1"/><line x1="1" y1="9" x2="25" y2="9" class="lk-line" style="stroke-width:4"/></svg><span data-i18n="legend_width">Line width = deal size</span></span>
+        <span class="legend__key"><svg width="26" height="14" aria-hidden="true"><circle cx="5" cy="9" r="3.5" class="lk-node"/><circle cx="18" cy="7" r="6.5" class="lk-node"/></svg><span data-i18n="legend_size">Circle size = total money in and out</span></span>
+      </div>
+      <p class="legend__hint" data-i18n="graph_hint">Drag to pan, scroll or pinch to zoom. Select a company or a line for details.</p>
+    </div>
+  </section>
+
+  <aside class="panel" id="panel" aria-live="polite" tabindex="-1"></aside>
+</main>
+
+<section class="latest" aria-labelledby="latest-h">
+  <h2 class="section-h" id="latest-h" data-i18n="latest">Latest from the monitor</h2>
+  <div class="latest__cols">
+    <div class="latest__col">
+      <h3 class="latest__h" data-i18n="latest_news">News</h3>
+      <ol class="feed" id="feed-news"></ol>
+    </div>
+    <div class="latest__col">
+      <h3 class="latest__h" data-i18n="latest_filings">SEC filings</h3>
+      <ol class="feed" id="feed-filings"></ol>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p class="footer__disc" lang="en">Descriptive only, not investment advice. Figures are nominal USD as reported by companies and named outlets; every deal links to its sources. Unverified lines are machine-extracted and may be wrong.</p>
+  <p class="footer__disc" lang="zh-CN">仅作描述，不构成投资建议。金额为公司或具名媒体披露的名义美元金额；每笔交易均附来源链接。虚线为机器抽取、未经核实的信息，可能有误。</p>
+  <p class="footer__meta" id="footer-meta" data-i18n="footer_built">Built from public filings and news.</p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="i18n.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
