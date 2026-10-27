@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T10:04:25Z",
+ "generated_at": "2026-10-27T10:08:12Z",
  "monitor": {
   "last_run": "2026-10-27T08:41:06Z",
   "sec_items": 119,
   "news_items": 645,
-  "candidates": 78,
+  "candidates": 53,
   "claude_enabled": false,
   "model": null,
   "sources": {
@@ -58,7 +58,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -73,8 +73,8 @@
      "guarantee": 0
     },
     "degree": 2,
-    "degree_curated": 1,
-    "candidate_edges": 1,
+    "degree_curated": 2,
+    "candidate_edges": 0,
     "counterparties": 2,
     "inflow_total_usd": 0,
     "outflow_total_usd": 40000000000
@@ -253,7 +253,7 @@
      "guarantee": 4930000000
     },
     "inflow_count": {
-     "order": 5,
+     "order": 6,
      "investment": 0,
      "debt": 3,
      "lease": 0,
@@ -269,8 +269,8 @@
      "guarantee": 2
     },
     "degree": 16,
-    "degree_curated": 12,
-    "candidate_edges": 4,
+    "degree_curated": 13,
+    "candidate_edges": 3,
     "counterparties": 10,
     "inflow_total_usd": 91430000000,
     "outflow_total_usd": 74930000000
@@ -297,7 +297,7 @@
      "order": 0,
      "investment": 83000000000,
      "debt": 0,
-     "lease": 0,
+     "lease": 5500000000,
      "vendor_financing": 0,
      "guarantee": 0
     },
@@ -313,16 +313,16 @@
      "order": 0,
      "investment": 3,
      "debt": 0,
-     "lease": 0,
+     "lease": 1,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 11,
-    "degree_curated": 9,
-    "candidate_edges": 2,
+    "degree_curated": 10,
+    "candidate_edges": 1,
     "counterparties": 5,
     "inflow_total_usd": 331800000000,
-    "outflow_total_usd": 83000000000
+    "outflow_total_usd": 88500000000
    }
   },
   {
@@ -401,7 +401,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 12,
+     "investment": 13,
      "debt": 2,
      "lease": 0,
      "vendor_financing": 1,
@@ -415,9 +415,9 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 30,
-    "degree_curated": 26,
-    "candidate_edges": 4,
+    "degree": 29,
+    "degree_curated": 27,
+    "candidate_edges": 2,
     "counterparties": 18,
     "inflow_total_usd": 218500000000,
     "outflow_total_usd": 281000000000
@@ -675,7 +675,7 @@
    "group": "chip",
    "ticker": "ASML",
    "country": "NL",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
@@ -687,7 +687,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 1520000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -703,18 +703,18 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
     "counterparties": 1,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 0
+    "outflow_total_usd": 1520000000
    }
   },
   {
@@ -786,7 +786,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 87400000000,
+     "debt": 88230000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -802,17 +802,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 4,
+     "debt": 5,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 5,
-    "degree_curated": 4,
-    "candidate_edges": 1,
+    "degree_curated": 5,
+    "candidate_edges": 0,
     "counterparties": 4,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 87400000000
+    "outflow_total_usd": 88230000000
    }
   },
   {
@@ -1227,7 +1227,7 @@
     "outflow_usd": {
      "order": 25000000000,
      "investment": 0,
-     "debt": 0,
+     "debt": 750000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1243,17 +1243,17 @@
     "outflow_count": {
      "order": 2,
      "investment": 0,
-     "debt": 0,
+     "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 5,
-    "degree_curated": 4,
-    "candidate_edges": 1,
+    "degree_curated": 5,
+    "candidate_edges": 0,
     "counterparties": 4,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 25000000000
+    "outflow_total_usd": 25750000000
    }
   },
   {
@@ -1361,7 +1361,7 @@
    "group": "datacenter",
    "ticker": null,
    "country": "FR",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
@@ -1381,7 +1381,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 3,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -1396,8 +1396,8 @@
      "guarantee": 0
     },
     "degree": 3,
-    "degree_curated": 0,
-    "candidate_edges": 3,
+    "degree_curated": 3,
+    "candidate_edges": 0,
     "counterparties": 2,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0
@@ -1563,7 +1563,7 @@
      "order": 0,
      "investment": 0,
      "debt": 1400000000,
-     "lease": 0,
+     "lease": 5500000000,
      "vendor_financing": 0,
      "guarantee": 1730000000
     },
@@ -1579,7 +1579,7 @@
      "order": 0,
      "investment": 0,
      "debt": 1,
-     "lease": 0,
+     "lease": 1,
      "vendor_financing": 0,
      "guarantee": 1
     },
@@ -1592,10 +1592,10 @@
      "guarantee": 0
     },
     "degree": 3,
-    "degree_curated": 2,
-    "candidate_edges": 1,
+    "degree_curated": 3,
+    "candidate_edges": 0,
     "counterparties": 3,
-    "inflow_total_usd": 3130000000,
+    "inflow_total_usd": 8630000000,
     "outflow_total_usd": 0
    }
   },
@@ -1709,7 +1709,7 @@
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 9400000000,
+     "debt": 10150000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1725,7 +1725,7 @@
     "inflow_count": {
      "order": 0,
      "investment": 1,
-     "debt": 2,
+     "debt": 3,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1739,10 +1739,10 @@
      "guarantee": 0
     },
     "degree": 5,
-    "degree_curated": 3,
-    "candidate_edges": 2,
+    "degree_curated": 4,
+    "candidate_edges": 1,
     "counterparties": 4,
-    "inflow_total_usd": 9400000000,
+    "inflow_total_usd": 10150000000,
     "outflow_total_usd": 0
    }
   },
@@ -1900,10 +1900,10 @@
    "group": "datacenter",
    "ticker": null,
    "country": "SE",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
-     "order": 0,
+     "order": 1400000000,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -1919,7 +1919,7 @@
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 0,
+     "order": 1,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -1935,10 +1935,10 @@
      "guarantee": 0
     },
     "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
     "counterparties": 1,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 1400000000,
     "outflow_total_usd": 0
    }
   },
@@ -2810,16 +2810,16 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 2,
+     "investment": 6,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 8,
-    "degree_curated": 2,
-    "candidate_edges": 6,
-    "counterparties": 6,
+    "degree": 6,
+    "degree_curated": 6,
+    "candidate_edges": 0,
+    "counterparties": 5,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0
    }
@@ -2907,7 +2907,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 4,
+     "order": 5,
      "investment": 2,
      "debt": 0,
      "lease": 0,
@@ -2915,8 +2915,8 @@
      "guarantee": 0
     },
     "degree": 12,
-    "degree_curated": 8,
-    "candidate_edges": 4,
+    "degree_curated": 9,
+    "candidate_edges": 3,
     "counterparties": 10,
     "inflow_total_usd": 280000000000,
     "outflow_total_usd": 45100000000
@@ -2982,14 +2982,14 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
-     "debt": 0,
+     "investment": 5665000000,
+     "debt": 830000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 0,
+     "order": 1400000000,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -2997,27 +2997,27 @@
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 0,
-     "investment": 0,
-     "debt": 0,
+     "order": 1,
+     "investment": 4,
+     "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 0,
-     "investment": 0,
+     "order": 1,
+     "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 8,
-    "degree_curated": 0,
-    "candidate_edges": 8,
+    "degree_curated": 8,
+    "candidate_edges": 0,
     "counterparties": 7,
-    "inflow_total_usd": 0,
-    "outflow_total_usd": 0
+    "inflow_total_usd": 6495000000,
+    "outflow_total_usd": 1400000000
    }
   },
   {
@@ -3227,7 +3227,7 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 1000000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -3243,7 +3243,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -3258,10 +3258,10 @@
      "guarantee": 0
     },
     "degree": 2,
-    "degree_curated": 1,
-    "candidate_edges": 1,
+    "degree_curated": 2,
+    "candidate_edges": 0,
     "counterparties": 2,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 1000000000,
     "outflow_total_usd": 0
    }
   },
@@ -3382,7 +3382,7 @@
     },
     "outflow_usd": {
      "order": 6300000000,
-     "investment": 49000000000,
+     "investment": 50000000000,
      "debt": 0,
      "lease": 1500000000,
      "vendor_financing": 0,
@@ -3398,18 +3398,18 @@
     },
     "outflow_count": {
      "order": 2,
-     "investment": 8,
+     "investment": 9,
      "debt": 0,
      "lease": 1,
      "vendor_financing": 0,
      "guarantee": 1
     },
     "degree": 22,
-    "degree_curated": 16,
-    "candidate_edges": 6,
+    "degree_curated": 17,
+    "candidate_edges": 5,
     "counterparties": 19,
     "inflow_total_usd": 40000000000,
-    "outflow_total_usd": 161800000000
+    "outflow_total_usd": 162800000000
    }
   },
   {
@@ -3446,17 +3446,17 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 10,
+     "order": 11,
      "investment": 3,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 30,
-    "degree_curated": 21,
-    "candidate_edges": 9,
-    "counterparties": 21,
+    "degree": 29,
+    "degree_curated": 22,
+    "candidate_edges": 7,
+    "counterparties": 20,
     "inflow_total_usd": 157000000000,
     "outflow_total_usd": 730400000000
    }
@@ -3472,7 +3472,7 @@
    "stats": {
     "inflow_usd": {
      "order": 327000000000,
-     "investment": 0,
+     "investment": 24909000000,
      "debt": 43000000000,
      "lease": 0,
      "vendor_financing": 0,
@@ -3488,7 +3488,7 @@
     },
     "inflow_count": {
      "order": 3,
-     "investment": 0,
+     "investment": 2,
      "debt": 2,
      "lease": 0,
      "vendor_financing": 0,
@@ -3503,10 +3503,10 @@
      "guarantee": 0
     },
     "degree": 12,
-    "degree_curated": 9,
-    "candidate_edges": 3,
+    "degree_curated": 11,
+    "candidate_edges": 1,
     "counterparties": 10,
-    "inflow_total_usd": 370000000000,
+    "inflow_total_usd": 394909000000,
     "outflow_total_usd": 40000000000
    }
   },
@@ -3627,7 +3627,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 69560000000,
+     "investment": 105705000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -3643,18 +3643,18 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 7,
+     "investment": 12,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 15,
-    "degree_curated": 7,
-    "candidate_edges": 8,
+    "degree_curated": 12,
+    "candidate_edges": 3,
     "counterparties": 6,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 69560000000
+    "outflow_total_usd": 105705000000
    }
   },
   {
@@ -3713,7 +3713,7 @@
    "group": "financier",
    "ticker": null,
    "country": null,
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
@@ -3725,7 +3725,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 24909000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -3741,18 +3741,18 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 2,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 4,
-    "degree_curated": 0,
-    "candidate_edges": 4,
+    "degree_curated": 2,
+    "candidate_edges": 2,
     "counterparties": 3,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 0
+    "outflow_total_usd": 24909000000
    }
   },
   {
@@ -3839,15 +3839,15 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 2,
+     "investment": 3,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 11,
-    "degree_curated": 3,
-    "candidate_edges": 8,
+    "degree_curated": 4,
+    "candidate_edges": 7,
     "counterparties": 10,
     "inflow_total_usd": 0,
     "outflow_total_usd": 1000000000
@@ -4448,7 +4448,7 @@
    "group": "other",
    "ticker": "TSLA",
    "country": "US",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
@@ -4460,7 +4460,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 2000000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -4476,18 +4476,18 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 3,
-    "degree_curated": 0,
-    "candidate_edges": 3,
+    "degree_curated": 1,
+    "candidate_edges": 2,
     "counterparties": 3,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 0
+    "outflow_total_usd": 2000000000
    }
   },
   {
@@ -4746,7 +4746,7 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 250000000000,
+     "investment": 284000000000,
      "debt": 5000000000,
      "lease": 0,
      "vendor_financing": 0,
@@ -4762,7 +4762,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 2,
+     "investment": 7,
      "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
@@ -4770,17 +4770,17 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 0,
      "lease": 1,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 10,
-    "degree_curated": 4,
-    "candidate_edges": 6,
+    "degree_curated": 10,
+    "candidate_edges": 0,
     "counterparties": 8,
-    "inflow_total_usd": 255000000000,
+    "inflow_total_usd": 289000000000,
     "outflow_total_usd": 0
    }
   }
@@ -5191,6 +5191,90 @@
    "origin": "curated"
   },
   {
+   "id": "public-equity-investors-oracle-2026-atm-share-sales",
+   "kind": "investment",
+   "subkind": "at-the-market common stock programme",
+   "from": "public-equity-investors",
+   "to": "oracle",
+   "amount_usd": 19909000000,
+   "amount_text": "$19.9B net proceeds from at-the-market common stock issuance in the quarter ended 31 Aug 2026 (per 10-Q); programme size not checked; announced date is the 10-Q filing",
+   "announced": "2026-09-10",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Oracle raises $19.9B of new equity through an at-the-market programme",
+   "title_zh": "甲骨文通过按市价发行计划募集 199 亿美元股本",
+   "summary_en": "Oracle's 10-Q for the quarter ended 31 August 2026 shows about $19.9B of net proceeds from common stock issued through its at-the-market programme, as it funds AI data-centre buildout.",
+   "summary_zh": "甲骨文截至 2026 年 8 月 31 日的季度报告显示，通过按市价发行（ATM）计划发行普通股，净募资约 199 亿美元，用于 AI 数据中心建设。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001341439/000119312526389274/orcl-20260831.htm",
+     "publisher": "Oracle (Form 10-Q)",
+     "date": "2026-09-10",
+     "title": "Oracle Corp Form 10-Q for the quarter ended August 31, 2026"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "private-investors-mistral-2026-09-series-d",
+   "kind": "investment",
+   "subkind": "venture round",
+   "from": "private-investors",
+   "to": "mistral",
+   "amount_usd": 3500000000,
+   "amount_text": "€3B (~$3.5B per Crunchbase) at >€21B post-money; led by Samsung Electronics, co-led by EQT's Scaleup Europe Fund and PSG Equity",
+   "announced": "2026-09-08",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Mistral AI raises €3B Series D led by Samsung",
+   "title_zh": "Mistral AI 完成三星领投的 30 亿欧元 D 轮",
+   "summary_en": "Mistral AI raised €3B in a Series D at a post-money valuation above €21B, led by Samsung Electronics with EQT's Scaleup Europe Fund and PSG Equity as co-leads.",
+   "summary_zh": "Mistral AI 完成 30 亿欧元 D 轮融资，投后估值超过 210 亿欧元，由三星电子领投、EQT 管理的 Scaleup Europe Fund 与 PSG Equity 联合领投。",
+   "sources": [
+    {
+     "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+     "publisher": "Mistral AI",
+     "date": "2026-09-08",
+     "title": "Making sovereign, open-weight AI the technology frontier"
+    },
+    {
+     "url": "https://news.crunchbase.com/venture/europe-record-setting-mistral-ai-raise/",
+     "publisher": "Crunchbase News",
+     "date": "2026-09-08",
+     "title": "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "samsung-mistral-2026-09-series-d",
+   "kind": "investment",
+   "subkind": "venture round lead",
+   "from": "samsung",
+   "to": "mistral",
+   "amount_usd": null,
+   "amount_text": "Undisclosed share of the €3B Series D (round total is a separate edge)",
+   "announced": "2026-09-08",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Samsung leads Mistral AI's Series D",
+   "title_zh": "三星领投 Mistral AI D 轮",
+   "summary_en": "Samsung Electronics was lead investor in Mistral AI's €3B Series D; its individual amount was not disclosed.",
+   "summary_zh": "三星电子领投 Mistral AI 30 亿欧元 D 轮，具体金额未披露。",
+   "sources": [
+    {
+     "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
+     "publisher": "Mistral AI",
+     "date": "2026-09-08",
+     "title": "Making sovereign, open-weight AI the technology frontier"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "bank-lenders-bytedance-2026-09-loan",
    "kind": "debt",
    "subkind": "syndicated loan (unsecured, offshore)",
@@ -5589,6 +5673,32 @@
    "origin": "curated"
   },
   {
+   "id": "nvidia-naver-2026-07-equity",
+   "kind": "investment",
+   "subkind": "equity investment",
+   "from": "nvidia",
+   "to": "naver",
+   "amount_usd": 1000000000,
+   "amount_text": "$1B toward the ~$10B AI factory project; stake size and any conditions not stated in the release",
+   "announced": "2026-07-25",
+   "term": null,
+   "status": "announced",
+   "confidence": "confirmed",
+   "title_en": "Nvidia to invest $1B in Naver's AI factory buildout",
+   "title_zh": "英伟达拟为 NAVER 的 AI 工厂建设投资 10 亿美元",
+   "summary_en": "In the joint release with Brookfield, Nvidia said it will invest $1B toward the roughly $10B expansion of Naver's GAK Sejong AI factory from 55 MW to 200 MW; Brookfield is the exclusive capital partner for up to $9B.",
+   "summary_zh": "在与布鲁克菲尔德的联合新闻稿中，英伟达表示将为 NAVER 位于世宗的 GAK AI 工厂（从 55 兆瓦扩建至 200 兆瓦，总投资约 100 亿美元）投资 10 亿美元；布鲁克菲尔德作为独家资本合作方出资最高 90 亿美元。",
+   "sources": [
+    {
+     "url": "https://www.aap.com.au/aapreleases/cision20260725ae12156/",
+     "publisher": "AAP (Cision release)",
+     "date": "2026-07-25",
+     "title": "NAVER Partners with Brookfield and NVIDIA to Expand Korea's National AI Factory Infrastructure Buildout"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "bond-investors-sopaipilla-2026-07-el-paso-notes",
    "kind": "debt",
    "subkind": "private-credit SPV bonds",
@@ -5694,6 +5804,38 @@
      "publisher": "AMD",
      "date": "2026-07-22",
      "title": "AMD and Anthropic Announce Strategic Partnership to Deploy up to 2 Gigawatts of AMD Instinct MI450 Series GPUs"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "microsoft-mistral-2026-07-european-compute",
+   "kind": "order",
+   "subkind": "GPU compute capacity agreement",
+   "from": "microsoft",
+   "to": "mistral",
+   "amount_usd": null,
+   "amount_text": "\"Multibillion-dollar\", exact value undisclosed; no new equity stake",
+   "announced": "2026-07-21",
+   "term": null,
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Microsoft's multibillion-dollar compute deal with Mistral AI",
+   "title_zh": "微软与 Mistral AI 签订数十亿美元算力协议",
+   "summary_en": "Microsoft committed multibillion dollars to Mistral's European GPU capacity (thousands of Nvidia Vera Rubin chips) without a new equity stake; Azure customers gain access to Mistral's French data centres and Mistral models join Microsoft Foundry.",
+   "summary_zh": "微软承诺向 Mistral 的欧洲 GPU 算力（数千块英伟达 Vera Rubin 芯片）投入数十亿美元，不新增股权；Azure 客户可使用 Mistral 的法国数据中心，Mistral 模型同时上架微软 Foundry。",
+   "sources": [
+    {
+     "url": "https://thenextweb.com/news/microsoft-fund-mistral-european-ai-expansion",
+     "publisher": "The Next Web",
+     "date": "2026-07-21",
+     "title": "Microsoft to fund Mistral's European AI expansion in multibillion-dollar deal"
+    },
+    {
+     "url": "https://aimagazine.com/news/microsoft-mistrals-multibillion-dollar-european-ai-deal",
+     "publisher": "AI Magazine",
+     "date": "2026-07-22",
+     "title": "Microsoft & Mistral's Multi-Billion-Dollar European AI Deal"
     }
    ],
    "origin": "curated"
@@ -5912,6 +6054,38 @@
      "publisher": "DatacenterDynamics",
      "date": "2026-06-06",
      "title": "Google to pay $920 million to SpaceX monthly for AI capacity"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "mgx-campus-ai-france-2026-06-second-site",
+   "kind": "investment",
+   "subkind": "data-centre joint venture expansion",
+   "from": "mgx",
+   "to": "campus-ai-france",
+   "amount_usd": null,
+   "amount_text": "Amount not confirmed; MGX share undisclosed",
+   "announced": "2026-06-01",
+   "term": "network of up to 3 GW across France",
+   "status": "announced",
+   "confidence": "confirmed",
+   "title_en": "MGX, Bpifrance and Mistral expand Campus AI with a second French site",
+   "title_zh": "MGX、Bpifrance 与 Mistral 为法国 AI 园区增建第二个站点",
+   "summary_en": "Bpifrance, Mistral AI and MGX announced a second Campus AI site, growing the network toward 3 GW of AI compute across France.",
+   "summary_zh": "Bpifrance、Mistral AI 和 MGX 宣布法国 AI 园区第二个站点，使该网络在法国的 AI 算力目标扩大至 3 吉瓦。",
+   "sources": [
+    {
+     "url": "https://www.mgx.ae/news-insights/bpifrance-mistral-and-mgx-expand-campus-ai-across-france-deliver-3-gw-network-ai",
+     "publisher": "MGX",
+     "date": "2026-06-01",
+     "title": "Bpifrance, Mistral and MGX to Expand Campus AI across France, to Deliver a 3 GW Network of AI Factories"
+    },
+    {
+     "url": "https://www.wam.ae/en/article/1792zxu-mgx-strategic-partners-expand-campus-france-with",
+     "publisher": "WAM",
+     "date": "2026-06-01",
+     "title": "MGX, strategic partners to expand Campus AI in France with second site"
     }
    ],
    "origin": "curated"
@@ -6495,6 +6669,38 @@
    "origin": "curated"
   },
   {
+   "id": "bank-lenders-mistral-2026-03-data-centre-loan",
+   "kind": "debt",
+   "subkind": "GPU data-centre loan",
+   "from": "bank-lenders",
+   "to": "mistral",
+   "amount_usd": 830000000,
+   "amount_text": "$830M from seven banks (Bpifrance, BNP Paribas, Crédit Agricole CIB, HSBC, La Banque Postale, MUFG, Natixis CIB), per reports quoting the company",
+   "announced": "2026-03-30",
+   "term": null,
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Mistral AI raises $830M of debt for Paris-area data centre",
+   "title_zh": "Mistral AI 为巴黎附近数据中心举债 8.3 亿美元",
+   "summary_en": "Mistral AI took its first big debt, an $830M loan from a seven-bank group, to fund Nvidia GB300 GPUs (about 13,800) and 44 MW at an Eclairion-run site in Bruyères-le-Châtel, south of Paris.",
+   "summary_zh": "Mistral AI 首次大规模举债，从七家银行组成的银团获得 8.3 亿美元贷款，用于在巴黎南部 Bruyères-le-Châtel、由 Eclairion 运营的站点部署约 13,800 块英伟达 GB300 GPU 和 44 兆瓦容量。",
+   "sources": [
+    {
+     "url": "https://techcrunch.com/2026/03/30/mistral-ai-raises-830m-in-debt-to-set-up-a-data-center-near-paris/",
+     "publisher": "TechCrunch",
+     "date": "2026-03-30",
+     "title": "Mistral AI raises $830M in debt to set up a data center near Paris"
+    },
+    {
+     "url": "https://www.datacenterdynamics.com/en/news/mistral-ai-raises-830m-in-debt-financing-for-data-center-in-paris-france/",
+     "publisher": "DCD",
+     "date": "2026-03-30",
+     "title": "Mistral AI raises $830m in debt financing for data center in Paris, France"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "mufg-coreweave-2026-03-ddtl4",
    "kind": "debt",
    "subkind": "investment-grade GPU-backed delayed draw term loan (DDTL 4.0)",
@@ -7001,6 +7207,70 @@
    "origin": "curated"
   },
   {
+   "id": "mgx-anthropic-2026-02-series-g",
+   "kind": "investment",
+   "subkind": "venture round co-lead",
+   "from": "mgx",
+   "to": "anthropic",
+   "amount_usd": null,
+   "amount_text": "Undisclosed share of the $30B Series G (round total is a separate edge)",
+   "announced": "2026-02-12",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "MGX co-leads Anthropic's Series G",
+   "title_zh": "MGX 联合领投 Anthropic G 轮",
+   "summary_en": "MGX was a co-lead, with D. E. Shaw, Dragoneer, Founders Fund and ICONIQ, of Anthropic's $30B Series G led by GIC and Coatue at a $380B post-money valuation.",
+   "summary_zh": "MGX 与 D. E. Shaw、Dragoneer、Founders Fund、ICONIQ 一同联合领投 Anthropic 由 GIC 和 Coatue 领投、投后估值 3800 亿美元的 300 亿美元 G 轮。",
+   "sources": [
+    {
+     "url": "https://www.uaepreferred.com/perspectives/mgx-co-leads-30-billion-anthropic-funding-round",
+     "publisher": "UAE Preferred",
+     "date": "2026-02-17",
+     "title": "MGX co-leads $30 billion Anthropic funding round"
+    },
+    {
+     "url": "https://w.media/anthropic-raises-us-30-billion-in-series-g-funding/",
+     "publisher": "W.Media",
+     "date": "2026-02-13",
+     "title": "Anthropic raises US$ 30 billion in Series G funding"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "mistral-ecodatacenter-2026-02-sweden",
+   "kind": "order",
+   "subkind": "AI data-centre build and operation",
+   "from": "mistral",
+   "to": "ecodatacenter",
+   "amount_usd": 1400000000,
+   "amount_text": "~€1.2B (~$1.4B) joint investment with EcoDataCenter",
+   "announced": "2026-02-12",
+   "term": "Opening 2027",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Mistral AI's $1.4B AI data centre in Sweden with EcoDataCenter",
+   "title_zh": "Mistral AI 与 EcoDataCenter 在瑞典投资 14 亿美元建设 AI 数据中心",
+   "summary_en": "Mistral AI and EcoDataCenter will invest about €1.2B in an AI data centre at EcoDataCenter's Borlänge site, which EcoDataCenter will design, build and run, designed for Nvidia Vera Rubin GPUs; opening is set for 2027.",
+   "summary_zh": "Mistral AI 与 EcoDataCenter 将在 EcoDataCenter 位于博伦厄的站点投资约 12 亿欧元建设 AI 数据中心，由 EcoDataCenter 设计、建设和运营，面向英伟达 Vera Rubin GPU，计划 2027 年启用。",
+   "sources": [
+    {
+     "url": "https://w.media/mistral-ai-ecodatacenter-invest-e1-2b-in-swedish-ai-data-center/",
+     "publisher": "W.Media",
+     "date": "2026-02-12",
+     "title": "Mistral AI and EcoDataCenter invest €1.2 billion in Swedish AI Data Center"
+    },
+    {
+     "url": "https://www.verdict.co.uk/mistral-ai-to-invest-1-4bn-in-sweden-data-centre/",
+     "publisher": "Verdict",
+     "date": "2026-02-12",
+     "title": "Mistral AI to invest $1.4bn in Sweden data centre"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "private-investors-anthropic-2026-02-series-g",
    "kind": "investment",
    "subkind": "equity funding round (Series G)",
@@ -7135,6 +7405,32 @@
    "origin": "curated"
   },
   {
+   "id": "public-equity-investors-oracle-2026-02-mandatory-convertible",
+   "kind": "investment",
+   "subkind": "mandatory convertible preferred stock",
+   "from": "public-equity-investors",
+   "to": "oracle",
+   "amount_usd": 5000000000,
+   "amount_text": "100M depositary shares of 6.50% Series D mandatory convertible preferred (~$5B at $50 per depositary share); closed 5 Feb 2026",
+   "announced": "2026-02-02",
+   "term": "Dividends through 15 Jan 2029",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Oracle raises $5B with mandatory convertible preferred stock",
+   "title_zh": "甲骨文发行 50 亿美元强制可转换优先股",
+   "summary_en": "Oracle sold 100 million depositary shares of 6.50% Series D mandatory convertible preferred stock (underwriting agreement 2 Feb, closed 5 Feb 2026), part of its 2026 debt-and-equity funding plan for AI data centres.",
+   "summary_zh": "甲骨文发行 1 亿份存托股，对应股息率 6.50% 的 D 系列强制可转换优先股（2 月 2 日签署承销协议，2026 年 2 月 5 日交割），为其 2026 年 AI 数据中心债务加股权融资计划的一部分。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526039344/d63638d8k.htm",
+     "publisher": "Oracle (Form 8-K)",
+     "date": "2026-02-05",
+     "title": "Oracle Corp Form 8-K: Series D Mandatory Convertible Preferred Stock"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "spacex-xai-2026-02-merger",
    "kind": "investment",
    "subkind": "acquisition (all-stock merger)",
@@ -7232,6 +7528,38 @@
      "publisher": "Tom's Hardware (citing FT)",
      "date": "2026-08-19",
      "title": "First Nvidia H200 shipments reach China, ByteDance and Tencent take deliveries"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "tesla-xai-2026-01-series-e",
+   "kind": "investment",
+   "subkind": "equity investment",
+   "from": "tesla",
+   "to": "xai",
+   "amount_usd": 2000000000,
+   "amount_text": "~$2B, disclosed in Tesla's shareholder letter; expected to close in Q1 2026",
+   "announced": "2026-01-28",
+   "term": null,
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Tesla invests about $2B in xAI",
+   "title_zh": "特斯拉向 xAI 投资约 20 亿美元",
+   "summary_en": "Tesla disclosed in its shareholder letter a roughly $2B investment in xAI, expected to close in Q1 2026, with a framework agreement for AI collaboration. It is part of the Series E, so it is not counted again in the round total.",
+   "summary_zh": "特斯拉在股东信中披露向 xAI 投资约 20 亿美元，预计第一季度完成，并签署 AI 合作框架协议。该笔属于 E 轮的一部分，不重复计入轮次总额。",
+   "sources": [
+    {
+     "url": "https://techcrunch.com/2026/01/28/tesla-invested-2b-in-elon-musks-xai",
+     "publisher": "TechCrunch",
+     "date": "2026-01-28",
+     "title": "Tesla invested $2B in Elon Musk's xAI"
+    },
+    {
+     "url": "https://www.datacenterdynamics.com/en/news/elon-musks-tesla-to-invest-2bn-in-musks-xai-as-it-considers-merging-with-musks-spacex-ahead-of-ipo/",
+     "publisher": "DCD",
+     "date": "2026-01-29",
+     "title": "Elon Musk's Tesla to invest $2bn in Musk's xAI as it considers merging with Musk's SpaceX ahead of IPO"
     }
    ],
    "origin": "curated"
@@ -7546,6 +7874,32 @@
      "publisher": "Yahoo Finance (citing Bloomberg)",
      "date": "2025-10-08",
      "title": "Nvidia reportedly to invest up to $2bn in Elon Musk's xAI"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "private-investors-xai-2026-01-series-e",
+   "kind": "investment",
+   "subkind": "venture round",
+   "from": "private-investors",
+   "to": "xai",
+   "amount_usd": 20000000000,
+   "amount_text": "$20B upsized Series E (target was $15B); Nvidia's share is a separate edge",
+   "announced": "2026-01-06",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "xAI raises $20B Series E",
+   "title_zh": "xAI 完成 200 亿美元 E 轮融资",
+   "summary_en": "xAI raised an upsized $20B Series E from Valor, StepStone, Fidelity, QIA, MGX and Baron, with Nvidia and Cisco as strategic investors.",
+   "summary_zh": "xAI 完成超额认购的 200 亿美元 E 轮融资（目标 150 亿美元），投资方包括 Valor、StepStone、富达、卡塔尔投资局、MGX 和 Baron，英伟达和思科为战略投资者。",
+   "sources": [
+    {
+     "url": "https://www.storagenewsletter.com/2026/01/12/xai-raises-20b-series-e/",
+     "publisher": "StorageNewsletter",
+     "date": "2026-01-12",
+     "title": "xAI raises $20B Series E"
     }
    ],
    "origin": "curated"
@@ -7970,6 +8324,38 @@
      "publisher": "Cipher Mining (SEC 8-K)",
      "date": "2025-11-05",
      "title": "Cipher Mining Inc. Announces Pricing of $1.4 Billion of Senior Secured Notes"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "amazon-cipher-mining-2025-11-aws-lease",
+   "kind": "lease",
+   "subkind": "data-centre capacity lease",
+   "from": "amazon",
+   "to": "cipher-mining",
+   "amount_usd": 5500000000,
+   "amount_text": "~$5.5B over 15 years for 300 MW; rent starts August 2026",
+   "announced": "2025-11-03",
+   "term": "15 years; capacity delivered in two phases, July to Q4 2026",
+   "status": "in_progress",
+   "confidence": "reported",
+   "title_en": "AWS signs $5.5B, 15-year lease with Cipher Mining",
+   "title_zh": "亚马逊 AWS 与 Cipher Mining 签订 55 亿美元 15 年租约",
+   "summary_en": "Amazon Web Services agreed to lease 300 MW of air- and liquid-cooled data-centre capacity from bitcoin miner Cipher Mining for about $5.5B over 15 years, with delivery during 2026.",
+   "summary_zh": "亚马逊云科技同意以约 55 亿美元、为期 15 年的条件，向比特币矿企 Cipher Mining 租用 300 兆瓦风冷和液冷数据中心容量，2026 年内交付。",
+   "sources": [
+    {
+     "url": "https://www.datacenterdynamics.com/en/news/aws-signs-300mw-hosting-deal-to-lease-capacity-from-cipher-mining/",
+     "publisher": "DatacenterDynamics",
+     "date": "2025-11-03",
+     "title": "AWS signs 300MW hosting deal to lease capacity from Cipher Mining"
+    },
+    {
+     "url": "https://www.tipranks.com/news/the-fly/cipher-mining-announces-5-5b-15-year-lease-agreement-with-aws-thefly",
+     "publisher": "TipRanks (TheFly)",
+     "date": "2025-11-03",
+     "title": "Cipher Mining announces $5.5B 15-year lease agreement with AWS"
     }
    ],
    "origin": "curated"
@@ -8979,6 +9365,38 @@
    "origin": "curated"
   },
   {
+   "id": "asml-mistral-2025-09-series-c",
+   "kind": "investment",
+   "subkind": "venture round lead",
+   "from": "asml",
+   "to": "mistral",
+   "amount_usd": 1520000000,
+   "amount_text": "€1.3B (~$1.5B) of a €1.7B Series C; ~11% fully diluted stake; ~€11.7B post-money",
+   "announced": "2025-09-09",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "ASML leads Mistral AI's Series C with €1.3B",
+   "title_zh": "阿斯麦以 13 亿欧元领投 Mistral AI C 轮",
+   "summary_en": "ASML invested €1.3B as lead investor of Mistral AI's €1.7B Series C, taking about 11% and a seat on its Strategic Committee, alongside a partnership to use Mistral models across ASML's products and R&D.",
+   "summary_zh": "阿斯麦作为领投方向 Mistral AI 17 亿欧元的 C 轮投入 13 亿欧元，获得约 11% 股权及战略委员会席位，并达成在其产品与研发中使用 Mistral 模型的合作。",
+   "sources": [
+    {
+     "url": "https://www.asml.com/en/news/press-releases/2025/asml-mistral-ai-enter-strategic-partnership",
+     "publisher": "ASML",
+     "date": "2025-09-09",
+     "title": "ASML, Mistral AI enter strategic partnership"
+    },
+    {
+     "url": "https://www.techradar.com/pro/asml-invests-usd1-5-billion-in-openais-european-rival-mistral-ai-to-accelerate-future-chip-design",
+     "publisher": "TechRadar",
+     "date": "2025-09-09",
+     "title": "ASML invests $1.5 billion in OpenAI's European rival Mistral AI"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "nvidia-coreweave-2025-09-backstop",
    "kind": "order",
    "subkind": "capacity purchase backstop",
@@ -9429,6 +9847,32 @@
    "origin": "curated"
   },
   {
+   "id": "brookfield-crusoe-2025-06-credit-facility",
+   "kind": "debt",
+   "subkind": "credit facility",
+   "from": "brookfield",
+   "to": "crusoe",
+   "amount_usd": 750000000,
+   "amount_text": "$750M credit facility from Brookfield's infrastructure debt platform",
+   "announced": "2025-06-12",
+   "term": null,
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Brookfield provides Crusoe a $750M credit facility",
+   "title_zh": "布鲁克菲尔德向 Crusoe 提供 7.5 亿美元信贷额度",
+   "summary_en": "Crusoe secured a $750M credit facility from Brookfield Asset Management's infrastructure debt business, mainly to expand its AI factories (purpose-built AI data centres) and AI cloud platform.",
+   "summary_zh": "Crusoe 从布鲁克菲尔德资产管理的基础设施债务业务获得 7.5 亿美元信贷额度，主要用于扩建其 AI 工厂（专用 AI 数据中心）和 AI 云平台。",
+   "sources": [
+    {
+     "url": "https://www.abladvisor.com/news/40884/crusoe-secures-750mm-credit-facility-from-brookfield-asset-management",
+     "publisher": "ABL Advisor",
+     "date": "2025-06-12",
+     "title": "Crusoe Secures $750MM Credit Facility from Brookfield Asset Management"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "meta-scale-ai-2025-06-equity",
    "kind": "investment",
    "subkind": "minority equity stake (49%)",
@@ -9450,6 +9894,38 @@
      "publisher": "Scale AI",
      "date": "2025-06-12",
      "title": "Scale AI announces next phase of company evolution"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "openai-alphabet-2025-06-google-cloud",
+   "kind": "order",
+   "subkind": "cloud compute contract",
+   "from": "openai",
+   "to": "alphabet",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; finalised in May 2025 per Reuters sources",
+   "announced": "2025-06-10",
+   "term": null,
+   "status": "in_progress",
+   "confidence": "reported",
+   "title_en": "OpenAI adds Google Cloud as a compute supplier",
+   "title_zh": "OpenAI 将谷歌云纳入算力供应商",
+   "summary_en": "Reuters reported, citing three sources, that OpenAI signed up for Google Cloud capacity, a deal finalised in May 2025. Neither company disclosed its size or scope.",
+   "summary_zh": "据路透社援引三位知情人士报道，OpenAI 签约使用谷歌云算力，协议于 2025 年 5 月敲定，双方均未披露规模或范围。",
+   "sources": [
+    {
+     "url": "https://9to5google.com/2025/06/10/report-google-openai-cloud-services-deal/",
+     "publisher": "9to5Google (citing Reuters)",
+     "date": "2025-06-10",
+     "title": "Report: Google and OpenAI strike cloud services deal"
+    },
+    {
+     "url": "https://www.itbrew.com/stories/2025/06/12/to-meet-massive-compute-demands-openai-calls-on-google-cloud",
+     "publisher": "IT Brew",
+     "date": "2025-06-12",
+     "title": "To meet massive compute demands, OpenAI calls on Google Cloud"
     }
    ],
    "origin": "curated"
@@ -9571,6 +10047,64 @@
    "origin": "curated"
   },
   {
+   "id": "mgx-campus-ai-france-2025-05-jv",
+   "kind": "investment",
+   "subkind": "data-centre joint venture equity",
+   "from": "mgx",
+   "to": "campus-ai-france",
+   "amount_usd": null,
+   "amount_text": "Undisclosed share; project reported at ~€8.5B (~$9.6B) by Bloomberg",
+   "announced": "2025-05-19",
+   "term": "1.4 GW near Paris; construction from H2 2026, operations from 2028",
+   "status": "in_progress",
+   "confidence": "reported",
+   "title_en": "MGX co-founds Campus AI, Europe's largest AI campus, in France",
+   "title_zh": "MGX 联合创立法国 AI 园区（欧洲最大 AI 园区）",
+   "summary_en": "MGX, Bpifrance, Mistral AI and Nvidia formed a joint venture to build a 1.4 GW AI campus in the Paris region, announced at the Choose France summit. Mistral gets priority access to its compute.",
+   "summary_zh": "MGX、Bpifrance、Mistral AI 与英伟达在“选择法国”峰会上宣布组建合资公司，在巴黎地区建设 1.4 吉瓦 AI 园区，Mistral 享有算力优先使用权。",
+   "sources": [
+    {
+     "url": "https://www.wam.ae/en/article/bjr4hhb-mgx-bpifrance-mistral-ai-nvidia-launch-joint",
+     "publisher": "WAM",
+     "date": "2025-05-19",
+     "title": "MGX, Bpifrance, Mistral AI, NVIDIA launch joint venture to build Europe's largest AI campus in France"
+    },
+    {
+     "url": "https://www.rcrwireless.com/20250522/ai-ml/nvidia-ai-campus-france",
+     "publisher": "RCR Wireless",
+     "date": "2025-05-22",
+     "title": "AI campus initiative unites MGX, Nvidia and French partners"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "mistral-campus-ai-france-2025-05-jv",
+   "kind": "investment",
+   "subkind": "data-centre joint venture equity",
+   "from": "mistral",
+   "to": "campus-ai-france",
+   "amount_usd": null,
+   "amount_text": "Undisclosed share; project reported at ~€8.5B by Bloomberg",
+   "announced": "2025-05-19",
+   "term": "1.4 GW near Paris",
+   "status": "in_progress",
+   "confidence": "reported",
+   "title_en": "Mistral AI co-founds the Campus AI joint venture",
+   "title_zh": "Mistral AI 联合创立法国 AI 园区合资公司",
+   "summary_en": "Mistral AI is a partner, with MGX, Bpifrance and Nvidia, in the joint venture building the 1.4 GW Campus AI in the Paris region, which will host its compute.",
+   "summary_zh": "Mistral AI 与 MGX、Bpifrance 和英伟达共同参与在巴黎地区建设 1.4 吉瓦法国 AI 园区的合资公司，该园区将承载其算力。",
+   "sources": [
+    {
+     "url": "https://www.rcrwireless.com/20250522/ai-ml/nvidia-ai-campus-france",
+     "publisher": "RCR Wireless",
+     "date": "2025-05-22",
+     "title": "AI campus initiative unites MGX, Nvidia and French partners"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "morgan-stanley-anthropic-2025-05-revolver",
    "kind": "debt",
    "subkind": "revolving credit facility (senior secured)",
@@ -9656,6 +10190,32 @@
      "publisher": "SoftBank Group",
      "date": "2025-12-31",
      "title": "Completion of Additional $22.5 Billion Investment in OpenAI"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "xai-aip-2025-03-joins-partnership",
+   "kind": "investment",
+   "subkind": "partnership membership",
+   "from": "xai",
+   "to": "aip",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; AIP seeks $30B of capital, up to $100B with debt",
+   "announced": "2025-03-19",
+   "term": null,
+   "status": "in_progress",
+   "confidence": "confirmed",
+   "title_en": "xAI joins the AI Infrastructure Partnership",
+   "title_zh": "xAI 加入 AI 基础设施合作伙伴关系（AIP）",
+   "summary_en": "BlackRock, GIP, Microsoft and MGX announced that xAI and Nvidia join their data-centre and energy investment partnership, renamed the AI Infrastructure Partnership; GE Vernova and NextEra collaborate with it.",
+   "summary_zh": "贝莱德、GIP、微软和 MGX 宣布 xAI 与英伟达加入其数据中心和能源投资合作平台，并更名为 AI 基础设施合作伙伴关系；GE Vernova 和 NextEra 为合作方。",
+   "sources": [
+    {
+     "url": "https://www.blackrock.com/corporate/newsroom/press-releases/article/corporate-one/press-releases/ai-infrastructure-partnership",
+     "publisher": "BlackRock",
+     "date": "2025-03-19",
+     "title": "BlackRock, Global Infrastructure Partners, Microsoft and MGX Welcome NVIDIA and xAI to the AI Infrastructure Partnership"
     }
    ],
    "origin": "curated"
@@ -9907,6 +10467,64 @@
    "origin": "curated"
   },
   {
+   "id": "mgx-xai-2024-12-series-c",
+   "kind": "investment",
+   "subkind": "venture round participation",
+   "from": "mgx",
+   "to": "xai",
+   "amount_usd": null,
+   "amount_text": "Undisclosed share of the $6B Series C (round total is a separate edge)",
+   "announced": "2024-12-23",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "MGX invests in xAI's Series C",
+   "title_zh": "MGX 参投 xAI C 轮",
+   "summary_en": "xAI's release lists MGX among the investors in its $6B Series C, alongside a16z, BlackRock, Fidelity, Kingdom Holdings, QIA, Sequoia and others, with Nvidia and AMD as strategic investors.",
+   "summary_zh": "xAI 公告列出 MGX 为其 60 亿美元 C 轮投资方之一，其他包括 a16z、贝莱德、富达、王国控股、卡塔尔投资局、红杉等，英伟达和 AMD 为战略投资者。",
+   "sources": [
+    {
+     "url": "https://x.ai/news/series-c",
+     "publisher": "xAI",
+     "date": "2024-12-23",
+     "title": "xAI raises $6B Series C"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "private-investors-xai-2024-12-series-c",
+   "kind": "investment",
+   "subkind": "venture round",
+   "from": "private-investors",
+   "to": "xai",
+   "amount_usd": 6000000000,
+   "amount_text": "$6B Series C",
+   "announced": "2024-12-23",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "xAI raises $6B Series C",
+   "title_zh": "xAI 完成 60 亿美元 C 轮融资",
+   "summary_en": "xAI raised a further $6B from a16z, BlackRock, Fidelity, Kingdom Holdings, Lightspeed, MGX, Morgan Stanley, QIA, Sequoia, Valor and Vy, among others, with Nvidia and AMD as strategic investors.",
+   "summary_zh": "xAI 再获 60 亿美元融资，投资方包括 a16z、贝莱德、富达、王国控股、Lightspeed、MGX、摩根士丹利、卡塔尔投资局、红杉、Valor 和 Vy 等，英伟达和 AMD 为战略投资者。",
+   "sources": [
+    {
+     "url": "https://x.ai/news/series-c",
+     "publisher": "xAI",
+     "date": "2024-12-23",
+     "title": "xAI raises $6B Series C"
+    },
+    {
+     "url": "https://www.datacenterdynamics.com/en/news/xai-raises-another-6bn-including-from-nvidia-and-amd/",
+     "publisher": "DCD",
+     "date": "2024-12-24",
+     "title": "xAI raises another $6bn, including from Nvidia and AMD"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "bond-investors-alibaba-2024-11-dual-currency-notes",
    "kind": "debt",
    "subkind": "senior unsecured notes (USD and offshore CNY)",
@@ -10082,6 +10700,70 @@
      "publisher": "TechNode",
      "date": "2024-08-06",
      "title": "Tencent joins Moonshot AI $300 million funding round, report says"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "private-investors-mistral-2024-06-series-b",
+   "kind": "investment",
+   "subkind": "venture round (equity and debt)",
+   "from": "private-investors",
+   "to": "mistral",
+   "amount_usd": 645000000,
+   "amount_text": "€600M (~$645M) at ~€5.8B valuation; reportedly part equity, part debt",
+   "announced": "2024-06-11",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Mistral AI raises €600M at €5.8B valuation",
+   "title_zh": "Mistral AI 以 58 亿欧元估值融资 6 亿欧元",
+   "summary_en": "Mistral AI raised about €600M at a roughly €5.8B valuation, led by General Catalyst with existing VCs and corporate investors including Nvidia and Samsung.",
+   "summary_zh": "Mistral AI 以约 58 亿欧元估值融资约 6 亿欧元，由 General Catalyst 领投，现有风投及英伟达、三星等企业投资者参与。",
+   "sources": [
+    {
+     "url": "https://www.bloomberg.com/news/articles/2024-06-11/mistral-ai-raises-600-million-from-nvidia-samsung-and-vcs",
+     "publisher": "Bloomberg",
+     "date": "2024-06-11",
+     "title": "Mistral Fundraises at €5.8 Billion Valuation to Rival OpenAI"
+    },
+    {
+     "url": "https://www.nbcmiami.com/news/business/money-report/microsoft-backed-mistral-ai-raises-645-million-at-a-6-billion-valuation/3335240/?amp=1",
+     "publisher": "CNBC (via NBC Miami)",
+     "date": "2024-06-11",
+     "title": "Microsoft-backed Mistral AI raises $645 million at a $6 billion valuation"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "private-investors-xai-2024-05-series-b",
+   "kind": "investment",
+   "subkind": "venture round",
+   "from": "private-investors",
+   "to": "xai",
+   "amount_usd": 6000000000,
+   "amount_text": "$6B Series B",
+   "announced": "2024-05-26",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "xAI raises $6B Series B",
+   "title_zh": "xAI 完成 60 亿美元 B 轮融资",
+   "summary_en": "xAI raised $6B from investors including Valor Equity Partners, Vy Capital, Andreessen Horowitz, Sequoia, Fidelity, Prince Alwaleed bin Talal and Kingdom Holding.",
+   "summary_zh": "xAI 从 Valor Equity Partners、Vy Capital、a16z、红杉、富达、阿尔瓦利德王子及王国控股等处融资 60 亿美元。",
+   "sources": [
+    {
+     "url": "https://x.ai/news/series-b",
+     "publisher": "xAI",
+     "date": "2024-05-26",
+     "title": "Series B funding round"
+    },
+    {
+     "url": "https://www.wamda.com/2024/05/kingdom-holding-participates-musk-xai-6-billion-series-b-round",
+     "publisher": "Wamda",
+     "date": "2024-05-27",
+     "title": "Kingdom Holding participates in Musk's xAI $6 billion Series B round"
     }
    ],
    "origin": "curated"
@@ -10334,76 +11016,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-financiers-neoclouds-private-investors-mistral-2026-09-series-d",
-   "kind": "investment",
-   "subkind": "venture round",
-   "from": "private-investors",
-   "to": "mistral",
-   "amount_usd": 3500000000,
-   "amount_text": "€3B (~$3.5B per Crunchbase) at >€21B post-money; led by Samsung Electronics, co-led by EQT's Scaleup Europe Fund and PSG Equity",
-   "announced": "2026-09-08",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Mistral AI raises €3B Series D led by Samsung",
-   "title_zh": "Mistral AI 完成三星领投的 30 亿欧元 D 轮",
-   "summary_en": "Mistral AI raised €3B in a Series D at a post-money valuation above €21B, led by Samsung Electronics with EQT's Scaleup Europe Fund and PSG Equity as co-leads, nearly doubling its 2025 valuation.",
-   "summary_zh": "Mistral AI 完成 30 亿欧元 D 轮融资，投后估值超过 210 亿欧元，由三星电子领投、EQT 管理的 Scaleup Europe Fund 与 PSG Equity 联合领投，估值较 2025 年几乎翻倍。",
-   "sources": [
-    {
-     "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-     "publisher": "Mistral AI",
-     "date": "2026-09-08",
-     "title": "Making sovereign, open-weight AI the technology frontier"
-    },
-    {
-     "url": "https://news.crunchbase.com/venture/europe-record-setting-mistral-ai-raise/",
-     "publisher": "Crunchbase News",
-     "date": "2026-09-08",
-     "title": "Mistral AI Raises $3.5B At $24B Valuation In Another Record European AI Round"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-samsung-mistral-2026-09-series-d",
-   "kind": "investment",
-   "subkind": "venture round lead",
-   "from": "samsung",
-   "to": "mistral",
-   "amount_usd": null,
-   "amount_text": "Undisclosed share of the €3B Series D (round total is a separate edge)",
-   "announced": "2026-09-08",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Samsung leads Mistral AI's Series D",
-   "title_zh": "三星领投 Mistral AI D 轮",
-   "summary_en": "Samsung Electronics was lead investor in Mistral AI's €3B Series D; its individual amount was not disclosed. Samsung had also joined Mistral's June 2024 round.",
-   "summary_zh": "三星电子领投 Mistral AI 30 亿欧元 D 轮，具体金额未披露；三星此前也参与了 Mistral 2024 年 6 月的融资。",
-   "sources": [
-    {
-     "url": "https://mistral.ai/news/mistral-makes-sovereign-open-weight-ai-to-frontier/",
-     "publisher": "Mistral AI",
-     "date": "2026-09-08",
-     "title": "Making sovereign, open-weight AI the technology frontier"
-    },
-    {
-     "url": "https://techfundingnews.com/mistral-raises-3-billion-series-d-samsung-21b-valuation-europe/",
-     "publisher": "Tech Funding News",
-     "date": "2026-09-08",
-     "title": "Samsung leads Mistral's €3B round, pushing Europe's AI champion to a €21B valuation"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-public-equity-investors-intel-2026-08-share-sale",
    "kind": "investment",
    "subkind": "public common stock offering",
@@ -10469,41 +11081,6 @@
     }
    ],
    "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-nvidia-naver-2026-07-equity",
-   "kind": "investment",
-   "subkind": "equity stake (conditional)",
-   "from": "nvidia",
-   "to": "naver",
-   "amount_usd": 1000000000,
-   "amount_text": "$1B for about 4.5% (reported), conditional on Naver securing at least $9B of committed financing",
-   "announced": "2026-07-27",
-   "term": null,
-   "status": "announced",
-   "confidence": "unverified",
-   "title_en": "Nvidia to invest $1B in Naver",
-   "title_zh": "英伟达拟向 NAVER 投资 10 亿美元",
-   "summary_en": "Nvidia agreed to invest $1B in Naver shares as part of the roughly $10B AI factory buildout, conditional on Naver lining up at least $9B of committed financing such as Brookfield's.",
-   "summary_zh": "作为约 100 亿美元 AI 工厂建设的一部分，英伟达同意以 10 亿美元认购 NAVER 股份，前提是 NAVER 获得至少 90 亿美元的已承诺融资（如布鲁克菲尔德的资金）。",
-   "sources": [
-    {
-     "url": "https://www.aap.com.au/aapreleases/cision20260725ae12156/",
-     "publisher": "AAP (Cision release)",
-     "date": "2026-07-27",
-     "title": "NAVER Partners with Brookfield and NVIDIA to Expand Korea's National AI Factory Infrastructure Buildout"
-    },
-    {
-     "url": "https://www.bnnbloomberg.ca/business/company-news/2026/07/27/brookfield-to-commit-up-to-9-billion-to-expand-south-korean-ai-data-centre/",
-     "publisher": "BNN Bloomberg",
-     "date": "2026-07-27",
-     "title": "Brookfield to commit up to $9 billion to expand South Korean AI data centre"
-    }
-   ],
-   "research_confidence": "confirmed",
    "extracted_at": "2026-10-27T09:00:00Z",
    "model": "coverage research team (web search, not yet opened)",
    "origin": "candidate"
@@ -10577,41 +11154,6 @@
      "publisher": "TrendForce",
      "date": "2026-07-29",
      "title": "SK hynix Posts Record 2Q Results; Completes 10 LTAs"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-microsoft-mistral-2026-07-european-compute",
-   "kind": "order",
-   "subkind": "GPU compute capacity agreement",
-   "from": "microsoft",
-   "to": "mistral",
-   "amount_usd": null,
-   "amount_text": "Multibillion-dollar, exact value undisclosed; no change to Microsoft's equity stake",
-   "announced": "2026-07-21",
-   "term": null,
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Microsoft's multibillion-dollar compute deal with Mistral AI",
-   "title_zh": "微软与 Mistral AI 签订数十亿美元算力协议",
-   "summary_en": "Microsoft agreed a multibillion-dollar deal to use part of Mistral AI's European GPU infrastructure, which Mistral is expanding with thousands of Nvidia Vera Rubin GPUs, for its cloud and AI services; Mistral models were also added to Microsoft Foundry.",
-   "summary_zh": "微软达成数十亿美元协议，将使用 Mistral AI 部分欧洲 GPU 基础设施（Mistral 正以数千块英伟达 Vera Rubin GPU 扩容）支持其云和 AI 服务；Mistral 模型同时上架微软 Foundry。",
-   "sources": [
-    {
-     "url": "https://thenextweb.com/news/microsoft-fund-mistral-european-ai-expansion",
-     "publisher": "The Next Web",
-     "date": "2026-07-21",
-     "title": "Microsoft to fund Mistral's European AI expansion in multibillion-dollar deal"
-    },
-    {
-     "url": "https://aimagazine.com/news/microsoft-mistrals-multibillion-dollar-european-ai-deal",
-     "publisher": "AI Magazine",
-     "date": "2026-07-22",
-     "title": "Microsoft & Mistral's Multi-Billion-Dollar European AI Deal"
     }
    ],
    "research_confidence": "reported",
@@ -10711,70 +11253,6 @@
      "publisher": "AppleInsider",
      "date": "2026-07-06",
      "title": "Apple secures custom chip supplies from Broadcom until 2031"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-mgx-campus-ai-france-2026-06-second-site",
-   "kind": "investment",
-   "subkind": "data-centre joint venture expansion",
-   "from": "mgx",
-   "to": "campus-ai-france",
-   "amount_usd": null,
-   "amount_text": "~€7.5B (~$8.7B) initial investment for a second site by the consortium and partners; MGX share undisclosed",
-   "announced": "2026-06-01",
-   "term": "network of up to 3 GW across France",
-   "status": "announced",
-   "confidence": "unverified",
-   "title_en": "MGX, Bpifrance and Mistral expand Campus AI with a second French site",
-   "title_zh": "MGX、Bpifrance 与 Mistral 为法国 AI 园区增建第二个站点",
-   "summary_en": "Bpifrance, Mistral AI and MGX announced a second Campus AI site, with about €7.5B of initial investment, growing the network toward 3 GW of AI compute across France.",
-   "summary_zh": "Bpifrance、Mistral AI 和 MGX 宣布法国 AI 园区第二个站点，初始投资约 75 亿欧元，使该网络在法国的 AI 算力目标扩大至 3 吉瓦。",
-   "sources": [
-    {
-     "url": "https://www.mgx.ae/news-insights/bpifrance-mistral-and-mgx-expand-campus-ai-across-france-deliver-3-gw-network-ai",
-     "publisher": "MGX",
-     "date": "2026-06-01",
-     "title": "Bpifrance, Mistral and MGX to Expand Campus AI across France, to Deliver a 3 GW Network of AI Factories"
-    },
-    {
-     "url": "https://www.telecompaper.com/news/bpifrance-mistral-and-mgx-to-invest-in-second-ai-campus-project--1572824",
-     "publisher": "Telecompaper",
-     "date": "2026-06-01",
-     "title": "Bpifrance, Mistral and MGX to invest in second AI campus project"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-mgx-anthropic-2026-05-series-h",
-   "kind": "investment",
-   "subkind": "venture round participation",
-   "from": "mgx",
-   "to": "anthropic",
-   "amount_usd": null,
-   "amount_text": "Undisclosed share of the $65B Series H (round total is a separate edge)",
-   "announced": "2026-05-28",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "MGX invests in Anthropic's Series H",
-   "title_zh": "MGX 参投 Anthropic H 轮",
-   "summary_en": "MGX took part in Anthropic's $65B Series H in May 2026, after co-leading its Series G; MGX closed a $49B AI fund in July 2026.",
-   "summary_zh": "继联合领投 G 轮后，MGX 参与了 Anthropic 2026 年 5 月的 650 亿美元 H 轮；MGX 于 2026 年 7 月完成 490 亿美元 AI 基金募集。",
-   "sources": [
-    {
-     "url": "https://www.cnbc.com/2026/07/01/mgx-ai-fund-uae-49-billion.html",
-     "publisher": "CNBC",
-     "date": "2026-07-01",
-     "title": "OpenAI, Anthropic backer MGX raises one of the biggest AI funds ever as it closes at $49 billion"
     }
    ],
    "research_confidence": "reported",
@@ -10944,41 +11422,6 @@
      "publisher": "Yahoo Finance",
      "date": "2026-03-31",
      "title": "OpenAI closes $122bn funding round at $852bn valuation"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-bank-lenders-mistral-2026-03-data-centre-loan",
-   "kind": "debt",
-   "subkind": "GPU data-centre loan",
-   "from": "bank-lenders",
-   "to": "mistral",
-   "amount_usd": 830000000,
-   "amount_text": "$830M from seven banks: Bpifrance, BNP Paribas, Crédit Agricole CIB, HSBC, La Banque Postale, MUFG, Natixis CIB",
-   "announced": "2026-03-30",
-   "term": null,
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Mistral AI raises $830M of debt for Paris-area data centre",
-   "title_zh": "Mistral AI 为巴黎附近数据中心举债 8.3 亿美元",
-   "summary_en": "Mistral AI took its first big debt, an $830M loan from seven banks, to fund 13,800 Nvidia GB300 GPUs and 44 MW at an Eclairion-run site in Bruyères-le-Châtel, south of Paris.",
-   "summary_zh": "Mistral AI 首次大规模举债，从七家银行获得 8.3 亿美元贷款，用于在巴黎南部 Bruyères-le-Châtel、由 Eclairion 运营的站点部署 13,800 块英伟达 GB300 GPU 和 44 兆瓦容量。",
-   "sources": [
-    {
-     "url": "https://techcrunch.com/2026/03/30/mistral-ai-raises-830m-in-debt-to-set-up-a-data-center-near-paris/",
-     "publisher": "TechCrunch",
-     "date": "2026-03-30",
-     "title": "Mistral AI raises $830M in debt to set up a data center near Paris"
-    },
-    {
-     "url": "https://www.datacenterdynamics.com/en/news/mistral-ai-raises-830m-in-debt-financing-for-data-center-in-paris-france/",
-     "publisher": "DCD",
-     "date": "2026-03-30",
-     "title": "Mistral AI raises $830m in debt financing for data center in Paris, France"
     }
    ],
    "research_confidence": "reported",
@@ -11162,35 +11605,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-financiers-neoclouds-mgx-openai-2026-03-funding-round",
-   "kind": "investment",
-   "subkind": "venture round co-lead",
-   "from": "mgx",
-   "to": "openai",
-   "amount_usd": null,
-   "amount_text": "Undisclosed share of OpenAI's ~$122B raise; month only (March 2026), day not stated",
-   "announced": "2026-03-01",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "MGX co-leads OpenAI's 2026 funding round",
-   "title_zh": "MGX 联合领投 OpenAI 2026 年融资",
-   "summary_en": "MGX co-led OpenAI's roughly $122B fundraising in March 2026, according to CNBC; the large strategic checks from SoftBank, Nvidia and Amazon are separate edges.",
-   "summary_zh": "据 CNBC 报道，MGX 联合领投 OpenAI 2026 年 3 月约 1220 亿美元的融资；软银、英伟达和亚马逊的大额战略投资另列。",
-   "sources": [
-    {
-     "url": "https://www.cnbc.com/2026/07/01/mgx-ai-fund-uae-49-billion.html",
-     "publisher": "CNBC",
-     "date": "2026-07-01",
-     "title": "OpenAI, Anthropic backer MGX raises one of the biggest AI funds ever as it closes at $49 billion"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-apple-tsmc-2026-02-arizona-chips",
    "kind": "order",
    "subkind": "chip purchases from TSMC Arizona",
@@ -11226,146 +11640,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-financiers-neoclouds-mgx-anthropic-2026-02-series-g",
-   "kind": "investment",
-   "subkind": "venture round co-lead",
-   "from": "mgx",
-   "to": "anthropic",
-   "amount_usd": null,
-   "amount_text": "Undisclosed share of the $30B Series G (round total is a separate edge)",
-   "announced": "2026-02-12",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "MGX co-leads Anthropic's Series G",
-   "title_zh": "MGX 联合领投 Anthropic G 轮",
-   "summary_en": "MGX was one of the co-leads, with D. E. Shaw, Dragoneer, Founders Fund and ICONIQ, of Anthropic's $30B Series G led by GIC and Coatue at a $380B valuation.",
-   "summary_zh": "MGX 与 D. E. Shaw、Dragoneer、Founders Fund、ICONIQ 一同联合领投 Anthropic 由 GIC 和 Coatue 领投、估值 3800 亿美元的 300 亿美元 G 轮。",
-   "sources": [
-    {
-     "url": "https://w.media/anthropic-raises-us-30-billion-in-series-g-funding/",
-     "publisher": "W.Media",
-     "date": "2026-02-13",
-     "title": "Anthropic raises US$ 30 billion in Series G funding"
-    },
-    {
-     "url": "https://www.uaepreferred.com/perspectives/mgx-co-leads-30-billion-anthropic-funding-round",
-     "publisher": "UAE Preferred",
-     "date": "2026-02-13",
-     "title": "MGX co-leads $30 billion Anthropic funding round"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-hyperscalers-labs-public-equity-investors-oracle-2026-02-mandatory-convertible",
-   "kind": "investment",
-   "subkind": "mandatory convertible preferred stock",
-   "from": "public-equity-investors",
-   "to": "oracle",
-   "amount_usd": 5000000000,
-   "amount_text": "$5B of 6.50% Series D mandatory convertible preferred (100M depositary shares), 25% conversion premium; issued 5 Feb 2026",
-   "announced": "2026-02-05",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Oracle raises $5B with mandatory convertible preferred stock",
-   "title_zh": "甲骨文发行 50 亿美元强制可转换优先股",
-   "summary_en": "As the first equity piece of its $45-50B 2026 funding plan, Oracle sold $5B of 6.50% Series D mandatory convertible preferred stock, priced by lead-left Citigroup at a 25% conversion premium. It sits alongside the $25B bond sale and a $20B at-the-market share programme.",
-   "summary_zh": "作为 2026 年 450–500 亿美元融资计划的首笔股权融资，甲骨文发行 50 亿美元、股息率 6.50% 的 D 系列强制可转换优先股，由花旗担任主簿记行，转换溢价 25%。同期还有 250 亿美元债券发行和 200 亿美元按市价发行股票计划。",
-   "sources": [
-    {
-     "url": "https://www.sec.gov/Archives/edgar/data/1341439/000119312526039344/d63638d8k.htm",
-     "publisher": "Oracle (Form 8-K)",
-     "date": "2026-02-05",
-     "title": "Oracle Corp Form 8-K: Series D Mandatory Convertible Preferred Stock"
-    },
-    {
-     "url": "https://www.datacenterdynamics.com/en/news/oracle-to-raise-up-to-50bn-in-debt-and-equity-in-2026",
-     "publisher": "DatacenterDynamics",
-     "date": "2026-02-01",
-     "title": "Oracle to raise up to $50bn in debt and equity in 2026"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-hyperscalers-labs-public-equity-investors-oracle-2026-atm-share-sales",
-   "kind": "investment",
-   "subkind": "at-the-market common stock programme",
-   "from": "public-equity-investors",
-   "to": "oracle",
-   "amount_usd": 20000000000,
-   "amount_text": "Up to $20B ATM programme (equity distribution agreement of 2 Feb 2026); fully used: 141M shares for $19.9B net by 31 Aug 2026",
-   "announced": "2026-02-02",
-   "term": "Sold over time at market prices, Feb-Aug 2026",
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Oracle sells $20B of new shares through an at-the-market programme",
-   "title_zh": "甲骨文通过按市价发行计划出售 200 亿美元新股",
-   "summary_en": "Oracle set up an at-the-market programme to sell up to $20B of common stock as part of its 2026 AI data-centre funding plan. Its quarterly report for the period to 31 August 2026 says the programme was fully used, with 141 million shares issued for about $19.9B of net proceeds.",
-   "summary_zh": "甲骨文设立最多 200 亿美元普通股按市价发行（ATM）计划，作为 2026 年 AI 数据中心融资计划的一部分。其截至 2026 年 8 月 31 日的季度报告显示，该计划已全部用完，共发行 1.41 亿股，净募资约 199 亿美元。",
-   "sources": [
-    {
-     "url": "https://www.sec.gov/Archives/edgar/data/0001341439/000119312526389274/orcl-20260831.htm",
-     "publisher": "Oracle (Form 10-Q)",
-     "date": "2026-09-10",
-     "title": "Oracle Corp Form 10-Q for the quarter ended August 31, 2026"
-    },
-    {
-     "url": "https://www.datacenterdynamics.com/en/news/oracle-to-raise-up-to-50bn-in-debt-and-equity-in-2026",
-     "publisher": "DatacenterDynamics",
-     "date": "2026-02-01",
-     "title": "Oracle to raise up to $50bn in debt and equity in 2026"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-mistral-ecodatacenter-2026-02-sweden",
-   "kind": "order",
-   "subkind": "AI data-centre build and operation",
-   "from": "mistral",
-   "to": "ecodatacenter",
-   "amount_usd": 1400000000,
-   "amount_text": "~€1.2B (~$1.4B) joint investment with EcoDataCenter; announced Feb 2026 (day not checked)",
-   "announced": "2026-02-01",
-   "term": "Opening 2027",
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Mistral AI's $1.4B AI data centre in Sweden with EcoDataCenter",
-   "title_zh": "Mistral AI 与 EcoDataCenter 在瑞典投资 14 亿美元建设 AI 数据中心",
-   "summary_en": "Mistral AI and EcoDataCenter agreed to invest about €1.2B in an AI data centre at EcoDataCenter's Borlänge site, which EcoDataCenter will build and run with Nvidia Vera Rubin GPUs for Mistral's models, its first big compute project outside France.",
-   "summary_zh": "Mistral AI 与 EcoDataCenter 同意在 EcoDataCenter 位于博伦厄的站点投资约 12 亿欧元建设 AI 数据中心，由 EcoDataCenter 建设运营并部署英伟达 Vera Rubin GPU，供 Mistral 模型使用，这是其在法国以外的首个大型算力项目。",
-   "sources": [
-    {
-     "url": "https://www.verdict.co.uk/mistral-ai-to-invest-1-4bn-in-sweden-data-centre/",
-     "publisher": "Verdict",
-     "date": "2026-02-01",
-     "title": "Mistral AI to invest $1.4bn in Sweden data centre"
-    },
-    {
-     "url": "https://w.media/mistral-ai-ecodatacenter-invest-e1-2b-in-swedish-ai-data-center/",
-     "publisher": "W.Media",
-     "date": "2026-02-01",
-     "title": "Mistral AI and EcoDataCenter invest €1.2 billion in Swedish AI Data Center"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-nvidia-micron-2026-02-hbm4",
    "kind": "order",
    "subkind": "HBM4 supply (Vera Rubin)",
@@ -11393,41 +11667,6 @@
      "publisher": "DIGITIMES",
      "date": "2026-01-07",
      "title": "Nvidia HBM4 and Micron in 2026 Rubin supply"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-tesla-xai-2026-01-series-e",
-   "kind": "investment",
-   "subkind": "preferred stock purchase",
-   "from": "tesla",
-   "to": "xai",
-   "amount_usd": null,
-   "amount_text": "~$2B of Series E preferred stock (agreement dated 2026-01-16); counted in the $20B round-total edge, so null here",
-   "announced": "2026-01-28",
-   "term": null,
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Tesla invests about $2B in xAI",
-   "title_zh": "特斯拉向 xAI 投资约 20 亿美元",
-   "summary_en": "Tesla disclosed with its Q4 2025 results that it agreed on 16 January 2026 to buy about $2B of xAI's Series E preferred stock on the round's terms, plus a framework for AI collaboration, even though a November 2025 shareholder proposal to invest in xAI had failed.",
-   "summary_zh": "特斯拉在 2025 年第四季度财报中披露，已于 2026 年 1 月 16 日同意按本轮条款购买约 20 亿美元 xAI E 轮优先股，并签署 AI 合作框架协议，尽管 2025 年 11 月有关投资 xAI 的股东提案未获通过。",
-   "sources": [
-    {
-     "url": "https://techcrunch.com/2026/01/28/tesla-invested-2b-in-elon-musks-xai",
-     "publisher": "TechCrunch",
-     "date": "2026-01-28",
-     "title": "Tesla invested $2B in Elon Musk's xAI"
-    },
-    {
-     "url": "https://www.datacenterdynamics.com/en/news/elon-musks-tesla-to-invest-2bn-in-musks-xai-as-it-considers-merging-with-musks-spacex-ahead-of-ipo/",
-     "publisher": "DCD",
-     "date": "2026-01-29",
-     "title": "Elon Musk's Tesla to invest $2bn in Musk's xAI as it considers merging with Musk's SpaceX ahead of IPO"
     }
    ],
    "research_confidence": "reported",
@@ -11603,47 +11842,6 @@
      "publisher": "Data Center Knowledge (Bloomberg)",
      "date": "2026-01-09",
      "title": "OpenAI, SoftBank Invest $1 Billion in Stargate Partner SB Energy"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-private-investors-xai-2026-01-series-e",
-   "kind": "investment",
-   "subkind": "venture round",
-   "from": "private-investors",
-   "to": "xai",
-   "amount_usd": 20000000000,
-   "amount_text": "$20B at ~$230B valuation; includes Nvidia (separate edge, undisclosed) and Tesla's ~$2B (separate edge)",
-   "announced": "2026-01-06",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "xAI raises $20B Series E",
-   "title_zh": "xAI 完成 200 亿美元 E 轮融资",
-   "summary_en": "xAI raised $20B in a Series E valuing it at about $230B, with Nvidia, Cisco and Tesla among the investors, weeks before SpaceX acquired it.",
-   "summary_zh": "xAI 完成 200 亿美元 E 轮融资，估值约 2300 亿美元，英伟达、思科和特斯拉均参投；数周后 xAI 被 SpaceX 收购。",
-   "sources": [
-    {
-     "url": "https://www.storagenewsletter.com/2026/01/12/xai-raises-20b-series-e/",
-     "publisher": "StorageNewsletter",
-     "date": "2026-01-12",
-     "title": "xAI raises $20B Series E"
-    },
-    {
-     "url": "https://techcrunch.com/2026/01/28/tesla-invested-2b-in-elon-musks-xai",
-     "publisher": "TechCrunch",
-     "date": "2026-01-28",
-     "title": "Tesla invested $2B in Elon Musk's xAI"
-    },
-    {
-     "url": "https://electrek.co/2026/01/28/tesla-invests-2-billion-in-elon-musk-xai-cash-furnace/",
-     "publisher": "Electrek",
-     "date": "2026-01-28",
-     "title": "Tesla invests $2 billion in Elon Musk's xAI"
     }
    ],
    "research_confidence": "reported",
@@ -11833,41 +12031,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-hyperscalers-labs-amazon-cipher-mining-2025-11-aws-lease",
-   "kind": "lease",
-   "subkind": "data-centre capacity lease",
-   "from": "amazon",
-   "to": "cipher-mining",
-   "amount_usd": 5500000000,
-   "amount_text": "~$5.5B over 15 years for 300 MW; rent starts August 2026",
-   "announced": "2025-11-03",
-   "term": "15 years; capacity delivered in two phases from July 2026 to Q4 2026",
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "AWS signs $5.5B, 15-year lease with Cipher Mining",
-   "title_zh": "亚马逊 AWS 与 Cipher Mining 签订 55 亿美元 15 年租约",
-   "summary_en": "Amazon Web Services agreed to lease 300 MW of air- and liquid-cooled data-centre capacity from bitcoin miner Cipher Mining for about $5.5B over 15 years, with delivery during 2026. The deal lifted Cipher's AI hosting lease commitments to about $8.5B, alongside its Google-backstopped Fluidstack leases.",
-   "summary_zh": "亚马逊云科技同意以约 55 亿美元、为期 15 年的条件，向比特币矿企 Cipher Mining 租用 300 兆瓦风冷和液冷数据中心容量，2026 年内交付。加上谷歌担保的 Fluidstack 租约，Cipher 的 AI 托管租约承诺增至约 85 亿美元。",
-   "sources": [
-    {
-     "url": "https://www.datacenterdynamics.com/en/news/aws-signs-300mw-hosting-deal-to-lease-capacity-from-cipher-mining/",
-     "publisher": "DatacenterDynamics",
-     "date": "2025-11-03",
-     "title": "AWS signs 300MW hosting deal to lease capacity from Cipher Mining"
-    },
-    {
-     "url": "https://www.tipranks.com/news/cipher-mining-stock-cifr-rockets-19-on-5-5-billion-amazon-web-services-deal",
-     "publisher": "TipRanks",
-     "date": "2025-11-03",
-     "title": "Cipher Mining stock (CIFR) rockets 19% on $5.5 billion Amazon Web Services deal"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-samsung-nvidia-2025-10-ai-megafactory",
    "kind": "order",
    "subkind": "GPU purchase (AI factory)",
@@ -11889,41 +12052,6 @@
      "publisher": "Samsung Newsroom",
      "date": "2025-10-31",
      "title": "Samsung Teams with NVIDIA to Lead the Transformation of Global Intelligent Manufacturing through New AI Megafactory"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-asml-mistral-2025-09-series-c",
-   "kind": "investment",
-   "subkind": "venture round lead",
-   "from": "asml",
-   "to": "mistral",
-   "amount_usd": 1520000000,
-   "amount_text": "€1.3B (~$1.52B at ~1.17 USD/EUR) of a €1.7B Series C; ~11% fully diluted stake; €11.7B post-money",
-   "announced": "2025-09-09",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "ASML leads Mistral AI's Series C with €1.3B",
-   "title_zh": "阿斯麦以 13 亿欧元领投 Mistral AI C 轮",
-   "summary_en": "ASML invested €1.3B as lead investor of Mistral AI's €1.7B Series C, taking about 11% and a seat on its Strategic Committee, alongside a partnership to use Mistral models across ASML's products and R&D.",
-   "summary_zh": "阿斯麦作为领投方向 Mistral AI 17 亿欧元的 C 轮投入 13 亿欧元，获得约 11% 股权及战略委员会席位，并达成在其产品与研发中使用 Mistral 模型的合作。",
-   "sources": [
-    {
-     "url": "https://www.asml.com/en/news/press-releases/2025/asml-mistral-ai-enter-strategic-partnership",
-     "publisher": "ASML",
-     "date": "2025-09-09",
-     "title": "ASML, Mistral AI enter strategic partnership"
-    },
-    {
-     "url": "https://www.techradar.com/pro/asml-invests-usd1-5-billion-in-openais-european-rival-mistral-ai-to-accelerate-future-chip-design",
-     "publisher": "TechRadar",
-     "date": "2025-09-09",
-     "title": "ASML invests $1.5 billion in OpenAI's European rival Mistral AI"
     }
    ],
    "research_confidence": "confirmed",
@@ -12078,76 +12206,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-financiers-neoclouds-brookfield-crusoe-2025-06-credit-facility",
-   "kind": "debt",
-   "subkind": "credit facility",
-   "from": "brookfield",
-   "to": "crusoe",
-   "amount_usd": 750000000,
-   "amount_text": "$750M from Brookfield's infrastructure debt platform",
-   "announced": "2025-06-12",
-   "term": null,
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Brookfield provides Crusoe a $750M credit facility",
-   "title_zh": "布鲁克菲尔德向 Crusoe 提供 7.5 亿美元信贷额度",
-   "summary_en": "Crusoe secured a $750M credit facility from Brookfield Asset Management's infrastructure debt business to fund the growth of its AI data centres and cloud.",
-   "summary_zh": "Crusoe 从布鲁克菲尔德资产管理的基础设施债务业务获得 7.5 亿美元信贷额度，用于扩张其 AI 数据中心和云业务。",
-   "sources": [
-    {
-     "url": "https://www.abladvisor.com/news/40884/crusoe-secures-750mm-credit-facility-from-brookfield-asset-management",
-     "publisher": "ABL Advisor",
-     "date": "2025-06-12",
-     "title": "Crusoe Secures $750MM Credit Facility from Brookfield Asset Management"
-    },
-    {
-     "url": "https://bam.brookfield.com/press-releases/brookfield-holds-4b-first-close-fourth-global-infrastructure-debt-fund",
-     "publisher": "Brookfield",
-     "date": "2025-07-01",
-     "title": "Brookfield Holds $4B+ First Close for Fourth Global Infrastructure Debt Fund"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-hyperscalers-labs-openai-alphabet-2025-06-google-cloud",
-   "kind": "order",
-   "subkind": "cloud compute contract",
-   "from": "openai",
-   "to": "alphabet",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; finalised in May 2025 per Reuters sources",
-   "announced": "2025-06-10",
-   "term": null,
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "OpenAI adds Google Cloud as a compute supplier",
-   "title_zh": "OpenAI 将谷歌云纳入算力供应商",
-   "summary_en": "Reuters reported, citing three sources, that OpenAI signed up for Google Cloud capacity to train and run its models, a deal finalised in May 2025 that further reduced its reliance on Microsoft Azure. Neither company disclosed the size or scope.",
-   "summary_zh": "据路透社援引三位知情人士报道，OpenAI 签约使用谷歌云算力训练和运行模型，协议于 2025 年 5 月敲定，进一步降低了对微软 Azure 的依赖。双方均未披露规模或具体范围。",
-   "sources": [
-    {
-     "url": "https://9to5google.com/2025/06/10/report-google-openai-cloud-services-deal/",
-     "publisher": "9to5Google (citing Reuters)",
-     "date": "2025-06-10",
-     "title": "Report: Google and OpenAI strike cloud services deal"
-    },
-    {
-     "url": "https://www.itbrew.com/stories/2025/06/12/to-meet-massive-compute-demands-openai-calls-on-google-cloud",
-     "publisher": "IT Brew",
-     "date": "2025-06-12",
-     "title": "To meet massive compute demands, OpenAI calls on Google Cloud"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-hyperscalers-labs-openai-io-products-2025-05-acquisition",
    "kind": "investment",
    "subkind": "acquisition (all-stock)",
@@ -12178,70 +12236,6 @@
     }
    ],
    "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-mgx-campus-ai-france-2025-05-jv",
-   "kind": "investment",
-   "subkind": "data-centre joint venture equity",
-   "from": "mgx",
-   "to": "campus-ai-france",
-   "amount_usd": null,
-   "amount_text": "Undisclosed share; project valued at ~€8.5B (~$9.6B) by Bloomberg",
-   "announced": "2025-05-19",
-   "term": "1.4 GW near Paris; construction from H2 2026, operations from 2028",
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "MGX co-founds Campus AI, Europe's largest AI campus, in France",
-   "title_zh": "MGX 联合创立法国 AI 园区（欧洲最大 AI 园区）",
-   "summary_en": "MGX, Bpifrance, Mistral AI and Nvidia formed a joint venture to build a 1.4 GW AI campus in the Paris region, announced at the Choose France summit.",
-   "summary_zh": "MGX、Bpifrance、Mistral AI 与英伟达在“选择法国”峰会上宣布组建合资公司，在巴黎地区建设 1.4 吉瓦 AI 园区。",
-   "sources": [
-    {
-     "url": "https://www.wam.ae/en/article/bjr4hhb-mgx-bpifrance-mistral-ai-nvidia-launch-joint",
-     "publisher": "WAM",
-     "date": "2025-05-19",
-     "title": "MGX, Bpifrance, Mistral AI, NVIDIA launch joint venture to build Europe's largest AI campus in France"
-    },
-    {
-     "url": "https://www.rcrwireless.com/20250522/ai-ml/nvidia-ai-campus-france",
-     "publisher": "RCR Wireless",
-     "date": "2025-05-22",
-     "title": "AI campus initiative unites MGX, Nvidia and French partners"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-mistral-campus-ai-france-2025-05-jv",
-   "kind": "investment",
-   "subkind": "data-centre joint venture equity",
-   "from": "mistral",
-   "to": "campus-ai-france",
-   "amount_usd": null,
-   "amount_text": "Undisclosed share; project valued at ~€8.5B by Bloomberg",
-   "announced": "2025-05-19",
-   "term": "1.4 GW near Paris",
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "Mistral AI co-founds the Campus AI joint venture",
-   "title_zh": "Mistral AI 联合创立法国 AI 园区合资公司",
-   "summary_en": "Mistral AI is a partner, with MGX, Bpifrance and Nvidia, in the joint venture building the 1.4 GW Campus AI in the Paris region, which will host its compute.",
-   "summary_zh": "Mistral AI 与 MGX、Bpifrance 和英伟达共同参与在巴黎地区建设 1.4 吉瓦法国 AI 园区的合资公司，该园区将承载其算力。",
-   "sources": [
-    {
-     "url": "https://www.polytechnique.edu/sites/default/files/content/communiques/fichiers/2025-05/News%20Alert%20-%20MGX%2C%20Bpifrance%2C%20Mistral%20AI%2C%20and%20NVIDIA%20Launch%20Joint%20Venture%20to%20Build%20Europe%E2%80%99s%20Largest%20AI%20Campus%20in%20France.pdf",
-     "publisher": "MGX/Bpifrance/Mistral AI/NVIDIA release (via École Polytechnique)",
-     "date": "2025-05-19",
-     "title": "MGX, Bpifrance, Mistral AI, and NVIDIA Launch Joint Venture to Build Europe's Largest AI Campus in France"
-    }
-   ],
-   "research_confidence": "confirmed",
    "extracted_at": "2026-10-27T09:00:00Z",
    "model": "coverage research team (web search, not yet opened)",
    "origin": "candidate"
@@ -12382,41 +12376,6 @@
     }
    ],
    "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-xai-aip-2025-03-joins-partnership",
-   "kind": "investment",
-   "subkind": "partnership membership",
-   "from": "xai",
-   "to": "aip",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; AIP aims to raise $30B of equity, up to $100B with debt",
-   "announced": "2025-03-19",
-   "term": null,
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "xAI joins the AI Infrastructure Partnership",
-   "title_zh": "xAI 加入 AI 基础设施合作伙伴关系（AIP）",
-   "summary_en": "BlackRock, GIP, Microsoft and MGX welcomed xAI and Nvidia into their data-centre investment vehicle, renamed the AI Infrastructure Partnership, with GE Vernova and NextEra as energy collaborators.",
-   "summary_zh": "贝莱德、GIP、微软和 MGX 迎来 xAI 和英伟达加入其数据中心投资平台，并将其更名为 AI 基础设施合作伙伴关系，GE Vernova 和 NextEra 为能源合作方。",
-   "sources": [
-    {
-     "url": "https://www.blackrock.com/corporate/newsroom/press-releases/article/corporate-one/press-releases/ai-infrastructure-partnership",
-     "publisher": "BlackRock",
-     "date": "2025-03-19",
-     "title": "BlackRock, Global Infrastructure Partners, Microsoft and MGX Welcome NVIDIA and xAI to the AI Infrastructure Partnership"
-    },
-    {
-     "url": "https://economymiddleeast.com/news/nvidia-and-xai-to-join-mgx-blackrock-and-microsofts-30-billion-ai-infrastructure-partnership",
-     "publisher": "Economy Middle East",
-     "date": "2025-03-19",
-     "title": "Nvidia and xAI to join MGX, BlackRock and Microsoft's $30 billion AI infrastructure partnership"
-    }
-   ],
-   "research_confidence": "confirmed",
    "extracted_at": "2026-10-27T09:00:00Z",
    "model": "coverage research team (web search, not yet opened)",
    "origin": "candidate"
@@ -12589,76 +12548,6 @@
      "publisher": "Simpson Thacher",
      "date": "2025-01-10",
      "title": "Simpson Thacher Represents Underwriters in $3 Billion Senior Notes Offering by Broadcom"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-mgx-xai-2024-12-series-c",
-   "kind": "investment",
-   "subkind": "venture round participation",
-   "from": "mgx",
-   "to": "xai",
-   "amount_usd": null,
-   "amount_text": "Undisclosed share of the $6B Series C (round total is a separate edge)",
-   "announced": "2024-12-23",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "MGX invests in xAI's Series C",
-   "title_zh": "MGX 参投 xAI C 轮",
-   "summary_en": "MGX was among the investors in xAI's $6B Series C alongside a16z, BlackRock, Fidelity, Kingdom Holdings and others, with Nvidia and AMD as strategic investors; CNBC reports MGX also joined xAI's $20B Series E in January 2026.",
-   "summary_zh": "MGX 与 a16z、贝莱德、富达、王国控股等共同参投 xAI 60 亿美元 C 轮，英伟达和 AMD 为战略投资者；CNBC 报道 MGX 还参与了 xAI 2026 年 1 月的 200 亿美元 E 轮。",
-   "sources": [
-    {
-     "url": "https://x.ai/news/series-c",
-     "publisher": "xAI",
-     "date": "2024-12-23",
-     "title": "xAI raises $6B Series C"
-    },
-    {
-     "url": "https://www.cnbc.com/2026/07/01/mgx-ai-fund-uae-49-billion.html",
-     "publisher": "CNBC",
-     "date": "2026-07-01",
-     "title": "OpenAI, Anthropic backer MGX raises one of the biggest AI funds ever as it closes at $49 billion"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-private-investors-xai-2024-12-series-c",
-   "kind": "investment",
-   "subkind": "venture round",
-   "from": "private-investors",
-   "to": "xai",
-   "amount_usd": 6000000000,
-   "amount_text": "$6B at a reported ~$45B valuation; Kingdom Holding ~$400M",
-   "announced": "2024-12-23",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "xAI raises $6B Series C",
-   "title_zh": "xAI 完成 60 亿美元 C 轮融资",
-   "summary_en": "xAI raised a further $6B from a16z, BlackRock, Fidelity, Kingdom Holdings, Lightspeed, MGX, Morgan Stanley, Sequoia, Valor and Vy, with Nvidia and AMD as strategic investors; much of it was reported to fund about 100,000 more Nvidia GPUs.",
-   "summary_zh": "xAI 再获 60 亿美元融资，投资方包括 a16z、贝莱德、富达、王国控股、Lightspeed、MGX、摩根士丹利、红杉、Valor 和 Vy，英伟达和 AMD 为战略投资者；据报道大部分资金用于再购约 10 万块英伟达 GPU。",
-   "sources": [
-    {
-     "url": "https://x.ai/news/series-c",
-     "publisher": "xAI",
-     "date": "2024-12-23",
-     "title": "xAI raises $6B Series C"
-    },
-    {
-     "url": "https://www.datacenterdynamics.com/en/news/xai-raises-another-6bn-including-from-nvidia-and-amd/",
-     "publisher": "DCD",
-     "date": "2024-12-24",
-     "title": "xAI raises another $6bn, including from Nvidia and AMD"
     }
    ],
    "research_confidence": "confirmed",
@@ -12842,41 +12731,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-financiers-neoclouds-private-investors-mistral-2024-06-series-b",
-   "kind": "investment",
-   "subkind": "venture round (equity and debt)",
-   "from": "private-investors",
-   "to": "mistral",
-   "amount_usd": 645000000,
-   "amount_text": "€600M (~$645M), reportedly ~€468M equity and ~€132M debt, at ~€5.8B valuation; investors incl. General Catalyst, Lightspeed, a16z, Nvidia, Samsung, Salesforce, IBM",
-   "announced": "2024-06-11",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Mistral AI raises €600M at €5.8B valuation",
-   "title_zh": "Mistral AI 以 58 亿欧元估值融资 6 亿欧元",
-   "summary_en": "Mistral AI raised about €600M in equity and debt at a roughly €5.8B valuation, with General Catalyst and existing VCs plus corporate investors Nvidia, Samsung, Salesforce and IBM.",
-   "summary_zh": "Mistral AI 以约 58 亿欧元估值融资约 6 亿欧元（股权加债务），投资方包括 General Catalyst 等现有风投以及英伟达、三星、Salesforce 和 IBM 等企业投资者。",
-   "sources": [
-    {
-     "url": "https://www.bloomberg.com/news/articles/2024-06-11/mistral-ai-raises-600-million-from-nvidia-samsung-and-vcs",
-     "publisher": "Bloomberg",
-     "date": "2024-06-11",
-     "title": "Mistral Fundraises at €5.8 Billion Valuation to Rival OpenAI"
-    },
-    {
-     "url": "https://www.nbcmiami.com/news/business/money-report/microsoft-backed-mistral-ai-raises-645-million-at-a-6-billion-valuation/3335240/?amp=1",
-     "publisher": "CNBC (via NBC Miami)",
-     "date": "2024-06-11",
-     "title": "Microsoft-backed Mistral AI raises $645 million at a $6 billion valuation"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-apollo-intel-2024-06-fab34-jv",
    "kind": "investment",
    "subkind": "49% stake in fab joint venture (Semiconductor Co-Investment Program)",
@@ -12904,41 +12758,6 @@
      "publisher": "SiliconANGLE",
      "date": "2024-06-04",
      "title": "Intel gets $11B from Apollo for stake in Fab 34"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-financiers-neoclouds-private-investors-xai-2024-05-series-b",
-   "kind": "investment",
-   "subkind": "venture round",
-   "from": "private-investors",
-   "to": "xai",
-   "amount_usd": 6000000000,
-   "amount_text": "$6B; Musk cited an $18B pre-money valuation",
-   "announced": "2024-05-26",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "xAI raises $6B Series B",
-   "title_zh": "xAI 完成 60 亿美元 B 轮融资",
-   "summary_en": "xAI raised $6B from Valor Equity Partners, Vy Capital, Andreessen Horowitz, Sequoia, Fidelity, Prince Alwaleed bin Talal and Kingdom Holding and others to bring products to market and build infrastructure.",
-   "summary_zh": "xAI 从 Valor Equity Partners、Vy Capital、a16z、红杉、富达、阿尔瓦利德王子及王国控股等处融资 60 亿美元，用于推出产品和建设基础设施。",
-   "sources": [
-    {
-     "url": "https://x.ai/news/series-b",
-     "publisher": "xAI",
-     "date": "2024-05-26",
-     "title": "Series B funding round"
-    },
-    {
-     "url": "https://www.wamda.com/2024/05/kingdom-holding-participates-musk-xai-6-billion-series-b-round",
-     "publisher": "Wamda",
-     "date": "2024-05-27",
-     "title": "Kingdom Holding participates in Musk's xAI $6 billion Series B round"
     }
    ],
    "research_confidence": "confirmed",
@@ -15038,31 +14857,31 @@
  ],
  "stats": {
   "entities": 97,
-  "edges": 260,
-  "curated_edges": 182,
-  "candidate_edges": 78,
+  "edges": 258,
+  "curated_edges": 205,
+  "candidate_edges": 53,
   "by_kind": {
    "order": {
-    "count": 48,
-    "usd": 1242139000000,
-    "undisclosed": 21,
+    "count": 51,
+    "usd": 1243539000000,
+    "undisclosed": 23,
     "cancelled": 0
    },
    "investment": {
-    "count": 54,
-    "usd": 650660000000,
-    "undisclosed": 24,
+    "count": 71,
+    "usd": 716234000000,
+    "undisclosed": 31,
     "cancelled": 2
    },
    "debt": {
-    "count": 68,
-    "usd": 764714000000,
+    "count": 70,
+    "usd": 766294000000,
     "undisclosed": 1,
     "cancelled": 0
    },
    "lease": {
-    "count": 7,
-    "usd": 44440000000,
+    "count": 8,
+    "usd": 49940000000,
     "undisclosed": 4,
     "cancelled": 0
    },
@@ -15081,20 +14900,20 @@
   },
   "candidates_by_kind": {
    "order": {
-    "count": 29,
-    "usd": 265650000000
+    "count": 26,
+    "usd": 264250000000
    },
    "investment": {
-    "count": 36,
-    "usd": 169487100000
+    "count": 17,
+    "usd": 105822100000
    },
    "debt": {
-    "count": 11,
-    "usd": 32350000000
+    "count": 9,
+    "usd": 30770000000
    },
    "lease": {
-    "count": 2,
-    "usd": 5500000000
+    "count": 1,
+    "usd": 0
    },
    "vendor_financing": {
     "count": 0,
@@ -15105,7 +14924,7 @@
     "usd": 0
    }
   },
-  "total_usd": 2853883000000,
+  "total_usd": 2927937000000,
   "latest_announced": "2026-10-26"
  },
  "notes": {
