@@ -1,10 +1,10 @@
 {
- "generated_at": "2026-10-27T10:08:12Z",
+ "generated_at": "2026-10-27T10:11:59Z",
  "monitor": {
   "last_run": "2026-10-27T08:41:06Z",
   "sec_items": 119,
   "news_items": 645,
-  "candidates": 53,
+  "candidates": 28,
   "claude_enabled": false,
   "model": null,
   "sources": {
@@ -246,7 +246,7 @@
     },
     "outflow_usd": {
      "order": 30000000000,
-     "investment": 40000000000,
+     "investment": 45750000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -262,18 +262,18 @@
     },
     "outflow_count": {
      "order": 1,
-     "investment": 1,
+     "investment": 3,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 2
     },
     "degree": 16,
-    "degree_curated": 13,
-    "candidate_edges": 3,
+    "degree_curated": 15,
+    "candidate_edges": 1,
     "counterparties": 10,
     "inflow_total_usd": 91430000000,
-    "outflow_total_usd": 74930000000
+    "outflow_total_usd": 80680000000
    }
   },
   {
@@ -310,7 +310,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 0,
+     "order": 1,
      "investment": 3,
      "debt": 0,
      "lease": 1,
@@ -318,8 +318,8 @@
      "guarantee": 0
     },
     "degree": 11,
-    "degree_curated": 10,
-    "candidate_edges": 1,
+    "degree_curated": 11,
+    "candidate_edges": 0,
     "counterparties": 5,
     "inflow_total_usd": 331800000000,
     "outflow_total_usd": 88500000000
@@ -385,7 +385,7 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 156000000000,
+     "investment": 160500000000,
      "debt": 20500000000,
      "lease": 0,
      "vendor_financing": 42000000000,
@@ -401,7 +401,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 13,
+     "investment": 15,
      "debt": 2,
      "lease": 0,
      "vendor_financing": 1,
@@ -416,10 +416,10 @@
      "guarantee": 0
     },
     "degree": 29,
-    "degree_curated": 27,
-    "candidate_edges": 2,
+    "degree_curated": 29,
+    "candidate_edges": 0,
     "counterparties": 18,
-    "inflow_total_usd": 218500000000,
+    "inflow_total_usd": 223000000000,
     "outflow_total_usd": 281000000000
    }
   },
@@ -491,7 +491,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 11000000000,
      "debt": 38500000000,
      "lease": 0,
      "vendor_financing": 0,
@@ -507,18 +507,18 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 1,
+     "investment": 2,
      "debt": 2,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 5,
-    "degree_curated": 4,
-    "candidate_edges": 1,
+    "degree_curated": 5,
+    "candidate_edges": 0,
     "counterparties": 5,
     "inflow_total_usd": 40000000000,
-    "outflow_total_usd": 38500000000
+    "outflow_total_usd": 49500000000
    }
   },
   {
@@ -555,7 +555,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 1,
+     "order": 2,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -563,58 +563,9 @@
      "guarantee": 0
     },
     "degree": 7,
-    "degree_curated": 1,
-    "candidate_edges": 6,
+    "degree_curated": 2,
+    "candidate_edges": 5,
     "counterparties": 6,
-    "inflow_total_usd": 0,
-    "outflow_total_usd": 0
-   }
-  },
-  {
-   "id": "ares",
-   "name": "Ares Management",
-   "name_zh": "阿瑞斯资本",
-   "group": "financier",
-   "ticker": "ARES",
-   "country": "US",
-   "origin": "candidate",
-   "stats": {
-    "inflow_usd": {
-     "order": 0,
-     "investment": 0,
-     "debt": 0,
-     "lease": 0,
-     "vendor_financing": 0,
-     "guarantee": 0
-    },
-    "outflow_usd": {
-     "order": 0,
-     "investment": 0,
-     "debt": 0,
-     "lease": 0,
-     "vendor_financing": 0,
-     "guarantee": 0
-    },
-    "inflow_count": {
-     "order": 0,
-     "investment": 0,
-     "debt": 0,
-     "lease": 0,
-     "vendor_financing": 0,
-     "guarantee": 0
-    },
-    "outflow_count": {
-     "order": 0,
-     "investment": 0,
-     "debt": 0,
-     "lease": 0,
-     "vendor_financing": 0,
-     "guarantee": 0
-    },
-    "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
-    "counterparties": 1,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0
    }
@@ -822,7 +773,7 @@
    "group": "financier",
    "ticker": "BAC",
    "country": "US",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
@@ -835,7 +786,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
+     "debt": 520000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -851,17 +802,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
+     "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
     "counterparties": 1,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 0
+    "outflow_total_usd": 520000000
    }
   },
   {
@@ -1738,10 +1689,10 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 5,
+    "degree": 4,
     "degree_curated": 4,
-    "candidate_edges": 1,
-    "counterparties": 4,
+    "candidate_edges": 0,
+    "counterparties": 3,
     "inflow_total_usd": 10150000000,
     "outflow_total_usd": 0
    }
@@ -1802,7 +1753,7 @@
    "group": "other",
    "ticker": "DIS",
    "country": "US",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
@@ -1814,7 +1765,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 1000000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -1830,18 +1781,18 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
     "counterparties": 1,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 0
+    "outflow_total_usd": 1000000000
    }
   },
   {
@@ -2197,8 +2148,57 @@
    "origin": "core",
    "stats": {
     "inflow_usd": {
+     "order": 1900000000,
+     "investment": 46900000000,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
      "order": 0,
-     "investment": 5000000000,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 5,
+     "investment": 5,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "degree": 10,
+    "degree_curated": 10,
+    "candidate_edges": 0,
+    "counterparties": 10,
+    "inflow_total_usd": 48800000000,
+    "outflow_total_usd": 0
+   }
+  },
+  {
+   "id": "intersect-power",
+   "name": "Intersect Power",
+   "name_zh": "Intersect Power（能源与数据中心开发商）",
+   "group": "energy",
+   "ticker": null,
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 4750000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -2228,60 +2228,11 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 10,
-    "degree_curated": 1,
-    "candidate_edges": 9,
-    "counterparties": 10,
-    "inflow_total_usd": 5000000000,
-    "outflow_total_usd": 0
-   }
-  },
-  {
-   "id": "intersect-power",
-   "name": "Intersect Power",
-   "name_zh": "Intersect Power（能源与数据中心开发商）",
-   "group": "energy",
-   "ticker": null,
-   "country": "US",
-   "origin": "candidate",
-   "stats": {
-    "inflow_usd": {
-     "order": 0,
-     "investment": 0,
-     "debt": 0,
-     "lease": 0,
-     "vendor_financing": 0,
-     "guarantee": 0
-    },
-    "outflow_usd": {
-     "order": 0,
-     "investment": 0,
-     "debt": 0,
-     "lease": 0,
-     "vendor_financing": 0,
-     "guarantee": 0
-    },
-    "inflow_count": {
-     "order": 0,
-     "investment": 0,
-     "debt": 0,
-     "lease": 0,
-     "vendor_financing": 0,
-     "guarantee": 0
-    },
-    "outflow_count": {
-     "order": 0,
-     "investment": 0,
-     "debt": 0,
-     "lease": 0,
-     "vendor_financing": 0,
-     "guarantee": 0
-    },
     "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
     "counterparties": 1,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 4750000000,
     "outflow_total_usd": 0
    }
   },
@@ -2292,11 +2243,11 @@
    "group": "other",
    "ticker": null,
    "country": "US",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 6500000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -2312,7 +2263,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -2327,10 +2278,10 @@
      "guarantee": 0
     },
     "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
     "counterparties": 1,
-    "inflow_total_usd": 0,
+    "inflow_total_usd": 6500000000,
     "outflow_total_usd": 0
    }
   },
@@ -2684,7 +2635,7 @@
    "group": "model_lab",
    "ticker": null,
    "country": "SG",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
@@ -2704,7 +2655,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -2719,8 +2670,8 @@
      "guarantee": 0
     },
     "degree": 1,
-    "degree_curated": 0,
-    "candidate_edges": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
     "counterparties": 1,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0
@@ -2761,15 +2712,15 @@
     },
     "outflow_count": {
      "order": 9,
-     "investment": 2,
+     "investment": 3,
      "debt": 0,
      "lease": 2,
      "vendor_financing": 0,
      "guarantee": 1
     },
     "degree": 19,
-    "degree_curated": 16,
-    "candidate_edges": 3,
+    "degree_curated": 17,
+    "candidate_edges": 2,
     "counterparties": 13,
     "inflow_total_usd": 55000000000,
     "outflow_total_usd": 95200000000
@@ -2907,17 +2858,17 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 5,
+     "order": 6,
      "investment": 2,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 12,
-    "degree_curated": 9,
-    "candidate_edges": 3,
-    "counterparties": 10,
+    "degree": 11,
+    "degree_curated": 10,
+    "candidate_edges": 1,
+    "counterparties": 9,
     "inflow_total_usd": 280000000000,
     "outflow_total_usd": 45100000000
    }
@@ -3397,7 +3348,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 2,
+     "order": 3,
      "investment": 9,
      "debt": 0,
      "lease": 1,
@@ -3405,8 +3356,8 @@
      "guarantee": 1
     },
     "degree": 22,
-    "degree_curated": 17,
-    "candidate_edges": 5,
+    "degree_curated": 18,
+    "candidate_edges": 4,
     "counterparties": 19,
     "inflow_total_usd": 40000000000,
     "outflow_total_usd": 162800000000
@@ -3423,15 +3374,15 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 153000000000,
-     "debt": 4000000000,
+     "investment": 172600000000,
+     "debt": 4520000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "outflow_usd": {
      "order": 730400000000,
-     "investment": 0,
+     "investment": 7000000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -3439,26 +3390,26 @@
     },
     "inflow_count": {
      "order": 1,
-     "investment": 6,
-     "debt": 1,
+     "investment": 9,
+     "debt": 2,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "outflow_count": {
      "order": 11,
-     "investment": 3,
+     "investment": 5,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 29,
-    "degree_curated": 22,
-    "candidate_edges": 7,
+    "degree_curated": 28,
+    "candidate_edges": 1,
     "counterparties": 20,
-    "inflow_total_usd": 157000000000,
-    "outflow_total_usd": 730400000000
+    "inflow_total_usd": 177120000000,
+    "outflow_total_usd": 737400000000
    }
   },
   {
@@ -3502,10 +3453,10 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 12,
+    "degree": 11,
     "degree_curated": 11,
-    "candidate_edges": 1,
-    "counterparties": 10,
+    "candidate_edges": 0,
+    "counterparties": 9,
     "inflow_total_usd": 394909000000,
     "outflow_total_usd": 40000000000
    }
@@ -3627,7 +3578,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 105705000000,
+     "investment": 127805000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -3643,18 +3594,18 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 12,
+     "investment": 15,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 15,
-    "degree_curated": 12,
-    "candidate_edges": 3,
+    "degree_curated": 15,
+    "candidate_edges": 0,
     "counterparties": 6,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 105705000000
+    "outflow_total_usd": 127805000000
    }
   },
   {
@@ -3725,7 +3676,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 24909000000,
+     "investment": 71416100000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -3741,18 +3692,18 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 2,
+     "investment": 4,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 4,
-    "degree_curated": 2,
-    "candidate_edges": 2,
+    "degree_curated": 4,
+    "candidate_edges": 0,
     "counterparties": 3,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 24909000000
+    "outflow_total_usd": 71416100000
    }
   },
   {
@@ -3864,7 +3815,7 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 1000000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -3880,7 +3831,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 2,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -3894,11 +3845,11 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 4,
-    "degree_curated": 1,
-    "candidate_edges": 3,
-    "counterparties": 4,
-    "inflow_total_usd": 105000000000,
+    "degree": 3,
+    "degree_curated": 3,
+    "candidate_edges": 0,
+    "counterparties": 3,
+    "inflow_total_usd": 106000000000,
     "outflow_total_usd": 0
    }
   },
@@ -3962,14 +3913,14 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 26507100000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 0,
+     "order": 1900000000,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -3977,27 +3928,27 @@
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 1,
-     "investment": 0,
-     "debt": 0,
-     "lease": 0,
-     "vendor_financing": 0,
-     "guarantee": 0
-    },
-    "outflow_count": {
-     "order": 0,
+     "order": 2,
      "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 7,
-    "degree_curated": 2,
-    "candidate_edges": 5,
-    "counterparties": 7,
-    "inflow_total_usd": 0,
-    "outflow_total_usd": 0
+    "outflow_count": {
+     "order": 1,
+     "investment": 1,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "degree": 6,
+    "degree_curated": 5,
+    "candidate_edges": 1,
+    "counterparties": 6,
+    "inflow_total_usd": 26507100000,
+    "outflow_total_usd": 1900000000
    }
   },
   {
@@ -4068,7 +4019,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 60000000000,
+     "investment": 62500000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -4084,18 +4035,18 @@
     },
     "outflow_count": {
      "order": 1,
-     "investment": 3,
+     "investment": 5,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 11,
-    "degree_curated": 9,
-    "candidate_edges": 2,
+    "degree_curated": 11,
+    "candidate_edges": 0,
     "counterparties": 9,
     "inflow_total_usd": 101100000000,
-    "outflow_total_usd": 60000000000
+    "outflow_total_usd": 62500000000
    }
   },
   {
@@ -4475,7 +4426,7 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 0,
+     "order": 1,
      "investment": 1,
      "debt": 0,
      "lease": 0,
@@ -4483,8 +4434,8 @@
      "guarantee": 0
     },
     "degree": 3,
-    "degree_curated": 1,
-    "candidate_edges": 2,
+    "degree_curated": 2,
+    "candidate_edges": 1,
     "counterparties": 3,
     "inflow_total_usd": 0,
     "outflow_total_usd": 2000000000
@@ -4595,7 +4546,7 @@
    "group": "other",
    "ticker": null,
    "country": "US",
-   "origin": "candidate",
+   "origin": "research",
    "stats": {
     "inflow_usd": {
      "order": 0,
@@ -4607,7 +4558,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 8900000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -4623,18 +4574,18 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "degree": 2,
-    "degree_curated": 0,
-    "candidate_edges": 2,
+    "degree_curated": 1,
+    "candidate_edges": 1,
     "counterparties": 2,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 0
+    "outflow_total_usd": 8900000000
    }
   },
   {
@@ -5519,6 +5470,38 @@
    "origin": "curated"
   },
   {
+   "id": "public-equity-investors-intel-2026-08-share-sale",
+   "kind": "investment",
+   "subkind": "public common stock offering",
+   "from": "public-equity-investors",
+   "to": "intel",
+   "amount_usd": 20000000000,
+   "amount_text": "$20B: 210,526,315 shares at $95 (upsized from $15B); underwriters' option for 31.6M more shares",
+   "announced": "2026-08-11",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Intel raises $20B in upsized share sale",
+   "title_zh": "英特尔增发股票募资 200 亿美元",
+   "summary_en": "Intel priced $20B of new common stock at $95 a share, upsized from $15B; the offering was expected to close on 12 August 2026.",
+   "summary_zh": "英特尔以每股 95 美元定价增发 200 亿美元新股（原计划 150 亿美元），预计 2026 年 8 月 12 日交割。",
+   "sources": [
+    {
+     "url": "https://www.intc.com/news-events/press-releases/detail/1779/intel-announces-upsize-and-pricing-of-20-billion-common-stock-offering",
+     "publisher": "Intel",
+     "date": "2026-08-11",
+     "title": "Intel Announces Upsize and Pricing of $20 Billion Common Stock Offering"
+    },
+    {
+     "url": "https://thenextweb.com/news/intel-15bn-share-sale-turnaround",
+     "publisher": "The Next Web",
+     "date": "2026-08-11",
+     "title": "Intel raises up to $20bn to fund its foundry bet against TSMC"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "jpmorgan-coreweave-2026-08-ddtl55",
    "kind": "debt",
    "subkind": "GPU-backed delayed draw term loan (DDTL 5.5)",
@@ -5699,6 +5682,38 @@
    "origin": "curated"
   },
   {
+   "id": "nvidia-sk-hynix-2026-07-memory-partnership",
+   "kind": "order",
+   "subkind": "multi-year HBM supply and co-development partnership (letters of intent)",
+   "from": "nvidia",
+   "to": "sk-hynix",
+   "amount_usd": null,
+   "amount_text": "Undisclosed for memory; Nvidia and SK Group put the wider partnership (memory plus AI data centres) at more than $500B over five years, via letters of intent without a breakdown",
+   "announced": "2026-07-24",
+   "term": "Multi-year",
+   "status": "announced",
+   "confidence": "confirmed",
+   "title_en": "Nvidia multi-year HBM supply partnership with SK hynix",
+   "title_zh": "英伟达与 SK 海力士的多年期 HBM 供应合作",
+   "summary_en": "Nvidia and SK Group announced an expanded partnership that secures SK hynix HBM for Vera Rubin and joint development of next-generation memory; the more-than-$500B headline also covers data-centre construction, rests on non-binding letters of intent and is not a firm order.",
+   "summary_zh": "英伟达与 SK 集团宣布扩大合作，锁定 SK 海力士为 Vera Rubin 供应 HBM 并共同开发下一代存储；所称逾 5000 亿美元规模还包含数据中心建设，基于非约束性意向书，并非确定订单。",
+   "sources": [
+    {
+     "url": "https://investor.nvidia.com/news/press-release-details/2026/SK-Group-and-NVIDIA-Expand-Strategic-Partnership-Across-AI-Factories-and-Next-Generation-Memory/default.aspx",
+     "publisher": "NVIDIA",
+     "date": "2026-07-24",
+     "title": "SK Group and NVIDIA Expand Strategic Partnership Across AI Factories and Next-Generation Memory"
+    },
+    {
+     "url": "https://www.businesstoday.com.my/2026/07/25/nvidia-and-sk-group-scale-up-ai-infrastructure-with-us500-billion-initiative/",
+     "publisher": "Business Today (Malaysia)",
+     "date": "2026-07-25",
+     "title": "Nvidia And SK Group Scale Up AI Infrastructure With US$500 Billion Initiative"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "bond-investors-sopaipilla-2026-07-el-paso-notes",
    "kind": "debt",
    "subkind": "private-credit SPV bonds",
@@ -5836,6 +5851,70 @@
      "publisher": "AI Magazine",
      "date": "2026-07-22",
      "title": "Microsoft & Mistral's Multi-Billion-Dollar European AI Deal"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "public-equity-investors-sk-hynix-2026-07-us-listing",
+   "kind": "investment",
+   "subkind": "US listing of new shares (Nasdaq ADS offering)",
+   "from": "public-equity-investors",
+   "to": "sk-hynix",
+   "amount_usd": 26507100000,
+   "amount_text": "US$26.5B: 177.9M ADS at $149 (each ADS = one-tenth of a common share)",
+   "announced": "2026-07-09",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "SK hynix raises $26.5B in record US listing",
+   "title_zh": "SK 海力士赴美上市募资 265 亿美元，创纪录",
+   "summary_en": "SK hynix sold 177.9 million American depositary shares at $149 for its Nasdaq listing (ticker SKHY), raising about $26.5B; settlement was expected around 14 July 2026.",
+   "summary_zh": "SK 海力士以每股 149 美元发行 1.779 亿股美国存托股并在纳斯达克上市（代码 SKHY），募资约 265 亿美元；预计 2026 年 7 月 14 日前后交割。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0002120882/000119312526299963/d32785d424b4.htm",
+     "publisher": "SK hynix (SEC 424B4)",
+     "date": "2026-07-10",
+     "title": "SK hynix final prospectus"
+    },
+    {
+     "url": "https://www.aljazeera.com/economy/2026/7/10/south-koreas-sk-hynix-raises-26-5bn-in-record-breaking-us-ipo",
+     "publisher": "Al Jazeera",
+     "date": "2026-07-10",
+     "title": "South Korea's SK Hynix raises $26.5bn in record-breaking US IPO"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bank-of-america-openai-2026-07-credit-line",
+   "kind": "debt",
+   "subkind": "revolving credit line",
+   "from": "bank-of-america",
+   "to": "openai",
+   "amount_usd": 520000000,
+   "amount_text": "$520M credit line; pricing, collateral and maturity not disclosed",
+   "announced": "2026-07-08",
+   "term": null,
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Bank of America extends OpenAI a $520M credit line",
+   "title_zh": "美国银行向 OpenAI 提供 5.2 亿美元授信",
+   "summary_en": "Bank of America gave OpenAI a $520M credit line, its first loan to the company and a reversal after it earlier declined a request, as OpenAI prepares for a possible IPO. Reported by Reuters and Bloomberg citing people familiar.",
+   "summary_zh": "美国银行向 OpenAI 提供 5.2 亿美元授信额度，这是其向该公司发放的首笔贷款，此前该行曾拒绝过相关请求；OpenAI 正为可能的上市做准备。路透社和彭博社援引知情人士报道。",
+   "sources": [
+    {
+     "url": "https://www.bnnbloomberg.ca/business/company-news/2026/07/08/bofa-extends-first-us520-million-loan-to-openai-ahead-of-ipo-reuters-source-says/",
+     "publisher": "BNN Bloomberg (Reuters)",
+     "date": "2026-07-08",
+     "title": "BofA extends first US$520 million loan to OpenAI ahead of IPO, Reuters source says"
+    },
+    {
+     "url": "https://letsdatascience.com/news/openai-secures-520-million-credit-line-from-bank-of-america-c7bb2f54",
+     "publisher": "Let's Data Science (citing Bloomberg)",
+     "date": "2026-07-08",
+     "title": "OpenAI Secures $520 Million Credit Line From Bank of America"
     }
    ],
    "origin": "curated"
@@ -6285,6 +6364,38 @@
    "origin": "curated"
   },
   {
+   "id": "apple-intel-2026-05-foundry",
+   "kind": "order",
+   "subkind": "preliminary foundry agreement",
+   "from": "apple",
+   "to": "intel",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; chips and process node not named",
+   "announced": "2026-05-08",
+   "term": null,
+   "status": "reported",
+   "confidence": "reported",
+   "title_en": "Apple reaches preliminary deal for Intel to make some of its chips",
+   "title_zh": "苹果与英特尔达成初步代工协议",
+   "summary_en": "The Wall Street Journal reported that Apple and Intel reached a preliminary agreement for Intel's foundry to make some Apple-designed chips after more than a year of talks; neither company has confirmed it.",
+   "summary_zh": "据《华尔街日报》报道，经过一年多谈判，苹果与英特尔达成初步协议，由英特尔代工部分苹果自研芯片；两家公司均未确认。",
+   "sources": [
+    {
+     "url": "https://www.mobileworldlive.com/apple/apple-intel-strike-preliminary-chip-deal/",
+     "publisher": "Mobile World Live",
+     "date": "2026-05-08",
+     "title": "Apple, Intel strike preliminary chip deal"
+    },
+    {
+     "url": "https://www.tomshardware.com/tech-industry/semiconductors/apple-reportedly-strikes-deal-for-intel-to-make-some-of-its-chips-two-tech-giants-reached-a-preliminary-agreement-for-intel-to-make-processors-for-cupertino",
+     "publisher": "Tom's Hardware (citing WSJ)",
+     "date": "2026-05-08",
+     "title": "Apple reportedly strikes deal for Intel to make some of its chips"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "private-investors-moonshot-ai-2026-05-round",
    "kind": "investment",
    "subkind": "venture equity",
@@ -6452,6 +6563,38 @@
      "publisher": "Computing (FT)",
      "date": "2025-12-17",
      "title": "Oracle datacentre plans uncertain after key funding talks collapse"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "tesla-intel-2026-04-14a-terafab",
+   "kind": "order",
+   "subkind": "foundry process commitment (Intel 14A, Terafab)",
+   "from": "tesla",
+   "to": "intel",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; no contract value given",
+   "announced": "2026-04-22",
+   "term": null,
+   "status": "announced",
+   "confidence": "reported",
+   "title_en": "Tesla picks Intel 14A for its Terafab chips",
+   "title_zh": "特斯拉选择英特尔 14A 工艺生产 Terafab 芯片",
+   "summary_en": "On Tesla's Q1 2026 earnings call Elon Musk said Tesla plans to make AI chips at its Terafab complex on Intel's 14A process, which would make Tesla the first major named external 14A customer.",
+   "summary_zh": "马斯克在特斯拉 2026 年第一季度财报电话会上表示，特斯拉计划在 Terafab 项目中采用英特尔 14A 工艺生产 AI 芯片，使特斯拉成为 14A 首个公开的大客户。",
+   "sources": [
+    {
+     "url": "https://www.theregister.com/2026/04/23/musk_bets_teslas_ai_future/",
+     "publisher": "The Register",
+     "date": "2026-04-23",
+     "title": "Musk bets Tesla's AI future on Intel 14A"
+    },
+    {
+     "url": "https://www.datacenterdynamics.com/en/news/elon-musk-says-tesla-will-use-intel-14a-technology-at-its-20bn-terafab-project-in-austin/",
+     "publisher": "DatacenterDynamics",
+     "date": "2026-04-23",
+     "title": "Elon Musk says Tesla will use Intel 14A technology at its $20bn Terafab project in Austin"
     }
    ],
    "origin": "curated"
@@ -6664,6 +6807,38 @@
      "publisher": "Anthropic",
      "date": "2026-05-28",
      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "private-investors-openai-2026-03-round-extension",
+   "kind": "investment",
+   "subkind": "equity funding round (extension)",
+   "from": "private-investors",
+   "to": "openai",
+   "amount_usd": 12000000000,
+   "amount_text": "~$12B beyond the $110B first close (round total $122B at $852B post-money), incl. ~$3B from individuals via bank channels",
+   "announced": "2026-03-31",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "OpenAI extends its round by ~$12B to $122B",
+   "title_zh": "OpenAI 融资轮追加约 120 亿美元至 1220 亿美元",
+   "summary_en": "After the $110B first close with Amazon, Nvidia and SoftBank, OpenAI took roughly $12B more from a wider investor pool including a16z, D. E. Shaw, MGX, TPG and T. Rowe Price-advised accounts, plus about $3B from individuals through banks, closing at $122B and an $852B post-money valuation.",
+   "summary_zh": "在亚马逊、英伟达和软银参与的 1100 亿美元首轮之后，OpenAI 又从 a16z、D. E. Shaw、MGX、TPG 及普信旗下账户等更广泛的投资者处募得约 120 亿美元，另通过银行渠道向个人投资者募资约 30 亿美元，最终以 1220 亿美元、投后估值 8520 亿美元完成该轮融资。",
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/stocks/articles/openai-closes-122bn-funding-round-093126735.html",
+     "publisher": "Yahoo Finance",
+     "date": "2026-03-31",
+     "title": "OpenAI closes $122bn funding round at $852bn valuation"
+    },
+    {
+     "url": "https://siliconangle.com/2026/03/31/openai-just-closed-record-breaking-122b-funding-round-brings-value-852b/",
+     "publisher": "SiliconANGLE",
+     "date": "2026-03-31",
+     "title": "OpenAI just closed record-breaking $122B funding round, brings value to $852B"
     }
    ],
    "origin": "curated"
@@ -7789,6 +7964,76 @@
    "origin": "curated"
   },
   {
+   "id": "openai-sb-energy-2026-01-equity",
+   "kind": "investment",
+   "subkind": "equity investment",
+   "from": "openai",
+   "to": "sb-energy",
+   "amount_usd": 500000000,
+   "amount_text": "$500M (half of a $1B joint investment with SoftBank); valuation undisclosed",
+   "announced": "2026-01-09",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "OpenAI invests $500M in Stargate partner SB Energy",
+   "title_zh": "OpenAI 向星际之门合作方 SB Energy 投资 5 亿美元",
+   "summary_en": "OpenAI and SoftBank each put $500M into SB Energy, which will build and operate OpenAI's 1.2 GW Stargate site in Milam County, Texas, under a non-exclusive preferred partnership.",
+   "summary_zh": "OpenAI 与软银各向 SB Energy 投资 5 亿美元。SB Energy 将建设并运营 OpenAI 位于得州米拉姆县的 1.2 吉瓦星际之门站点，双方为非独家优先合作关系。",
+   "sources": [
+    {
+     "url": "https://openai.com/index/stargate-sb-energy-partnership/",
+     "publisher": "OpenAI",
+     "date": "2026-01-09",
+     "title": "Stargate community: SB Energy partnership"
+    },
+    {
+     "url": "https://sbenergy.com/openai-and-softbank-group-partner-with-sb-energy/",
+     "publisher": "SB Energy",
+     "date": "2026-01-09",
+     "title": "OpenAI and SoftBank Group partner with SB Energy"
+    },
+    {
+     "url": "https://siliconangle.com/2026/01/09/openai-invests-500m-softbanks-sb-energy-unit/",
+     "publisher": "SiliconANGLE",
+     "date": "2026-01-09",
+     "title": "OpenAI invests $500M in SoftBank's SB Energy unit"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "softbank-sb-energy-2026-01-equity",
+   "kind": "investment",
+   "subkind": "equity investment",
+   "from": "softbank",
+   "to": "sb-energy",
+   "amount_usd": 500000000,
+   "amount_text": "$500M (half of a $1B joint investment with OpenAI)",
+   "announced": "2026-01-09",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "SoftBank puts $500M more into SB Energy for Stargate Texas",
+   "title_zh": "软银再向 SB Energy 注资 5 亿美元支持得州星际之门",
+   "summary_en": "SoftBank matched OpenAI's $500M investment in its SB Energy unit, which is developing the 1.2 GW Stargate data-centre campus in Milam County, Texas, for OpenAI.",
+   "summary_zh": "软银与 OpenAI 同额向旗下 SB Energy 投资 5 亿美元；SB Energy 正为 OpenAI 开发得州米拉姆县 1.2 吉瓦星际之门数据中心园区。",
+   "sources": [
+    {
+     "url": "https://sbenergy.com/openai-and-softbank-group-partner-with-sb-energy/",
+     "publisher": "SB Energy",
+     "date": "2026-01-09",
+     "title": "OpenAI and SoftBank Group partner with SB Energy"
+    },
+    {
+     "url": "https://openai.com/index/stargate-sb-energy-partnership/",
+     "publisher": "OpenAI",
+     "date": "2026-01-09",
+     "title": "Stargate community: SB Energy partnership"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "apollo-valor-compute-2026-01-xai-gpu-financing",
    "kind": "debt",
    "subkind": "GPU lease financing (SPV)",
@@ -7937,6 +8182,38 @@
    "origin": "curated"
   },
   {
+   "id": "meta-manus-2025-12-acquisition",
+   "kind": "investment",
+   "subkind": "acquisition",
+   "from": "meta",
+   "to": "manus",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; reported above $2B (WSJ), $2-3B per Reuters sources",
+   "announced": "2025-12-29",
+   "term": null,
+   "status": "announced",
+   "confidence": "reported",
+   "title_en": "Meta acquires AI agent startup Manus",
+   "title_zh": "Meta 收购 AI 智能体初创公司 Manus",
+   "summary_en": "Meta agreed to buy Manus, the Singapore-based AI agent startup with Chinese roots, to bring general-purpose agents into Meta AI and its products. Meta did not disclose terms; reports put the price above $2B.",
+   "summary_zh": "Meta 同意收购总部位于新加坡、具有中国背景的 AI 智能体初创公司 Manus，把通用智能体引入 Meta AI 及其产品。Meta 未披露条款，据报道价格超过 20 亿美元。",
+   "sources": [
+    {
+     "url": "https://news.bloomberglaw.com/tech-and-telecom-law/meta-acquires-startup-manus-in-a-move-to-bolster-ai-business",
+     "publisher": "Bloomberg",
+     "date": "2025-12-29",
+     "title": "Meta to Buy Manus, an AI Startup With Chinese Roots"
+    },
+    {
+     "url": "https://www.businesstoday.in/amp/technology/news/story/meta-acquires-ai-startup-manus-in-milestone-deal-worth-over-2-billion-508760-2025-12-31",
+     "publisher": "Business Today",
+     "date": "2025-12-31",
+     "title": "Meta acquires AI startup Manus in milestone deal worth over $2 billion"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "nvidia-groq-2025-12-licence",
    "kind": "order",
    "subkind": "technology licence and acqui-hire",
@@ -7958,6 +8235,38 @@
      "publisher": "Groq",
      "date": "2025-12-24",
      "title": "Groq and Nvidia enter non-exclusive inference technology licensing agreement"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "alphabet-intersect-power-2025-12-acquisition",
+   "kind": "investment",
+   "subkind": "acquisition",
+   "from": "alphabet",
+   "to": "intersect-power",
+   "amount_usd": 4750000000,
+   "amount_text": "$4.75B cash plus assumed debt; Intersect's existing Texas and California operating assets excluded and kept by current investors as a separate company",
+   "announced": "2025-12-22",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Alphabet buys data-centre power developer Intersect for $4.75B",
+   "title_zh": "Alphabet 以 47.5 亿美元收购数据中心电力开发商 Intersect",
+   "summary_en": "Alphabet agreed to acquire Intersect, a developer of co-located power and data-centre campuses, for $4.75B in cash plus debt; the deal closed on 10 March 2026.",
+   "summary_zh": "Alphabet 同意以 47.5 亿美元现金加承担债务收购电源与数据中心一体化园区开发商 Intersect；交易于 2026 年 3 月 10 日完成。",
+   "sources": [
+    {
+     "url": "https://www.clearygottlieb.com/news-and-insights/news-listing/alphabet-in-4-75-billion-acquisition-of-intersect-power",
+     "publisher": "Cleary Gottlieb",
+     "date": "2025-12-22",
+     "title": "Alphabet in $4.75 Billion Acquisition of Intersect Power"
+    },
+    {
+     "url": "https://www.clearygottlieb.com/news-and-insights/news-listing/alphabet-completes-4-75-billion-acquisition-of-intersect-power",
+     "publisher": "Cleary Gottlieb",
+     "date": "2026-03-10",
+     "title": "Alphabet Completes $4.75 Billion Acquisition of Intersect Power"
     }
    ],
    "origin": "curated"
@@ -7990,6 +8299,38 @@
      "publisher": "DatacenterDynamics",
      "date": "2025-12-12",
      "title": "Broadcom bulges with Anthropic AI orders"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "disney-openai-2025-12-equity",
+   "kind": "investment",
+   "subkind": "equity investment with warrants",
+   "from": "disney",
+   "to": "openai",
+   "amount_usd": 1000000000,
+   "amount_text": "$1B equity stake (some reports add warrants for more shares); paired with a 3-year character licence for Sora",
+   "announced": "2025-12-11",
+   "term": null,
+   "status": "announced",
+   "confidence": "reported",
+   "title_en": "Disney invests $1B in OpenAI and licenses characters to Sora",
+   "title_zh": "迪士尼向 OpenAI 投资 10 亿美元并授权角色用于 Sora",
+   "summary_en": "Disney is taking a $1B equity stake in OpenAI and licensing more than 200 Disney, Marvel, Pixar and Star Wars characters to Sora and ChatGPT Images for three years; Disney also becomes a major OpenAI API customer. At announcement the deal was subject to final agreements and approvals.",
+   "summary_zh": "迪士尼将入股 OpenAI 10 亿美元，并把 200 多个迪士尼、漫威、皮克斯和星球大战角色授权给 Sora 和 ChatGPT 图像功能使用三年，同时成为 OpenAI API 的大客户。公布时交易仍需最终协议和批准。",
+   "sources": [
+    {
+     "url": "https://kvia.com/news/business-technology/cnn-business-consumer/2025/12/11/disney-is-investing-1-billion-in-openai-and-licensing-its-characters-for-sora/",
+     "publisher": "CNN Business via KVIA",
+     "date": "2025-12-11",
+     "title": "Disney is investing $1 billion in OpenAI and licensing its characters for Sora"
+    },
+    {
+     "url": "https://www.thewrap.com/disney-sora-openai-licensing-deal",
+     "publisher": "TheWrap",
+     "date": "2025-12-11",
+     "title": "Disney to Invest $1 Billion in OpenAI, License Suite of Characters for Sora in Landmark Deal"
     }
    ],
    "origin": "curated"
@@ -9583,6 +9924,38 @@
    "origin": "curated"
   },
   {
+   "id": "us-government-intel-2025-08-equity",
+   "kind": "investment",
+   "subkind": "government equity stake (converted CHIPS grants)",
+   "from": "us-government",
+   "to": "intel",
+   "amount_usd": 8900000000,
+   "amount_text": "$8.9B for 433.3M shares at $20.47 (~9.9%): $5.7B of unpaid CHIPS grants + $3.2B Secure Enclave; plus a 5-year warrant for 5% more at $20 if Intel's foundry stake falls below 51%",
+   "announced": "2025-08-22",
+   "term": null,
+   "status": "in_progress",
+   "confidence": "confirmed",
+   "title_en": "US government takes a 9.9% stake in Intel for $8.9B",
+   "title_zh": "美国政府以 89 亿美元入股英特尔 9.9%",
+   "summary_en": "The US government converted Intel's remaining CHIPS Act and Secure Enclave grants into an $8.9B purchase of Intel common stock, a passive 9.9% stake; the Secure Enclave portion is paid as milestones are met.",
+   "summary_zh": "美国政府将英特尔尚未拨付的芯片法案及“安全飞地”补贴转为 89 亿美元的英特尔普通股认购，持股约 9.9%（被动持股）；安全飞地部分按里程碑拨付。",
+   "sources": [
+    {
+     "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-and-trump-administration-reach-historic-agreement.html",
+     "publisher": "Intel",
+     "date": "2025-08-22",
+     "title": "Intel and Trump Administration Reach Historic Agreement"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000129/a08222025form8-kex991.htm",
+     "publisher": "Intel (SEC 8-K Ex. 99.1)",
+     "date": "2025-08-22",
+     "title": "Intel 8-K exhibit 99.1"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "china-mobile-kunlunxin-2025-08-inference",
    "kind": "order",
    "subkind": "AI inference chip procurement (via H3C and ZTE servers)",
@@ -9636,6 +10009,38 @@
      "publisher": "Reuters via KSL",
      "date": "2025-08-21",
      "title": "Meta signs over $10 billion cloud deal with Google, source says"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "softbank-intel-2025-08-equity",
+   "kind": "investment",
+   "subkind": "equity investment (primary share purchase)",
+   "from": "softbank",
+   "to": "intel",
+   "amount_usd": 2000000000,
+   "amount_text": "$2B of new Intel common stock at $23 a share",
+   "announced": "2025-08-18",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "SoftBank invests $2B in Intel",
+   "title_zh": "软银向英特尔投资 20 亿美元",
+   "summary_en": "SoftBank signed a definitive agreement to buy $2B of newly issued Intel shares at $23 each; Intel's Q3 2025 results reported the investment as made.",
+   "summary_zh": "软银签署最终协议，以每股 23 美元认购 20 亿美元英特尔新股；英特尔 2025 年第三季度财报确认该投资已完成。",
+   "sources": [
+    {
+     "url": "https://group.softbank/en/news/press/20250819",
+     "publisher": "SoftBank Group",
+     "date": "2025-08-19",
+     "title": "SoftBank Group and Intel Corporation Sign $2B Investment Agreement"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000169/q325earningsrelease.htm",
+     "publisher": "Intel (SEC 8-K)",
+     "date": "2025-10-23",
+     "title": "Intel Reports Third-Quarter 2025 Financial Results"
     }
    ],
    "origin": "curated"
@@ -10047,6 +10452,38 @@
    "origin": "curated"
   },
   {
+   "id": "openai-io-products-2025-05-acquisition",
+   "kind": "investment",
+   "subkind": "acquisition (all-stock)",
+   "from": "openai",
+   "to": "io-products",
+   "amount_usd": 6500000000,
+   "amount_text": "~$6.5B all-stock; OpenAI already held ~23% and paid ~$5B of shares for the rest (announced 2025-05-21, closed 2025-07-09)",
+   "announced": "2025-05-21",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "OpenAI buys Jony Ive's io for $6.5B in stock",
+   "title_zh": "OpenAI 以约 65 亿美元股票收购乔尼·艾维的 io",
+   "summary_en": "OpenAI bought io, the AI-device startup co-founded by former Apple design chief Jony Ive, in an all-stock deal of nearly $6.5B, its largest acquisition, to build its own hardware. The deal closed on 9 July 2025.",
+   "summary_zh": "OpenAI 以近 65 亿美元全股票方式收购前苹果首席设计师乔尼·艾维联合创办的 AI 设备公司 io，这是其迄今最大收购，用于自研硬件；交易于 2025 年 7 月 9 日完成。",
+   "sources": [
+    {
+     "url": "https://bloomberg.com/news/articles/2025-05-21/openai-to-buy-apple-veteran-jony-ive-s-ai-device-startup-in-6-5-billion-deal",
+     "publisher": "Bloomberg",
+     "date": "2025-05-21",
+     "title": "OpenAI to Buy AI Device Startup From Apple Veteran Jony Ive in $6.5 Billion Deal"
+    },
+    {
+     "url": "https://www.bloomberg.com/news/articles/2025-07-09/openai-closes-6-5-billion-deal-to-buy-jony-ive-s-device-startup",
+     "publisher": "Bloomberg",
+     "date": "2025-07-09",
+     "title": "OpenAI Closes $6.5 Billion Deal to Buy Jony Ive's Device Startup"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "mgx-campus-ai-france-2025-05-jv",
    "kind": "investment",
    "subkind": "data-centre joint venture equity",
@@ -10195,6 +10632,38 @@
    "origin": "curated"
   },
   {
+   "id": "sk-hynix-intel-2025-03-nand-final-closing",
+   "kind": "order",
+   "subkind": "business acquisition (final closing, Intel NAND)",
+   "from": "sk-hynix",
+   "to": "intel",
+   "amount_usd": 1900000000,
+   "amount_text": "~$1.9B final payment (net of adjustments) at second closing on 27 Mar 2025; total deal ~$9B agreed 2020",
+   "announced": "2025-03-27",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "SK hynix completes purchase of Intel's NAND business",
+   "title_zh": "SK 海力士完成收购英特尔 NAND 业务",
+   "summary_en": "SK hynix made a final payment of about $1.9B to Intel to complete its roughly $9B purchase of Intel's NAND and SSD business, folding the remaining IP and R&D staff into Solidigm.",
+   "summary_zh": "SK 海力士向英特尔支付约 19 亿美元尾款，完成约 90 亿美元的英特尔 NAND 与固态硬盘业务收购，剩余知识产权与研发人员并入 Solidigm。",
+   "sources": [
+    {
+     "url": "https://www.digitimes.com/news/a20250328PD225.html",
+     "publisher": "DIGITIMES",
+     "date": "2025-03-28",
+     "title": "SK hynix completes final acquisition of Intel NAND business"
+    },
+    {
+     "url": "https://evertiq.com/design/2025-04-01-sk-hynix-completes-its-acquisition-of-intels-nand-business/",
+     "publisher": "Evertiq",
+     "date": "2025-04-01",
+     "title": "SK hynix completes its acquisition of Intel's NAND business"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "xai-aip-2025-03-joins-partnership",
    "kind": "investment",
    "subkind": "partnership membership",
@@ -10305,6 +10774,38 @@
    "origin": "curated"
   },
   {
+   "id": "private-investors-anthropic-2025-03-series-e",
+   "kind": "investment",
+   "subkind": "equity funding round (Series E)",
+   "from": "private-investors",
+   "to": "anthropic",
+   "amount_usd": 3500000000,
+   "amount_text": "$3.5B at $61.5B post-money; Lightspeed led",
+   "announced": "2025-03-03",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Anthropic $3.5B Series E at $61.5B",
+   "title_zh": "Anthropic 35 亿美元 E 轮融资（估值 615 亿美元）",
+   "summary_en": "Anthropic raised $3.5B led by Lightspeed Venture Partners, with Bessemer, Cisco, D1, Fidelity, General Catalyst, Jane Street, Menlo and Salesforce Ventures, to fund compute, research and international expansion.",
+   "summary_zh": "Anthropic 完成 35 亿美元融资，由 Lightspeed 领投，Bessemer、思科、D1、富达、General Catalyst、Jane Street、Menlo 和 Salesforce Ventures 参投，资金用于算力、研究和国际扩张。",
+   "sources": [
+    {
+     "url": "https://www.bloomberg.com/news/articles/2025-03-03/anthropic-finalizes-megaround-at-61-5-billion-valuation",
+     "publisher": "Bloomberg",
+     "date": "2025-03-03",
+     "title": "Anthropic Finalizes Megaround at $61.5 Billion Valuation"
+    },
+    {
+     "url": "https://orrick.com/News/2025/03/Anthropic-Raises-3-point-5-Billion-to-Advance-AI-Development-and-Expand-Compute-Capacity",
+     "publisher": "Orrick",
+     "date": "2025-03-03",
+     "title": "Anthropic Raises $3.5 Billion to Advance AI Development and Expand Compute Capacity"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "softbank-openai-2025-02-cristal",
    "kind": "order",
    "subkind": "enterprise AI purchase commitment (Cristal intelligence)",
@@ -10326,6 +10827,38 @@
      "publisher": "SoftBank Group",
      "date": "2025-02-03",
      "title": "SoftBank Group and OpenAI announce strategic partnership (Cristal intelligence)"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "alphabet-anthropic-2025-01-equity",
+   "kind": "investment",
+   "subkind": "equity investment",
+   "from": "alphabet",
+   "to": "anthropic",
+   "amount_usd": 1000000000,
+   "amount_text": "~$1B additional (reported as more than $1B); takes Google's total past $3B (FT)",
+   "announced": "2025-01-22",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Google invests another $1B in Anthropic",
+   "title_zh": "谷歌再向 Anthropic 投资 10 亿美元",
+   "summary_en": "The Financial Times reported that Google was investing a further $1B or more in Anthropic, taking its total past $3B; CNBC confirmed through a source.",
+   "summary_zh": "据《金融时报》报道，谷歌再向 Anthropic 投资约 10 亿美元或更多，使其累计投资超过 30 亿美元；CNBC 通过消息人士予以证实。",
+   "sources": [
+    {
+     "url": "https://siliconrepublic.com/start-ups/google-anthropic-1bn-investment",
+     "publisher": "Silicon Republic (citing FT)",
+     "date": "2025-01-22",
+     "title": "Google reportedly pumps $1bn more into Anthropic"
+    },
+    {
+     "url": "https://www.nbcnewyork.com/news/business/money-report/google-agrees-to-new-1-billion-investment-in-anthropic/6117837/?amp=1",
+     "publisher": "CNBC via NBC New York",
+     "date": "2025-01-22",
+     "title": "Google agrees to new $1 billion investment in Anthropic"
     }
    ],
    "origin": "curated"
@@ -10583,6 +11116,38 @@
    "origin": "curated"
   },
   {
+   "id": "private-investors-openai-2024-10-round",
+   "kind": "investment",
+   "subkind": "equity funding round",
+   "from": "private-investors",
+   "to": "openai",
+   "amount_usd": 6600000000,
+   "amount_text": "$6.6B at a $157B valuation; Thrive Capital led (per a source), Microsoft, Nvidia and SoftBank joined",
+   "announced": "2024-10-02",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "OpenAI raises $6.6B at a $157B valuation",
+   "title_zh": "OpenAI 以 1570 亿美元估值融资 66 亿美元",
+   "summary_en": "OpenAI closed a $6.6B round at a $157B valuation, reportedly led by Thrive Capital, with Microsoft, Nvidia, SoftBank and others participating.",
+   "summary_zh": "OpenAI 以 1570 亿美元估值完成 66 亿美元融资，据报道由 Thrive Capital 领投，微软、英伟达、软银等参投。",
+   "sources": [
+    {
+     "url": "https://www.nbcnews.com/business/business-news/openai-closes-funding-157-billion-valuation-microsoft-nvidia-softbank-rcna173693",
+     "publisher": "NBC News",
+     "date": "2024-10-02",
+     "title": "OpenAI closes funding at $157 billion valuation as Microsoft, Nvidia, SoftBank join round"
+    },
+    {
+     "url": "https://www.bloomberg.com/news/articles/2024-10-02/openai-has-closed-new-funding-round-raising-over-6-5-billion",
+     "publisher": "Bloomberg",
+     "date": "2024-10-02",
+     "title": "OpenAI Raises $6.6 Billion in Funds at $157 Billion Value"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "bank-lenders-bytedance-2024-09-loan",
    "kind": "debt",
    "subkind": "syndicated loan (unsecured, offshore)",
@@ -10604,6 +11169,38 @@
      "publisher": "Bloomberg",
      "date": "2024-09-27",
      "title": "ByteDance to Sign $10.8 Billion Corporate Loan in Asian Record"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "amazon-intel-2024-09-custom-chips",
+   "kind": "order",
+   "subkind": "custom chip foundry and co-investment framework (Intel 18A, Intel 3)",
+   "from": "amazon",
+   "to": "intel",
+   "amount_usd": null,
+   "amount_text": "Multi-year, multi-billion-dollar framework; exact value undisclosed",
+   "announced": "2024-09-16",
+   "term": "Multi-year",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "AWS multi-billion custom-chip deal with Intel (18A AI fabric chip)",
+   "title_zh": "AWS 与英特尔数十亿美元定制芯片合作（18A AI 互连芯片）",
+   "summary_en": "AWS and Intel announced a multi-year, multi-billion-dollar co-investment framework: Intel will make an AI fabric chip for AWS on Intel 18A and a custom Xeon 6 on Intel 3.",
+   "summary_zh": "AWS 与英特尔宣布多年期、数十亿美元的共同投资框架，英特尔将以 18A 工艺为 AWS 生产 AI 互连芯片，并以 Intel 3 工艺生产定制版至强 6 处理器。",
+   "sources": [
+    {
+     "url": "https://www.intel.com/content/www/us/en/newsroom/news/intel-strategic-collaboration.html",
+     "publisher": "Intel",
+     "date": "2024-09-16",
+     "title": "Intel and AWS Expand Strategic Collaboration, Helping Advance U.S.-Based Chip Manufacturing"
+    },
+    {
+     "url": "https://www.datacenterdynamics.com/en/news/aws-enters-multi-year-multi-billion-dollar-custom-chip-deal-with-intel/",
+     "publisher": "DatacenterDynamics",
+     "date": "2024-09-17",
+     "title": "AWS enters multi-year, multi-billion dollar custom chip deal with Intel"
     }
    ],
    "origin": "curated"
@@ -10732,6 +11329,38 @@
      "publisher": "CNBC (via NBC Miami)",
      "date": "2024-06-11",
      "title": "Microsoft-backed Mistral AI raises $645 million at a $6 billion valuation"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "apollo-intel-2024-06-fab34-jv",
+   "kind": "investment",
+   "subkind": "49% stake in fab joint venture",
+   "from": "apollo",
+   "to": "intel",
+   "amount_usd": 11000000000,
+   "amount_text": "$11B for a 49% equity interest in the Fab 34 (Ireland) joint venture; Intel keeps 51% and control",
+   "announced": "2024-06-04",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Apollo pays $11B for 49% of Intel's Fab 34 venture in Ireland",
+   "title_zh": "阿波罗以 110 亿美元收购英特尔爱尔兰 Fab 34 合资企业 49% 股权",
+   "summary_en": "Apollo-managed funds invested $11B for a 49% stake in a joint venture tied to Intel's Fab 34 in Leixlip, Ireland; Intel retains 51% and operational control.",
+   "summary_zh": "阿波罗旗下基金投资 110 亿美元，取得英特尔爱尔兰莱克斯利普 Fab 34 相关合资企业 49% 股权；英特尔保留 51% 股权和运营控制权。",
+   "sources": [
+    {
+     "url": "https://www.intel.com/content/www/us/en/newsroom/news/co-invest-program-news-2024.html",
+     "publisher": "Intel",
+     "date": "2024-06-04",
+     "title": "Intel and Apollo Agree to Joint Venture Related to Intel's Fab 34 in Ireland"
+    },
+    {
+     "url": "https://siliconangle.com/2024/06/04/intel-gets-11b-apollo-stake-fab-34-chip-manufacturing-plant-ireland/",
+     "publisher": "SiliconANGLE",
+     "date": "2024-06-04",
+     "title": "Intel gets $11B from Apollo for stake in Fab 34"
     }
    ],
    "origin": "curated"
@@ -10891,6 +11520,38 @@
    "origin": "curated"
   },
   {
+   "id": "microsoft-intel-2024-02-18a-foundry",
+   "kind": "order",
+   "subkind": "foundry manufacturing commitment (Intel 18A)",
+   "from": "microsoft",
+   "to": "intel",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; Intel said expected lifetime deal value across its foundry customers exceeds $15B",
+   "announced": "2024-02-21",
+   "term": null,
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Microsoft chooses Intel 18A to make an in-house chip",
+   "title_zh": "微软选择英特尔 18A 工艺生产自研芯片",
+   "summary_en": "At Intel Foundry Direct Connect, Intel said Microsoft plans to make a chip of its own design on Intel 18A; no contract value was given, and Intel put its foundry lifetime deal value above $15B.",
+   "summary_zh": "在英特尔代工大会上，英特尔宣布微软计划用 18A 工艺生产一款自研芯片；未披露合同金额，英特尔称其代工业务预计总合同价值超过 150 亿美元。",
+   "sources": [
+    {
+     "url": "https://www.businesswire.com/news/home/20240221189319/en",
+     "publisher": "Intel (Business Wire)",
+     "date": "2024-02-21",
+     "title": "Intel launches Intel Foundry; Microsoft to use Intel 18A"
+    },
+    {
+     "url": "https://www.manufacturingdive.com/news/microsoft-intel-newest-chip-foundry-customer-18a-technology/708953",
+     "publisher": "Manufacturing Dive",
+     "date": "2024-02-22",
+     "title": "Microsoft is Intel's newest chip foundry customer"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "amazon-anthropic-2023-equity",
    "kind": "investment",
    "subkind": "equity investment (convertible notes)",
@@ -11016,76 +11677,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-memory-foundry-public-equity-investors-intel-2026-08-share-sale",
-   "kind": "investment",
-   "subkind": "public common stock offering",
-   "from": "public-equity-investors",
-   "to": "intel",
-   "amount_usd": 20000000000,
-   "amount_text": "$20B: 210,526,315 shares at $95 (upsized from $15B); ~$19.7B net; underwriters' option for ~31.6M more shares",
-   "announced": "2026-08-11",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Intel raises $20B in upsized share sale",
-   "title_zh": "英特尔增发股票募资 200 亿美元",
-   "summary_en": "Intel sold $20B of new common stock at $95 a share, upsized from $15B, after its share price surge; reporting tied the money to foundry factories and advanced packaging, and Intel raised its 2026 capex forecast to $20B.",
-   "summary_zh": "英特尔在股价大涨后以每股 95 美元增发 200 亿美元新股（原计划 150 亿美元）；报道称资金将用于代工厂与先进封装，英特尔并将 2026 年资本开支预期上调至 200 亿美元。",
-   "sources": [
-    {
-     "url": "https://www.intc.com/news-events/press-releases/detail/1779/intel-announces-upsize-and-pricing-of-20-billion-common-stock-offering",
-     "publisher": "Intel",
-     "date": "2026-08-11",
-     "title": "Intel Announces Upsize and Pricing of $20 Billion Common Stock Offering"
-    },
-    {
-     "url": "https://thenextweb.com/news/intel-15bn-share-sale-turnaround",
-     "publisher": "The Next Web",
-     "date": "2026-08-11",
-     "title": "Intel raises up to $20bn to fund its foundry bet against TSMC"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-microsoft-sk-hynix-2026-07-dram-lta",
-   "kind": "order",
-   "subkind": "long-term DRAM supply agreement",
-   "from": "microsoft",
-   "to": "sk-hynix",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; April 2026 reports put the three-year DDR5 deal at tens of trillions of won with 10-30% upfront deposits",
-   "announced": "2026-07-29",
-   "term": "~3-5 years",
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Microsoft long-term DRAM supply deal with SK hynix",
-   "title_zh": "微软与 SK 海力士的长期 DRAM 供应协议",
-   "summary_en": "Korean press reported that SK hynix signed long-term agreements with key customers including Microsoft and Nvidia, disclosed with its Q2 2026 results; the deals run about five years with market-linked prices and deposits, after April reports of Microsoft seeking a multi-year DDR5 deal with upfront payments.",
-   "summary_zh": "韩国媒体报道，SK 海力士在公布 2026 年第二季度业绩时披露已与微软、英伟达等主要客户签订长期协议，期限约五年、价格随行就市并附保证金；此前 4 月有报道称微软寻求附预付款的多年期 DDR5 供应协议。",
-   "sources": [
-    {
-     "url": "https://www.mt.co.kr/en/industry/2026/07/29/2026072912262962948",
-     "publisher": "Money Today",
-     "date": "2026-07-29",
-     "title": "SK hynix Q2 results and long-term agreements with key customers"
-    },
-    {
-     "url": "https://dataconomy.com/2026/04/06/microsoft-and-google-seek-long-term-dram-deals-with-sk-hynix/",
-     "publisher": "Dataconomy",
-     "date": "2026-04-06",
-     "title": "Microsoft And Google Seek Long Term DRAM Deals With SK Hynix"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-broadcom-samsung-2026-07-memory-foundry-mou",
    "kind": "order",
    "subkind": "memory, foundry and packaging MOU",
@@ -11121,111 +11712,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-memory-foundry-nvidia-sk-hynix-2026-07-memory-partnership",
-   "kind": "order",
-   "subkind": "multi-year HBM supply and co-development partnership",
-   "from": "nvidia",
-   "to": "sk-hynix",
-   "amount_usd": null,
-   "amount_text": "Undisclosed for memory; Nvidia and SK Group put the wider partnership (memory plus AI data centres) at more than $500B over several years, without a breakdown",
-   "announced": "2026-07-24",
-   "term": "Multi-year",
-   "status": "announced",
-   "confidence": "unverified",
-   "title_en": "Nvidia multi-year HBM supply partnership with SK hynix",
-   "title_zh": "英伟达与 SK 海力士的多年期 HBM 供应合作",
-   "summary_en": "At an AI summit in San Francisco, Nvidia and SK Group announced an expanded partnership that secures SK hynix HBM supply for Vera Rubin and joint development of next-generation memory, building on a June 2026 multiyear memory deal; the more-than-$500B headline also covers data-centre construction and is not a firm order.",
-   "summary_zh": "英伟达与 SK 集团在旧金山 AI 峰会上宣布扩大合作，锁定 SK 海力士为 Vera Rubin 供应 HBM 并共同开发下一代存储，延续 2026 年 6 月的多年期存储合作；所称逾 5000 亿美元规模包含数据中心建设，并非确定订单。",
-   "sources": [
-    {
-     "url": "https://www.businesstoday.com.my/2026/07/25/nvidia-and-sk-group-scale-up-ai-infrastructure-with-us500-billion-initiative/",
-     "publisher": "Business Today (Malaysia)",
-     "date": "2026-07-25",
-     "title": "Nvidia And SK Group Scale Up AI Infrastructure With US$500 Billion Initiative"
-    },
-    {
-     "url": "https://biz.heraldcorp.com/article/10778161",
-     "publisher": "The Korea Herald",
-     "date": "2026-06-08",
-     "title": "SK Hynix agrees to long-term memory supply deal"
-    },
-    {
-     "url": "https://www.trendforce.com/news/2026/07/29/news-sk-hynix-posts-record-2q-results-but-misses-estimates-reportedly-due-to-conservative-pricing-completes-10-ltas/",
-     "publisher": "TrendForce",
-     "date": "2026-07-29",
-     "title": "SK hynix Posts Record 2Q Results; Completes 10 LTAs"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-public-equity-investors-sk-hynix-2026-07-us-listing",
-   "kind": "investment",
-   "subkind": "US listing of new shares (Nasdaq ADS offering)",
-   "from": "public-equity-investors",
-   "to": "sk-hynix",
-   "amount_usd": 26507100000,
-   "amount_text": "US$26.5B: 177.9M ADS at $149 (17.79M new common shares); proceeds for facilities; ~US$26.25B before expenses",
-   "announced": "2026-07-09",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "SK hynix raises $26.5B in record US listing",
-   "title_zh": "SK 海力士赴美上市募资 265 亿美元，创纪录",
-   "summary_en": "SK hynix sold 177.9 million American depositary shares at $149 for its Nasdaq listing (ticker SKHY), the largest ADS offering ever, raising about $26.5B to fund facilities; the deal was more than seven times oversubscribed.",
-   "summary_zh": "SK 海力士以每股 149 美元发行 1.779 亿股美国存托股并在纳斯达克上市（代码 SKHY），为史上最大存托股发行，募资约 265 亿美元用于产能设施，认购倍数超过七倍。",
-   "sources": [
-    {
-     "url": "https://www.sec.gov/Archives/edgar/data/0002120882/000119312526299963/d32785d424b4.htm",
-     "publisher": "SK hynix (SEC 424B4)",
-     "date": "2026-07-10",
-     "title": "SK hynix final prospectus"
-    },
-    {
-     "url": "https://www.aljazeera.com/economy/2026/7/10/south-koreas-sk-hynix-raises-26-5bn-in-record-breaking-us-ipo",
-     "publisher": "Al Jazeera",
-     "date": "2026-07-10",
-     "title": "South Korea's SK Hynix raises $26.5bn in record-breaking US IPO"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-hyperscalers-labs-bank-of-america-openai-2026-07-credit-line",
-   "kind": "debt",
-   "subkind": "revolving credit line",
-   "from": "bank-of-america",
-   "to": "openai",
-   "amount_usd": 520000000,
-   "amount_text": "$520M credit line (Bloomberg)",
-   "announced": "2026-07-08",
-   "term": null,
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Bank of America extends OpenAI a $520M credit line",
-   "title_zh": "美国银行向 OpenAI 提供 5.2 亿美元授信",
-   "summary_en": "Bloomberg reported that Bank of America gave OpenAI a $520M credit line after earlier declining a request, seen as relationship-building ahead of a possible IPO. OpenAI carries little debt of its own beyond a $4B bank revolver.",
-   "summary_zh": "据彭博报道，美国银行在此前拒绝后向 OpenAI 提供 5.2 亿美元授信额度，被视为在其可能上市前建立合作关系。除 40 亿美元银团循环信贷外，OpenAI 自身负债很少。",
-   "sources": [
-    {
-     "url": "https://letsdatascience.com/news/openai-secures-520-million-credit-line-from-bank-of-america-c7bb2f54",
-     "publisher": "Let's Data Science (citing Bloomberg)",
-     "date": "2026-07-08",
-     "title": "OpenAI Secures $520 Million Credit Line From Bank of America"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-apple-broadcom-2026-07-extension",
    "kind": "order",
    "subkind": "multi-year custom chip supply agreement",
@@ -11253,76 +11739,6 @@
      "publisher": "AppleInsider",
      "date": "2026-07-06",
      "title": "Apple secures custom chip supplies from Broadcom until 2031"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-apple-intel-2026-05-foundry",
-   "kind": "order",
-   "subkind": "preliminary foundry agreement",
-   "from": "apple",
-   "to": "intel",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; chips and process node not named",
-   "announced": "2026-05-08",
-   "term": null,
-   "status": "reported",
-   "confidence": "unverified",
-   "title_en": "Apple reaches preliminary deal for Intel to make some of its chips",
-   "title_zh": "苹果与英特尔达成初步代工协议",
-   "summary_en": "The Wall Street Journal reported that after more than a year of talks Apple and Intel reached a preliminary agreement for Intel's foundry to make some Apple-designed chips; President Trump later said Apple would work with Intel, but neither company has officially confirmed the deal.",
-   "summary_zh": "据《华尔街日报》报道，经过一年多谈判，苹果与英特尔达成初步协议，由英特尔代工部分苹果自研芯片；特朗普随后表示苹果将与英特尔合作，但两家公司均未正式确认。",
-   "sources": [
-    {
-     "url": "https://www.mobileworldlive.com/apple/apple-intel-strike-preliminary-chip-deal/",
-     "publisher": "Mobile World Live",
-     "date": "2026-05-08",
-     "title": "Apple, Intel strike preliminary chip deal"
-    },
-    {
-     "url": "https://engadget.com/2168036/intel-signs-preliminary-chip-deal-apple/",
-     "publisher": "Engadget",
-     "date": "2026-05-08",
-     "title": "Intel has reportedly signed a preliminary deal to produce chips for Apple"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-tesla-intel-2026-04-14a-terafab",
-   "kind": "order",
-   "subkind": "foundry process commitment (Intel 14A, Terafab)",
-   "from": "tesla",
-   "to": "intel",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; no contract value given",
-   "announced": "2026-04-22",
-   "term": null,
-   "status": "announced",
-   "confidence": "unverified",
-   "title_en": "Tesla picks Intel 14A for its Terafab chips",
-   "title_zh": "特斯拉选择英特尔 14A 工艺生产 Terafab 芯片",
-   "summary_en": "On Tesla's Q1 2026 earnings call Elon Musk said Tesla plans to make AI chips at its Terafab project on Intel's 14A process, making Tesla the first major named external 14A customer; Intel declined to comment.",
-   "summary_zh": "马斯克在特斯拉 2026 年第一季度财报电话会上表示，特斯拉计划在 Terafab 项目中采用英特尔 14A 工艺生产 AI 芯片，使特斯拉成为 14A 首个公开的大客户；英特尔未予置评。",
-   "sources": [
-    {
-     "url": "https://www.theregister.com/2026/04/23/musk_bets_teslas_ai_future/",
-     "publisher": "The Register",
-     "date": "2026-04-23",
-     "title": "Musk bets Tesla's AI future on Intel 14A"
-    },
-    {
-     "url": "https://finance.yahoo.com/sectors/technology/articles/tesla-selects-intel-14a-chip-083344628.html",
-     "publisher": "Yahoo Finance (Reuters)",
-     "date": "2026-04-23",
-     "title": "Tesla selects Intel's 14A chip process for Terafab complex"
     }
    ],
    "research_confidence": "reported",
@@ -11396,35 +11812,6 @@
     }
    ],
    "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-hyperscalers-labs-private-investors-openai-2026-03-round-extension",
-   "kind": "investment",
-   "subkind": "equity funding round (extension)",
-   "from": "private-investors",
-   "to": "openai",
-   "amount_usd": 12000000000,
-   "amount_text": "~$12B beyond the $110B first close (round total $122B at $852B post-money), incl. >$3B from individuals via bank channels",
-   "announced": "2026-03-31",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "OpenAI extends its round by ~$12B to $122B",
-   "title_zh": "OpenAI 融资轮追加约 120 亿美元至 1220 亿美元",
-   "summary_en": "After the $110B first close with Amazon, Nvidia and SoftBank, OpenAI took in roughly $12B more from investors including Microsoft, Andreessen Horowitz, D. E. Shaw, MGX, TPG and T. Rowe Price clients, plus over $3B from individuals through banks, closing at $122B and an $852B post-money valuation. MGX's participation is also shown as its own edge without an amount.",
-   "summary_zh": "在亚马逊、英伟达和软银参与的 1100 亿美元首轮交割之后，OpenAI 又从微软、a16z、D. E. Shaw、MGX、TPG 及普信客户等投资者处募得约 120 亿美元，另通过银行渠道向个人投资者募资逾 30 亿美元，最终以 1220 亿美元、投后估值 8520 亿美元完成该轮融资。MGX 的参与另列一条未计金额的关系。",
-   "sources": [
-    {
-     "url": "https://finance.yahoo.com/markets/stocks/articles/openai-closes-122bn-funding-round-093126735.html",
-     "publisher": "Yahoo Finance",
-     "date": "2026-03-31",
-     "title": "OpenAI closes $122bn funding round at $852bn valuation"
-    }
-   ],
-   "research_confidence": "reported",
    "extracted_at": "2026-10-27T09:00:00Z",
    "model": "coverage research team (web search, not yet opened)",
    "origin": "candidate"
@@ -11745,111 +12132,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-hyperscalers-labs-ares-sb-energy-2026-01-preferred-equity",
-   "kind": "investment",
-   "subkind": "redeemable preferred equity",
-   "from": "ares",
-   "to": "sb-energy",
-   "amount_usd": 800000000,
-   "amount_text": "$800M of redeemable preferred equity",
-   "announced": "2026-01-09",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Ares provides $800M preferred equity to SB Energy",
-   "title_zh": "阿瑞斯向 SB Energy 提供 8 亿美元优先股融资",
-   "summary_en": "Alongside the OpenAI and SoftBank investment, SB Energy secured a further $800M of redeemable preferred equity financing from Ares to fund its data-centre build-out, including the Milam County Stargate site.",
-   "summary_zh": "在 OpenAI 和软银注资的同时，SB Energy 另获阿瑞斯 8 亿美元可赎回优先股融资，用于包括米拉姆县星际之门站点在内的数据中心建设。",
-   "sources": [
-    {
-     "url": "https://finance.yahoo.com/news/openai-softbank-invest-1-billion-192620783.html",
-     "publisher": "Yahoo Finance",
-     "date": "2026-01-09",
-     "title": "OpenAI, SoftBank invest $1 billion in SB Energy as Stargate buildout expands"
-    },
-    {
-     "url": "https://www.datacenterknowledge.com/ai-data-centers/openai-softbank-invest-1-billion-in-stargate-partner-sb-energy",
-     "publisher": "Data Center Knowledge (Bloomberg)",
-     "date": "2026-01-09",
-     "title": "OpenAI, SoftBank Invest $1 Billion in Stargate Partner SB Energy"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-hyperscalers-labs-openai-sb-energy-2026-01-equity",
-   "kind": "investment",
-   "subkind": "equity investment",
-   "from": "openai",
-   "to": "sb-energy",
-   "amount_usd": 500000000,
-   "amount_text": "$500M (half of a $1B joint investment with SoftBank); valuation undisclosed",
-   "announced": "2026-01-09",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "OpenAI invests $500M in Stargate partner SB Energy",
-   "title_zh": "OpenAI 向星际之门合作方 SB Energy 投资 5 亿美元",
-   "summary_en": "OpenAI and SoftBank each put $500M into SB Energy, which will build and operate OpenAI's 1.2 GW Stargate site in Milam County, Texas, under a non-exclusive preferred partnership. SB Energy will also deploy ChatGPT and OpenAI's APIs as a customer.",
-   "summary_zh": "OpenAI 与软银各向 SB Energy 投资 5 亿美元。SB Energy 将建设并运营 OpenAI 位于得州米拉姆县的 1.2 吉瓦星际之门站点，三方为非独家优先合作关系；SB Energy 还将作为客户使用 ChatGPT 和 OpenAI API。",
-   "sources": [
-    {
-     "url": "https://www.bloomberg.com/news/articles/2026-01-09/openai-softbank-invest-1-billion-in-stargate-partner-sb-energy",
-     "publisher": "Bloomberg",
-     "date": "2026-01-09",
-     "title": "OpenAI, SoftBank Invest $1 Billion in Stargate Partner SB Energy"
-    },
-    {
-     "url": "https://www.datacenterknowledge.com/ai-data-centers/openai-softbank-invest-1-billion-in-stargate-partner-sb-energy",
-     "publisher": "Data Center Knowledge (Bloomberg)",
-     "date": "2026-01-09",
-     "title": "OpenAI, SoftBank Invest $1 Billion in Stargate Partner SB Energy"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-hyperscalers-labs-softbank-sb-energy-2026-01-equity",
-   "kind": "investment",
-   "subkind": "equity investment",
-   "from": "softbank",
-   "to": "sb-energy",
-   "amount_usd": 500000000,
-   "amount_text": "$500M (half of a $1B joint investment with OpenAI)",
-   "announced": "2026-01-09",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "SoftBank puts $500M more into SB Energy for Stargate Texas",
-   "title_zh": "软银再向 SB Energy 注资 5 亿美元支持得州星际之门",
-   "summary_en": "SoftBank matched OpenAI's $500M investment in its own SB Energy unit, which is developing the 1.2 GW Stargate data-centre campus in Milam County, Texas, for OpenAI.",
-   "summary_zh": "软银与 OpenAI 同额向旗下 SB Energy 投资 5 亿美元；SB Energy 正为 OpenAI 开发得州米拉姆县 1.2 吉瓦星际之门数据中心园区。",
-   "sources": [
-    {
-     "url": "https://www.bloomberg.com/news/articles/2026-01-09/openai-softbank-invest-1-billion-in-stargate-partner-sb-energy",
-     "publisher": "Bloomberg",
-     "date": "2026-01-09",
-     "title": "OpenAI, SoftBank Invest $1 Billion in Stargate Partner SB Energy"
-    },
-    {
-     "url": "https://www.datacenterknowledge.com/ai-data-centers/openai-softbank-invest-1-billion-in-stargate-partner-sb-energy",
-     "publisher": "Data Center Knowledge (Bloomberg)",
-     "date": "2026-01-09",
-     "title": "OpenAI, SoftBank Invest $1 Billion in Stargate Partner SB Energy"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-bond-investors-broadcom-2026-01-notes",
    "kind": "debt",
    "subkind": "senior notes (public offering)",
@@ -11880,111 +12162,6 @@
     }
    ],
    "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-hyperscalers-labs-meta-manus-2025-12-acquisition",
-   "kind": "investment",
-   "subkind": "acquisition",
-   "from": "meta",
-   "to": "manus",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; reported at more than $2B (Bloomberg, WSJ), $2-3B per Reuters sources",
-   "announced": "2025-12-29",
-   "term": null,
-   "status": "announced",
-   "confidence": "unverified",
-   "title_en": "Meta acquires AI agent startup Manus",
-   "title_zh": "Meta 收购 AI 智能体初创公司 Manus",
-   "summary_en": "Meta agreed to buy Manus, the Singapore-based AI agent startup with Chinese roots, in a deal reported at more than $2B, versus a roughly $500M valuation in April 2025. Meta did not disclose terms.",
-   "summary_zh": "Meta 同意收购总部位于新加坡、具有中国背景的 AI 智能体初创公司 Manus，据报道交易额超过 20 亿美元，而该公司 2025 年 4 月估值约为 5 亿美元。Meta 未披露交易条款。",
-   "sources": [
-    {
-     "url": "https://news.bloomberglaw.com/tech-and-telecom-law/meta-acquires-startup-manus-in-a-move-to-bolster-ai-business",
-     "publisher": "Bloomberg",
-     "date": "2025-12-29",
-     "title": "Meta to Buy Manus, an AI Startup With Chinese Roots"
-    },
-    {
-     "url": "https://www.businesstoday.in/amp/technology/news/story/meta-acquires-ai-startup-manus-in-milestone-deal-worth-over-2-billion-508760-2025-12-31",
-     "publisher": "Business Today",
-     "date": "2025-12-31",
-     "title": "Meta acquires AI startup Manus in milestone deal worth over $2 billion"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-hyperscalers-labs-alphabet-intersect-power-2025-12-acquisition",
-   "kind": "investment",
-   "subkind": "acquisition",
-   "from": "alphabet",
-   "to": "intersect-power",
-   "amount_usd": 4750000000,
-   "amount_text": "$4.75B cash plus assumed debt; Intersect's existing Texas and California operating assets excluded and kept by current investors as a separate company",
-   "announced": "2025-12-22",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Alphabet buys data-centre power developer Intersect for $4.75B",
-   "title_zh": "Alphabet 以 47.5 亿美元收购数据中心电力开发商 Intersect",
-   "summary_en": "Alphabet agreed to acquire Intersect, a developer of co-located power and data-centre campuses in which Google already held a minority stake, for $4.75B in cash plus debt; the deal closed on 10 March 2026. Intersect keeps its brand under CEO Sheldon Kimber.",
-   "summary_zh": "Alphabet 同意以 47.5 亿美元现金加承担债务收购谷歌已持有少数股权的 Intersect，该公司开发电源与数据中心一体化园区；交易于 2026 年 3 月 10 日完成，Intersect 保留品牌，由 Sheldon Kimber 继续领导。",
-   "sources": [
-    {
-     "url": "https://www.clearygottlieb.com/news-and-insights/news-listing/alphabet-in-4-75-billion-acquisition-of-intersect-power",
-     "publisher": "Cleary Gottlieb",
-     "date": "2025-12-22",
-     "title": "Alphabet in $4.75 Billion Acquisition of Intersect Power"
-    },
-    {
-     "url": "https://www.clearygottlieb.com/news-and-insights/news-listing/alphabet-completes-4-75-billion-acquisition-of-intersect-power",
-     "publisher": "Cleary Gottlieb",
-     "date": "2026-03-10",
-     "title": "Alphabet Completes $4.75 Billion Acquisition of Intersect Power"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-hyperscalers-labs-disney-openai-2025-12-equity",
-   "kind": "investment",
-   "subkind": "equity investment with warrants",
-   "from": "disney",
-   "to": "openai",
-   "amount_usd": 1000000000,
-   "amount_text": "$1B equity stake plus warrants for more shares; paired with a 3-year character licence for Sora",
-   "announced": "2025-12-11",
-   "term": null,
-   "status": "announced",
-   "confidence": "unverified",
-   "title_en": "Disney invests $1B in OpenAI and licenses characters to Sora",
-   "title_zh": "迪士尼向 OpenAI 投资 10 亿美元并授权角色用于 Sora",
-   "summary_en": "Disney agreed to take a $1B equity stake in OpenAI, with warrants to buy more, and to license more than 200 Disney, Marvel, Pixar and Lucasfilm characters to Sora and ChatGPT Images for three years. Disney also becomes a major OpenAI API customer; the deal was subject to definitive agreements.",
-   "summary_zh": "迪士尼同意入股 OpenAI 10 亿美元并获得追加认购权证，同时将迪士尼、漫威、皮克斯和卢卡斯影业的 200 多个角色授权给 Sora 和 ChatGPT 图像功能使用，为期三年。迪士尼还将成为 OpenAI API 的大客户；该交易尚待签署最终协议。",
-   "sources": [
-    {
-     "url": "https://kvia.com/news/business-technology/cnn-business-consumer/2025/12/11/disney-is-investing-1-billion-in-openai-and-licensing-its-characters-for-sora/",
-     "publisher": "CNN Business via KVIA",
-     "date": "2025-12-11",
-     "title": "Disney is investing $1 billion in OpenAI and licensing its characters for Sora"
-    },
-    {
-     "url": "https://www.streamtvinsider.com/technology/disney-invests-1b-openai-licenses-200-characters-sora",
-     "publisher": "StreamTV Insider",
-     "date": "2025-12-11",
-     "title": "Disney invests $1B in OpenAI, licenses 200 characters to Sora"
-    }
-   ],
-   "research_confidence": "reported",
    "extracted_at": "2026-10-27T09:00:00Z",
    "model": "coverage research team (web search, not yet opened)",
    "origin": "candidate"
@@ -12060,82 +12237,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-memory-foundry-us-government-intel-2025-08-equity",
-   "kind": "investment",
-   "subkind": "government equity stake (converted CHIPS grants)",
-   "from": "us-government",
-   "to": "intel",
-   "amount_usd": 8900000000,
-   "amount_text": "$8.9B for 433.3M shares at $20.47 (~9.9%): $5.7B of unpaid CHIPS grants + $3.2B Secure Enclave award; plus a 5-year warrant for ~5% more at $20 if Intel's foundry stake falls below 51%",
-   "announced": "2025-08-22",
-   "term": null,
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "US government takes a 9.9% stake in Intel for $8.9B",
-   "title_zh": "美国政府以 89 亿美元入股英特尔 9.9%",
-   "summary_en": "The Trump administration converted Intel's remaining CHIPS Act and Secure Enclave grants into an $8.9B purchase of Intel common stock, making the government Intel's largest shareholder with a passive stake; Intel received $5.7B in Q3 2025, with the Secure Enclave portion paid as milestones are met.",
-   "summary_zh": "特朗普政府将英特尔尚未拨付的芯片法案及“安全飞地”补贴转为 89 亿美元的普通股认购，使政府成为英特尔第一大股东（被动持股）；英特尔在 2025 年第三季度收到 57 亿美元，安全飞地部分按里程碑拨付。",
-   "sources": [
-    {
-     "url": "https://www.intel.com/content/www/us/en/newsroom/news/corporate/intel-and-trump-administration-reach-historic-agreement.html",
-     "publisher": "Intel",
-     "date": "2025-08-22",
-     "title": "Intel and Trump Administration Reach Historic Agreement"
-    },
-    {
-     "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000129/a08222025form8-kex991.htm",
-     "publisher": "Intel (SEC 8-K Ex. 99.1)",
-     "date": "2025-08-22",
-     "title": "Intel 8-K exhibit 99.1"
-    },
-    {
-     "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000169/q325earningsrelease.htm",
-     "publisher": "Intel (SEC 8-K)",
-     "date": "2025-10-23",
-     "title": "Intel Reports Third-Quarter 2025 Financial Results"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-softbank-intel-2025-08-equity",
-   "kind": "investment",
-   "subkind": "equity investment (primary share purchase)",
-   "from": "softbank",
-   "to": "intel",
-   "amount_usd": 2000000000,
-   "amount_text": "$2B of new Intel common stock at $23 a share (~2%)",
-   "announced": "2025-08-18",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "SoftBank invests $2B in Intel",
-   "title_zh": "软银向英特尔投资 20 亿美元",
-   "summary_en": "SoftBank agreed to buy $2B of newly issued Intel shares at $23 each, citing Intel's role in US advanced chip manufacturing; Intel's Q3 2025 results reported the investment as made.",
-   "summary_zh": "软银同意以每股 23 美元认购 20 亿美元英特尔新股，看好英特尔在美国先进芯片制造中的作用；英特尔 2025 年第三季度财报确认该投资已完成。",
-   "sources": [
-    {
-     "url": "https://group.softbank/en/news/press/20250819",
-     "publisher": "SoftBank Group",
-     "date": "2025-08-19",
-     "title": "SoftBank Group and Intel Corporation Sign $2B Investment Agreement"
-    },
-    {
-     "url": "https://www.sec.gov/Archives/edgar/data/50863/000005086325000169/q325earningsrelease.htm",
-     "publisher": "Intel (SEC 8-K)",
-     "date": "2025-10-23",
-     "title": "Intel Reports Third-Quarter 2025 Financial Results"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-apple-samsung-2025-08-austin-chips",
    "kind": "order",
    "subkind": "chip manufacturing partnership (Austin fab)",
@@ -12198,41 +12299,6 @@
      "publisher": "Tom's Hardware",
      "date": "2025-07-28",
      "title": "Samsung inks $16.5 billion Tesla AI chip deal"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-hyperscalers-labs-openai-io-products-2025-05-acquisition",
-   "kind": "investment",
-   "subkind": "acquisition (all-stock)",
-   "from": "openai",
-   "to": "io-products",
-   "amount_usd": 6500000000,
-   "amount_text": "~$6.5B all-stock; OpenAI already held ~23% and paid ~$5B of shares for the rest",
-   "announced": "2025-05-21",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "OpenAI buys Jony Ive's io for $6.5B in stock",
-   "title_zh": "OpenAI 以约 65 亿美元股票收购乔尼·艾维的 io",
-   "summary_en": "OpenAI agreed to buy io, the AI-device startup co-founded by former Apple design chief Jony Ive, in an all-stock deal worth nearly $6.5B, its largest acquisition, to build its own hardware. Ive's firm LoveFrom took on design work across OpenAI.",
-   "summary_zh": "OpenAI 以近 65 亿美元全股票方式收购前苹果首席设计师乔尼·艾维联合创办的 AI 设备公司 io，这是其迄今最大收购，用于自研硬件。艾维的设计公司 LoveFrom 负责 OpenAI 的整体设计工作。",
-   "sources": [
-    {
-     "url": "https://bloomberg.com/news/articles/2025-05-21/openai-to-buy-apple-veteran-jony-ive-s-ai-device-startup-in-6-5-billion-deal",
-     "publisher": "Bloomberg",
-     "date": "2025-05-21",
-     "title": "OpenAI to Buy AI Device Startup From Apple Veteran Jony Ive in $6.5 Billion Deal"
-    },
-    {
-     "url": "https://siliconangle.com/2025/05/21/openai-acquires-jony-ives-io-products-6-5b-stock-deal/",
-     "publisher": "SiliconANGLE",
-     "date": "2025-05-21",
-     "title": "OpenAI acquires Jony Ive's io Products in $6.5B stock deal"
     }
    ],
    "research_confidence": "reported",
@@ -12346,41 +12412,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-memory-foundry-sk-hynix-intel-2025-03-nand-final-closing",
-   "kind": "order",
-   "subkind": "business acquisition (final closing, Intel NAND)",
-   "from": "sk-hynix",
-   "to": "intel",
-   "amount_usd": 1900000000,
-   "amount_text": "~$1.9B final payment at second closing on 27 Mar 2025; total deal ~$9B agreed 2020 (first ~$7B paid at the Dec 2021 first closing)",
-   "announced": "2025-03-27",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "SK hynix completes purchase of Intel's NAND business",
-   "title_zh": "SK 海力士完成收购英特尔 NAND 业务",
-   "summary_en": "SK hynix made a final payment of about $1.9B to Intel to complete its roughly $9B purchase of Intel's NAND and SSD business, folding the remaining wafer IP and R&D staff into its US unit Solidigm.",
-   "summary_zh": "SK 海力士向英特尔支付约 19 亿美元尾款，完成约 90 亿美元的英特尔 NAND 与固态硬盘业务收购，剩余晶圆知识产权与研发人员并入其美国子公司 Solidigm。",
-   "sources": [
-    {
-     "url": "https://www.digitimes.com/news/a20250328PD225.html",
-     "publisher": "DIGITIMES",
-     "date": "2025-03-28",
-     "title": "SK hynix completes final acquisition of Intel NAND business"
-    },
-    {
-     "url": "https://www.itiger.com/news/2523926685",
-     "publisher": "Tiger Brokers (citing Intel filing)",
-     "date": "2025-03-28",
-     "title": "Intel Completes $9B NAND Memory Sale to SK hynix, Receives $1.9B"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-malaysia-government-arm-2025-03-licences",
    "kind": "order",
    "subkind": "chip design licences and technology",
@@ -12408,111 +12439,6 @@
      "publisher": "Malay Mail",
      "date": "2025-03-05",
      "title": "Rafizi: Arm deal a radical approach to jumpstart Malaysia's chip-making ambitions"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-hyperscalers-labs-private-investors-anthropic-2025-03-series-e",
-   "kind": "investment",
-   "subkind": "equity funding round (Series E)",
-   "from": "private-investors",
-   "to": "anthropic",
-   "amount_usd": 3500000000,
-   "amount_text": "$3.5B at $61.5B post-money; Lightspeed led with $1B",
-   "announced": "2025-03-03",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Anthropic $3.5B Series E at $61.5B",
-   "title_zh": "Anthropic 35 亿美元 E 轮融资（估值 615 亿美元）",
-   "summary_en": "Anthropic raised $3.5B led by Lightspeed Venture Partners, with Bessemer, Cisco, D1, Fidelity, General Catalyst, Jane Street, Menlo and Salesforce Ventures, to fund compute, research and international expansion.",
-   "summary_zh": "Anthropic 完成 35 亿美元融资，由 Lightspeed 领投，Bessemer、思科、D1、富达、General Catalyst、Jane Street、Menlo 和 Salesforce Ventures 参投，资金用于算力、研究和国际扩张。",
-   "sources": [
-    {
-     "url": "https://www.bloomberg.com/news/articles/2025-03-03/anthropic-finalizes-megaround-at-61-5-billion-valuation",
-     "publisher": "Bloomberg",
-     "date": "2025-03-03",
-     "title": "Anthropic Finalizes Megaround at $61.5 Billion Valuation"
-    },
-    {
-     "url": "https://orrick.com/News/2025/03/Anthropic-Raises-3-point-5-Billion-to-Advance-AI-Development-and-Expand-Compute-Capacity",
-     "publisher": "Orrick",
-     "date": "2025-03-03",
-     "title": "Anthropic Raises $3.5 Billion to Advance AI Development and Expand Compute Capacity"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-hyperscalers-labs-alphabet-anthropic-2025-01-equity",
-   "kind": "investment",
-   "subkind": "equity investment",
-   "from": "alphabet",
-   "to": "anthropic",
-   "amount_usd": 1000000000,
-   "amount_text": "~$1B additional; takes Google's total past $3B (FT)",
-   "announced": "2025-01-22",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Google invests another $1B in Anthropic",
-   "title_zh": "谷歌再向 Anthropic 投资 10 亿美元",
-   "summary_en": "The Financial Times reported that Google was investing a further $1B in Anthropic, taking its total investment past $3B, as Anthropic raised a separate round. The UK CMA had found Alphabet lacked material influence over Anthropic.",
-   "summary_zh": "据《金融时报》报道，谷歌再向 Anthropic 投资约 10 亿美元，使其累计投资超过 30 亿美元；同期 Anthropic 正在进行另一轮融资。英国竞争与市场管理局此前认定 Alphabet 对 Anthropic 不具实质影响力。",
-   "sources": [
-    {
-     "url": "https://siliconrepublic.com/start-ups/google-anthropic-1bn-investment",
-     "publisher": "Silicon Republic (citing FT)",
-     "date": "2025-01-22",
-     "title": "Google reportedly pumps $1bn more into Anthropic"
-    },
-    {
-     "url": "https://seekingalpha.com/news/4397157-google-to-invest-another-1b-in-anthropic-openais-biggest-rival",
-     "publisher": "Seeking Alpha",
-     "date": "2025-01-22",
-     "title": "Google to invest another $1B in Anthropic, OpenAI's biggest rival - report"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-hyperscalers-labs-oracle-crusoe-abilene-lease",
-   "kind": "lease",
-   "subkind": "data-centre campus lease",
-   "from": "oracle",
-   "to": "crusoe",
-   "amount_usd": null,
-   "amount_text": "Rent undisclosed; 15-year lease of the 1.2 GW Abilene campus (date is first public report of the lease in financing coverage; Commercial Observer source dates are month only, day unknown)",
-   "announced": "2025-01-22",
-   "term": "15 years",
-   "status": "in_progress",
-   "confidence": "unverified",
-   "title_en": "Oracle's 15-year lease of the Abilene Stargate campus",
-   "title_zh": "甲骨文 15 年期租赁阿比林星际之门园区",
-   "summary_en": "Oracle leases the Abilene, Texas campus built by the Crusoe / Blue Owl / Primary Digital joint venture for 15 years and uses it to serve OpenAI, the first Stargate site; the lease underpins JPMorgan's $2.3B and $7.1B construction loans (separate edges).",
-   "summary_zh": "甲骨文以 15 年期租赁 Crusoe、Blue Owl 与 Primary Digital 合资建设的得州阿比林园区，并用其为 OpenAI 提供算力（星际之门首个站点）；该租约是摩根大通 23 亿美元和 71 亿美元两笔建设贷款（另列）的基础。",
-   "sources": [
-    {
-     "url": "https://commercialobserver.com/2025/01/j-p-morgan-chase-loan-texas-data-center-oracle/",
-     "publisher": "Commercial Observer",
-     "date": "2025-01-01",
-     "title": "JP Morgan Chase Supplies $2.3B for Texas Data Center Project Leased to Oracle"
-    },
-    {
-     "url": "https://commercialobserver.com/2025/05/7b-oracle-leased-texas-data-center-development/",
-     "publisher": "Commercial Observer",
-     "date": "2025-05-01",
-     "title": "JP Morgan Chase Lends $7B on Oracle-Leased Texas Data Center Development"
     }
    ],
    "research_confidence": "reported",
@@ -12591,41 +12517,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-hyperscalers-labs-private-investors-openai-2024-10-round",
-   "kind": "investment",
-   "subkind": "equity funding round (convertible notes)",
-   "from": "private-investors",
-   "to": "openai",
-   "amount_usd": 6600000000,
-   "amount_text": "$6.6B at $157B post-money; Thrive Capital led (~$1.2-1.3B), Microsoft ~$750M, Nvidia and SoftBank joined",
-   "announced": "2024-10-02",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "OpenAI raises $6.6B at a $157B valuation",
-   "title_zh": "OpenAI 以 1570 亿美元估值融资 66 亿美元",
-   "summary_en": "OpenAI closed a $6.6B round led by Thrive Capital with Microsoft, Nvidia and SoftBank among the investors. It was structured as convertible notes that investors could claw back if OpenAI did not convert to a for-profit company within two years.",
-   "summary_zh": "OpenAI 完成由 Thrive Capital 领投的 66 亿美元融资，微软、英伟达和软银参投。该轮以可转换票据形式进行，如 OpenAI 未能在两年内转为营利性公司，投资者可要求退回资金。",
-   "sources": [
-    {
-     "url": "https://www.bloomberg.com/news/articles/2024-10-02/openai-has-closed-new-funding-round-raising-over-6-5-billion",
-     "publisher": "Bloomberg",
-     "date": "2024-10-02",
-     "title": "OpenAI Raises $6.6 Billion in Funds at $157 Billion Value"
-    },
-    {
-     "url": "https://www.nbcnews.com/business/business-news/openai-closes-funding-157-billion-valuation-microsoft-nvidia-softbank-rcna173693",
-     "publisher": "NBC News",
-     "date": "2024-10-02",
-     "title": "OpenAI closes funding at $157 billion valuation as Microsoft, Nvidia, SoftBank join round"
-    }
-   ],
-   "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-bond-investors-broadcom-2024-09-notes",
    "kind": "debt",
    "subkind": "senior notes (public offering)",
@@ -12661,41 +12552,6 @@
    "origin": "candidate"
   },
   {
-   "id": "cov-memory-foundry-amazon-intel-2024-09-custom-chips",
-   "kind": "order",
-   "subkind": "custom chip foundry and co-investment framework (Intel 18A, Intel 3)",
-   "from": "amazon",
-   "to": "intel",
-   "amount_usd": null,
-   "amount_text": "Multi-year, multi-billion-dollar framework; exact value undisclosed",
-   "announced": "2024-09-16",
-   "term": "Multi-year",
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "AWS multi-billion custom-chip deal with Intel (18A AI fabric chip)",
-   "title_zh": "AWS 与英特尔数十亿美元定制芯片合作（18A AI 互连芯片）",
-   "summary_en": "AWS and Intel agreed a multi-year, multi-billion-dollar co-investment under which Intel will make an AI fabric chip for AWS on Intel 18A and a custom Xeon 6 on Intel 3.",
-   "summary_zh": "AWS 与英特尔达成多年期、数十亿美元的共同投资框架，英特尔将以 18A 工艺为 AWS 生产 AI 互连芯片，并以 Intel 3 工艺生产定制版至强 6 处理器。",
-   "sources": [
-    {
-     "url": "https://newsroom.intel.com/corporate/intel-strategic-collaboration",
-     "publisher": "Intel",
-     "date": "2024-09-16",
-     "title": "Intel and AWS Expand Strategic Collaboration, Helping Advance U.S.-Based Chip Manufacturing"
-    },
-    {
-     "url": "https://www.datacenterdynamics.com/en/news/aws-enters-multi-year-multi-billion-dollar-custom-chip-deal-with-intel/",
-     "publisher": "DatacenterDynamics",
-     "date": "2024-09-17",
-     "title": "AWS enters multi-year, multi-billion dollar custom chip deal with Intel"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
    "id": "cov-memory-foundry-bond-investors-broadcom-2024-07-notes",
    "kind": "debt",
    "subkind": "investment-grade senior notes",
@@ -12726,76 +12582,6 @@
     }
    ],
    "research_confidence": "reported",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-apollo-intel-2024-06-fab34-jv",
-   "kind": "investment",
-   "subkind": "49% stake in fab joint venture (Semiconductor Co-Investment Program)",
-   "from": "apollo",
-   "to": "intel",
-   "amount_usd": 11000000000,
-   "amount_text": "$11B for a 49% equity interest in the Fab 34 (Ireland) joint venture; Intel keeps 51% and control",
-   "announced": "2024-06-04",
-   "term": null,
-   "status": "completed",
-   "confidence": "unverified",
-   "title_en": "Apollo pays $11B for 49% of Intel's Fab 34 venture in Ireland",
-   "title_zh": "阿波罗以 110 亿美元收购英特尔爱尔兰 Fab 34 合资企业 49% 股权",
-   "summary_en": "Apollo-managed funds agreed to invest $11B for a 49% stake in a joint venture that holds rights to output from Intel's leading-edge Fab 34 in Leixlip, Ireland, Intel's second co-investment deal to fund factory build-outs off its balance sheet.",
-   "summary_zh": "阿波罗旗下基金同意投资 110 亿美元，取得英特尔爱尔兰莱克斯利普 Fab 34 先进晶圆厂相关合资企业 49% 股权，这是英特尔第二笔以共同投资方式为建厂融资的交易。",
-   "sources": [
-    {
-     "url": "https://www.intel.com/content/www/us/en/newsroom/news/co-invest-program-news-2024.html",
-     "publisher": "Intel",
-     "date": "2024-06-04",
-     "title": "Intel and Apollo Agree to Joint Venture Related to Intel's Fab 34 in Ireland"
-    },
-    {
-     "url": "https://siliconangle.com/2024/06/04/intel-gets-11b-apollo-stake-fab-34-chip-manufacturing-plant-ireland/",
-     "publisher": "SiliconANGLE",
-     "date": "2024-06-04",
-     "title": "Intel gets $11B from Apollo for stake in Fab 34"
-    }
-   ],
-   "research_confidence": "confirmed",
-   "extracted_at": "2026-10-27T09:00:00Z",
-   "model": "coverage research team (web search, not yet opened)",
-   "origin": "candidate"
-  },
-  {
-   "id": "cov-memory-foundry-microsoft-intel-2024-02-18a-foundry",
-   "kind": "order",
-   "subkind": "foundry manufacturing commitment (Intel 18A)",
-   "from": "microsoft",
-   "to": "intel",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; Intel said expected lifetime deal value across all foundry customers exceeds $15B",
-   "announced": "2024-02-21",
-   "term": null,
-   "status": "signed",
-   "confidence": "unverified",
-   "title_en": "Microsoft chooses Intel 18A to make an in-house chip",
-   "title_zh": "微软选择英特尔 18A 工艺生产自研芯片",
-   "summary_en": "At Intel Foundry Direct Connect, Microsoft said it will produce a chip design of its own on Intel's 18A process; Intel did not give the contract value but raised its foundry lifetime deal value to more than $15B.",
-   "summary_zh": "在英特尔代工大会上，微软宣布将用英特尔 18A 工艺生产一款自研芯片；英特尔未披露合同金额，但将代工业务预计总合同价值上调至 150 亿美元以上。",
-   "sources": [
-    {
-     "url": "https://www.businesswire.com/news/home/20240221189319/en",
-     "publisher": "Intel (Business Wire)",
-     "date": "2024-02-21",
-     "title": "Intel launches Intel Foundry; Microsoft to use Intel 18A"
-    },
-    {
-     "url": "https://www.manufacturingdive.com/news/microsoft-intel-newest-chip-foundry-customer-18a-technology/708953",
-     "publisher": "Manufacturing Dive",
-     "date": "2024-02-22",
-     "title": "Microsoft is Intel's newest chip foundry customer"
-    }
-   ],
-   "research_confidence": "confirmed",
    "extracted_at": "2026-10-27T09:00:00Z",
    "model": "coverage research team (web search, not yet opened)",
    "origin": "candidate"
@@ -14856,26 +14642,26 @@
   }
  ],
  "stats": {
-  "entities": 97,
-  "edges": 258,
-  "curated_edges": 205,
-  "candidate_edges": 53,
+  "entities": 96,
+  "edges": 255,
+  "curated_edges": 227,
+  "candidate_edges": 28,
   "by_kind": {
    "order": {
-    "count": 51,
-    "usd": 1243539000000,
-    "undisclosed": 23,
+    "count": 57,
+    "usd": 1245439000000,
+    "undisclosed": 28,
     "cancelled": 0
    },
    "investment": {
-    "count": 71,
-    "usd": 716234000000,
-    "undisclosed": 31,
+    "count": 86,
+    "usd": 820991100000,
+    "undisclosed": 32,
     "cancelled": 2
    },
    "debt": {
-    "count": 70,
-    "usd": 766294000000,
+    "count": 71,
+    "usd": 766814000000,
     "undisclosed": 1,
     "cancelled": 0
    },
@@ -14900,19 +14686,19 @@
   },
   "candidates_by_kind": {
    "order": {
-    "count": 26,
-    "usd": 264250000000
+    "count": 19,
+    "usd": 262350000000
    },
    "investment": {
-    "count": 17,
-    "usd": 105822100000
+    "count": 1,
+    "usd": 265000000
    },
    "debt": {
-    "count": 9,
-    "usd": 30770000000
+    "count": 8,
+    "usd": 30250000000
    },
    "lease": {
-    "count": 1,
+    "count": 0,
     "usd": 0
    },
    "vendor_financing": {
@@ -14924,7 +14710,7 @@
     "usd": 0
    }
   },
-  "total_usd": 2927937000000,
+  "total_usd": 3035114100000,
   "latest_announced": "2026-10-26"
  },
  "notes": {
