@@ -11,53 +11,70 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<a class="skip" href="#workspace" data-i18n="view_graph">Graph</a>
+<a class="skip" href="#workspace" data-i18n="skip_graph">Skip to graph</a>
 
 <header class="masthead">
   <div class="masthead__inner">
     <div class="brand">
+      <p class="brand__kicker" data-i18n="kicker">Live data · AI capital flows</p>
       <h1 class="brand__title" data-i18n="brand">AI Orders &amp; Debt Map</h1>
       <p class="brand__sub" data-i18n="brand_sub">Who owes whom among the AI giants: orders, investments and debt, monitored by Claude</p>
     </div>
     <div class="masthead__right">
-      <div class="live" id="live" aria-live="polite">
-        <span class="live__dot" aria-hidden="true"></span>
-        <span class="live__state" id="live-state">Live</span>
-        <span class="live__text" id="live-text"></span>
-      </div>
       <div class="lang" role="group" aria-label="Language / 语言">
         <button type="button" id="lang-en" class="lang__btn" lang="en" aria-pressed="true">English</button>
         <button type="button" id="lang-zh" class="lang__btn" lang="zh-CN" aria-pressed="false">中文</button>
       </div>
+      <div class="live-wrap">
+        <button type="button" class="live" id="live" data-state="loading" aria-expanded="false" aria-controls="live-pop">
+          <span class="live__dot" aria-hidden="true"></span>
+          <span class="live__state" id="live-state"></span>
+          <span class="live__text" id="live-text"></span>
+          <span class="live__chev" aria-hidden="true">▾</span>
+        </button>
+        <div class="live__pop" id="live-pop" hidden>
+          <dl class="live__dl" id="live-dl"></dl>
+          <button type="button" class="btn btn--sm" id="live-check" data-i18n="check_now">Check now</button>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="monitor" id="monitor-line"></div>
 </header>
+<p id="sr-status" class="sr-only" role="status" aria-live="polite"></p>
 
 <div class="banner" id="sample-banner" role="status" hidden></div>
 <div class="banner banner--error" id="error-banner" role="alert" hidden>
   <span data-i18n="load_error"></span>
+  <button type="button" class="btn btn--sm" id="retry" data-i18n="retry">Retry</button>
+</div>
+<div class="banner banner--new" id="new-bar" role="status" hidden>
+  <span id="new-bar-text"></span>
+  <button type="button" class="linkbtn" id="new-show" data-i18n="new_show">Show them</button>
+  <button type="button" class="linkbtn linkbtn--muted" id="new-dismiss" data-i18n="new_dismiss">Dismiss</button>
 </div>
 
-<section class="summary" id="summary" aria-label="Summary">
-  <div class="tile tile--order"><span class="tile__label" data-i18n="sum_orders">Orders</span><span class="tile__value" id="sum-order">–</span><span class="tile__note" id="sum-order-note"></span></div>
-  <div class="tile tile--investment"><span class="tile__label" data-i18n="sum_investments">Investments</span><span class="tile__value" id="sum-investment">–</span><span class="tile__note" id="sum-investment-note"></span></div>
-  <div class="tile tile--debt"><span class="tile__label" data-i18n="sum_debt">Debt</span><span class="tile__value" id="sum-debt">–</span><span class="tile__note" id="sum-debt-note"></span></div>
-  <div class="tile"><span class="tile__label" data-i18n="sum_deals">Deals</span><span class="tile__value" id="sum-deals">–</span><span class="tile__note" id="sum-scope"></span></div>
-  <div class="tile"><span class="tile__label" data-i18n="sum_entities">Companies</span><span class="tile__value" id="sum-entities">–</span><span class="tile__note" id="sum-new"></span></div>
+<section class="summary" id="summary" data-i18n-aria="aria_summary" aria-label="Totals">
+  <div class="tile tile--money tile--order" id="tile-order"><span class="tile__label" data-i18n="sum_orders">Orders</span><span class="tile__value" id="sum-order">–</span><span class="tile__note" id="sum-order-note"></span></div>
+  <div class="tile tile--money tile--investment" id="tile-investment"><span class="tile__label" data-i18n="sum_investments">Investments</span><span class="tile__value" id="sum-investment">–</span><span class="tile__note" id="sum-investment-note"></span></div>
+  <div class="tile tile--money tile--debt" id="tile-debt"><span class="tile__label" data-i18n="sum_debt">Debt</span><span class="tile__value" id="sum-debt">–</span><span class="tile__note" id="sum-debt-note"></span></div>
+  <div class="tile tile--mix"><span class="tile__label" data-i18n="sum_mix">Mix by deal type</span><div class="mix" id="sum-mix"></div><span class="tile__note" id="sum-scope"></span></div>
 </section>
+<p class="summary__foot" data-i18n="sum_foot"></p>
 
-<section class="filters" aria-label="Filters">
-  <fieldset class="filters__kinds">
-    <legend data-i18n="f_kinds">Deal type</legend>
-    <div class="chips" id="kind-chips"></div>
-  </fieldset>
-  <button type="button" class="btn filters__more" id="f-more" aria-expanded="false" aria-controls="filters-row"><span data-i18n="f_more">More filters</span> <span class="filters__more-n" id="f-more-n"></span></button>
-  <div class="filters__row" id="filters-row">
+<section class="filters" id="filters" data-i18n-aria="aria_filters" aria-label="Filters">
+  <div class="filters__main">
     <label class="field field--search">
-      <span data-i18n="f_search">Search</span>
-      <input type="search" id="f-search" autocomplete="off" spellcheck="false">
+      <span class="sr-only" data-i18n="f_search">Search</span>
+      <input type="search" id="f-search" list="f-ents" autocomplete="off" spellcheck="false">
+      <datalist id="f-ents"></datalist>
     </label>
+    <fieldset class="filters__kinds">
+      <legend class="sr-only" data-i18n="f_kinds">Deal type</legend>
+      <div class="chips" id="kind-chips"></div>
+    </fieldset>
+    <button type="button" class="btn filters__more" id="f-more" aria-expanded="false" aria-controls="filters-row"><span data-i18n="f_more">Filters</span><span class="filters__more-n" id="f-more-n"></span></button>
+  </div>
+  <div class="filters__row" id="filters-row">
     <label class="field">
       <span data-i18n="f_group">Sector</span>
       <select id="f-group"></select>
@@ -70,64 +87,88 @@
       <span data-i18n="f_period">Period</span>
       <select id="f-period"></select>
     </label>
-    <label class="field field--date">
-      <span data-i18n="f_from">From</span>
+    <label class="field field--date" id="f-from-field" hidden>
+      <span data-i18n="f_from">Start date</span>
       <input type="date" id="f-from">
     </label>
-    <label class="field field--date">
-      <span data-i18n="f_to">To</span>
+    <label class="field field--date" id="f-to-field" hidden>
+      <span data-i18n="f_to">End date</span>
       <input type="date" id="f-to">
     </label>
-    <label class="check">
-      <input type="checkbox" id="f-unverified" checked>
-      <span data-i18n="f_unverified">Show unverified (not yet checked)</span>
-    </label>
-    <button type="button" class="btn btn--ghost" id="f-reset" data-i18n="f_reset">Reset filters</button>
+    <button type="button" class="linkbtn" id="f-reset" hidden></button>
   </div>
+  <div class="fpills" id="f-pills"></div>
 </section>
 
 <main class="workspace" id="workspace">
-  <section class="viz" aria-label="Relationship graph">
+  <section class="viz" data-i18n-aria="aria_viz" aria-label="Relationship graph">
     <div class="viz__bar">
-      <div class="seg" role="tablist" aria-label="View">
+      <div class="seg" role="tablist" data-i18n-aria="aria_view" aria-label="View">
         <button type="button" role="tab" id="tab-graph" class="seg__btn" aria-selected="true" aria-controls="graph-view" data-i18n="view_graph">Graph</button>
         <button type="button" role="tab" id="tab-table" class="seg__btn" aria-selected="false" aria-controls="table-view" data-i18n="view_table">Table</button>
+      </div>
+      <div class="seg seg--sm" id="graph-scope" role="group" data-i18n-aria="aria_scope" aria-label="Companies shown">
+        <button type="button" class="seg__btn" data-scope="20" aria-pressed="false">Top 20</button>
+        <button type="button" class="seg__btn" data-scope="50" aria-pressed="false">Top 50</button>
+        <button type="button" class="seg__btn" data-scope="all" aria-pressed="true">All</button>
       </div>
       <span class="viz__count" id="viz-count"></span>
       <div class="viz__tools" id="graph-tools">
         <button type="button" class="icon-btn" id="zoom-in" data-i18n-title="zoom_in" aria-label="Zoom in">+</button>
         <button type="button" class="icon-btn" id="zoom-out" data-i18n-title="zoom_out" aria-label="Zoom out">−</button>
-        <button type="button" class="icon-btn icon-btn--wide" id="zoom-fit" data-i18n="zoom_fit">Fit to view</button>
+        <button type="button" class="icon-btn" id="zoom-fit" data-i18n-title="zoom_fit" aria-label="Fit to view">⤢</button>
       </div>
+      <label class="field table-sort" id="table-sort-wrap" hidden>
+        <span data-i18n="sort_by">Sort by</span>
+        <select id="t-sort"></select>
+      </label>
       <button type="button" class="btn" id="csv" hidden data-i18n="csv">Download CSV</button>
     </div>
+    <a class="skip" id="skip-past" href="#side" data-i18n="skip_past">Skip the graph</a>
 
     <div class="graph" id="graph-view" role="tabpanel" aria-labelledby="tab-graph">
-      <svg id="graph-svg" role="img" aria-label="Relationship graph"></svg>
-      <p class="graph__empty" id="graph-empty" hidden data-i18n="graph_empty">No deals match these filters.</p>
-      <div class="tooltip" id="tooltip" role="tooltip" hidden></div>
+      <svg id="graph-svg" role="group" aria-label="Relationship graph"></svg>
+      <p class="graph__loading" id="graph-loading" data-i18n="graph_loading">Loading the map…</p>
+      <div class="empty graph__empty" id="graph-empty" hidden></div>
+      <div class="graph__gesture" id="graph-gesture" hidden data-i18n="graph_two_finger"></div>
+      <div class="tooltip" id="tooltip" role="tooltip" aria-hidden="true" hidden></div>
     </div>
 
     <div class="table-wrap" id="table-view" role="tabpanel" aria-labelledby="tab-table" hidden>
       <table class="deals" id="deals-table">
         <thead><tr id="deals-head"></tr></thead>
         <tbody id="deals-body"></tbody>
+        <tfoot><tr><td colspan="6" id="deals-foot"></td></tr></tfoot>
       </table>
+      <div class="empty" id="table-empty" hidden></div>
     </div>
 
-    <div class="legend" id="legend">
-      <div class="legend__groups" id="legend-groups"></div>
-      <div class="legend__keys">
-        <span class="legend__key"><svg width="26" height="10" aria-hidden="true"><line x1="1" y1="5" x2="20" y2="5" class="lk-line"/><path d="M19 1 L25 5 L19 9 Z" class="lk-head"/></svg><span data-i18n="legend_arrow">Arrow = direction money flows</span></span>
-        <span class="legend__key"><svg width="26" height="10" aria-hidden="true"><line x1="1" y1="5" x2="25" y2="5" class="lk-line lk-dash"/></svg><span data-i18n="legend_dashed">Dashed = unverified</span></span>
-        <span class="legend__key"><svg width="26" height="12" aria-hidden="true"><line x1="1" y1="3" x2="25" y2="3" class="lk-line" style="stroke-width:1"/><line x1="1" y1="9" x2="25" y2="9" class="lk-line" style="stroke-width:4"/></svg><span data-i18n="legend_width">Line width = deal size</span></span>
-        <span class="legend__key"><svg width="26" height="14" aria-hidden="true"><circle cx="5" cy="9" r="3.5" class="lk-node"/><circle cx="18" cy="7" r="6.5" class="lk-node"/></svg><span data-i18n="legend_size">Circle size = total money in and out</span></span>
+    <details class="legend" id="legend" open>
+      <summary class="legend__sum" data-i18n="legend">Legend</summary>
+      <div class="legend__body">
+        <div class="legend__row">
+          <span class="legend__h" data-i18n="legend_lines">Lines</span>
+          <span class="legend__kinds" id="legend-kinds"></span>
+          <span class="legend__widths" id="legend-widths"></span>
+        </div>
+        <div class="legend__row">
+          <span class="legend__h" data-i18n="legend_circles">Circles</span>
+          <span class="legend__circles" id="legend-circles"></span>
+          <span class="legend__key"><svg width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6" class="lk-pool"/></svg><span data-i18n="legend_pool"></span></span>
+        </div>
+        <div class="legend__row legend__row--notes">
+          <span class="legend__key"><svg width="26" height="10" aria-hidden="true"><line x1="1" y1="5" x2="20" y2="5" class="lk-line"/><path d="M19 1 L25 5 L19 9 Z" class="lk-head"/></svg><span data-i18n="legend_arrow">Arrow points to who receives the money</span></span>
+        </div>
+        <p class="legend__hint" id="graph-hint"></p>
+        <span class="sr-only" id="graph-kbd" data-i18n="graph_kbd"></span>
       </div>
-      <p class="legend__hint" data-i18n="graph_hint">Drag to pan, scroll or pinch to zoom. Select a company or a line for details.</p>
-    </div>
+    </details>
   </section>
 
-  <aside class="panel" id="panel" aria-live="polite" tabindex="-1"></aside>
+  <div class="side" id="side" tabindex="-1">
+    <section class="overview" id="overview" aria-labelledby="ov-h"></section>
+    <aside class="panel" id="panel" tabindex="-1" aria-labelledby="panel-title"></aside>
+  </div>
 </main>
 
 <section class="latest" aria-labelledby="latest-h">
@@ -145,8 +186,8 @@
 </section>
 
 <footer class="footer">
-  <p class="footer__disc" lang="en">Descriptive only, not investment advice. Figures are nominal USD as reported by companies and named outlets; every deal links to its sources. Dashed lines are unverified: found by a model or research search and not yet checked against their sources, so they may be wrong; the daily check confirms or removes them.</p>
-  <p class="footer__disc" lang="zh-CN">仅作描述，不构成投资建议。金额为公司或具名媒体披露的名义美元金额；每笔交易均附来源链接。虚线为未核实的信息：由模型或研究检索发现、尚未对照来源核查，可能有误；每日核查会确认或删除。</p>
+  <p class="footer__disc" id="disc-en" lang="en">For information only, not investment advice: this site describes deals and does not rate them. Amounts are nominal US dollars as disclosed by the companies or named outlets, and every deal links to its sources.</p>
+  <p class="footer__disc" id="disc-zh" lang="zh-CN">本站内容仅供参考，只作描述、不作评价，不构成任何投资建议。金额为公司公告或具名媒体披露的名义美元金额，每笔交易均附来源链接。</p>
   <p class="footer__meta" id="footer-meta" data-i18n="footer_built">Built from public filings and news.</p>
 </footer>
 
