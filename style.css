@@ -307,8 +307,10 @@ button, input, select { font: inherit; color: inherit; }
 .filters__more-n { font-family: var(--f-mono); font-size: 12px; color: var(--accent); }
 .node__label {
   font-family: var(--f-body); font-size: calc(11.5px * var(--ls, 1)); font-weight: 600; fill: var(--ink);
-  paint-order: stroke; stroke: var(--halo); stroke-width: 3.5px; stroke-linejoin: round; pointer-events: none;
+  paint-order: stroke; stroke: var(--halo); stroke-width: 3.5px; stroke-linejoin: round;
+  pointer-events: visiblePainted; cursor: pointer; /* the label is part of the node: clicking it selects the company */
 }
+.node__hit { fill: transparent; stroke: none; pointer-events: all; }
 .node__label--big { font-size: calc(13px * var(--ls, 1)); font-weight: 700; }
 .node:focus { outline: none; }
 .node:focus-visible .node__ring { stroke: var(--focus); stroke-width: 2.5px; stroke-dasharray: 3 2; }

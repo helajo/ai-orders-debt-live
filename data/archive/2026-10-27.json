@@ -1,44 +1,13 @@
 {
- "generated_at": "2026-10-27T08:09:34Z",
+ "generated_at": "2026-10-27T08:20:37Z",
  "monitor": {
-  "last_run": "2026-10-27T08:03:14Z",
+  "last_run": null,
   "sec_items": 0,
   "news_items": 0,
   "candidates": 0,
   "claude_enabled": false,
   "model": null,
-  "sources": {
-   "sec": {
-    "last_run": "2026-10-27T08:03:14Z",
-    "ok": false,
-    "tickers": 22,
-    "fetched": 0,
-    "matched": 0,
-    "added": 0,
-    "total": 0,
-    "errors": [
-     "AAPL: https://data.sec.gov/submissions/CIK0000320193.json:  Tunnel connection failed: 403 Forbidden",
-     "AMD: https://data.sec.gov/submissions/CIK0000002488.json:  Tunnel connection failed: 403 Forbidden",
-     "AMZN: https://data.sec.gov/submissions/CIK0001018724.json:  Tunnel connection failed: 403 Forbidden",
-     "stopped early: data.sec.gov unreachable from this network"
-    ]
-   },
-   "news": {
-    "last_run": "2026-10-27T08:03:14Z",
-    "ok": false,
-    "feeds": 8,
-    "fetched": 0,
-    "items": 0,
-    "added": 0,
-    "total": 0,
-    "errors": [
-     "(OpenAI OR Anthropic OR xAI) compute deal billion when:7d: https://news.google.com/rss/search?q=%28OpenAI+OR+Anthropic+OR+xAI%29+compute+deal+billion+when%3A7d&hl=en-US&gl=US&ceid=US:en:  Tunnel connection failed: 403 Forbidden",
-     "AI data center financing debt when:7d: https://news.google.com/rss/search?q=AI+data+center+financing+debt+when%3A7d&hl=en-US&gl=US&ceid=US:en:  Tunnel connection failed: 403 Forbidden",
-     "AI bond sale hyperscaler when:7d: https://news.google.com/rss/search?q=AI+bond+sale+hyperscaler+when%3A7d&hl=en-US&gl=US&ceid=US:en:  Tunnel connection failed: 403 Forbidden",
-     "stopped early: news host unreachable from this network"
-    ]
-   }
-  }
+  "sources": {}
  },
  "entities": [
   {
@@ -313,7 +282,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 9,
+     "investment": 12,
      "debt": 2,
      "lease": 0,
      "vendor_financing": 1,
@@ -327,10 +296,10 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 23,
-    "degree_curated": 23,
+    "degree": 26,
+    "degree_curated": 26,
     "candidate_edges": 0,
-    "counterparties": 14,
+    "counterparties": 17,
     "inflow_total_usd": 218500000000,
     "outflow_total_usd": 281000000000
    }
@@ -1414,6 +1383,55 @@
    }
   },
   {
+   "id": "micron",
+   "name": "Micron",
+   "name_zh": "美光",
+   "group": "chip",
+   "ticker": "MU",
+   "country": "US",
+   "origin": "core",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 1,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "counterparties": 1,
+    "inflow_total_usd": 0,
+    "outflow_total_usd": 0
+   }
+  },
+  {
    "id": "microsoft",
    "name": "Microsoft",
    "name_zh": "微软",
@@ -2036,16 +2054,16 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 1,
-    "degree_curated": 1,
+    "degree": 2,
+    "degree_curated": 2,
     "candidate_edges": 0,
-    "counterparties": 1,
+    "counterparties": 2,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0
    }
@@ -2183,16 +2201,16 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 1,
-    "degree_curated": 1,
+    "degree": 2,
+    "degree_curated": 2,
     "candidate_edges": 0,
-    "counterparties": 1,
+    "counterparties": 2,
     "inflow_total_usd": 0,
     "outflow_total_usd": 0
    }
@@ -3302,13 +3320,39 @@
    "title_en": "Google rents SpaceX/xAI compute ($920M a month)",
    "title_zh": "谷歌租用 SpaceX/xAI 算力（每月 9.2 亿美元）",
    "summary_en": "A SpaceX SEC filing, as reported by DatacenterDynamics, shows Google will pay $920M a month for about 110,000 Nvidia GPUs and related hardware from October 2026 to June 2029, roughly $30B; either side can exit on 90 days' notice from 2027. Google called it bridge capacity for Gemini Enterprise.",
-   "summary_zh": "据 DatacenterDynamics 报道，据 DatacenterDynamics 报道，SpaceX 向美国证交会提交的文件显示，谷歌将在 2026 年 10 月至 2029 年 6 月每月支付 9.2 亿美元，租用约 11 万颗英伟达 GPU 及相关硬件，合计约 300 亿美元；自 2027 年起任一方可提前 90 天退出。谷歌称这是为 Gemini Enterprise 提供的过渡算力。",
+   "summary_zh": "据 DatacenterDynamics 报道，SpaceX 向美国证交会提交的文件显示，谷歌将在 2026 年 10 月至 2029 年 6 月每月支付 9.2 亿美元，租用约 11 万颗英伟达 GPU 及相关硬件，合计约 300 亿美元；自 2027 年起任一方可提前 90 天退出。谷歌称这是为 Gemini Enterprise 提供的过渡算力。",
    "sources": [
     {
      "url": "https://www.datacenterdynamics.com/en/news/google-to-pay-920-million-to-spacex-monthly-for-ai-capacity/",
      "publisher": "DatacenterDynamics",
      "date": "2026-06-06",
      "title": "Google to pay $920 million to SpaceX monthly for AI capacity"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "micron-anthropic-2026-05-series-h",
+   "kind": "investment",
+   "subkind": "strategic equity investment (Series H)",
+   "from": "micron",
+   "to": "anthropic",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; part of the $65B Series H, whose total is counted on the round's own edge",
+   "announced": "2026-05-28",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Micron invests in Anthropic's Series H",
+   "title_zh": "美光参投 Anthropic H 轮融资",
+   "summary_en": "Micron joined Anthropic's $65B Series H (28 May 2026) as a strategic infrastructure partner, alongside Samsung and SK hynix; Anthropic said their memory, storage and logic chips are critical to scaling its compute. The amount was not disclosed.",
+   "summary_zh": "美光与三星和 SK 海力士一同作为战略基础设施合作伙伴参投 Anthropic 650 亿美元 H 轮融资（2026 年 5 月 28 日）；Anthropic 表示其存储与逻辑芯片对扩充算力至关重要。金额未披露。",
+   "sources": [
+    {
+     "url": "https://www.anthropic.com/news/series-h",
+     "publisher": "Anthropic",
+     "date": "2026-05-28",
+     "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation"
     }
    ],
    "origin": "curated"
@@ -3329,6 +3373,58 @@
    "title_zh": "Anthropic 650 亿美元 H 轮融资（估值 9650 亿美元）",
    "summary_en": "Anthropic raised $65B led by Altimeter, Dragoneer, Greenoaks and Sequoia at a $965B post-money valuation, including $15B of earlier hyperscaler commitments; Micron, Samsung and SK hynix joined as strategic investors.",
    "summary_zh": "Anthropic 完成 650 亿美元 H 轮融资，由 Altimeter、Dragoneer、Greenoaks 和红杉领投，投后估值 9650 亿美元，其中含云巨头此前承诺的 150 亿美元；美光、三星和 SK 海力士作为战略投资者参投。",
+   "sources": [
+    {
+     "url": "https://www.anthropic.com/news/series-h",
+     "publisher": "Anthropic",
+     "date": "2026-05-28",
+     "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "samsung-anthropic-2026-05-series-h",
+   "kind": "investment",
+   "subkind": "strategic equity investment (Series H)",
+   "from": "samsung",
+   "to": "anthropic",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; part of the $65B Series H, whose total is counted on the round's own edge",
+   "announced": "2026-05-28",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Samsung Electronics invests in Anthropic's Series H",
+   "title_zh": "三星电子参投 Anthropic H 轮融资",
+   "summary_en": "Samsung Electronics joined Anthropic's $65B Series H (28 May 2026) as a strategic infrastructure partner, alongside Micron and SK hynix; Anthropic said their memory, storage and logic chips are critical to scaling its compute. The amount was not disclosed.",
+   "summary_zh": "三星电子与美光和 SK 海力士一同作为战略基础设施合作伙伴参投 Anthropic 650 亿美元 H 轮融资（2026 年 5 月 28 日）；Anthropic 表示其存储与逻辑芯片对扩充算力至关重要。金额未披露。",
+   "sources": [
+    {
+     "url": "https://www.anthropic.com/news/series-h",
+     "publisher": "Anthropic",
+     "date": "2026-05-28",
+     "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "sk-hynix-anthropic-2026-05-series-h",
+   "kind": "investment",
+   "subkind": "strategic equity investment (Series H)",
+   "from": "sk-hynix",
+   "to": "anthropic",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; part of the $65B Series H, whose total is counted on the round's own edge",
+   "announced": "2026-05-28",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "SK hynix invests in Anthropic's Series H",
+   "title_zh": "SK 海力士参投 Anthropic H 轮融资",
+   "summary_en": "SK hynix joined Anthropic's $65B Series H (28 May 2026) as a strategic infrastructure partner, alongside Micron and Samsung; Anthropic said their memory, storage and logic chips are critical to scaling its compute. The amount was not disclosed.",
+   "summary_zh": "SK 海力士与美光和三星一同作为战略基础设施合作伙伴参投 Anthropic 650 亿美元 H 轮融资（2026 年 5 月 28 日）；Anthropic 表示其存储与逻辑芯片对扩充算力至关重要。金额未披露。",
    "sources": [
     {
      "url": "https://www.anthropic.com/news/series-h",
@@ -3988,7 +4084,7 @@
    "title_en": "Amazon invests $50B in OpenAI",
    "title_zh": "亚马逊向 OpenAI 投资 500 亿美元",
    "summary_en": "Amazon committed $50B to OpenAI's round, $15B upfront and $35B on conditions tied to the AWS partnership (deadline 31 December 2028). Amazon's 10-Q shows $28.7B funded by 30 June 2026.",
-   "summary_zh": "亚马逊承诺向 OpenAI 投资 500 亿美元，其中 150 亿美元先行到位，其余 350 亿美元附带与 AWS 合作挂钩的条件（期限为 2028 年 12 月 31 日）。亚马逊 10-Q 显示，截至 2026 年 6 月 30 日已出资 287 亿美元。",
+   "summary_zh": "亚马逊承诺向 OpenAI 投资 500 亿美元，其中 150 亿美元先行到位，其余 350 亿美元附带与 AWS 合作挂钩的条件（截止日期为 2028 年 12 月 31 日）。亚马逊 10-Q 显示，截至 2026 年 6 月 30 日已出资 287 亿美元。",
    "sources": [
     {
      "url": "https://openai.com/index/amazon-partnership/",
@@ -6384,7 +6480,7 @@
    "status": "in_progress",
    "confidence": "confirmed",
    "title_en": "MGX is an initial equity funder of Stargate",
-   "title_zh": "MGX为星际之门（Stargate）初始股权出资方",
+   "title_zh": "MGX 为星际之门（Stargate）初始股权出资方",
    "summary_en": "The Stargate Project, a new company to build AI infrastructure for OpenAI in the US, launched with SoftBank, OpenAI, Oracle and MGX as initial equity funders; MGX is Abu Dhabi's AI investment firm.",
    "summary_zh": "星际之门项目是为 OpenAI 在美国建设 AI 基础设施的新公司，初始股权出资方为软银、OpenAI、甲骨文和 MGX；MGX 为阿布扎比 AI 投资公司。",
    "sources": [
@@ -6410,7 +6506,7 @@
    "status": "in_progress",
    "confidence": "confirmed",
    "title_en": "OpenAI is an initial equity funder of Stargate",
-   "title_zh": "OpenAI为星际之门（Stargate）初始股权出资方",
+   "title_zh": "OpenAI 为星际之门（Stargate）初始股权出资方",
    "summary_en": "The Stargate Project, a new company to build AI infrastructure for OpenAI in the US, launched with SoftBank, OpenAI, Oracle and MGX as initial equity funders; OpenAI has operational responsibility.",
    "summary_zh": "星际之门项目是为 OpenAI 在美国建设 AI 基础设施的新公司，初始股权出资方为软银、OpenAI、甲骨文和 MGX；OpenAI 负责运营。",
    "sources": [
@@ -6621,9 +6717,9 @@
  "news": [],
  "filings": [],
  "stats": {
-  "entities": 54,
-  "edges": 131,
-  "curated_edges": 131,
+  "entities": 55,
+  "edges": 134,
+  "curated_edges": 134,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
@@ -6633,9 +6729,9 @@
     "cancelled": 0
    },
    "investment": {
-    "count": 30,
+    "count": 33,
     "usd": 608000000000,
-    "undisclosed": 10,
+    "undisclosed": 13,
     "cancelled": 2
    },
    "debt": {

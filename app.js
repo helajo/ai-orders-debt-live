@@ -11,7 +11,7 @@
   /* ring order for the layout anchors: neighbours on the ring trade most with each other */
   var GROUP_RING = ["chip", "model_lab", "hyperscaler", "neocloud", "datacenter", "energy", "spv", "financier", "other"];
   var REFRESH_MS = 5 * 60 * 1000;
-  var STALE_MS = 6 * 60 * 60 * 1000;
+  var STALE_MS = 8 * 60 * 60 * 1000;  // runs every 3 hours; stale after two missed runs
   var DATA_PATHS = ["data/graph.json", "../data/graph.json"];
   var SNAPSHOT = (function () {
     var m = /[?&]snapshot=(\d{4}-\d{2}-\d{2})(?:&|$)/.exec(location.search);
@@ -98,6 +98,11 @@
 
   function t(key, vars) { return I.t(state.lang, key, vars); }
   function usd(n, compact) { return I.fmtUSD(n, state.lang, { compact: compact }); }
+  /* a sum over deals: "$0" would be wrong when the deals exist but their amounts are undisclosed */
+  function usdSum(n, deals, compact) {
+    if (n > 0) return usd(n, compact);
+    return deals > 0 ? t("undisclosed") : "–";
+  }
   function day(s) { return I.fmtDate(s, state.lang); }
   function entName(id) {
     var e = state.ents.get(id);
@@ -239,12 +244,12 @@
     var exp = new Map();
     state.visible.forEach(function (e) {
       [e.from, e.to].forEach(function (id) {
-        if (!exp.has(id)) exp.set(id, { total: 0, inflow: 0, outflow: 0, deals: 0, byKind: {} });
+        if (!exp.has(id)) exp.set(id, { total: 0, inflow: 0, outflow: 0, deals: 0, inDeals: 0, outDeals: 0, byKind: {} });
       });
       var a = e.amount_usd || 0;
       var s = exp.get(e.from), r = exp.get(e.to);
-      s.outflow += a; s.total += a; s.deals++; s.byKind[e.kind] = (s.byKind[e.kind] || 0) + a;
-      r.inflow += a; r.total += a; r.deals++; r.byKind[e.kind] = (r.byKind[e.kind] || 0) + a;
+      s.outflow += a; s.total += a; s.deals++; s.outDeals++; s.byKind[e.kind] = (s.byKind[e.kind] || 0) + a;
+      r.inflow += a; r.total += a; r.deals++; r.inDeals++; r.byKind[e.kind] = (r.byKind[e.kind] || 0) + a;
     });
     state.exposure = exp;
     state.visibleNodes = Array.from(exp.keys());
@@ -279,7 +284,7 @@
         onclick: function () {
           if (f.kinds.has(k)) f.kinds.delete(k); else f.kinds.add(k);
           this.setAttribute("aria-pressed", String(f.kinds.has(k)));
-          renderAll(false);
+          renderAll(false, false, true);
         }
       }, [h("span", { class: "chip__sw", "aria-hidden": "true" }), I.kind(state.lang, k), h("span", { class: "chip__n", text: String(counts[k] || 0) })]));
     });
@@ -329,18 +334,18 @@
     $("f-search").addEventListener("input", function () {
       var v = this.value;
       clearTimeout(qTimer);
-      qTimer = setTimeout(function () { state.filters.q = v.trim().toLowerCase(); renderAll(false); }, 160);
+      qTimer = setTimeout(function () { state.filters.q = v.trim().toLowerCase(); renderAll(false, false, true); }, 160);
     });
-    $("f-group").addEventListener("change", function () { state.filters.group = this.value; renderAll(false); });
-    $("f-min").addEventListener("change", function () { state.filters.min = Number(this.value) || 0; renderAll(false); });
-    $("f-period").addEventListener("change", function () { setPeriod(this.value); renderAll(false); });
-    $("f-from").addEventListener("change", function () { state.filters.from = this.value; state.filters.period = "custom"; $("f-period").value = "custom"; renderAll(false); });
-    $("f-to").addEventListener("change", function () { state.filters.to = this.value; state.filters.period = "custom"; $("f-period").value = "custom"; renderAll(false); });
-    $("f-unverified").addEventListener("change", function () { state.filters.unverified = this.checked; renderAll(false); });
+    $("f-group").addEventListener("change", function () { state.filters.group = this.value; renderAll(false, false, true); });
+    $("f-min").addEventListener("change", function () { state.filters.min = Number(this.value) || 0; renderAll(false, false, true); });
+    $("f-period").addEventListener("change", function () { setPeriod(this.value); renderAll(false, false, true); });
+    $("f-from").addEventListener("change", function () { state.filters.from = this.value; state.filters.period = "custom"; $("f-period").value = "custom"; renderAll(false, false, true); });
+    $("f-to").addEventListener("change", function () { state.filters.to = this.value; state.filters.period = "custom"; $("f-period").value = "custom"; renderAll(false, false, true); });
+    $("f-unverified").addEventListener("change", function () { state.filters.unverified = this.checked; renderAll(false, false, true); });
     $("f-reset").addEventListener("click", function () {
       state.filters = defaultFilters();
       buildFilterControls();
-      renderAll(false);
+      renderAll(false, false, true);
     });
     $("f-more").addEventListener("click", function () {
       var open = this.getAttribute("aria-expanded") !== "true";
@@ -423,10 +428,11 @@
   }
 
   /* ---------- render orchestration ---------- */
-  function renderAll(first, langOnly) {
+  /* refit: a filter changed, so re-frame the graph on what is left (a data refresh keeps the user's zoom) */
+  function renderAll(first, langOnly, refit) {
     computeVisible();
     renderSummary();
-    renderGraph(first, langOnly);
+    renderGraph(first, langOnly, refit);
     renderPanel();
     renderFeeds();
     if (state.view === "table") renderTable();
@@ -445,7 +451,7 @@
       if (e.amount_usd) sums[e.kind] += e.amount_usd; else nulls[e.kind]++;
     });
     ["order", "investment", "debt"].forEach(function (k) {
-      $("sum-" + k).textContent = usd(sums[k]);
+      $("sum-" + k).textContent = usdSum(sums[k], nulls[k]);
       $("sum-" + k + "-note").textContent = nulls[k] ? t("sum_undisclosed", { n: nulls[k] }) : "";
     });
     $("sum-deals").textContent = String(state.visible.length);
@@ -555,7 +561,7 @@
     return 1.2 + Math.max(0, Math.min(1, v)) * 6;
   }
 
-  function renderGraph(first, langOnly) {
+  function renderGraph(first, langOnly, refit) {
     var gv = $("graph-view");
     if (first || !G.width) { G.width = gv.clientWidth || 800; G.height = gv.clientHeight || 600; }
     var maxTotal = 0;
@@ -649,6 +655,14 @@
       fitView(false);
       G.sim.alpha(0).restart();
       declutterLabels();
+    } else if (refit && nodes.length) {
+      G.sim.stop();
+      G.sim.alpha(0.6);
+      for (var j = 0; j < 220; j++) G.sim.tick();
+      drawPositions();
+      fitView(true);
+      G.sim.alpha(0).restart();
+      setTimeout(declutterLabels, 450);
     } else {
       G.sim.alpha(0.45).restart();
     }
@@ -686,6 +700,7 @@
     var sel = G.nodeLayer.selectAll("g.node").data(G.nodeList, function (d) { return d.id; });
     sel.exit().remove();
     var enter = sel.enter().append("g").attr("class", "node").attr("tabindex", 0).attr("role", "button");
+    enter.append("circle").attr("class", "node__hit");
     enter.append("circle").attr("class", "node__ring");
     enter.append("circle").attr("class", "node__c");
     enter.append("text").attr("class", "node__label").attr("text-anchor", "middle");
@@ -708,15 +723,15 @@
     all.each(function (d) {
       var g = d3.select(this);
       var c = groupColor(d.ent.group);
-      g.attr("aria-label", entName(d.id) + ", " + I.group(state.lang, d.ent.group) + ", " + usd(d.exp.total));
+      g.attr("aria-label", entName(d.id) + ", " + I.group(state.lang, d.ent.group) + ", " + usdSum(d.exp.total, d.exp.deals));
       g.select(".node__c").attr("r", d.r)
         .style("fill", "color-mix(in srgb, " + c + " 22%, var(--surface))").style("stroke", c);
       g.select(".node__ring").attr("r", d.r + 4);
-      var lbl = g.select(".node__label").attr("y", d.r + 13)
+      /* invisible hit area: at least 12px radius so the smallest companies are easy to click or tap */
+      g.select(".node__hit").attr("r", Math.max(12, d.r + 3));
+      g.select(".node__label").attr("y", d.r + 13)
         .classed("node__label--big", d.r >= big).classed("node__label--small", d.r < big)
         .text(shortName(d.id));
-      if (lbl.select("title").empty()) lbl.append("title");
-      lbl.select("title").text(entName(d.id));
     });
     G.nodeSel = all;
   }
@@ -824,10 +839,16 @@
     items.sort(function (a, b) { return b.d.r - a.d.r; });
     var placed = [];
     var circles = G.nodeList.map(function (n) { return { x: n.x, y: n.y, r: n.r, id: n.id }; });
-    function free(it, x0, y0) {
+    /* the visible area in layer coordinates: a label must not be cut off by the edge of the graph */
+    var tr = d3.zoomTransform(G.svg.node()), gv = $("graph-view");
+    var vw = gv.clientWidth || G.width, vh = gv.clientHeight || G.height;
+    var vx0 = (4 - tr.x) / tr.k, vy0 = (4 - tr.y) / tr.k, vx1 = (vw - 4 - tr.x) / tr.k, vy1 = (vh - 4 - tr.y) / tr.k;
+    function free(it, x0, y0, loose) {
       var x1 = x0 + it.w, y1 = y0 + it.h;
+      if (x0 < vx0 || x1 > vx1 || y0 < vy0 || y1 > vy1) return null;
       x0 -= pad; y0 -= pad; x1 += pad; y1 += pad;
       if (placed.some(function (p) { return x0 < p.x1 && x1 > p.x0 && y0 < p.y1 && y1 > p.y0; })) return null;
+      if (loose) return { x0: x0, y0: y0, x1: x1, y1: y1 };
       var hit = circles.some(function (c) {
         if (c.id === it.d.id || c.r < it.d.r * 0.6) return false;
         var cx = Math.max(x0, Math.min(c.x, x1)), cy = Math.max(y0, Math.min(c.y, y1));
@@ -835,7 +856,7 @@
       });
       return hit ? null : { x0: x0, y0: y0, x1: x1, y1: y1 };
     }
-    items.forEach(function (it) {
+    items.forEach(function (it, rank) {
       var d = it.d, r = d.r, gap = 4;
       var opts = [
         { x: 0, y: r + 13, a: "middle", bx: d.x - it.w / 2, by: d.y + r + 13 - it.asc },
@@ -843,12 +864,15 @@
         { x: r + gap, y: it.asc - it.h / 2, a: "start", bx: d.x + r + gap, by: d.y - it.h / 2 },
         { x: -(r + gap), y: it.asc - it.h / 2, a: "end", bx: d.x - r - gap - it.w, by: d.y - it.h / 2 }
       ];
-      for (var i = 0; i < opts.length; i++) {
-        var box = free(it, opts[i].bx, opts[i].by);
-        if (box) {
-          it.el.setAttribute("x", opts[i].x); it.el.setAttribute("y", opts[i].y); it.el.setAttribute("text-anchor", opts[i].a);
-          placed.push(box);
-          return;
+      /* the eight biggest companies always keep a label: second pass ignores other circles */
+      for (var pass = 0; pass < (rank < 8 ? 2 : 1); pass++) {
+        for (var i = 0; i < opts.length; i++) {
+          var box = free(it, opts[i].bx, opts[i].by, pass === 1);
+          if (box) {
+            it.el.setAttribute("x", opts[i].x); it.el.setAttribute("y", opts[i].y); it.el.setAttribute("text-anchor", opts[i].a);
+            placed.push(box);
+            return;
+          }
         }
       }
       it.el.classList.add("is-hidden");
@@ -869,12 +893,12 @@
     if (ev.pointerType === "touch") return;
     var tip = G.tip;
     tip.textContent = "";
-    tip.appendChild(h("span", { class: "tooltip__v", text: usd(d.exp.total) }));
+    tip.appendChild(h("span", { class: "tooltip__v", text: usdSum(d.exp.total, d.exp.deals) }));
     tip.appendChild(h("span", { class: "tooltip__t", text: entName(d.id) + (d.ent.ticker ? " · " + d.ent.ticker : "") }));
     tip.appendChild(h("span", { class: "tooltip__m" }, [
       h("span", { class: "dot", style: "--c:" + groupColor(d.ent.group) }), I.group(state.lang, d.ent.group) + " · " + d.exp.deals + " " + t("p_deals").toLowerCase()
     ]));
-    tip.appendChild(h("span", { class: "tooltip__m", text: t("p_total_in") + " " + usd(d.exp.inflow, true) + " · " + t("p_total_out") + " " + usd(d.exp.outflow, true) }));
+    tip.appendChild(h("span", { class: "tooltip__m", text: t("p_total_in") + " " + usdSum(d.exp.inflow, d.exp.inDeals, true) + " · " + t("p_total_out") + " " + usdSum(d.exp.outflow, d.exp.outDeals, true) }));
     tip.hidden = false;
     placeTip(ev);
   }
@@ -959,7 +983,8 @@
     ]));
     var body = h("div", { class: "panel__body" });
     body.appendChild(h("p", { class: "panel__hint", text: t("panel_overview_hint") }));
-    var rows = Array.from(state.exposure.entries()).sort(function (a, b) { return b[1].total - a[1].total; }).slice(0, 12);
+    /* biggest disclosed totals first; companies whose deals are all undisclosed rank by deal count */
+    var rows = Array.from(state.exposure.entries()).sort(function (a, b) { return (b[1].total - a[1].total) || (b[1].deals - a[1].deals); }).slice(0, 12);
     var max = rows.length ? rows[0][1].total || 1 : 1;
     var ol = h("ol", { class: "ov-list" });
     rows.forEach(function (r, i) {
@@ -972,7 +997,7 @@
       ol.appendChild(h("li", {}, [h("button", { type: "button", class: "ov-btn", onclick: function () { select({ type: "node", id: id }); } }, [
         h("span", { class: "ov-rank", text: String(i + 1) }),
         h("span", { class: "ov-name" }, [h("span", { class: "dot", style: "--c:" + groupColor(ent.group), "aria-hidden": "true" }), h("span", { text: entName(id) })]),
-        h("span", { class: "ov-amt", text: usd(x.total, true) }),
+        h("span", { class: "ov-amt", text: usdSum(x.total, x.deals, true) }),
         bar
       ])]));
     });
@@ -982,7 +1007,7 @@
 
   function renderNodePanel(p, id) {
     var ent = state.ents.get(id);
-    var x = state.exposure.get(id) || { inflow: 0, outflow: 0, deals: 0 };
+    var x = state.exposure.get(id) || { inflow: 0, outflow: 0, deals: 0, inDeals: 0, outDeals: 0 };
     var meta = [ent.ticker, ent.country].filter(Boolean).join(" · ");
     p.appendChild(h("div", { class: "panel__head" }, [
       h("div", { class: "panel__head-main" }, [
@@ -994,8 +1019,8 @@
     ]));
     var body = h("div", { class: "panel__body" });
     body.appendChild(h("div", { class: "panel__totals" }, [
-      h("div", {}, [h("span", { text: t("p_total_in") }), h("b", { text: usd(x.inflow, true) })]),
-      h("div", {}, [h("span", { text: t("p_total_out") }), h("b", { text: usd(x.outflow, true) })]),
+      h("div", {}, [h("span", { text: t("p_total_in") }), h("b", { text: usdSum(x.inflow, x.inDeals, true) })]),
+      h("div", {}, [h("span", { text: t("p_total_out") }), h("b", { text: usdSum(x.outflow, x.outDeals, true) })]),
       h("div", {}, [h("span", { text: t("p_deals") }), h("b", { text: String(x.deals) })])
     ]));
 
@@ -1021,7 +1046,7 @@
         list.appendChild(dealRow(e, other));
       });
       body.appendChild(h("section", { class: "psec" }, [
-        h("h4", {}, [h("span", { class: "key", style: "--c:" + kindColor(s[1]), "aria-hidden": "true" }), t(s[0]), h("span", { class: "chip__n", text: usd(total, true) })]),
+        h("h4", {}, [h("span", { class: "key", style: "--c:" + kindColor(s[1]), "aria-hidden": "true" }), t(s[0]), h("span", { class: "chip__n", text: usdSum(total, rows.length, true) })]),
         list
       ]));
     });
