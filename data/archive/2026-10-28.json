@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-28T04:20:18Z",
+ "generated_at": "2026-10-28T09:59:27Z",
  "monitor": {
-  "last_run": "2026-10-28T04:19:55Z",
+  "last_run": "2026-10-28T09:59:16Z",
   "sec_items": 120,
   "news_items": 800,
   "candidates": 0,
@@ -9,7 +9,7 @@
   "model": null,
   "sources": {
    "sec": {
-    "last_run": "2026-10-28T04:19:55Z",
+    "last_run": "2026-10-28T09:59:16Z",
     "ok": true,
     "tickers": 22,
     "fetched": 22,
@@ -19,17 +19,17 @@
     "errors": []
    },
    "news": {
-    "last_run": "2026-10-28T04:19:55Z",
+    "last_run": "2026-10-28T09:59:16Z",
     "ok": true,
     "feeds": 18,
     "fetched": 18,
-    "items": 591,
-    "added": 70,
+    "items": 567,
+    "added": 90,
     "total": 800,
     "errors": []
    },
    "claude": {
-    "last_run": "2026-10-28T04:19:55Z",
+    "last_run": "2026-10-28T09:59:16Z",
     "enabled": false,
     "ok": true,
     "model": "claude-opus-5-5",
@@ -13647,6 +13647,355 @@
  ],
  "news": [
   {
+   "id": "n8eace2b8dd200008",
+   "title": "“人工智能+”板块11家公司三季报高增，这几家公司净利翻倍",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQclp2Mnh0cEdRc2tmTlBBT25IMEUwUmEwUndMdnlXSlk4cjNNbVp0SnkyaW1ZTDZHT3pldExBdTlYY3U3X0hFbEJhdExzcDhhQ1pYVGdpR1ZNUjBnNXZvUnNxbzBKX2RsVzNyYWZYelg0QjJZUGF3aWlydDRscmU2THJKX2c5RGhKTjh4NUt2Qks1bjFK?oc=5",
+   "publisher": "手机新浪网",
+   "published": "2026-10-28T09:31:00Z",
+   "date": "2026-10-28",
+   "lang": "zh-CN",
+   "query": "人工智能 算力 订单 when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "nfdedf7f8a0c2f372",
+   "title": "Quantum Stocks IONQ, RGTI, QBTS Jump After Intel’s $2.3B Classiq Deal",
+   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQc0FRUWgtYnRIdEtnZjFIWjIxTHZBWjFjSmpuV0pqN2RjQzY0aWZUNGI1UTRFVFRScU9EemZxWWRGSEFRRHhEZ0t1MjlKbzMzSnJjaGZOS1ppWlBQYmRMQzRsMGhnYlllcG5VODRQbmpMZ0ljRmVLY1hlYUxsWTlFWGhLRm9CeEZWMm9rS1hWRmI4TzRMbTFJY29Jdw?oc=5",
+   "publisher": "TipRanks",
+   "published": "2026-10-28T09:26:26Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "(TSMC OR Intel OR Broadcom) AI chip deal billion when:7d",
+   "entities": [
+    "intel"
+   ],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "n0ba4aee7a56ad92c",
+   "title": "AI worries expose U.S. dollar’s hot-money problem",
+   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxPUlQ0ZzFMeDcxb2t2dzlZTGlOVE9fSjZ5TWFhX3FxaEFuX3gxRXNaYTUxVXJfZjRXYUNDTWFRMWxEVDJGNkFheW1wcl9vUWg5ZFVXQ3Q0Z0VhOVVJM0Q1azU2V3MzcUh1Uk9uU3BfWTJZSUdJa3dqUkduTTZfbVJtbEpJeWp6Ti1LS2hCUVZxVmhkUzc4SWNmQmEzenVXQQ?oc=5",
+   "publisher": "The Globe and Mail",
+   "published": "2026-10-28T09:14:46Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "AI bond sale hyperscaler when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "n45f0289acf6f6ec8",
+   "title": "SK Hynix Says Three Years of DRAM, HBM Output Sold Out After Q3 Operating Profit Tops $60 Billion",
+   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9MWWl4WlRhc2ZrTFd1UEpCLWVrZVBIZUFZMWZPWWVqa3U5WFlVYnNaMFE1a0hUUVc1ZUVLWGhUUE5JRUd3ejdBQkVMUGQ3czVsNndMNg?oc=5",
+   "publisher": "bloomingbit",
+   "published": "2026-10-28T09:04:07Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
+   "entities": [
+    "sk-hynix"
+   ],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "n35b8c95cbb8abced",
+   "title": "“HBM orders are more than twice available supply” ... SK hynix dispels fears of a memory market peak",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBLY3VJcDNQaWY0VXl1RXoyQ3M0bThib1RpUlZwc3pPS256WFN2N0xEQkxMVFl2WUpKRkVBbFlKb1lhS3ZEOGx5ay1saUFJNE83aUZJ?oc=5",
+   "publisher": "매일경제",
+   "published": "2026-10-28T08:39:00Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
+   "entities": [
+    "sk-hynix"
+   ],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "n19567a9997ce42f7",
+   "title": "Storage King Hits $28.6B Massive Profit, Distributes Over $10B Dividends, Declares Memory Shortage Will Last Until 2030",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBnZGd2SFNhOG55X19ISzMzVE9WUE42S21MWDVvQVRyMkE2MVQzSXhEUmttQkhHekFnMTI1ajBDbjRydnNRN2VVSlFoMDRMc1Fkakpn?oc=5",
+   "publisher": "eu.36kr.com",
+   "published": "2026-10-28T08:33:30Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "n8735264d9983c291",
+   "title": "SKHY Stock Jumps Premarket: Strategist Says SK Hynix Sits At AI’s ‘Toll Booth’ As Tech Giants Chase Scarce Memory",
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNRkJnOE9ZaGJCSmpneHJlMGNzZEtTVUxWUG9qZnNoWW1IUFBrQ01qYnVyeXJPbGVkU2xrWVQzVE41RVZ2X2NFb1hEVFJNSEwxUkJUSjdiQW9KcXhjdXpUdnRXR0oxR2V6TDdwekY1elE3NWhFNE1WWGxTS3hzRGdKRUZMNDBxcUVGbFhfTDJnYzBIMk9sLXk4MkREbk1KY3otZTFwVGRCa1pVdlloYkVUblpWc3lJT3FXQWREZExHZ2w1S2puX3hqb3pUM3JfenA1TjRZQkltX29OZVdLNURod1pkeDZlODQ1SDkwS2lvV1QydzJ0LUg1NDhiYjRMaHNa?oc=5",
+   "publisher": "TradingView",
+   "published": "2026-10-28T08:24:50Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
+   "entities": [
+    "sk-hynix"
+   ],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "n9acf1e0292ebc44f",
+   "title": "AI debt boom raises financial stability concerns, BIS says",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQQ2FIeVNwYnNRTS1KVWw4TlcxMk5RcEZCQUFvTDVjcFhYQjNiOXhRRFItUENvbkUycTN1SmdlLXN4QmVzTGRiLTRXM1pha0NOdU4yWmdDb1BBeDZPR1NpUjNzOThFczNrTmJINTZhejVRaHpROFpBcXJJLTh5YzNPNmdxSW1ZdGZfMHVSQUtmUlI5ZUhLWVBkWEJ0WE1QUENRMVdTbUJvTVlYMlo2eHlISVJjSEdCNldzWjVYMg?oc=5",
+   "publisher": "TradingView",
+   "published": "2026-10-28T08:18:59Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "AI data center financing debt when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "n086810b56c07c926",
+   "title": "'Wow, record-breaking!' SK hynix shares surge 140,000 won to reclaim 1.4 million won level",
+   "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBFVDZodjVGV0VQejhLanpkM2I4eEpvTzdQeVN1WFhZN05kTkhFOGdvVXc0LVNhZTNPemZfMUtYSHRnTkZiN1dUQmhsRHNDbjdOS241ckprWE15UjBzMFZFeWNzODltN2xPeENqNw?oc=5",
+   "publisher": "머니투데이",
+   "published": "2026-10-28T07:35:03Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
+   "entities": [
+    "sk-hynix"
+   ],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "n0d7905f789c075f4",
+   "title": "英伟达独供松动！OpenAI计划向谷歌采购TPU芯片",
+   "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNMFBuS05zcFlLLXNQVFB0WnFEUWctY2hqNDhBOGtuYzF5TDFYbnhneXMyUGZLYS1LMERrWGZfY0x1TWdiWG9zdVVRTUpRb25XdzljbHlUTWE0R2xPOGhPLWFtSFpiTDROZWpvWGQ3ZjVfUDh4Y2VFY1VfUGU5WU9kaWd5ZWRQY2ktWEV6NVdWV1NWVXRlZkNVU1RkSlhfNTVFV29vMzdYZw?oc=5",
+   "publisher": "finance.sina.com.cn",
+   "published": "2026-10-28T07:33:59Z",
+   "date": "2026-10-28",
+   "lang": "zh-CN",
+   "query": "英伟达 OR 华为昇腾 芯片 订单 when:7d",
+   "entities": [
+    "alphabet",
+    "nvidia",
+    "openai"
+   ],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "n0a863f3bdd396d30",
+   "title": "AI Debt Tests Loom for Oracle and Hyperscalers",
+   "link": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxONUdnVkhvLUN6N3B1b0JkUHdCOE9xQ3F5MGU0R3RXOEdSbUhTaGhNdUxYdE0zMHVsaUZ0bG5yZHFpNlgzR1IyTk8xNnNDbkNlb1lSbG8yaHlmWnM3akgyd1BDMEFpdlZMM0hWajFaVkFpVWprcVAwTlBrVExEZmg0c1NRZ1BFRjIyXzBlV2ktSWNsSHBFQlZWR3ZTWnZrVGZBYmV2QjZYZnczaUYtTEtmUFdfYnpoNkQzclFoTmNkZGNZRGhnbFVtc0x1VFNQeDQ0TlRUSHhoZVd4bjFWNm91aGRiMERwcFBkbXFCakZaYw?oc=5",
+   "publisher": "Oz Arab Media",
+   "published": "2026-10-28T07:30:30Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "AI bond sale hyperscaler when:7d",
+   "entities": [
+    "oracle"
+   ],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "na64c5b7d2d73c2c7",
+   "title": "从汽车板到AI算力板，景旺电子高端产能全面开花",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNZlFsaHEwNWUwVVFjVG55SHJXcGVlbHFDM2VBTWp4enJyQzV2RHpFTUdlT3ViMGdpUDFGZWI1SjdGSkNxMGRPWTFzM1ZsenBoTWIwdlk5M21ScE4tYlBWQUV3U1NvaThOd3dmU1pYLWVRX2tvR3ZRT3dmTXJ5OHR4dUh0cw?oc=5",
+   "publisher": "手机新浪网",
+   "published": "2026-10-28T07:19:00Z",
+   "date": "2026-10-28",
+   "lang": "zh-CN",
+   "query": "人工智能 算力 订单 when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "n12930aaa81757c99",
+   "title": "SK hynix eases AI peak fears, pushing KOSPI above 6,000",
+   "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPd0QyTFBzbWpxbjgxUV9EUWRQSnlpS0NzVUhZazVrd0dwY3hVeGd4am9lUldkUlVBVkpkZl9UTjE3Um5sZndvcktERjNUZGFsd2tXUEY3X1gxWHl3d3I0Z1NROVVVRE9Wc1hTOTktWmpocWxtdXp2bUlqeFVfNnNEaTNuSVo3SXpMSmdIS0lKWlNaaWZWOGlJb0lxdWFxM2RIM2JJNUVB0gGmAUFVX3lxTE93RDJMUHNtanFuODFRX0RRZFBKeWlLQ3NVSFlrNWt3R3BjeFV4Z3hqb2VSV2RSVUFWSmRmX1ROMTdSbmxmd29yS0RGM1RkYWx3a1dQRjdfWDFYeXd3cjRnU1E5VVVET1ZzWFM5OS1aamhxbG11enZtSWp4VV82c0RpM25JWjdJekxKZ0hLSUpaU1ppZlY4aUlvSXF1YXEzZEgzYkk1RUE?oc=5",
+   "publisher": "The Korea Times",
+   "published": "2026-10-28T07:16:03Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "(TSMC OR Intel OR Broadcom) AI chip deal billion when:7d",
+   "entities": [
+    "sk-hynix"
+   ],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "n576e18742f2f6d5b",
+   "title": "OpenAI plans to buy Google AI chips to reduce Nvidia reliance: report",
+   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdzMyOHNhWHRGR0UycUp3ckxkSG42Z1puRDVicFU2MnVIWVMza2JIMG55cTRrVVVQeTBfV1BjbmhEbVdVbHlwQ0JmQ0g4ZFNoOVByMmNRRW5tS3otSEN0R3BzamcwYXBsZDYyU0JuYjNrSFdoc1p2NkdvcVZmTHhQUno5OUZmYjBuNDNrbG5yclltamwyR3VLeTh0X09wLW1YZEtlN092SXFRemhKLTZJ0gGrAUFVX3lxTE44Q1h1YzBVOXhwZ3lCaFdSb1pkMW1GcWtJVGpBelNJNUJsYS1NdkFFNXdnSlBWd3c0ejdsWWNIRlljbF9ZcjZUOHpkNVFpd1NQZHhTUU52TW1NRWZFOXRrYzAxWFl4ZG9TVk51VEFfY1VvR0I4U195NDhSdkE0WHVFU0FTUGMwTWxEdUI4bUxNWW1abG50TzZjWlhqcm42dzZnTnFpN0lxcXBScw?oc=5",
+   "publisher": "The News International",
+   "published": "2026-10-28T07:07:00Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:7d",
+   "entities": [
+    "alphabet",
+    "nvidia",
+    "openai"
+   ],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "n809266081ddaabdf",
+   "title": "SK Hynix hits \"100 trillion won jackpot\"... 3 years of HBM and DRAM supplies virtually sold out... volume secured through 2029",
+   "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBPU1FIeWJFT1RKd3ZOSm53eEk2cWtLWWNXSktsZm9nS2JQZmhIdmd3cjFWWlpVaEtudWx3V2J1UUJzalJrYUtzTzRIWnJsRk82bWFqeHY1Tnp0by00bDV6V1VB?oc=5",
+   "publisher": "재경일보",
+   "published": "2026-10-28T07:05:04Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
+   "entities": [
+    "sk-hynix"
+   ],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "nc0a807cf3281fedd",
+   "title": "Nvidia-backed firm launches US$3.1 bil GPU loan in market",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBnUnFhY2taa0RaUE1DYlVWYURRMWE5cGh1aDBLM3NsSWxLQU5rcGNsOW53T2xNRWZ5LWdnQm9OTmpURnlWeGRldWNKQVNKUlRGMTlF?oc=5",
+   "publisher": "The Edge Malaysia",
+   "published": "2026-10-28T06:15:33Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "(Blue Owl OR Apollo OR Blackstone OR KKR OR Brookfield) data center financing when:7d",
+   "entities": [
+    "nvidia"
+   ],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "n557f49cf45121efe",
+   "title": "Broadcom Stock Price Forecast: $63 Billion AI Funding Supports Anthropic's Purchase of Broadcom Chips, Shares Poised to Return to $400",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOclpvaUFXTklRd1RQVUVyemhEY09yVHRMdHFYaHN4NTBIeHVXVFd3eDBUdTFfTnpzaEdXNERmNlRQaVczbVJOa19Ha25YeDJvT2RFVmVnYWs5QU1YQTBYbVpkaHN6cFptV29RMWpVMUFvSkI0SmduZ1JvcFJfMDVCNVNreXJYRXUxWlJ4WHRWYVdHY0hCQnpWbk9pZjk4d1U0X1lHbWViNzAwS1dtMWt3OEFWcnNtc1pfNGlaTE9fUQ?oc=5",
+   "publisher": "TradingKey",
+   "published": "2026-10-28T06:07:45Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:7d",
+   "entities": [
+    "anthropic",
+    "broadcom"
+   ],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "n069998983d247651",
+   "title": "狂揽2亿美元AI订单，润建股份要靠卖Token出海翻身？",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9TRUJLTlVDQUVQR3VRUzF5LUt5LTBwb3RPemh6eV9WNG5IR21EbloxbmVyWkVkRGRlaE9TTXFLV3dab185QktIU0VvVFppdmFrR3RuYVFNRDhmaTl1NVQ4N1pvYXltekZIXzRqd0xB?oc=5",
+   "publisher": "中华网财经",
+   "published": "2026-10-28T06:07:04Z",
+   "date": "2026-10-28",
+   "lang": "zh-CN",
+   "query": "人工智能 算力 订单 when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "n4484eed9f0a76dd0",
+   "title": "SK Hynix Rings the Alarm Bells on Memory Supply, Says Shortages To Persist Through 2030 Despite Expansion, 50% Capacity Now Going Towards Long-Term Agreements Through 2027-2028",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOaDRDS3BBYnQ0UVZhamQ3UDc1VzZGNDZTd056SWYzUTZJdDRwZ3NObHh4dENJZldpcnpCQkNPeklsUnFJYnd5STFlcXNRVVU3bXNSd2ExREI3OGlYMV83LU5HRG5RaVVDRkhGZThSVENPRDVTblRXSHJJamNQYjF2d0FMMzFwTWJtRE1jUE5PcnU4eTTSAZgBQVVfeXFMTW9tdTVZUVBYN3llQ3JGT25VMXRaaTgxdUNzR01kNC1HX1AzMjdlTjZ4OTgxamVwWkJuTkx1WEpkWlNuSHhSS2w0Q2Rmek13bkIxMDZaZmoyTGJuYWJScDlURFhiQlFDX0ZBWU1XaktLOWUwdVlHRlk2U0k5cHpfUG05ZGZWUU4tR2IzM0JucDM2c3FmRlRnMEI?oc=5",
+   "publisher": "Wccftech",
+   "published": "2026-10-28T06:00:06Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
+   "entities": [
+    "sk-hynix"
+   ],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "nd01d3491eb5058b1",
+   "title": "全线大涨！伊朗突传重磅消息，AI硬件板块引爆美股",
+   "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVkZRdWtXLTF2Z3YwdVltOXJ4VFhVdUhIUGhQQ2oyQlJ0dVU1czFqcmluNm0zWVhxa3dmUGp2eGpHb3ZhUU1RNERKUHYyeHQwSnREdEpPWS1tQ25VNUwxZVdJdElyVjM1Q0k0NmtCWlVuYmFkY3M4Rzl2LWotVjdtRlZHbw?oc=5",
+   "publisher": "手机新浪网",
+   "published": "2026-10-28T05:42:45Z",
+   "date": "2026-10-28",
+   "lang": "zh-CN",
+   "query": "英伟达 OR 华为昇腾 芯片 订单 when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "nc00ec48b4b611345",
+   "title": "BUZZ HPC Lands $129M Fixed-Rate Credit Facility for Cohere GPU Cluster",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOExMcG1ja3BFVFRuVUtzRnRLWkZzdENLOHZnWUFjVTlmMUpBc1FMLTJZWEtWU2VMSHZYeXZyWUNvYm4tMWZBTlZxRDNUQTctZHRaX2FmckxjbTFHSGZYTllEcUtuUkVLRXNFbll6b0hLa2dUdXhJaDNRQkgxV2JOei0tczRqY3Y5SFNFTjk4M2FycGJpS0E?oc=5",
+   "publisher": "Unite.AI",
+   "published": "2026-10-28T05:24:03Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "GPU-backed loan OR convertible notes AI cloud when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "nf302f828dff3a6a8",
+   "title": "HIVE's BUZZ HPC Secures Approximately $129 Million at 9.0% Fixed-Rate Financing at 80% Loan-to-Cost to Expand Sovereign AI Infrastructure",
+   "link": "https://news.google.com/rss/articles/CBMiuwJBVV95cUxOeEdUWG5jSEdOb2FQLUV6ck54eHZjNmJjTkVKRk9yTHJwXzE2Y0RaSnVBS0xnWmVnWEM3clJFVlJWamRENFM0N09iVkpkaURYUndYZnBqZHFxUjhJcWFFckNiZjhYRXFuNEJFOXZHdzc2VnNMZXhIa1pFNzJKRFJIaFpLUEI1MnhyRzEtZFFfLTZJbmJUdjFOV2lUX2Jlb09CcEMyblNQZ1Vza05UTF9jWjJDR2J6aXFMYXVrZjExNGU3cTVqZzJhQlF3eWdhWVd0Um92VGZ0QTAzRHM1bFBfakxXVHRnQlZIMUtBc0lHdHV4QlFTOHo2aFNmRWt2U29tYUFiek80UUpCcjhzM3JDTXpBYlhyZDE3Ml8yaDJjUU16V2ZIZFE1VGZmV1c0RVpfMDNPeDB4Z3BBR0U?oc=5",
+   "publisher": "The Globe and Mail",
+   "published": "2026-10-28T05:11:37Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "GPU-backed loan OR convertible notes AI cloud when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "n5841bd11d6774656",
+   "title": "A $165 million cluster of NVIDIA AI chips is planned for Canada",
+   "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOV3hPeFBFMEIxNEMwYkU3LVdIVkpZNEt6ZGNvUDlpdEVEaGZQWHpRN3J5dDNkdVlGR3dTZGN4b3c1SVFVNW9JdnZKS1BwR0QtRTUya3ZxQ0hFcENGTmdSTXZYanI0WERhRHkxMDFUeFI0TEhwVWxPZHFzY3BYYTFBMlpyaUh0YUR5cVlLYy1qNEljdlZZcEtZZ2k4cUdlU21WdnVFMTgxUjJlNnZyZ2ViVW5uTGNoNEcwWTAzR2tlQQ?oc=5",
+   "publisher": "Stock Titan",
+   "published": "2026-10-28T05:00:00Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "GPU-backed loan OR convertible notes AI cloud when:7d",
+   "entities": [
+    "nvidia"
+   ],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "n8a3b6561cde558ce",
+   "title": "SK Hynix posts record results backed by DRAM and HBM; memory sold out until 2029",
+   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQYVk4WWIwd2ZlVWxvU3VvVldyenRHZnd6QWc2VzZyODFTcXNEeU81NF83N0F2VU5rdm9TVEZUdlBCdXgyQ0ozSnl6cGMzbFQ1SXhrYWxwN0dNcWd1NUJWOW90MGNpNmxZR0FGTGdzQWo4enlxb2RUX2J1OVJaTDBLRURoWGdxS2Zrak5GdWJsTHQzSDNaTzAzMGpzTVlSQ2pxaUM2dVEyZnBrTjJ3ODdyX1hZWUlSbmZSWm1idGlKTldISzA?oc=5",
+   "publisher": "디지털투데이",
+   "published": "2026-10-28T04:50:33Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
+   "entities": [
+    "sk-hynix"
+   ],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "n122990c1db307a80",
+   "title": "Nvidia-Backed Zankore Syndicates a $3.1B Indonesian AI Loan",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQckJ3ekxlYnZldFJ4Ump3cDB2c1c4UFlqNWdoclZoWFpWVEhtQWM0dTJsQlJsUHVHWWhCNU1yU0o4bGlMYXI1Q2d2b1R6R194NEI5VS1nSkdrZjIwbGtwUHkydUVibjQ3cGFsYzlDV3VkMHFFM19KNzlEcHZQclVpMXNXMzJpQkUyaE9qNTA3aw?oc=5",
+   "publisher": "FourWeekMBA",
+   "published": "2026-10-28T04:41:42Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "GPU-backed loan OR convertible notes AI cloud when:7d",
+   "entities": [
+    "nvidia"
+   ],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "ndd1b04ab5859d115",
+   "title": "AI算力点燃PCB：净利最高飙1177%，涨价链上谁最赚？",
+   "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQS3VpYzlJUWNlNTg4MjFPdUJ2NDkwV1NVNkhvQW1PaGNtMnZ4ZU9QbnVWczBxX0dLMS1nQlo1S0FEcFlWYjFrV3B2eEFsU2R2aDJWSVlLZk81OEd5SkYyR2hzcUxDUVA5ZlRJbzNid2hVVTE5andPcXVobUtncHU1LVpmSnc1bHhjZ0VlRmlGbw?oc=5",
+   "publisher": "21财经",
+   "published": "2026-10-28T04:17:00Z",
+   "date": "2026-10-28",
+   "lang": "zh-CN",
+   "query": "人工智能 算力 订单 when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
    "id": "nb49ca9a16fa0fe2b",
    "title": "SK Hynix's \"earnings surprise\" sends shares sharply higher, while Seagate's \"earnings surprise\" triggers a steep sell-off—what is the market pricing in?",
    "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSVJ2TXZCTVBsWkg0RGlWUFY4N2lwbzVZdF9sUFVrYzJQLTlaOXZhejF0ekFweTZVRUlNQVRCWmxQWEdkRTZUVWl5ZTRIb2QtdE1ndnduUU1XVGthT2RBT0dIOE5NOV9USUdsNUQtR0xmSkFrek9KdVdtOEwxbVU0TjRZM0QyWlJzOGhHbER3Rm9YN1ZUd290UVRwdGEwbHJLUmMtYXA5U3c?oc=5",
@@ -13703,6 +14052,20 @@
     "sk-hynix"
    ],
    "fetched_at": "2026-10-28T04:06:22Z"
+  },
+  {
+   "id": "n7fa801262cfdede8",
+   "title": "Meta weighs a huge equity raise to bankroll its AI build-out",
+   "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQNzRDX2xvYnVTcV9YQm9mOEQ2NklqVVJ0OHpmQUx5ZWZudVc5Wlg3X0htQkFDb1E3UGJzRlVoSFhnamlyWFNEUndmaWMwaXB1RkJPZVBOWWFneHdSZ2tPTVBiM3NkZjY4Rmd0d3k5VkVQdFdqSDREQVhZS3RicG9uMElEdVRETTg2a19FZVhTeFRGQzRjLTBCRkhhVUpjN2FjaF8wcDdrNDRNcEFwS010b3h0UUVHTmk2WWQ3cklyWWFjbGR4Unh6LWIwektpWElSdDI5VDFLbElNOWs?oc=5",
+   "publisher": "ET CIO SEA",
+   "published": "2026-10-28T02:52:55Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "(Microsoft OR Google OR Amazon OR Meta) AI infrastructure agreement billion when:7d",
+   "entities": [
+    "meta"
+   ],
+   "fetched_at": "2026-10-28T09:59:19Z"
   },
   {
    "id": "nb24028b7417d1fa7",
@@ -13824,6 +14187,34 @@
    "fetched_at": "2026-10-28T04:06:22Z"
   },
   {
+   "id": "nd5d60a76164305e2",
+   "title": "Anthropic’s Payouts: Who’s Getting the Compute Spends and How Much?",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPRWFxX0c2UW1BcF9hNDFJSGtrVjcxeFpIYnV3cVZSS1VlWW9mLVE0M0hCaW9vbXNpRnpneFptQU54ZnJqN0I4U3ZCSmpQNUtPdU5oWXBSRXVMREtjMjhoY0FvRUwzZFh0WWhMVE1sSWE0MHNIS1JDVkw1LUhKUFBTS092S0RwUVd0OHdXc0tvQXkzQQ?oc=5",
+   "publisher": "CXOToday.com",
+   "published": "2026-10-28T02:03:14Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "(OpenAI OR Anthropic OR xAI) compute deal billion when:7d",
+   "entities": [
+    "anthropic"
+   ],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
+   "id": "n0edb29d41eb7f1ca",
+   "title": "[News] SK hynix 3Q26 OPM Hits Record 80%; Says DRAM, HBM Effectively Sold Out to 2029, 14 LTA Customers Signed",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWkdfcUN3a2p1dTNlckZiUHhkaE1oMms4Qktfa1pFWGhRaHExX2tGV09uZGZZWGxKeUc4a1ZaT3dRckhCRTFPT25aem14N0RBZUpuMDR4cEhIRzJyYXlXSHJ4NUp2TmVickpYUlRpWXFLbnBVRmZWV2RwVmRVaGV0dTFBR3I3dWlzRkp6M1pFS3lUZGdRdmNrR0Q4bFJIc0stSmo4cldSdDF4WFZYSEc4UnV4WjdSOHJEMEVkLVZKWTh1cFNHR0FSVVVRcEZTYWVoUlRSWlA0eHhjbkdrNTd6Ykd3?oc=5",
+   "publisher": "TrendForce",
+   "published": "2026-10-28T02:00:15Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
+   "entities": [
+    "sk-hynix"
+   ],
+   "fetched_at": "2026-10-28T09:59:19Z"
+  },
+  {
    "id": "n5abff96c8e0802e3",
    "title": "OpenAI Plans to Buy Google TPU Chips, Putting Strain on $100 Billion Nvidia Tie-Up",
    "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTFBJTVRSUF9ucktEMHVRVDJ2UENndWJNQjc4NktXVFVkNUdnNldxN2NiN2J5NlJianRMMExoZ3Y4QURYNGYzZkNkSk8tR1k2ZXZTVWlwejM4R2k5MWtqbmFlZElKMVVmWDJtSVluRWhzQURwWjE5dGc?oc=5",
@@ -13881,6 +14272,21 @@
     "sk-hynix"
    ],
    "fetched_at": "2026-10-28T04:06:22Z"
+  },
+  {
+   "id": "n45b67d774a627e71",
+   "title": "英伟达30亿入股Meta，AI算力的生意变了！",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE8wel94Vl9Fb3k2ck5OYktXUDRyelJ5dnhLcElYWkpoODFlMlJGbl81NVBmYzJIR3V0U3F5Zms2WUdfd25TUzBvZUpSU3h3ajNMNjBEcTNneFJiV2Z1LTBRUg?oc=5",
+   "publisher": "英为财情 Investing.com",
+   "published": "2026-10-28T01:29:00Z",
+   "date": "2026-10-28",
+   "lang": "zh-CN",
+   "query": "人工智能 算力 订单 when:7d",
+   "entities": [
+    "meta",
+    "nvidia"
+   ],
+   "fetched_at": "2026-10-28T09:59:19Z"
   },
   {
    "id": "nc5ccd1b7d04a926a",
@@ -14062,410 +14468,6 @@
     "sk-hynix"
    ],
    "fetched_at": "2026-10-28T00:53:26Z"
-  },
-  {
-   "id": "n871da8e2aed6b94f",
-   "title": "SK Hynix Posts Record Q3 Profit, Adds 60 Trillion Won Shareholder Returns",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTXItcDNNUU1sQ29IRE9taFlMMXZYNTN2ZWNyT0Noc1FrSGk3WEkxa1hCYWswVnJUVEd2N1B4eTg1ZDU1aW9RRENjMHVFMjF6dGc5X3cwYVo4S3ozMWFXQTJRR2RNVk5ObGhtRHo2V2VtcDZ3V0pEOURiSVdmVlI5VWRTUFNVbG45?oc=5",
-   "publisher": "조선일보",
-   "published": "2026-10-28T00:47:54Z",
-   "date": "2026-10-28",
-   "lang": "en-US",
-   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
-   "entities": [
-    "sk-hynix"
-   ],
-   "fetched_at": "2026-10-28T04:06:22Z"
-  },
-  {
-   "id": "n10606da2423283fa",
-   "title": "[Conference Call] SK Hynix: DRAM and HBM supply is virtually sold out through 2029",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTFBQSGgxWEcxcnVNNS1KX3NJamtlaWJWeHpicU94NGhQMElWOWR2SXJsaFN4akVGQlJUY1BCSUdQSWdTdFZueW9jREtSS05EcFFSZnAyZEVlVGhXNmEzbVBFNnZEMm14WVpIUUtGYnQyU2k?oc=5",
-   "publisher": "머니투데이",
-   "published": "2026-10-28T00:46:31Z",
-   "date": "2026-10-28",
-   "lang": "en-US",
-   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
-   "entities": [
-    "sk-hynix"
-   ],
-   "fetched_at": "2026-10-28T04:06:22Z"
-  },
-  {
-   "id": "n7cb48aca1fd92123",
-   "title": "史上最大IPO临门，腾讯、阿里、字节抢卡：Anthropic和中国大厂一起为算力上头",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Wdl9yMjM2cm0waW5ncTY3ZHNhS1I0Z244ZlZ1aGFHWC12dVh4RDY5cW5Scjc1UFhlczF6bFdpc2dmeUZuS2dOWHBsS0hyN0Vh?oc=5",
-   "publisher": "36Kr",
-   "published": "2026-10-28T00:37:07Z",
-   "date": "2026-10-28",
-   "lang": "zh-CN",
-   "query": "阿里巴巴 OR 腾讯 OR 字节跳动 OR 百度 算力 采购 OR 资本开支 when:7d",
-   "entities": [
-    "anthropic",
-    "tencent"
-   ],
-   "fetched_at": "2026-10-28T00:42:45Z"
-  },
-  {
-   "id": "n60b56a92b0a30335",
-   "title": "SpaceX $40 Billion Debt Deal: Why Neoclouds Can't Borrow Too",
-   "link": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE5VSmJ3Y1VZZ3F4cVppNGZaVFNsNHBvbmlNOUVHMFZ4aDZVOWZuOFFtN1ExakpsLU03aEk4amxFcy1zeHZQbG1DTGRVNnBRdjdWaDg5cDV4T0hsSm50Z2c?oc=5",
-   "publisher": "Memeburn",
-   "published": "2026-10-28T00:36:25Z",
-   "date": "2026-10-28",
-   "lang": "en-US",
-   "query": "(xAI OR SpaceX OR Mistral) raises OR financing OR debt when:7d",
-   "entities": [
-    "spacex"
-   ],
-   "fetched_at": "2026-10-28T00:42:45Z"
-  },
-  {
-   "id": "naac17c66e874a38e",
-   "title": "RBC Says SpaceX Stock Has 50% Upside. S&P Global Just Warned About Its Hidden AI Debt. Here's Who I Think Is Right.",
-   "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcE5Cc1BvQTE5emQ5TkdFSmVRdTRLSU5EZWh0QW9WTndYdm1aNWtrV0NDZnJnNkRueXNxTC1MY1ZYT3hsTlZONXJtWTd6ZXVpb1pBUnM5U1V4T3FoREJpUDRsMG5qY2s3MnQ4XzhFTG44NURsdi12ZGRwczVjTVM4ZWlTRGxoNDhVNlVUUFZpczUyZUlMcW9ubA?oc=5",
-   "publisher": "The Motley Fool",
-   "published": "2026-10-28T00:36:01Z",
-   "date": "2026-10-28",
-   "lang": "en-US",
-   "query": "(xAI OR SpaceX OR Mistral) raises OR financing OR debt when:7d",
-   "entities": [
-    "spacex"
-   ],
-   "fetched_at": "2026-10-28T00:42:45Z"
-  },
-  {
-   "id": "nb8b619246b559f8b",
-   "title": "AI Financing: The Bond Market Lends Cheaply to Infrastructure and Dearly to Implementation",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1mbXZ1V0p4MWJ0MzQ5QTlUUnRFeTlTZk5qdV9DUUZHRUY4Qkl6NzdGU2p2VXVHbUxGNzJib2Q4WnZ0TWc2SllNMENpVzhxVjZFTVd1SXRCM25CQQ?oc=5",
-   "publisher": "https://economy.ac/",
-   "published": "2026-10-28T00:15:29Z",
-   "date": "2026-10-28",
-   "lang": "en-US",
-   "query": "(Blue Owl OR Apollo OR Blackstone OR KKR OR Brookfield) data center financing when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-28T04:06:22Z"
-  },
-  {
-   "id": "nddea24a26c569461",
-   "title": "SK Hynix Operating Margin Nears 80% on Soaring HBM, Commodity Memory Prices",
-   "link": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBmaHVnZlJDNnVlMHZINjBSSzRmWTNSLTBBdkVHbldOVzhGRGU2SE5lVzdMZjU1ZGhvbHkyNFdHc3hkSk1hRG1GQ1Q1NVJ4NnpweFpXNg?oc=5",
-   "publisher": "bloomingbit",
-   "published": "2026-10-28T00:11:44Z",
-   "date": "2026-10-28",
-   "lang": "en-US",
-   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
-   "entities": [
-    "sk-hynix"
-   ],
-   "fetched_at": "2026-10-28T00:42:45Z"
-  },
-  {
-   "id": "n467aa22e239bbe9a",
-   "title": "South Korea's SK Hynix Posts Q3 Operating Profit Above 83 Trillion Won, Unveils 100 Trillion Won Shareholder Return Plan",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9hdk91aUlwNEM1bjQ1MXU3ZHhkLUNUR1JEeklwYXBaa1lNcjRQaWpueG1tdG5TaWZ4UTR1TjdsRXJ5WlAyNGJENVdHRVlMbXFHRnZkUl9wcHBsUmFIbnlaV0RHVV9mQVFfRjlTNEwwdEhsSG10X1E?oc=5",
-   "publisher": "BigGo Finance",
-   "published": "2026-10-28T00:05:00Z",
-   "date": "2026-10-28",
-   "lang": "en-US",
-   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
-   "entities": [
-    "sk-hynix"
-   ],
-   "fetched_at": "2026-10-28T00:42:45Z"
-  },
-  {
-   "id": "n690e77898ab867a7",
-   "title": "Amazon, Google, Microsoft, Oracle win JWCC contract",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOQ21sc092ZWlZTkVMLVM2WUNvOEVWbnBtYTI4YWFkdFdQdWhLS0otMGpSUVdTbnloT0FzdDUtTVFJZndHX24tZkU4dGVCUHo5WE9iYVBFOWNSNzhaYVNFdGtFb0RWMkM4cGV2QVhBbXM4azVTcURWRVlQMVozMkxNNGlWRVpHeW9oYjB3MmZsRHdHQQ?oc=5",
-   "publisher": "TechTarget",
-   "published": "2026-10-28T00:03:49Z",
-   "date": "2026-10-28",
-   "lang": "en-US",
-   "query": "(CoreWeave OR Nebius OR Oracle OR Crusoe) contract billion when:7d",
-   "entities": [
-    "alphabet",
-    "amazon",
-    "microsoft",
-    "oracle"
-   ],
-   "fetched_at": "2026-10-28T04:06:22Z"
-  },
-  {
-   "id": "n6af6cd8921881459",
-   "title": "SK Hynix unveils US$75 billion shareholder return plan after posting record profit",
-   "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOZ3Z2VUQ4UjRheTVvdk1HYmdjUkhtVGJDNG1CTGdPcnkwOE9uNkg1Qm15VjQyaTJlRVZkcFp2a1RScVFwTlBNVktCMGlSM21WRGxINFN5OS1EMjZNVEJHTHpDNl9iby1lVnp1aDZrLXE4YlZFMUtGenhaemxPdjRuajlTUEpzV0RxMk9hRTJad0dGVmpMUUdVWGNJYTU2dUczQmJXczRMYUg2aV9MZy1HRUFYZDlBM1UtUDJ5UjE4dnVJeTdLT1I0UEFvemYwb3JmREVqZGFieENlRzhhTEctYzZramc?oc=5",
-   "publisher": "The Business Times",
-   "published": "2026-10-28T00:03:00Z",
-   "date": "2026-10-28",
-   "lang": "en-US",
-   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
-   "entities": [
-    "sk-hynix"
-   ],
-   "fetched_at": "2026-10-28T04:06:22Z"
-  },
-  {
-   "id": "n7a92d63e0a7d6823",
-   "title": "NVIDIA and Oracle to Expand OCI AI Superclusters to Multi-Gigawatt Scale With Vera Rubin",
-   "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE4zYWtpdFZYLXRKRS0yc2x5YU84YW8ybkpsZ1lLZ2xhVFhIWlhlQW83aURYV2xiNi1aLXBoWjV1MXlOT1F5elM4VlU4QjZQVFQ4bElnQUdoWnJscTY5YVl1RGVoWDNRTDJZVml5d3Y5a21HWnJIT0xN?oc=5",
-   "publisher": "XenoSpectrum",
-   "published": "2026-10-27T23:54:45Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(CoreWeave OR Nebius OR Oracle OR Crusoe) contract billion when:7d",
-   "entities": [
-    "aip",
-    "nvidia",
-    "oracle",
-    "scale-ai"
-   ],
-   "fetched_at": "2026-10-28T00:42:45Z"
-  },
-  {
-   "id": "nfcbf37442eefb01a",
-   "title": "AI洗牌财富：张一鸣6700亿、梁文锋2800亿",
-   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9VejJ4eXVfam5veElUMVJXSEtwNXVuVVBKcmZUalY2aWh1bnVOaUwwblZDXzJSUGRkNmFsZ1lfVlBFUE5kQmhQRkVFS0hBU3hSWVhqakl3?oc=5",
-   "publisher": "投资界",
-   "published": "2026-10-27T23:54:00Z",
-   "date": "2026-10-27",
-   "lang": "zh-CN",
-   "query": "阿里巴巴 OR 腾讯 OR 字节跳动 OR 百度 算力 采购 OR 资本开支 when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-28T00:42:45Z"
-  },
-  {
-   "id": "nab53c57621120077",
-   "title": "SK hynix Announces 3Q26 Financial Results",
-   "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQYXRva3QyQmtLRndTaEZDY0hmWFc2dXZUdDRqV1BEeXdwMWwxU1JZazhweFNHaWg0elVHWGprRTdodEZVWll0cnJLVmFUdU5NMmdYYldrNnhYcGNNNWFYOEcyZG9PV1Z0aFVVMS10Z00ydE95X0xMRzUwcTkwMUItWGl0QjlQTHFaNTh4NXpOaldNRHBYTXM3NHVGNEJuQQ?oc=5",
-   "publisher": "PR Newswire",
-   "published": "2026-10-27T23:52:24Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
-   "entities": [
-    "sk-hynix"
-   ],
-   "fetched_at": "2026-10-28T04:06:22Z"
-  },
-  {
-   "id": "nfa78617370ac446d",
-   "title": "SK hynix posts record 83 trillion won in operating profit ... to return an additional 60 trillion won to shareholders",
-   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wUnE2bFA5OXNfRktZX0dHOWRiMGk0c1JUOFNFSEVFWWtfYURrQ1RlTzFsLUFNdndIWnJTcHVaTUN4bHdyQllJcWFHSFNaa0RkNFg0?oc=5",
-   "publisher": "매일경제",
-   "published": "2026-10-27T23:46:37Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
-   "entities": [
-    "sk-hynix"
-   ],
-   "fetched_at": "2026-10-28T04:19:58Z"
-  },
-  {
-   "id": "nc1f196f62a048f6e",
-   "title": "黄德几：AI产业债务恐逼近临界点｜即时新闻｜产经｜on.cc东网",
-   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY3ZVNmlGUTd0OUtsNjlXSmJsMEx3aXJVOEhpSkVRTnppcGxteDVrWlZyYnpDMWNjamxxbVBieW5RZGc5ZjRWbFF3UEpZRUlkcER1cUtVZk9KVkJtc0lIdldreFZMaVVpWWFzX1B1VEtuZEVOal9pT1VnQzhXOF9neFlaUUxXMFJjbTlLTGJHMmtNUFE?oc=5",
-   "publisher": "on.cc東網",
-   "published": "2026-10-27T23:34:18Z",
-   "date": "2026-10-27",
-   "lang": "zh-CN",
-   "query": "AI 数据中心 融资 债券 when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-28T00:46:13Z"
-  },
-  {
-   "id": "n72fd18b2511f11c8",
-   "title": "Broadcom CEO says capital is ‘available’ after banks wavered",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUUdWZjRFVW1hY3BNNmo5aW1BaldnNEFidlN5d1NOV3JQdGFjNVJ3QWVYMFRJRXpZb2JJanVncVdxOG5ZY01CYXBZWElPRUlPckczTXZwYUVWMlVWWjNfaUh2cG1heEJmaV85d0lDd0txZWRUY3YtelRYTEdTQWltX2hYRi1iak5HLXY2bE1pUTF5Zw?oc=5",
-   "publisher": "TheStreet",
-   "published": "2026-10-27T23:03:00Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(TSMC OR Intel OR Broadcom) AI chip deal billion when:7d",
-   "entities": [
-    "broadcom"
-   ],
-   "fetched_at": "2026-10-28T00:42:45Z"
-  },
-  {
-   "id": "n054968175f096f60",
-   "title": "全球AI投资持续升温，增长与风险如何平衡",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVEJLUDhJbHcyX1RlVGNVd0ZyWHViRkpHWjBMRlRtdExxYnhxeGZPUDRYSDMxZmVPUkZzS1ZmTlR0LVRQalk0TWpScno5enZ0cnotamtJSnpBaE0yU1JBekNBcGdtZVpHYVU5V0VNTjlBQWxNRWd4akdIODlaVDJJY1Fn?oc=5",
-   "publisher": "手机新浪网",
-   "published": "2026-10-27T22:30:39Z",
-   "date": "2026-10-27",
-   "lang": "zh-CN",
-   "query": "英伟达 OR 华为昇腾 芯片 订单 when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-28T04:19:58Z"
-  },
-  {
-   "id": "n0e9a77fe2b74b821",
-   "title": "Red Robin Gourmet Burgers, Inc. Announces Board Changes Following Completion of Refinancing",
-   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdThBVFNscmxUc2hhLW1YU2wzNDhJeU5meGhhMHFpa3ZpRllPX3I0SWg1b0VCT3FZT2VwY2x5SUJfM2xuNVRtRV9CR0FCZmZtQnVkYS1FYldCM3QwdG5nT3NfNUVGal9Ua05XcVhCbjkwQVYyZ1JkSnYwaUVEOVJ3RDFIejJOcHBIY1NmZ0RPTjkxYmRwalJpLTlDZ1Y5V1lvWDFtQ3Vwa0JLUkppWjhjeV9DbExDUUpUYjd3UEN3YWVVY3ZydTdCSjRRLVRubzhTSEw5bjdERHRGZjdpQ0E?oc=5",
-   "publisher": "PR Newswire",
-   "published": "2026-10-27T22:30:00Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-28T04:19:58Z"
-  },
-  {
-   "id": "n13ac30db74e3d4a2",
-   "title": "Did Oracle's 53% Drop Catch You Out? What Bears Saw",
-   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdnFMTE9KZDFVUmpJWUQ2eHNWNV9QQXA3YXkxNkVMS2JGOGc2akRGRUdfOFFZUnUzdlNfNXNzb2VBTDVvWWpIQm1vUkVtam90YlgyLXFvdVg5bEh2QXRaeE5Oc3RvVGpqV3lhSm15WUJhZVFUMWMxalhhUmNFb2tqQkdBRldmZFE4X2lRc1UzdTFZemVv?oc=5",
-   "publisher": "Yahoo Finance",
-   "published": "2026-10-27T22:12:06Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(Blue Owl OR Apollo OR Blackstone OR KKR OR Brookfield) data center financing when:7d",
-   "entities": [
-    "oracle"
-   ],
-   "fetched_at": "2026-10-28T00:51:47Z"
-  },
-  {
-   "id": "n19c6375029415359",
-   "title": "NVIDIA (NASDAQ: NVDA) To Invest $3 Billion In Meta (NASDAQ: META) As Companies Deepen AI Agent Infrastructure Bet",
-   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSDVwSlN3ZXFUdm5OVmhCc3V3RzdxaF9nejFuelNDTzZ2Z2hrM2I3b1F5bTc4eVZSLXZSN3EyLUFaU3JnSEEtSzdWc1ZNYlRBdS1lMTZfYkpobGk5Q2FIN2tSSng2TlBDSTl0eHVsU3E2X0JFeGpQbEZGYnlGVktHQnk4bU1pV1RkMUN3ak1NdzJtZEVJa3o0ZUMtVjdWbmZrQ0hmejhRRW9LZi1mZzZwNl9IZWZPeWZjR3Vqd09qdXFYeEt3RzF5UDBlVEw4Q21wMEVFMVRxamdXWW1QYnljQzF4Z3pIblRBeTBr?oc=5",
-   "publisher": "Foreign Policy Journal",
-   "published": "2026-10-27T22:04:00Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(Microsoft OR Google OR Amazon OR Meta) AI infrastructure agreement billion when:7d",
-   "entities": [
-    "aip",
-    "meta",
-    "nvidia"
-   ],
-   "fetched_at": "2026-10-28T00:42:45Z"
-  },
-  {
-   "id": "nd05f905d076c3418",
-   "title": "Nasdaq Jumps to 26,477.81 as Broadcom, AMD and New AI Deals Lift Chip Stocks",
-   "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQM2swcW1JUXNFVGo0RW9NcnRaZWJWZkZWOFJZVk54NWJiNkpBU29kUEJTTGtsbTV1cmhyODZJclRDcS1kazBiLURGRGJjYWhFSm0wcnVHc0p1eFBSTVNaa3BWU3ZueGJ0T2hiVW95RmpqUUJmbFY1VHlYSC1oM183RUxfblZNZ3EwUVc0YnVOZTRla3Q1VUFDakUxYlRKd2dYTWNQWWpfSG1RWWhVVWdDbA?oc=5",
-   "publisher": "BBN Times",
-   "published": "2026-10-27T22:03:20Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(TSMC OR Intel OR Broadcom) AI chip deal billion when:7d",
-   "entities": [
-    "amd",
-    "broadcom"
-   ],
-   "fetched_at": "2026-10-28T00:42:45Z"
-  },
-  {
-   "id": "nc863269100c97f36",
-   "title": "NexPoint Residential Trust, Inc. Announces Quarterly Dividend",
-   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONjJ0Q2lwcEpWUmo1bVhJaUgxaU56cEYxbk5XejZjRDNFWnF1MnlaZDgzRlFlTFNSQVFwZVJMWnl5THkxSGFZLUwzWUFfeGx2R2ZHNUR4b3NoYzQ5VmRBeWRnWk8tTkJiaGNtUVpOZ3F0bGQyUDFRVGZMa3FZSHo2amxCeFd2YUxTSkR0ajNUSjd4a2s1RGFFRlZpV3UyNXlZSnJxR2JXTmNNOWN5bWtjWDF5R0NDdw?oc=5",
-   "publisher": "PR Newswire",
-   "published": "2026-10-27T22:00:00Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-28T04:19:58Z"
-  },
-  {
-   "id": "n3d0ce84af26333cf",
-   "title": "NexPoint Diversified Real Estate Trust Announces Quarterly Distribution",
-   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbFVmOVF6allRa3FGNVdubGU2VGtlMkU4bXJ3Z09oZ2pwcXE5em4wVmV2VGJBSm5ZblJiTll2a05TQ3NueFNmdGtMeXU2UmFjVmFFTnRlLTlpU2pvUGRfSXZHTjFkdzBCLWFjSVhZazJvVDc5YTJlSml4M1pwckZpUndMeDVGRUdvRzUtY3JzbWNNMzRsTThHTW43Vl9YcjlYNVJTSWdPemxySHhTQTZxcVl3Ui11dFZCNElDQXpoMER0U1VSRkE?oc=5",
-   "publisher": "PR Newswire",
-   "published": "2026-10-27T22:00:00Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-28T04:19:58Z"
-  },
-  {
-   "id": "n9f3f1dbc8a1d7e58",
-   "title": "Socket Mobile Announces Intention to Voluntarily Transition Listing from Nasdaq to the OTCID Market",
-   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNcllaWHhVOWxFQ2FISHd5LWpqejVSd3NDMWZ0anExbXFqR0lMaHFhWk9IUEJrLUNvNm1aN1BOUXdvSXVfMzkzakR5OWdFUUs0N2Vob1BMdk5yZGh5Nkt4NFFjSnp6c1ByS2hPMFdKYUE2aWFTWHdpSjc5Z05MVVJySzNsUF9wNXRtOTMwN2ctODZkazBsa2N6UFpvLW92SEQ4SDJjY2ZNX1E0bTNPQ3htWWZJUU9FV2tzUXhramlUSUJJYWFQaVJLSWkyRzFwYnY0QzRDSU03RTJDSWpDTlJuTWszUFd3QXJMdzdB?oc=5",
-   "publisher": "PR Newswire",
-   "published": "2026-10-27T21:55:00Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-28T04:19:58Z"
-  },
-  {
-   "id": "n5d1cb7a2dfd5d527",
-   "title": "算力“烧钱”、回款滞后，AI短剧靠什么拿到银行贷款？",
-   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BY1U5TGtDUnA0bHNUTEM4MkZWU3dJdEtDcXJ5bjNOaXgzZjd6REhUR2JMVXZiREg0U0xSTzZYemlJeVVuaXVzSEttWWxib3h0dmdNLTF2ZWJYWmZmbE1tanNMdW8yR1pKUVhPOFg1M2E?oc=5",
-   "publisher": "新浪新闻_手机新浪网",
-   "published": "2026-10-27T21:55:00Z",
-   "date": "2026-10-27",
-   "lang": "zh-CN",
-   "query": "人工智能 算力 订单 when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-28T00:42:45Z"
-  },
-  {
-   "id": "n38c310402e14835f",
-   "title": "ELS Announces Leadership Transition",
-   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTkw3M19oeUpCbjMtakRtU1hVMGNFb3Q5MW90OHBtVXI2a2ZaS3VPTDVmVmM5LUVldlRqazVOWnFxbkhYSkJhdnQwOTFBa0k1VG8yd0pOaFYyWkx3U2ljUzllWkFpVUE1NGxLQUkzODAtU3BvQ0VOODdsdzdzRmNVejFPS2IweWY5YTlMclNhcmppNGt3SlE?oc=5",
-   "publisher": "PR Newswire",
-   "published": "2026-10-27T21:53:00Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-28T04:19:58Z"
-  },
-  {
-   "id": "n0f2176161c0f22d7",
-   "title": "Jensen Huang's Late-Night Calls With President Trump Come as Nvidia's China AI Chip Shipments Fall 44% in the First Half of 2026. Here's Why His Access Matters.",
-   "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPMWxEM0ZFcFBLMXZZMjNickc1dS1EX0UwR3VkNWdIWWFWa3pLdUM1WVlpYTNURHpBRUVLcG5jcnEyNXVpN3Q3T3RpTVBRTmJYY04tVXlmaVV5amJlbmYyeDI0THdvVk1sTVBwVGZRT2RJZ3BnUFBraUM3NTdpWGZBVkotT2w1Slh0ZndzNnpUZ3c5c0ZWTlNHVnI5Nk0wRzVD?oc=5",
-   "publisher": "Yahoo Finance",
-   "published": "2026-10-27T21:39:00Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:7d",
-   "entities": [
-    "nvidia"
-   ],
-   "fetched_at": "2026-10-28T04:06:22Z"
-  },
-  {
-   "id": "nbe4b71ebf5c37eb5",
-   "title": "“Borrowing to Fund AI Investment”: U.S. Big Tech’s Debt Buildup Puts Upward Pressure on Corporate Bond and Treasury Yields",
-   "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5MSmppQzI0Z0owTklqNlVSOVZUeFZpSFRObkh0MFZhRXNmR0pVdXBoS292V21saUhDdVo1dDF2b0tqSFZlc0Q1QXB0SEM2MC1EZmFvZmQ4Yw?oc=5",
-   "publisher": "https://economy.ac/",
-   "published": "2026-10-27T21:31:20Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "AI bond sale hyperscaler when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-28T00:42:45Z"
-  },
-  {
-   "id": "n8b52e18b689d6e64",
-   "title": "ALAMO GROUP ANNOUNCES ACQUISITION OF ECON ENGINEERING",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaUNQekRpZUlKb3UtSGJ4cnpxcENQVm1fZ1ZuZnR1UENkMnlhNzRpemowV1lLcnBySUxPaldMREhldk9zV2UtLUM5YjRfdDVybUsxMTljWVdHSHkzdXM0SjFyM19iRExzalVqdGJnX2RnNWVubzZEd21FbHVrMWY1amo1Y3V2OWo0UE1Wckhub0J4cW5PbWJoTVlZMHBCOUQ2dk1HMTZjNERLWFBGLVE?oc=5",
-   "publisher": "PR Newswire",
-   "published": "2026-10-27T21:15:00Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-28T04:19:58Z"
-  },
-  {
-   "id": "n60b5de4481af251b",
-   "title": "Associated Banc-Corp Announces Increase in Common Stock Dividend",
-   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdnhjU3pLNjZVQ1NJUFhUelgxR0VRTnBqTW5kbzRCeUxxWDR2My1HSXlyZjNXZ3BOTUJaeXFGemZzM1NuNm5ETFBvSFJTejM0SHh1cGhwNXc1UzEySm12bWhGMHBHbVNZSWFGWllpM2FVQmU0bjNMMUt1YkRmRnd3bG91aTUzWXdYM21uZzBtRGVOd2h3Q0tHYmNEMmpMZW80VVdqRHdUWTlhcnRkNk9tcHZ4bnpwQXhreExLYw?oc=5",
-   "publisher": "PR Newswire",
-   "published": "2026-10-27T21:15:00Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-28T04:19:58Z"
   }
  ],
  "filings": [
