@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-28T00:42:54Z",
+ "generated_at": "2026-10-28T00:46:31Z",
  "monitor": {
-  "last_run": "2026-10-28T00:42:43Z",
+  "last_run": "2026-10-28T00:46:11Z",
   "sec_items": 120,
   "news_items": 800,
   "candidates": 0,
@@ -9,22 +9,22 @@
   "model": null,
   "sources": {
    "sec": {
-    "last_run": "2026-10-28T00:42:43Z",
+    "last_run": "2026-10-28T00:46:11Z",
     "ok": true,
     "tickers": 22,
     "fetched": 22,
     "matched": 115,
-    "added": 1,
+    "added": 0,
     "total": 120,
     "errors": []
    },
    "news": {
-    "last_run": "2026-10-28T00:42:43Z",
+    "last_run": "2026-10-28T00:46:11Z",
     "ok": true,
     "feeds": 18,
     "fetched": 18,
-    "items": 560,
-    "added": 57,
+    "items": 605,
+    "added": 43,
     "total": 800,
     "errors": []
    },
@@ -12604,6 +12604,18 @@
    "fetched_at": "2026-10-28T00:42:45Z"
   },
   {
+   "id": "nc1f196f62a048f6e",
+   "title": "黄德几：AI产业债务恐逼近临界点｜即时新闻｜产经｜on.cc东网",
+   "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY3ZVNmlGUTd0OUtsNjlXSmJsMEx3aXJVOEhpSkVRTnppcGxteDVrWlZyYnpDMWNjamxxbVBieW5RZGc5ZjRWbFF3UEpZRUlkcER1cUtVZk9KVkJtc0lIdldreFZMaVVpWWFzX1B1VEtuZEVOal9pT1VnQzhXOF9neFlaUUxXMFJjbTlLTGJHMmtNUFE?oc=5",
+   "publisher": "on.cc東網",
+   "published": "2026-10-27T23:34:18Z",
+   "date": "2026-10-27",
+   "lang": "zh-CN",
+   "query": "AI 数据中心 融资 债券 when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T00:46:13Z"
+  },
+  {
    "id": "n72fd18b2511f11c8",
    "title": "Broadcom CEO says capital is ‘available’ after banks wavered",
    "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOUUdWZjRFVW1hY3BNNmo5aW1BaldnNEFidlN5d1NOV3JQdGFjNVJ3QWVYMFRJRXpZb2JJanVncVdxOG5ZY01CYXBZWElPRUlPckczTXZwYUVWMlVWWjNfaUh2cG1heEJmaV85d0lDd0txZWRUY3YtelRYTEdTQWltX2hYRi1iak5HLXY2bE1pUTF5Zw?oc=5",
@@ -12673,6 +12685,21 @@
    "fetched_at": "2026-10-28T00:42:45Z"
   },
   {
+   "id": "n072f3c28a83bf27b",
+   "title": "Meta Raises Nearly $100 Billion for AI: Nvidia Takes a $3 Billion Stake in Its Biggest Customer",
+   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcFBCRnlqRk9ORXRNMWFqdktpWkhOVGc2VXlpQlZybUxYdG1CZFJOMHprQnROVTNqOG1jNThGaHU5eHNkTi0yV1lLUTJMYkNzVkJ1R256Y3NBUzYwMzBaV2NPeVUxcHd2U1JvR25vajBPb2xZelkteHU0YTN6SjF2MTF2QzhxeXo0X0dkNXVST2lYeTV3WTZWdlBzaFExTjcwT25DclN4d1Q5MlAyVVBjbmFn?oc=5",
+   "publisher": "International Business Times, Singapore Edition",
+   "published": "2026-10-27T20:44:10Z",
+   "date": "2026-10-27",
+   "lang": "en-US",
+   "query": "(Microsoft OR Google OR Amazon OR Meta) AI infrastructure agreement billion when:7d",
+   "entities": [
+    "meta",
+    "nvidia"
+   ],
+   "fetched_at": "2026-10-28T00:46:13Z"
+  },
+  {
    "id": "n02b89b3f87284c6a",
    "title": "Eightpoint Announces Three-Year Beach Cleanup Sponsorship with Plastic Free Cayman",
    "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeHNZT2tnVGROdUtyaG1vbGN5ekJ2NlRQaURVZFJQQ1lxV0U4bnJWSENJSGViUTdIQkV0a1RlLU1WTWliaTVheW1ycUFjRmxMR3lxeTU2WDEwLWM5eVE5bXNsd0lrZUxsNzRVM0VZRmgxUnVCTTEtZFFDN3lhcGVRdlFtUWJhYnc2YTdreEhOWVZma0h3YlJGYVNEWU9EWnZtNEVuTFdiVW5iSjlGNkdqREI3OFBtVWNUSDV0dVpjWDk3aUl6QkpHSjlDZVQ1cDlaOFhpNA?oc=5",
@@ -12685,6 +12712,21 @@
    "fetched_at": "2026-10-28T00:42:45Z"
   },
   {
+   "id": "n274144709459b670",
+   "title": "Nebius vs. CoreWeave: Which neocloud stock has more debt?",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTG4tSzdyUTBhNmpWaXlsc2ZmZmVfckU0MEVWSGNKcm1uOUJEcC1xRUZtRGdqR0oydWF4ZUZhZ2s5bV83VkZuNDREQkhDWE1jYU9DRGktcWZROHpPdWJsOWg1Q2J6S0tROU9mdFc1OV84eEZWX1BaRUt4TEUzN1kzcW9rZkxQbTdCZWtr?oc=5",
+   "publisher": "Yahoo Finance Singapore",
+   "published": "2026-10-27T20:30:40Z",
+   "date": "2026-10-27",
+   "lang": "en-US",
+   "query": "(CoreWeave OR Nebius OR Oracle OR Crusoe) contract billion when:7d",
+   "entities": [
+    "coreweave",
+    "nebius"
+   ],
+   "fetched_at": "2026-10-28T00:46:13Z"
+  },
+  {
    "id": "n3e9352c68afa9c42",
    "title": "Trustmark Corporation Announces Third Quarter 2026 Financial Results",
    "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZHhKRWstcHh4cUZrc0NpcnRGSHhDOE5DVmFSMnN3T05iWWdLcGZ0NzlJNHVfS2lGanVJTlN4eDNqazFRemljcW5VRTNPTVRKX015RlRfdlgtQkdVWE45TkhsVVRENU1qSDIybUlSUXpWSGdOQlQ0OEtVSFlOcXljMk9zcndKNXZQeXJBekU2U1Y0NHZ0Q1V0ZHU2ZHUtZjBiZ3NBUjBSZW15d2RSeUZNZXdxQktxamFFbnpnOTNzaFY0TEU?oc=5",
@@ -12695,6 +12737,18 @@
    "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
    "entities": [],
    "fetched_at": "2026-10-28T00:42:45Z"
+  },
+  {
+   "id": "nd8dfb66f99f75cf8",
+   "title": "Novogratz Says Credit Market Is Reaching ‘Peak Nervousness’",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWC1NSDE2RXFISDBmcjhwbHJpOEpncXVOMnVWVVFVQkRGWlZrdkVTbzJUSFRYOXEzRkwtV25NRmNBTHFQbFRGSTl3VF9iTzBSZVN0RHIzMk15Mmp0WV8tdmw3TlJ4dDFabzhYYW1NeFd5UkQ3azZrUWhINHE5Z1YxMmQtVl9YVEhwM1Q0WENWUW9xTnFiZzhBaG9EY2liVURDTkZyZ3pzS0xLd3Q2cmfSAbMBQVVfeXFMTVZISEItSzNxVy1VbUdQaG91ZHRGNjRjQ1lIRDlrQWdxOXlrVDE2aGVKVWpEMU9uY2M3bXB1SlJTczZRLXlyWWgxWS02UHpmZGxGX2ZDX2hqd1E1YkZhOVZQS2VaQWhaUGtqQi1mYzJRbFBNeTRLNDBBZDQ4Ykg0OW84eWJRTGpEVW1Ed2ZiSHJmYXdqZ1JoU3VrMXVzbnk4QXhmWmcxWW9yRnpSc0NXLVV2ZWM?oc=5",
+   "publisher": "Livemint",
+   "published": "2026-10-27T20:28:03Z",
+   "date": "2026-10-27",
+   "lang": "en-US",
+   "query": "(CoreWeave OR Nebius OR Oracle OR Crusoe) contract billion when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T00:46:13Z"
   },
   {
    "id": "nb8cbeeef820042f9",
@@ -12877,6 +12931,18 @@
     "anthropic"
    ],
    "fetched_at": "2026-10-27T20:13:24Z"
+  },
+  {
+   "id": "nce03bf20b8ac162c",
+   "title": "AI Data Centres Face a Debt Reckoning, Not an Investment Collapse",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNY2xRTmdfamRDY3d5emNYZWo2aVdsMENrWjNqNFVaRnlOWHM0YVd0OUh0Q3ZrTlQ0N25QZzJwQi1mbUxVa2RlNHN3bElJZkFwTFlGVGNrUndDRmNpdkNPcVFEZ3JSbWJZS04yd0N1d2N3b3UyZlFvc1lmdFV0Y3NLSlJrYnk3OW5ncHpFME4wWHY?oc=5",
+   "publisher": "Urban Acres",
+   "published": "2026-10-27T18:42:58Z",
+   "date": "2026-10-27",
+   "lang": "en-US",
+   "query": "AI data center financing debt when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T00:46:13Z"
   },
   {
    "id": "nc1b56870363eb979",
@@ -13266,72 +13332,6 @@
     "nvidia"
    ],
    "fetched_at": "2026-10-28T00:42:45Z"
-  },
-  {
-   "id": "nf325d940f9ff36a8",
-   "title": "马斯克警告AI云计算公司面临\"死亡潮\"，法国国债因避免降级而反弹",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMEh1ZWdSeHVCcXg0MzQtaVhmSHlPMDZYaGQ5Qnh3bFByMXcwcTZjUUVpNENXMDlmQmFOSUFRNzdicFYzTU1PZjhvZzIyTkdFTDJlYllxVEcxQnBlbzZuLVFraWZxRDA4dURGdHNEdUZKNmxxT2VqZ2t4djdZdk9jeG80RHN3WWZC?oc=5",
-   "publisher": "搜狐网",
-   "published": "2026-10-27T15:19:00Z",
-   "date": "2026-10-27",
-   "lang": "zh-CN",
-   "query": "AI 数据中心 发债 OR 贷款 OR 可转债 when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-27T15:31:39Z"
-  },
-  {
-   "id": "nc512a070c121fe28",
-   "title": "blueharbor bank Announces Cash Dividend",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNVFYtR3lUNExONHN0U3U5amQxajQ4N0Q0bl91Tml1alBmQ2Jpd2lJMlpncjl6RTF2MFhGOUFldDlzcDdhOTBpNWpuSV9XRkhGUW5HWFl4MlEyRlhTMV9NN0ZGdzNhcUFIQ1h2bkozcDVSTlBiVk5KZmdhdndZcHpob251X3hvLWM2cjViNWgyYjRiVG42UU1MUGtlVQ?oc=5",
-   "publisher": "PR Newswire",
-   "published": "2026-10-27T15:17:56Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-27T15:31:39Z"
-  },
-  {
-   "id": "nf1c7c13cd3e6e1b5",
-   "title": "Moody's says AI financing is expanding private credit as refinancing risks build",
-   "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaUp0eFJyUm9lN0RzWUFITnJ5am8tYS1nNVRmS1VFRHJHSHZ6MXd4bDB0bEx6a1VFc3AtOC1MYUx6WTFzanY4RDBuYUNxaHYxTWhaVVZRbkU3Q0gzT3ZadHhiZkZ0ekZmRUtLQW5OdDNKc1A3Qk9ELVJsLXp4NFpDRGhYVVpuY0dRLUFhSllwc21iTktjcElLZmJyRQ?oc=5",
-   "publisher": "Traders Union",
-   "published": "2026-10-27T15:12:44Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "private credit AI data center loan when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-28T00:42:45Z"
-  },
-  {
-   "id": "nb8ccea429871902f",
-   "title": "Broadcom organizes $63bn deal with Bank of America, Blackstone, Citigroup, and Morgan Stanley to fund Anthropic chip purchases",
-   "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxQQ1hSSERYZERBVWNuR0NXMVBLSVRoV1dad1owWUl1NERLVVBxX1NlUE5YQWtSTGRnNHBySEV5Ylg5ckpsRUVjS182MFF3UlpPMy1rTTk3al9BSHduajJTMUtjejRVcG1nYVlUd25xVU1iNGQ3OHZrT0F6VDNqVFJTck1EWTlyU3pyVDlwTzFIRTUtdnFmYXQ0SHR4RFQ5RWgtSmFjZVZ5NXhnbVNDcDZmVm03ZGc0U3BZdl9zczA0ZHVrTTJCTkpZc1JoM0RtSkctR2FaeTcwRGI0eXJtTWhERC0ybVlBdDJjU2tjaXA2OWtLYkFMZWRWUkl3?oc=5",
-   "publisher": "Data Center Dynamics",
-   "published": "2026-10-27T15:07:11Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(Blue Owl OR Apollo OR Blackstone OR KKR OR Brookfield) data center financing when:7d",
-   "entities": [
-    "anthropic",
-    "bank-of-america",
-    "blackstone",
-    "broadcom",
-    "morgan-stanley"
-   ],
-   "fetched_at": "2026-10-27T15:31:39Z"
-  },
-  {
-   "id": "n2e6b17fcfa451261",
-   "title": "Argentum AI Seeks $5 Billion Private Credit Deal for Chips as Neocloud Funding Tightens",
-   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1YcHNBbXIzVGVUY2xvTktKZWpEdjUzaUVIeXNJQ0d6MGFmOWljWnBlSFRFcUwzamw0cXNxdWJVUWdYbmE3S0FqS05HaFBjUW40eGVaMjJJdHJ0aTZ2Yk4yYWx1YWlKMi1xTnJEZDBYUmUzckZyS0E?oc=5",
-   "publisher": "BigGo Finance",
-   "published": "2026-10-27T15:05:00Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "private credit AI data center loan when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-27T15:31:39Z"
   }
  ],
  "filings": [
