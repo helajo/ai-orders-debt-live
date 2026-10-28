@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-28T00:46:31Z",
+ "generated_at": "2026-10-28T00:52:03Z",
  "monitor": {
-  "last_run": "2026-10-28T00:46:11Z",
+  "last_run": "2026-10-28T00:51:44Z",
   "sec_items": 120,
   "news_items": 800,
   "candidates": 0,
@@ -9,7 +9,7 @@
   "model": null,
   "sources": {
    "sec": {
-    "last_run": "2026-10-28T00:46:11Z",
+    "last_run": "2026-10-28T00:51:44Z",
     "ok": true,
     "tickers": 22,
     "fetched": 22,
@@ -19,12 +19,12 @@
     "errors": []
    },
    "news": {
-    "last_run": "2026-10-28T00:46:11Z",
+    "last_run": "2026-10-28T00:51:44Z",
     "ok": true,
     "feeds": 18,
     "fetched": 18,
-    "items": 605,
-    "added": 43,
+    "items": 536,
+    "added": 25,
     "total": 800,
     "errors": []
    },
@@ -12630,6 +12630,20 @@
    "fetched_at": "2026-10-28T00:42:45Z"
   },
   {
+   "id": "n13ac30db74e3d4a2",
+   "title": "Did Oracle's 53% Drop Catch You Out? What Bears Saw",
+   "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOdnFMTE9KZDFVUmpJWUQ2eHNWNV9QQXA3YXkxNkVMS2JGOGc2akRGRUdfOFFZUnUzdlNfNXNzb2VBTDVvWWpIQm1vUkVtam90YlgyLXFvdVg5bEh2QXRaeE5Oc3RvVGpqV3lhSm15WUJhZVFUMWMxalhhUmNFb2tqQkdBRldmZFE4X2lRc1UzdTFZemVv?oc=5",
+   "publisher": "Yahoo Finance",
+   "published": "2026-10-27T22:12:06Z",
+   "date": "2026-10-27",
+   "lang": "en-US",
+   "query": "(Blue Owl OR Apollo OR Blackstone OR KKR OR Brookfield) data center financing when:7d",
+   "entities": [
+    "oracle"
+   ],
+   "fetched_at": "2026-10-28T00:51:47Z"
+  },
+  {
    "id": "n19c6375029415359",
    "title": "NVIDIA (NASDAQ: NVDA) To Invest $3 Billion In Meta (NASDAQ: META) As Companies Deepen AI Agent Infrastructure Bet",
    "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxPSDVwSlN3ZXFUdm5OVmhCc3V3RzdxaF9nejFuelNDTzZ2Z2hrM2I3b1F5bTc4eVZSLXZSN3EyLUFaU3JnSEEtSzdWc1ZNYlRBdS1lMTZfYkpobGk5Q2FIN2tSSng2TlBDSTl0eHVsU3E2X0JFeGpQbEZGYnlGVktHQnk4bU1pV1RkMUN3ak1NdzJtZEVJa3o0ZUMtVjdWbmZrQ0hmejhRRW9LZi1mZzZwNl9IZWZPeWZjR3Vqd09qdXFYeEt3RzF5UDBlVEw4Q21wMEVFMVRxamdXWW1QYnljQzF4Z3pIblRBeTBr?oc=5",
@@ -12749,6 +12763,20 @@
    "query": "(CoreWeave OR Nebius OR Oracle OR Crusoe) contract billion when:7d",
    "entities": [],
    "fetched_at": "2026-10-28T00:46:13Z"
+  },
+  {
+   "id": "nd23e3be94790e190",
+   "title": "Blue Owl Capital (OWL) Faces Earnings And Dividend Pressure, Is The Stock Below Fair Value?",
+   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSkltM2RFRnFBR2hORnhNNHRYek9DOVVKelZoRFlqbHA3aF83TGNwbnJROUp0eU43d1BLVWFKMGJmbGozTGJEOFIxbldrS285cDFELWlkcDJiTERPd2VvclA4NEZCa3JzYzNVNGtKM2FDY0Z6aXNmSnNKRXJKcVROVnhmWm5FTjRjYXM4T0tjeUxDWDFxUTk0bEZIOTItTGxfZkN3NnJibEtLQVVLSjNuSXY4T3hUZnhIMzY1Sk5RdW9WcHFJblFTX1BEQTF1SVZvQTBhYS1adzdyYjJlSHRZ0gHkAUFVX3lxTFBQZ29wc2FRZXRoQTM4eXlPcC1ZM21wckpRQjFtaEpSVHF1RVJhbVlmekNyZ0d4dVdVejBYNGVzVC1TbUZBWUlpcVpidWdCYXJJVlNacXllWUctdVpKMnZYWXFhb3FSWTlMRHozTTZDal9ia2dVSEtfX2hvU0d1aFpfMklWUk0yVkpaOXlEc3NYT3V1cHNxbW1aUG80T2R1SFNObjk3bFB5QTVnVVdQaUVzTFhmNlkzMmJrYXZWbUlWdzh2T2ZUQ01HTC1kVXR2VlJoM3MyOGc3UEFpVDFtcGU3a2daTA?oc=5",
+   "publisher": "Simply Wall Street",
+   "published": "2026-10-27T20:23:11Z",
+   "date": "2026-10-27",
+   "lang": "en-US",
+   "query": "(Blue Owl OR Apollo OR Blackstone OR KKR OR Brookfield) data center financing when:7d",
+   "entities": [
+    "blue-owl"
+   ],
+   "fetched_at": "2026-10-28T00:51:47Z"
   },
   {
    "id": "nb8cbeeef820042f9",
@@ -13099,6 +13127,20 @@
    "fetched_at": "2026-10-27T20:13:24Z"
   },
   {
+   "id": "n1993fd0343424eba",
+   "title": "Nvidia clears 45,000 GPUs for Firebird’s Kazakhstan data center",
+   "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE10Z09QMlFvR2FhLTduZDhGZW9qWWY3OWEwUUowRjAxZ2YxaVFvVjNaM1kxbWdBaTk5RktKeUxPSW0zdEMydHRGN2JsVlVMRDFRZ0VfYjhJUGQ4Nzc3VS1aaWhfaHhXNDF3RmF3S05kVE52MEE?oc=5",
+   "publisher": "Crypto Briefing",
+   "published": "2026-10-27T17:19:06Z",
+   "date": "2026-10-27",
+   "lang": "en-US",
+   "query": "AI data center financing debt when:7d",
+   "entities": [
+    "nvidia"
+   ],
+   "fetched_at": "2026-10-28T00:51:47Z"
+  },
+  {
    "id": "ndc68e30940af3599",
    "title": "SMCI-Backed Argentum AI In Talks To Secure $5B To Finance Chip Buying: Report",
    "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPckZtQ3hHRFA2QWFidWZuYmZqeWZHSHZUZjRWVWVLdlRqM1NkdnJ2MlVpaVNnbGV2X3RueVdpZlpwSDJ5MkJuMG1fSU9JMHdwUXN1VFNrblVibjkwUmh1aUItZklyRkNBQ2cxVHAyNVl6MEZ1YWw2NTJpMFcwR0JrcnlNVmZjMjRUamdVS195UFgtY1RFZ3NYMFdmSXREeURCbVZ6RzN3eGx0UFhLQ0RucVdYdXIwdHZmSlJGME9ZdW1XcFM4bVREVXNvV0pJd3pFU3c?oc=5",
@@ -13286,50 +13328,6 @@
    "entities": [
     "anthropic",
     "broadcom"
-   ],
-   "fetched_at": "2026-10-28T00:42:45Z"
-  },
-  {
-   "id": "naeb6d150eecdd4c3",
-   "title": "SpaceX ($SPCX) Locks in $40B GPU Financing Commitment as Elon Musk Expects Widespread Failures Among Specialized AI Cloud Operators",
-   "link": "https://news.google.com/rss/articles/CBMihwJBVV95cUxNQml6SUpucEdXdG5SLUhVQi1Cc3ZKQzFORjlOb0ppcG5XXzhwOWwtejZnckE4Zmphdm9UZ3JRbEZmaFlOa3V2cTFibUZmb1R6akpKOUNHV2IwZGRTZ3dSbUVjSnE2Ymh1dXBGTU40UER2Z01LVU5qV3VtWDQ2TDlLUDYtMDVmTC1PdTNlLThqdkhldWhnNXFFR3BYbkwxeHhNdVdaYUVvdTFQZGtKb1JXbzBKTmNwUXVKMVhrZmtYMkdXX2NCX1ZqbHpnQkFuNXpnVTlob09aRF9OTm5LZUdGY295UnpVZUxuRlEySktGWkswT3pXMU5ZVmR3RFpRRkdPVmVBUXpuYw?oc=5",
-   "publisher": "Crowdfund Insider",
-   "published": "2026-10-27T15:46:21Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(xAI OR SpaceX OR Mistral) raises OR financing OR debt when:7d",
-   "entities": [
-    "spacex"
-   ],
-   "fetched_at": "2026-10-27T20:13:24Z"
-  },
-  {
-   "id": "n270b822056bdb828",
-   "title": "Tamara Toles O'Laughlin Named New President and Chief Executive Officer of The New York Women's Foundation",
-   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxNN3NZWTFaOFFzVzBjV2hzVlQ0RU5JQ1hSMGFrZjdzVC10Z1RqQU5wZVJIQ3dvb2tkODNmVlFaSHJaT0hjNzdUbnRzM01oYXItTVZJWEVObUpDbTFUaExkZTUyaDctVjcxY3RnSEwyTW42djItcEpIRkw5VnNvUVlTMEFjbmJmZE4tOERMU0ZRTjhZSkxobmh0VjdEVlQtbXVuTEVSQVVuWHlkdnRObWRtdVFoZ2JSUGZfOGQzNFBpeEhhMGhRWHZEa2xDNF9tZ045eXE2UUZ3cnphcGlUYUxGbHdvZFpEUUNQS3BjdWZRa0JjQQ?oc=5",
-   "publisher": "PR Newswire",
-   "published": "2026-10-27T15:30:00Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-27T20:13:24Z"
-  },
-  {
-   "id": "naa6ece48dac90467",
-   "title": "Google TPUs Are Cheaper Than NVIDIA GPUs, Yet Anthropic’s $63 Billion TPU Financing Hit A Roadblock Until Broadcom Sweetened Terms For Banks",
-   "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxOZnU0SEVmMnV1RnA1VGU0eGw2TjhJakFuUHJzWWlwM3pEWmJXLXhsdno1eHFycVJMQkV3QzQ0TmlFbERGQ3NJSU1WWUszZ3RYVGxnRkNnMUJWbURoZC1fbnJsci1WOG05dW8zaFp1X2ExU01fT1daOWZZQWtfM085RXNBSkVLQ25fOXFlNVctZ1dscUYyMDk0YWp2aVdURFk5VjMwWTBYOGtTTnR6VGszdUxVaG9HRktJVmt2a25FckhRTGZndW5nbFdTeEZ2NTVzY0NHSWdIUUN3MmtyY2l1QTZPVXAxU2piSXNpU3FxRlNEd9IB9wFBVV95cUxPeHNsM3ByUjNnZlcybS10SFNQM1JpMXJxY2VYR0xMejJsN1duZ3U1LTNwd1BCWDl2TFV3VlotelZ4bmp3c1dzbGg4N05fdVY3SHJ2bnZZQXMtbmMyUTJuVjFrdU9ycmhQWFlOd1NmUHp2OUNFQnRrZVNRN2lheW1PelR1S1FlS2pVeGFIZUFrRFFSaV9kdjJndy02VjF3cGVXOUFHcFRDcGFDcEZ6ZlFMVkpOMTNRUzhzbEFYSVRwek9MZEVLUm9oQ1EtbVEyNWpyV01jR1JmbHFSb1l6R1BaTWRCTHZWQjRZeGhtQVhaYkphTm54VG93?oc=5",
-   "publisher": "Wccftech",
-   "published": "2026-10-27T15:27:43Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(OpenAI OR Anthropic OR xAI) compute deal billion when:7d",
-   "entities": [
-    "aip",
-    "alphabet",
-    "anthropic",
-    "broadcom",
-    "nvidia"
    ],
    "fetched_at": "2026-10-28T00:42:45Z"
   }
