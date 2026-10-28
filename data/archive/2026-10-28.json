@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T22:22:27Z",
+ "generated_at": "2026-10-28T22:46:33Z",
  "monitor": {
   "last_run": "2026-10-28T18:28:43Z",
   "sec_items": 120,
@@ -449,7 +449,7 @@
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 526200000000,
+     "order": 536200000000,
      "investment": 0,
      "debt": 0,
      "lease": 189300000000,
@@ -465,19 +465,19 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 11,
+     "order": 12,
      "investment": 0,
      "debt": 0,
      "lease": 3,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 30,
-    "degree_curated": 30,
+    "degree": 31,
+    "degree_curated": 31,
     "candidate_edges": 0,
-    "counterparties": 19,
+    "counterparties": 20,
     "inflow_total_usd": 175500000000,
-    "outflow_total_usd": 715500000000
+    "outflow_total_usd": 725500000000
    }
   },
   {
@@ -5390,7 +5390,7 @@
    "origin": "research",
    "stats": {
     "inflow_usd": {
-     "order": 0,
+     "order": 10000000000,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -5406,7 +5406,7 @@
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 0,
+     "order": 1,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -5421,11 +5421,11 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 1,
-    "degree_curated": 1,
+    "degree": 2,
+    "degree_curated": 2,
     "candidate_edges": 0,
-    "counterparties": 1,
-    "inflow_total_usd": 0,
+    "counterparties": 2,
+    "inflow_total_usd": 10000000000,
     "outflow_total_usd": 4700000000
    }
   },
@@ -5502,6 +5502,12 @@
      "publisher": "CNBC",
      "date": "2026-10-27",
      "title": "Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership"
+    },
+    {
+     "url": "https://www.digitimes.com/news/a20261028VL215/amd-meta-chips-2026-nvidia.html",
+     "publisher": "DigiTimes",
+     "date": "2026-10-28",
+     "title": "AMD to invest US$1 billion in Meta's stock sale as Helios racks enter testing"
     }
    ],
    "origin": "curated"
@@ -5812,8 +5818,8 @@
    "confidence": "confirmed",
    "title_en": "Meta's $37.5B share and mandatory convertible offerings",
    "title_zh": "Meta 发行 375 亿美元普通股与强制可转换优先股",
-   "summary_en": "Meta priced $25 billion of Class A common stock sold through forward sale agreements with Morgan Stanley and Goldman Sachs and $12.5 billion of 6.50% mandatory convertible preferred stock, to fund its AI build-out; Reuters described the wider plan as about $95 billion. NVIDIA said it would invest $3 billion in the offering (separate edge).",
-   "summary_zh": "Meta 定价发行 250 亿美元 A 类普通股（通过与摩根士丹利、高盛的远期出售协议）及 125 亿美元、股息率 6.50% 的强制可转换优先股，为 AI 基础设施建设融资；路透社称整体融资计划约 950 亿美元。英伟达表示将在此次发行中投资 30 亿美元（另列一条）。",
+   "summary_en": "Meta priced $25 billion of Class A common stock sold through forward sale agreements with Morgan Stanley and Goldman Sachs and $12.5 billion of 6.50% mandatory convertible preferred stock, to fund its AI build-out; Reuters described the wider plan as about $95 billion. NVIDIA ($3 billion) and AMD ($1 billion) said they would invest in the offering (separate edges).",
+   "summary_zh": "Meta 定价发行 250 亿美元 A 类普通股（通过与摩根士丹利、高盛的远期出售协议）及 125 亿美元、股息率 6.50% 的强制可转换优先股，为 AI 基础设施建设融资；路透社称整体融资计划约 950 亿美元。英伟达（30 亿美元）和 AMD（10 亿美元）表示将参与认购（另列）。",
    "sources": [
     {
      "url": "https://www.sec.gov/Archives/edgar/data/0001326801/000119312526432549/d382225dfwp.htm",
@@ -5969,7 +5975,7 @@
    "from": "nvidia",
    "to": "kyec",
    "amount_usd": 1100000000,
-   "amount_text": "$1.1B capacity-reservation advance for new US testing facilities (KYEC did not disclose the amount; agreement signed 2026-10-13 per Dealroom)",
+   "amount_text": "$1.1B capacity-reservation advance per NVIDIA; KYEC's own disclosure allows up to NT$45B (~$1.4B) of prepayments for its US testing plant (subsidiary AeternZ), agreement signed 2026-10-13",
    "announced": "2026-10-21",
    "term": "high-volume production targeted for April 2027",
    "status": "signed",
@@ -5990,6 +5996,12 @@
      "publisher": "TIKR",
      "date": "2026-10-22",
      "title": "Nvidia's $1.1 Billion KYEC Deal Is the Small Number in a $279 Billion Supply Bet"
+    },
+    {
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/07/10/nvidia-supplier-king-yuan-electronics-to-invest-up-to-14-billion-in-us-facility",
+     "publisher": "The Star (Reuters)",
+     "date": "2026-07-10",
+     "title": "Nvidia supplier King Yuan Electronics to invest up to $1.4 billion in US facility"
     }
    ],
    "origin": "curated"
@@ -7040,6 +7052,38 @@
      "publisher": "Bloomberg",
      "date": "2026-08-28",
      "title": "SoftBank Seeks Another $10 Billion Loan for OpenAI Stake Funding"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "anthropic-volta-2026-08-cloud",
+   "kind": "order",
+   "subkind": "cloud compute contract",
+   "from": "anthropic",
+   "to": "volta",
+   "amount_usd": 10000000000,
+   "amount_text": "~$10B over six years (Bloomberg); Volta did not name the customer and Anthropic declined to comment",
+   "announced": "2026-08-04",
+   "term": "6 years; phased delivery from late 2026",
+   "status": "reported",
+   "confidence": "reported",
+   "title_en": "Anthropic's ~$10B compute deal with Volta",
+   "title_zh": "Anthropic 与 Volta 约 100 亿美元的算力合同",
+   "summary_en": "Volta, an Nvidia-backed AI cloud start-up founded in January 2026 by former Brookfield executives, announced a six-year, ~$10 billion compute partnership with an unnamed AI lab that Bloomberg reported is Anthropic. The capacity runs on Nvidia Vera Rubin systems at Bitdeer's Tydal campus in Norway, which Volta leases (separate edge).",
+   "summary_zh": "由前布鲁克菲尔德高管于 2026 年 1 月创立、获英伟达支持的 AI 云初创公司 Volta 宣布与一家未具名 AI 实验室签订为期六年、约 100 亿美元的算力合作，彭博社报道该客户为 Anthropic。算力部署于 Volta 向比特小鹿租用的挪威 Tydal 园区（另列），采用英伟达 Vera Rubin 系统。",
+   "sources": [
+    {
+     "url": "https://news.bloombergtax.com/financial-accounting/anthropic-inks-10-billion-computing-deal-with-new-cloud-startup",
+     "publisher": "Bloomberg",
+     "date": "2026-08-04",
+     "title": "Anthropic Inks $10 Billion Computing Deal With Cloud Startup"
+    },
+    {
+     "url": "https://the-decoder.com/anthropic-locks-in-10-billion-of-compute-from-volta-a-cloud-startup-that-didnt-exist-six-months-ago/",
+     "publisher": "The Decoder",
+     "date": "2026-08-05",
+     "title": "Anthropic locks in $10 billion of compute from Volta, a cloud startup that didn't exist six months ago"
     }
    ],
    "origin": "curated"
@@ -17452,13 +17496,13 @@
  ],
  "stats": {
   "entities": 111,
-  "edges": 317,
-  "curated_edges": 317,
+  "edges": 318,
+  "curated_edges": 318,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
-    "count": 84,
-    "usd": 1782889000000,
+    "count": 85,
+    "usd": 1792889000000,
     "undisclosed": 40,
     "cancelled": 0
    },
@@ -17519,7 +17563,7 @@
     "usd": 0
    }
   },
-  "total_usd": 4119541600000.0,
+  "total_usd": 4129541600000.0,
   "latest_announced": "2026-10-27"
  },
  "notes": {
