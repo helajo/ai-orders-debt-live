@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T22:20:23Z",
+ "generated_at": "2026-10-28T22:22:27Z",
  "monitor": {
   "last_run": "2026-10-28T18:28:43Z",
   "sec_items": 120,
@@ -3284,7 +3284,7 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 76500000000,
+     "investment": 41500000000,
      "debt": 55000000000,
      "lease": 0,
      "vendor_financing": 0,
@@ -3300,7 +3300,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 4,
+     "investment": 3,
      "debt": 2,
      "lease": 0,
      "vendor_financing": 0,
@@ -3314,11 +3314,11 @@
      "vendor_financing": 0,
      "guarantee": 1
     },
-    "degree": 23,
-    "degree_curated": 23,
+    "degree": 22,
+    "degree_curated": 22,
     "candidate_edges": 0,
     "counterparties": 14,
-    "inflow_total_usd": 131500000000,
+    "inflow_total_usd": 96500000000,
     "outflow_total_usd": 95200000000
    }
   },
@@ -4272,7 +4272,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 183866100000,
+     "investment": 148866100000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -4288,18 +4288,18 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 7,
+     "investment": 6,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 7,
-    "degree_curated": 7,
+    "degree": 6,
+    "degree_curated": 6,
     "candidate_edges": 0,
     "counterparties": 5,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 183866100000
+    "outflow_total_usd": 148866100000
    }
   },
   {
@@ -5826,27 +5826,7 @@
      "publisher": "Meta Platforms (SEC 424B5)",
      "date": "2026-10-26",
      "title": "Meta Platforms preliminary prospectus supplement"
-    }
-   ],
-   "origin": "curated"
-  },
-  {
-   "id": "public-equity-investors-meta-2026-10-stock-offering",
-   "kind": "investment",
-   "subkind": "public equity offering (forward-sale common stock + mandatory convertible preferred)",
-   "from": "public-equity-investors",
-   "to": "meta",
-   "amount_usd": 35000000000,
-   "amount_text": "~$35B launched 26 Oct 2026: $22.5B of Class A stock via forward sales (cash on or before 19 Nov 2027; $25.9B with the option) + ~$12.5B mandatory convertible preferred (250M depositary shares at $50). Includes the up to $5B NVIDIA, AMD and Broadcom indicated (NVIDIA $3B and AMD $1B are separate edges). A further up-to-$60B at-the-market programme planned from 2027 (total $95B) is not counted",
-   "announced": "2026-10-26",
-   "term": "Forward sales settle by 19 Nov 2027",
-   "status": "announced",
-   "confidence": "confirmed",
-   "title_en": "Meta launches $35B stock offering to fund AI build-out",
-   "title_zh": "Meta 启动 350 亿美元股票发行，为 AI 扩张融资",
-   "summary_en": "Meta launched about $35B of equity, $22.5B of Class A shares sold through forward agreements with Morgan Stanley and Goldman Sachs plus about $12.5B of mandatory convertible preferred, and said it plans a further at-the-market programme of up to $60B in 2027, up to $95B in all. NVIDIA, AMD and Broadcom indicated interest in buying up to $5B.",
-   "summary_zh": "Meta 启动约 350 亿美元股权融资：通过与摩根士丹利、高盛的远期协议出售 225 亿美元 A 类股，另发行约 125 亿美元强制可转换优先股；并计划 2027 年再推出最高 600 亿美元的按市价发行计划，合计最多 950 亿美元。英伟达、AMD 和博通表示有意认购最多 50 亿美元。",
-   "sources": [
+    },
     {
      "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526431040/d94886d424b5.htm",
      "publisher": "Meta (SEC 424B5)",
@@ -8548,6 +8528,9 @@
     }
    ],
    "added_by": "rules",
+   "distinct_from": [
+    "bond-investors-alphabet-2026-05-euro-notes"
+   ],
    "origin": "curated"
   },
   {
@@ -9178,6 +9161,9 @@
      "date": "2026-05-08",
      "title": "CoreWeave 10-Q Q1 2026: $4.0B 1.75% Convertible Senior Notes due 2032"
     }
+   ],
+   "distinct_from": [
+    "bond-investors-coreweave-2026-04-notes"
    ],
    "origin": "curated"
   },
@@ -14367,6 +14353,9 @@
      "title": "Baidu Announces Completion of US$2 Billion Offering of Zero Coupon Exchangeable Bonds"
     }
    ],
+   "distinct_from": [
+    "bond-investors-baidu-2025-03-dim-sum"
+   ],
    "origin": "curated"
   },
   {
@@ -17463,8 +17452,8 @@
  ],
  "stats": {
   "entities": 111,
-  "edges": 318,
-  "curated_edges": 318,
+  "edges": 317,
+  "curated_edges": 317,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
@@ -17474,8 +17463,8 @@
     "cancelled": 0
    },
    "investment": {
-    "count": 102,
-    "usd": 959391100000,
+    "count": 101,
+    "usd": 924391100000,
     "undisclosed": 33,
     "cancelled": 2
    },
@@ -17530,7 +17519,7 @@
     "usd": 0
    }
   },
-  "total_usd": 4154541600000.0,
+  "total_usd": 4119541600000.0,
   "latest_announced": "2026-10-27"
  },
  "notes": {
