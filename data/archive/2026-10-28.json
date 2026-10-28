@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T03:20:39Z",
+ "generated_at": "2026-10-28T03:25:50Z",
  "monitor": {
   "last_run": "2026-10-28T00:58:32Z",
   "sec_items": 120,
@@ -352,7 +352,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 5000000000,
+     "investment": 6000000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -368,18 +368,18 @@
     },
     "outflow_count": {
      "order": 2,
-     "investment": 1,
+     "investment": 2,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 9,
-    "degree_curated": 9,
+    "degree": 10,
+    "degree_curated": 10,
     "candidate_edges": 0,
     "counterparties": 6,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 5000000000
+    "outflow_total_usd": 6000000000
    }
   },
   {
@@ -1570,7 +1570,7 @@
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 3300000000.0,
+     "debt": 4300000000.0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1586,7 +1586,7 @@
     "inflow_count": {
      "order": 0,
      "investment": 1,
-     "debt": 1,
+     "debt": 3,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1599,11 +1599,11 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 2,
-    "degree_curated": 2,
+    "degree": 4,
+    "degree_curated": 4,
     "candidate_edges": 0,
-    "counterparties": 2,
-    "inflow_total_usd": 3300000000.0,
+    "counterparties": 4,
+    "inflow_total_usd": 4300000000.0,
     "outflow_total_usd": 0
    }
   },
@@ -2362,7 +2362,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 95000000000,
+     "debt": 95500000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -2378,17 +2378,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 7,
+     "debt": 8,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 7,
-    "degree_curated": 7,
+    "degree": 8,
+    "degree_curated": 8,
     "candidate_edges": 0,
-    "counterparties": 6,
+    "counterparties": 7,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 95000000000
+    "outflow_total_usd": 95500000000
    }
   },
   {
@@ -2696,7 +2696,7 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 4000000000,
      "debt": 55000000000,
      "lease": 0,
      "vendor_financing": 0,
@@ -2712,7 +2712,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 2,
      "debt": 2,
      "lease": 0,
      "vendor_financing": 0,
@@ -2726,11 +2726,11 @@
      "vendor_financing": 0,
      "guarantee": 1
     },
-    "degree": 19,
-    "degree_curated": 19,
+    "degree": 21,
+    "degree_curated": 21,
     "candidate_edges": 0,
     "counterparties": 13,
-    "inflow_total_usd": 55000000000,
+    "inflow_total_usd": 59000000000,
     "outflow_total_usd": 95200000000
    }
   },
@@ -3097,7 +3097,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 14126000000,
+     "debt": 14626000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -3113,17 +3113,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 5,
+     "debt": 6,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 5,
-    "degree_curated": 5,
+    "degree": 6,
+    "degree_curated": 6,
     "candidate_edges": 0,
-    "counterparties": 4,
+    "counterparties": 5,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 14126000000
+    "outflow_total_usd": 14626000000
    }
   },
   {
@@ -3341,7 +3341,7 @@
     },
     "outflow_usd": {
      "order": 29500000000,
-     "investment": 50000000000,
+     "investment": 53000000000,
      "debt": 0,
      "lease": 1500000000,
      "vendor_financing": 0,
@@ -3357,18 +3357,18 @@
     },
     "outflow_count": {
      "order": 6,
-     "investment": 9,
+     "investment": 10,
      "debt": 0,
      "lease": 1,
      "vendor_financing": 0,
      "guarantee": 1
     },
-    "degree": 23,
-    "degree_curated": 23,
+    "degree": 24,
+    "degree_curated": 24,
     "candidate_edges": 0,
     "counterparties": 20,
     "inflow_total_usd": 65000000000.0,
-    "outflow_total_usd": 186000000000
+    "outflow_total_usd": 189000000000
    }
   },
   {
@@ -4745,6 +4745,76 @@
   }
  ],
  "edges": [
+  {
+   "id": "amd-meta-2026-10-equity-investment",
+   "kind": "investment",
+   "subkind": "equity stake (share offering)",
+   "from": "amd",
+   "to": "meta",
+   "amount_usd": 1000000000,
+   "amount_text": "$1B in Meta's equity offering (with NVIDIA's $3B, $4B combined)",
+   "announced": "2026-10-27",
+   "term": null,
+   "status": "announced",
+   "confidence": "reported",
+   "title_en": "AMD invests $1B in Meta's share offering",
+   "title_zh": "AMD 向 Meta 股票发行投资 10 亿美元",
+   "summary_en": "AMD said it will invest $1B in Meta's equity offering on the same day as NVIDIA's $3B, as part of Meta's ~$95B AI financing plan.",
+   "summary_zh": "AMD 宣布将在 Meta 的股票发行中投资 10 亿美元，与英伟达的 30 亿美元同日公布，属于 Meta 约 950 亿美元 AI 融资计划的一部分。",
+   "sources": [
+    {
+     "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
+     "publisher": "CNBC",
+     "date": "2026-10-27",
+     "title": "Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "nvidia-meta-2026-10-equity-investment",
+   "kind": "investment",
+   "subkind": "equity stake (share offering)",
+   "from": "nvidia",
+   "to": "meta",
+   "amount_usd": 3000000000,
+   "amount_text": "$3B in Meta's equity offering (part of Meta's ~$95B financing plan announced 26 Oct 2026)",
+   "announced": "2026-10-27",
+   "term": null,
+   "status": "announced",
+   "confidence": "reported",
+   "title_en": "NVIDIA invests $3B in Meta's share offering, expands Muse partnership",
+   "title_zh": "英伟达向 Meta 股票发行投资 30 亿美元，扩大 Muse 合作",
+   "summary_en": "NVIDIA said it will invest $3B in Meta's equity offering, part of Meta's ~$95B AI financing plan, and the two will expand work on Meta's Muse models; Meta will widen its use of NVIDIA's Vera Rubin platform and Vera CPUs.",
+   "summary_zh": "英伟达宣布将在 Meta 的股票发行中投资 30 亿美元（属于 Meta 约 950 亿美元的 AI 融资计划），双方扩大在 Muse 模型上的合作；Meta 将扩大使用英伟达 Vera Rubin 平台和 Vera CPU。",
+   "sources": [
+    {
+     "url": "https://www.investing.com/news/stock-market-news/nvidia-meta-partner-on-muse-agent-as-nvidia-invests-3-billion-4974243",
+     "publisher": "Reuters (via Investing.com)",
+     "date": "2026-10-27",
+     "title": "Nvidia, Meta partner on Muse agent as Nvidia invests $3 billion"
+    },
+    {
+     "url": "https://www.axios.com/2026/10/27/nvidia-meta-muse-investment",
+     "publisher": "Axios",
+     "date": "2026-10-27",
+     "title": "Nvidia investing $3 billion in Meta in Muse partnership"
+    },
+    {
+     "url": "https://finance.yahoo.com/markets/article/nvidia-to-invest-3-billion-in-meta-expand-partnership-on-muse-125249944.html",
+     "publisher": "Yahoo Finance",
+     "date": "2026-10-27",
+     "title": "Nvidia to invest $3 billion in Meta, expand partnership on Muse"
+    },
+    {
+     "url": "https://www.cnbc.com/2026/10/27/nvidia-invest-meta.html",
+     "publisher": "CNBC",
+     "date": "2026-10-27",
+     "title": "Nvidia, AMD to invest $4 billion in Meta as tech giants deepen AI partnership"
+    }
+   ],
+   "origin": "curated"
+  },
   {
    "id": "spacex-apollo-2026-10-gpu-finance-lease",
    "kind": "lease",
@@ -6615,19 +6685,19 @@
   {
    "id": "bond-investors-core-scientific-2026-05-financing",
    "kind": "debt",
-   "subkind": "financial obligation",
+   "subkind": "senior secured notes",
    "from": "bond-investors",
    "to": "core-scientific",
    "amount_usd": 3300000000.0,
-   "amount_text": "$3.3B (corrected on approval)",
+   "amount_text": "$3.3B 7.750% Senior Secured Notes due 2031, issued at 99.250% by Core Scientific Finance I LLC (net proceeds ~$3.24B)",
    "announced": "2026-05-06",
-   "term": null,
+   "term": "due 15 May 2031",
    "status": "completed",
    "confidence": "confirmed",
-   "title_en": "Core Scientific financing",
-   "title_zh": "Core Scientific 融资",
-   "summary_en": "Core Scientific reported a new direct financial obligation (financial obligation) in an 8-K filed on 2026-05-06.",
-   "summary_zh": "Core Scientific在 2026-05-06 提交的 8-K 中披露了一项新的直接财务义务（融资）。",
+   "title_en": "Core Scientific $3.3B senior secured notes due 2031",
+   "title_zh": "Core Scientific 发行 33 亿美元优先担保票据（2031 年到期）",
+   "summary_en": "A Core Scientific subsidiary completed a private offering of $3.3B of 7.750% senior secured notes due 2031 on 6 May 2026; proceeds fund a debt service reserve and repay the bridge loans.",
+   "summary_zh": "Core Scientific 子公司于 2026 年 5 月 6 日完成 33 亿美元、利率 7.750%、2031 年到期的优先担保票据私募发行，所得用于偿债准备金并偿还过桥贷款。",
    "sources": [
     {
      "url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312526208905/d47435d8k.htm",
@@ -7312,6 +7382,44 @@
    "origin": "curated"
   },
   {
+   "id": "jpmorgan-core-scientific-2026-03-bridge-loan",
+   "kind": "debt",
+   "subkind": "364-day delayed-draw bridge term loan (increase)",
+   "from": "jpmorgan",
+   "to": "core-scientific",
+   "amount_usd": 500000000,
+   "amount_text": "$500M added on 18 March 2026, bringing the bridge facility to $1.0B; repaid 6 May 2026",
+   "announced": "2026-03-18",
+   "term": "364 days",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "JPMorgan $500M bridge loan to Core Scientific (repaid)",
+   "title_zh": "摩根大通向 Core Scientific 提供 5 亿美元过桥贷款（已偿还）",
+   "summary_en": "An amendment of 18 March 2026 used the accordion in Core Scientific's bridge facility to add $500M of commitments from JPMorgan Chase Bank, taking it to $1.0B; repaid in full on 6 May 2026 from the $3.3B notes offering.",
+   "summary_zh": "2026 年 3 月 18 日的修订协议启用过桥信贷的增额条款，由摩根大通新增 5 亿美元承诺额，总额增至 10 亿美元；2026 年 5 月 6 日以 33 亿美元票据发行所得全部偿还。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026020327/core-20260318.htm",
+     "publisher": "SEC EDGAR (Core Scientific 8-K)",
+     "date": "2026-03-18",
+     "title": "Core Scientific 8-K: amendment to the Delayed-Draw Bridge Credit Agreement"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001839341/000183934126000014/core-20260630.htm",
+     "publisher": "SEC EDGAR (Core Scientific 10-Q)",
+     "date": "2026-08-01",
+     "title": "Core Scientific 10-Q for the quarter ended 30 June 2026"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001839341/000119312526208905/d47435d8k.htm",
+     "publisher": "SEC EDGAR (Core Scientific 8-K)",
+     "date": "2026-05-06",
+     "title": "Core Scientific 8-K: completion of $3.3B notes offering; bridge loans repaid"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "meta-nebius-2026-03-cloud",
    "kind": "order",
    "subkind": "cloud compute contract",
@@ -7505,6 +7613,44 @@
      "publisher": "The Asia Business Daily",
      "date": "2026-03-06",
      "title": "Nvidia Surpasses Apple to Become TSMC's Largest Customer Amid AI Boom"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "morgan-stanley-core-scientific-2026-03-bridge-loan",
+   "kind": "debt",
+   "subkind": "364-day delayed-draw bridge term loan",
+   "from": "morgan-stanley",
+   "to": "core-scientific",
+   "amount_usd": 500000000,
+   "amount_text": "$500M of a $1.0B senior secured delayed-draw bridge facility (Term SOFR + 2.50%); repaid 6 May 2026",
+   "announced": "2026-03-04",
+   "term": "364 days",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Morgan Stanley $500M bridge loan to Core Scientific (repaid)",
+   "title_zh": "摩根士丹利向 Core Scientific 提供 5 亿美元过桥贷款（已偿还）",
+   "summary_en": "Core Scientific's 364-day Delayed-Draw Bridge Credit Agreement of 4 March 2026, with Morgan Stanley Senior Funding as administrative agent and initial $500M lender; it was repaid in full on 6 May 2026 from the $3.3B notes offering.",
+   "summary_zh": "Core Scientific 于 2026 年 3 月 4 日签订 364 天延迟提款过桥信贷协议，摩根士丹利为行政代理行并提供首批 5 亿美元；2026 年 5 月 6 日以 33 亿美元票据发行所得全部偿还。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1839341/000162828026020327/core-20260318.htm",
+     "publisher": "SEC EDGAR (Core Scientific 8-K)",
+     "date": "2026-03-18",
+     "title": "Core Scientific 8-K: amendment to the Delayed-Draw Bridge Credit Agreement"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001839341/000183934126000014/core-20260630.htm",
+     "publisher": "SEC EDGAR (Core Scientific 10-Q)",
+     "date": "2026-08-01",
+     "title": "Core Scientific 10-Q for the quarter ended 30 June 2026"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0001839341/000119312526208905/d47435d8k.htm",
+     "publisher": "SEC EDGAR (Core Scientific 8-K)",
+     "date": "2026-05-06",
+     "title": "Core Scientific 8-K: completion of $3.3B notes offering; bridge loans repaid"
     }
    ],
    "origin": "curated"
@@ -14619,8 +14765,8 @@
  ],
  "stats": {
   "entities": 96,
-  "edges": 258,
-  "curated_edges": 258,
+  "edges": 262,
+  "curated_edges": 262,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
@@ -14630,14 +14776,14 @@
     "cancelled": 0
    },
    "investment": {
-    "count": 87,
-    "usd": 821256100000,
+    "count": 89,
+    "usd": 825256100000,
     "undisclosed": 32,
     "cancelled": 2
    },
    "debt": {
-    "count": 83,
-    "usd": 847864000000.0,
+    "count": 85,
+    "usd": 848864000000.0,
     "undisclosed": 1,
     "cancelled": 0
    },
@@ -14686,8 +14832,8 @@
     "usd": 0
    }
   },
-  "total_usd": 3378779100000.0,
-  "latest_announced": "2026-10-26"
+  "total_usd": 3383779100000.0,
+  "latest_announced": "2026-10-27"
  },
  "notes": {
   "en": "Dollar totals sum curated edges with a disclosed amount, excluding cancelled ones; unverified candidates are counted separately. Descriptive only, not investment advice.",
