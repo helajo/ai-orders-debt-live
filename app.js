@@ -1407,7 +1407,8 @@
     var hot = G.hotSet;
     G.edgeSel.each(function (l) {
       var isHot = !!(hot && hot.has(l.id));
-      var geo = edgeGeometry(l, isHot ? Math.max(l.w, 2.5) : l.w, isHot ? avoidOffset(l) : 0);
+      var lifted = !!(G.liftSet && G.liftSet.has(l.id));
+      var geo = edgeGeometry(l, isHot ? Math.max(l.w, 2.5) : l.w, lifted ? avoidOffset(l) : 0);
       l.path = geo.line;
       var g = d3.select(this);
       g.select(".edge").attr("d", geo.line);
@@ -1480,11 +1481,24 @@
       .classed("is-dim", function (l) { return edgesOn ? !edgesOn.has(l.id) : false; })
       .classed("is-hot", function (l) { return edgesOn ? edgesOn.has(l.id) : false; })
       .classed("is-sel", function (l) { return !!selLink && selLink.id === l.id; });
-    var changed = !!(G.hotSet || edgesOn);
+    /* Lifting lines above the circles and bending them around other circles follows the clicked
+       selection only, never hover: a hovered line that moved away from the pointer would end the hover,
+       snap back under it and start it again, so the graph flickered. */
+    var liftOn = null, sel = state.sel;
+    if (sel && sel.type === "node") {
+      liftOn = new Set();
+      G.links.forEach(function (l) { if (l.from === sel.id || l.to === sel.id) liftOn.add(l.id); });
+    } else if (sel) {
+      var sl = focusLink(sel);
+      if (sl) liftOn = new Set([sl.id]);
+    }
+    var liftKey = liftOn ? Array.from(liftOn).sort().join(",") : "";
+    var changed = !!(G.hotSet || edgesOn) || liftKey !== (G.liftKey || "");
     G.hotSet = edgesOn;
-    /* move highlighted lines into the layer above the circles, and the rest back below them */
+    G.liftSet = liftOn;
+    G.liftKey = liftKey;
     G.edgeSel.each(function (l) {
-      var want = edgesOn && edgesOn.has(l.id) ? G.hotLayer.node() : G.edgeLayer.node();
+      var want = liftOn && liftOn.has(l.id) ? G.hotLayer.node() : G.edgeLayer.node();
       if (this.parentNode !== want) want.appendChild(this);
     });
     if (changed) drawPositions();
