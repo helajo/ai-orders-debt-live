@@ -984,6 +984,9 @@
     G.edgeLayer = G.layer.append("g").attr("class", "edges");
     G.hitLayer = G.layer.append("g").attr("class", "hits");
     G.nodeLayer = G.layer.append("g").attr("class", "nodes");
+    /* lines of the selected or hovered company are lifted above the circles, so an unrelated
+       circle can never hide them or their arrowheads (they stop at their own circles' edges) */
+    G.hotLayer = G.layer.append("g").attr("class", "edges edges--hot");
     G.labelLayer = G.layer.append("g").attr("class", "labels");
     G.nodes = new Map();
     G.zoom = d3.zoom().scaleExtent([0.15, 6])
@@ -1196,6 +1199,8 @@
   }
 
   function drawEdges() {
+    /* lifted lines go back to the normal layer first, so the data join sees (and can remove) them */
+    if (G.hotLayer) G.hotLayer.selectAll("g.edge-g").each(function () { G.edgeLayer.node().appendChild(this); });
     var sel = G.edgeLayer.selectAll("g.edge-g").data(G.links, function (l) { return l.id; });
     sel.exit().remove();
     var enter = sel.enter().append("g").attr("class", "edge-g");
@@ -1336,14 +1341,42 @@
   }
 
   /* w: the drawn width, so the arrowhead grows with an emphasised line */
-  function edgeGeometry(l, w) {
+  /* How far (along the line's canonical normal) a highlighted line must bow so that it passes
+     clear of every circle it is not connected to. 0 when the straight line is already clear. */
+  function avoidOffset(l) {
+    var s = l.source, tg = l.target;
+    var dx = tg.x - s.x, dy = tg.y - s.y;
+    var dist = Math.sqrt(dx * dx + dy * dy) || 1;
+    var nx = -dy / dist, ny = dx / dist;
+    if (l.canonFlip) { nx = -nx; ny = -ny; }
+    var best = 0, bestNeed = 0;
+    (G.nodeList || []).forEach(function (n) {
+      if (n === s || n === tg) return;
+      var px = n.x - s.x, py = n.y - s.y;
+      var t = (px * dx + py * dy) / (dist * dist);
+      if (t <= 0.08 || t >= 0.92) return;
+      var sd = px * nx + py * ny;            /* signed distance of the circle from the line */
+      var clear = n.r + 7;
+      if (Math.abs(sd) >= clear) return;
+      var need = clear + Math.abs(sd);        /* bow to the far side of the circle */
+      if (need > bestNeed) {
+        bestNeed = need;
+        /* a quadratic curve with control offset o is displaced 2t(1-t)o at parameter t */
+        best = -(sd >= 0 ? 1 : -1) * need / Math.max(0.18, 2 * t * (1 - t));
+      }
+    });
+    var cap = dist * 0.7;
+    return Math.max(-cap, Math.min(cap, best));
+  }
+
+  function edgeGeometry(l, w, extra) {
     var s = l.source, tg = l.target;
     var dx = tg.x - s.x, dy = tg.y - s.y;
     var dist = Math.sqrt(dx * dx + dy * dy) || 1;
     /* normal from the canonical (sorted id) direction, so A->B and B->A bow apart */
     var nx = -dy / dist, ny = dx / dist;
     if (l.canonFlip) { nx = -nx; ny = -ny; }
-    var off = l.offset * 2;
+    var off = l.offset * 2 + (extra || 0);
     var cx = (s.x + tg.x) / 2 + nx * off, cy = (s.y + tg.y) / 2 + ny * off;
     var sdx = cx - s.x, sdy = cy - s.y, sl = Math.sqrt(sdx * sdx + sdy * sdy) || 1;
     var edx = tg.x - cx, edy = tg.y - cy, el = Math.sqrt(edx * edx + edy * edy) || 1;
@@ -1365,7 +1398,8 @@
     if (!G.edgeSel) return;
     var hot = G.hotSet;
     G.edgeSel.each(function (l) {
-      var geo = edgeGeometry(l, hot && hot.has(l.id) ? Math.max(l.w, 2.5) : l.w);
+      var isHot = !!(hot && hot.has(l.id));
+      var geo = edgeGeometry(l, isHot ? Math.max(l.w, 2.5) : l.w, isHot ? avoidOffset(l) : 0);
       l.path = geo.line;
       var g = d3.select(this);
       g.select(".edge").attr("d", geo.line);
@@ -1440,6 +1474,11 @@
       .classed("is-sel", function (l) { return !!selLink && selLink.id === l.id; });
     var changed = !!(G.hotSet || edgesOn);
     G.hotSet = edgesOn;
+    /* move highlighted lines into the layer above the circles, and the rest back below them */
+    G.edgeSel.each(function (l) {
+      var want = edgesOn && edgesOn.has(l.id) ? G.hotLayer.node() : G.edgeLayer.node();
+      if (this.parentNode !== want) want.appendChild(this);
+    });
     if (changed) drawPositions();
     updateSectorVis();
     clearTimeout(G.declTimer);
