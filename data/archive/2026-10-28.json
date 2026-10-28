@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T03:33:41Z",
+ "generated_at": "2026-10-28T03:43:00Z",
  "monitor": {
   "last_run": "2026-10-28T00:58:32Z",
   "sec_items": 120,
@@ -100,7 +100,7 @@
     "inflow_usd": {
      "order": 0,
      "investment": 16100000000,
-     "debt": 0,
+     "debt": 2980000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -116,7 +116,7 @@
     "inflow_count": {
      "order": 0,
      "investment": 1,
-     "debt": 0,
+     "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -129,11 +129,11 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 1,
-    "degree_curated": 1,
+    "degree": 2,
+    "degree_curated": 2,
     "candidate_edges": 0,
-    "counterparties": 1,
-    "inflow_total_usd": 16100000000,
+    "counterparties": 2,
+    "inflow_total_usd": 19080000000,
     "outflow_total_usd": 0
    }
   },
@@ -245,7 +245,7 @@
    "origin": "core",
    "stats": {
     "inflow_usd": {
-     "order": 10000000000,
+     "order": 124500000000,
      "investment": 0,
      "debt": 89930000000.0,
      "lease": 0,
@@ -270,17 +270,17 @@
     },
     "outflow_count": {
      "order": 2,
-     "investment": 3,
+     "investment": 4,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 2
     },
-    "degree": 17,
-    "degree_curated": 17,
+    "degree": 18,
+    "degree_curated": 18,
     "candidate_edges": 0,
     "counterparties": 10,
-    "inflow_total_usd": 99930000000.0,
+    "inflow_total_usd": 214430000000.0,
     "outflow_total_usd": 80680000000
    }
   },
@@ -296,13 +296,13 @@
     "inflow_usd": {
      "order": 238000000000,
      "investment": 0,
-     "debt": 107800000000.0,
+     "debt": 113560000000.0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 0,
+     "order": 2000000000,
      "investment": 83000000000,
      "debt": 0,
      "lease": 5500000000,
@@ -312,25 +312,25 @@
     "inflow_count": {
      "order": 3,
      "investment": 0,
-     "debt": 4,
+     "debt": 5,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 1,
+     "order": 2,
      "investment": 3,
      "debt": 0,
      "lease": 1,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 12,
-    "degree_curated": 12,
+    "degree": 14,
+    "degree_curated": 14,
     "candidate_edges": 0,
-    "counterparties": 5,
-    "inflow_total_usd": 345800000000.0,
-    "outflow_total_usd": 88500000000
+    "counterparties": 6,
+    "inflow_total_usd": 351560000000.0,
+    "outflow_total_usd": 90500000000
    }
   },
   {
@@ -345,7 +345,7 @@
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 5000000000.0,
+     "debt": 4750000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -378,7 +378,7 @@
     "degree_curated": 11,
     "candidate_edges": 0,
     "counterparties": 7,
-    "inflow_total_usd": 5000000000.0,
+    "inflow_total_usd": 4750000000,
     "outflow_total_usd": 6000000000
    }
   },
@@ -394,41 +394,41 @@
     "inflow_usd": {
      "order": 0,
      "investment": 160500000000,
-     "debt": 20500000000,
+     "debt": 2500000000,
      "lease": 0,
-     "vendor_financing": 42000000000,
+     "vendor_financing": 0,
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 281000000000,
+     "order": 395500000000,
      "investment": 0,
      "debt": 0,
-     "lease": 0,
+     "lease": 161200000000,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "inflow_count": {
      "order": 0,
      "investment": 15,
-     "debt": 2,
+     "debt": 1,
      "lease": 0,
-     "vendor_financing": 1,
+     "vendor_financing": 0,
      "guarantee": 0
     },
     "outflow_count": {
      "order": 11,
      "investment": 0,
      "debt": 0,
-     "lease": 0,
+     "lease": 1,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 29,
-    "degree_curated": 29,
+    "degree": 28,
+    "degree_curated": 28,
     "candidate_edges": 0,
-    "counterparties": 18,
-    "inflow_total_usd": 223000000000,
-    "outflow_total_usd": 281000000000
+    "counterparties": 17,
+    "inflow_total_usd": 163000000000,
+    "outflow_total_usd": 556700000000
    }
   },
   {
@@ -745,7 +745,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 88230000000,
+     "debt": 91210000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -761,17 +761,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 5,
+     "debt": 6,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 5,
-    "degree_curated": 5,
+    "degree": 6,
+    "degree_curated": 6,
     "candidate_edges": 0,
-    "counterparties": 4,
+    "counterparties": 5,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 88230000000
+    "outflow_total_usd": 91210000000
    }
   },
   {
@@ -794,7 +794,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 520000000,
+     "debt": 44020000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -810,17 +810,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 1,
+     "debt": 2,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 1,
-    "degree_curated": 1,
+    "degree": 2,
+    "degree_curated": 2,
     "candidate_edges": 0,
-    "counterparties": 1,
+    "counterparties": 2,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 520000000
+    "outflow_total_usd": 44020000000
    }
   },
   {
@@ -892,7 +892,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 21100000000,
-     "debt": 35500000000,
+     "debt": 17500000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -918,7 +918,7 @@
     "candidate_edges": 0,
     "counterparties": 5,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 56600000000
+    "outflow_total_usd": 38600000000
    }
   },
   {
@@ -1039,7 +1039,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 476038000000.0,
+     "debt": 487048000000.0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1055,17 +1055,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 49,
+     "debt": 51,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 49,
-    "degree_curated": 49,
+    "degree": 51,
+    "degree_curated": 51,
     "candidate_edges": 0,
-    "counterparties": 23,
+    "counterparties": 24,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 476038000000.0
+    "outflow_total_usd": 487048000000.0
    }
   },
   {
@@ -1081,7 +1081,7 @@
      "order": 21000000000,
      "investment": 0,
      "debt": 17500000000,
-     "lease": 0,
+     "lease": 161200000000,
      "vendor_financing": 0,
      "guarantee": 0
     },
@@ -1090,14 +1090,14 @@
      "investment": 0,
      "debt": 0,
      "lease": 0,
-     "vendor_financing": 42000000000,
-     "guarantee": 0
+     "vendor_financing": 0,
+     "guarantee": 43000000000
     },
     "inflow_count": {
      "order": 5,
      "investment": 0,
      "debt": 4,
-     "lease": 0,
+     "lease": 1,
      "vendor_financing": 0,
      "guarantee": 0
     },
@@ -1106,15 +1106,15 @@
      "investment": 0,
      "debt": 0,
      "lease": 0,
-     "vendor_financing": 1,
-     "guarantee": 0
+     "vendor_financing": 0,
+     "guarantee": 1
     },
-    "degree": 11,
-    "degree_curated": 11,
+    "degree": 12,
+    "degree_curated": 12,
     "candidate_edges": 0,
-    "counterparties": 7,
-    "inflow_total_usd": 38500000000,
-    "outflow_total_usd": 242000000000
+    "counterparties": 8,
+    "inflow_total_usd": 199700000000,
+    "outflow_total_usd": 243000000000
    }
   },
   {
@@ -1163,6 +1163,55 @@
     "candidate_edges": 0,
     "counterparties": 1,
     "inflow_total_usd": 35000000000,
+    "outflow_total_usd": 0
+   }
+  },
+  {
+   "id": "broadcom-anthropic-rack-spv",
+   "name": "Anthropic rack-lease SPVs (Oct 2026 $63B Broadcom financing)",
+   "name_zh": "Anthropic 机架租赁特殊目的实体（2026 年 10 月博通 630 亿美元融资）",
+   "group": "spv",
+   "ticker": null,
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 43500000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 43000000000
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 2,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 1
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "degree": 3,
+    "degree_curated": 3,
+    "candidate_edges": 0,
+    "counterparties": 3,
+    "inflow_total_usd": 86500000000,
     "outflow_total_usd": 0
    }
   },
@@ -1522,7 +1571,7 @@
      "order": 0,
      "investment": 0,
      "debt": 1400000000,
-     "lease": 5500000000,
+     "lease": 9300000000,
      "vendor_financing": 0,
      "guarantee": 1730000000
     },
@@ -1538,7 +1587,7 @@
      "order": 0,
      "investment": 0,
      "debt": 1,
-     "lease": 1,
+     "lease": 2,
      "vendor_financing": 0,
      "guarantee": 1
     },
@@ -1550,12 +1599,61 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 3,
-    "degree_curated": 3,
+    "degree": 4,
+    "degree_curated": 4,
     "candidate_edges": 0,
-    "counterparties": 3,
-    "inflow_total_usd": 8630000000,
+    "counterparties": 4,
+    "inflow_total_usd": 12430000000,
     "outflow_total_usd": 0
+   }
+  },
+  {
+   "id": "citigroup",
+   "name": "Citigroup (Citi)",
+   "name_zh": "花旗集团",
+   "group": "financier",
+   "ticker": "C",
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 3500000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 1,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "counterparties": 1,
+    "inflow_total_usd": 0,
+    "outflow_total_usd": 3500000000
    }
   },
   {
@@ -1619,7 +1717,7 @@
     "inflow_usd": {
      "order": 63900000000,
      "investment": 2000000000,
-     "debt": 42550000000,
+     "debt": 43050000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1652,7 +1750,7 @@
     "degree_curated": 20,
     "candidate_edges": 0,
     "counterparties": 12,
-    "inflow_total_usd": 108450000000,
+    "inflow_total_usd": 108950000000,
     "outflow_total_usd": 2940000000
    }
   },
@@ -1752,6 +1850,55 @@
     "counterparties": 2,
     "inflow_total_usd": 27000000000,
     "outflow_total_usd": 0
+   }
+  },
+  {
+   "id": "deutsche-bank",
+   "name": "Deutsche Bank",
+   "name_zh": "德意志银行",
+   "group": "financier",
+   "ticker": "DB",
+   "country": "DE",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 703000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 1,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "counterparties": 1,
+    "inflow_total_usd": 0,
+    "outflow_total_usd": 703000000
    }
   },
   {
@@ -1864,7 +2011,7 @@
     "inflow_usd": {
      "order": 1400000000,
      "investment": 0,
-     "debt": 0,
+     "debt": 703000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1880,7 +2027,7 @@
     "inflow_count": {
      "order": 1,
      "investment": 0,
-     "debt": 0,
+     "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1893,11 +2040,11 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 1,
-    "degree_curated": 1,
+    "degree": 2,
+    "degree_curated": 2,
     "candidate_edges": 0,
-    "counterparties": 1,
-    "inflow_total_usd": 1400000000,
+    "counterparties": 2,
+    "inflow_total_usd": 2103000000,
     "outflow_total_usd": 0
    }
   },
@@ -1912,7 +2059,7 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 2505000000,
      "debt": 10000000000,
      "lease": 0,
      "vendor_financing": 0,
@@ -1928,7 +2075,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 2,
      "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
@@ -1942,11 +2089,11 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 1,
-    "degree_curated": 1,
+    "degree": 3,
+    "degree_curated": 3,
     "candidate_edges": 0,
-    "counterparties": 1,
-    "inflow_total_usd": 10000000000,
+    "counterparties": 2,
+    "inflow_total_usd": 12505000000,
     "outflow_total_usd": 0
    }
   },
@@ -1961,7 +2108,7 @@
    "stats": {
     "inflow_usd": {
      "order": 50000000000,
-     "investment": 0,
+     "investment": 2330000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -1971,13 +2118,13 @@
      "order": 0,
      "investment": 0,
      "debt": 0,
-     "lease": 0,
+     "lease": 10500000000,
      "vendor_financing": 0,
      "guarantee": 0
     },
     "inflow_count": {
      "order": 1,
-     "investment": 0,
+     "investment": 2,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -1987,16 +2134,16 @@
      "order": 0,
      "investment": 0,
      "debt": 0,
-     "lease": 0,
+     "lease": 2,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 1,
-    "degree_curated": 1,
+    "degree": 5,
+    "degree_curated": 5,
     "candidate_edges": 0,
-    "counterparties": 1,
-    "inflow_total_usd": 50000000000,
-    "outflow_total_usd": 0
+    "counterparties": 4,
+    "inflow_total_usd": 52330000000,
+    "outflow_total_usd": 10500000000
    }
   },
   {
@@ -2059,7 +2206,7 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 750000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -2075,7 +2222,7 @@
     },
     "inflow_count": {
      "order": 1,
-     "investment": 0,
+     "investment": 1,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -2089,11 +2236,11 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 1,
-    "degree_curated": 1,
+    "degree": 2,
+    "degree_curated": 2,
     "candidate_edges": 0,
-    "counterparties": 1,
-    "inflow_total_usd": 0,
+    "counterparties": 2,
+    "inflow_total_usd": 750000000,
     "outflow_total_usd": 0
    }
   },
@@ -2222,7 +2369,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 1,
+     "investment": 2,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -2236,8 +2383,8 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 1,
-    "degree_curated": 1,
+    "degree": 2,
+    "degree_curated": 2,
     "candidate_edges": 0,
     "counterparties": 1,
     "inflow_total_usd": 4750000000,
@@ -2362,7 +2509,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 100500000000.0,
+     "debt": 95500000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -2378,17 +2525,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 9,
+     "debt": 8,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 9,
-    "degree_curated": 9,
+    "degree": 8,
+    "degree_curated": 8,
     "candidate_edges": 0,
-    "counterparties": 8,
+    "counterparties": 7,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 100500000000.0
+    "outflow_total_usd": 95500000000
    }
   },
   {
@@ -2696,7 +2843,7 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 4000000000,
+     "investment": 39000000000,
      "debt": 55000000000,
      "lease": 0,
      "vendor_financing": 0,
@@ -2712,7 +2859,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 2,
+     "investment": 3,
      "debt": 2,
      "lease": 0,
      "vendor_financing": 0,
@@ -2726,11 +2873,11 @@
      "vendor_financing": 0,
      "guarantee": 1
     },
-    "degree": 21,
-    "degree_curated": 21,
+    "degree": 22,
+    "degree_curated": 22,
     "candidate_edges": 0,
-    "counterparties": 13,
-    "inflow_total_usd": 59000000000,
+    "counterparties": 14,
+    "inflow_total_usd": 94000000000,
     "outflow_total_usd": 95200000000
    }
   },
@@ -3236,7 +3383,7 @@
     "inflow_usd": {
      "order": 47400000000,
      "investment": 2000000000,
-     "debt": 11750000000,
+     "debt": 15250000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -3252,7 +3399,7 @@
     "inflow_count": {
      "order": 3,
      "investment": 1,
-     "debt": 3,
+     "debt": 4,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -3265,11 +3412,11 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 7,
-    "degree_curated": 7,
+    "degree": 8,
+    "degree_curated": 8,
     "candidate_edges": 0,
-    "counterparties": 4,
-    "inflow_total_usd": 61150000000,
+    "counterparties": 5,
+    "inflow_total_usd": 64650000000,
     "outflow_total_usd": 0
    }
   },
@@ -3348,7 +3495,7 @@
      "guarantee": 105000000000
     },
     "inflow_count": {
-     "order": 5,
+     "order": 6,
      "investment": 0,
      "debt": 1,
      "lease": 0,
@@ -3363,8 +3510,8 @@
      "vendor_financing": 0,
      "guarantee": 1
     },
-    "degree": 24,
-    "degree_curated": 24,
+    "degree": 25,
+    "degree_curated": 25,
     "candidate_edges": 0,
     "counterparties": 20,
     "inflow_total_usd": 65000000000.0,
@@ -3454,15 +3601,15 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 2,
+     "order": 3,
      "investment": 2,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 11,
-    "degree_curated": 11,
+    "degree": 12,
+    "degree_curated": 12,
     "candidate_edges": 0,
     "counterparties": 9,
     "inflow_total_usd": 394909000000,
@@ -3586,7 +3733,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 127805000000,
+     "investment": 133390000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -3602,18 +3749,18 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 15,
+     "investment": 20,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 15,
-    "degree_curated": 15,
+    "degree": 20,
+    "degree_curated": 20,
     "candidate_edges": 0,
-    "counterparties": 6,
+    "counterparties": 9,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 127805000000
+    "outflow_total_usd": 133390000000
    }
   },
   {
@@ -3684,7 +3831,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 71416100000,
+     "investment": 106416100000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -3700,18 +3847,18 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 4,
+     "investment": 5,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 4,
-    "degree_curated": 4,
+    "degree": 5,
+    "degree_curated": 5,
     "candidate_edges": 0,
-    "counterparties": 3,
+    "counterparties": 4,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 71416100000
+    "outflow_total_usd": 106416100000
    }
   },
   {
@@ -4364,7 +4511,7 @@
      "order": 0,
      "investment": 0,
      "debt": 3200000000,
-     "lease": 0,
+     "lease": 6700000000,
      "vendor_financing": 0,
      "guarantee": 3200000000
     },
@@ -4380,7 +4527,7 @@
      "order": 0,
      "investment": 0,
      "debt": 1,
-     "lease": 0,
+     "lease": 1,
      "vendor_financing": 0,
      "guarantee": 1
     },
@@ -4392,11 +4539,11 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 2,
-    "degree_curated": 2,
+    "degree": 3,
+    "degree_curated": 3,
     "candidate_edges": 0,
-    "counterparties": 2,
-    "inflow_total_usd": 6400000000,
+    "counterparties": 3,
+    "inflow_total_usd": 13100000000,
     "outflow_total_usd": 0
    }
   },
@@ -4695,6 +4842,55 @@
    }
   },
   {
+   "id": "verizon",
+   "name": "Verizon",
+   "name_zh": "威瑞森（Verizon）",
+   "group": "other",
+   "ticker": "VZ",
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 2000000000,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 1,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "counterparties": 1,
+    "inflow_total_usd": 2000000000,
+    "outflow_total_usd": 0
+   }
+  },
+  {
    "id": "xai",
    "name": "xAI",
    "name_zh": "xAI",
@@ -4816,6 +5012,286 @@
    "origin": "curated"
   },
   {
+   "id": "oracle-nvidia-2026-10-vera-rubin-multi-gw",
+   "kind": "order",
+   "subkind": "GPU systems supply (Vera Rubin)",
+   "from": "oracle",
+   "to": "nvidia",
+   "amount_usd": null,
+   "amount_text": "Not disclosed; \"multi-gigawatt scale\" of Vera Rubin systems",
+   "announced": "2026-10-27",
+   "term": null,
+   "status": "announced",
+   "confidence": "reported",
+   "title_en": "Oracle expands Nvidia deal to multi-gigawatt Vera Rubin superclusters",
+   "title_zh": "甲骨文将英伟达合作扩大至数吉瓦级 Vera Rubin 超级集群",
+   "summary_en": "Oracle and Nvidia said Oracle Cloud Infrastructure's AI superclusters will grow to multi-gigawatt scale on Nvidia's Vera Rubin servers, some using Oracle's own Acceleron networking; the value was not disclosed. Oracle also said it will offer Google TPUs and Cerebras and SambaNova inference chips from 2027.",
+   "summary_zh": "甲骨文与英伟达宣布，甲骨文云基础设施的 AI 超级集群将基于英伟达 Vera Rubin 服务器扩展至数吉瓦规模，部分系统采用甲骨文自研的 Acceleron 网络芯片，金额未披露。甲骨文还表示将从 2027 年起提供谷歌 TPU 以及 Cerebras、SambaNova 的推理芯片。",
+   "sources": [
+    {
+     "url": "https://ca.finance.yahoo.com/news/oracle-expands-chip-supply-deal-160104462.html",
+     "publisher": "Reuters (via Yahoo Finance)",
+     "date": "2026-10-27",
+     "title": "Oracle expands chip supply deal with Nvidia, adds Google and Cerebras offerings"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "amazon-verizon-2026-10-ai-network",
+   "kind": "order",
+   "subkind": "AI network / fibre infrastructure agreement",
+   "from": "amazon",
+   "to": "verizon",
+   "amount_usd": 2000000000,
+   "amount_text": "\"Valued at $2.0+ billion\" per Verizon's Q3 2026 release; term not disclosed",
+   "announced": "2026-10-26",
+   "term": "Multi-year (not disclosed)",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "AWS signs $2B+ AI infrastructure deal with Verizon",
+   "title_zh": "AWS 与威瑞森签署逾 20 亿美元 AI 基础设施协议",
+   "summary_en": "Verizon said with its Q3 2026 results that it signed an agreement with AWS valued at more than $2B, a commercial framework to scale distributed compute for AI workloads, expanding the November 2025 deal under which Verizon builds long-haul fibre between AWS data centres.",
+   "summary_zh": "威瑞森在 2026 年第三季度财报中表示，已与 AWS 签署价值逾 20 亿美元的协议，为 AI 工作负载扩展分布式算力建立商业框架，是对 2025 年 11 月双方协议（威瑞森为 AWS 数据中心之间铺设长途光纤）的扩大。",
+   "sources": [
+    {
+     "url": "https://www.verizon.com/about/news/verizon-delivers-another-record-breaking-quarter",
+     "publisher": "Verizon",
+     "date": "2026-10-26",
+     "title": "Verizon Delivers Record Breaking 3Q26"
+    },
+    {
+     "url": "https://www.verizon.com/about/news/verizon-business-and-aws-new-fiber-deal",
+     "publisher": "Verizon",
+     "date": "2025-11-03",
+     "title": "Verizon Business and AWS accelerate AI applications at scale in a new fiber deal"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "anthropic-broadcom-2026-10-equipment-leases",
+   "kind": "lease",
+   "subkind": "five-year AI equipment leases (TPU racks, via Broadcom-arranged SPVs)",
+   "from": "anthropic",
+   "to": "broadcom",
+   "amount_usd": 161200000000,
+   "amount_text": "~$161.2B of non-cancelable five-year equipment leases with Broadcom per Anthropic's S-1 (Yahoo Finance tally); lessors are Broadcom-arranged SPVs financed by Apollo/Blackstone ($35B) and the $63B bank/Blackstone package (separate debt edges); may overlap with the 2025 Ironwood rack orders",
+   "announced": "2026-10-26",
+   "term": "Five-year leases, cancelable only on default",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Anthropic's S-1 shows ~$161B of Broadcom chip-equipment leases",
+   "title_zh": "Anthropic 招股书显示约 1612 亿美元博通芯片设备租赁",
+   "summary_en": "Anthropic's IPO filing lists about $161.2B of five-year, non-cancelable leases of Broadcom-built AI equipment, its largest stated compute commitment, ahead of Google (~$114.5B) and Amazon (~$110B). The racks are bought by special-purpose vehicles funded with private credit and bank debt and leased to Anthropic, with Broadcom backstopping residual values.",
+   "summary_zh": "Anthropic 的上市申请文件列出约 1612 亿美元、为期五年且不可撤销的博通 AI 设备租赁，是其披露的最大算力承诺，超过谷歌（约 1145 亿美元）和亚马逊（约 1100 亿美元）。这些机架由特殊目的实体以私募信贷和银行贷款购买后租给 Anthropic，博通为残值提供兜底。",
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/article/anthropics-ipo-filing-reveals-430-billion-in-locked-in-ai-computing-chart-of-the-day-134457635.html",
+     "publisher": "Yahoo Finance",
+     "date": "2026-10-27",
+     "title": "Anthropic's IPO filing reveals $430 billion in locked-in AI computing — and Broadcom tops Google and Amazon"
+    },
+    {
+     "url": "https://www.benzinga.com/markets/ipos/26/10/62609946/anthropics-ipo-filing-reveals-over-500-billion-ai-compute-spending-across-amzn-googl-msft-avgo-and-spcx-top-analyst-says-it-has-barely-started",
+     "publisher": "Benzinga",
+     "date": "2026-10-27",
+     "title": "Anthropic's IPO Filing Reveals Over $500 Billion AI Compute Spending Across AMZN, GOOGL, MSFT, AVGO and SPCX"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bank-lenders-airtrunk-2026-10-syd3-green-loan",
+   "kind": "debt",
+   "subkind": "green project loan",
+   "from": "bank-lenders",
+   "to": "airtrunk",
+   "amount_usd": 2980000000,
+   "amount_text": "A$4.25B (~US$2.98B); SMBC, HSBC and UOB as global coordinators, 32 lenders in all",
+   "announced": "2026-10-26",
+   "term": null,
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Banks lend AirTrunk A$4.25B green loan for Sydney SYD3 campus",
+   "title_zh": "银行向 AirTrunk 提供 42.5 亿澳元绿色贷款，用于悉尼 SYD3 园区",
+   "summary_en": "Blackstone-owned AirTrunk secured an A$4.25B (~US$3B) green loan from 32 lenders, led by SMBC, HSBC and UOB, to keep building its 400 MW-plus SYD3 hyperscale campus in Western Sydney, due by mid-2028. It lifts AirTrunk's committed debt to about A$38.4B.",
+   "summary_zh": "黑石旗下 AirTrunk 从以三井住友银行、汇丰和大华银行牵头的 32 家贷款机构获得 42.5 亿澳元（约 30 亿美元）绿色贷款，用于继续建设西悉尼逾 400 兆瓦的 SYD3 超大规模园区，预计 2028 年中完工。AirTrunk 已承诺债务融资总额因此升至约 384 亿澳元。",
+   "sources": [
+    {
+     "url": "https://www.tradingview.com/news/reuters.com,2026:newsml_L3N46D02J:0-australia-s-airtrunk-bags-3-billion-green-loan-to-expand-sydney-data-centre/",
+     "publisher": "Reuters (via TradingView)",
+     "date": "2026-10-26",
+     "title": "Australia's AirTrunk bags $3 billion green loan to expand Sydney data centre"
+    },
+    {
+     "url": "https://www.mingtiandi.com/real-estate/data-centres/airtrunk-secures-3b-green-loan-to-expand-syd3-data-centre-in-western-sydney/",
+     "publisher": "Mingtiandi",
+     "date": "2026-10-26",
+     "title": "AirTrunk Secures $3B Green Loan to Expand Sydney Data Centre"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bank-of-america-broadcom-anthropic-rack-spv-2026-10-first-lien",
+   "kind": "debt",
+   "subkind": "first-lien senior secured loans",
+   "from": "bank-of-america",
+   "to": "broadcom-anthropic-rack-spv",
+   "amount_usd": 43500000000,
+   "amount_text": "~$43.5B first lien (about 69% of the $63B total), per two sources cited by Reuters; arranged by Bank of America, Citi and Morgan Stanley for syndication",
+   "announced": "2026-10-26",
+   "term": "Deliveries begin 2027",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Bank of America, Citi and Morgan Stanley arrange ~$43.5B first lien for Anthropic chip SPV",
+   "title_zh": "美国银行、花旗和摩根士丹利为 Anthropic 芯片 SPV 安排约 435 亿美元第一留置权贷款",
+   "summary_en": "Bank of America, Citigroup and Morgan Stanley are arranging the first-lien debt of a $63B financing for a newly formed SPV that buys Broadcom AI accelerators and networking gear and leases them to Anthropic, with Broadcom giving residual value support. The WSJ reported that Broadcom agreed to higher rates and more loss protection after some banks wavered.",
+   "summary_zh": "美国银行、花旗和摩根士丹利正为一笔 630 亿美元融资安排第一留置权债务：新设特殊目的实体用这笔资金购买博通 AI 加速器和网络设备并租给 Anthropic，博通提供残值支持。据《华尔街日报》报道，在部分银行动摇后，博通同意提高利率并加强损失保护。",
+   "sources": [
+    {
+     "url": "https://www.investing.com/news/stock-market-news/wall-street-banks-blackstone-line-up-63-billion-to-finance-broadcom-chips-for-anthropic-4973662",
+     "publisher": "Reuters (via Investing.com)",
+     "date": "2026-10-26",
+     "title": "Wall Street banks, Blackstone line up $63 billion to finance Broadcom AI chips for Anthropic"
+    },
+    {
+     "url": "https://www.benzinga.com/markets/tech/26/10/62608696/broadcom-anthropic-63-billion-financing-banks-blackstone-ai-chips",
+     "publisher": "Benzinga",
+     "date": "2026-10-27",
+     "title": "Broadcom Chips for Anthropic Get $63 Billion Financing"
+    },
+    {
+     "url": "https://qz.com/broadcom-anthropic-63-billion-chip-financing-102726",
+     "publisher": "Quartz",
+     "date": "2026-10-27",
+     "title": "Broadcom arranged $63 billion in Wall Street financing for Anthropic's AI chips"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "blackstone-broadcom-anthropic-rack-spv-2026-10-second-lien",
+   "kind": "debt",
+   "subkind": "second-lien loan (private credit)",
+   "from": "blackstone",
+   "to": "broadcom-anthropic-rack-spv",
+   "amount_usd": null,
+   "amount_text": "Second-lien amount not disclosed; the $63B total minus the reported ~$43.5B first lien leaves ~$19.5B (early October reports: $18B junior tranche, ~$9B from Blackstone funds)",
+   "announced": "2026-10-26",
+   "term": null,
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Blackstone provides second-lien debt in $63B Anthropic chip financing",
+   "title_zh": "黑石在 Anthropic 630 亿美元芯片融资中提供第二留置权债务",
+   "summary_en": "Blackstone is the sole provider of the committed second-lien tranche of the $63B financing for a new SPV that buys Broadcom AI accelerators and networking gear and leases them to Anthropic, Reuters reported on 26 October 2026. Banks hold the larger first lien (separate edge).",
+   "summary_zh": "据路透社 2026 年 10 月 26 日报道，黑石是这笔 630 亿美元融资中已承诺第二留置权档的唯一提供方；新设特殊目的实体用这笔资金购买博通 AI 加速器和网络设备并租给 Anthropic。规模更大的第一留置权由银行提供（另列一条）。",
+   "sources": [
+    {
+     "url": "https://www.investing.com/news/stock-market-news/wall-street-banks-blackstone-line-up-63-billion-to-finance-broadcom-chips-for-anthropic-4973662",
+     "publisher": "Reuters (via Investing.com)",
+     "date": "2026-10-26",
+     "title": "Wall Street banks, Blackstone line up $63 billion to finance Broadcom AI chips for Anthropic"
+    },
+    {
+     "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-reportedly-lines-60b-ai-120456635.html",
+     "publisher": "Yahoo Finance (Bloomberg)",
+     "date": "2026-10-02",
+     "title": "Broadcom Reportedly Lines Up $60B AI Chip Financing As Anthropic Expands Compute"
+    },
+    {
+     "url": "https://rcrtech.com/ai-infrastructure/broadcom-blackstone-60b-mega-syndicate-will-help-anthropic/",
+     "publisher": "RCR Tech",
+     "date": "2026-10-01",
+     "title": "Broadcom, Blackstone $60B mega-syndicate will help Anthropic"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "broadcom-broadcom-anthropic-rack-spv-2026-10-residual-value-support",
+   "kind": "guarantee",
+   "subkind": "residual value support (contingent liability)",
+   "from": "broadcom",
+   "to": "broadcom-anthropic-rack-spv",
+   "amount_usd": 43000000000,
+   "amount_text": "Maximum potential liability ~$43B undiscounted once all racks are deployed (Broadcom 8-K): 72.5% of outstanding lease amounts minus the racks' sale value. Supports the $63B financing (separate edges for the bank first lien and Blackstone second lien); this replaces the earlier reported 'up to $42B' Broadcom financing commitment",
+   "announced": "2026-10-26",
+   "term": "Falls as Anthropic pays its leases; deliveries from 2027",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Broadcom backs Anthropic chip-lease financing with up to $43B residual value support",
+   "title_zh": "博通为 Anthropic 芯片租赁融资提供最高 430 亿美元残值支持",
+   "summary_en": "On 26 October 2026 Broadcom agreed to give residual value support to a newly formed backstop vehicle in the $63B financing of Broadcom AI racks leased to Anthropic (the obligor); if Anthropic defaults, Broadcom covers the gap between 72.5% of the lease balance and what the racks fetch, up to ~$43B. Earlier reports (1 October) described this as Broadcom lending Anthropic up to $42B with the right to designate financing partners.",
+   "summary_zh": "2026 年 10 月 26 日，博通同意在为 Anthropic（被担保义务人）租赁博通 AI 机架而安排的 630 亿美元融资中，向新设立的兜底实体提供残值支持：若 Anthropic 违约，博通补足租赁余额的 72.5% 与机架处置价值之间的差额，最高约 430 亿美元。10 月 1 日的早期报道称博通将向 Anthropic 提供最高 420 亿美元融资并可指定融资伙伴。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1730168/000119312526434271/d148323d8k.htm",
+     "publisher": "Broadcom (SEC 8-K)",
+     "date": "2026-10-27",
+     "title": "Broadcom Inc. 8-K, Item 2.03: residual value support arrangement"
+    },
+    {
+     "url": "https://www.investing.com/news/stock-market-news/wall-street-banks-blackstone-line-up-63-billion-to-finance-broadcom-chips-for-anthropic-4973662",
+     "publisher": "Reuters (via Investing.com)",
+     "date": "2026-10-26",
+     "title": "Wall Street banks, Blackstone line up $63 billion to finance Broadcom AI chips for Anthropic"
+    },
+    {
+     "url": "https://www.cnbc.com/2026/10/01/broadcom-lending-anthropic-42-billion-chips-reuters.html",
+     "publisher": "CNBC (Reuters)",
+     "date": "2026-10-01",
+     "title": "Broadcom to lend Anthropic up to $42 billion to lease its chips, filing says"
+    },
+    {
+     "url": "https://fortune.com/2026/10/26/anthropics-s1-ipo-reveals-the-inner-workings-of-its-fast-evolving-compute-strategy/",
+     "publisher": "Fortune",
+     "date": "2026-10-26",
+     "title": "Anthropic plans to spend up to $567 billion on compute"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "public-equity-investors-meta-2026-10-stock-offering",
+   "kind": "investment",
+   "subkind": "public equity offering (forward-sale common stock + mandatory convertible preferred)",
+   "from": "public-equity-investors",
+   "to": "meta",
+   "amount_usd": 35000000000,
+   "amount_text": "~$35B launched 26 Oct 2026: $22.5B of Class A stock via forward sales (cash on or before 19 Nov 2027; $25.9B with the option) + ~$12.5B mandatory convertible preferred (250M depositary shares at $50). Includes the up to $5B NVIDIA, AMD and Broadcom indicated (NVIDIA $3B and AMD $1B are separate edges). A further up-to-$60B at-the-market programme planned from 2027 (total $95B) is not counted",
+   "announced": "2026-10-26",
+   "term": "Forward sales settle by 19 Nov 2027",
+   "status": "announced",
+   "confidence": "confirmed",
+   "title_en": "Meta launches $35B stock offering to fund AI build-out",
+   "title_zh": "Meta 启动 350 亿美元股票发行，为 AI 扩张融资",
+   "summary_en": "Meta launched about $35B of equity, $22.5B of Class A shares sold through forward agreements with Morgan Stanley and Goldman Sachs plus about $12.5B of mandatory convertible preferred, and said it plans a further at-the-market programme of up to $60B in 2027, up to $95B in all. NVIDIA, AMD and Broadcom indicated interest in buying up to $5B.",
+   "summary_zh": "Meta 启动约 350 亿美元股权融资：通过与摩根士丹利、高盛的远期协议出售 225 亿美元 A 类股，另发行约 125 亿美元强制可转换优先股；并计划 2027 年再推出最高 600 亿美元的按市价发行计划，合计最多 950 亿美元。英伟达、AMD 和博通表示有意认购最多 50 亿美元。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526431040/d94886d424b5.htm",
+     "publisher": "Meta (SEC 424B5)",
+     "date": "2026-10-26",
+     "title": "Meta Platforms 424B5: $22.5B Class A common stock (forward sale)"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526431043/d133631d424b5.htm",
+     "publisher": "Meta (SEC 424B5)",
+     "date": "2026-10-26",
+     "title": "Meta Platforms 424B5: Series A mandatory convertible preferred depositary shares"
+    },
+    {
+     "url": "https://www.cnbc.com/amp/2026/10/26/meta-35-billion-stock-offering-ai-expansion.html",
+     "publisher": "CNBC",
+     "date": "2026-10-26",
+     "title": "Meta launches $35 billion stock offering to fund AI expansion"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "spacex-apollo-2026-10-gpu-finance-lease",
    "kind": "lease",
    "subkind": "GPU master finance lease",
@@ -4829,9 +5305,15 @@
    "confidence": "reported",
    "title_en": "SpaceX (xAI) signs $40B Apollo-led GPU lease financing",
    "title_zh": "SpaceX（xAI）签署阿波罗牵头的 400 亿美元 GPU 租赁融资",
-   "summary_en": "SpaceX, xAI's parent, disclosed in a regulatory filing a binding commitment of about $40B under which an Apollo-managed entity buys Nvidia AI chips and data-centre equipment and leases them to SpaceX; it called it the largest committed GPU financing.",
-   "summary_zh": "xAI 母公司 SpaceX 在监管文件中披露约 400 亿美元的有约束力承诺：由阿波罗管理的实体购买英伟达 AI 芯片和数据中心设备并租给 SpaceX，租期约 5 至 5.25 年，SpaceX 称其为最大的已承诺 GPU 融资。",
+   "summary_en": "SpaceX, xAI's parent, disclosed in a regulatory filing a binding commitment of about $40B under which an Apollo-managed entity buys Nvidia AI chips and data-centre equipment and leases them to SpaceX; it called it the largest committed GPU financing. The lessor funds itself with 144A notes; Bloomberg reported Pimco bought a $4B slice of the A2 (mezzanine) tranche.",
+   "summary_zh": "xAI 母公司 SpaceX 在监管文件中披露约 400 亿美元的有约束力承诺：由阿波罗管理的实体购买英伟达 AI 芯片和数据中心设备并租给 SpaceX，租期约 5 至 5.25 年，SpaceX 称其为最大的已承诺 GPU 融资。出租方通过 144A 票据融资；据彭博报道，太平洋投资管理公司（Pimco）认购了其中 A2（夹层）档 40 亿美元。",
    "sources": [
+    {
+     "url": "https://www.investing.com/news/stock-market-news/pimco-buys-4-billion-of-spacex-ai-debt-package-led-by-apollo--bloomberg-93CH-4973850",
+     "publisher": "Investing.com (Bloomberg)",
+     "date": "2026-10-26",
+     "title": "Pimco buys $4 billion of SpaceX AI debt package led by Apollo - Bloomberg"
+    },
     {
      "url": "https://techcrunch.com/2026/10/26/spacex-locks-in-40b-gpu-financing-deal-with-apollo/",
      "publisher": "TechCrunch",
@@ -4843,6 +5325,44 @@
      "publisher": "U.S. News (Reuters)",
      "date": "2026-10-26",
      "title": "SpaceX Enters $40 Billion Deal With Apollo for AI Chip Financing"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "citigroup-nebius-2026-10-secured-facility",
+   "kind": "debt",
+   "subkind": "364-day senior secured bridge facility",
+   "from": "citigroup",
+   "to": "nebius",
+   "amount_usd": 3500000000,
+   "amount_text": "$3.5B facility (amount drawn not disclosed); Term SOFR + 2.75%, stepping up to a maximum of 3.50%",
+   "announced": "2026-10-22",
+   "term": "364 days",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Citi provides Nebius a $3.5B senior secured facility",
+   "title_zh": "花旗向 Nebius 提供 35 亿美元优先担保贷款",
+   "summary_en": "Nebius entered a $3.5B, 364-day senior secured facility with Citi as lead arranger and agent, to fund data-centre development, GPU purchases and general purposes. Management said larger asset-backed loans against its contracts may follow.",
+   "summary_zh": "Nebius 与花旗（牵头安排行及代理行）签订 35 亿美元、期限 364 天的优先担保贷款，用于数据中心建设、采购 GPU 及一般用途。管理层表示，未来可能以客户合同为抵押进行规模更大的资产支持融资。",
+   "sources": [
+    {
+     "url": "https://nebius.com/newsroom/nebius-secures-3-5-billion-financing-facility-with-citi",
+     "publisher": "Nebius",
+     "date": "2026-10-22",
+     "title": "Nebius secures $3.5 billion financing facility with Citi"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926117978/tm2628078d1_6k.htm",
+     "publisher": "Nebius (SEC 6-K)",
+     "date": "2026-10-22",
+     "title": "Nebius Group 6-K, 22 October 2026"
+    },
+    {
+     "url": "https://www.datacenterdynamics.com/en/news/neocloud-nebius-secures-35bn-in-financing-from-citi/",
+     "publisher": "DCD",
+     "date": "2026-10-22",
+     "title": "Neocloud Nebius secures $3.5bn in financing from Citi"
     }
    ],
    "origin": "curated"
@@ -4875,70 +5395,6 @@
      "publisher": "BusinessDay (Reuters)",
      "date": "2026-10-13",
      "title": "Tencent raises $5.7bn in bonds as AI investment soars"
-    }
-   ],
-   "origin": "curated"
-  },
-  {
-   "id": "blackstone-anthropic-2026-10-junior-chip-debt",
-   "kind": "debt",
-   "subkind": "junior tranche of chip financing (private credit)",
-   "from": "blackstone",
-   "to": "anthropic",
-   "amount_usd": 18000000000,
-   "amount_text": "$18B junior tranche (Blackstone ~$9B from its funds, rest syndicated); reported double-digit yield; alongside a $42B senior tranche = ~$60B package",
-   "announced": "2026-10-02",
-   "term": null,
-   "status": "announced",
-   "confidence": "reported",
-   "title_en": "Blackstone leads $18B junior debt for Anthropic chips",
-   "title_zh": "黑石牵头为 Anthropic 芯片提供 180 亿美元次级债务",
-   "summary_en": "Blackstone is leading an $18B junior tranche, carrying Anthropic's own credit risk, in a ~$60B package funding Broadcom TPUs for Anthropic through a special-purpose vehicle. It had not been formally announced or closed.",
-   "summary_zh": "黑石牵头一笔 180 亿美元次级档融资，承担 Anthropic 自身信用风险，属于约 600 亿美元的一揽子融资，通过特殊目的载体为 Anthropic 采购博通 TPU；尚未正式宣布或完成。",
-   "sources": [
-    {
-     "url": "https://finance.yahoo.com/technology/ai/articles/broadcom-reportedly-lines-60b-ai-120456635.html",
-     "publisher": "Yahoo Finance (Bloomberg)",
-     "date": "2026-10-02",
-     "title": "Broadcom Reportedly Lines Up $60B AI Chip Financing As Anthropic Expands Compute"
-    },
-    {
-     "url": "https://rcrtech.com/ai-infrastructure/broadcom-blackstone-60b-mega-syndicate-will-help-anthropic/",
-     "publisher": "RCR Tech",
-     "date": "2026-10-01",
-     "title": "Broadcom, Blackstone $60B mega-syndicate will help Anthropic"
-    }
-   ],
-   "origin": "curated"
-  },
-  {
-   "id": "broadcom-anthropic-2026-10-chip-financing",
-   "kind": "vendor_financing",
-   "subkind": "chip vendor financing (convertible notes)",
-   "from": "broadcom",
-   "to": "anthropic",
-   "amount_usd": 42000000000,
-   "amount_text": "Up to $42B, about a third of Anthropic's reported $125.2B five-year TPU lease (Fortune, on the S-1). The ~$42B senior secured tranche that banks (BofA, Citi, Morgan Stanley) are preparing is this same money, not an extra amount; with Blackstone's $18B junior tranche (separate edge) it forms a ~$60B package",
-   "announced": "2026-10-01",
-   "term": "5-year TPU lease",
-   "status": "announced",
-   "confidence": "reported",
-   "title_en": "Broadcom to lend Anthropic up to $42B for TPU chips",
-   "title_zh": "博通向 Anthropic 提供最高 420 亿美元芯片融资",
-   "summary_en": "Broadcom agreed to provide Anthropic up to $42B of financing for its TPU lease, according to a filing reported by Reuters on 1 October 2026; Broadcom can designate a financing partner and the notes may convert into Anthropic equity. Anthropic filed its public S-1 on 26 October 2026.",
-   "summary_zh": "据路透社 2026 年 10 月 1 日报道的一份文件，博通同意为 Anthropic 的 TPU 租赁提供最高 420 亿美元融资，博通可指定融资伙伴，相关票据可转换为 Anthropic 股权。Anthropic 于 2026 年 10 月 26 日公开提交 S-1。",
-   "sources": [
-    {
-     "url": "https://www.cnbc.com/2026/10/01/broadcom-lending-anthropic-42-billion-chips-reuters.html",
-     "publisher": "CNBC (Reuters)",
-     "date": "2026-10-01",
-     "title": "Broadcom to lend Anthropic up to $42 billion to lease its chips, filing says"
-    },
-    {
-     "url": "https://fortune.com/2026/10/26/anthropics-s1-ipo-reveals-the-inner-workings-of-its-fast-evolving-compute-strategy/",
-     "publisher": "Fortune",
-     "date": "2026-10-26",
-     "title": "Anthropic plans to spend up to $567 billion on compute"
     }
    ],
    "origin": "curated"
@@ -5167,17 +5623,23 @@
    "subkind": "convertible senior notes",
    "from": "bond-investors",
    "to": "coreweave",
-   "amount_usd": 3700000000,
-   "amount_text": "$3.7B 2.875% convertible senior notes due 2033 (upsized from $3B; +$500M option, $4.2B if exercised)",
+   "amount_usd": 4200000000,
+   "amount_text": "$4.2B 2.875% convertible senior notes due 2033 (upsized $3.7B plus the $500M option, exercised in full); ~$566M spent on capped calls",
    "announced": "2026-09-18",
    "term": "due 2033-04-01",
    "status": "completed",
    "confidence": "confirmed",
-   "title_en": "CoreWeave $3.7B convertible notes",
-   "title_zh": "CoreWeave 发行 37 亿美元可转换票据",
-   "summary_en": "CoreWeave priced an upsized $3.7B of 2.875% convertible notes due 2033, its third convertible offering in under a year.",
-   "summary_zh": "CoreWeave 定价扩容后的 37 亿美元、票息 2.875%、2033 年到期可转换票据，为其不到一年内第三只可转债。",
+   "title_en": "CoreWeave $4.2B convertible notes",
+   "title_zh": "CoreWeave 发行 42 亿美元可转换票据",
+   "summary_en": "CoreWeave priced an upsized $3.7B of 2.875% convertible notes due 2033, its third convertible offering in under a year; with the initial purchasers' $500M option exercised, $4.2B closed on 22 September 2026.",
+   "summary_zh": "CoreWeave 定价扩容后的 37 亿美元、票息 2.875%、2033 年到期可转换票据，为其不到一年内第三只可转债；初始购买方全额行使 5 亿美元超额配售权后，于 2026 年 9 月 22 日完成 42 亿美元发行。",
    "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1769628/000176962826000432/crwv-20260917.htm",
+     "publisher": "CoreWeave (SEC 8-K)",
+     "date": "2026-09-22",
+     "title": "CoreWeave 8-K: $4.2B 2.875% Convertible Senior Notes due 2033"
+    },
     {
      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Prices-Upsized-3-7-Billion-Convertible-Senior-Notes-Offering/default.aspx",
      "publisher": "CoreWeave",
@@ -5241,6 +5703,38 @@
      "publisher": "Oracle (Form 10-Q)",
      "date": "2026-09-10",
      "title": "Oracle Corp Form 10-Q for the quarter ended August 31, 2026"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bond-investors-amazon-2026-09-sterling-notes",
+   "kind": "debt",
+   "subkind": "sterling senior notes (debut)",
+   "from": "bond-investors",
+   "to": "amazon",
+   "amount_usd": 5760000000,
+   "amount_text": "£4.25B (~$5.76B as reported): £1.25B 5.200% due 2029, £1B 5.550% due 2032, £1B 6.250% due 2038, £1B 6.650% due 2045; final orders over £10.65B",
+   "announced": "2026-09-09",
+   "term": "2029 to 2045",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Amazon's debut £4.25B sterling bond sale",
+   "title_zh": "亚马逊首次发行 42.5 亿英镑英镑债",
+   "summary_en": "Amazon priced its first sterling bonds, £4.25B in four tranches due 2029-2045, after euro, Swiss franc and Canadian dollar deals earlier in 2026, to fund its AI build-out; settlement was about 14 September 2026.",
+   "summary_zh": "亚马逊首次发行英镑债券，分四档共 42.5 亿英镑（约 57.6 亿美元），2029 至 2045 年到期，此前 2026 年已发行欧元、瑞士法郎和加元债券，用于支持 AI 建设；约于 2026 年 9 月 14 日交割。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926107122/tm2624614-3_424b5.htm",
+     "publisher": "Amazon (SEC 424B5)",
+     "date": "2026-09-11",
+     "title": "Amazon prospectus supplement: £4.25B notes"
+    },
+    {
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/09/09/amazon-set-to-raise-over-5-billion-in-first-sterling-bond-sale-lead-managers-say",
+     "publisher": "Reuters (via The Star)",
+     "date": "2026-09-09",
+     "title": "Amazon will raise $5.8 billion in first sterling bond sale, lead managers say"
     }
    ],
    "origin": "curated"
@@ -5331,6 +5825,38 @@
      "publisher": "Reuters (via Investing.com)",
      "date": "2026-09-04",
      "title": "ByteDance secures $29.6 billion loan in AI push, sources say"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "private-investors-fluidstack-2026-09-series-c",
+   "kind": "investment",
+   "subkind": "venture round",
+   "from": "private-investors",
+   "to": "fluidstack",
+   "amount_usd": 1500000000,
+   "amount_text": "$1.5B led by Jane Street at a valuation above $18B (Forbes, citing sources; not announced by the company)",
+   "announced": "2026-09-03",
+   "term": null,
+   "status": "reported",
+   "confidence": "reported",
+   "title_en": "Fluidstack raises $1.5B led by Jane Street at $18B+",
+   "title_zh": "Fluidstack 获 Jane Street 领投 15 亿美元融资，估值逾 180 亿美元",
+   "summary_en": "Forbes reported that Fluidstack closed a $1.5B round led by quant firm Jane Street at a valuation above $18B, more than double its $7.5B mark earlier in 2026; Bloomberg had reported talks in April.",
+   "summary_zh": "据《福布斯》报道，Fluidstack 完成由量化机构 Jane Street 领投的 15 亿美元融资，估值逾 180 亿美元，较 2026 年早些时候的 75 亿美元翻倍有余；彭博社曾于 4 月报道相关谈判。",
+   "sources": [
+    {
+     "url": "https://www.forbes.com/sites/iainmartin/2026/09/03/a-tiny-startup-helping-google-take-on-nvidia-is-now-worth-18-billion/",
+     "publisher": "Forbes",
+     "date": "2026-09-03",
+     "title": "Fluidstack Hit A $18 Billion Valuation By Helping Build Google and Anthropic's Data Centers"
+    },
+    {
+     "url": "https://news.bloomberglaw.com/private-equity/jane-street-in-talks-to-back-fluidstack-at-18-billion-valuation",
+     "publisher": "Bloomberg",
+     "date": "2026-04-15",
+     "title": "Jane Street in Talks to Back Fluidstack at $18 Billion Valuation"
     }
    ],
    "origin": "curated"
@@ -5494,12 +6020,18 @@
    "announced": "2026-08-17",
    "term": "20-year lease",
    "status": "signed",
-   "confidence": "reported",
+   "confidence": "confirmed",
    "title_en": "Nvidia guarantees up to $105B of OpenAI's Ohio lease payments to SB Energy",
    "title_zh": "英伟达为 OpenAI 向 SB Energy 支付的俄亥俄园区租金提供最高 1050 亿美元担保",
    "summary_en": "Nvidia guaranteed up to $105B of OpenAI's lease and power payments to SoftBank's SB Energy for the PORTS-Pike campus in Piketon, Ohio (initially 4.25 GW from 2028), payable only if OpenAI defaults; OpenAI is the obligor. Nvidia is also investing $1.5B in SB Energy.",
    "summary_zh": "英伟达为 OpenAI 向软银旗下 SB Energy 租用俄亥俄州派克顿 PORTS-Pike 园区（2028 年起首期 4.25 吉瓦）应付的租金和电费提供最高 1050 亿美元担保，仅在 OpenAI 违约时触发，付款义务人为 OpenAI；英伟达另向 SB Energy 投资 15 亿美元。",
    "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
+     "publisher": "NVIDIA (SEC 8-K)",
+     "date": "2026-08-17",
+     "title": "NVIDIA 8-K: residual value guaranties to SB Energy (cap $105B)"
+    },
     {
      "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-to-provide-up-to-105bn-guarantee-for-openai-s-ohio-data-center",
      "publisher": "Nikkei Asia",
@@ -5511,6 +6043,38 @@
      "publisher": "Axios",
      "date": "2026-08-17",
      "title": "OpenAI announces massive Ohio data center with Nvidia guarantee"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bond-investors-amd-2026-08-notes",
+   "kind": "debt",
+   "subkind": "senior unsecured notes",
+   "from": "bond-investors",
+   "to": "amd",
+   "amount_usd": 4750000000,
+   "amount_text": "$4.75B: $1.25B 4.600% due 2029, $1.5B 5.000% due 2031, $1B 5.250% due 2033, $1B 5.500% due 2036",
+   "announced": "2026-08-13",
+   "term": "2029 to 2036",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "AMD $4.75B senior notes",
+   "title_zh": "AMD 发行 47.5 亿美元优先票据",
+   "summary_en": "AMD sold $4.75B of senior unsecured notes in four tranches due 2029-2036 (priced 13 August, closed 17 August 2026), underwritten by Barclays, BofA, Citi, J.P. Morgan, Morgan Stanley and Wells Fargo, for general corporate purposes including repaying debt.",
+   "summary_zh": "AMD 发行四档共 47.5 亿美元无担保优先票据，2029 至 2036 年到期（2026 年 8 月 13 日定价、8 月 17 日交割），由巴克莱、美国银行、花旗、摩根大通、摩根士丹利和富国银行承销，用于一般公司用途，包括偿还债务。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526354029/d142696d8k.htm",
+     "publisher": "AMD (SEC 8-K)",
+     "date": "2026-08-17",
+     "title": "AMD 8-K: closing of $4.75B senior notes offering"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526352628/d173126d424b5.htm",
+     "publisher": "AMD (SEC 424B5)",
+     "date": "2026-08-14",
+     "title": "AMD prospectus supplement"
     }
    ],
    "origin": "curated"
@@ -5571,6 +6135,12 @@
      "title": "Intel Announces Upsize and Pricing of $20 Billion Common Stock Offering"
     },
     {
+     "url": "https://www.sec.gov/Archives/edgar/data/50863/000119312526345221/d98483d424b5.htm",
+     "publisher": "Intel (SEC 424B5)",
+     "date": "2026-08-12",
+     "title": "Intel prospectus supplement: common stock offering"
+    },
+    {
      "url": "https://thenextweb.com/news/intel-15bn-share-sale-turnaround",
      "publisher": "The Next Web",
      "date": "2026-08-11",
@@ -5612,17 +6182,49 @@
    "origin": "curated"
   },
   {
+   "id": "private-investors-firmus-2026-08-equity",
+   "kind": "investment",
+   "subkind": "equity round",
+   "from": "private-investors",
+   "to": "firmus",
+   "amount_usd": 2000000000,
+   "amount_text": "US$2B (~A$2.8B) equity at a post-money valuation above US$10.5B; Coatue and NVIDIA (follow-on), Blackstone-managed funds and Jane Street (new); individual amounts undisclosed",
+   "announced": "2026-08-07",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Firmus raises $2B equity at $10.5B+ valuation",
+   "title_zh": "Firmus 完成 20 亿美元股权融资，估值逾 105 亿美元",
+   "summary_en": "Australian AI-factory builder Firmus raised US$2B of equity from Coatue, NVIDIA, Blackstone funds and Jane Street, valuing it above US$10.5B, to build Project Southgate in Australia and expand across Asia-Pacific; it follows a US$10B Blackstone-led debt facility in February.",
+   "summary_zh": "澳大利亚 AI 工厂建设商 Firmus 从 Coatue、英伟达、黑石旗下基金和 Jane Street 获得 20 亿美元股权融资，投后估值逾 105 亿美元，用于建设澳大利亚 Project Southgate 并向亚太扩张；此前 2 月已获黑石牵头的 100 亿美元债务融资。",
+   "sources": [
+    {
+     "url": "https://thenextweb.com/news/firmus-2bn-raise-valuation-10-5bn-ai-data-centre",
+     "publisher": "The Next Web (Reuters)",
+     "date": "2026-08-07",
+     "title": "Nvidia-backed Firmus raises $2bn more, doubling its value to over $10.5bn"
+    },
+    {
+     "url": "https://smartcompany.com.au/artificial-intelligence/firmus-raises-2-85-billion-ai-infrastructure",
+     "publisher": "SmartCompany",
+     "date": "2026-08-07",
+     "title": "Firmus raises $2.85 billion for AI infrastructure"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "bond-investors-alphabet-2026-08-bonds",
    "kind": "debt",
    "subkind": "corporate bonds (investment grade)",
    "from": "bond-investors",
    "to": "alphabet",
    "amount_usd": 25000000000,
-   "amount_text": "$25B in up to 10 tranches (2–40 years); ~$115B peak orders",
+   "amount_text": "$25B in 10 tranches (two floating, eight fixed at 4.500%-6.500%), due 2028-2066; ~$115B peak orders; settled ~10 Aug 2026",
    "announced": "2026-08-06",
-   "term": "2 to 40 years",
+   "term": "2028 to 2066",
    "status": "completed",
-   "confidence": "reported",
+   "confidence": "confirmed",
    "title_en": "Alphabet $25B bond sale",
    "title_zh": "Alphabet 发行 250 亿美元债券",
    "summary_en": "After lifting 2026 capex to as much as $205B, Alphabet sold $25B of bonds in up to 10 tranches, drawing about $115B of peak orders.",
@@ -5633,6 +6235,12 @@
      "publisher": "Bloomberg",
      "date": "2026-08-06",
      "title": "Alphabet Raises $25 Billion From Sought-After Bond Sale"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526340264/d32286d424b2.htm",
+     "publisher": "Alphabet (SEC 424B2)",
+     "date": "2026-08-07",
+     "title": "Alphabet Inc. prospectus supplement: $25B notes"
     }
    ],
    "origin": "curated"
@@ -5961,6 +6569,32 @@
      "publisher": "AI Magazine",
      "date": "2026-07-22",
      "title": "Microsoft & Mistral's Multi-Billion-Dollar European AI Deal"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "private-investors-fluidstack-2026-01-series-a",
+   "kind": "investment",
+   "subkind": "venture round (Series A)",
+   "from": "private-investors",
+   "to": "fluidstack",
+   "amount_usd": 830000000,
+   "amount_text": "$830M Series A at a $7.5B valuation, led by Situational Awareness; closed January 2026, announced 20 July 2026",
+   "announced": "2026-07-20",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Fluidstack raises $830M Series A at $7.5B",
+   "title_zh": "Fluidstack 完成 8.3 亿美元 A 轮融资，估值 75 亿美元",
+   "summary_en": "Fluidstack, which builds AI data centres for Anthropic and Google-backed sites, said it raised $830M in a Series A led by Situational Awareness at a $7.5B valuation; the round closed in January 2026.",
+   "summary_zh": "为 Anthropic 及谷歌兜底项目建设 AI 数据中心的 Fluidstack 宣布完成由 Situational Awareness 领投的 8.3 亿美元 A 轮融资，估值 75 亿美元，该轮已于 2026 年 1 月完成。",
+   "sources": [
+    {
+     "url": "https://fluidstack.io/blog/series-a-announcement",
+     "publisher": "Fluidstack",
+     "date": "2026-07-20",
+     "title": "Fluidstack Series A announcement"
     }
    ],
    "origin": "curated"
@@ -6528,33 +7162,6 @@
    "origin": "curated"
   },
   {
-   "id": "jpmorgan-amd-2026-05-loan",
-   "kind": "debt",
-   "subkind": "credit facility",
-   "from": "jpmorgan",
-   "to": "amd",
-   "amount_usd": 5000000000.0,
-   "amount_text": "$5B (corrected on approval)",
-   "announced": "2026-05-14",
-   "term": null,
-   "status": "signed",
-   "confidence": "confirmed",
-   "title_en": "AMD credit facility",
-   "title_zh": "AMD（超威半导体） 信贷安排",
-   "summary_en": "AMD reported a new direct financial obligation (credit facility) in an 8-K filed on 2026-05-15.",
-   "summary_zh": "AMD（超威半导体）在 2026-05-15 提交的 8-K 中披露了一项新的直接财务义务（信贷安排）。",
-   "sources": [
-    {
-     "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526226746/d118163d8k.htm",
-     "publisher": "SEC EDGAR (ADVANCED MICRO DEVICES INC 8-K)",
-     "date": "2026-05-15",
-     "title": "ADVANCED MICRO DEVICES INC 8-K: Entry into a material definitive agreement; Termination of a material definitive agreement; Creation of a direct financial obligation"
-    }
-   ],
-   "added_by": "approved by helajo",
-   "origin": "curated"
-  },
-  {
    "id": "bond-investors-iren-2026-05-convertible",
    "kind": "debt",
    "subkind": "convertible senior notes",
@@ -6684,16 +7291,28 @@
    "from": "anthropic",
    "to": "spacex",
    "amount_usd": null,
-   "amount_text": "~$1.25B per month per SpaceX's IPO filing (TechCrunch); ~$45B only if it runs to May 2029, and either side can exit on 90 days' notice, so no total is counted",
+   "amount_text": "Up to $120.5B through 2029 per Anthropic's S-1 (26 Oct 2026), with fees rising to ~$3.1B a month once all capacity is delivered (expected Dec 2026); first disclosed at ~$1.25B a month in SpaceX's May S-1. Initial terms end Jan and Mar 2027, then either side can exit on 90 days' notice, so no committed total is counted",
    "announced": "2026-05-06",
-   "term": "Through May 2029 per SpaceX S-1; terminable on 90 days' notice",
+   "term": "Through 2029 at most; initial periods end Jan/Mar 2027, then terminable on 90 days' notice",
    "status": "in_progress",
    "confidence": "confirmed",
    "title_en": "Anthropic rents SpaceX/xAI Colossus compute (~$1.25B a month)",
    "title_zh": "Anthropic 租用 SpaceX/xAI Colossus 算力（每月约 12.5 亿美元）",
-   "summary_en": "Anthropic agreed to use all compute at SpaceX's (xAI's) Colossus 1 in Memphis, over 300 MW (over 220,000 Nvidia GPUs), and its Series H post adds Colossus 2. SpaceX's IPO filing reportedly shows fees of $1.25B a month through May 2029, but either side can exit on 90 days' notice, and Musk described it as a six-month lease.",
-   "summary_zh": "Anthropic 同意使用 SpaceX（xAI）位于孟菲斯的 Colossus 1 全部算力，逾 300 兆瓦（逾 22 万颗英伟达 GPU），其 H 轮融资公告又提及 Colossus 2。据报道，SpaceX 招股文件显示费用为每月 12.5 亿美元直至 2029 年 5 月，但任一方可提前 90 天通知退出，马斯克则称其为六个月租约。",
+   "summary_en": "Anthropic agreed to use all compute at SpaceX's (xAI's) Colossus 1 in Memphis, over 300 MW (over 220,000 Nvidia GPUs), and its Series H post adds Colossus 2. SpaceX's IPO filing reportedly shows fees of $1.25B a month through May 2029, but either side can exit on 90 days' notice, and Musk described it as a six-month lease. Anthropic's own S-1 (October 2026) shows the deal expanded: up to $120.5B of SpaceX compute through 2029, about $3.1B a month at full delivery.",
+   "summary_zh": "Anthropic 同意使用 SpaceX（xAI）位于孟菲斯的 Colossus 1 全部算力，逾 300 兆瓦（逾 22 万颗英伟达 GPU），其 H 轮融资公告又提及 Colossus 2。据报道，SpaceX 招股文件显示费用为每月 12.5 亿美元直至 2029 年 5 月，但任一方可提前 90 天通知退出，马斯克则称其为六个月租约。Anthropic 2026 年 10 月的 S-1 显示合作已扩大：2029 年前最多向 SpaceX 支付 1205 亿美元算力费用，全部交付后每月约 31 亿美元。",
    "sources": [
+    {
+     "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-discloses-120-5-billion-140613686.html",
+     "publisher": "Yahoo Finance",
+     "date": "2026-10-26",
+     "title": "Anthropic discloses up to $120.5 billion in SpaceX compute spending through 2029"
+    },
+    {
+     "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html",
+     "publisher": "CNBC",
+     "date": "2026-10-26",
+     "title": "Anthropic's IPO plans: live updates on the S-1 filing"
+    },
     {
      "url": "https://www.anthropic.com/news/higher-limits-spacex",
      "publisher": "Anthropic",
@@ -6883,7 +7502,7 @@
    "from": "amazon",
    "to": "anthropic",
    "amount_usd": 25000000000,
-   "amount_text": "Up to $25B: $5B now + up to $20B tied to milestones",
+   "amount_text": "Up to $25B: $5B now + up to $20B tied to milestones. Anthropic's S-1 (Oct 2026): after Amazon's $5B Series H investment, $15B remains available under the 2026 note purchase agreement (convertible notes / non-voting stock), released in $5B tranches tied to compute-capacity milestones; nothing issued under it by 30 June 2026",
    "announced": "2026-04-20",
    "term": null,
    "status": "in_progress",
@@ -6904,6 +7523,12 @@
      "publisher": "AP via Yahoo Finance",
      "date": "2026-04-21",
      "title": "AI startup Anthropic commits $100 billion to Amazon's AWS over next 10 years"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/0002130357/000162828026067168/anthropicpbc-sx1.htm",
+     "publisher": "Anthropic (SEC S-1)",
+     "date": "2026-10-26",
+     "title": "Anthropic, PBC - Form S-1"
     }
    ],
    "origin": "curated"
@@ -6915,7 +7540,7 @@
    "from": "anthropic",
    "to": "amazon",
    "amount_usd": 100000000000,
-   "amount_text": ">$100B over 10 years; up to 5 GW incl. Trainium2-Trainium4",
+   "amount_text": ">$100B over 10 years; up to 5 GW incl. Trainium2-Trainium4. Anthropic's S-1 (Oct 2026) shows ~$110B non-cancelable with Amazon through 2036 (per Yahoo Finance and GeekWire)",
    "announced": "2026-04-20",
    "term": "10 years",
    "status": "signed",
@@ -6936,6 +7561,12 @@
      "publisher": "AP",
      "date": "2026-04-21",
      "title": "AI startup Anthropic commits $100 billion to Amazon's AWS over next 10 years"
+    },
+    {
+     "url": "https://finance.yahoo.com/markets/article/anthropics-ipo-filing-reveals-430-billion-in-locked-in-ai-computing-chart-of-the-day-134457635.html",
+     "publisher": "Yahoo Finance",
+     "date": "2026-10-27",
+     "title": "Anthropic's IPO filing reveals $430 billion in locked-in AI computing — and Broadcom tops Google and Amazon"
     }
    ],
    "origin": "curated"
@@ -7083,6 +7714,38 @@
    "origin": "curated"
   },
   {
+   "id": "private-investors-firmus-2026-04-equity",
+   "kind": "investment",
+   "subkind": "strategic equity round",
+   "from": "private-investors",
+   "to": "firmus",
+   "amount_usd": 505000000,
+   "amount_text": "US$505M at ~US$5.5B valuation, led by Coatue with NVIDIA participating",
+   "announced": "2026-04-07",
+   "term": null,
+   "status": "completed",
+   "confidence": "reported",
+   "title_en": "Firmus raises $505M led by Coatue",
+   "title_zh": "Firmus 获 Coatue 领投 5.05 亿美元融资",
+   "summary_en": "Nvidia-backed Firmus raised US$505M in a round led by Coatue at about a US$5.5B valuation to expand its Project Southgate AI factories in Australia.",
+   "summary_zh": "英伟达支持的 Firmus 完成由 Coatue 领投的 5.05 亿美元融资，估值约 55 亿美元，用于扩建其在澳大利亚的 Project Southgate AI 工厂。",
+   "sources": [
+    {
+     "url": "https://finance.yahoo.com/sectors/technology/articles/nvidia-backed-firmus-raises-505-003105406.html",
+     "publisher": "Yahoo Finance",
+     "date": "2026-04-07",
+     "title": "Nvidia-backed Firmus raises $505 million"
+    },
+    {
+     "url": "https://pulse2.com/firmus-technologies-505-million-raised-for-ai-infrastructure-expansion/",
+     "publisher": "Pulse 2.0",
+     "date": "2026-04-07",
+     "title": "Firmus Technologies: $505 Million Raised For AI Infrastructure Expansion"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "alphabet-broadcom-2026-04-tpu-lta",
    "kind": "order",
    "subkind": "long-term custom TPU development and supply agreement",
@@ -7120,17 +7783,23 @@
    "subkind": "multi-gigawatt TPU capacity agreement",
    "from": "anthropic",
    "to": "alphabet",
-   "amount_usd": null,
-   "amount_text": "Undisclosed; 5 GW of next-gen TPU capacity from 2027 (Anthropic); a Broadcom filing cited ~3.5 GW",
+   "amount_usd": 114500000000,
+   "amount_text": "~$114.5B non-cancelable Google TPU commitment through 2033 per Anthropic's S-1 (Oct 2026), as tallied by Yahoo Finance; this covers Anthropic's Google TPU deals together, so the Oct 2025 edge stays without an amount. 5 GW of next-gen TPU capacity from 2027 (Anthropic); a Broadcom filing cited ~3.5 GW",
    "announced": "2026-04-06",
-   "term": "From 2027",
+   "term": "From 2027 through 2033",
    "status": "signed",
-   "confidence": "confirmed",
+   "confidence": "reported",
    "title_en": "Anthropic 5 GW TPU deal with Google and Broadcom",
    "title_zh": "Anthropic 与谷歌、博通的 5 吉瓦 TPU 协议",
-   "summary_en": "Anthropic signed with Google and Broadcom for 5 GW of next-generation TPU capacity coming online from 2027, which its CFO called its largest compute commitment to date; an earlier Broadcom filing cited about 3.5 GW.",
-   "summary_zh": "Anthropic 与谷歌及博通签约，自 2027 年起获得 5 吉瓦下一代 TPU 算力，其首席财务官称这是公司迄今最大的算力承诺；博通此前的文件显示规模约 3.5 吉瓦。",
+   "summary_en": "Anthropic signed with Google and Broadcom for 5 GW of next-generation TPU capacity coming online from 2027, which its CFO called its largest compute commitment to date; an earlier Broadcom filing cited about 3.5 GW. Anthropic's S-1 (October 2026) shows about $114.5B of non-cancelable Google TPU commitments through 2033.",
+   "summary_zh": "Anthropic 与谷歌及博通签约，自 2027 年起获得 5 吉瓦下一代 TPU 算力，其首席财务官称这是公司迄今最大的算力承诺；博通此前的文件显示规模约 3.5 吉瓦。Anthropic 2026 年 10 月的 S-1 显示，其对谷歌 TPU 的不可撤销承诺约 1145 亿美元，期限至 2033 年。",
    "sources": [
+    {
+     "url": "https://finance.yahoo.com/markets/article/anthropics-ipo-filing-reveals-430-billion-in-locked-in-ai-computing-chart-of-the-day-134457635.html",
+     "publisher": "Yahoo Finance",
+     "date": "2026-10-27",
+     "title": "Anthropic's IPO filing reveals $430 billion in locked-in AI computing — and Broadcom tops Google and Amazon"
+    },
     {
      "url": "https://www.anthropic.com/news/google-broadcom-partnership-compute",
      "publisher": "Anthropic",
@@ -9163,7 +9832,7 @@
    "from": "anthropic",
    "to": "microsoft",
    "amount_usd": 30000000000,
-   "amount_text": "$30B of Azure compute, plus additional capacity up to 1 GW",
+   "amount_text": "$30B of Azure compute, plus additional capacity up to 1 GW; Anthropic's S-1 (Oct 2026) puts the non-cancelable Microsoft commitment at ~$44.9B (Yahoo Finance tally), not yet reflected in the amount",
    "announced": "2025-11-18",
    "term": "Multi-year",
    "status": "signed",
@@ -9184,6 +9853,12 @@
      "publisher": "Microsoft",
      "date": "2025-11-18",
      "title": "Microsoft, NVIDIA and Anthropic announce strategic partnerships"
+    },
+    {
+     "url": "https://finance.yahoo.com/markets/article/anthropics-ipo-filing-reveals-430-billion-in-locked-in-ai-computing-chart-of-the-day-134457635.html",
+     "publisher": "Yahoo Finance",
+     "date": "2026-10-27",
+     "title": "Anthropic's IPO filing reveals $430 billion in locked-in AI computing — and Broadcom tops Google and Amazon"
     }
    ],
    "origin": "curated"
@@ -10245,6 +10920,38 @@
    "origin": "curated"
   },
   {
+   "id": "fluidstack-cipher-mining-2025-09-barber-lake-lease",
+   "kind": "lease",
+   "subkind": "10-year AI data-centre hosting lease",
+   "from": "fluidstack",
+   "to": "cipher-mining",
+   "amount_usd": 3800000000,
+   "amount_text": "~$3.8B contracted revenue over initial 10-year terms: ~$3B for 168 MW (Sept 2025) + ~$830M for 56 MW (Nov 2025); ~$9B with two 5-year extensions",
+   "announced": "2025-09-25",
+   "term": "10 years initial, two 5-year extensions",
+   "status": "in_progress",
+   "confidence": "confirmed",
+   "title_en": "Fluidstack leases 224 MW at Cipher's Barber Lake (~$3.8B)",
+   "title_zh": "Fluidstack 租用 Cipher Barber Lake 园区 224 兆瓦（约 38 亿美元）",
+   "summary_en": "Fluidstack signed a 10-year, 168 MW AI hosting lease at Cipher Mining's Barber Lake site in Texas (~$3B) and added 56 MW in November 2025 (~$830M), ~$3.8B in all over the initial term. Google backstops $1.73B of the lease payments (separate edge).",
+   "summary_zh": "Fluidstack 与 Cipher Mining 签订得州 Barber Lake 园区 168 兆瓦、为期 10 年的 AI 托管租约（约 30 亿美元），2025 年 11 月再追加 56 兆瓦（约 8.3 亿美元），初始期限合同收入合计约 38 亿美元；谷歌为其中 17.3 亿美元租金提供兜底（另列一条）。",
+   "sources": [
+    {
+     "url": "https://investors.cipherdigital.com/news-releases/news-release-details/cipher-mining-signs-168-mw-10-year-ai-hosting-agreement/",
+     "publisher": "Cipher Mining",
+     "date": "2025-09-25",
+     "title": "Cipher Mining Signs 168 MW, 10-Year AI Hosting Agreement with Fluidstack"
+    },
+    {
+     "url": "https://investors.cipherdigital.com/news-releases/news-release-details/cipher-mining-signs-additional-56-mw-10-year-ai-hosting",
+     "publisher": "Cipher Mining",
+     "date": "2025-11-20",
+     "title": "Cipher Mining Signs Additional 56 MW, 10-Year AI Hosting Agreement with Fluidstack"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "bond-investors-oracle-2025-09-bonds",
    "kind": "debt",
    "subkind": "corporate bonds (investment grade)",
@@ -10368,6 +11075,38 @@
      "publisher": "Reuters via Cyprus Mail",
      "date": "2025-12-29",
      "title": "Nvidia completes $5bn investment in struggling rival Intel"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "private-investors-groq-2025-09-series-e",
+   "kind": "investment",
+   "subkind": "venture round",
+   "from": "private-investors",
+   "to": "groq",
+   "amount_usd": 750000000,
+   "amount_text": "$750M at a $6.9B post-money valuation, led by Disruptive with BlackRock, Neuberger Berman, DTCP; Samsung, Cisco and others participated",
+   "announced": "2025-09-17",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Groq raises $750M at $6.9B valuation",
+   "title_zh": "Groq 融资 7.5 亿美元，估值 69 亿美元",
+   "summary_en": "AI inference-chip maker Groq raised $750M at a $6.9B post-money valuation, led by Disruptive, to expand its data-centre capacity, three months before Nvidia's licensing and acqui-hire deal.",
+   "summary_zh": "AI 推理芯片公司 Groq 完成由 Disruptive 领投的 7.5 亿美元融资，投后估值 69 亿美元，用于扩充数据中心容量；三个月后英伟达与其达成技术授权和人才收购协议。",
+   "sources": [
+    {
+     "url": "https://groq.com/news/groq-raises-750-million-as-inference-demand-surges",
+     "publisher": "Groq",
+     "date": "2025-09-17",
+     "title": "Groq Raises $750 Million as Inference Demand Surges"
+    },
+    {
+     "url": "https://gulfnews.com/technology/ai-chip-startup-groq-raises-750-million-at-6-9-billion-valuation-1.500272787",
+     "publisher": "Gulf News (Reuters)",
+     "date": "2025-09-17",
+     "title": "Groq, AI chip startup, raises $750 million at $6.9 billion valuation"
     }
    ],
    "origin": "curated"
@@ -10528,6 +11267,38 @@
      "publisher": "TechRadar",
      "date": "2025-09-09",
      "title": "ASML invests $1.5 billion in OpenAI's European rival Mistral AI"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "deutsche-bank-ecodatacenter-2025-09-debt",
+   "kind": "debt",
+   "subkind": "private credit / infrastructure debt facility",
+   "from": "deutsche-bank",
+   "to": "ecodatacenter",
+   "amount_usd": 703000000,
+   "amount_text": "€600M (~$703M as reported)",
+   "announced": "2025-09-09",
+   "term": null,
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Deutsche Bank lends EcoDataCenter €600M",
+   "title_zh": "德意志银行向 EcoDataCenter 提供 6 亿欧元贷款",
+   "summary_en": "Swedish data-centre operator EcoDataCenter, owned by Areim, raised €600M of debt from Deutsche Bank Private Credit and Infrastructure, mainly to expand its Falun and Borlänge campuses (Borlänge later hosts Mistral AI's Swedish site).",
+   "summary_zh": "Areim 旗下瑞典数据中心运营商 EcoDataCenter 从德意志银行私募信贷与基础设施部门获得 6 亿欧元债务融资，主要用于扩建法伦和博朗厄园区（博朗厄后来成为 Mistral AI 瑞典站点所在地）。",
+   "sources": [
+    {
+     "url": "https://ecodatacenter.tech/press/ecodatacenter-raises-an-additional-eur-600-million-3402903",
+     "publisher": "EcoDataCenter",
+     "date": "2025-09-09",
+     "title": "EcoDataCenter raises an additional EUR 600 million"
+    },
+    {
+     "url": "https://www.bloomberg.com/news/articles/2025-09-09/ecodatacenter-raises-600-million-debt-for-ai-infrastructure",
+     "publisher": "Bloomberg",
+     "date": "2025-09-09",
+     "title": "EcoDataCenter Raises €600 Million Debt for AI Infrastructure"
     }
    ],
    "origin": "curated"
@@ -10868,6 +11639,38 @@
      "publisher": "TeraWulf (press release)",
      "date": "2025-08-18",
      "title": "TeraWulf Announces Fluidstack Expansion with 160 MW CB-5 Lease at Lake Mariner"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "fluidstack-terawulf-2025-08-lake-mariner-lease",
+   "kind": "lease",
+   "subkind": "10-year AI data-centre hosting lease",
+   "from": "fluidstack",
+   "to": "terawulf",
+   "amount_usd": 6700000000,
+   "amount_text": "~$6.7B contracted revenue over initial 10-year terms for CB-3, CB-4 and CB-5 (~$3.7B for the first ~200 MW, then +160 MW CB-5); up to ~$16B with extensions; July 2026 amendments raised CB-4 and CB-5 to 168 MW each (value not updated)",
+   "announced": "2025-08-14",
+   "term": "10 years initial, with extension options",
+   "status": "in_progress",
+   "confidence": "confirmed",
+   "title_en": "Fluidstack leases 360 MW at TeraWulf's Lake Mariner (~$6.7B)",
+   "title_zh": "Fluidstack 租用 TeraWulf Lake Mariner 园区 360 兆瓦（约 67 亿美元）",
+   "summary_en": "Fluidstack signed 10-year leases for AI data halls at TeraWulf's Lake Mariner campus in New York, first ~200 MW (CB-3/CB-4, ~$3.7B) and then CB-5 (+160 MW), for ~$6.7B of contracted revenue. Google backstops up to $3.2B of the lease payments (separate edge).",
+   "summary_zh": "Fluidstack 与 TeraWulf 签订纽约 Lake Mariner 园区 AI 数据机房 10 年租约，先是约 200 兆瓦（CB-3/CB-4，约 37 亿美元），后追加 CB-5（160 兆瓦），合同收入合计约 67 亿美元；谷歌为其中最多 32 亿美元租金提供兜底（另列一条）。",
+   "sources": [
+    {
+     "url": "https://www.barchart.com/story/news/34218778/terawulf-announces-fluidstack-expansion-with-160-mw-cb-5-lease-at-lake-mariner",
+     "publisher": "TeraWulf (press release)",
+     "date": "2025-08-18",
+     "title": "TeraWulf Announces Fluidstack Expansion with 160 MW CB-5 Lease at Lake Mariner"
+    },
+    {
+     "url": "https://www.datacenterdynamics.com/en/news/fluidstack-to-lease-another-160mw-of-capacity-from-terawulf-at-new-york-campus-google-to-increase-stake-in-cryptominer/",
+     "publisher": "DCD",
+     "date": "2025-08-18",
+     "title": "Fluidstack to lease another 160MW of capacity from TeraWulf at New York campus"
     }
    ],
    "origin": "curated"
@@ -12072,6 +12875,38 @@
      "publisher": "DCD",
      "date": "2024-12-24",
      "title": "xAI raises another $6bn, including from Nvidia and AMD"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "alphabet-intersect-power-2024-12-equity",
+   "kind": "investment",
+   "subkind": "equity stake (funding round)",
+   "from": "alphabet",
+   "to": "intersect-power",
+   "amount_usd": null,
+   "amount_text": "Google's share undisclosed in an $800M+ round with TPG Rise Climate, CAI and Greenbelt; tied to a ~$20B plan for co-located clean power and data-centre parks by 2030",
+   "announced": "2024-12-10",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Google takes a stake in Intersect Power in $800M round",
+   "title_zh": "谷歌在 8 亿美元融资中入股 Intersect Power",
+   "summary_en": "Google joined TPG Rise Climate, Climate Adaptive Infrastructure and Greenbelt Capital in an $800M+ funding of Intersect Power, under a partnership to build data-centre parks co-located with new clean power, with Google as anchor tenant. Google later bought the company (separate edge).",
+   "summary_zh": "谷歌与 TPG Rise Climate、Climate Adaptive Infrastructure 及 Greenbelt Capital 一起参与 Intersect Power 逾 8 亿美元的融资，双方合作建设与新清洁电源同址的数据中心园区，谷歌为主力租户；谷歌后来收购了该公司（另列一条）。",
+   "sources": [
+    {
+     "url": "https://www.businesswire.com/news/home/20241210181059/en/CAI-Joins-TPG-Google-and-Greenbelt-Capital-in-More-Than-%24800M-Funding-of-Intersect-Power-to-Accelerate-Next-Generation-Decarbonization-Solutions",
+     "publisher": "Business Wire (CAI)",
+     "date": "2024-12-10",
+     "title": "CAI Joins TPG, Google and Greenbelt Capital in More Than $800M Funding of Intersect Power"
+    },
+    {
+     "url": "https://impactalpha.com/tpg-rise-and-google-plug-800-million-into-intersect-power-for-green-data-centers/",
+     "publisher": "ImpactAlpha",
+     "date": "2024-12-10",
+     "title": "TPG Rise and Google plug $800 million into Intersect Power for green data centers"
     }
    ],
    "origin": "curated"
@@ -14791,44 +15626,44 @@
   }
  ],
  "stats": {
-  "entities": 96,
-  "edges": 263,
-  "curated_edges": 263,
+  "entities": 100,
+  "edges": 280,
+  "curated_edges": 280,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
-    "count": 75,
-    "usd": 1507789000000,
+    "count": 77,
+    "usd": 1624289000000,
     "undisclosed": 40,
     "cancelled": 0
    },
    "investment": {
-    "count": 89,
-    "usd": 825256100000,
-    "undisclosed": 32,
+    "count": 96,
+    "usd": 865841100000,
+    "undisclosed": 33,
     "cancelled": 2
    },
    "debt": {
-    "count": 86,
-    "usd": 853864000000.0,
-    "undisclosed": 1,
+    "count": 91,
+    "usd": 892557000000.0,
+    "undisclosed": 2,
     "cancelled": 0
    },
    "lease": {
-    "count": 8,
-    "usd": 49940000000,
+    "count": 11,
+    "usd": 221640000000,
     "undisclosed": 4,
     "cancelled": 0
    },
    "vendor_financing": {
-    "count": 1,
-    "usd": 42000000000,
+    "count": 0,
+    "usd": 0,
     "undisclosed": 0,
     "cancelled": 0
    },
    "guarantee": {
-    "count": 4,
-    "usd": 109930000000,
+    "count": 5,
+    "usd": 152930000000,
     "undisclosed": 1,
     "cancelled": 0
    }
@@ -14859,7 +15694,7 @@
     "usd": 0
    }
   },
-  "total_usd": 3388779100000.0,
+  "total_usd": 3757257100000.0,
   "latest_announced": "2026-10-27"
  },
  "notes": {
