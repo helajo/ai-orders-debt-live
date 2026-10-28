@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-28T00:53:40Z",
+ "generated_at": "2026-10-28T00:58:56Z",
  "monitor": {
-  "last_run": "2026-10-28T00:53:23Z",
+  "last_run": "2026-10-28T00:58:32Z",
   "sec_items": 120,
   "news_items": 800,
   "candidates": 0,
@@ -9,7 +9,7 @@
   "model": null,
   "sources": {
    "sec": {
-    "last_run": "2026-10-28T00:53:23Z",
+    "last_run": "2026-10-28T00:58:32Z",
     "ok": true,
     "tickers": 22,
     "fetched": 22,
@@ -19,12 +19,12 @@
     "errors": []
    },
    "news": {
-    "last_run": "2026-10-28T00:53:23Z",
+    "last_run": "2026-10-28T00:58:32Z",
     "ok": true,
     "feeds": 18,
     "fetched": 18,
-    "items": 582,
-    "added": 39,
+    "items": 562,
+    "added": 35,
     "total": 800,
     "errors": []
    },
@@ -247,7 +247,7 @@
     "inflow_usd": {
      "order": 10000000000,
      "investment": 0,
-     "debt": 81430000000,
+     "debt": 89930000000.0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -263,7 +263,7 @@
     "inflow_count": {
      "order": 6,
      "investment": 0,
-     "debt": 3,
+     "debt": 4,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -276,11 +276,11 @@
      "vendor_financing": 0,
      "guarantee": 2
     },
-    "degree": 16,
-    "degree_curated": 16,
+    "degree": 17,
+    "degree_curated": 17,
     "candidate_edges": 0,
     "counterparties": 10,
-    "inflow_total_usd": 91430000000,
+    "inflow_total_usd": 99930000000.0,
     "outflow_total_usd": 80680000000
    }
   },
@@ -296,7 +296,7 @@
     "inflow_usd": {
      "order": 238000000000,
      "investment": 0,
-     "debt": 93800000000,
+     "debt": 107800000000.0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -312,7 +312,7 @@
     "inflow_count": {
      "order": 3,
      "investment": 0,
-     "debt": 3,
+     "debt": 4,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -325,11 +325,11 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 11,
-    "degree_curated": 11,
+    "degree": 12,
+    "degree_curated": 12,
     "candidate_edges": 0,
     "counterparties": 5,
-    "inflow_total_usd": 331800000000,
+    "inflow_total_usd": 345800000000.0,
     "outflow_total_usd": 88500000000
    }
   },
@@ -1039,7 +1039,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 425238000000,
+     "debt": 472738000000.0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1055,17 +1055,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 45,
+     "debt": 48,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 45,
-    "degree_curated": 45,
+    "degree": 48,
+    "degree_curated": 48,
     "candidate_edges": 0,
-    "counterparties": 21,
+    "counterparties": 22,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 425238000000
+    "outflow_total_usd": 472738000000.0
    }
   },
   {
@@ -3334,7 +3334,7 @@
     "inflow_usd": {
      "order": 40000000000,
      "investment": 0,
-     "debt": 0,
+     "debt": 25000000000.0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -3350,7 +3350,7 @@
     "inflow_count": {
      "order": 5,
      "investment": 0,
-     "debt": 0,
+     "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -3363,11 +3363,11 @@
      "vendor_financing": 0,
      "guarantee": 1
     },
-    "degree": 22,
-    "degree_curated": 22,
+    "degree": 23,
+    "degree_curated": 23,
     "candidate_edges": 0,
-    "counterparties": 19,
-    "inflow_total_usd": 40000000000,
+    "counterparties": 20,
+    "inflow_total_usd": 65000000000.0,
     "outflow_total_usd": 186000000000
    }
   },
@@ -6088,6 +6088,33 @@
    "origin": "curated"
   },
   {
+   "id": "bond-investors-nvidia-2026-06-notes",
+   "kind": "debt",
+   "subkind": "senior notes",
+   "from": "bond-investors",
+   "to": "nvidia",
+   "amount_usd": 25000000000.0,
+   "amount_text": "$25B in 7 tranches: $3.5B 4.250% Notes due 2028; $3.5B 4.350% Notes due 2029; $4B 4.500% Notes due 2031; $3.5B 4.750% Notes due 2033; $4B 4.950% Notes due 2036; $3B 5.550% Notes due 2046; $3.5B 5.625% Notes due 2056",
+   "announced": "2026-06-17",
+   "term": "due 2028–2056",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "NVIDIA $25B notes offering",
+   "title_zh": "英伟达发行 250 亿美元票据",
+   "summary_en": "NVIDIA sold $25B of notes in 7 tranches due 2028–2056, according to its 424B5 prospectus filed on 2026-06-17.",
+   "summary_zh": "根据 2026-06-17 提交的 424B5 招股说明书，英伟达发行 250 亿美元票据，共 7 档，2028–2056 年到期。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1045810/000119312526273139/d118718d424b5.htm",
+     "publisher": "SEC EDGAR (NVIDIA CORP 424B5)",
+     "date": "2026-06-17",
+     "title": "NVIDIA CORP 424B5: Prospectus (securities / bond offering)"
+    }
+   ],
+   "added_by": "rules",
+   "origin": "curated"
+  },
+  {
    "id": "kkr-helix-digital-infrastructure-2026-06-launch",
    "kind": "investment",
    "subkind": "platform equity commitments",
@@ -6117,6 +6144,33 @@
      "title": "KKR launches $10b AI infra platform with Kuwait, Nvidia, Vistra"
     }
    ],
+   "origin": "curated"
+  },
+  {
+   "id": "bond-investors-amazon-2026-06-notes",
+   "kind": "debt",
+   "subkind": "senior notes",
+   "from": "bond-investors",
+   "to": "amazon",
+   "amount_usd": 14000000000.0,
+   "amount_text": "$14B in 5 tranches: $1.25B 3.400% NOTES DUE 2029; $2.5B 3.700% NOTES DUE 2031; $2B 4.000% NOTES DUE 2033; $3.5B 4.350% NOTES DUE 2036; $4.75B 5.000% NOTES DUE 2056",
+   "announced": "2026-06-10",
+   "term": "due 2029–2056",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Amazon / AWS $14B notes offering",
+   "title_zh": "亚马逊（AWS）发行 140 亿美元票据",
+   "summary_en": "Amazon / AWS sold $14B of notes in 5 tranches due 2029–2056, according to its 424B5 prospectus filed on 2026-06-10.",
+   "summary_zh": "根据 2026-06-10 提交的 424B5 招股说明书，亚马逊（AWS）发行 140 亿美元票据，共 5 档，2029–2056 年到期。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926072332/tm2613616-2_424b5.htm",
+     "publisher": "SEC EDGAR (AMAZON COM INC 424B5)",
+     "date": "2026-06-10",
+     "title": "AMAZON COM INC 424B5: Prospectus (securities / bond offering)"
+    }
+   ],
+   "added_by": "rules",
    "origin": "curated"
   },
   {
@@ -6465,6 +6519,33 @@
      "title": "Apple reportedly strikes deal for Intel to make some of its chips"
     }
    ],
+   "origin": "curated"
+  },
+  {
+   "id": "bond-investors-alphabet-2026-05-notes",
+   "kind": "debt",
+   "subkind": "senior notes",
+   "from": "bond-investors",
+   "to": "alphabet",
+   "amount_usd": 8500000000.0,
+   "amount_text": "$8.5B in 4 tranches: $1.5B 3.650% Notes due 2031; $2B 4.000% Notes due 2033; $2.25B 4.350% Notes due 2036; $2.75B 5.000% Notes due 2056",
+   "announced": "2026-05-07",
+   "term": "due 2031–2056",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Alphabet / Google $8.5B notes offering",
+   "title_zh": "谷歌（Alphabet）发行 85 亿美元票据",
+   "summary_en": "Alphabet / Google sold $8.5B of notes in 4 tranches due 2031–2056, according to its 424B2 prospectus filed on 2026-05-07.",
+   "summary_zh": "根据 2026-05-07 提交的 424B2 招股说明书，谷歌（Alphabet）发行 85 亿美元票据，共 4 档，2031–2056 年到期。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526212222/d325417d424b2.htm",
+     "publisher": "SEC EDGAR (Alphabet Inc. 424B2)",
+     "date": "2026-05-07",
+     "title": "Alphabet Inc. 424B2: Prospectus (securities / bond offering)"
+    }
+   ],
+   "added_by": "rules",
    "origin": "curated"
   },
   {
@@ -12504,6 +12585,33 @@
  ],
  "news": [
   {
+   "id": "n332aea9cd0d00593",
+   "title": "Today’s Market Recap: $63 Billion Anthropic Compute Financing Lifts Chip Stocks, Broadcom Gains 4%, CRWV Rises Nearly 8%, Boeing Falls Over 10%",
+   "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOTzFISDNVM0N6OEhtWTRvaDJKb1V2WjdqT2ZQcmhjVy01b2Zxalk2TGpkWnN5MkhIYndTQ01kT3lacmhNenNvOVdtU0d1eXRCa0cwcERIRzZiNlRGcURqOXlPdkFzbWhwT0l2TkozajBudGlpVnNKQ0owQ251YnJCdFpzc1phdkV4RENOb2FONU5GLUlqbnA0ZkpLUDlHbHlRcS1XejgxWEw1S1BnZmxPSklnTERjbzV6ZnNhUFRaUXNfeXlQVkJvS0RDQnNfdWhHTDRxdHFaTHU3ejFMMUx2eHFn?oc=5",
+   "publisher": "TradingKey",
+   "published": "2026-10-28T00:56:50Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "(OpenAI OR Anthropic OR xAI) compute deal billion when:7d",
+   "entities": [
+    "anthropic",
+    "broadcom"
+   ],
+   "fetched_at": "2026-10-28T00:58:35Z"
+  },
+  {
+   "id": "n3dc1ae27d7079c07",
+   "title": "A. O. Smith Announces Majority Interest of China Business Acquired by CPE; A. O. Smith to Retain 19% Stake and Long-Term Brand License",
+   "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxPRTlhUDNoMjlWeS1mcXB2Nm5DRXVEVXpTVy12YThSUXJVYTRYSXdRTV9qU0hJdFB1V0Z6dWNPdUNlV0FQd2stWk5wbjlQcnVYNUxNSDBrU3loN2NXdEpYM1Z3bVZkSy1hQjNRY28xVXY5TFV4OEF1RXlrdEJGOGMwcHFBX3NtNEJXVXBVYkdyOUVaNm9fWUVTc01aYndQUWdyOF9YTEpBWWo1MVdLWGNTcEYtaGd0cTEtaUxwbGZSaDZCSmxUNW1CaVR5Vnh1ZlI2S25oOS1SV1FXTlJtN1gtd1VxTWhRUG1yS1VLa2d2NHdXRl9sZkhHTlVrcUNNODIwb25DSXc5bFRKdmJvNlV5SEtB?oc=5",
+   "publisher": "PR Newswire",
+   "published": "2026-10-28T00:56:20Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T00:58:35Z"
+  },
+  {
    "id": "n98951e6a668e33f9",
    "title": "SK Hynix Turns the AI Arms Race Into a Cash Machine",
    "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNa2ExRU9NUGstSFN0U0RmV29FTUcyQWhoRmx0US1DZEVQdHBwbEhEU0Nkd0hsWVdsa19YODdYVU1mMFB0bTVYQmstdndQcE1POEdKbVljUHM0VEVvZll4ZFctUUJZeTBOZGRSak82NE9HWDJYSDgxX2VyZGNOVVdpbzNRTTc2UTQ?oc=5",
@@ -12829,6 +12937,20 @@
    "query": "AI 数据中心 融资 债券 when:7d",
    "entities": [],
    "fetched_at": "2026-10-28T00:42:45Z"
+  },
+  {
+   "id": "nffdde0ea4c65f8c9",
+   "title": "SK hynix Q3 Preview: Long-Term Agreements Put A Floor Under Memory Pricing (NASDAQ:SKHY)",
+   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSjM1NDRqRjlkZzNVSXRKNmliRWxQT3c0dFpSMVZDRlgwTmRtR29VTjZWd24zVnNxdi1xeFFzeVU1UGVaMjZObXJYZUt4aDlTeXg2dFNhT2lyQlp2anE5aXJySTJXdkNmeW1TVTNrZ0Q0TXVmeDcwNDBVa1FLcld4WlRIYkZlX2JFODVLRERGNy0xdXhuT3R6cnJlZVNwbVo5NVF1ZnpkREhMOGE5dXZPZklVVEI?oc=5",
+   "publisher": "Seeking Alpha",
+   "published": "2026-10-27T20:15:55Z",
+   "date": "2026-10-27",
+   "lang": "en-US",
+   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
+   "entities": [
+    "sk-hynix"
+   ],
+   "fetched_at": "2026-10-28T00:58:35Z"
   },
   {
    "id": "n39617115edb1ded4",
@@ -13284,50 +13406,6 @@
    "entities": [
     "intel"
    ],
-   "fetched_at": "2026-10-27T20:13:24Z"
-  },
-  {
-   "id": "nb827231b98d89770",
-   "title": "Nvidia, AMD to invest $4 billion in Meta: Why the AI infrastructure deal is important",
-   "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPeVZYRkx5WnVjcXZHWFVGZGlKV016RGtscW9kc0N4cWgyWTEyalh3RjdyZnNLMUpJNjcyWDFZVk56VUVQeVNYU3J2a0lhNmt5SHd4WE1PdGF3cnVfOC1yQW1hU2tKVkpKOUZieXgyWHk3aURBcmh2RFZFNE9GRkZyamVjMGkzUDRsSXpra1QyT1lnT2ZaYS1fSV8xZm1QVkZpWlBnVzNtYV93Uy12SGY4cnkwNWpVYkplc3dlcWlKQ2p5ZHAycHVnS2JxbWpDNnFXbXozbTAwNNIB3gFBVV95cUxQeDNXcS03MzJvVjFSMGFISEMxVkpHeXFjcEJLMVpVZk1vXzVrb0RwOExNcGpmT0dfRmpwNE5aVy10NGZFZjJFUDNxYUhtTXhDQ2NlX1hiYWV1SVZGZEVSNHVST0RWTWpMX20ySTM1cHpoc1BWRTNkZ3FKYk5KTDVQSC1QNXBKU1ZESElLWnJlRFFIWWVrLWtRSDB6eEVadndMZUgzWXoyTFplT0RlSUkwMFM2Y3M3Nk45UHEzdHJkR2xiTWNJbVhrX0ttdzVHNmFZRkUwUzI3ZDc5N0lZS2c?oc=5",
-   "publisher": "The Financial Express",
-   "published": "2026-10-27T16:11:48Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(Microsoft OR Google OR Amazon OR Meta) AI infrastructure agreement billion when:7d",
-   "entities": [
-    "aip",
-    "amd",
-    "meta",
-    "nvidia"
-   ],
-   "fetched_at": "2026-10-27T20:13:24Z"
-  },
-  {
-   "id": "n44d0e710b2681fd6",
-   "title": "Oracle expands OpenAI partnership, putting Codex and ChatGPT Work in its marketplace",
-   "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE56VXJiZlhfVmluZ1FmUl90Y0NtSFh3b0tfeUJGdEZnWXhCMFZSY0lEbEJKMHVaN0poaTh4MFZKMmZNNVg1MFlYZldHSnFzLWpNZzZRN2x0Z1QyYXJYQlY4VTFmZW9NQlE5MC1nQjZ4MFVYM2NaS0YxUWZpVmc5dw?oc=5",
-   "publisher": "Crypto Briefing",
-   "published": "2026-10-27T16:07:55Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(CoreWeave OR Nebius OR Oracle OR Crusoe) contract billion when:7d",
-   "entities": [
-    "openai",
-    "oracle"
-   ],
-   "fetched_at": "2026-10-27T20:13:24Z"
-  },
-  {
-   "id": "nabc96b38c50f6e2b",
-   "title": "With Data Centers, Lenders Are Getting a Lot More Selective",
-   "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9OZ3FORUFkRWh1dXVKdTI4aDR0V1RqdEIwWGMzdXNzRHRpNXEzdjM0MU42elVVa3NjUG1NN3lzQUFLSk9sZFREd3F2N1c1NWxnQXZUcjRTcDlzN2lPbDV6dUtuUDE5S3lxMl9fWWFmQlRjdnVjUWlGaWVtQXk?oc=5",
-   "publisher": "Commercial Observer",
-   "published": "2026-10-27T16:00:51Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(Blue Owl OR Apollo OR Blackstone OR KKR OR Brookfield) data center financing when:7d",
-   "entities": [],
    "fetched_at": "2026-10-27T20:13:24Z"
   }
  ],
@@ -14514,8 +14592,8 @@
  ],
  "stats": {
   "entities": 96,
-  "edges": 254,
-  "curated_edges": 254,
+  "edges": 257,
+  "curated_edges": 257,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
@@ -14531,8 +14609,8 @@
     "cancelled": 2
    },
    "debt": {
-    "count": 79,
-    "usd": 797064000000,
+    "count": 82,
+    "usd": 844564000000.0,
     "undisclosed": 1,
     "cancelled": 0
    },
@@ -14581,7 +14659,7 @@
     "usd": 0
    }
   },
-  "total_usd": 3327979100000,
+  "total_usd": 3375479100000.0,
   "latest_announced": "2026-10-26"
  },
  "notes": {
