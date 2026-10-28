@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-28T04:06:36Z",
+ "generated_at": "2026-10-28T04:20:18Z",
  "monitor": {
-  "last_run": "2026-10-28T04:06:19Z",
+  "last_run": "2026-10-28T04:19:55Z",
   "sec_items": 120,
   "news_items": 800,
   "candidates": 0,
@@ -9,7 +9,7 @@
   "model": null,
   "sources": {
    "sec": {
-    "last_run": "2026-10-28T04:06:19Z",
+    "last_run": "2026-10-28T04:19:55Z",
     "ok": true,
     "tickers": 22,
     "fetched": 22,
@@ -19,17 +19,17 @@
     "errors": []
    },
    "news": {
-    "last_run": "2026-10-28T04:06:19Z",
+    "last_run": "2026-10-28T04:19:55Z",
     "ok": true,
     "feeds": 18,
     "fetched": 18,
-    "items": 550,
-    "added": 69,
+    "items": 591,
+    "added": 70,
     "total": 800,
     "errors": []
    },
    "claude": {
-    "last_run": "2026-10-28T04:06:19Z",
+    "last_run": "2026-10-28T04:19:55Z",
     "enabled": false,
     "ok": true,
     "model": "claude-opus-5-5",
@@ -13647,6 +13647,20 @@
  ],
  "news": [
   {
+   "id": "nb49ca9a16fa0fe2b",
+   "title": "SK Hynix's \"earnings surprise\" sends shares sharply higher, while Seagate's \"earnings surprise\" triggers a steep sell-off—what is the market pricing in?",
+   "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOSVJ2TXZCTVBsWkg0RGlWUFY4N2lwbzVZdF9sUFVrYzJQLTlaOXZhejF0ekFweTZVRUlNQVRCWmxQWEdkRTZUVWl5ZTRIb2QtdE1ndnduUU1XVGthT2RBT0dIOE5NOV9USUdsNUQtR0xmSkFrek9KdVdtOEwxbVU0TjRZM0QyWlJzOGhHbER3Rm9YN1ZUd290UVRwdGEwbHJLUmMtYXA5U3c?oc=5",
+   "publisher": "富途牛牛",
+   "published": "2026-10-28T03:51:59Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
+   "entities": [
+    "sk-hynix"
+   ],
+   "fetched_at": "2026-10-28T04:19:58Z"
+  },
+  {
    "id": "n3a5bfb9472221dd6",
    "title": "Nvidia, AMD To Invest $4 Billion In Meta As It Raises $95 Billion For AI Infrastructure",
    "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNZnJSa0R1d0tXOHVzbGZTQXQ2SUFOci1RVmNGdGlZekJqRGNoUWV0NTlZdF9zV3hEX0VnSUgwdFBZeE5HellFVjhTVlBhY1V6VWJKZUFJNWpENXVkVDNHR2VXSUZvcmF2cVhXQ1RHeHptLTloeHI4bTl4bWxXZHJOUW5vU3pZMmZCblliSWxaN0pVSGtCaERKTlNvMDhzSEVuOGpzY1Q1OFNvdGktWEpOOU5OcGVNd0FHcXVQaE530gHDAUFVX3lxTFBjdjlMMTR2M25EdFZ5Y05oNkpUWXJfa2FPeWFYLTBzWkpHT3VBQnZLSHhNWm1TLWtDRFBsaUJvNFhzNUdmeml1bU1tdzV4QUVIbFQzdTV6dUlOOHZqWm9QWnNSeklPc2RhLVJBTEpEZHJ3M1VXaDdhbnNORXA5cW96UWpHMDlfS2NLczFNcTNWS2hPcG93c0VGM0hMNVhxR2QwZkg1dTVlcE5BU3hLbm5wZG82U3VOQVFCa1d3b0NfeDJiZw?oc=5",
@@ -13718,6 +13732,18 @@
     "sk-hynix"
    ],
    "fetched_at": "2026-10-28T04:06:22Z"
+  },
+  {
+   "id": "nffee8d9d04dd7f6b",
+   "title": "史上最大IPO募资加码AI 北美科技巨头“狂飙”资本开支",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9ydFJEOE9xSXc2TUhyTnl5MlJzRklMb0Z2TkU0WGM1cFEyNy1zeFl3UDJ2azhJeDBWZXphWUt5OFU5SjhISzIyNjhvaHhibU5HT2FHb2c0MXpGaGk3YUs5WlU5QmZIZHJMMHc?oc=5",
+   "publisher": "温州新闻",
+   "published": "2026-10-28T02:29:06Z",
+   "date": "2026-10-28",
+   "lang": "zh-CN",
+   "query": "AI 数据中心 融资 债券 when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T04:19:58Z"
   },
   {
    "id": "nc2277fc30a7768ea",
@@ -13953,6 +13979,20 @@
     "sk-hynix"
    ],
    "fetched_at": "2026-10-28T04:06:22Z"
+  },
+  {
+   "id": "n2c5b8e4c6454143a",
+   "title": "[Conference Call] SK Hynix: \"HBM demand exceeds supply capacity by more than two times\"",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5PMm1odWpfeUNBNldGalhVd3VoSXRwM0c1aDlLS0ZYRWNCTW0wQzhaQzUxTFlJd3BfZVZKTXRCVm5vanV6NUhuSG13d01SQlZzbjdJN01IczhYNXZxdXZHSDVSWnlzM1VtRmRKWF9Nd3g?oc=5",
+   "publisher": "머니투데이",
+   "published": "2026-10-28T01:05:41Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
+   "entities": [
+    "sk-hynix"
+   ],
+   "fetched_at": "2026-10-28T04:19:58Z"
   },
   {
    "id": "n95cb8588722ef7d9",
@@ -14209,6 +14249,20 @@
    "fetched_at": "2026-10-28T04:06:22Z"
   },
   {
+   "id": "nfa78617370ac446d",
+   "title": "SK hynix posts record 83 trillion won in operating profit ... to return an additional 60 trillion won to shareholders",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE0wUnE2bFA5OXNfRktZX0dHOWRiMGk0c1JUOFNFSEVFWWtfYURrQ1RlTzFsLUFNdndIWnJTcHVaTUN4bHdyQllJcWFHSFNaa0RkNFg0?oc=5",
+   "publisher": "매일경제",
+   "published": "2026-10-27T23:46:37Z",
+   "date": "2026-10-27",
+   "lang": "en-US",
+   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
+   "entities": [
+    "sk-hynix"
+   ],
+   "fetched_at": "2026-10-28T04:19:58Z"
+  },
+  {
    "id": "nc1f196f62a048f6e",
    "title": "黄德几：AI产业债务恐逼近临界点｜即时新闻｜产经｜on.cc东网",
    "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNY3ZVNmlGUTd0OUtsNjlXSmJsMEx3aXJVOEhpSkVRTnppcGxteDVrWlZyYnpDMWNjamxxbVBieW5RZGc5ZjRWbFF3UEpZRUlkcER1cUtVZk9KVkJtc0lIdldreFZMaVVpWWFzX1B1VEtuZEVOal9pT1VnQzhXOF9neFlaUUxXMFJjbTlLTGJHMmtNUFE?oc=5",
@@ -14233,6 +14287,30 @@
     "broadcom"
    ],
    "fetched_at": "2026-10-28T00:42:45Z"
+  },
+  {
+   "id": "n054968175f096f60",
+   "title": "全球AI投资持续升温，增长与风险如何平衡",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOVEJLUDhJbHcyX1RlVGNVd0ZyWHViRkpHWjBMRlRtdExxYnhxeGZPUDRYSDMxZmVPUkZzS1ZmTlR0LVRQalk0TWpScno5enZ0cnotamtJSnpBaE0yU1JBekNBcGdtZVpHYVU5V0VNTjlBQWxNRWd4akdIODlaVDJJY1Fn?oc=5",
+   "publisher": "手机新浪网",
+   "published": "2026-10-27T22:30:39Z",
+   "date": "2026-10-27",
+   "lang": "zh-CN",
+   "query": "英伟达 OR 华为昇腾 芯片 订单 when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T04:19:58Z"
+  },
+  {
+   "id": "n0e9a77fe2b74b821",
+   "title": "Red Robin Gourmet Burgers, Inc. Announces Board Changes Following Completion of Refinancing",
+   "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdThBVFNscmxUc2hhLW1YU2wzNDhJeU5meGhhMHFpa3ZpRllPX3I0SWg1b0VCT3FZT2VwY2x5SUJfM2xuNVRtRV9CR0FCZmZtQnVkYS1FYldCM3QwdG5nT3NfNUVGal9Ua05XcVhCbjkwQVYyZ1JkSnYwaUVEOVJ3RDFIejJOcHBIY1NmZ0RPTjkxYmRwalJpLTlDZ1Y5V1lvWDFtQ3Vwa0JLUkppWjhjeV9DbExDUUpUYjd3UEN3YWVVY3ZydTdCSjRRLVRubzhTSEw5bjdERHRGZjdpQ0E?oc=5",
+   "publisher": "PR Newswire",
+   "published": "2026-10-27T22:30:00Z",
+   "date": "2026-10-27",
+   "lang": "en-US",
+   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T04:19:58Z"
   },
   {
    "id": "n13ac30db74e3d4a2",
@@ -14280,6 +14358,42 @@
    "fetched_at": "2026-10-28T00:42:45Z"
   },
   {
+   "id": "nc863269100c97f36",
+   "title": "NexPoint Residential Trust, Inc. Announces Quarterly Dividend",
+   "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxONjJ0Q2lwcEpWUmo1bVhJaUgxaU56cEYxbk5XejZjRDNFWnF1MnlaZDgzRlFlTFNSQVFwZVJMWnl5THkxSGFZLUwzWUFfeGx2R2ZHNUR4b3NoYzQ5VmRBeWRnWk8tTkJiaGNtUVpOZ3F0bGQyUDFRVGZMa3FZSHo2amxCeFd2YUxTSkR0ajNUSjd4a2s1RGFFRlZpV3UyNXlZSnJxR2JXTmNNOWN5bWtjWDF5R0NDdw?oc=5",
+   "publisher": "PR Newswire",
+   "published": "2026-10-27T22:00:00Z",
+   "date": "2026-10-27",
+   "lang": "en-US",
+   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T04:19:58Z"
+  },
+  {
+   "id": "n3d0ce84af26333cf",
+   "title": "NexPoint Diversified Real Estate Trust Announces Quarterly Distribution",
+   "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPbFVmOVF6allRa3FGNVdubGU2VGtlMkU4bXJ3Z09oZ2pwcXE5em4wVmV2VGJBSm5ZblJiTll2a05TQ3NueFNmdGtMeXU2UmFjVmFFTnRlLTlpU2pvUGRfSXZHTjFkdzBCLWFjSVhZazJvVDc5YTJlSml4M1pwckZpUndMeDVGRUdvRzUtY3JzbWNNMzRsTThHTW43Vl9YcjlYNVJTSWdPemxySHhTQTZxcVl3Ui11dFZCNElDQXpoMER0U1VSRkE?oc=5",
+   "publisher": "PR Newswire",
+   "published": "2026-10-27T22:00:00Z",
+   "date": "2026-10-27",
+   "lang": "en-US",
+   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T04:19:58Z"
+  },
+  {
+   "id": "n9f3f1dbc8a1d7e58",
+   "title": "Socket Mobile Announces Intention to Voluntarily Transition Listing from Nasdaq to the OTCID Market",
+   "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNcllaWHhVOWxFQ2FISHd5LWpqejVSd3NDMWZ0anExbXFqR0lMaHFhWk9IUEJrLUNvNm1aN1BOUXdvSXVfMzkzakR5OWdFUUs0N2Vob1BMdk5yZGh5Nkt4NFFjSnp6c1ByS2hPMFdKYUE2aWFTWHdpSjc5Z05MVVJySzNsUF9wNXRtOTMwN2ctODZkazBsa2N6UFpvLW92SEQ4SDJjY2ZNX1E0bTNPQ3htWWZJUU9FV2tzUXhramlUSUJJYWFQaVJLSWkyRzFwYnY0QzRDSU03RTJDSWpDTlJuTWszUFd3QXJMdzdB?oc=5",
+   "publisher": "PR Newswire",
+   "published": "2026-10-27T21:55:00Z",
+   "date": "2026-10-27",
+   "lang": "en-US",
+   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T04:19:58Z"
+  },
+  {
    "id": "n5d1cb7a2dfd5d527",
    "title": "算力“烧钱”、回款滞后，AI短剧靠什么拿到银行贷款？",
    "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9BY1U5TGtDUnA0bHNUTEM4MkZWU3dJdEtDcXJ5bjNOaXgzZjd6REhUR2JMVXZiREg0U0xSTzZYemlJeVVuaXVzSEttWWxib3h0dmdNLTF2ZWJYWmZmbE1tanNMdW8yR1pKUVhPOFg1M2E?oc=5",
@@ -14290,6 +14404,18 @@
    "query": "人工智能 算力 订单 when:7d",
    "entities": [],
    "fetched_at": "2026-10-28T00:42:45Z"
+  },
+  {
+   "id": "n38c310402e14835f",
+   "title": "ELS Announces Leadership Transition",
+   "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNTkw3M19oeUpCbjMtakRtU1hVMGNFb3Q5MW90OHBtVXI2a2ZaS3VPTDVmVmM5LUVldlRqazVOWnFxbkhYSkJhdnQwOTFBa0k1VG8yd0pOaFYyWkx3U2ljUzllWkFpVUE1NGxLQUkzODAtU3BvQ0VOODdsdzdzRmNVejFPS2IweWY5YTlMclNhcmppNGt3SlE?oc=5",
+   "publisher": "PR Newswire",
+   "published": "2026-10-27T21:53:00Z",
+   "date": "2026-10-27",
+   "lang": "en-US",
+   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
+   "entities": [],
+   "fetched_at": "2026-10-28T04:19:58Z"
   },
   {
    "id": "n0f2176161c0f22d7",
@@ -14318,164 +14444,28 @@
    "fetched_at": "2026-10-28T00:42:45Z"
   },
   {
-   "id": "n145cb6f64ddf11b3",
-   "title": "Nvidia, AMD to buy $4B in Meta shares as part of expanded chip partnerships",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQbzNoNElDckgyajBzR3NPZ0tkQ2taREVmc3p1NHZFZDBDT0dPY1NQa29vZElHZGhsQUcxQ2wxV1BGaDVpLXJTSjluQ0hNWWE5U1A1R3Ezc2lkTWZ5X3ZzU1VxV29CM0txQmFFT2xrdUg1bFUzaFV3bDAya2FkMFdBVjh1dEp6ZmZXZEZkWWpNRmY3eHNyVGs0dWNvUHplZWVLZzhZQng3cDdkRklKWjlJ?oc=5",
-   "publisher": "SiliconANGLE",
-   "published": "2026-10-27T21:12:00Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(Nvidia OR AMD OR Broadcom) AI chips order billion when:7d",
-   "entities": [
-    "amd",
-    "meta",
-    "nvidia"
-   ],
-   "fetched_at": "2026-10-28T04:06:22Z"
-  },
-  {
-   "id": "n072f3c28a83bf27b",
-   "title": "Meta Raises Nearly $100 Billion for AI: Nvidia Takes a $3 Billion Stake in Its Biggest Customer",
-   "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOcFBCRnlqRk9ORXRNMWFqdktpWkhOVGc2VXlpQlZybUxYdG1CZFJOMHprQnROVTNqOG1jNThGaHU5eHNkTi0yV1lLUTJMYkNzVkJ1R256Y3NBUzYwMzBaV2NPeVUxcHd2U1JvR25vajBPb2xZelkteHU0YTN6SjF2MTF2QzhxeXo0X0dkNXVST2lYeTV3WTZWdlBzaFExTjcwT25DclN4d1Q5MlAyVVBjbmFn?oc=5",
-   "publisher": "International Business Times, Singapore Edition",
-   "published": "2026-10-27T20:44:10Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(Microsoft OR Google OR Amazon OR Meta) AI infrastructure agreement billion when:7d",
-   "entities": [
-    "meta",
-    "nvidia"
-   ],
-   "fetched_at": "2026-10-28T00:46:13Z"
-  },
-  {
-   "id": "n02b89b3f87284c6a",
-   "title": "Eightpoint Announces Three-Year Beach Cleanup Sponsorship with Plastic Free Cayman",
-   "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeHNZT2tnVGROdUtyaG1vbGN5ekJ2NlRQaURVZFJQQ1lxV0U4bnJWSENJSGViUTdIQkV0a1RlLU1WTWliaTVheW1ycUFjRmxMR3lxeTU2WDEwLWM5eVE5bXNsd0lrZUxsNzRVM0VZRmgxUnVCTTEtZFFDN3lhcGVRdlFtUWJhYnc2YTdreEhOWVZma0h3YlJGYVNEWU9EWnZtNEVuTFdiVW5iSjlGNkdqREI3OFBtVWNUSDV0dVpjWDk3aUl6QkpHSjlDZVQ1cDlaOFhpNA?oc=5",
+   "id": "n8b52e18b689d6e64",
+   "title": "ALAMO GROUP ANNOUNCES ACQUISITION OF ECON ENGINEERING",
+   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaUNQekRpZUlKb3UtSGJ4cnpxcENQVm1fZ1ZuZnR1UENkMnlhNzRpemowV1lLcnBySUxPaldMREhldk9zV2UtLUM5YjRfdDVybUsxMTljWVdHSHkzdXM0SjFyM19iRExzalVqdGJnX2RnNWVubzZEd21FbHVrMWY1amo1Y3V2OWo0UE1Wckhub0J4cW5PbWJoTVlZMHBCOUQ2dk1HMTZjNERLWFBGLVE?oc=5",
    "publisher": "PR Newswire",
-   "published": "2026-10-27T20:35:27Z",
+   "published": "2026-10-27T21:15:00Z",
    "date": "2026-10-27",
    "lang": "en-US",
    "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
    "entities": [],
-   "fetched_at": "2026-10-28T00:42:45Z"
+   "fetched_at": "2026-10-28T04:19:58Z"
   },
   {
-   "id": "n274144709459b670",
-   "title": "Nebius vs. CoreWeave: Which neocloud stock has more debt?",
-   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNTG4tSzdyUTBhNmpWaXlsc2ZmZmVfckU0MEVWSGNKcm1uOUJEcC1xRUZtRGdqR0oydWF4ZUZhZ2s5bV83VkZuNDREQkhDWE1jYU9DRGktcWZROHpPdWJsOWg1Q2J6S0tROU9mdFc1OV84eEZWX1BaRUt4TEUzN1kzcW9rZkxQbTdCZWtr?oc=5",
-   "publisher": "Yahoo Finance Singapore",
-   "published": "2026-10-27T20:30:40Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(CoreWeave OR Nebius OR Oracle OR Crusoe) contract billion when:7d",
-   "entities": [
-    "coreweave",
-    "nebius"
-   ],
-   "fetched_at": "2026-10-28T00:46:13Z"
-  },
-  {
-   "id": "n3e9352c68afa9c42",
-   "title": "Trustmark Corporation Announces Third Quarter 2026 Financial Results",
-   "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQZHhKRWstcHh4cUZrc0NpcnRGSHhDOE5DVmFSMnN3T05iWWdLcGZ0NzlJNHVfS2lGanVJTlN4eDNqazFRemljcW5VRTNPTVRKX015RlRfdlgtQkdVWE45TkhsVVRENU1qSDIybUlSUXpWSGdOQlQ0OEtVSFlOcXljMk9zcndKNXZQeXJBekU2U1Y0NHZ0Q1V0ZHU2ZHUtZjBiZ3NBUjBSZW15d2RSeUZNZXdxQktxamFFbnpnOTNzaFY0TEU?oc=5",
-   "publisher": "Business Wire",
-   "published": "2026-10-27T20:30:00Z",
+   "id": "n60b5de4481af251b",
+   "title": "Associated Banc-Corp Announces Increase in Common Stock Dividend",
+   "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOdnhjU3pLNjZVQ1NJUFhUelgxR0VRTnBqTW5kbzRCeUxxWDR2My1HSXlyZjNXZ3BOTUJaeXFGemZzM1NuNm5ETFBvSFJTejM0SHh1cGhwNXc1UzEySm12bWhGMHBHbVNZSWFGWllpM2FVQmU0bjNMMUt1YkRmRnd3bG91aTUzWXdYM21uZzBtRGVOd2h3Q0tHYmNEMmpMZW80VVdqRHdUWTlhcnRkNk9tcHZ4bnpwQXhreExLYw?oc=5",
+   "publisher": "PR Newswire",
+   "published": "2026-10-27T21:15:00Z",
    "date": "2026-10-27",
    "lang": "en-US",
    "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
    "entities": [],
-   "fetched_at": "2026-10-28T00:42:45Z"
-  },
-  {
-   "id": "nd8dfb66f99f75cf8",
-   "title": "Novogratz Says Credit Market Is Reaching ‘Peak Nervousness’",
-   "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWC1NSDE2RXFISDBmcjhwbHJpOEpncXVOMnVWVVFVQkRGWlZrdkVTbzJUSFRYOXEzRkwtV25NRmNBTHFQbFRGSTl3VF9iTzBSZVN0RHIzMk15Mmp0WV8tdmw3TlJ4dDFabzhYYW1NeFd5UkQ3azZrUWhINHE5Z1YxMmQtVl9YVEhwM1Q0WENWUW9xTnFiZzhBaG9EY2liVURDTkZyZ3pzS0xLd3Q2cmfSAbMBQVVfeXFMTVZISEItSzNxVy1VbUdQaG91ZHRGNjRjQ1lIRDlrQWdxOXlrVDE2aGVKVWpEMU9uY2M3bXB1SlJTczZRLXlyWWgxWS02UHpmZGxGX2ZDX2hqd1E1YkZhOVZQS2VaQWhaUGtqQi1mYzJRbFBNeTRLNDBBZDQ4Ykg0OW84eWJRTGpEVW1Ed2ZiSHJmYXdqZ1JoU3VrMXVzbnk4QXhmWmcxWW9yRnpSc0NXLVV2ZWM?oc=5",
-   "publisher": "Livemint",
-   "published": "2026-10-27T20:28:03Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(CoreWeave OR Nebius OR Oracle OR Crusoe) contract billion when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-28T00:46:13Z"
-  },
-  {
-   "id": "nd23e3be94790e190",
-   "title": "Blue Owl Capital (OWL) Faces Earnings And Dividend Pressure, Is The Stock Below Fair Value?",
-   "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxNSkltM2RFRnFBR2hORnhNNHRYek9DOVVKelZoRFlqbHA3aF83TGNwbnJROUp0eU43d1BLVWFKMGJmbGozTGJEOFIxbldrS285cDFELWlkcDJiTERPd2VvclA4NEZCa3JzYzNVNGtKM2FDY0Z6aXNmSnNKRXJKcVROVnhmWm5FTjRjYXM4T0tjeUxDWDFxUTk0bEZIOTItTGxfZkN3NnJibEtLQVVLSjNuSXY4T3hUZnhIMzY1Sk5RdW9WcHFJblFTX1BEQTF1SVZvQTBhYS1adzdyYjJlSHRZ0gHkAUFVX3lxTFBQZ29wc2FRZXRoQTM4eXlPcC1ZM21wckpRQjFtaEpSVHF1RVJhbVlmekNyZ0d4dVdVejBYNGVzVC1TbUZBWUlpcVpidWdCYXJJVlNacXllWUctdVpKMnZYWXFhb3FSWTlMRHozTTZDal9ia2dVSEtfX2hvU0d1aFpfMklWUk0yVkpaOXlEc3NYT3V1cHNxbW1aUG80T2R1SFNObjk3bFB5QTVnVVdQaUVzTFhmNlkzMmJrYXZWbUlWdzh2T2ZUQ01HTC1kVXR2VlJoM3MyOGc3UEFpVDFtcGU3a2daTA?oc=5",
-   "publisher": "Simply Wall Street",
-   "published": "2026-10-27T20:23:11Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(Blue Owl OR Apollo OR Blackstone OR KKR OR Brookfield) data center financing when:7d",
-   "entities": [
-    "blue-owl"
-   ],
-   "fetched_at": "2026-10-28T00:51:47Z"
-  },
-  {
-   "id": "nb8cbeeef820042f9",
-   "title": "Fitch affirms Broadcom at ’A-’ with positive outlook despite AI backstop risks",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPd2JwSXBUSW54OXhjN1cxUVVkaEhVUThxSlJ6ODdXLS0tNHY5d1lBR2JEaFhxTzU3ajdwa2g4STNoUHBUekdFdmhsRWRWS0NTeUhjV0JoTzZzRl9VcmIzaXFFYUZrU2NkY3BaOU51RVZTQVV3U0ZwQ2VjN1djTm1wRnJGWFpraEVwdGU3enZ6Vno4Zw?oc=5",
-   "publisher": "Yahoo! Finance Canada",
-   "published": "2026-10-27T20:22:08Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(TSMC OR Intel OR Broadcom) AI chip deal billion when:7d",
-   "entities": [
-    "broadcom"
-   ],
-   "fetched_at": "2026-10-28T00:42:45Z"
-  },
-  {
-   "id": "n128835027cd1fffe",
-   "title": "Essex Announces Third Quarter 2026 Results and Raises Full-Year 2026 Guidance",
-   "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORE9OVWtpcjRRTUNYMzd0ekdOcTdkRkRsbVdsd3JXRHRpQ2U5VVVrV2ZKRkFPc1ZWWHBUcXVmb1FzcW5tbFh1RHg5MWpNQTVQNkZHYjNPMnplaHI4cjY0dmdvaUxnMWJ4QmN5dGs1S2FIeE1fdk5MYWhuUExIaGNUSG43TWJKNXRfQnVUaXNXNll1czJvQXhNV3NrcHVkR2c5MWlwUGpyaHFSZ0IyYnJCU3IwaV9vTnYybDk0UlpkbUZoTDNXWGdSV2JEWXNneVE?oc=5",
-   "publisher": "Business Wire",
-   "published": "2026-10-27T20:19:00Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-28T00:42:45Z"
-  },
-  {
-   "id": "n78f4d454e3823af1",
-   "title": "美股收盘：纳指上涨1.2%，AI芯片股强劲反弹，但高利率和巨额融资需求考验科技股估值",
-   "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1LOUktWE1KRFZvRWhsNm1kYUxXamJhTXYyNUNXdXkyeHRyc2s4aUFjdDVlSVFDYjhuUm9mcEZDT0dpWWJTZUdZclJMSTJEbk12bEp6Y0xDaXhVdw?oc=5",
-   "publisher": "加美财经",
-   "published": "2026-10-27T20:17:10Z",
-   "date": "2026-10-27",
-   "lang": "zh-CN",
-   "query": "AI 数据中心 融资 债券 when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-28T00:42:45Z"
-  },
-  {
-   "id": "nffdde0ea4c65f8c9",
-   "title": "SK hynix Q3 Preview: Long-Term Agreements Put A Floor Under Memory Pricing (NASDAQ:SKHY)",
-   "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSjM1NDRqRjlkZzNVSXRKNmliRWxQT3c0dFpSMVZDRlgwTmRtR29VTjZWd24zVnNxdi1xeFFzeVU1UGVaMjZObXJYZUt4aDlTeXg2dFNhT2lyQlp2anE5aXJySTJXdkNmeW1TVTNrZ0Q0TXVmeDcwNDBVa1FLcld4WlRIYkZlX2JFODVLRERGNy0xdXhuT3R6cnJlZVNwbVo5NVF1ZnpkREhMOGE5dXZPZklVVEI?oc=5",
-   "publisher": "Seeking Alpha",
-   "published": "2026-10-27T20:15:55Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
-   "entities": [
-    "sk-hynix"
-   ],
-   "fetched_at": "2026-10-28T00:58:35Z"
-  },
-  {
-   "id": "n39617115edb1ded4",
-   "title": "Mirion Announces Third Quarter 2026 Financial Results",
-   "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNWHBWc3pxQ3RqeEFvMHpjQ1J5T0pMMk1vRTk1WkN0aEdTNmdIeHVsR0J4QjMwT0dFNGViQjdaTTFDYUpJZUtEN3pSQm9vN3hQMnd4SjBmdEk5RjhBanF4N0FDNWpCNENxV2w0MUZ3andRTmlXTkNnTEhQMGRuTUV4R1B6dkl3akRjNGtnbnR3WU9vNGlGSDBraEp2V1dtcTR3NWp2eE9YbHhENlFGaFpZ?oc=5",
-   "publisher": "Business Wire",
-   "published": "2026-10-27T20:15:00Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "\"announces\" agreement AI compute site:prnewswire.com OR site:businesswire.com when:7d",
-   "entities": [],
-   "fetched_at": "2026-10-28T00:42:45Z"
+   "fetched_at": "2026-10-28T04:19:58Z"
   }
  ],
  "filings": [
