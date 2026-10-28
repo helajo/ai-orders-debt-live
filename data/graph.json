@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T02:36:04Z",
+ "generated_at": "2026-10-28T03:20:39Z",
  "monitor": {
   "last_run": "2026-10-28T00:58:32Z",
   "sec_items": 120,
@@ -1039,7 +1039,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 472738000000.0,
+     "debt": 476038000000.0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1055,17 +1055,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 48,
+     "debt": 49,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 48,
-    "degree_curated": 48,
+    "degree": 49,
+    "degree_curated": 49,
     "candidate_edges": 0,
-    "counterparties": 22,
+    "counterparties": 23,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 472738000000.0
+    "outflow_total_usd": 476038000000.0
    }
   },
   {
@@ -1570,7 +1570,7 @@
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
+     "debt": 3300000000.0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1586,7 +1586,7 @@
     "inflow_count": {
      "order": 0,
      "investment": 1,
-     "debt": 0,
+     "debt": 1,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1599,11 +1599,11 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 1,
-    "degree_curated": 1,
+    "degree": 2,
+    "degree_curated": 2,
     "candidate_edges": 0,
-    "counterparties": 1,
-    "inflow_total_usd": 0,
+    "counterparties": 2,
+    "inflow_total_usd": 3300000000.0,
     "outflow_total_usd": 0
    }
   },
@@ -6610,6 +6610,33 @@
      "title": "How long is Anthropic's lease with SpaceX? Opinions vary"
     }
    ],
+   "origin": "curated"
+  },
+  {
+   "id": "bond-investors-core-scientific-2026-05-financing",
+   "kind": "debt",
+   "subkind": "financial obligation",
+   "from": "bond-investors",
+   "to": "core-scientific",
+   "amount_usd": 3300000000.0,
+   "amount_text": "$3.3B (corrected on approval)",
+   "announced": "2026-05-06",
+   "term": null,
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Core Scientific financing",
+   "title_zh": "Core Scientific 融资",
+   "summary_en": "Core Scientific reported a new direct financial obligation (financial obligation) in an 8-K filed on 2026-05-06.",
+   "summary_zh": "Core Scientific在 2026-05-06 提交的 8-K 中披露了一项新的直接财务义务（融资）。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1839341/000119312526208905/d47435d8k.htm",
+     "publisher": "SEC EDGAR (Core Scientific, Inc./tx 8-K)",
+     "date": "2026-05-06",
+     "title": "Core Scientific, Inc./tx 8-K: Entry into a material definitive agreement; Termination of a material definitive agreement; Creation of a direct financial obligation"
+    }
+   ],
+   "added_by": "approved by helajo",
    "origin": "curated"
   },
   {
@@ -14592,8 +14619,8 @@
  ],
  "stats": {
   "entities": 96,
-  "edges": 257,
-  "curated_edges": 257,
+  "edges": 258,
+  "curated_edges": 258,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
@@ -14609,8 +14636,8 @@
     "cancelled": 2
    },
    "debt": {
-    "count": 82,
-    "usd": 844564000000.0,
+    "count": 83,
+    "usd": 847864000000.0,
     "undisclosed": 1,
     "cancelled": 0
    },
@@ -14659,7 +14686,7 @@
     "usd": 0
    }
   },
-  "total_usd": 3375479100000.0,
+  "total_usd": 3378779100000.0,
   "latest_announced": "2026-10-26"
  },
  "notes": {
