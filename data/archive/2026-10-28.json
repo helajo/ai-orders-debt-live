@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T18:28:56Z",
+ "generated_at": "2026-10-28T21:44:25Z",
  "monitor": {
   "last_run": "2026-10-28T18:28:43Z",
   "sec_items": 120,
@@ -247,7 +247,7 @@
     "inflow_usd": {
      "order": 124500000000,
      "investment": 0,
-     "debt": 89930000000.0,
+     "debt": 81430000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -280,7 +280,7 @@
     "degree_curated": 18,
     "candidate_edges": 0,
     "counterparties": 10,
-    "inflow_total_usd": 214430000000.0,
+    "inflow_total_usd": 205930000000,
     "outflow_total_usd": 80680000000
    }
   },
@@ -296,7 +296,7 @@
     "inflow_usd": {
      "order": 238000000000,
      "investment": 0,
-     "debt": 113560000000.0,
+     "debt": 109600000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -329,7 +329,7 @@
     "degree_curated": 14,
     "candidate_edges": 0,
     "counterparties": 6,
-    "inflow_total_usd": 351560000000.0,
+    "inflow_total_usd": 347600000000,
     "outflow_total_usd": 90500000000
    }
   },
@@ -1039,7 +1039,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 487048000000.0,
+     "debt": 474588000000.0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1065,7 +1065,7 @@
     "candidate_edges": 0,
     "counterparties": 24,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 487048000000.0
+    "outflow_total_usd": 474588000000.0
    }
   },
   {
@@ -6856,22 +6856,28 @@
    "subkind": "senior notes",
    "from": "bond-investors",
    "to": "amazon",
-   "amount_usd": 14000000000.0,
-   "amount_text": "$14B in 5 tranches: $1.25B 3.400% NOTES DUE 2029; $2.5B 3.700% NOTES DUE 2031; $2B 4.000% NOTES DUE 2033; $3.5B 4.350% NOTES DUE 2036; $4.75B 5.000% NOTES DUE 2056",
+   "amount_usd": 10040000000,
+   "amount_text": "C$14B in 5 tranches (≈US$10.04B per Reuters): C$1.25B 3.400% notes due 2029; C$2.5B 3.700% due 2031; C$2B 4.000% due 2033; C$3.5B 4.350% due 2036; C$4.75B 5.000% due 2056",
    "announced": "2026-06-10",
    "term": "due 2029–2056",
    "status": "completed",
    "confidence": "confirmed",
-   "title_en": "Amazon / AWS $14B notes offering",
-   "title_zh": "亚马逊（AWS）发行 140 亿美元票据",
-   "summary_en": "Amazon / AWS sold $14B of notes in 5 tranches due 2029–2056, according to its 424B5 prospectus filed on 2026-06-10.",
-   "summary_zh": "根据 2026-06-10 提交的 424B5 招股说明书，亚马逊（AWS）发行 140 亿美元票据，共 5 档，2029–2056 年到期。",
+   "title_en": "Amazon C$14B (≈US$10B) maple bond, a Canadian record",
+   "title_zh": "亚马逊发行 140 亿加元（约 100 亿美元）枫叶债，创加拿大纪录",
+   "summary_en": "Amazon sold C$14 billion of Canadian-dollar notes in five tranches due 2029–2056, the largest corporate bond deal in Canada's history; Reuters put it at about US$10.04 billion.",
+   "summary_zh": "亚马逊发行 140 亿加元、分五档、2029–2056 年到期的加元票据，为加拿大史上最大的公司债发行；路透社折合约 100.4 亿美元。",
    "sources": [
     {
      "url": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926072332/tm2613616-2_424b5.htm",
      "publisher": "SEC EDGAR (AMAZON COM INC 424B5)",
      "date": "2026-06-10",
      "title": "AMAZON COM INC 424B5: Prospectus (securities / bond offering)"
+    },
+    {
+     "url": "https://www.investing.com/news/economy-news/amazon-issues-recordsetting-canadian-dollardenominated-corporate-bond-deal-4733619",
+     "publisher": "Reuters (via Investing.com)",
+     "date": "2026-06-09",
+     "title": "Amazon issues record-setting Canadian dollar-denominated corporate bond deal"
     }
    ],
    "added_by": "rules",
@@ -7258,22 +7264,28 @@
    "subkind": "senior notes",
    "from": "bond-investors",
    "to": "alphabet",
-   "amount_usd": 8500000000.0,
-   "amount_text": "$8.5B in 4 tranches: $1.5B 3.650% Notes due 2031; $2B 4.000% Notes due 2033; $2.25B 4.350% Notes due 2036; $2.75B 5.000% Notes due 2056",
+   "amount_usd": null,
+   "amount_text": "C$8.5B in 4 tranches (US-dollar value not reported): C$1.5B 3.650% notes due 2031; C$2B 4.000% due 2033; C$2.25B 4.350% due 2036; C$2.75B 5.000% due 2056. Issued alongside a €9B offering",
    "announced": "2026-05-07",
    "term": "due 2031–2056",
    "status": "completed",
    "confidence": "confirmed",
-   "title_en": "Alphabet / Google $8.5B notes offering",
-   "title_zh": "谷歌（Alphabet）发行 85 亿美元票据",
-   "summary_en": "Alphabet / Google sold $8.5B of notes in 4 tranches due 2031–2056, according to its 424B2 prospectus filed on 2026-05-07.",
-   "summary_zh": "根据 2026-05-07 提交的 424B2 招股说明书，谷歌（Alphabet）发行 85 亿美元票据，共 4 档，2031–2056 年到期。",
+   "title_en": "Alphabet C$8.5B maple bond",
+   "title_zh": "Alphabet 发行 85 亿加元枫叶债",
+   "summary_en": "Alphabet sold C$8.5 billion of Canadian-dollar notes in four tranches due 2031–2056 (closed 2026-05-11), then a record for Canada, alongside a €9 billion euro offering.",
+   "summary_zh": "Alphabet 发行 85 亿加元、分四档、2031–2056 年到期的加元票据（2026-05-11 完成），当时创加拿大纪录，同时发行 90 亿欧元欧元债。",
    "sources": [
     {
      "url": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526212222/d325417d424b2.htm",
      "publisher": "SEC EDGAR (Alphabet Inc. 424B2)",
      "date": "2026-05-07",
      "title": "Alphabet Inc. 424B2: Prospectus (securities / bond offering)"
+    },
+    {
+     "url": "https://www.osler.com/en/about-us/representative-work/alphabet-inc/",
+     "publisher": "Osler",
+     "date": "2026-05-11",
+     "title": "Alphabet Inc. inaugural Canadian notes offering"
     }
    ],
    "added_by": "rules",
@@ -15644,8 +15656,8 @@
    },
    "debt": {
     "count": 92,
-    "usd": 897557000000.0,
-    "undisclosed": 2,
+    "usd": 885097000000.0,
+    "undisclosed": 3,
     "cancelled": 0
    },
    "lease": {
@@ -15693,7 +15705,7 @@
     "usd": 0
    }
   },
-  "total_usd": 3762257100000.0,
+  "total_usd": 3749797100000.0,
   "latest_announced": "2026-10-27"
  },
  "notes": {
