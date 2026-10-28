@@ -127,7 +127,7 @@
   };
 
   function defaultFilters() {
-    return { kinds: new Set(KIND_ORDER), group: "", min: 0, period: "all", from: "", to: "", q: "" };
+    return { kinds: new Set(KIND_ORDER), group: "", min: 0, period: "all", from: "", to: "", q: "", onlyNew: false };
   }
 
   function t(key, vars) { return I.t(state.lang, key, vars); }
@@ -297,6 +297,7 @@
   /* skip: "kinds" ignores the deal-type filter (for the mix bar) */
   function edgeVisible(e, skip) {
     var f = state.filters;
+    if (f.onlyNew && !state.newIds.has(e.id)) return false;
     if (skip !== "kinds" && !f.kinds.has(e.kind)) return false;
     if (f.min > 0 && !(e.amount_usd >= f.min)) return false;
     var d = e.announced || "";
@@ -342,6 +343,7 @@
   /* active filters in a fixed order: the count, the pills and the empty-state line all use this */
   function activeFilters() {
     var f = state.filters, out = [];
+    if (f.onlyNew) out.push({ key: "new", label: t("pill_new", { n: state.newIds.size }) });
     if (f.group) out.push({ key: "group", label: t("pill_group", { v: I.group(state.lang, f.group) }) });
     if (f.min) out.push({ key: "min", label: "≥ " + usd(f.min) });
     if (f.from || f.to) out.push({ key: "period", label: periodLabel() });
@@ -352,7 +354,8 @@
 
   function clearFilter(key) {
     var f = state.filters;
-    if (key === "group") f.group = "";
+    if (key === "new") f.onlyNew = false;
+    else if (key === "group") f.group = "";
     else if (key === "min") f.min = 0;
     else if (key === "period") setPeriod("all");
     else if (key === "q") { f.q = ""; $("f-search").value = ""; }
@@ -613,14 +616,19 @@
     $("retry").addEventListener("click", function () { load(); });
 
     /* new-deals bar */
+    /* "Show them": only the new deals (other filters are set aside, since they may hide them),
+       newest first in the table, scrolled into view; the "New deals" pill or Reset brings the rest back */
     $("new-show").addEventListener("click", function () {
-      setView("table");
+      state.filters = defaultFilters();
+      state.filters.onlyNew = true;
+      $("f-search").value = "";
       state.sort = { key: "date", dir: -1 };
-      renderTable();
-      var row = document.querySelector("#deals-body tr.is-new");
-      if (row) row.scrollIntoView({ block: "nearest", behavior: RM.matches ? "auto" : "smooth" });
+      filtersChanged();
+      setView("table");
+      $("workspace").scrollIntoView({ block: "start", behavior: RM.matches ? "auto" : "smooth" });
     });
     $("new-dismiss").addEventListener("click", function () {
+      state.filters.onlyNew = false;
       state.newIds.clear();
       state.newDismissed = true;
       state.lastNewCount = 0;

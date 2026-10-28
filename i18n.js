@@ -72,6 +72,7 @@
       f_more_n: " · {n}",
       pill_group: "Sector: {v}",
       pill_q: "Search: {v}",
+      pill_new: "New deals only ({n})",
       pill_kinds: "Types: {n} of 6",
       pill_clear: "Remove filter: {v}",
 
@@ -261,6 +262,7 @@
       f_more_n: " · {n}",
       pill_group: "行业：{v}",
       pill_q: "搜索：{v}",
+      pill_new: "仅看新增交易（{n}）",
       pill_kinds: "类型：6 选 {n}",
       pill_clear: "移除筛选：{v}",
 
