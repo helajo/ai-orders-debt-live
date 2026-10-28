@@ -1,7 +1,7 @@
 {
- "generated_at": "2026-10-28T00:52:03Z",
+ "generated_at": "2026-10-28T00:53:40Z",
  "monitor": {
-  "last_run": "2026-10-28T00:51:44Z",
+  "last_run": "2026-10-28T00:53:23Z",
   "sec_items": 120,
   "news_items": 800,
   "candidates": 0,
@@ -9,7 +9,7 @@
   "model": null,
   "sources": {
    "sec": {
-    "last_run": "2026-10-28T00:51:44Z",
+    "last_run": "2026-10-28T00:53:23Z",
     "ok": true,
     "tickers": 22,
     "fetched": 22,
@@ -19,12 +19,12 @@
     "errors": []
    },
    "news": {
-    "last_run": "2026-10-28T00:51:44Z",
+    "last_run": "2026-10-28T00:53:23Z",
     "ok": true,
     "feeds": 18,
     "fetched": 18,
-    "items": 536,
-    "added": 25,
+    "items": 582,
+    "added": 39,
     "total": 800,
     "errors": []
    },
@@ -12504,6 +12504,20 @@
  ],
  "news": [
   {
+   "id": "n98951e6a668e33f9",
+   "title": "SK Hynix Turns the AI Arms Race Into a Cash Machine",
+   "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNa2ExRU9NUGstSFN0U0RmV29FTUcyQWhoRmx0US1DZEVQdHBwbEhEU0Nkd0hsWVdsa19YODdYVU1mMFB0bTVYQmstdndQcE1POEdKbVljUHM0VEVvZll4ZFctUUJZeTBOZGRSak82NE9HWDJYSDgxX2VyZGNOVVdpbzNRTTc2UTQ?oc=5",
+   "publisher": "The Dark Side Of The Boom",
+   "published": "2026-10-28T00:49:06Z",
+   "date": "2026-10-28",
+   "lang": "en-US",
+   "query": "(SK hynix OR Samsung OR Micron) HBM supply agreement when:7d",
+   "entities": [
+    "sk-hynix"
+   ],
+   "fetched_at": "2026-10-28T00:53:26Z"
+  },
+  {
    "id": "n7cb48aca1fd92123",
    "title": "史上最大IPO临门，腾讯、阿里、字节抢卡：Anthropic和中国大厂一起为算力上头",
    "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9Wdl9yMjM2cm0waW5ncTY3ZHNhS1I0Z244ZlZ1aGFHWC12dVh4RDY5cW5Scjc1UFhlczF6bFdpc2dmeUZuS2dOWHBsS0hyN0Vh?oc=5",
@@ -13315,21 +13329,6 @@
    "query": "(Blue Owl OR Apollo OR Blackstone OR KKR OR Brookfield) data center financing when:7d",
    "entities": [],
    "fetched_at": "2026-10-27T20:13:24Z"
-  },
-  {
-   "id": "ne8af6d01cd02aa99",
-   "title": "Broadcom surges as Anthropic’s $63B deal sparks a rally",
-   "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1qUmIxd2FjNWJSVnpKUDZSTFhyclllRkZvX3hadkR2YWlmTU5wMENPaEU2d29nY0Nxcl9xM3NWb2U0SDlFZkVvaEtqbmVzRGhfWTUwcWdRbDRDUjlRdmVIVm8wYW13a2E0SllZY3owalRaS1hxRnh4eA?oc=5",
-   "publisher": "Rolling Out",
-   "published": "2026-10-27T15:58:25Z",
-   "date": "2026-10-27",
-   "lang": "en-US",
-   "query": "(TSMC OR Intel OR Broadcom) AI chip deal billion when:7d",
-   "entities": [
-    "anthropic",
-    "broadcom"
-   ],
-   "fetched_at": "2026-10-28T00:42:45Z"
   }
  ],
  "filings": [
