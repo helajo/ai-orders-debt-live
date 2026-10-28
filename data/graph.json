@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T03:43:00Z",
+ "generated_at": "2026-10-28T04:05:16Z",
  "monitor": {
   "last_run": "2026-10-28T00:58:32Z",
   "sec_items": 120,
@@ -345,7 +345,7 @@
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 4750000000,
+     "debt": 9750000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -361,7 +361,7 @@
     "inflow_count": {
      "order": 4,
      "investment": 2,
-     "debt": 1,
+     "debt": 2,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -374,11 +374,11 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 11,
-    "degree_curated": 11,
+    "degree": 12,
+    "degree_curated": 12,
     "candidate_edges": 0,
-    "counterparties": 7,
-    "inflow_total_usd": 4750000000,
+    "counterparties": 8,
+    "inflow_total_usd": 9750000000,
     "outflow_total_usd": 6000000000
    }
   },
@@ -2509,7 +2509,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 95500000000,
+     "debt": 100500000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -2525,17 +2525,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 8,
+     "debt": 9,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 8,
-    "degree_curated": 8,
+    "degree": 9,
+    "degree_curated": 9,
     "candidate_edges": 0,
-    "counterparties": 7,
+    "counterparties": 8,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 95500000000
+    "outflow_total_usd": 100500000000
    }
   },
   {
@@ -7159,6 +7159,33 @@
      "title": "CRWV 8-K filed 2026-05-18 (DDTL 5.0 credit agreement)"
     }
    ],
+   "origin": "curated"
+  },
+  {
+   "id": "jpmorgan-amd-2026-05-loan",
+   "kind": "debt",
+   "subkind": "revolving credit facility",
+   "from": "jpmorgan",
+   "to": "amd",
+   "amount_usd": 5000000000,
+   "amount_text": "$5.0B five-year unsecured revolving credit facility (JPMorgan Chase Bank as administrative agent)",
+   "announced": "2026-05-14",
+   "term": "five years",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "JPMorgan-led $5B revolving credit facility for AMD",
+   "title_zh": "摩根大通牵头为 AMD 提供 50 亿美元循环信贷",
+   "summary_en": "AMD entered a $5.0 billion five-year unsecured revolving credit facility with a bank group led by JPMorgan Chase Bank as administrative agent, replacing its earlier revolver (8-K filed 2026-05-15).",
+   "summary_zh": "AMD 与以摩根大通银行为行政代理行的银团签订 50 亿美元、为期五年的无抵押循环信贷协议，取代此前的循环信贷（2026-05-15 提交的 8-K）。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2488/000119312526226746/d118163d8k.htm",
+     "publisher": "SEC EDGAR (ADVANCED MICRO DEVICES INC 8-K)",
+     "date": "2026-05-15",
+     "title": "ADVANCED MICRO DEVICES INC 8-K: Entry into a material definitive agreement; Termination of a material definitive agreement; Creation of a direct financial obligation"
+    }
+   ],
+   "added_by": "approved by helajo",
    "origin": "curated"
   },
   {
@@ -15627,8 +15654,8 @@
  ],
  "stats": {
   "entities": 100,
-  "edges": 280,
-  "curated_edges": 280,
+  "edges": 281,
+  "curated_edges": 281,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
@@ -15644,8 +15671,8 @@
     "cancelled": 2
    },
    "debt": {
-    "count": 91,
-    "usd": 892557000000.0,
+    "count": 92,
+    "usd": 897557000000.0,
     "undisclosed": 2,
     "cancelled": 0
    },
@@ -15694,7 +15721,7 @@
     "usd": 0
    }
   },
-  "total_usd": 3757257100000.0,
+  "total_usd": 3762257100000.0,
   "latest_announced": "2026-10-27"
  },
  "notes": {
