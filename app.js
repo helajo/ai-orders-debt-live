@@ -25,8 +25,13 @@
   var MIN_OPTIONS = [0, 1e9, 1e10, 5e10, 1e11];
   var PERIODS = [["all", "f_period_all"], ["365", "f_period_365"], ["90", "f_period_90"], ["2026", "f_period_2026"], ["2025", "f_period_2025"], ["custom", "f_period_custom"]];
   var SORTS = [["date", "sort_date", -1], ["amount", "sort_amount", -1], ["company", "sort_company", 1]];
+  var VIEWS = ["graph", "table", "loops", "changes"];
   var LS_LANG = "aod.lang";
   var LS_SEEN = "aod.seenEdges";
+  /* binding = the parties have signed (or are performing / have performed); announced and reported are not yet */
+  var BINDING = ["signed", "in_progress", "completed"];
+  var CHANGES_MAX = 100;
+  var SITE_URL = "https://helajo.github.io/ai-orders-debt-live/";
 
   function mq(q) {
     try { return window.matchMedia(q); } catch (e) { return { matches: false }; }
@@ -71,11 +76,21 @@
   function safeUrl(u) {
     return typeof u === "string" && /^https?:\/\//i.test(u) ? u : null;
   }
-  function hasCJK(s) { return /[㐀-鿿]/.test(String(s || "")); }
-  /* links to outside pages; English text inside the Chinese page is marked lang=en */
+  /* the script a headline is written in: "zh" (Han), "ja" (kana), "ko" (Hangul) or "en" (anything else, Latin
+     included); Han with kana is Japanese, Han alone is taken as Chinese */
+  function scriptOf(s) {
+    s = String(s || "");
+    if (/[぀-ヿ]/.test(s)) return "ja";
+    if (/[가-힯ㄱ-ㆎ]/.test(s)) return "ko";
+    if (/[㐀-鿿]/.test(s)) return "zh";
+    return "en";
+  }
+  function hasCJK(s) { return scriptOf(s) !== "en"; }
+  /* links to outside pages; text not in the page language is marked with its own lang */
   function extLink(url, text, cls) {
     var u = safeUrl(url);
-    var lang = hasCJK(text) ? null : "en";
+    var sc = scriptOf(text);
+    var lang = sc === "zh" ? (state.lang === "zh" ? null : "zh-CN") : sc === "en" ? (state.lang === "en" ? null : "en") : sc;
     if (!u) return h("span", { class: cls, lang: lang, text: text });
     return h("a", { href: u, target: "_blank", rel: "noopener noreferrer", class: cls, lang: lang, text: text });
   }
@@ -123,12 +138,19 @@
     lastInteract: 0,
     sort: { key: "date", dir: -1 },
     visible: [],
-    visibleNodes: []
+    visibleNodes: [],
+    loops: [],          /* stats.circular (or the same shape computed here), unfiltered */
+    visibleLoops: [],   /* loops whose every leg has a deal in the current filter */
+    loopsOf: new Map(), /* entity id -> visible loops it is part of */
+    timeline: [],       /* stats.timeline (or computed here) */
+    changes: null,      /* data/changes.json: null until fetched, [] when missing */
+    changesState: "loading"
   };
 
   function defaultFilters() {
-    return { kinds: new Set(KIND_ORDER), group: "", min: 0, period: "all", from: "", to: "", q: "", onlyNew: false };
+    return { kinds: new Set(KIND_ORDER), group: "", min: 0, period: "all", from: "", to: "", q: "", onlyNew: false, confirmedOnly: false, bindingOnly: false };
   }
+  function isBinding(e) { return BINDING.indexOf(e.status) >= 0; }
 
   function t(key, vars) { return I.t(state.lang, key, vars); }
   /* bare: drop 美元 where a column header already carries the unit (Chinese only) */
@@ -138,6 +160,38 @@
     if (n > 0) return usd(n, bare);
     return deals > 0 ? t("undisclosed") : "–";
   }
+  /* the amount a deal contributes to any total (tiles, node size, money in/out, rankings, line widths, table
+     footer): nothing when it is cancelled, nothing for a guarantee. A guarantee is contingent (the guarantor pays
+     only if the obligor fails) and the lease or loan it backs is already counted; build.py applies the same rule
+     to stats.total_usd and the per-entity inflow/outflow, so the headline total here matches the data file. */
+  function countedAmount(e) {
+    if (!e || e.status === "cancelled" || e.kind === "guarantee") return 0;
+    return e.amount_usd || 0;
+  }
+  /* a live guarantee's face amount, shown beside the totals as contingent exposure (stats.contingent_usd) */
+  function contingentAmount(e) {
+    return e && e.kind === "guarantee" && e.status !== "cancelled" ? (e.amount_usd || 0) : 0;
+  }
+  /* why a row's amount is not in the totals: "cancelled" or "contingent"; null for a counted deal */
+  function notCountedKey(e) {
+    if (!e) return null;
+    if (e.status === "cancelled") return "cancelled";
+    if (e.kind === "guarantee") return "contingent";
+    return null;
+  }
+  /* a small tag next to an amount that is listed but not counted */
+  function ctag(e) {
+    var k = notCountedKey(e);
+    return k ? h("span", { class: "ctag ctag--" + k, text: t(k), title: t("not_counted_" + k) }) : null;
+  }
+  /* an amount as a list or table row shows it: struck through when the deal is cancelled, a small "undisclosed"
+     badge instead of a figure when none was disclosed */
+  function amtEl(e, cls, bare) {
+    var k = notCountedKey(e);
+    if (e.amount_usd == null) return h("span", { class: cls + " is-undisclosed", title: t("not_counted_undisclosed") }, [undisclosedBadge()]);
+    return h("span", { class: cls + (k === "cancelled" ? " is-cancelled" : ""), title: k ? t("not_counted_" + k) : null }, [usd(e.amount_usd, bare)]);
+  }
+  function undisclosedBadge() { return h("span", { class: "ctag ctag--undisclosed", text: t("undisclosed_badge") }); }
   function day(s) { return I.fmtDate(s, state.lang); }
   /* compact dates in lists: ISO in Chinese, "Sep 10, 2025" in English */
   function dayMeta(s) { return I.fmtDate(s, state.lang, state.lang === "zh" ? { iso: true } : null); }
@@ -167,7 +221,17 @@
     if (sel.type === "node") return entName(sel.id);
     if (sel.type === "edge") { var e = state.edgeById.get(sel.id); return e ? edgeTitle(e) : sel.id; }
     var p = sel.id.split("|");
+    if (sel.type === "loop") return p.map(entName).join(" → ") + " → " + entName(p[0]);
     return entName(p[0]) + " → " + entName(p[1]);
+  }
+  function loopByKey(key) { return state.loops.filter(function (lp) { return lp.key === key; })[0] || null; }
+  /* the drawn lines (one per from|to|kind bundle) that carry a loop's legs */
+  function loopLinkIds(lp) {
+    var ids = new Set();
+    lp.legs.forEach(function (leg) {
+      leg.edge_ids.forEach(function (id) { var l = G.linkOfEdge && G.linkOfEdge.get(id); if (l) ids.add(l.id); });
+    });
+    return ids;
   }
   /* a click on a button: keyboard activation (Enter/Space) reports detail 0 */
   function picker(sel) {
@@ -210,10 +274,12 @@
     return tryPaths(paths).then(function (res) {
       state.fetchFailed = false;
       ingest(res.json, res.path, !!SNAPSHOT);
+      loadChanges(res.path);
     }, function () {
       state.fetchFailed = true;
       if (!state.raw) {
-        $("error-banner").hidden = false;
+        /* a missing archive file is not a connection problem: say so and offer the live map */
+        showError(SNAPSHOT ? "snapshot" : "load");
         $("graph-loading").hidden = true;
         console.warn("AOD: could not load data/graph.json; serve the repo root and open /site/, or check that data/graph.json exists");
       }
@@ -221,6 +287,36 @@
       state.lastFetch = Date.now();
       live.removeAttribute("data-busy");
       renderLive();
+    });
+  }
+
+  /* the error banner in one of three shapes: load (retry), snapshot (back to live), script (reload) */
+  function showError(kind) {
+    var b = $("error-banner");
+    b.hidden = false;
+    b.setAttribute("data-kind", kind);
+    $("error-text").textContent = kind === "snapshot" ? t("snapshot_missing", { d: day(SNAPSHOT) }) : kind === "script" ? t("script_error") : t("load_error");
+    $("error-back").hidden = kind !== "snapshot";
+    $("retry").textContent = kind === "script" ? t("reload") : t("retry");
+    $("retry").hidden = kind === "snapshot";
+  }
+
+  /* data/changes.json sits next to graph.json; a deployment without it just shows an empty Changes tab */
+  function loadChanges(graphPath) {
+    if (state.changesState === "ok" && !state.changesStale) return;
+    var url = graphPath.replace(/archive\/\d{4}-\d{2}-\d{2}\.json$/, "graph.json").replace(/graph\.json$/, "changes.json");
+    fetch(url + "?t=" + Date.now(), { cache: "no-store" }).then(function (r) {
+      if (!r.ok) throw new Error(url + " " + r.status);
+      return r.json();
+    }).then(function (j) {
+      var list = j && Array.isArray(j.changes) ? j.changes : [];
+      state.changes = list.filter(function (c) { return c && typeof c === "object"; });
+      state.changesState = "ok";
+      state.changesStale = false;
+    }, function () {
+      if (state.changesState !== "ok") { state.changes = []; state.changesState = "missing"; }
+    }).then(function () {
+      if (state.view === "changes") renderChanges();
     });
   }
 
@@ -233,6 +329,7 @@
     $("error-banner").hidden = true;
     $("graph-loading").hidden = true;
     if (!first && stamp === state.stamp && !sample) { state.raw = json; return; }
+    if (state.stamp && stamp !== state.stamp) state.changesStale = true;
     state.stamp = stamp;
     state.raw = json;
 
@@ -255,6 +352,11 @@
     state.ents = ents;
     state.edges = edges;
     state.edgeById = new Map(edges.map(function (e) { return [e.id, e]; }));
+    var stats = json.stats || {};
+    /* loops and the monthly series come from build.py when it emits them; older files get the same shape computed here */
+    state.loops = normalizeLoops(Array.isArray(stats.circular) ? stats.circular : computeLoops(edges));
+    state.timeline = Array.isArray(stats.timeline) && stats.timeline.length ? stats.timeline : computeTimeline(edges);
+    state.timelineNote = stats.timeline_note || null;
 
     /* "new" = not seen in the previous fetch this session, or (first load) since the last visit */
     var ids = new Set(edges.map(function (e) { return e.id; }));
@@ -299,6 +401,8 @@
     var f = state.filters;
     if (f.onlyNew && !state.newIds.has(e.id)) return false;
     if (skip !== "kinds" && !f.kinds.has(e.kind)) return false;
+    if (f.confirmedOnly && e.confidence !== "confirmed") return false;
+    if (f.bindingOnly && !isBinding(e)) return false;
     if (f.min > 0 && !(e.amount_usd >= f.min)) return false;
     var d = e.announced || "";
     if (f.from && (!d || d < f.from)) return false;
@@ -306,7 +410,7 @@
     var a = state.ents.get(e.from), b = state.ents.get(e.to);
     if (f.group && a.group !== f.group && b.group !== f.group) return false;
     if (f.q) {
-      var hay = [e.title_en, e.title_zh, e.subkind, e.id, a.name, a.name_zh, a.ticker, a.id, b.name, b.name_zh, b.ticker, b.id]
+      var hay = [e.title_en, e.title_zh, e.subkind, e.subkind_zh, e.id, a.name, a.name_zh, a.ticker, a.id, b.name, b.name_zh, b.ticker, b.id]
         .join(" ").toLowerCase();
       if (hay.indexOf(f.q) < 0) return false;
     }
@@ -318,17 +422,139 @@
     var exp = new Map();
     state.visible.forEach(function (e) {
       [e.from, e.to].forEach(function (id) {
-        if (!exp.has(id)) exp.set(id, { total: 0, inflow: 0, outflow: 0, deals: 0, inDeals: 0, outDeals: 0, byKind: {}, byKindIn: {}, byKindOut: {}, nIn: {}, nOut: {} });
+        if (!exp.has(id)) {
+          exp.set(id, { total: 0, inflow: 0, outflow: 0, deals: 0, inDeals: 0, outDeals: 0, cancelled: 0, guarIn: 0, guarOut: 0, nGuarIn: 0, nGuarOut: 0, byKind: {}, byKindIn: {}, byKindOut: {}, nIn: {}, nOut: {},
+            cp: new Map(), confirmed: 0, reported: 0, binding: 0, nonBinding: 0, undisclosed: 0, lastEdge: "", lastSource: "" });
+        }
       });
-      var a = e.amount_usd || 0, k = e.kind;
+      /* cash totals: cancelled deals and guarantees contribute nothing; guarantees are kept separately as contingent */
+      var a = countedAmount(e), g = contingentAmount(e), k = e.kind;
       var s = exp.get(e.from), r = exp.get(e.to);
       s.outflow += a; s.total += a; s.deals++; s.outDeals++; s.byKind[k] = (s.byKind[k] || 0) + a;
       s.byKindOut[k] = (s.byKindOut[k] || 0) + a; s.nOut[k] = (s.nOut[k] || 0) + 1;
       r.inflow += a; r.total += a; r.deals++; r.inDeals++; r.byKind[k] = (r.byKind[k] || 0) + a;
       r.byKindIn[k] = (r.byKindIn[k] || 0) + a; r.nIn[k] = (r.nIn[k] || 0) + 1;
+      if (e.status === "cancelled") { s.cancelled++; r.cancelled++; }
+      if (k === "guarantee") { s.guarOut += g; s.nGuarOut++; r.guarIn += g; r.nGuarIn++; }
+      /* the panel's extras (graph.json carries the same figures unfiltered as per-entity stats): who the money is
+         with, how sure we are of it, whether it is binding, and how fresh the record is */
+      var lastSrc = e.sources.reduce(function (m, src) { return src && src.date && src.date > m ? src.date : m; }, "");
+      [[s, e.to], [r, e.from]].forEach(function (p) {
+        var x = p[0], other = p[1];
+        var c = x.cp.get(other) || { usd: 0, n: 0 };
+        c.usd += a; c.n++; x.cp.set(other, c);
+        if (e.confidence === "confirmed") x.confirmed += a; else x.reported += a;
+        if (isBinding(e)) x.binding += a; else if (e.status !== "cancelled") x.nonBinding += a;
+        if (e.amount_usd == null) x.undisclosed++;
+        if ((e.announced || "") > x.lastEdge) x.lastEdge = e.announced;
+        if (lastSrc > x.lastSource) x.lastSource = lastSrc;
+      });
     });
     state.exposure = exp;
     state.visibleNodes = Array.from(exp.keys());
+
+    /* a loop stays listed while every leg has at least one deal in the filter */
+    var vis = new Set(state.visible.map(function (e) { return e.id; }));
+    state.visibleLoops = state.loops.filter(function (lp) {
+      return lp.legs.every(function (leg) { return leg.edge_ids.some(function (id) { return vis.has(id); }); });
+    });
+    state.loopsOf = new Map();
+    state.visibleLoops.forEach(function (lp) {
+      lp.entities.forEach(function (id) {
+        if (!state.loopsOf.has(id)) state.loopsOf.set(id, []);
+        state.loopsOf.get(id).push(lp);
+      });
+    });
+  }
+
+  /* top counterparties by counted money (deal count breaks ties); share of the company's counted total */
+  function topCounterparties(x, n) {
+    var rows = [];
+    x.cp.forEach(function (c, id) { rows.push({ id: id, usd: c.usd, n: c.n }); });
+    rows.sort(function (a, b) { return (b.usd - a.usd) || (b.n - a.n); });
+    rows.forEach(function (r) { r.share = x.total ? r.usd / x.total : 0; });
+    return rows.slice(0, n || 5);
+  }
+
+  /* ---------- circular deals ---------- */
+  /* stats.circular from build.py: [{entities:[a,b(,c)], legs:[{from,to,edge_ids,usd,kinds}], min_usd, max_usd}].
+     Each loop gets a stable key for the hash and the selection; legs whose deals are not in the file are dropped. */
+  function normalizeLoops(list) {
+    var out = [];
+    list.forEach(function (lp) {
+      if (!lp || !Array.isArray(lp.entities) || !Array.isArray(lp.legs) || lp.entities.length < 2) return;
+      var legs = lp.legs.map(function (leg) {
+        return {
+          from: leg.from, to: leg.to, edge_ids: (leg.edge_ids || []).filter(function (id) { return state.edgeById.has(id); }),
+          usd: typeof leg.usd === "number" && leg.usd > 0 ? leg.usd : null,
+          kinds: Array.isArray(leg.kinds) ? leg.kinds : []
+        };
+      });
+      if (legs.some(function (l) { return !l.edge_ids.length; })) return;
+      var usds = legs.map(function (l) { return l.usd; });
+      var anyNull = usds.some(function (u) { return u == null; }), anyNum = usds.some(function (u) { return u != null; });
+      out.push({
+        key: lp.entities.join("|"), entities: lp.entities, legs: legs,
+        min_usd: typeof lp.min_usd === "number" ? lp.min_usd : (anyNull ? null : Math.min.apply(null, usds)),
+        max_usd: typeof lp.max_usd === "number" ? lp.max_usd : (anyNum ? Math.max.apply(null, usds.map(function (u) { return u || 0; })) : null)
+      });
+    });
+    out.sort(function (a, b) { return ((b.max_usd || 0) - (a.max_usd || 0)) || ((b.min_usd || 0) - (a.min_usd || 0)); });
+    return out;
+  }
+
+  /* the same loops computed from the edges (older graph.json files): two-way pairs and three-way rings, cancelled
+     deals excluded, a leg being every live deal from one company to the next */
+  function computeLoops(edges) {
+    var pair = new Map();
+    edges.forEach(function (e) {
+      if (e.status === "cancelled") return;
+      var k = e.from + "|" + e.to;
+      if (!pair.has(k)) pair.set(k, []);
+      pair.get(k).push(e);
+    });
+    function leg(a, b) {
+      var es = pair.get(a + "|" + b);
+      var usd = es.reduce(function (sum, e) { return sum + countedAmount(e); }, 0);
+      var kinds = [];
+      es.forEach(function (e) { if (kinds.indexOf(e.kind) < 0) kinds.push(e.kind); });
+      return { from: a, to: b, edge_ids: es.map(function (e) { return e.id; }), usd: usd || null, kinds: kinds };
+    }
+    var out = [], ids = [];
+    pair.forEach(function (es, k) { k.split("|").forEach(function (id) { if (ids.indexOf(id) < 0) ids.push(id); }); });
+    ids.sort();
+    ids.forEach(function (a) {
+      ids.forEach(function (b) {
+        if (b <= a || !pair.has(a + "|" + b) || !pair.has(b + "|" + a)) return;
+        out.push({ entities: [a, b], legs: [leg(a, b), leg(b, a)] });
+      });
+    });
+    ids.forEach(function (a) {
+      ids.forEach(function (b) {
+        if (b === a || b < a || !pair.has(a + "|" + b)) return;
+        ids.forEach(function (c) {
+          if (c === a || c === b || c < a || !pair.has(b + "|" + c) || !pair.has(c + "|" + a)) return;
+          out.push({ entities: [a, b, c], legs: [leg(a, b), leg(b, c), leg(c, a)] });
+        });
+      });
+    });
+    return out;
+  }
+
+  /* stats.timeline shape: [{month, count, usd, cumulative_usd, by_kind}] by month of announcement */
+  function computeTimeline(edges) {
+    var m = new Map();
+    edges.forEach(function (e) {
+      var ym = (e.announced || "").slice(0, 7);
+      if (!/^\d{4}-\d{2}$/.test(ym)) return;
+      if (!m.has(ym)) m.set(ym, { month: ym, count: 0, usd: 0, cumulative_usd: 0, by_kind: {} });
+      var row = m.get(ym), a = countedAmount(e);
+      row.count++; row.usd += a; row.by_kind[e.kind] = (row.by_kind[e.kind] || 0) + a;
+    });
+    var rows = Array.from(m.values()).sort(function (a, b) { return a.month < b.month ? -1 : 1; });
+    var cum = 0;
+    rows.forEach(function (r) { cum += r.usd; r.cumulative_usd = cum; });
+    return rows;
   }
 
   function periodLabel() {
@@ -344,6 +570,8 @@
   function activeFilters() {
     var f = state.filters, out = [];
     if (f.onlyNew) out.push({ key: "new", label: t("pill_new", { n: state.newIds.size }) });
+    if (f.confirmedOnly) out.push({ key: "confirmed", label: t("pill_confirmed") });
+    if (f.bindingOnly) out.push({ key: "binding", label: t("pill_binding") });
     if (f.group) out.push({ key: "group", label: t("pill_group", { v: I.group(state.lang, f.group) }) });
     if (f.min) out.push({ key: "min", label: "≥ " + usd(f.min) });
     if (f.from || f.to) out.push({ key: "period", label: periodLabel() });
@@ -355,6 +583,8 @@
   function clearFilter(key) {
     var f = state.filters;
     if (key === "new") f.onlyNew = false;
+    else if (key === "confirmed") f.confirmedOnly = false;
+    else if (key === "binding") f.bindingOnly = false;
     else if (key === "group") f.group = "";
     else if (key === "min") f.min = 0;
     else if (key === "period") setPeriod("all");
@@ -396,7 +626,19 @@
     SORTS.forEach(function (s) { ts.appendChild(h("option", { value: s[0], text: t(s[1]) })); });
     ts.value = SORTS.some(function (s) { return s[0] === state.sort.key; }) ? state.sort.key : "";
     $("csv").textContent = t("csv", { n: state.visible.length });
+    $("f-confirmed").title = t("f_confirmed_hint");
+    $("f-binding").title = t("f_binding_hint");
+    $("tl-note").textContent = state.timelineNote && state.timelineNote[state.lang] ? state.timelineNote[state.lang] : t("tl_hint");
+    $("about-cite").textContent = citation();
+    var eb = $("error-banner");
+    if (!eb.hidden) showError(eb.getAttribute("data-kind") || "load");
     if (!state.raw) renderLive();
+  }
+
+  /* the citation line (also in the public README): generated_at's day, or the snapshot day */
+  function citation() {
+    var d = SNAPSHOT || ((state.raw && state.raw.generated_at) || "").slice(0, 10) || isoDay(new Date());
+    return "AI Orders & Debt Map, helajo, " + d + ", " + SITE_URL + (SNAPSHOT ? "?snapshot=" + SNAPSHOT : "");
   }
 
   function buildFilterControls() {
@@ -442,6 +684,8 @@
     $("f-from-field").hidden = f.period !== "custom";
     $("f-to-field").hidden = f.period !== "custom";
     $("f-search").value = f.q;
+    $("f-confirmed").setAttribute("aria-pressed", String(f.confirmedOnly));
+    $("f-binding").setAttribute("aria-pressed", String(f.bindingOnly));
 
     var dl = $("f-ents");
     dl.textContent = "";
@@ -461,6 +705,8 @@
     document.querySelectorAll("#kind-chips .chip[data-kind]").forEach(function (c) {
       c.setAttribute("aria-pressed", String(f.kinds.has(c.getAttribute("data-kind"))));
     });
+    $("f-confirmed").setAttribute("aria-pressed", String(f.confirmedOnly));
+    $("f-binding").setAttribute("aria-pressed", String(f.bindingOnly));
     $("f-from-field").hidden = f.period !== "custom";
     $("f-to-field").hidden = f.period !== "custom";
 
@@ -561,14 +807,45 @@
       $("filters").classList.toggle("is-open", open);
     });
 
-    $("tab-graph").addEventListener("click", function () { setView("graph"); });
-    $("tab-table").addEventListener("click", function () { setView("table"); });
-    [$("tab-graph"), $("tab-table")].forEach(function (b) {
+    $("f-confirmed").addEventListener("click", function () {
+      state.filters.confirmedOnly = !state.filters.confirmedOnly;
+      this.setAttribute("aria-pressed", String(state.filters.confirmedOnly));
+      renderAll(false, false, true);
+    });
+    $("f-binding").addEventListener("click", function () {
+      state.filters.bindingOnly = !state.filters.bindingOnly;
+      this.setAttribute("aria-pressed", String(state.filters.bindingOnly));
+      renderAll(false, false, true);
+    });
+    $("tl-clear").addEventListener("click", function () { setPeriod("all"); renderAll(false, false, true); });
+
+    var tabs = VIEWS.map(function (v) { return $("tab-" + v); });
+    tabs.forEach(function (b, i) {
+      b.addEventListener("click", function () { setView(VIEWS[i]); });
       b.addEventListener("keydown", function (ev) {
-        if (ev.key === "ArrowRight" || ev.key === "ArrowLeft") {
-          var other = b.id === "tab-graph" ? $("tab-table") : $("tab-graph");
-          other.focus(); other.click();
-        }
+        var j = ev.key === "ArrowRight" ? (i + 1) % tabs.length : ev.key === "ArrowLeft" ? (i + tabs.length - 1) % tabs.length : -1;
+        if (j < 0) return;
+        ev.preventDefault();
+        tabs[j].focus(); tabs[j].click();
+      });
+    });
+
+    /* about & methodology: a native dialog (focus stays inside, Esc closes) */
+    var about = $("about");
+    $("about-open").addEventListener("click", function () {
+      $("about-cite").textContent = citation();
+      $("about-copied").textContent = "";
+      if (typeof about.showModal === "function") about.showModal(); else about.setAttribute("open", "");
+    });
+    $("about-close").addEventListener("click", function () { if (about.open) about.close(); else about.removeAttribute("open"); });
+    about.addEventListener("click", function (ev) { if (ev.target === about) about.close(); });
+    $("about-copy").addEventListener("click", function () {
+      var line = citation(), done = $("about-copied");
+      var p = navigator.clipboard && navigator.clipboard.writeText ? navigator.clipboard.writeText(line) : Promise.reject(new Error("no clipboard"));
+      p.then(function () { done.textContent = t("about_copied"); }, function () {
+        /* no clipboard API (older browser, insecure context): select the line so the user can copy it */
+        var r = document.createRange(); r.selectNodeContents($("about-cite"));
+        var s = window.getSelection(); s.removeAllRanges(); s.addRange(r);
       });
     });
     document.querySelectorAll("#graph-scope [data-scope]").forEach(function (b) {
@@ -677,22 +954,24 @@
   }
 
   function setView(v) {
+    if (VIEWS.indexOf(v) < 0) v = "graph";
     state.view = v;
-    $("tab-graph").setAttribute("aria-selected", String(v === "graph"));
-    $("tab-table").setAttribute("aria-selected", String(v === "table"));
-    $("tab-graph").tabIndex = v === "graph" ? 0 : -1;
-    $("tab-table").tabIndex = v === "table" ? 0 : -1;
-    $("graph-view").hidden = v !== "graph";
-    $("table-view").hidden = v !== "table";
+    VIEWS.forEach(function (name) {
+      $("tab-" + name).setAttribute("aria-selected", String(v === name));
+      $("tab-" + name).tabIndex = v === name ? 0 : -1;
+      $(name + "-view").hidden = v !== name;
+    });
     $("graph-tools").hidden = v !== "graph";
     $("graph-scope").hidden = v !== "graph";
     $("legend").hidden = v !== "graph";
     $("csv").hidden = v !== "table";
     $("table-sort-wrap").hidden = v !== "table";
     if (v === "table") renderTable();
+    if (v === "loops") renderLoops();
+    if (v === "changes") renderChanges();
     renderEmpty();
-    // phones and tablets: a company sheet left open from the graph would cover the table
-    if (state.sel && window.matchMedia && window.matchMedia("(max-width: 1080px)").matches) select(null);
+    // phones and tablets: a company sheet left open from the graph would cover the table or the lists
+    if (v !== "graph" && state.sel && window.matchMedia && window.matchMedia("(max-width: 1080px)").matches) select(null);
     renderVizCount();
   }
 
@@ -722,7 +1001,7 @@
       if (!(inPanel && state.opener && state.opener.isConnected)) state.opener = ae;
     }
     state.sel = sel;
-    var hash = sel ? ({ node: "n-", edge: "e-", bundle: "b-" }[sel.type]) + sel.id : "";
+    var hash = sel ? ({ node: "n-", edge: "e-", bundle: "b-", loop: "l-" }[sel.type]) + sel.id : "";
     try {
       history.replaceState(null, "", hash ? "#" + hash : location.pathname + location.search);
     } catch (e) { /* sandboxed */ }
@@ -751,6 +1030,7 @@
     var drawer = !mq("(max-width: 760px)").matches;
     var a, b;
     if (sel.type === "node") a = b = G.nodes.get(sel.id);
+    else if (sel.type === "loop") { var lp0 = loopByKey(sel.id); a = lp0 && G.nodes.get(lp0.entities[0]); b = lp0 && G.nodes.get(lp0.entities[1]); }
     else {
       var e = sel.type === "edge" ? state.edgeById.get(sel.id) : null;
       var parts = e ? [e.from, e.to] : String(sel.id).split("|");
@@ -793,13 +1073,16 @@
     }
   }
 
+  /* #n-<entity>, #e-<edge>, #b-<from|to|kind>, #l-<a|b(|c)>; an empty or unknown hash clears the selection */
   function readHash() {
-    var m = /^#([neb])-(.+)$/.exec(location.hash || "");
+    var m = /^#([nebl])-(.+)$/.exec(location.hash || "");
+    state.sel = null;
     if (!m) return;
     var id = decodeURIComponent(m[2]);
     if (m[1] === "n" && state.ents.has(id)) state.sel = { type: "node", id: id };
     if (m[1] === "e" && state.edgeById.has(id)) state.sel = { type: "edge", id: id };
     if (m[1] === "b" && bundleEdges(id, state.edges).length) state.sel = { type: "bundle", id: id };
+    if (m[1] === "l" && loopByKey(id)) state.sel = { type: "loop", id: id };
   }
 
   function bundleEdges(bk, list) {
@@ -817,8 +1100,13 @@
     renderGraph(first, langOnly, refit);
     renderPanel();
     renderOverview();
-    renderFeeds();
+    /* the feed and the change log never follow the filters: skip them on a filter change (refit) */
+    if (!refit) renderFeeds();
     if (state.view === "table") renderTable();
+    if (state.view === "loops") renderLoops();
+    if (state.view === "changes" && !refit) renderChanges();
+    $("loops-n").textContent = state.visibleLoops.length ? String(state.visibleLoops.length) : "";
+    renderTimeline(first || langOnly);
     renderEmpty();
     renderNewBar(first);
     $("csv").textContent = t("csv", { n: state.visible.length });
@@ -839,15 +1127,20 @@
     state.lastNewCount = n;
   }
 
+  /* one tile per kind; the guarantee tile is contingent exposure and sits outside the headline total */
+  var TILE_KINDS = ["order", "investment", "debt", "lease", "guarantee"];
   function renderSummary() {
-    var sums = {}, nulls = {}, deals = {};
-    ["order", "investment", "debt"].forEach(function (k) { sums[k] = 0; nulls[k] = 0; deals[k] = 0; });
+    var sums = {}, nulls = {}, deals = {}, cancelled = {}, total = 0;
+    TILE_KINDS.forEach(function (k) { sums[k] = 0; nulls[k] = 0; deals[k] = 0; cancelled[k] = 0; });
     state.visible.forEach(function (e) {
+      total += countedAmount(e);
       if (!(e.kind in sums)) return;
       deals[e.kind]++;
-      if (e.amount_usd) sums[e.kind] += e.amount_usd; else nulls[e.kind]++;
+      if (e.status === "cancelled") cancelled[e.kind]++;
+      else if (e.amount_usd) sums[e.kind] += e.kind === "guarantee" ? contingentAmount(e) : countedAmount(e);
+      else nulls[e.kind]++;
     });
-    ["order", "investment", "debt"].forEach(function (k) {
+    TILE_KINDS.forEach(function (k) {
       var el = $("sum-" + k);
       el.textContent = "";
       var parts = deals[k] ? I.fmtUSDParts(sums[k] || null, state.lang) : { n: "–", u: "" };
@@ -855,18 +1148,41 @@
       if (parts.u) el.appendChild(h("span", { class: "u", text: parts.u }));
       var note = $("sum-" + k + "-note");
       note.textContent = "";
-      /* the full note, plus a short one that phones show in the narrow three-across tiles */
+      /* the full note, plus a short one that phones show in the narrow tiles */
       var full = h("span", { class: "note-full" }), short = h("span", { class: "note-short" });
-      if (nulls[k]) {
-        full.appendChild(document.createTextNode(t("sum_undisclosed", { n: nulls[k] })));
-        short.textContent = t("sum_undisclosed_short", { n: nulls[k] });
-      }
+      var fullParts = [], shortParts = [];
+      if (nulls[k]) { fullParts.push(t("sum_undisclosed", { n: nulls[k] })); shortParts.push(t("sum_undisclosed_short", { n: nulls[k] })); }
+      if (cancelled[k]) { fullParts.push(t("sum_cancelled", { n: cancelled[k] })); shortParts.push(t("sum_cancelled_short", { n: cancelled[k] })); }
+      var sep = state.lang === "zh" ? "，" : " · ";
+      full.textContent = fullParts.join(sep);
+      short.textContent = shortParts.join(sep);
       note.appendChild(full);
       note.appendChild(short);
-      $("tile-" + k).title = t("sum_hint");
+      $("tile-" + k).title = t(k === "guarantee" ? "sum_hint_contingent" : k === "lease" ? "sum_hint_lease" : "sum_hint");
     });
+    /* the headline total: the same rule as stats.total_usd in graph.json (orders + investments + debt + leases +
+       vendor financing, disclosed and not cancelled; guarantees excluded) */
+    var tot = $("sum-total");
+    tot.textContent = "";
+    tot.appendChild(h("span", { class: "tile__total-l", text: t("sum_total") }));
+    tot.appendChild(h("b", { text: usdSum(total, state.visible.length) }));
+    tot.title = t("sum_total_hint");
     renderMix();
+    /* how much of the total rests on filings vs press reports, and how much is binding */
+    var conf = 0, rep = 0, bind = 0;
+    state.visible.forEach(function (e) {
+      var a = countedAmount(e);
+      if (e.confidence === "confirmed") conf += a; else rep += a;
+      if (isBinding(e)) bind += a;
+    });
+    var split = $("sum-split");
+    split.textContent = "";
+    if (state.visible.length) {
+      split.appendChild(h("span", { class: "split__conf", title: t("cf_hint_confirmed") }, [t("sum_split", { c: usd(conf || null), r: usd(rep || null) })]));
+      split.appendChild(h("span", { class: "split__bind", title: t("f_binding_hint") }, [" · " + t("sum_split_binding", { b: usd(bind || null) })]));
+    }
     var scope = t("sum_caption", { d: state.visible.length, c: state.visibleNodes.length });
+    if (state.visibleLoops.length) scope += " · " + t("sum_loops", { n: state.visibleLoops.length });
     if (activeFilters().length) scope += " · " + t("sum_scope_filtered");
     $("sum-scope").textContent = scope;
   }
@@ -883,8 +1199,8 @@
       if (!edgeVisible(e, "kinds")) return;
       var c = classOf(e.kind);
       if (!cls[c]) cls[c] = { v: 0, n: 0 };
-      cls[c].v += e.amount_usd || 0; cls[c].n++;
-      total += e.amount_usd || 0; count++;
+      cls[c].v += countedAmount(e); cls[c].n++;
+      total += countedAmount(e); count++;
     });
     var present = CLASSES.filter(function (c) { return cls[c]; });
     if (!present.length) return;
@@ -1113,11 +1429,14 @@
     bundles.forEach(function (arr, bk) {
       arr.sort(function (a, b) { return (b.amount_usd || 0) - (a.amount_usd || 0); });
       var e = arr[0];
-      var amt = arr.reduce(function (sum, x) { return sum + (x.amount_usd || 0); }, 0) || null;
+      /* width follows the counted total (cancelled deals and guarantees add nothing); the label shows the live
+         face amounts so a bundle of guarantees still reads as its size */
+      var counted = arr.reduce(function (sum, x) { return sum + countedAmount(x); }, 0);
+      var amt = arr.reduce(function (sum, x) { return sum + countedAmount(x) + contingentAmount(x); }, 0) || null;
       var key = e.from < e.to ? e.from + "|" + e.to : e.to + "|" + e.from;
       var l = {
-        id: arr.length === 1 ? e.id : "b:" + bk, bk: bk, e: e, edges: arr, amount: amt, from: e.from, to: e.to, kind: e.kind,
-        source: nodeIndex.get(e.from), target: nodeIndex.get(e.to), key: key, w: widthScale(amt)
+        id: arr.length === 1 ? e.id : "b:" + bk, bk: bk, e: e, edges: arr, amount: amt, counted: counted, from: e.from, to: e.to, kind: e.kind,
+        source: nodeIndex.get(e.from), target: nodeIndex.get(e.to), key: key, w: widthScale(counted)
       };
       arr.forEach(function (x) { G.linkOfEdge.set(x.id, l); });
       if (!pairs.has(key)) pairs.set(key, []);
@@ -1221,8 +1540,10 @@
     all.each(function (l) {
       var g = d3.select(this);
       var isNew = l.edges.some(function (x) { return state.newIds.has(x.id); });
+      /* no deal on this line has a disclosed amount: thinnest width, dashed */
+      var undisclosed = l.edges.every(function (x) { return x.amount_usd == null; });
       var wh = Math.max(l.w, 2.5);
-      g.style("--c", kindColor(l.kind)).style("--wh", wh + "px");
+      g.classed("is-undisclosed", undisclosed).style("--c", kindColor(l.kind)).style("--wh", wh + "px");
       g.select(".edge")
         .attr("class", "edge" + (isNew ? " edge--new" : ""))
         .style("stroke-width", l.w + "px");
@@ -1463,11 +1784,22 @@
       G.links.forEach(function (l) {
         if (l.from === focus.id || l.to === focus.id) { edgesOn.add(l.id); nodesOn.add(l.from); nodesOn.add(l.to); }
       });
+    } else if (focus && focus.type === "loop") {
+      var lpf = loopByKey(focus.id);
+      if (lpf) { nodesOn = new Set(lpf.entities); edgesOn = loopLinkIds(lpf); }
     } else if (focus) {
       var fl = focusLink(focus);
       if (fl) { nodesOn = new Set([fl.from, fl.to]); edgesOn = new Set([fl.id]); }
     }
     G.nodesOn = nodesOn;
+    /* lines that close a loop with the selected company (or the selected loop's own legs) get the ring */
+    var loopOn = new Set();
+    if (state.sel && state.sel.type === "node") {
+      (state.loopsOf.get(state.sel.id) || []).forEach(function (lp) { loopLinkIds(lp).forEach(function (id) { loopOn.add(id); }); });
+    } else if (state.sel && state.sel.type === "loop") {
+      var lps = loopByKey(state.sel.id);
+      if (lps) loopOn = loopLinkIds(lps);
+    }
     var selLink = state.sel && state.sel.type !== "node" ? focusLink(state.sel) : null;
     var hotNode = state.hover && state.hover.type === "node" ? state.hover.id : null;
     var selNode = state.sel && state.sel.type === "node" ? state.sel.id : null;
@@ -1480,7 +1812,8 @@
     G.edgeSel
       .classed("is-dim", function (l) { return edgesOn ? !edgesOn.has(l.id) : false; })
       .classed("is-hot", function (l) { return edgesOn ? edgesOn.has(l.id) : false; })
-      .classed("is-sel", function (l) { return !!selLink && selLink.id === l.id; });
+      .classed("is-sel", function (l) { return !!selLink && selLink.id === l.id; })
+      .classed("is-loop", function (l) { return loopOn.has(l.id); });
     /* Lifting lines above the circles and bending them around other circles follows the clicked
        selection only, never hover: a hovered line that moved away from the pointer would end the hover,
        snap back under it and start it again, so the graph flickered. */
@@ -1488,6 +1821,8 @@
     if (sel && sel.type === "node") {
       liftOn = new Set();
       G.links.forEach(function (l) { if (l.from === sel.id || l.to === sel.id) liftOn.add(l.id); });
+    } else if (sel && sel.type === "loop") {
+      liftOn = loopOn;
     } else if (sel) {
       var sl = focusLink(sel);
       if (sl) liftOn = new Set([sl.id]);
@@ -1688,8 +2023,9 @@
   }
 
   function placeTip(ev) {
-    var box = $("graph-view").getBoundingClientRect();
+    var gv = $("graph-view"), box = gv.getBoundingClientRect();
     var tip = G.tip;
+    if (tip.parentNode !== gv) gv.appendChild(tip);   /* the timeline borrows the same tooltip */
     var x = ev.clientX - box.left + 14, y = ev.clientY - box.top + 14;
     var tw = tip.offsetWidth, th = tip.offsetHeight;
     if (x + tw > box.width - 8) x = Math.max(8, ev.clientX - box.left - tw - 14);
@@ -1705,6 +2041,7 @@
     tip.appendChild(h("span", { class: "tooltip__t", text: entName(d.id) + (d.ent.ticker ? " · " + d.ent.ticker : "") }));
     tip.appendChild(h("span", { class: "tooltip__m", text: I.group(state.lang, d.ent.group) + " · " + t("t_count", { n: d.exp.deals }) }));
     tip.appendChild(h("span", { class: "tooltip__m", text: t("p_total_in") + " " + usdSum(d.exp.inflow, d.exp.inDeals) + " · " + t("p_total_out") + " " + usdSum(d.exp.outflow, d.exp.outDeals) }));
+    if (d.exp.guarIn || d.exp.guarOut) tip.appendChild(h("span", { class: "tooltip__m", text: t("p_contingent_line", { g: usd(d.exp.guarOut || null), r: usd(d.exp.guarIn || null) }) }));
     tip.hidden = false;
     placeTip(ev);
   }
@@ -1712,7 +2049,8 @@
     if (ev.pointerType === "touch") return;
     var tip = G.tip;
     tip.textContent = "";
-    tip.appendChild(h("span", { class: "tooltip__v", text: usd(e.amount_usd) }));
+    var nc = notCountedKey(e);
+    tip.appendChild(h("span", { class: "tooltip__v" + (nc === "cancelled" ? " is-cancelled" : ""), text: usd(e.amount_usd) + (nc ? " · " + t(nc) : "") }));
     tip.appendChild(h("span", { class: "tooltip__t", lang: titleLang(e), text: edgeTitle(e) }));
     tip.appendChild(h("span", { class: "tooltip__m" }, [
       h("span", { class: "key", style: "--c:" + kindColor(e.kind) }),
@@ -1727,11 +2065,11 @@
     if (ev.pointerType === "touch") return;
     var tip = G.tip;
     tip.textContent = "";
-    tip.appendChild(h("span", { class: "tooltip__v", text: usd(l.amount) }));
+    tip.appendChild(h("span", { class: "tooltip__v", text: usd(l.amount) + (l.kind === "guarantee" ? " · " + t("contingent") : "") }));
     tip.appendChild(h("span", { class: "tooltip__t", text: t("p_bundle", { n: l.edges.length }) + " · " + entName(l.from) + " → " + entName(l.to) }));
     tip.appendChild(h("span", { class: "tooltip__m" }, [h("span", { class: "key", style: "--c:" + kindColor(l.kind) }), I.kind(state.lang, l.kind)]));
     l.edges.slice(0, 4).forEach(function (e) {
-      tip.appendChild(h("span", { class: "tooltip__m", text: usd(e.amount_usd) + " · " + edgeTitle(e) }));
+      tip.appendChild(h("span", { class: "tooltip__m" + (e.status === "cancelled" ? " is-cancelled" : ""), text: usd(e.amount_usd) + " · " + edgeTitle(e) }));
     });
     if (l.edges.length > 4) tip.appendChild(h("span", { class: "tooltip__m", text: "+" + (l.edges.length - 4) }));
     tip.hidden = false;
@@ -1808,7 +2146,7 @@
   /* English text in the Chinese page: lang=en plus a small EN tag */
   function enText(text) {
     if (state.lang !== "zh" || hasCJK(text)) return text;
-    return h("span", {}, [h("span", { lang: "en", text: text }), h("span", { class: "xtag", text: "EN" })]);
+    return h("span", {}, [h("span", { lang: "en", text: text }), h("span", { class: "xtag", text: t("tag_en") })]);
   }
 
   function syncSelUI(type) {
@@ -1827,6 +2165,10 @@
       else if (sel.type === "bundle") {
         var be = bundleEdges(sel.id);
         if (be.length) { renderBundlePanel(p, be); type = "bundle"; }
+      }
+      else if (sel.type === "loop") {
+        var lp = loopByKey(sel.id);
+        if (lp) { renderLoopPanel(p, lp); type = "loop"; }
       }
     }
     if (type && mq("(max-width: 1080px)").matches) p.insertBefore(grabBtn(), p.firstChild);
@@ -1953,7 +2295,7 @@
 
   function renderNodePanel(p, id) {
     var ent = state.ents.get(id);
-    var x = state.exposure.get(id) || { inflow: 0, outflow: 0, deals: 0, inDeals: 0, outDeals: 0 };
+    var x = state.exposure.get(id) || { inflow: 0, outflow: 0, deals: 0, inDeals: 0, outDeals: 0, cancelled: 0, guarIn: 0, guarOut: 0, nGuarIn: 0, nGuarOut: 0 };
     var meta = [ent.ticker, I.region(state.lang, ent.country)].filter(Boolean).join(" · ");
     p.appendChild(h("div", { class: "panel__head" }, [
       h("div", { class: "panel__head-main" }, [
@@ -1970,6 +2312,15 @@
       h("div", { class: "tot tot--out" }, [h("span", { text: t("p_total_out") }), h("b", { text: usdSum(x.outflow, x.outDeals, true) })]),
       h("div", { class: "tot" }, [h("span", { text: t("p_deals") }), h("b", { text: String(x.deals) })])
     ]));
+    /* guarantees are contingent and sit outside Money in / out; cancelled deals are listed below but not counted */
+    if (x.nGuarIn || x.nGuarOut) {
+      body.appendChild(h("p", { class: "panel__contingent", title: t("not_counted_contingent") }, [
+        h("span", { class: "ctag ctag--contingent", text: t("contingent") }),
+        t("p_contingent_line", { g: usdSum(x.guarOut, x.nGuarOut), r: usdSum(x.guarIn, x.nGuarIn) })
+      ]));
+    }
+    if (x.cancelled) body.appendChild(h("p", { class: "panel__contingent", text: t("p_cancelled_line", { n: x.cancelled }) }));
+    renderNodeExtras(body, id, x);
 
     /* direction rule: debt from=lender to=borrower; order from=buyer; investment from=investor; lease from=lessee */
     var defs = [
@@ -1985,7 +2336,10 @@
       var rows = state.visible.filter(function (e) { return e.kind === s[1] && e[s[2]] === id; })
         .sort(function (a, b) { return (b.amount_usd || 0) - (a.amount_usd || 0); });
       if (!rows.length) return;
-      secs.push({ def: s, rows: rows, total: rows.reduce(function (a, e) { return a + (e.amount_usd || 0); }, 0) });
+      /* the section total follows the counting rule; a guarantee section shows its live face amount, tagged */
+      var cancelled = rows.filter(function (e) { return e.status === "cancelled"; }).length;
+      var total = rows.reduce(function (a, e) { return a + countedAmount(e) + contingentAmount(e); }, 0);
+      secs.push({ def: s, rows: rows, total: total, cancelled: cancelled });
     });
     secs.sort(function (a, b) { return (b.total - a.total) || (b.rows.length - a.rows.length); });
     secs.forEach(function (sec) {
@@ -1997,7 +2351,11 @@
       var section = h("section", { class: "psec" }, [
         h("h4", {}, [
           h("span", { class: "key", style: "--c:" + kindColor(s[1]), "aria-hidden": "true" }), t(s[0]),
-          h("span", { class: "psec__total", text: usdSum(sec.total, rows.length) })
+          h("span", { class: "psec__total" }, [
+            usdSum(sec.total, rows.length - sec.cancelled),
+            s[1] === "guarantee" ? h("span", { class: "ctag ctag--contingent", text: t("contingent"), title: t("not_counted_contingent") }) : null,
+            sec.cancelled ? h("span", { class: "ctag ctag--cancelled", text: t("sum_cancelled_short", { n: sec.cancelled }), title: t("not_counted_cancelled") }) : null
+          ])
         ]),
         list
       ]);
@@ -2017,10 +2375,58 @@
     p.appendChild(body);
   }
 
+  /* who the money is with, how sure and how binding it is, how fresh the record is, and the loops it closes
+     (the same figures build.py writes as per-entity stats, here over the current filter) */
+  function renderNodeExtras(body, id, x) {
+    var sep = state.lang === "zh" ? "，" : " · ";
+    var top = topCounterparties(x, 5);
+    if (top.length && x.total) {
+      var sec = h("section", { class: "psec psec--cp" }, [h("h4", { text: t("p_top_cp") })]);
+      var ol = h("ol", { class: "cp-list" });
+      top.forEach(function (r) {
+        var pct = Math.round(r.share * 100);
+        ol.appendChild(h("li", {}, [h("button", {
+          type: "button", class: "cp-btn", title: t("p_select_from", { name: entName(r.id) }), onclick: picker({ type: "node", id: r.id }),
+          "aria-label": entName(r.id) + sep + usdSum(r.usd, r.n) + sep + pct + "%"
+        }, [
+          h("span", { class: "cp-name" }, [h("span", { text: entName(r.id) })]),
+          h("span", { class: "cp-amt", text: usdSum(r.usd, r.n) }),
+          h("span", { class: "cp-pct", text: pct + "%" }),
+          h("span", { class: "cp-bar", "aria-hidden": "true" }, [h("i", { style: "width:" + Math.max(1, r.share * 100).toFixed(1) + "%" })])
+        ])]));
+      });
+      sec.appendChild(ol);
+      var top3 = top.slice(0, 3).reduce(function (a, r) { return a + r.share; }, 0);
+      sec.appendChild(h("p", { class: "psec__note", text: t("p_top3", { p: Math.round(top3 * 100) + "%" }) }));
+      body.appendChild(sec);
+    }
+    var kv = h("dl", { class: "kv kv--facts" });
+    function row(k, v) { if (v) { kv.appendChild(h("dt", { text: k })); kv.appendChild(h("dd", {}, [v])); } }
+    row(t("t_confidence"), x.confirmed || x.reported ? t("sum_split", { c: usd(x.confirmed || null), r: usd(x.reported || null) }) : null);
+    row(t("t_status"), x.binding || x.nonBinding ? t("p_binding", { b: usd(x.binding || null), a: usd(x.nonBinding || null) }) : null);
+    row(t("p_last_edge"), x.lastEdge ? day(x.lastEdge) : null);
+    row(t("p_last_source"), x.lastSource ? day(x.lastSource) : null);
+    if (kv.childNodes.length) body.appendChild(kv);
+    var loops = state.loopsOf.get(id) || [];
+    if (loops.length) {
+      var ul = h("ul", { class: "loop-with" });
+      loops.forEach(function (lp) {
+        var others = lp.entities.filter(function (x2) { return x2 !== id; });
+        ul.appendChild(h("li", {}, [h("button", {
+          type: "button", class: "loop-btn", onclick: picker({ type: "loop", id: lp.key }), title: t("p_loop_show")
+        }, [
+          h("span", { class: "loop-btn__who", text: others.map(entName).join(" → ") }),
+          h("span", { class: "loop-btn__v", text: lp.min_usd ? t("loop_min", { v: usd(lp.min_usd) }) : t("undisclosed") })
+        ])]));
+      });
+      body.appendChild(h("section", { class: "psec" }, [h("h4", { text: t("p_loop_with") }), ul]));
+    }
+  }
+
   function dealRow(e, other, extra) {
     return h("li", { class: "prow" + (extra ? " is-extra" : "") }, [
       entButton(other),
-      h("span", { class: "prow__amt", text: usd(e.amount_usd) }),
+      h("span", { class: "prow__amt-wrap" }, [amtEl(e, "prow__amt"), ctag(e)]),
       h("span", { class: "prow__t" }, [h("button", { type: "button", lang: titleLang(e), onclick: picker({ type: "edge", id: e.id }), text: edgeTitle(e) })]),
       h("span", { class: "prow__m" }, [
         state.newIds.has(e.id) ? h("span", { class: "newtag", text: t("p_new") }) : null,
@@ -2031,7 +2437,7 @@
 
   function renderBundlePanel(p, list) {
     var e0 = list[0];
-    var total = list.reduce(function (a, e) { return a + (e.amount_usd || 0); }, 0);
+    var total = list.reduce(function (a, e) { return a + countedAmount(e) + contingentAmount(e); }, 0);
     p.appendChild(h("div", { class: "panel__head" }, [
       h("div", { class: "panel__head-main" }, [
         h("div", { class: "panel__eyebrow" }, [h("span", { class: "key", style: "--c:" + kindColor(e0.kind) }), I.kind(state.lang, e0.kind)]),
@@ -2041,7 +2447,7 @@
       closeBtn()
     ]));
     var body = h("div", { class: "panel__body" });
-    body.appendChild(h("div", { class: "deal-amt", text: usd(total || null) }));
+    body.appendChild(h("div", { class: "deal-amt" }, [usd(total || null), e0.kind === "guarantee" ? ctag(e0) : null]));
     body.appendChild(h("p", { class: "panel__hint", text: t("p_bundle_hint") }));
     var ul = h("ul", { class: "plist" });
     list.forEach(function (e) { ul.appendChild(dealRow(e, e.from === e0.from ? e.to : e.from)); });
@@ -2070,7 +2476,9 @@
     ]));
     var body = h("div", { class: "panel__body" });
     body.appendChild(h("div", {}, [
-      h("div", { class: "deal-amt", text: usd(e.amount_usd) }),
+      h("div", { class: "deal-amt" + (e.status === "cancelled" ? " is-cancelled" : "") }, [usd(e.amount_usd), ctag(e)]),
+      /* 中文: the edge's own amount_text_zh when curated, else the English text under an "as reported (English)" label */
+      zh && e.amount_text_zh ? h("p", { class: "deal-note", text: e.amount_text_zh }) :
       e.amount_text ? h("p", { class: "deal-note" }, [
         zh ? h("span", { text: t("p_amount_note") + "：" }) : null,
         h("span", { lang: "en", text: e.amount_text })
@@ -2086,11 +2494,12 @@
     row(t("t_status"), statusEl(e.status));
     row(t("t_confidence"), confEl(e.confidence));
     row(t("p_announced"), e.announced ? day(e.announced) : null);
-    if (e.subkind) {
-      var sk = I.subkind(state.lang, e.subkind);
-      row(t("p_subkind"), sk.en && zh ? h("span", {}, [h("span", { lang: "en", text: sk.text }), h("span", { class: "xtag", text: "EN" })]) : sk.text);
+    if (e.subkind || e.subkind_zh) {
+      /* 中文: subkind_zh on the edge, else the glossary table in i18n.js, else the English text tagged EN */
+      var sk = I.subkind(state.lang, e.subkind, e.subkind_zh);
+      row(t("p_subkind"), sk.en && zh ? h("span", {}, [h("span", { lang: "en", text: sk.text }), h("span", { class: "xtag", text: t("tag_en") })]) : sk.text);
     }
-    row(t("p_term"), e.term ? enText(e.term) : null);
+    row(t("p_term"), zh && e.term_zh ? e.term_zh : (e.term ? enText(e.term) : null));
     body.appendChild(kv);
     if (e.sources.length) {
       body.appendChild(h("section", { class: "psec" }, [
@@ -2150,18 +2559,23 @@
     var ts = $("t-sort");
     ts.value = SORTS.some(function (s) { return s[0] === state.sort.key; }) ? state.sort.key : "";
 
-    var maxAmt = 0, disclosed = 0, nDisc = 0;
+    var maxAmt = 0, disclosed = 0, nDisc = 0, nCancelled = 0, nContingent = 0, contingent = 0;
     state.visible.forEach(function (e) {
-      if (e.amount_usd) { disclosed += e.amount_usd; nDisc++; if (e.amount_usd > maxAmt) maxAmt = e.amount_usd; }
+      var a = countedAmount(e);
+      if (a) { disclosed += a; nDisc++; if (a > maxAmt) maxAmt = a; }
+      if (e.status === "cancelled") nCancelled++;
+      else if (e.kind === "guarantee") { nContingent++; contingent += contingentAmount(e); }
     });
     var body = $("deals-body");
     body.textContent = "";
     var frag = document.createDocumentFragment();
     sortedVisible().forEach(function (e) {
-      var bar = e.amount_usd
-        /* square-root scale on a fixed track, so a $5B deal is still a visible bar next to a $300B one */
+      var ca = countedAmount(e);
+      var bar = ca
+        /* square-root scale on a fixed track, so a $5B deal is still a visible bar next to a $300B one;
+           a cancelled deal or a guarantee gets the dashed "not counted" track */
         ? h("span", { class: "amt-bar", "aria-hidden": "true" }, [
-            h("i", { style: "--c:" + kindColor(e.kind) + ";width:" + Math.max(2, Math.sqrt(e.amount_usd / (maxAmt || 1)) * 56).toFixed(1) + "px" })])
+            h("i", { style: "--c:" + kindColor(e.kind) + ";width:" + Math.max(2, Math.sqrt(ca / (maxAmt || 1)) * 56).toFixed(1) + "px" })])
         : h("span", { class: "amt-bar amt-bar--na", "aria-hidden": "true" });
       var tr = h("tr", {
         class: ((state.newIds.has(e.id) ? "is-new" : "") + (state.sel && state.sel.id === e.id ? " is-sel" : "")).trim() || null,
@@ -2177,16 +2591,20 @@
             h("span", { class: "who", text: entName(e.to) })
           ])
         ]),
-        h("td", { class: "num" }, [h("span", { class: "amt" }, [usd(e.amount_usd, true),
+        h("td", { class: "num" }, [e.amount_usd == null ? amtEl(e, "amt") :
+          h("span", { class: "amt" + (e.status === "cancelled" ? " is-cancelled" : ""), title: notCountedKey(e) ? t("not_counted_" + notCountedKey(e)) : null }, [usd(e.amount_usd, true),
           /* phones show rows as cards with no column header, so the unit comes back there */
-          state.lang === "zh" && e.amount_usd ? h("span", { class: "amt__u" }, ["美元"]) : null]), bar]),
+          state.lang === "zh" ? h("span", { class: "amt__u" }, ["美元"]) : null]), ctag(e), bar]),
         h("td", { class: "state" }, [h("div", { class: "stack" }, [statusEl(e.status), confEl(e.confidence)])]),
         h("td", { class: "src" }, [sourcesEl(e)])
       ]);
       frag.appendChild(tr);
     });
     body.appendChild(frag);
-    $("deals-foot").textContent = t("t_foot", { v: usd(disclosed || null), n: nDisc, d: state.visible.length });
+    var foot = [t("t_foot", { v: usd(disclosed || null), n: nDisc, d: state.visible.length })];
+    if (nContingent) foot.push(t("t_foot_contingent", { n: nContingent, v: usd(contingent || null) }));
+    if (nCancelled) foot.push(t("t_foot_cancelled", { n: nCancelled }));
+    $("deals-foot").textContent = foot.join(state.lang === "zh" ? "；" : " · ");
     $("csv").textContent = t("csv", { n: state.visible.length });
     checkTableOverflow();
   }
@@ -2195,17 +2613,21 @@
     tv.classList.toggle("is-overflow", !tv.hidden && tv.scrollWidth > tv.clientWidth + 1);
   }
 
+  /* a cell that starts like a formula (= + - @, or a tab / CR) is prefixed with an apostrophe so a spreadsheet
+     shows it as text instead of evaluating it (titles and amount_text come from news and curation) */
   function csvCell(v) {
     var s = v == null ? "" : String(v);
+    if (/^[=+\-@\t\r]/.test(s) && !/^-?\d+(\.\d+)?$/.test(s)) s = "'" + s;
     return /[",\n\r]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
   }
   function downloadCSV() {
-    var cols = ["id", "announced", "kind", "subkind", "from", "from_name", "to", "to_name", "amount_usd", "amount_text", "status", "confidence", "origin", "title_en", "title_zh", "sources"];
+    var cols = ["id", "announced", "kind", "subkind", "from", "from_name", "to", "to_name", "amount_usd", "amount_text", "status", "confidence", "origin", "title_en", "title_zh", "sources", "source_urls"];
     var lines = [cols.join(",")];
     sortedVisible().forEach(function (e) {
       var a = state.ents.get(e.from), b = state.ents.get(e.to);
       var row = [e.id, e.announced, e.kind, e.subkind, e.from, state.lang === "zh" ? a.name_zh : a.name, e.to, state.lang === "zh" ? b.name_zh : b.name,
         e.amount_usd, e.amount_text, e.status, e.confidence, e.origin, e.title_en, e.title_zh,
+        e.sources.map(function (s) { return s.publisher || hostOf(s.url) || ""; }).join("; "),
         e.sources.map(function (s) { return s.url; }).join(" ")];
       lines.push(row.map(csvCell).join(","));
     });
@@ -2215,6 +2637,269 @@
     document.body.appendChild(a);
     a.click();
     setTimeout(function () { URL.revokeObjectURL(url); a.remove(); }, 1000);
+  }
+
+  /* ---------- circular deals: panel and view ---------- */
+  function loopLabel(lp) {
+    return lp.entities.map(entName).join(" → ") + " → " + entName(lp.entities[0]);
+  }
+  function legRow(leg) {
+    var es = leg.edge_ids.map(function (id) { return state.edgeById.get(id); }).filter(Boolean);
+    var vis = es.filter(function (e) { return edgeVisible(e); });
+    var kinds = leg.kinds.map(function (k) { return I.kind(state.lang, k); }).join(state.lang === "zh" ? "、" : ", ");
+    var li = h("li", { class: "leg" }, [
+      h("span", { class: "leg__who" }, [entButton(leg.from, "prow__who"), h("span", { class: "leg__arr", "aria-hidden": "true", text: "→" }), entButton(leg.to, "prow__who")]),
+      h("span", { class: "leg__amt", text: leg.usd ? usd(leg.usd) : t("undisclosed") }),
+      h("span", { class: "leg__m" }, [
+        h("span", { class: "key", style: "--c:" + kindColor(leg.kinds[0] || "other"), "aria-hidden": "true" }), kinds,
+        h("span", { class: "d", text: " · " + t("t_count", { n: es.length }) })
+      ])
+    ]);
+    var ul = h("ul", { class: "plist plist--sub" });
+    vis.sort(function (a, b) { return (b.amount_usd || 0) - (a.amount_usd || 0); }).forEach(function (e) { ul.appendChild(dealRow(e, e.to)); });
+    li.appendChild(ul);
+    return li;
+  }
+  function renderLoopPanel(p, lp) {
+    p.appendChild(h("div", { class: "panel__head" }, [
+      h("div", { class: "panel__head-main" }, [
+        h("div", { class: "panel__eyebrow" }, [h("span", { class: "tag", text: t(lp.entities.length === 2 ? "loop_pair" : "loop_three") })]),
+        panelTitle(loopLabel(lp)),
+        h("div", { class: "panel__meta", text: [t("loop_n_legs", { n: lp.legs.length }), lp.min_usd ? t("loop_min", { v: usd(lp.min_usd) }) : null, lp.max_usd ? t("loop_max", { v: usd(lp.max_usd) }) : null].filter(Boolean).join(" · ") })
+      ]),
+      closeBtn()
+    ]));
+    var body = h("div", { class: "panel__body" });
+    body.appendChild(h("p", { class: "panel__hint", text: t("loop_hint") }));
+    var ol = h("ol", { class: "legs" });
+    lp.legs.forEach(function (leg) { ol.appendChild(legRow(leg)); });
+    body.appendChild(ol);
+    p.appendChild(body);
+  }
+
+  function renderLoops() {
+    var list = $("loops-list"), empty = $("loops-empty");
+    list.textContent = "";
+    $("loops-hint").textContent = t("loops_hint");
+    var loops = state.visibleLoops;
+    empty.hidden = !!loops.length || !state.raw;
+    empty.textContent = loops.length ? "" : t("loops_empty");
+    var max = loops.reduce(function (m, lp) { return Math.max(m, lp.max_usd || 0); }, 0) || 1;
+    loops.forEach(function (lp, i) {
+      var selected = state.sel && state.sel.type === "loop" && state.sel.id === lp.key;
+      var btn = h("button", {
+        type: "button", class: "loop-row" + (selected ? " is-sel" : ""), "aria-pressed": String(!!selected),
+        onclick: function (ev) {
+          /* the map first, so the phone sheet opens over the graph and the legs are lifted there */
+          setView("graph");
+          select({ type: "loop", id: lp.key }, { kbd: ev.detail === 0 });
+          if (mq("(min-width: 1081px)").matches) $("workspace").scrollIntoView({ block: "start", behavior: RM.matches ? "auto" : "smooth" });
+        }
+      }, [
+        h("span", { class: "loop-row__n", text: String(i + 1) }),
+        h("span", { class: "loop-row__main" }, [
+          h("span", { class: "loop-row__who", text: loopLabel(lp) }),
+          h("span", { class: "loop-row__legs" }, lp.legs.map(function (leg) {
+            return h("span", { class: "loop-row__leg" }, [
+              h("span", { class: "key", style: "--c:" + kindColor(leg.kinds[0] || "other"), "aria-hidden": "true" }),
+              leg.kinds.map(function (k) { return I.kind(state.lang, k); }).join("/") + " " + (leg.usd ? usd(leg.usd) : t("undisclosed"))
+            ]);
+          }))
+        ]),
+        h("span", { class: "loop-row__v" }, [
+          h("b", { text: lp.min_usd ? usd(lp.min_usd) : t("undisclosed") }),
+          h("small", { text: lp.min_usd ? t("loop_min", { v: "" }).trim() : t("loop_min", { v: t("undisclosed") }) }),
+          h("span", { class: "loop-row__bar", "aria-hidden": "true" }, [h("i", { style: "width:" + Math.max(1, (lp.min_usd || 0) / max * 100).toFixed(1) + "%" })])
+        ])
+      ]);
+      list.appendChild(h("li", {}, [btn]));
+    });
+  }
+
+  /* ---------- change log ---------- */
+  function fieldLabel(f) {
+    var map = { amount_usd: "t_amount", amount_text: "f_amount_text", status: "t_status", confidence: "t_confidence", announced: "p_announced", subkind: "p_subkind",
+      subkind_zh: "p_subkind", term: "p_term", term_zh: "p_term", sources: "p_sources", title_en: "t_deal", title_zh: "t_deal", summary_en: "f_summary", summary_zh: "f_summary",
+      from: "t_from", to: "t_to", kind: "t_kind" };
+    var lang = /_(en|zh)$/.exec(f);
+    return (map[f] ? t(map[f]) : f) + (lang ? " (" + t("tag_" + lang[1]) + ")" : "");
+  }
+  function fieldValue(f, v) {
+    if (v == null || v === "") return "–";
+    if (f === "amount_usd" && typeof v === "number") return usd(v);
+    if (f === "status") return I.status(state.lang, v);
+    if (f === "confidence") return I.confidence(state.lang, v);
+    if (typeof v === "object") return Array.isArray(v) ? String(v.length) : JSON.stringify(v);
+    var s = String(v);
+    return s.length > 80 ? s.slice(0, 77) + "…" : s;
+  }
+  function renderChanges() {
+    var list = $("changes-list"), empty = $("changes-empty"), hint = $("changes-hint");
+    list.textContent = "";
+    var all = state.changes || [];
+    var rows = all.slice().sort(function (a, b) { return String(b.date || "") < String(a.date || "") ? -1 : 1; }).slice(0, CHANGES_MAX);
+    empty.hidden = !!rows.length;
+    empty.textContent = rows.length ? "" : (state.changesState === "loading" ? t("loading") : t("changes_none"));
+    if (!rows.length) { hint.textContent = ""; return; }
+    var n = { added: 0, removed: 0, changed: 0 };
+    rows.forEach(function (c) { if (c.kind in n) n[c.kind]++; });
+    hint.textContent = t("changes_hint", { n: rows.length, added: n.added, removed: n.removed, changed: n.changed });
+    var zh = state.lang === "zh";
+    rows.forEach(function (c) {
+      var title = (zh ? c.title_zh : c.title_en) || c.title_en || c.title_zh || c.edge || "";
+      var e = c.edge ? state.edgeById.get(c.edge) : null;
+      var fields = c.fields && typeof c.fields === "object" ? Object.keys(c.fields) : [];
+      var kindKey = { added: "ch_added", removed: "ch_removed", changed: "ch_changed" }[c.kind] || "ch_changed";
+      list.appendChild(h("li", { class: "chg chg--" + (c.kind || "changed") }, [
+        h("span", { class: "chg__m" }, [
+          h("span", { class: "chg__d", text: dayMeta(c.date) }),
+          h("span", { class: "chg__k", text: t(kindKey) }),
+          c.commit ? h("span", { class: "chg__c", text: t("ch_commit", { c: String(c.commit).slice(0, 7) }) }) : null
+        ]),
+        e ? h("button", { type: "button", class: "chg__t", lang: zh && !c.title_zh ? "en" : null, onclick: picker({ type: "edge", id: c.edge }), text: title })
+          : h("span", { class: "chg__t chg__t--gone", lang: zh && !c.title_zh ? "en" : null, text: title }),
+        fields.length ? h("ul", { class: "chg__fields" }, fields.map(function (f) {
+          var d = c.fields[f] || {};
+          return h("li", {}, [h("span", { class: "chg__f", text: fieldLabel(f) }), " ", h("span", { class: "chg__from", text: fieldValue(f, d.from) }), h("span", { class: "chg__arr", "aria-hidden": "true", text: " → " }), h("span", { class: "chg__to", text: fieldValue(f, d.to) })]);
+        })) : null
+      ]));
+    });
+  }
+
+  /* ---------- timeline strip ---------- */
+  /* stats.timeline drawn as two small panels on one month axis: columns for each month's counted amount (stacked
+     by colour class) and a line for the cumulative total, with a brush that sets the period filter */
+  var TL = { brushing: false };
+  function monthLabel(ym, short) {
+    var d = I.parseISO(ym + "-01");
+    if (!d) return ym;
+    try {
+      return new Intl.DateTimeFormat(state.lang === "zh" ? "zh-CN" : "en-US", short ? { month: "short", timeZone: "UTC" } : { year: "numeric", month: "short", timeZone: "UTC" }).format(d);
+    } catch (e) { return ym; }
+  }
+  function monthEnd(ym) {
+    var p = ym.split("-"), y = Number(p[0]), m = Number(p[1]);
+    return isoDay(new Date(Date.UTC(y, m, 0)));
+  }
+  function renderTimeline(full) {
+    var sec = $("timeline"), rows = state.timeline;
+    if (!rows || rows.length < 2 || !window.d3) { sec.hidden = true; return; }
+    sec.hidden = false;
+    var svg = d3.select("#tl-svg");
+    var W = sec.clientWidth || 800, narrow = W < 600;
+    var M = { l: 4, r: narrow ? 52 : 64, t: 6, b: 18 }, H1 = narrow ? 54 : 64, H2 = narrow ? 30 : 36, gap = 8;
+    var H = M.t + H1 + gap + H2 + M.b;
+    svg.attr("viewBox", "0 0 " + W + " " + H).attr("width", W).attr("height", H);
+    var changed = full || TL.w !== W || TL.n !== rows.length;
+    var x = d3.scaleBand().domain(rows.map(function (r) { return r.month; })).range([M.l, W - M.r]).paddingInner(0.25);
+    var y1 = d3.scaleLinear().domain([0, d3.max(rows, function (r) { return r.usd; }) || 1]).nice().range([M.t + H1, M.t]);
+    var y2 = d3.scaleLinear().domain([0, d3.max(rows, function (r) { return r.cumulative_usd; }) || 1]).range([M.t + H1 + gap + H2, M.t + H1 + gap]);
+    TL.x = x; TL.w = W; TL.n = rows.length;
+    if (changed) {
+      svg.selectAll("*").remove();
+      svg.attr("aria-label", t("tl_aria", { a: monthLabel(rows[0].month), b: monthLabel(rows[rows.length - 1].month) }));
+      var g = svg.append("g").attr("class", "tl");
+      /* gridlines and right-hand ticks for the monthly panel */
+      var ticks = y1.ticks(2);
+      g.append("g").attr("class", "tl__grid").selectAll("line").data(ticks).enter().append("line")
+        .attr("x1", M.l).attr("x2", W - M.r).attr("y1", y1).attr("y2", y1);
+      g.append("g").attr("class", "tl__ticks").selectAll("text").data(ticks).enter().append("text")
+        .attr("x", W - M.r + 6).attr("y", function (d) { return y1(d) + 4; }).text(function (d) { return d ? usd(d) : "0"; });
+      /* columns stacked by colour class, square at the baseline, a 2px surface gap between segments */
+      var cols = g.append("g").attr("class", "tl__cols").selectAll("g").data(rows).enter().append("g")
+        .attr("transform", function (r) { return "translate(" + x(r.month) + ",0)"; });
+      cols.each(function (r) {
+        var cg = d3.select(this), yy = y1(0);
+        var bc = {};
+        Object.keys(r.by_kind || {}).forEach(function (k) { var c = classOf(k); bc[c] = (bc[c] || 0) + (r.by_kind[k] || 0); });
+        CLASSES.forEach(function (c) {
+          var v = bc[c];
+          if (!v) return;
+          var top = y1(y1.invert(yy) + v);
+          var hgt = Math.max(0, yy - top - (yy === y1(0) ? 0 : 2));
+          cg.append("rect").attr("class", "tl__seg").attr("x", 0).attr("width", Math.max(2, Math.min(24, x.bandwidth())))
+            .attr("y", top).attr("height", hgt).style("fill", classColor(c));
+          yy = top;
+        });
+      });
+      /* cumulative line with an end marker and the end value */
+      var line = d3.line().x(function (r) { return x(r.month) + x.bandwidth() / 2; }).y(function (r) { return y2(r.cumulative_usd); });
+      g.append("path").attr("class", "tl__cum").attr("d", line(rows));
+      var last = rows[rows.length - 1];
+      g.append("circle").attr("class", "tl__dot").attr("r", 4).attr("cx", x(last.month) + x.bandwidth() / 2).attr("cy", y2(last.cumulative_usd));
+      g.append("text").attr("class", "tl__ticks tl__end").attr("x", W - M.r + 6).attr("y", y2(last.cumulative_usd) + 4).text(usd(last.cumulative_usd));
+      g.append("text").attr("class", "tl__panel").attr("x", M.l).attr("y", M.t + H1 + gap + 10).text(t("tl_cumulative"));
+      /* month axis: a label every N months so they never collide */
+      var every = Math.max(1, Math.ceil(rows.length / Math.floor((W - M.l - M.r) / (narrow ? 56 : 72))));
+      g.append("g").attr("class", "tl__axis").selectAll("text").data(rows.filter(function (r, i) { return i % every === 0; })).enter().append("text")
+        .attr("x", function (r) { return x(r.month) + x.bandwidth() / 2; }).attr("y", H - 4).attr("text-anchor", "middle")
+        .text(function (r, i) { return every >= 12 || r.month.slice(5) === "01" || i === 0 ? monthLabel(r.month) : monthLabel(r.month, true); });
+      /* hover: one tooltip per month across both panels (the brush overlay sits on top, so the pointer is read
+         on the brush group and mapped back to a month) */
+      var byMonth = new Map(rows.map(function (r) { return [r.month, r]; }));
+      function tlTip(ev) {
+        if (ev.pointerType === "touch" || TL.brushing) { hideTip(); return; }
+        var r = byMonth.get(monthAt(d3.pointer(ev, svg.node())[0]));
+        if (!r) { hideTip(); return; }
+        var tip = G.tip;
+        tip.textContent = "";
+        tip.appendChild(h("span", { class: "tooltip__v", text: usdSum(r.usd, r.count) }));
+        tip.appendChild(h("span", { class: "tooltip__t", text: monthLabel(r.month) + " · " + t("t_count", { n: r.count }) }));
+        tip.appendChild(h("span", { class: "tooltip__m", text: t("tl_cumulative") + " " + usd(r.cumulative_usd) }));
+        tip.hidden = false;
+        placeTipIn(ev, sec);
+      }
+      /* the brush: dragging across months sets a custom period; the handles snap to month edges */
+      TL.brush = d3.brushX().extent([[M.l, M.t], [W - M.r, M.t + H1 + gap + H2]])
+        .on("start", function () { TL.brushing = true; hideTip(); })
+        .on("end", function (ev) {
+          TL.brushing = false;
+          if (!ev.sourceEvent) return;   /* programmatic moves (syncBrush) do not re-filter */
+          if (!ev.selection) { if (state.filters.period === "custom") { setPeriod("all"); renderAll(false, false, true); } return; }
+          var r0 = monthAt(ev.selection[0]), r1 = monthAt(ev.selection[1] - 1);
+          var f = state.filters;
+          f.period = "custom"; f.from = r0 + "-01"; f.to = monthEnd(r1);
+          $("f-period").value = "custom"; $("f-from").value = f.from; $("f-to").value = f.to;
+          renderAll(false, false, true);
+        });
+      TL.brushG = g.append("g").attr("class", "tl__brush").call(TL.brush)
+        .on("pointermove", tlTip).on("pointerleave", hideTip);
+      TL.brushG.select(".overlay").attr("aria-hidden", "true");
+    }
+    syncBrush();
+  }
+  function monthAt(px) {
+    var x = TL.x, dom = x.domain();
+    var i = Math.max(0, Math.min(dom.length - 1, Math.floor((px - x.range()[0]) / x.step())));
+    return dom[i];
+  }
+  /* keep the brush and the "Showing a – b" line on the period filter (set from the select, a pill, the dates or the brush) */
+  function syncBrush() {
+    if (!TL.brushG) return;
+    var f = state.filters, x = TL.x, dom = x.domain();
+    var rng = $("tl-range"), clear = $("tl-clear");
+    if (!f.from && !f.to) {
+      if (!TL.brushing) TL.brushG.call(TL.brush.move, null);
+      rng.textContent = ""; clear.hidden = true;
+      return;
+    }
+    var a = (f.from || dom[0]).slice(0, 7), b = (f.to || dom[dom.length - 1]).slice(0, 7);
+    var ia = dom.indexOf(a), ib = dom.indexOf(b);
+    if (ia < 0) ia = a < dom[0] ? 0 : dom.length - 1;
+    if (ib < 0) ib = b > dom[dom.length - 1] ? dom.length - 1 : 0;
+    if (ib < ia) ib = ia;
+    if (!TL.brushing) TL.brushG.call(TL.brush.move, [x(dom[ia]), x(dom[ib]) + x.bandwidth()]);
+    rng.textContent = t("tl_range", { a: f.from ? day(f.from) : monthLabel(dom[0]), b: f.to ? day(f.to) : monthLabel(dom[dom.length - 1]) });
+    clear.hidden = false;
+  }
+  function placeTipIn(ev, box) {
+    var r = box.getBoundingClientRect(), tip = G.tip;
+    var x = ev.clientX - r.left + 14, y = ev.clientY - r.top + 14;
+    var tw = tip.offsetWidth, th = tip.offsetHeight;
+    if (x + tw > r.width - 8) x = Math.max(8, ev.clientX - r.left - tw - 14);
+    if (y + th > r.height - 8) y = Math.max(8, ev.clientY - r.top - th - 14);
+    if (tip.parentNode !== box) box.appendChild(tip);
+    tip.style.left = x + "px"; tip.style.top = y + "px";
   }
 
   /* ---------- latest feed ---------- */
@@ -2246,9 +2931,9 @@
   }
   /* a small tag when a headline is not in the page language */
   function langTag(text) {
-    var cjk = hasCJK(text);
-    if (cjk === (state.lang === "zh")) return null;
-    return h("span", { class: "xtag", text: cjk ? "中" : "EN" });
+    var sc = scriptOf(text);
+    if (sc === state.lang) return null;
+    return h("span", { class: "xtag", text: t("tag_" + sc) });
   }
   function renderFeeds() {
     var raw = state.raw || {};
@@ -2323,6 +3008,7 @@
         var gv = $("graph-view");
         if (gv.clientWidth) { G.width = gv.clientWidth; G.height = gv.clientHeight; }
         if (state.view === "table") checkTableOverflow();
+        if (state.raw) renderTimeline(true);
         /* the sheet handle exists only at <=1080px: re-render only when crossing that width */
         var p = $("panel");
         if (state.raw && p.classList.contains("is-open") && !!p.querySelector(".panel__grab") !== mq("(max-width: 1080px)").matches) renderPanel();
@@ -2330,9 +3016,15 @@
     });
   }
 
+  /* no d3 (the vendored file and the CDN fallback both failed): the static text still follows the language and
+     the banner says what happened; Retry reloads the page */
   if (!window.d3) {
     document.addEventListener("DOMContentLoaded", function () {
-      $("error-banner").hidden = false;
+      applyStatic();
+      $("lang-en").addEventListener("click", function () { state.lang = "en"; store.set(LS_LANG, "en"); applyStatic(); });
+      $("lang-zh").addEventListener("click", function () { state.lang = "zh"; store.set(LS_LANG, "zh"); applyStatic(); });
+      showError("script");
+      $("retry").addEventListener("click", function () { location.reload(); });
       $("graph-loading").hidden = true;
     });
     return;

@@ -3,12 +3,27 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>AI Orders &amp; Debt Map</title>
-<meta name="description" content="Live, bilingual relationship graph of orders, investments and debt among the AI giants. AI 巨头订单与债务关系图。">
+<!-- Everything the page runs is served next to it (d3 is vendored in vendor/); cdnjs is the fallback only.
+     Inline style attributes are set by app.js (bar widths, colour variables), hence 'unsafe-inline' for styles. -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
+<title>AI Orders &amp; Debt Map · AI 巨头订单与债务关系图</title>
+<meta name="description" content="Live, bilingual relationship graph of orders, investments and debt among the AI giants: who owes what to whom, with sources. AI 巨头订单与债务关系图：谁欠谁，订单、投资与债务，每笔附来源。">
+<link rel="canonical" href="https://helajo.github.io/ai-orders-debt-live/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="AI Orders &amp; Debt Map">
+<meta property="og:title" content="AI Orders &amp; Debt Map · AI 巨头订单与债务关系图">
+<meta property="og:description" content="Who owes what to whom among the AI giants: orders, investments and debt as a live, sourced relationship graph. AI 巨头之间谁欠谁：订单、投资与债务关系图，实时更新。">
+<meta property="og:url" content="https://helajo.github.io/ai-orders-debt-live/">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="AI Orders &amp; Debt Map · AI 巨头订单与债务关系图">
+<meta name="twitter:description" content="Who owes what to whom among the AI giants: orders, investments and debt as a live, sourced relationship graph. AI 巨头订单与债务关系图。">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="style.css">
+<link rel="alternate" type="application/atom+xml" title="AI Orders &amp; Debt Map: changes" href="data/feed.xml">
 </head>
 <body>
 <a class="skip" href="#workspace" data-i18n="skip_graph">Skip to graph</a>
@@ -21,7 +36,7 @@
       <p class="brand__sub" data-i18n="brand_sub">Who owes whom among the AI giants: orders, investments and debt, monitored by Claude</p>
     </div>
     <div class="masthead__right">
-      <div class="lang" role="group" aria-label="Language / 语言">
+      <div class="lang" role="group" data-i18n-aria="aria_lang" aria-label="Language / 语言">
         <button type="button" id="lang-en" class="lang__btn" lang="en" aria-pressed="true">English</button>
         <button type="button" id="lang-zh" class="lang__btn" lang="zh-CN" aria-pressed="false">中文</button>
       </div>
@@ -44,7 +59,8 @@
 
 <div class="banner" id="sample-banner" role="status" hidden></div>
 <div class="banner banner--error" id="error-banner" role="alert" hidden>
-  <span data-i18n="load_error"></span>
+  <span id="error-text" data-i18n="load_error"></span>
+  <a id="error-back" href="./" hidden data-i18n="snapshot_back">Back to the live map</a>
   <button type="button" class="btn btn--sm" id="retry" data-i18n="retry">Retry</button>
 </div>
 <div class="banner banner--new" id="new-bar" role="status" hidden>
@@ -57,9 +73,21 @@
   <div class="tile tile--money tile--order" id="tile-order"><span class="tile__label" data-i18n="sum_orders">Orders</span><span class="tile__value" id="sum-order">–</span><span class="tile__note" id="sum-order-note"></span></div>
   <div class="tile tile--money tile--investment" id="tile-investment"><span class="tile__label" data-i18n="sum_investments">Investments</span><span class="tile__value" id="sum-investment">–</span><span class="tile__note" id="sum-investment-note"></span></div>
   <div class="tile tile--money tile--debt" id="tile-debt"><span class="tile__label" data-i18n="sum_debt">Debt</span><span class="tile__value" id="sum-debt">–</span><span class="tile__note" id="sum-debt-note"></span></div>
-  <div class="tile tile--mix"><span class="tile__label" data-i18n="sum_mix">Mix by deal type</span><div class="mix" id="sum-mix"></div><span class="tile__note" id="sum-scope"></span></div>
+  <div class="tile tile--money tile--lease" id="tile-lease"><span class="tile__label" data-i18n="sum_leases">Leases</span><span class="tile__value" id="sum-lease">–</span><span class="tile__note" id="sum-lease-note"></span></div>
+  <div class="tile tile--money tile--guarantee" id="tile-guarantee"><span class="tile__label" data-i18n="sum_guarantees">Guarantees (contingent)</span><span class="tile__value" id="sum-guarantee">–</span><span class="tile__note" id="sum-guarantee-note"></span></div>
+  <div class="tile tile--mix"><span class="tile__label" data-i18n="sum_mix">Mix by deal type</span><span class="tile__total" id="sum-total"></span><div class="mix" id="sum-mix"></div><span class="tile__split" id="sum-split"></span><span class="tile__note" id="sum-scope"></span></div>
 </section>
 <p class="summary__foot" data-i18n="sum_foot"></p>
+
+<section class="timeline" id="timeline" data-i18n-aria="aria_timeline" aria-label="Timeline" hidden>
+  <div class="timeline__head">
+    <span class="timeline__h" data-i18n="tl_title">Deals by month</span>
+    <span class="timeline__range" id="tl-range"></span>
+    <button type="button" class="linkbtn linkbtn--muted timeline__clear" id="tl-clear" hidden data-i18n="tl_clear">Clear range</button>
+  </div>
+  <svg id="tl-svg" role="img"></svg>
+  <p class="timeline__note" id="tl-note"></p>
+</section>
 
 <section class="filters" id="filters" data-i18n-aria="aria_filters" aria-label="Filters">
   <div class="filters__main">
@@ -71,6 +99,13 @@
     <fieldset class="filters__kinds">
       <legend class="sr-only" data-i18n="f_kinds">Deal type</legend>
       <div class="chips" id="kind-chips"></div>
+    </fieldset>
+    <fieldset class="filters__toggles">
+      <legend class="sr-only" data-i18n="f_quality">Confidence and status</legend>
+      <div class="chips" id="quality-chips">
+        <button type="button" class="chip chip--toggle" id="f-confirmed" aria-pressed="false"><span class="chip__tick" aria-hidden="true"></span><span data-i18n="f_confirmed_only">Confirmed only</span></button>
+        <button type="button" class="chip chip--toggle" id="f-binding" aria-pressed="false"><span class="chip__tick" aria-hidden="true"></span><span data-i18n="f_binding_only">Binding only</span></button>
+      </div>
     </fieldset>
     <button type="button" class="btn filters__more" id="f-more" aria-expanded="false" aria-controls="filters-row"><span data-i18n="f_more">Filters</span><span class="filters__more-n" id="f-more-n"></span></button>
   </div>
@@ -106,6 +141,8 @@
       <div class="seg" role="tablist" data-i18n-aria="aria_view" aria-label="View">
         <button type="button" role="tab" id="tab-graph" class="seg__btn" aria-selected="true" aria-controls="graph-view" data-i18n="view_graph">Graph</button>
         <button type="button" role="tab" id="tab-table" class="seg__btn" aria-selected="false" aria-controls="table-view" data-i18n="view_table">Table</button>
+        <button type="button" role="tab" id="tab-loops" class="seg__btn" aria-selected="false" aria-controls="loops-view"><span data-i18n="view_loops">Loops</span><span class="chip__n" id="loops-n"></span></button>
+        <button type="button" role="tab" id="tab-changes" class="seg__btn" aria-selected="false" aria-controls="changes-view" data-i18n="view_changes">Changes</button>
       </div>
       <div class="seg seg--sm" id="graph-scope" role="group" data-i18n-aria="aria_scope" aria-label="Companies shown">
         <button type="button" class="seg__btn" data-scope="20" aria-pressed="false">Top 20</button>
@@ -143,6 +180,18 @@
       <div class="empty" id="table-empty" hidden></div>
     </div>
 
+    <div class="loops" id="loops-view" role="tabpanel" aria-labelledby="tab-loops" hidden>
+      <p class="loops__hint" id="loops-hint"></p>
+      <ol class="loops__list" id="loops-list"></ol>
+      <div class="empty" id="loops-empty" hidden></div>
+    </div>
+
+    <div class="changes" id="changes-view" role="tabpanel" aria-labelledby="tab-changes" hidden>
+      <p class="changes__hint" id="changes-hint"></p>
+      <ol class="changes__list" id="changes-list"></ol>
+      <div class="empty" id="changes-empty" hidden></div>
+    </div>
+
     <details class="legend" id="legend" open>
       <summary class="legend__sum" data-i18n="legend">Legend</summary>
       <div class="legend__body">
@@ -158,6 +207,8 @@
         </div>
         <div class="legend__row legend__row--notes">
           <span class="legend__key"><svg width="26" height="10" aria-hidden="true"><line x1="1" y1="5" x2="20" y2="5" class="lk-line"/><path d="M19 1 L25 5 L19 9 Z" class="lk-head"/></svg><span data-i18n="legend_arrow">Arrow points to who receives the money</span></span>
+          <span class="legend__key"><svg width="26" height="10" aria-hidden="true"><line x1="1" y1="5" x2="25" y2="5" class="lk-line lk-line--dashed"/></svg><span data-i18n="legend_undisclosed">Dashed line = amount undisclosed</span></span>
+          <span class="legend__key"><svg width="26" height="10" aria-hidden="true"><line x1="1" y1="5" x2="25" y2="5" class="lk-line lk-line--loop"/></svg><span data-i18n="legend_loop">Highlighted = part of a circular deal with the selected company</span></span>
         </div>
         <p class="legend__hint" id="graph-hint"></p>
         <span class="sr-only" id="graph-kbd" data-i18n="graph_kbd"></span>
@@ -188,10 +239,52 @@
 <footer class="footer">
   <p class="footer__disc" id="disc-en" lang="en">For information only, not investment advice: this site describes deals and does not rate them. Amounts are nominal US dollars as disclosed by the companies or named outlets, and every deal links to its sources.</p>
   <p class="footer__disc" id="disc-zh" lang="zh-CN">本站内容仅供参考，只作描述、不作评价，不构成任何投资建议。金额为公司公告或具名媒体披露的名义美元金额，每笔交易均附来源链接。</p>
+  <p class="footer__links">
+    <button type="button" class="linkbtn" id="about-open" data-i18n="about_link">About &amp; methodology</button>
+    <span class="footer__sep" aria-hidden="true">·</span>
+    <span class="footer__api"><span data-i18n="footer_api">Data &amp; API</span>:
+      <a href="data/graph.json" data-i18n="api_graph">graph.json</a>,
+      <a href="data/v1/README.md" data-i18n="api_v1">API v1 (JSON, CSV)</a>,
+      <a href="data/feed.xml" type="application/atom+xml" data-i18n="api_feed">changes feed</a>
+    </span>
+    <span class="footer__sep" aria-hidden="true">·</span>
+    <span data-i18n="footer_licence">Data CC BY 4.0, code MIT</span>
+  </p>
   <p class="footer__meta" id="footer-meta" data-i18n="footer_built">Built from public filings and news.</p>
 </footer>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<dialog class="about" id="about" aria-labelledby="about-title">
+  <div class="about__head">
+    <h2 class="about__title" id="about-title" data-i18n="about_title">About &amp; methodology</h2>
+    <button type="button" class="icon-btn" id="about-close" data-i18n-title="panel_close" aria-label="Close">×</button>
+  </div>
+  <div class="about__body">
+    <p data-i18n="about_intro"></p>
+    <h3 data-i18n="about_count_h"></h3>
+    <p data-i18n="about_count"></p>
+    <h3 data-i18n="about_dir_h"></h3>
+    <ul>
+      <li data-i18n="about_dir_order"></li>
+      <li data-i18n="about_dir_invest"></li>
+      <li data-i18n="about_dir_debt"></li>
+      <li data-i18n="about_dir_lease"></li>
+      <li data-i18n="about_dir_vf"></li>
+      <li data-i18n="about_dir_guar"></li>
+    </ul>
+    <h3 data-i18n="about_conf_h"></h3>
+    <p data-i18n="about_conf"></p>
+    <h3 data-i18n="about_cadence_h"></h3>
+    <p data-i18n="about_cadence"></p>
+    <h3 data-i18n="about_licence_h"></h3>
+    <p data-i18n="about_licence"></p>
+    <h3 data-i18n="about_cite_h"></h3>
+    <p class="about__cite"><code id="about-cite"></code> <button type="button" class="btn btn--sm" id="about-copy" data-i18n="about_copy">Copy</button><span class="about__copied" id="about-copied" role="status"></span></p>
+    <p class="about__disc" data-i18n="footer_disclaimer"></p>
+  </div>
+</dialog>
+
+<script src="vendor/d3.v7.min.js"></script>
+<script src="vendor/d3-fallback.js"></script>
 <script src="i18n.js"></script>
 <script src="app.js"></script>
 </body>

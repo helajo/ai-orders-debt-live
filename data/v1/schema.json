@@ -1,0 +1,524 @@
+{
+ "$schema": "https://json-schema.org/draft/2020-12/schema",
+ "$id": "https://helajo.github.io/ai-orders-debt-live/data/v1/schema.json",
+ "title": "AI Orders & Debt Map · public API v1",
+ "description": "Entities and edges of the AI orders, investments and debt graph (data CC BY 4.0). Money flows from → to: order buyer→seller, investment investor→investee, debt lender→borrower, lease lessee→lessor, vendor_financing financier→beneficiary, guarantee guarantor→protected party. entities.json, edges.json, stats.json and changes.json validate against $defs/<name>_file; one record validates against $defs/entity or $defs/edge.",
+ "$defs": {
+  "entity": {
+   "type": "object",
+   "required": [
+    "id",
+    "name",
+    "name_zh",
+    "group"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "name": {
+     "type": "string"
+    },
+    "name_zh": {
+     "type": "string"
+    },
+    "group": {
+     "type": "string",
+     "enum": [
+      "model_lab",
+      "hyperscaler",
+      "chip",
+      "neocloud",
+      "datacenter",
+      "energy",
+      "financier",
+      "spv",
+      "other"
+     ]
+    },
+    "ticker": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "country": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "stats": {
+     "type": "object",
+     "description": "per-entity flows computed by build.py (see README.md)"
+    }
+   }
+  },
+  "edge": {
+   "type": "object",
+   "required": [
+    "id",
+    "kind",
+    "from",
+    "to",
+    "amount_usd",
+    "amount_text",
+    "announced",
+    "status",
+    "confidence",
+    "title_en",
+    "title_zh",
+    "summary_en",
+    "summary_zh",
+    "sources"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^[a-z0-9][a-z0-9-]*$"
+    },
+    "kind": {
+     "type": "string",
+     "enum": [
+      "order",
+      "investment",
+      "debt",
+      "lease",
+      "vendor_financing",
+      "guarantee"
+     ]
+    },
+    "subkind": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "subkind_zh": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "from": {
+     "type": "string",
+     "description": "entity id; money flows from → to"
+    },
+    "to": {
+     "type": "string",
+     "description": "entity id"
+    },
+    "amount_usd": {
+     "type": [
+      "number",
+      "null"
+     ],
+     "description": "nominal USD total; null when undisclosed"
+    },
+    "amount_text": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "amount_text_zh": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "currency": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "ISO 4217 code of a non-USD deal"
+    },
+    "amount_native": {
+     "type": [
+      "number",
+      "null"
+     ]
+    },
+    "announced": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "term": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "term_zh": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "status": {
+     "type": "string",
+     "enum": [
+      "announced",
+      "signed",
+      "in_progress",
+      "completed",
+      "cancelled",
+      "reported"
+     ]
+    },
+    "confidence": {
+     "type": "string",
+     "enum": [
+      "confirmed",
+      "reported"
+     ]
+    },
+    "title_en": {
+     "type": "string"
+    },
+    "title_zh": {
+     "type": "string"
+    },
+    "summary_en": {
+     "type": "string"
+    },
+    "summary_zh": {
+     "type": "string"
+    },
+    "note_en": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "note_zh": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "sources": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "type": "object",
+      "required": [
+       "url"
+      ],
+      "properties": {
+       "url": {
+        "type": "string",
+        "format": "uri"
+       },
+       "publisher": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "date": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+       },
+       "title": {
+        "type": [
+         "string",
+         "null"
+        ]
+       },
+       "type": {
+        "type": [
+         "string",
+         "null"
+        ],
+        "enum": [
+         "filing",
+         "official",
+         "news",
+         null
+        ]
+       }
+      }
+     }
+    },
+    "added_by": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "\"rules\" or \"approved by <login>\""
+    },
+    "last_checked": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "part_of": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "id of the umbrella deal this is one part of"
+    },
+    "superseded_by": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "description": "id of the edge that replaced this one"
+    },
+    "origin": {
+     "type": "string",
+     "enum": [
+      "curated"
+     ]
+    },
+    "counted_usd": {
+     "type": "number",
+     "description": "amount_usd unless cancelled, a guarantee or undisclosed"
+    },
+    "contingent_usd": {
+     "type": "number",
+     "description": "a live guarantee's amount_usd, else 0"
+    }
+   }
+  },
+  "source": {
+   "type": "object",
+   "required": [
+    "url"
+   ],
+   "properties": {
+    "url": {
+     "type": "string",
+     "format": "uri"
+    },
+    "publisher": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "date": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+    },
+    "title": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "type": {
+     "type": [
+      "string",
+      "null"
+     ],
+     "enum": [
+      "filing",
+      "official",
+      "news",
+      null
+     ]
+    }
+   }
+  },
+  "change": {
+   "type": "object",
+   "required": [
+    "date",
+    "commit",
+    "edge",
+    "kind",
+    "title_en",
+    "title_zh"
+   ],
+   "properties": {
+    "date": {
+     "type": "string"
+    },
+    "commit": {
+     "type": "string",
+     "pattern": "^[0-9a-f]{40}$"
+    },
+    "edge": {
+     "type": "string"
+    },
+    "kind": {
+     "type": "string",
+     "enum": [
+      "added",
+      "removed",
+      "changed"
+     ]
+    },
+    "fields": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "object",
+      "required": [
+       "from",
+       "to"
+      ],
+      "properties": {
+       "from": {},
+       "to": {}
+      }
+     }
+    },
+    "title_en": {
+     "type": "string"
+    },
+    "title_zh": {
+     "type": "string"
+    }
+   }
+  },
+  "entities_file": {
+   "type": "object",
+   "required": [
+    "generated_at",
+    "version",
+    "entities"
+   ],
+   "properties": {
+    "generated_at": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "version": {
+     "type": "integer",
+     "const": 1
+    },
+    "licence": {
+     "type": "string",
+     "const": "CC BY 4.0"
+    },
+    "citation": {
+     "type": "string"
+    },
+    "entities": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/entity"
+     }
+    }
+   }
+  },
+  "edges_file": {
+   "type": "object",
+   "required": [
+    "generated_at",
+    "version",
+    "edges"
+   ],
+   "properties": {
+    "generated_at": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "version": {
+     "type": "integer",
+     "const": 1
+    },
+    "licence": {
+     "type": "string",
+     "const": "CC BY 4.0"
+    },
+    "citation": {
+     "type": "string"
+    },
+    "edges": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/edge"
+     }
+    }
+   }
+  },
+  "stats_file": {
+   "type": "object",
+   "required": [
+    "generated_at",
+    "version",
+    "stats"
+   ],
+   "properties": {
+    "generated_at": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "version": {
+     "type": "integer",
+     "const": 1
+    },
+    "licence": {
+     "type": "string",
+     "const": "CC BY 4.0"
+    },
+    "citation": {
+     "type": "string"
+    },
+    "stats": {
+     "type": "object"
+    }
+   }
+  },
+  "changes_file": {
+   "type": "object",
+   "required": [
+    "generated_at",
+    "history_complete",
+    "changes"
+   ],
+   "properties": {
+    "generated_at": {
+     "type": "string",
+     "format": "date-time"
+    },
+    "history_complete": {
+     "type": "boolean"
+    },
+    "last_commit": {
+     "type": [
+      "string",
+      "null"
+     ]
+    },
+    "changes": {
+     "type": "array",
+     "items": {
+      "$ref": "#/$defs/change"
+     }
+    }
+   }
+  }
+ },
+ "oneOf": [
+  {
+   "$ref": "#/$defs/entities_file"
+  },
+  {
+   "$ref": "#/$defs/edges_file"
+  },
+  {
+   "$ref": "#/$defs/stats_file"
+  },
+  {
+   "$ref": "#/$defs/changes_file"
+  }
+ ]
+}

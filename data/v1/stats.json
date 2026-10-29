@@ -1,0 +1,2022 @@
+{
+ "generated_at": "2026-10-29T02:06:09Z",
+ "version": 1,
+ "licence": "CC BY 4.0",
+ "citation": "AI Orders & Debt Map, helajo, 2026-10-29, https://helajo.github.io/ai-orders-debt-live/",
+ "stats": {
+  "entities": 122,
+  "edges": 366,
+  "curated_edges": 366,
+  "candidate_edges": 0,
+  "by_kind": {
+   "order": {
+    "count": 96,
+    "usd": 1517489000000,
+    "undisclosed": 52,
+    "cancelled": 0
+   },
+   "investment": {
+    "count": 113,
+    "usd": 841288100000,
+    "undisclosed": 34,
+    "cancelled": 3
+   },
+   "debt": {
+    "count": 123,
+    "usd": 1015172071259,
+    "undisclosed": 5,
+    "cancelled": 0
+   },
+   "lease": {
+    "count": 25,
+    "usd": 309176000000,
+    "undisclosed": 6,
+    "cancelled": 0
+   },
+   "vendor_financing": {
+    "count": 1,
+    "usd": 42000000000,
+    "undisclosed": 0,
+    "cancelled": 0
+   },
+   "guarantee": {
+    "count": 8,
+    "usd": 183230000000,
+    "undisclosed": 2,
+    "cancelled": 0
+   }
+  },
+  "candidates_by_kind": {
+   "order": {
+    "count": 0,
+    "usd": 0
+   },
+   "investment": {
+    "count": 0,
+    "usd": 0
+   },
+   "debt": {
+    "count": 0,
+    "usd": 0
+   },
+   "lease": {
+    "count": 0,
+    "usd": 0
+   },
+   "vendor_financing": {
+    "count": 0,
+    "usd": 0
+   },
+   "guarantee": {
+    "count": 0,
+    "usd": 0
+   }
+  },
+  "total_usd": 3725125171259,
+  "contingent_usd": 183230000000,
+  "by_status_usd": {
+   "announced": 5000000000,
+   "signed": 1697053571259,
+   "in_progress": 591636000000,
+   "completed": 1292835600000,
+   "reported": 138600000000
+  },
+  "confirmed_usd": 2324598171259,
+  "reported_usd": 1400527000000,
+  "binding_usd": 3581525171259,
+  "announced_usd": 143600000000,
+  "circular": [
+   {
+    "id": "loop-nvidia-openai-oracle",
+    "entities": [
+     "nvidia",
+     "openai",
+     "oracle"
+    ],
+    "legs": [
+     {
+      "from": "nvidia",
+      "to": "openai",
+      "edge_ids": [
+       "nvidia-openai-2026-02-equity"
+      ],
+      "kinds": [
+       "investment"
+      ],
+      "usd": 30000000000,
+      "undisclosed": 0
+     },
+     {
+      "from": "openai",
+      "to": "oracle",
+      "edge_ids": [
+       "openai-oracle-2025-09-cloud"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": 300000000000,
+      "undisclosed": 0
+     },
+     {
+      "from": "oracle",
+      "to": "nvidia",
+      "edge_ids": [
+       "oracle-nvidia-2026-10-vera-rubin-multi-gw",
+       "oracle-nvidia-2025-05-abilene"
+      ],
+      "kinds": [
+       "order",
+       "order"
+      ],
+      "usd": 40000000000,
+      "undisclosed": 1
+     }
+    ],
+    "edges": [
+     "nvidia-openai-2026-02-equity",
+     "openai-oracle-2025-09-cloud",
+     "oracle-nvidia-2026-10-vera-rubin-multi-gw",
+     "oracle-nvidia-2025-05-abilene"
+    ],
+    "kinds": [
+     "investment",
+     "order",
+     "order",
+     "order"
+    ],
+    "usd": [
+     30000000000,
+     300000000000,
+     40000000000
+    ],
+    "min_usd": 30000000000,
+    "max_usd": 300000000000,
+    "undisclosed_legs": 0
+   },
+   {
+    "id": "loop-microsoft-openai",
+    "entities": [
+     "microsoft",
+     "openai"
+    ],
+    "legs": [
+     {
+      "from": "microsoft",
+      "to": "openai",
+      "edge_ids": [
+       "microsoft-openai-equity"
+      ],
+      "kinds": [
+       "investment"
+      ],
+      "usd": 13000000000,
+      "undisclosed": 0
+     },
+     {
+      "from": "openai",
+      "to": "microsoft",
+      "edge_ids": [
+       "openai-microsoft-2025-10-azure"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": 250000000000,
+      "undisclosed": 0
+     }
+    ],
+    "edges": [
+     "microsoft-openai-equity",
+     "openai-microsoft-2025-10-azure"
+    ],
+    "kinds": [
+     "investment",
+     "order"
+    ],
+    "usd": [
+     13000000000,
+     250000000000
+    ],
+    "min_usd": 13000000000,
+    "max_usd": 250000000000,
+    "undisclosed_legs": 0
+   },
+   {
+    "id": "loop-anthropic-broadcom-samsung",
+    "entities": [
+     "anthropic",
+     "broadcom",
+     "samsung"
+    ],
+    "legs": [
+     {
+      "from": "anthropic",
+      "to": "broadcom",
+      "edge_ids": [
+       "anthropic-broadcom-2026-10-equipment-leases",
+       "anthropic-broadcom-2025-ironwood"
+      ],
+      "kinds": [
+       "lease",
+       "order"
+      ],
+      "usd": 161200000000,
+      "undisclosed": 1
+     },
+     {
+      "from": "broadcom",
+      "to": "samsung",
+      "edge_ids": [
+       "broadcom-samsung-2026-07-memory-foundry-mou"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     },
+     {
+      "from": "samsung",
+      "to": "anthropic",
+      "edge_ids": [
+       "samsung-anthropic-2026-05-series-h"
+      ],
+      "kinds": [
+       "investment"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     }
+    ],
+    "edges": [
+     "anthropic-broadcom-2026-10-equipment-leases",
+     "anthropic-broadcom-2025-ironwood",
+     "broadcom-samsung-2026-07-memory-foundry-mou",
+     "samsung-anthropic-2026-05-series-h"
+    ],
+    "kinds": [
+     "lease",
+     "order",
+     "order",
+     "investment"
+    ],
+    "usd": [
+     161200000000,
+     null,
+     null
+    ],
+    "min_usd": 161200000000,
+    "max_usd": 161200000000,
+    "undisclosed_legs": 2
+   },
+   {
+    "id": "loop-anthropic-broadcom",
+    "entities": [
+     "anthropic",
+     "broadcom"
+    ],
+    "legs": [
+     {
+      "from": "anthropic",
+      "to": "broadcom",
+      "edge_ids": [
+       "anthropic-broadcom-2026-10-equipment-leases",
+       "anthropic-broadcom-2025-ironwood"
+      ],
+      "kinds": [
+       "lease",
+       "order"
+      ],
+      "usd": 161200000000,
+      "undisclosed": 1
+     },
+     {
+      "from": "broadcom",
+      "to": "anthropic",
+      "edge_ids": [
+       "broadcom-anthropic-2026-03-convertible-note-facility"
+      ],
+      "kinds": [
+       "vendor_financing"
+      ],
+      "usd": 42000000000,
+      "undisclosed": 0
+     }
+    ],
+    "edges": [
+     "anthropic-broadcom-2026-10-equipment-leases",
+     "anthropic-broadcom-2025-ironwood",
+     "broadcom-anthropic-2026-03-convertible-note-facility"
+    ],
+    "kinds": [
+     "lease",
+     "order",
+     "vendor_financing"
+    ],
+    "usd": [
+     161200000000,
+     42000000000
+    ],
+    "min_usd": 42000000000,
+    "max_usd": 161200000000,
+    "undisclosed_legs": 0
+   },
+   {
+    "id": "loop-amazon-openai",
+    "entities": [
+     "amazon",
+     "openai"
+    ],
+    "legs": [
+     {
+      "from": "amazon",
+      "to": "openai",
+      "edge_ids": [
+       "amazon-openai-2026-02-equity"
+      ],
+      "kinds": [
+       "investment"
+      ],
+      "usd": 50000000000,
+      "undisclosed": 0
+     },
+     {
+      "from": "openai",
+      "to": "amazon",
+      "edge_ids": [
+       "openai-amazon-2026-02-aws-expansion",
+       "openai-amazon-2025-11-aws"
+      ],
+      "kinds": [
+       "order",
+       "order"
+      ],
+      "usd": 138000000000,
+      "undisclosed": 0
+     }
+    ],
+    "edges": [
+     "amazon-openai-2026-02-equity",
+     "openai-amazon-2026-02-aws-expansion",
+     "openai-amazon-2025-11-aws"
+    ],
+    "kinds": [
+     "investment",
+     "order",
+     "order"
+    ],
+    "usd": [
+     50000000000,
+     138000000000
+    ],
+    "min_usd": 50000000000,
+    "max_usd": 138000000000,
+    "undisclosed_legs": 0
+   },
+   {
+    "id": "loop-alphabet-anthropic",
+    "entities": [
+     "alphabet",
+     "anthropic"
+    ],
+    "legs": [
+     {
+      "from": "alphabet",
+      "to": "anthropic",
+      "edge_ids": [
+       "alphabet-anthropic-2026-04-equity",
+       "alphabet-anthropic-2025-01-equity",
+       "alphabet-anthropic-2023-09-convertible-notes"
+      ],
+      "kinds": [
+       "investment",
+       "investment",
+       "investment"
+      ],
+      "usd": 43000000000,
+      "undisclosed": 0
+     },
+     {
+      "from": "anthropic",
+      "to": "alphabet",
+      "edge_ids": [
+       "anthropic-alphabet-2026-04-tpu",
+       "anthropic-alphabet-2025-10-tpu"
+      ],
+      "kinds": [
+       "order",
+       "order"
+      ],
+      "usd": 114500000000,
+      "undisclosed": 1
+     }
+    ],
+    "edges": [
+     "alphabet-anthropic-2026-04-equity",
+     "alphabet-anthropic-2025-01-equity",
+     "alphabet-anthropic-2023-09-convertible-notes",
+     "anthropic-alphabet-2026-04-tpu",
+     "anthropic-alphabet-2025-10-tpu"
+    ],
+    "kinds": [
+     "investment",
+     "investment",
+     "investment",
+     "order",
+     "order"
+    ],
+    "usd": [
+     43000000000,
+     114500000000
+    ],
+    "min_usd": 43000000000,
+    "max_usd": 114500000000,
+    "undisclosed_legs": 0
+   },
+   {
+    "id": "loop-alphabet-broadcom-anthropic",
+    "entities": [
+     "alphabet",
+     "broadcom",
+     "anthropic"
+    ],
+    "legs": [
+     {
+      "from": "alphabet",
+      "to": "broadcom",
+      "edge_ids": [
+       "alphabet-broadcom-2026-04-tpu-lta"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     },
+     {
+      "from": "broadcom",
+      "to": "anthropic",
+      "edge_ids": [
+       "broadcom-anthropic-2026-03-convertible-note-facility"
+      ],
+      "kinds": [
+       "vendor_financing"
+      ],
+      "usd": 42000000000,
+      "undisclosed": 0
+     },
+     {
+      "from": "anthropic",
+      "to": "alphabet",
+      "edge_ids": [
+       "anthropic-alphabet-2026-04-tpu",
+       "anthropic-alphabet-2025-10-tpu"
+      ],
+      "kinds": [
+       "order",
+       "order"
+      ],
+      "usd": 114500000000,
+      "undisclosed": 1
+     }
+    ],
+    "edges": [
+     "alphabet-broadcom-2026-04-tpu-lta",
+     "broadcom-anthropic-2026-03-convertible-note-facility",
+     "anthropic-alphabet-2026-04-tpu",
+     "anthropic-alphabet-2025-10-tpu"
+    ],
+    "kinds": [
+     "order",
+     "vendor_financing",
+     "order",
+     "order"
+    ],
+    "usd": [
+     null,
+     42000000000,
+     114500000000
+    ],
+    "min_usd": 42000000000,
+    "max_usd": 114500000000,
+    "undisclosed_legs": 1
+   },
+   {
+    "id": "loop-amazon-anthropic",
+    "entities": [
+     "amazon",
+     "anthropic"
+    ],
+    "legs": [
+     {
+      "from": "amazon",
+      "to": "anthropic",
+      "edge_ids": [
+       "amazon-anthropic-2026-04-equity",
+       "amazon-anthropic-2023-equity"
+      ],
+      "kinds": [
+       "investment",
+       "investment"
+      ],
+      "usd": 33000000000,
+      "undisclosed": 0
+     },
+     {
+      "from": "anthropic",
+      "to": "amazon",
+      "edge_ids": [
+       "anthropic-amazon-2026-04-aws"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": 110000000000,
+      "undisclosed": 0
+     }
+    ],
+    "edges": [
+     "amazon-anthropic-2026-04-equity",
+     "amazon-anthropic-2023-equity",
+     "anthropic-amazon-2026-04-aws"
+    ],
+    "kinds": [
+     "investment",
+     "investment",
+     "order"
+    ],
+    "usd": [
+     33000000000,
+     110000000000
+    ],
+    "min_usd": 33000000000,
+    "max_usd": 110000000000,
+    "undisclosed_legs": 0
+   },
+   {
+    "id": "loop-anthropic-microsoft",
+    "entities": [
+     "anthropic",
+     "microsoft"
+    ],
+    "legs": [
+     {
+      "from": "anthropic",
+      "to": "microsoft",
+      "edge_ids": [
+       "anthropic-microsoft-2025-11-azure"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": 44900000000,
+      "undisclosed": 0
+     },
+     {
+      "from": "microsoft",
+      "to": "anthropic",
+      "edge_ids": [
+       "microsoft-anthropic-2025-11-equity"
+      ],
+      "kinds": [
+       "investment"
+      ],
+      "usd": 5000000000,
+      "undisclosed": 0
+     }
+    ],
+    "edges": [
+     "anthropic-microsoft-2025-11-azure",
+     "microsoft-anthropic-2025-11-equity"
+    ],
+    "kinds": [
+     "order",
+     "investment"
+    ],
+    "usd": [
+     44900000000,
+     5000000000
+    ],
+    "min_usd": 5000000000,
+    "max_usd": 44900000000,
+    "undisclosed_legs": 0
+   },
+   {
+    "id": "loop-meta-oracle-nvidia",
+    "entities": [
+     "meta",
+     "oracle",
+     "nvidia"
+    ],
+    "legs": [
+     {
+      "from": "meta",
+      "to": "oracle",
+      "edge_ids": [
+       "meta-oracle-2025-cloud"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": 20000000000,
+      "undisclosed": 0
+     },
+     {
+      "from": "oracle",
+      "to": "nvidia",
+      "edge_ids": [
+       "oracle-nvidia-2026-10-vera-rubin-multi-gw",
+       "oracle-nvidia-2025-05-abilene"
+      ],
+      "kinds": [
+       "order",
+       "order"
+      ],
+      "usd": 40000000000,
+      "undisclosed": 1
+     },
+     {
+      "from": "nvidia",
+      "to": "meta",
+      "edge_ids": [
+       "nvidia-meta-2026-10-equity-investment"
+      ],
+      "kinds": [
+       "investment"
+      ],
+      "usd": 3000000000,
+      "undisclosed": 0
+     }
+    ],
+    "edges": [
+     "meta-oracle-2025-cloud",
+     "oracle-nvidia-2026-10-vera-rubin-multi-gw",
+     "oracle-nvidia-2025-05-abilene",
+     "nvidia-meta-2026-10-equity-investment"
+    ],
+    "kinds": [
+     "order",
+     "order",
+     "order",
+     "investment"
+    ],
+    "usd": [
+     20000000000,
+     40000000000,
+     3000000000
+    ],
+    "min_usd": 3000000000,
+    "max_usd": 40000000000,
+    "undisclosed_legs": 0
+   },
+   {
+    "id": "loop-coreweave-nvidia-meta",
+    "entities": [
+     "coreweave",
+     "nvidia",
+     "meta"
+    ],
+    "legs": [
+     {
+      "from": "coreweave",
+      "to": "nvidia",
+      "edge_ids": [
+       "coreweave-nvidia-2025-03-gpu-purchases"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     },
+     {
+      "from": "nvidia",
+      "to": "meta",
+      "edge_ids": [
+       "nvidia-meta-2026-10-equity-investment"
+      ],
+      "kinds": [
+       "investment"
+      ],
+      "usd": 3000000000,
+      "undisclosed": 0
+     },
+     {
+      "from": "meta",
+      "to": "coreweave",
+      "edge_ids": [
+       "meta-coreweave-2026-04-cloud",
+       "meta-coreweave-2025-09-cloud"
+      ],
+      "kinds": [
+       "order",
+       "order"
+      ],
+      "usd": 35200000000,
+      "undisclosed": 0
+     }
+    ],
+    "edges": [
+     "coreweave-nvidia-2025-03-gpu-purchases",
+     "nvidia-meta-2026-10-equity-investment",
+     "meta-coreweave-2026-04-cloud",
+     "meta-coreweave-2025-09-cloud"
+    ],
+    "kinds": [
+     "order",
+     "investment",
+     "order",
+     "order"
+    ],
+    "usd": [
+     null,
+     3000000000,
+     35200000000
+    ],
+    "min_usd": 3000000000,
+    "max_usd": 35200000000,
+    "undisclosed_legs": 1
+   },
+   {
+    "id": "loop-nvidia-openai-samsung",
+    "entities": [
+     "nvidia",
+     "openai",
+     "samsung"
+    ],
+    "legs": [
+     {
+      "from": "nvidia",
+      "to": "openai",
+      "edge_ids": [
+       "nvidia-openai-2026-02-equity"
+      ],
+      "kinds": [
+       "investment"
+      ],
+      "usd": 30000000000,
+      "undisclosed": 0
+     },
+     {
+      "from": "openai",
+      "to": "samsung",
+      "edge_ids": [
+       "openai-samsung-2025-10-loi"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     },
+     {
+      "from": "samsung",
+      "to": "nvidia",
+      "edge_ids": [
+       "samsung-nvidia-2025-10-ai-megafactory"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     }
+    ],
+    "edges": [
+     "nvidia-openai-2026-02-equity",
+     "openai-samsung-2025-10-loi",
+     "samsung-nvidia-2025-10-ai-megafactory"
+    ],
+    "kinds": [
+     "investment",
+     "order",
+     "order"
+    ],
+    "usd": [
+     30000000000,
+     null,
+     null
+    ],
+    "min_usd": 30000000000,
+    "max_usd": 30000000000,
+    "undisclosed_legs": 2
+   },
+   {
+    "id": "loop-coreweave-nvidia-openai",
+    "entities": [
+     "coreweave",
+     "nvidia",
+     "openai"
+    ],
+    "legs": [
+     {
+      "from": "coreweave",
+      "to": "nvidia",
+      "edge_ids": [
+       "coreweave-nvidia-2025-03-gpu-purchases"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     },
+     {
+      "from": "nvidia",
+      "to": "openai",
+      "edge_ids": [
+       "nvidia-openai-2026-02-equity"
+      ],
+      "kinds": [
+       "investment"
+      ],
+      "usd": 30000000000,
+      "undisclosed": 0
+     },
+     {
+      "from": "openai",
+      "to": "coreweave",
+      "edge_ids": [
+       "openai-coreweave-2025-cloud"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": 22400000000,
+      "undisclosed": 0
+     }
+    ],
+    "edges": [
+     "coreweave-nvidia-2025-03-gpu-purchases",
+     "nvidia-openai-2026-02-equity",
+     "openai-coreweave-2025-cloud"
+    ],
+    "kinds": [
+     "order",
+     "investment",
+     "order"
+    ],
+    "usd": [
+     null,
+     30000000000,
+     22400000000
+    ],
+    "min_usd": 22400000000,
+    "max_usd": 30000000000,
+    "undisclosed_legs": 1
+   },
+   {
+    "id": "loop-amd-meta-oracle",
+    "entities": [
+     "amd",
+     "meta",
+     "oracle"
+    ],
+    "legs": [
+     {
+      "from": "amd",
+      "to": "meta",
+      "edge_ids": [
+       "amd-meta-2026-10-equity-investment"
+      ],
+      "kinds": [
+       "investment"
+      ],
+      "usd": 1000000000,
+      "undisclosed": 0
+     },
+     {
+      "from": "meta",
+      "to": "oracle",
+      "edge_ids": [
+       "meta-oracle-2025-cloud"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": 20000000000,
+      "undisclosed": 0
+     },
+     {
+      "from": "oracle",
+      "to": "amd",
+      "edge_ids": [
+       "oracle-amd-2025-10-mi450"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     }
+    ],
+    "edges": [
+     "amd-meta-2026-10-equity-investment",
+     "meta-oracle-2025-cloud",
+     "oracle-amd-2025-10-mi450"
+    ],
+    "kinds": [
+     "investment",
+     "order",
+     "order"
+    ],
+    "usd": [
+     1000000000,
+     20000000000,
+     null
+    ],
+    "min_usd": 1000000000,
+    "max_usd": 20000000000,
+    "undisclosed_legs": 1
+   },
+   {
+    "id": "loop-anthropic-coreweave-nvidia",
+    "entities": [
+     "anthropic",
+     "coreweave",
+     "nvidia"
+    ],
+    "legs": [
+     {
+      "from": "anthropic",
+      "to": "coreweave",
+      "edge_ids": [
+       "anthropic-coreweave-2026-04-cloud"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     },
+     {
+      "from": "coreweave",
+      "to": "nvidia",
+      "edge_ids": [
+       "coreweave-nvidia-2025-03-gpu-purchases"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     },
+     {
+      "from": "nvidia",
+      "to": "anthropic",
+      "edge_ids": [
+       "nvidia-anthropic-2025-11-equity"
+      ],
+      "kinds": [
+       "investment"
+      ],
+      "usd": 10000000000,
+      "undisclosed": 0
+     }
+    ],
+    "edges": [
+     "anthropic-coreweave-2026-04-cloud",
+     "coreweave-nvidia-2025-03-gpu-purchases",
+     "nvidia-anthropic-2025-11-equity"
+    ],
+    "kinds": [
+     "order",
+     "order",
+     "investment"
+    ],
+    "usd": [
+     null,
+     null,
+     10000000000
+    ],
+    "min_usd": 10000000000,
+    "max_usd": 10000000000,
+    "undisclosed_legs": 2
+   },
+   {
+    "id": "loop-coreweave-nvidia",
+    "entities": [
+     "coreweave",
+     "nvidia"
+    ],
+    "legs": [
+     {
+      "from": "coreweave",
+      "to": "nvidia",
+      "edge_ids": [
+       "coreweave-nvidia-2025-03-gpu-purchases"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     },
+     {
+      "from": "nvidia",
+      "to": "coreweave",
+      "edge_ids": [
+       "nvidia-coreweave-2026-01-equity",
+       "nvidia-coreweave-2025-09-backstop",
+       "nvidia-coreweave-2023-04-series-b"
+      ],
+      "kinds": [
+       "investment",
+       "order",
+       "investment"
+      ],
+      "usd": 8300000000,
+      "undisclosed": 1
+     }
+    ],
+    "edges": [
+     "coreweave-nvidia-2025-03-gpu-purchases",
+     "nvidia-coreweave-2026-01-equity",
+     "nvidia-coreweave-2025-09-backstop",
+     "nvidia-coreweave-2023-04-series-b"
+    ],
+    "kinds": [
+     "order",
+     "investment",
+     "order",
+     "investment"
+    ],
+    "usd": [
+     null,
+     8300000000
+    ],
+    "min_usd": 8300000000,
+    "max_usd": 8300000000,
+    "undisclosed_legs": 1
+   },
+   {
+    "id": "loop-amd-anthropic",
+    "entities": [
+     "amd",
+     "anthropic"
+    ],
+    "legs": [
+     {
+      "from": "amd",
+      "to": "anthropic",
+      "edge_ids": [
+       "amd-anthropic-2026-07-equity"
+      ],
+      "kinds": [
+       "investment"
+      ],
+      "usd": 5000000000,
+      "undisclosed": 0
+     },
+     {
+      "from": "anthropic",
+      "to": "amd",
+      "edge_ids": [
+       "anthropic-amd-2026-07-2gw"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     }
+    ],
+    "edges": [
+     "amd-anthropic-2026-07-equity",
+     "anthropic-amd-2026-07-2gw"
+    ],
+    "kinds": [
+     "investment",
+     "order"
+    ],
+    "usd": [
+     5000000000,
+     null
+    ],
+    "min_usd": 5000000000,
+    "max_usd": 5000000000,
+    "undisclosed_legs": 1
+   },
+   {
+    "id": "loop-meta-nvidia",
+    "entities": [
+     "meta",
+     "nvidia"
+    ],
+    "legs": [
+     {
+      "from": "meta",
+      "to": "nvidia",
+      "edge_ids": [
+       "meta-nvidia-2026-02-gpus"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     },
+     {
+      "from": "nvidia",
+      "to": "meta",
+      "edge_ids": [
+       "nvidia-meta-2026-10-equity-investment"
+      ],
+      "kinds": [
+       "investment"
+      ],
+      "usd": 3000000000,
+      "undisclosed": 0
+     }
+    ],
+    "edges": [
+     "meta-nvidia-2026-02-gpus",
+     "nvidia-meta-2026-10-equity-investment"
+    ],
+    "kinds": [
+     "order",
+     "investment"
+    ],
+    "usd": [
+     null,
+     3000000000
+    ],
+    "min_usd": 3000000000,
+    "max_usd": 3000000000,
+    "undisclosed_legs": 1
+   },
+   {
+    "id": "loop-amd-meta",
+    "entities": [
+     "amd",
+     "meta"
+    ],
+    "legs": [
+     {
+      "from": "amd",
+      "to": "meta",
+      "edge_ids": [
+       "amd-meta-2026-10-equity-investment"
+      ],
+      "kinds": [
+       "investment"
+      ],
+      "usd": 1000000000,
+      "undisclosed": 0
+     },
+     {
+      "from": "meta",
+      "to": "amd",
+      "edge_ids": [
+       "meta-amd-2026-02-6gw",
+       "meta-amd-2026-02-warrant"
+      ],
+      "kinds": [
+       "order",
+       "investment"
+      ],
+      "usd": null,
+      "undisclosed": 2
+     }
+    ],
+    "edges": [
+     "amd-meta-2026-10-equity-investment",
+     "meta-amd-2026-02-6gw",
+     "meta-amd-2026-02-warrant"
+    ],
+    "kinds": [
+     "investment",
+     "order",
+     "investment"
+    ],
+    "usd": [
+     1000000000,
+     null
+    ],
+    "min_usd": 1000000000,
+    "max_usd": 1000000000,
+    "undisclosed_legs": 1
+   },
+   {
+    "id": "loop-amd-samsung-anthropic",
+    "entities": [
+     "amd",
+     "samsung",
+     "anthropic"
+    ],
+    "legs": [
+     {
+      "from": "amd",
+      "to": "samsung",
+      "edge_ids": [
+       "amd-samsung-2026-03-hbm4-mou"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     },
+     {
+      "from": "samsung",
+      "to": "anthropic",
+      "edge_ids": [
+       "samsung-anthropic-2026-05-series-h"
+      ],
+      "kinds": [
+       "investment"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     },
+     {
+      "from": "anthropic",
+      "to": "amd",
+      "edge_ids": [
+       "anthropic-amd-2026-07-2gw"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     }
+    ],
+    "edges": [
+     "amd-samsung-2026-03-hbm4-mou",
+     "samsung-anthropic-2026-05-series-h",
+     "anthropic-amd-2026-07-2gw"
+    ],
+    "kinds": [
+     "order",
+     "investment",
+     "order"
+    ],
+    "usd": [
+     null,
+     null,
+     null
+    ],
+    "min_usd": null,
+    "max_usd": null,
+    "undisclosed_legs": 3
+   },
+   {
+    "id": "loop-nvidia-samsung",
+    "entities": [
+     "nvidia",
+     "samsung"
+    ],
+    "legs": [
+     {
+      "from": "nvidia",
+      "to": "samsung",
+      "edge_ids": [
+       "nvidia-samsung-2026-01-hbm4"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     },
+     {
+      "from": "samsung",
+      "to": "nvidia",
+      "edge_ids": [
+       "samsung-nvidia-2025-10-ai-megafactory"
+      ],
+      "kinds": [
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     }
+    ],
+    "edges": [
+     "nvidia-samsung-2026-01-hbm4",
+     "samsung-nvidia-2025-10-ai-megafactory"
+    ],
+    "kinds": [
+     "order",
+     "order"
+    ],
+    "usd": [
+     null,
+     null
+    ],
+    "min_usd": null,
+    "max_usd": null,
+    "undisclosed_legs": 2
+   },
+   {
+    "id": "loop-nvidia-xai",
+    "entities": [
+     "nvidia",
+     "xai"
+    ],
+    "legs": [
+     {
+      "from": "nvidia",
+      "to": "xai",
+      "edge_ids": [
+       "nvidia-xai-2026-01-equity"
+      ],
+      "kinds": [
+       "investment"
+      ],
+      "usd": null,
+      "undisclosed": 1
+     },
+     {
+      "from": "xai",
+      "to": "nvidia",
+      "edge_ids": [
+       "xai-nvidia-2025-10-colossus-2-gpus",
+       "xai-nvidia-2024-10-colossus-gpus"
+      ],
+      "kinds": [
+       "order",
+       "order"
+      ],
+      "usd": null,
+      "undisclosed": 2
+     }
+    ],
+    "edges": [
+     "nvidia-xai-2026-01-equity",
+     "xai-nvidia-2025-10-colossus-2-gpus",
+     "xai-nvidia-2024-10-colossus-gpus"
+    ],
+    "kinds": [
+     "investment",
+     "order",
+     "order"
+    ],
+    "usd": [
+     null,
+     null
+    ],
+    "min_usd": null,
+    "max_usd": null,
+    "undisclosed_legs": 2
+   }
+  ],
+  "timeline": [
+   {
+    "month": "2023-01",
+    "count": 1,
+    "usd": 13000000000,
+    "cumulative_usd": 13000000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 13000000000,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2023-02",
+    "count": 0,
+    "usd": 0,
+    "cumulative_usd": 13000000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2023-03",
+    "count": 0,
+    "usd": 0,
+    "cumulative_usd": 13000000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2023-04",
+    "count": 1,
+    "usd": 0,
+    "cumulative_usd": 13000000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2023-05",
+    "count": 0,
+    "usd": 0,
+    "cumulative_usd": 13000000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2023-06",
+    "count": 1,
+    "usd": 0,
+    "cumulative_usd": 13000000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2023-07",
+    "count": 0,
+    "usd": 0,
+    "cumulative_usd": 13000000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2023-08",
+    "count": 1,
+    "usd": 2300000000,
+    "cumulative_usd": 15300000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 0,
+     "debt": 2300000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2023-09",
+    "count": 2,
+    "usd": 10000000000,
+    "cumulative_usd": 25300000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 10000000000,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2023-10",
+    "count": 0,
+    "usd": 0,
+    "cumulative_usd": 25300000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2023-11",
+    "count": 0,
+    "usd": 0,
+    "cumulative_usd": 25300000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2023-12",
+    "count": 0,
+    "usd": 0,
+    "cumulative_usd": 25300000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2024-01",
+    "count": 1,
+    "usd": 1500000000,
+    "cumulative_usd": 26800000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 0,
+     "debt": 1500000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2024-02",
+    "count": 2,
+    "usd": 0,
+    "cumulative_usd": 26800000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2024-03",
+    "count": 1,
+    "usd": 0,
+    "cumulative_usd": 26800000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2024-04",
+    "count": 0,
+    "usd": 0,
+    "cumulative_usd": 26800000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2024-05",
+    "count": 3,
+    "usd": 18500000000,
+    "cumulative_usd": 45300000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 6000000000,
+     "debt": 12500000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2024-06",
+    "count": 2,
+    "usd": 11645000000,
+    "cumulative_usd": 56945000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 11645000000,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2024-07",
+    "count": 1,
+    "usd": 5000000000,
+    "cumulative_usd": 61945000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 0,
+     "debt": 5000000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2024-08",
+    "count": 2,
+    "usd": 0,
+    "cumulative_usd": 61945000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2024-09",
+    "count": 4,
+    "usd": 31900000000,
+    "cumulative_usd": 93845000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 16100000000,
+     "debt": 15800000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2024-10",
+    "count": 3,
+    "usd": 10600000000,
+    "cumulative_usd": 104445000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 6600000000,
+     "debt": 4000000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2024-11",
+    "count": 2,
+    "usd": 10000000000,
+    "cumulative_usd": 114445000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 0,
+     "debt": 10000000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2024-12",
+    "count": 3,
+    "usd": 6000000000,
+    "cumulative_usd": 120445000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 6000000000,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2025-01",
+    "count": 7,
+    "usd": 6300000000,
+    "cumulative_usd": 126745000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 1000000000,
+     "debt": 5300000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2025-02",
+    "count": 1,
+    "usd": 0,
+    "cumulative_usd": 126745000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2025-03",
+    "count": 11,
+    "usd": 71500000000,
+    "cumulative_usd": 198245000000,
+    "by_kind": {
+     "order": 24550000000,
+     "investment": 43570000000,
+     "debt": 3380000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2025-04",
+    "count": 2,
+    "usd": 1750000000,
+    "cumulative_usd": 199995000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 0,
+     "debt": 1750000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2025-05",
+    "count": 10,
+    "usd": 90100000000,
+    "cumulative_usd": 290095000000,
+    "by_kind": {
+     "order": 40000000000,
+     "investment": 6500000000,
+     "debt": 43600000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2025-06",
+    "count": 4,
+    "usd": 7750000000,
+    "cumulative_usd": 297845000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 0,
+     "debt": 750000000,
+     "lease": 7000000000,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2025-07",
+    "count": 5,
+    "usd": 27380000000,
+    "cumulative_usd": 325225000000,
+    "by_kind": {
+     "order": 16500000000,
+     "investment": 0,
+     "debt": 10880000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2025-08",
+    "count": 10,
+    "usd": 37139000000,
+    "cumulative_usd": 362364000000,
+    "by_kind": {
+     "order": 10139000000,
+     "investment": 14900000000,
+     "debt": 1400000000,
+     "lease": 10700000000,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2025-09",
+    "count": 18,
+    "usd": 410981000000,
+    "cumulative_usd": 773345000000,
+    "by_kind": {
+     "order": 357900000000,
+     "investment": 20830000000,
+     "debt": 26951000000,
+     "lease": 5300000000,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2025-10",
+    "count": 23,
+    "usd": 416025000000,
+    "cumulative_usd": 1189370000000,
+    "by_kind": {
+     "order": 255000000000,
+     "investment": 47000000000,
+     "debt": 99525000000,
+     "lease": 14500000000,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2025-11",
+    "count": 17,
+    "usd": 180595000000,
+    "cumulative_usd": 1369965000000,
+    "by_kind": {
+     "order": 95600000000,
+     "investment": 15265000000,
+     "debt": 64230000000,
+     "lease": 5500000000,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2025-12",
+    "count": 9,
+    "usd": 19100000000,
+    "cumulative_usd": 1389065000000,
+    "by_kind": {
+     "order": 0,
+     "investment": 6250000000,
+     "debt": 5850000000,
+     "lease": 7000000000,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2026-01",
+    "count": 23,
+    "usd": 55617571259,
+    "cumulative_usd": 1444682571259,
+    "by_kind": {
+     "order": 21800000000,
+     "investment": 24177000000,
+     "debt": 9004571259,
+     "lease": 636000000,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2026-02",
+    "count": 19,
+    "usd": 308300000000,
+    "cumulative_usd": 1752982571259,
+    "by_kind": {
+     "order": 101400000000,
+     "investment": 138450000000,
+     "debt": 68450000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2026-03",
+    "count": 23,
+    "usd": 269917500000,
+    "cumulative_usd": 2022900071259,
+    "by_kind": {
+     "order": 70800000000,
+     "investment": 14000000000,
+     "debt": 141117500000,
+     "lease": 2000000000,
+     "vendor_financing": 42000000000,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2026-04",
+    "count": 19,
+    "usd": 356605000000,
+    "cumulative_usd": 2379505071259,
+    "by_kind": {
+     "order": 251500000000,
+     "investment": 66505000000,
+     "debt": 38600000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2026-05",
+    "count": 24,
+    "usd": 244650000000,
+    "cumulative_usd": 2624155071259,
+    "by_kind": {
+     "order": 128100000000,
+     "investment": 64850000000,
+     "debt": 41900000000,
+     "lease": 9800000000,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2026-06",
+    "count": 18,
+    "usd": 279660000000,
+    "cumulative_usd": 2903815071259,
+    "by_kind": {
+     "order": 20000000000,
+     "investment": 135650000000,
+     "debt": 124010000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2026-07",
+    "count": 22,
+    "usd": 125814100000,
+    "cumulative_usd": 3029629171259,
+    "by_kind": {
+     "order": 1500000000,
+     "investment": 38587100000,
+     "debt": 56927000000,
+     "lease": 28800000000,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2026-08",
+    "count": 19,
+    "usd": 157649000000,
+    "cumulative_usd": 3187278171259,
+    "by_kind": {
+     "order": 54600000000,
+     "investment": 32200000000,
+     "debt": 57049000000,
+     "lease": 13800000000,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2026-09",
+    "count": 20,
+    "usd": 207209000000,
+    "cumulative_usd": 3394487171259,
+    "by_kind": {
+     "order": 56700000000,
+     "investment": 45709000000,
+     "debt": 101860000000,
+     "lease": 2940000000,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   },
+   {
+    "month": "2026-10",
+    "count": 21,
+    "usd": 330638000000,
+    "cumulative_usd": 3725125171259,
+    "by_kind": {
+     "order": 11400000000,
+     "investment": 56500000000,
+     "debt": 61538000000,
+     "lease": 201200000000,
+     "vendor_financing": 0,
+     "guarantee": 0
+    }
+   }
+  ],
+  "timeline_note": {
+   "en": "timeline groups counted deals by announcement month (the announced date, not when money moved or when the deal was added here), every month from the first deal to the build month, cumulative_usd running on the same counting rule as total_usd. Cancelled deals and guarantees are left out.",
+   "zh": "timeline 按公告月份（announced 日期，而非付款或收录时间）汇总已计入的交易，从最早一笔到构建当月逐月列出，cumulative_usd 为累计值，口径与 total_usd 一致。已取消的交易与担保不计入。"
+  },
+  "latest_announced": "2026-10-27",
+  "notes": {
+   "en": "total_usd sums curated deals with a disclosed amount whose status is not cancelled: orders, investments, debt, leases (payment commitments) and vendor financing, each deal once, supply chains not netted. Guarantees are contingent and are shown separately as contingent_usd, never inside total_usd or the per-entity inflow/outflow. Unverified candidates are counted separately. circular lists loops where money flows both ways (A invests in B, B buys from A) or around three parties (A→B→C→A), each leg counted on the same rule, undisclosed legs shown as null. confirmed_usd is the part of total_usd backed by a company filing or official release; reported_usd rests on press reports only. binding_usd covers signed, in-progress and completed deals; announced_usd the rest. Descriptive only, not investment advice.",
+   "zh": "total_usd 为人工核实、已披露金额且未取消交易的合计：订单、投资、债务、租赁（付款承诺）与供应商融资，每笔只计一次，上下游链条不抵消。担保属于或有负债，单独列为 contingent_usd，不计入 total_usd，也不计入各公司的资金流入/流出。机器提取的未核实候选关系单独统计。circular 列出资金双向流动（A 投资 B、B 向 A 采购）或三方环流（A→B→C→A）的闭环，每一段按同一规则计算，未披露金额的一段记为 null。confirmed_usd 为 total_usd 中有公司公告或监管文件佐证的部分，reported_usd 仅有媒体报道佐证；binding_usd 为已签署、进行中与已完成交易的合计，announced_usd 为其余部分。仅作描述，不构成投资建议。"
+  }
+ }
+}

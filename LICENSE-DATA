@@ -1,0 +1,62 @@
+AI Orders & Debt Map dataset · AI 巨头订单与债务关系图数据集
+Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+Copyright (c) 2026 helajo
+
+WHAT THIS COVERS · 适用范围
+
+  The dataset: every file under `data/` in the source repository
+  (`data/entities.json`, `data/seed/*.json`, `data/live/*.json`, `data/graph.json`),
+  the published `data/graph.json` and `data/archive/YYYY-MM-DD.json` on the live
+  site, and the CSV that the site's table view downloads.
+
+  The code that collects, checks and draws the data is under the MIT licence
+  (see LICENSE). The filings, press releases and news articles that the dataset
+  cites as sources belong to their publishers and are not part of this dataset;
+  the dataset records what they report (figures, dates, parties) and links to them.
+
+  数据集：源仓库 `data/` 下的全部文件（`data/entities.json`、`data/seed/*.json`、
+  `data/live/*.json`、`data/graph.json`），网站发布的 `data/graph.json` 与
+  `data/archive/YYYY-MM-DD.json`，以及网站表格视图下载的 CSV。
+  代码按 MIT 许可证授权（见 LICENSE）。数据集引用的公告、新闻稿和报道属于各自的
+  发布者，不属于本数据集；本数据集只记录它们报告的内容（金额、日期、交易方）并附链接。
+
+LICENCE · 许可
+
+  This dataset is licensed under the Creative Commons Attribution 4.0
+  International License. You are free to share and adapt it for any purpose,
+  including commercially, as long as you give appropriate credit, link to the
+  licence and indicate if changes were made.
+
+  To view a copy of this licence, visit
+  https://creativecommons.org/licenses/by/4.0/
+  The full legal text is at
+  https://creativecommons.org/licenses/by/4.0/legalcode
+
+  本数据集按知识共享 署名 4.0 国际许可协议（CC BY 4.0）授权：可以为任何目的
+  （包括商业目的）分享和改编，但须注明出处、附许可协议链接，并说明是否作了修改。
+  协议文本：https://creativecommons.org/licenses/by/4.0/deed.zh-hans
+
+HOW TO CREDIT · 署名方式
+
+  AI Orders & Debt Map, helajo, <date of the snapshot you used>,
+  https://helajo.github.io/ai-orders-debt-live/
+
+  A snapshot's date is `generated_at` in `data/graph.json`, or the file name
+  under `data/archive/`. If you use one deal, its `sources` list names the
+  filing or article the figure comes from; please cite that too.
+
+  快照日期即 `data/graph.json` 中的 `generated_at`，或 `data/archive/` 下的文件名。
+  引用单笔交易时，其 `sources` 列出了金额的出处，请一并注明。
+
+NO WARRANTY · 免责声明
+
+  The dataset is descriptive only and is not investment advice. Figures are
+  nominal amounts as reported by companies and named outlets, recorded on a
+  best-effort basis and corrected over time; they may be incomplete, out of
+  date or wrong. The dataset is provided "as is", without warranty of any kind,
+  as section 5 of the licence states.
+
+  本数据集仅作描述，不构成投资建议。金额为公司或具名媒体披露的名义金额，尽力
+  记录并随时间更正，可能不完整、过时或有误。按协议第 5 条，数据集按"现状"提供，
+  不作任何保证。

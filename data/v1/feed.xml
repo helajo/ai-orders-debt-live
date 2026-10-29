@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>AI Orders &amp; Debt Map · changes · AI 巨头订单与债务关系图 · 更新记录</title>
+  <id>tag:helajo.github.io,2026:ai-orders-debt/changes</id>
+  <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+  <link rel="self" href="https://helajo.github.io/ai-orders-debt-live/data/feed.xml" />
+  <rights>Data CC BY 4.0 · AI Orders &amp; Debt Map, helajo</rights>
+  <author>
+    <name>AI Orders &amp; Debt Map (helajo)</name>
+  </author>
+  <updated>2026-10-29T12:11:14+08:00</updated>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/6bd897f046236bca36b90475c1c7f118f4c5320e</id>
+    <title>22 deals added · 108 changed · 新增 22 笔，更新 108 笔</title>
+    <updated>2026-10-29T12:11:14+08:00</updated>
+    <published>2026-10-29T12:11:14+08:00</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[changed] BlackRock-led AI Infrastructure Partnership to buy Aligned Data Centers (~$40B) / 更新 贝莱德牵头的 AI 基础设施合作伙伴关系（AIP）以约 400 亿美元收购 Aligned 数据中心 (amount_text, sources, status, summary_en, summary_zh, title_zh)
+[changed] Alibaba leads $600M round in MiniMax / 更新 阿里巴巴领投 MiniMax 6 亿美元融资 (summary_zh)
+[changed] Google rents SpaceX/xAI compute ($920M a month) / 更新 谷歌租用 SpaceX/xAI 算力（每月 9.2 亿美元） (amount_text, amount_usd)
+[changed] AWS signs $5.5B, 15-year lease with Cipher Mining / 更新 AWS 与 Cipher Mining 签订 55 亿美元 15 年租约 (summary_zh, title_zh)
+[changed] Anthropic 5 GW TPU deal with Google and Broadcom / 更新 Anthropic 与谷歌、博通的 5 吉瓦 TPU 协议 (amount_text, sources, summary_en, summary_zh)
+[changed] Anthropic commits $110B to AWS through 2036 (&gt;$100B announced) / 更新 Anthropic 承诺至 2036 年在 AWS 支出 1100 亿美元（公告时为逾 1000 亿美元） (amount_text, sources, summary_en, summary_zh, title_en, title_zh)
+[changed] Anthropic's S-1 shows ~$161B of Broadcom chip-equipment leases / 更新 Anthropic 招股书显示约 1612 亿美元博通芯片设备租赁 (amount_text, sources)
+[changed] Anthropic's $50B US data-centre build with Fluidstack / 更新 Anthropic 与 Fluidstack 合作的 500 亿美元美国数据中心建设 (amount_text, amount_usd, summary_en, summary_zh)
+[changed] Anthropic commits ~$41.3B to Lambda cloud compute / 更新 Anthropic 向 Lambda 承诺约 413 亿美元云算力 (amount_text, status, summary_zh)
+[changed] Anthropic commits $44.9B to Microsoft Azure ($30B announced) / 更新 Anthropic 承诺采购 449 亿美元微软 Azure 算力（公告时为 300 亿美元） (amount_text, sources, summary_en, summary_zh, title_en, title_zh)
+[changed] Anthropic rents SpaceX/xAI compute (up to $120.5B) / 更新 Anthropic 租用 SpaceX/xAI 算力（最高 1205 亿美元） (sources)
+[changed] Apollo $3.5B financing for xAI GPU vehicle / 更新 阿波罗为 xAI 的 GPU 特殊目的实体提供 35 亿美元融资 (summary_zh, title_zh)
+[changed] Apple to have Samsung make new chips in Austin, Texas / 更新 苹果委托三星在得州奥斯汀生产新型芯片 (title_zh)
+[changed] Apple paid TSMC about $20.6B in 2025 / 更新 苹果 2025 年向台积电支付约 206 亿美元 (amount_native, currency, fx_date, fx_rate)
+[changed] ASML leads Mistral AI's Series C with €1.3B / 更新 阿斯麦以 13 亿欧元领投 Mistral AI C 轮 (amount_native, currency, fx_date, fx_rate)
+[changed] SMBC-led banks lend AirTrunk A$4.25B green loan for Sydney SYD3 campus / 更新 三井住友银行牵头向 AirTrunk 提供 42.5 亿澳元绿色贷款，用于悉尼 SYD3 园区 (amount_native, amount_text, currency, from, fx_date, fx_rate, title_en, title_zh)
+[changed] ByteDance $29.6B syndicated loan led by Citi and JPMorgan / 更新 花旗与摩根大通牵头为字节跳动安排 296 亿美元银团贷款 (amount_text, from, sources, status, summary_en, summary_zh, title_en, title_zh)
+[changed] Goldman-led banks line up $22B chip loan for Blackstone-Google Crux AI / 更新 高盛牵头的银行为黑石与谷歌的 Crux AI 安排 220 亿美元芯片贷款 (amount_text, from, summary_en, summary_zh, title_en, title_zh)
+[changed] Mistral AI raises $830M of debt for Paris-area data centre / 更新 Mistral AI 为巴黎附近数据中心举债 8.3 亿美元 (summary_zh)
+[changed] Bank of America, Citi and Morgan Stanley arrange ~$43.5B first lien for Anthropic chip SPV / 更新 美国银行、花旗和摩根士丹利为 Anthropic 芯片 SPV 安排约 435 亿美元第一留置权贷款 (summary_zh)
+[changed] Blackstone buys AirTrunk for A$24B / 更新 黑石以 240 亿澳元收购 AirTrunk (amount_native, currency, fx_date, fx_rate, summary_zh)
+[changed] Blue Owl leads $2.4B GPU financing for IREN / 更新 Blue Owl 牵头为 IREN 提供 24 亿美元 GPU 融资 (summary_zh)
+[changed] Alibaba $5B convertible notes / 更新 阿里巴巴 50 亿美元可转换票据 (summary_zh)
+[changed] Alibaba $5B dual-currency bond sale / 更新 阿里巴巴约 50 亿美元双币种债券 (amount_native, currency, summary_zh)
+[changed] Alibaba HK$12B exchangeable bonds for cloud and commerce / 更新 阿里巴巴 120 亿港元可交换债券用于云与国际电商 (amount_native, currency, fx_date, fx_rate)
+[changed] Alphabet ~$25B US and euro bond sales / 更新 谷歌母公司 Alphabet 在美欧发行约 250 亿美元债券 (amount_native, currency)
+[changed] Alphabet ~$32B multi-currency bonds incl. century bond / 更新 Alphabet 发行近 320 亿美元多币种债券（含百年期债券） (amount_native, currency)
+[changed] Alphabet €9B euro bond (≈ US$10.5B), its largest in the currency / 更新 Alphabet 发行 90 亿欧元债券（约 105 亿美元），其最大规模欧元债 (amount_native, amount_text, amount_usd, currency, fx_date, fx_rate, sources, subkind, summary_en, summary_zh, title_en, title_zh)
+[changed] Alphabet C$8.5B maple bond (≈ US$6.2B), largest ever in Canada / 更新 Alphabet 发行 85 亿加元枫叶债券（约 62 亿美元），加拿大史上最大 (amount_native, amount_text, amount_usd, announced, currency, fx_date, fx_rate, sources, subkind, summary_en, summary_zh, title_en, title_zh)
+[changed] Alphabet ¥576.5B debut yen bond (≈ US$3.6B), record for a foreign issuer / 更新 Alphabet 首次发行 5765 亿日元债券（约 36 亿美元），创外国发行人纪录 (amount_native, amount_text, currency, fx_date, fx_rate, sources, subkind, summary_en, summary_zh, term, title_en, title_zh)
+[changed] Amazon ~$54B dollar and euro bond sales / 更新 亚马逊发行约 540 亿美元美元及欧元债券 (amount_native, currency)
+[changed] Amazon C$14B maple bond (≈ US$10.2B), record Canadian corporate bond / 更新 亚马逊发行 140 亿加元枫叶债券（约 102 亿美元），创加拿大公司债纪录 (amount_native, amount_text, amount_usd, announced, currency, fx_date, fx_rate, sources, subkind, summary_en, summary_zh, title_en, title_zh)
+[changed] Amazon's debut £4.25B sterling bond sale / 更新 亚马逊首次发行 42.5 亿英镑英镑债 (amount_native, currency, fx_date, fx_rate)
+[changed] Applied Digital $2.35B 9.25% secured notes for CoreWeave-leased Polaris Forge 1 buildings / 更新 Applied Digital 发行 23.5 亿美元 9.25% 担保票据，用于租给 CoreWeave 的 Polaris Forge 1 数据中心 (amount_text, announced, sources, subkind, summary_en, summary_zh, title_en, title_zh)
+[changed] Applied Digital $2.15B 6.75% secured notes for the Polaris Forge 2 campus / 更新 Applied Digital 发行 21.5 亿美元 6.75% 担保票据，用于 Polaris Forge 2 园区 (amount_text, announced, sources, subkind, summary_en, summary_zh, term, title_en, title_zh)
+[changed] Applied Digital $1.59B notes for the fourth CoreWeave building at Polaris Forge 1 / 更新 Applied Digital 为 Polaris Forge 1 第四栋楼发行 15.9 亿美元票据 (sources)
+[changed] Baidu CNY 10B dim sum bonds / 更新 百度 100 亿元离岸人民币债券 (amount_native, currency, fx_date, fx_rate)
+[changed] Baidu CNY 4.4B dim sum bonds for AI / 更新 百度 44 亿元离岸人民币债券支持 AI (amount_native, currency, fx_date, fx_rate, summary_zh)
+[changed] Meta Hyperion SPV (Beignet Investor) $27.3B senior secured notes / 更新 Meta Hyperion 特殊目的实体（Beignet Investor）发行 273 亿美元优先担保票据 (amount_text, amount_usd, sources, summary_en, summary_zh, title_en, title_zh)
+[changed] Broadcom $5B bond sale (July 2024) / 更新 博通发行 50 亿美元债券（2024 年 7 月） (summary_zh)
+[changed] Cipher $1.4B secured notes for Barber Lake AI campus / 更新 Cipher 发行 14 亿美元优先担保票据建设 Barber Lake AI 园区 (summary_zh, title_zh)
+[changed] CoreWeave $1.25B + €2B senior notes due 2032 / 更新 CoreWeave 发行 12.5 亿美元及 20 亿欧元 2032 年到期优先票据 (amount_text)
+[changed] CoreWeave $4.2B convertible notes / 更新 CoreWeave 发行 42 亿美元可转换票据 (summary_zh)
+[changed] NVIDIA $25B notes offering / 更新 英伟达发行 250 亿美元票据 (summary_zh)
+[changed] SoftBank ~$11B junk bond sale to fund OpenAI payment / 更新 软银发行约 111 亿美元高收益债以支付 OpenAI 投资款 (amount_native, currency)
+[changed] Tencent CNY 9B debut dim sum bonds / 更新 腾讯首发 90 亿元离岸人民币债券 (amount_native, currency, fx_date, fx_rate)
+[changed] Tencent $4.66B dual-currency bond sale / 更新 腾讯 46.6 亿美元双币种债券 (amount_native, currency, summary_zh)
+[changed] Tencent ~$5.7B bond sale amid AI spending / 更新 腾讯约 57 亿美元发债应对 AI 支出 (amount_native, currency, summary_zh)
+[changed] TeraWulf $1.025B zero-coupon convertible notes for the Abernathy, Texas campus / 更新 TeraWulf 发行 10.25 亿美元零息可转换票据，用于得州 Abernathy 园区 (amount_text, sources, subkind, summary_en, summary_zh, title_en, title_zh)
+[changed] TeraWulf $3.2B secured notes for Lake Mariner AI campus / 更新 TeraWulf 发行 32 亿美元优先担保票据建设 Lake Mariner AI 园区 (summary_zh, title_zh)
+[changed] Broadcom backs Anthropic chip-lease financing with up to $43B residual value support / 更新 博通为 Anthropic 芯片租赁融资提供最高 430 亿美元余值担保支持 (summary_zh, title_zh)
+[changed] Broadcom and Samsung sign $200B memory and foundry MOU / 更新 博通与三星签署 2000 亿美元存储与代工合作备忘录 (amount_text, amount_usd, summary_en, summary_zh)
+[changed] ByteDance rents Nvidia Blackwell cluster from Aolani Cloud in Malaysia / 更新 字节跳动向 Aolani Cloud 租用马来西亚英伟达 Blackwell 算力 (status)
+[changed] ByteDance plans ~$14B of Nvidia H200 purchases in 2026 / 更新 字节跳动计划 2026 年采购约 140 亿美元英伟达 H200 (amount_native, currency, status)
+[changed] Baidu's Kunlunxin wins &gt;CNY 1B China Mobile AI chip orders / 更新 百度昆仑芯中标中国移动逾 10 亿元人民币 AI 芯片订单 (amount_native, currency, fx_date, fx_rate, summary_zh, title_zh)
+[changed] CoreWeave leases a further 150 MW at Polaris Forge 1 (~$4B) / 更新 CoreWeave 追加租用 Polaris Forge 1 园区 150 兆瓦（约 40 亿美元） (confidence, note_en, note_zh)
+[changed] Deutsche Bank lends EcoDataCenter €600M / 更新 德意志银行向 EcoDataCenter 提供 6 亿欧元贷款 (amount_native, currency, fx_date, fx_rate, summary_zh)
+[changed] Goldman Sachs and JPMorgan arrange $3.6B for IREN's Microsoft GPUs / 更新 高盛与摩根大通为 IREN 微软项目 GPU 安排 36 亿美元融资 (summary_zh)
+[changed] SoftBank $10B loan backed by its OpenAI stake / 更新 软银以 OpenAI 股份质押获 100 亿美元贷款 (summary_zh)
+[changed] SpaceX $20B bridge loan to refinance xAI and X debt / 更新 SpaceX 200 亿美元过桥贷款为 xAI 和 X 债务再融资 (summary_zh)
+[changed] IREN buys $1.6B of Blackwell systems from Dell / 更新 IREN 向戴尔采购 16 亿美元 Blackwell 系统 (summary_zh)
+[changed] JPMorgan-led $5B revolving credit facility for AMD / 更新 摩根大通牵头为 AMD 提供 50 亿美元循环信贷 (summary_zh)
+[changed] JPMorgan $2.3B loan for Abilene Stargate phase 1 / 更新 摩根大通为阿比林星际之门一期提供 23 亿美元贷款 (confidence)
+[changed] JPMorgan-led $7.1B loan for Abilene Stargate phase 2 / 更新 摩根大通牵头 71 亿美元贷款支持阿比林星际之门二期 (confidence)
+[changed] Lambda ~$1B private debt for GPUs leased to Microsoft / 更新 Lambda 约 10 亿美元私募债务用于租给微软的 GPU (amount_text, amount_usd, summary_en, summary_zh)
+[changed] SoftBank $40B bridge loan for its $30B OpenAI follow-on / 更新 软银 400 亿美元过桥贷款用于追加投资 OpenAI 300 亿美元 (sources, status, summary_en, summary_zh, term)
+[changed] Meta residual value guarantee to Hyperion JV / 更新 Meta 向 Hyperion 合资公司提供余值担保 (summary_zh, title_zh)
+[changed] Meta acquires AI agent startup Manus / 更新 Meta 收购 AI 智能体初创公司 Manus (amount_text, sources, status, summary_en, summary_zh)
+[changed] Meta ~$20B cloud contract with Oracle / 更新 Meta 与甲骨文约 200 亿美元的云合同 (amount_text, status, summary_zh)
+[changed] Meta takes a 49% stake in Scale AI / 更新 Meta 入股 Scale AI 49% (summary_zh)
+[changed] MGX co-leads Anthropic's Series G / 更新 MGX 联合领投 Anthropic G 轮 (summary_zh)
+[changed] Microsoft $9.7B AI cloud contract with IREN / 更新 微软与 IREN 的 97 亿美元 AI 云合同 (summary_zh)
+[changed] Microsoft's multibillion-dollar compute deal with Mistral AI / 更新 微软与 Mistral AI 签订数十亿美元算力协议 (summary_zh)
+[changed] Microsoft contracts ~200,000 GB300 GPUs from Nscale / 更新 微软向 Nscale 采购约 20 万颗 GB300 GPU 算力 (summary_zh)
+[changed] Mistral AI's $1.4B AI data centre in Sweden with EcoDataCenter / 更新 Mistral AI 与 EcoDataCenter 在瑞典投资 14 亿美元建设 AI 数据中心 (amount_native, currency, fx_date, fx_rate)
+[changed] SoftBank $15B bridge loan for OpenAI and Ampere / 更新 软银 150 亿美元过桥贷款用于 OpenAI 与 Ampere 投资 (amount_text, sources, status, summary_en, summary_zh, term)
+[changed] xAI $5B bonds and loans via Morgan Stanley (repaid) / 更新 xAI 经摩根士丹利发行 50 亿美元债券及贷款（已偿还） (summary_zh)
+[changed] CoreWeave $8.5B investment-grade GPU loan / 更新 CoreWeave 获 85 亿美元投资级 GPU 抵押贷款 (summary_zh)
+[changed] Brookfield to fund up to $9B of compute for Naver's AI factory / 更新 布鲁克菲尔德为 NAVER AI 工厂提供最高 90 亿美元算力融资 (amount_text, sources)
+[changed] NVIDIA $3.4B GPU cloud contract with IREN / 更新 英伟达与 IREN 签订 34 亿美元 GPU 云合同 (summary_zh)
+[changed] NVIDIA advances KYEC $1.1B to reserve chip-testing capacity / 更新 英伟达向京元电子预付 11 亿美元锁定芯片测试产能 (amount_native, currency)
+[changed] Micron supplies HBM4 for Nvidia's Vera Rubin / 更新 美光为英伟达 Vera Rubin 供应 HBM4 (summary_en, summary_zh)
+[changed] Nvidia to invest $1B in Naver's AI factory buildout / 更新 英伟达拟为 NAVER 的 AI 工厂建设投资 10 亿美元 (sources)
+[changed] Nvidia becomes TSMC's largest customer ($23B in 2025) / 更新 英伟达成为台积电最大客户（2025 年约 232 亿美元） (amount_native, currency, fx_date, fx_rate)
+[changed] Nvidia invests in xAI's $20B Series E / 更新 英伟达参与 xAI 200 亿美元 E 轮融资 (summary_zh)
+[changed] OpenAI compute deal with Cerebras (&gt;$20B) / 更新 OpenAI 与 Cerebras 的算力合同（逾 200 亿美元） (amount_text, confidence)
+[changed] OpenAI cloud compute contract with Oracle (Stargate 4.5 GW) / 更新 OpenAI 与甲骨文的云算力合同（星际之门 4.5 吉瓦） (summary_zh)
+[changed] Oracle buys ~$40B of Nvidia chips for OpenAI's Abilene site / 更新 甲骨文为 OpenAI 阿比林站点采购约 400 亿美元英伟达芯片 (summary_zh)
+[changed] PIMCO buys ~$18B of Meta Hyperion SPV bonds / 更新 PIMCO 认购约 180 亿美元 Meta Hyperion SPV 债券 (amount_text, amount_usd, summary_en, summary_zh)
+[changed] PIMCO-anchored debt for Oracle's $16B Michigan campus / 更新 PIMCO 牵头认购甲骨文密歇根 160 亿美元园区的债务融资 (summary_zh)
+[changed] Cambricon CNY 3.99B private placement for large-model chips / 更新 寒武纪 39.85 亿元人民币定增投向大模型芯片 (amount_native, currency, fx_date, fx_rate, summary_zh, title_zh)
+[changed] Crusoe $3.9B Series F at a $30.9B valuation / 更新 Crusoe 39 亿美元 F 轮融资，估值 309 亿美元 (amount_text, amount_usd, announced, confidence, sources, status, subkind, summary_en, summary_zh, title_en, title_zh)
+[changed] Firmus raises $2B equity at $10.5B+ valuation / 更新 Firmus 完成 20 亿美元股权融资，估值逾 105 亿美元 (amount_native, currency)
+[changed] Mistral AI raises €600M at €5.8B valuation / 更新 Mistral AI 以 58 亿欧元估值融资 6 亿欧元 (amount_native, currency, fx_date, fx_rate)
+[changed] Mistral AI raises €3B Series D led by Samsung / 更新 Mistral AI 完成三星领投的 30 亿欧元 D 轮 (amount_native, currency, fx_date, fx_rate)
+[changed] Moonshot AI raises $3.5B at $35B valuation / 更新 月之暗面以 350 亿美元估值融资 35 亿美元 (status)
+[changed] MiniMax share placement / 更新 MiniMax 配售新股 (amount_native, currency, fx_date, fx_rate)
+[changed] SK hynix raises $26.5B in record US listing / 更新 SK 海力士赴美上市募资 265 亿美元，创纪录 (summary_zh)
+[changed] Samsung builds an AI Megafactory on 50,000+ Nvidia GPUs / 更新 三星以 5 万余颗英伟达 GPU 打造 AI 超级工厂 (summary_zh, title_zh)
+[changed] $18B bank loan for Oracle-linked Project Jupiter, New Mexico / 更新 180 亿美元银团贷款支持甲骨文相关的新墨西哥州 Jupiter 项目 (summary_zh)
+[changed] SoftBank leads OpenAI's $41B round / 更新 软银领投 OpenAI 410 亿美元融资 (amount_text)
+[changed] SpaceX (xAI) signs $40B Apollo-led GPU lease financing / 更新 SpaceX（xAI）签署阿波罗牵头的 400 亿美元 GPU 租赁融资 (summary_en, summary_zh, to)
+[changed] SpaceX acquires xAI / 更新 SpaceX 收购 xAI (amount_text, amount_usd, summary_en, summary_zh)
+[changed] Tencent buys Nvidia H200 chips after approvals / 更新 腾讯获批后采购英伟达 H200 (status)
+[changed] Tesla $16.5B AI6 chip foundry contract with Samsung / 更新 特斯拉与三星的 165 亿美元 AI6 芯片代工合同 (amount_native, currency, fx_date, fx_rate, summary_zh)
+[changed] Tesla invests about $2B in xAI / 更新 特斯拉向 xAI 投资约 20 亿美元 (amount_text, amount_usd, confidence, sources, status, summary_en, summary_zh)
+[changed] xAI joins the AI Infrastructure Partnership / 更新 xAI 加入 AI 基础设施合作伙伴关系（AIP） (summary_zh)
+[changed] xAI leases Nvidia GPUs from Valor vehicle / 更新 xAI 向 Valor 特殊目的实体租用英伟达 GPU (summary_zh, title_zh)
+[added] Alphabet A$5.5B debut kangaroo bond (≈ US$3.9B), largest Australian corporate bond / 新增 Alphabet 首次发行 55 亿澳元袋鼠债券（约 39 亿美元），澳大利亚最大公司债
+[added] Amazon CHF 2.82B debut Swiss franc bond (≈ US$3.6B) / 新增 亚马逊首次发行 28.2 亿瑞士法郎债券（约 36 亿美元）
+[added] Cipher Mining / Black Pearl Compute $2.0B secured notes for the AWS-leased Black Pearl site / 新增 Cipher Mining / Black Pearl Compute 发行 20 亿美元担保票据，用于租给 AWS 的 Black Pearl 园区
+[added] SoftBank $3.6B high-yield bonds to repay OpenAI bridge loans / 新增 软银发行 36 亿美元高收益债券以偿还 OpenAI 相关过桥贷款
+[added] CoreWeave buys Nvidia GPUs for its cloud (via OEMs, total undisclosed) / 新增 CoreWeave 为其云平台采购英伟达 GPU（经 OEM 交付，总额未披露）
+[added] Eagle Point $1.3B private-credit loan for Nexus Data Centers' Anthropic-anchored Texas campus / 新增 Eagle Point 向 Nexus Data Centers 提供 13 亿美元私募信贷，用于以 Anthropic 为主租户的得州园区
+[added] Core Scientific $600M senior secured revolver and letter-of-credit facilities / 新增 Core Scientific 6 亿美元优先担保循环信贷及信用证额度
+[added] CoreWeave $2.5B revolving credit facility / 新增 CoreWeave 25 亿美元循环信贷额度
+[added] Lambda $1.008B senior secured fixed-rate GPU loan / 新增 Lambda 10.08 亿美元优先担保固定利率 GPU 贷款
+[added] Microsoft, CoreWeave's largest customer, buys GPU cloud capacity / 新增 微软向 CoreWeave 采购 GPU 云算力（CoreWeave 最大客户）
+[added] Nvidia joins CoreWeave's $221M Series B (share undisclosed) / 新增 英伟达参投 CoreWeave 2.21 亿美元 B 轮融资（份额未披露）
+[added] OpenAI ~$1B working-capital loan to Cerebras, secured and paired with warrants / 新增 OpenAI 向 Cerebras 提供约 10 亿美元营运资金贷款（有担保，附认股权证）
+[added] PIMCO buys $4B of notes funding SpaceX's Apollo GPU lessor / 新增 PIMCO 认购 40 亿美元票据，为 SpaceX 的阿波罗 GPU 出租实体融资
+[added] DeepSeek raises ~¥100B (~$15B) led by Tencent and CATL (reported) / 新增 DeepSeek 据报完成约 1000 亿元人民币（约 150 亿美元）融资，腾讯与宁德时代为最大投资方
+[added] Co-investors put ~$10B into OpenAI's March 2025 round / 新增 跟投方向 OpenAI 2025 年 3 月融资轮出资约 100 亿美元
+[added] Alibaba raises HK$80B (~$10.2B) in share placement for AI / 新增 阿里巴巴配售新股募资 800 亿港元（约 102 亿美元）投入 AI
+[added] Cerebras raises $5.55B in Nasdaq IPO (CBRS) / 新增 Cerebras 纳斯达克 IPO 募资 55.5 亿美元（代码 CBRS）
+[added] MiniMax raises HK$4.82B (~$619M) in Hong Kong IPO / 新增 MiniMax 港股 IPO 募资 48.2 亿港元（约 6.19 亿美元）
+[added] SpaceX raises $85.7B in record IPO / 新增 SpaceX 完成创纪录 IPO，募资 857 亿美元
+[added] Zhipu AI raises HK$4.35B in Hong Kong IPO, the first listed LLM developer / 新增 智谱 AI 港股 IPO 募资 43.5 亿港元，成首家上市大模型公司
+[added] xAI buys 100,000+ Nvidia H100 GPUs for Colossus (total undisclosed) / 新增 xAI 为 Colossus 超级计算机采购逾 10 万颗英伟达 H100 GPU（总额未披露）
+[added] xAI to buy ~300,000 more Nvidia GPUs for Colossus 2 (reported, at least $18B) / 新增 xAI 据报将为 Colossus 2 再采购约 30 万颗英伟达 GPU（据报不少于 180 亿美元）</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/2e7657df3a0ebe2c2e1aabb55dee4d4c610bf071</id>
+    <title>26 deals added · 13 changed · 新增 26 笔，更新 13 笔</title>
+    <updated>2026-10-29T00:24:34Z</updated>
+    <published>2026-10-29T00:24:34Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[changed] Amazon's $8B investment in Anthropic / 更新 亚马逊对 Anthropic 的 80 亿美元投资 (amount_text, sources, summary_en, summary_zh)
+[changed] AMD to invest up to $5B in Anthropic / 更新 AMD 向 Anthropic 投资最多 50 亿美元 (amount_text, confidence, sources, status, summary_en, summary_zh)
+[changed] Anthropic $45B compute rental from Nscale / 更新 Anthropic 向 Nscale 租用 450 亿美元算力 (amount_text, amount_usd, confidence, sources, summary_en, summary_zh, term)
+[changed] Applied Digital $2.15B notes for Oracle-leased Polaris Forge 2 / 更新 Applied Digital 为甲骨文租用的 Polaris Forge 2 发行 21.5 亿美元票据 (sources)
+[changed] Applied Digital $1.59B notes for the fourth CoreWeave building at Polaris Forge 1 / 更新 Applied Digital 为 Polaris Forge 1 第四栋楼发行 15.9 亿美元票据 (sources)
+[changed] Cipher Digital $850M convertible notes for Barber Lake / 更新 Cipher Digital 发行 8.5 亿美元可转换票据，投向 Barber Lake (sources)
+[changed] Micron $1.75B senior notes / 更新 美光发行 17.5 亿美元优先票据 (amount_text, sources, summary_en, summary_zh)
+[changed] NVIDIA prepays Amkor $1.3B for advanced-packaging capacity in Korea / 更新 英伟达向安靠预付 13 亿美元锁定韩国先进封装产能 (amount_text, confidence)
+[changed] Anthropic $3.5B Series E at $61.5B / 更新 Anthropic 35 亿美元 E 轮融资（估值 615 亿美元） (amount_text, amount_usd, confidence, sources, summary_en, summary_zh)
+[changed] Anthropic $13B Series F at $183B / 更新 Anthropic 130 亿美元 F 轮融资（估值 1830 亿美元） (amount_text, sources)
+[changed] Anthropic $30B Series G at $380B / 更新 Anthropic 300 亿美元 G 轮融资（估值 3800 亿美元） (amount_text, amount_usd, sources, summary_en, summary_zh)
+[changed] Anthropic $65B Series H at $965B / 更新 Anthropic 650 亿美元 H 轮融资（估值 9650 亿美元） (amount_text, amount_usd, sources, summary_en, summary_zh)
+[changed] Meta's $37.5B share and mandatory convertible offerings / 更新 Meta 发行 375 亿美元普通股与强制可转换优先股 (sources)
+[added] Google 20-year power purchase agreement with AEP's Cheyenne fuel-cell plant / 新增 谷歌与 AEP 夏延燃料电池电厂的 20 年购电协议
+[added] Google's $2B convertible-note investment in Anthropic / 新增 谷歌以可转换票据向 Anthropic 投资 20 亿美元
+[added] Google nuclear power agreements with Constellation (3.6 GW) / 新增 谷歌与 Constellation 的核电购电协议（3.6 吉瓦）
+[added] Google backstops $1.3B of Fluidstack's Abernathy lease / 新增 谷歌为 Fluidstack 的 Abernathy 租约提供 13 亿美元兜底
+[added] AWS lease of Cerebras AI systems, with a Cerebras warrant / 新增 AWS 租用 Cerebras AI 系统（附 Cerebras 认股权证）
+[added] AWS leases Cipher's 70 MW Stingray data centre in Texas (~$2.0B) / 新增 AWS 租用 Cipher 得州 Stingray 70 兆瓦数据中心（约 20 亿美元）
+[added] Amazon backup-generator supply agreement with Generac / 新增 亚马逊与 Generac 的备用发电机供货协议
+[added] AMD leases 50 MW at Riot's Rockdale site (~$636M) / 新增 AMD 租用 Riot Rockdale 园区 50 兆瓦（约 6.36 亿美元）
+[added] Zankore $3.1B senior term loan / 新增 Zankore 31 亿美元优先定期贷款
+[added] Cipher Digital $810M notes for the AWS-leased Stingray data centre / 新增 Cipher Digital 发行 8.1 亿美元票据，建设 AWS 租用的 Stingray 数据中心
+[added] TeraWulf $1.025B convertible notes for the Abernathy campus / 新增 TeraWulf 发行 10.25 亿美元可转换票据，投向 Abernathy 园区
+[added] TeraWulf–Fluidstack JV $1.3B notes for the Abernathy campus / 新增 TeraWulf–Fluidstack 合资公司发行 13 亿美元票据建设 Abernathy 园区
+[added] Broadcom $42B convertible note facility for Anthropic's rack rent / 新增 博通为 Anthropic 机架租金提供 420 亿美元可转债融资额度
+[added] Crux AI purchase of Google TPUs / 新增 Crux AI 采购谷歌 TPU
+[added] Fluidstack leases TeraWulf's 168 MW Abernathy JV campus (~$9.5B) / 新增 Fluidstack 租用 TeraWulf 合资的 Abernathy 168 兆瓦园区（约 95 亿美元）
+[added] Fluidstack and partners buy TeraWulf's Abernathy JV stake (~$530M) / 新增 Fluidstack 等买方收购 TeraWulf 所持 Abernathy 合资股权（约 5.3 亿美元）
+[added] Microsoft's 20-year power deal with Chevron for a West Texas AI campus / 新增 微软与雪佛龙签订 20 年购电协议，为西得州 AI 园区供电
+[added] Morgan Stanley-led $15.6B financing for Nexus's Anthropic campus in Texas / 新增 摩根士丹利牵头为 Nexus 租给 Anthropic 的得州园区提供 156 亿美元融资
+[added] Morgan Stanley $573M loan for Riot's 191 MW Rockdale AI build / 新增 摩根士丹利向 Riot 提供 5.73 亿美元贷款，建设 Rockdale 191 兆瓦 AI 数据中心
+[added] Morgan Stanley $500M bridge loan for TeraWulf's Hawesville campus / 新增 摩根士丹利为 TeraWulf Hawesville 园区提供 5 亿美元过桥贷款
+[added] Nebius fuel-cell power capacity agreement with Bloom Energy / 新增 Nebius 与 Bloom Energy 的燃料电池供电容量协议
+[added] NVIDIA acquisition of Hugging Face / 新增 英伟达收购 Hugging Face
+[added] Hut 8 leases 352 MW at Beacon Point to an investment-grade tenant, reported to be NVIDIA (~$9.8B) / 新增 Hut 8 将 Beacon Point 352 兆瓦租给投资级租户（据报为英伟达，约 98 亿美元）
+[added] Hut 8's second 352 MW Beacon Point lease, same tenant reported to be NVIDIA (~$9.8B) / 新增 Hut 8 签订 Beacon Point 第二份 352 兆瓦租约，同一租户据报为英伟达（约 98 亿美元）
+[added] Oracle fuel-cell supply deal with Bloom Energy (up to 2.8 GW) / 新增 甲骨文与 Bloom Energy 的燃料电池供电协议（最高 2.8 吉瓦）
+[added] MiniMax share placement / 新增 MiniMax 配售新股</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/4fd11721c8bcd2fe926ce81775a150669ea61b19</id>
+    <title>1 deals added · 3 changed · 新增 1 笔，更新 3 笔</title>
+    <updated>2026-10-28T22:46:33Z</updated>
+    <published>2026-10-28T22:46:33Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[changed] AMD invests $1B in Meta's share offering / 更新 AMD 向 Meta 股票发行投资 10 亿美元 (sources)
+[changed] NVIDIA advances KYEC $1.1B to reserve chip-testing capacity / 更新 英伟达向京元电子预付 11 亿美元锁定芯片测试产能 (amount_text, sources)
+[changed] Meta's $37.5B share and mandatory convertible offerings / 更新 Meta 发行 375 亿美元普通股与强制可转换优先股 (summary_en, summary_zh)
+[added] Anthropic's ~$10B compute deal with Volta / 新增 Anthropic 与 Volta 约 100 亿美元的算力合同</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/2ba1809defce1e98d6a7bad64feb6dcc2e732aeb</id>
+    <title>0 deals added · 4 changed · 1 removed · 新增 0 笔，更新 4 笔，移除 1 笔</title>
+    <updated>2026-10-28T22:22:27Z</updated>
+    <published>2026-10-28T22:22:27Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[removed] Meta launches $35B stock offering to fund AI build-out / 移除 Meta 启动 350 亿美元股票发行，为 AI 扩张融资
+[changed] Alphabet C$8.5B maple bond / 更新 Alphabet 发行 85 亿加元枫叶债 (distinct_from)
+[changed] Baidu $2B exchangeable bonds into Trip.com / 更新 百度 20 亿美元可交换债（可换携程股份） (distinct_from)
+[changed] CoreWeave $4B convertible notes / 更新 CoreWeave 发行 40 亿美元可转换票据 (distinct_from)
+[changed] Meta's $37.5B share and mandatory convertible offerings / 更新 Meta 发行 375 亿美元普通股与强制可转换优先股 (sources)</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/839f378840ceec7d827750794e4d5631fdd0ad2c</id>
+    <title>37 deals added · 20 changed · 新增 37 笔，更新 20 笔</title>
+    <updated>2026-10-28T22:20:23Z</updated>
+    <published>2026-10-28T22:20:23Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[changed] Google to invest up to $40B in Anthropic / 更新 谷歌向 Anthropic 投资最多 400 亿美元 (amount_text, confidence, sources, summary_en, summary_zh)
+[changed] Amazon to invest up to $25B more in Anthropic / 更新 亚马逊再向 Anthropic 投资最多 250 亿美元 (amount_text, sources, summary_en, summary_zh)
+[changed] Anthropic 5 GW TPU deal with Google and Broadcom / 更新 Anthropic 与谷歌、博通的 5 吉瓦 TPU 协议 (amount_text, confidence, sources, summary_en, summary_zh, term)
+[changed] Anthropic commits $110B to AWS over 10 years / 更新 Anthropic 承诺 10 年内在 AWS 支出 1100 亿美元 (amount_text, amount_usd, sources, summary_en, summary_zh, term, title_en, title_zh)
+[changed] Anthropic deal for up to 2 GW of AMD MI450 GPUs / 更新 Anthropic 采购最多 2 吉瓦 AMD MI450 GPU (amount_text, sources, summary_en, summary_zh)
+[changed] Anthropic buys $21B of Google Ironwood TPU racks from Broadcom / 更新 Anthropic 向博通采购 210 亿美元谷歌 Ironwood TPU 机架 (amount_text, amount_usd, sources, summary_en, summary_zh)
+[changed] Anthropic's S-1 shows ~$161B of Broadcom chip-equipment leases / 更新 Anthropic 招股书显示约 1612 亿美元博通芯片设备租赁 (amount_text, confidence, sources)
+[changed] Anthropic commits ~$41.3B to Lambda cloud compute / 更新 Anthropic 向 Lambda 承诺约 413 亿美元云算力 (amount_text, amount_usd, confidence, sources, summary_en, summary_zh, term, title_en, title_zh)
+[changed] Anthropic commits $44.9B to Microsoft Azure / 更新 Anthropic 承诺采购 449 亿美元微软 Azure 算力 (amount_text, amount_usd, sources, summary_en, summary_zh, term, title_en, title_zh)
+[changed] Anthropic rents SpaceX/xAI compute (up to $120.5B) / 更新 Anthropic 租用 SpaceX/xAI 算力（最高 1205 亿美元） (amount_text, amount_usd, sources, summary_en, summary_zh, title_en, title_zh)
+[changed] Amazon $25B bond sale as demand cools / 更新 亚马逊在需求降温中发行 250 亿美元债券 (amount_text, confidence, sources)
+[changed] CoreWeave $4B convertible notes / 更新 CoreWeave 发行 40 亿美元可转换票据 (amount_text, amount_usd, sources, summary_en, summary_zh, title_en, title_zh)
+[changed] IREN $3B convertible notes / 更新 IREN 发行 30 亿美元可转债 (sources)
+[changed] Meta $25B bond sale / 更新 Meta 发行 250 亿美元债券 (amount_text, confidence, sources, term)
+[changed] Nebius $3.16B convertible notes after Microsoft deal / 更新 Nebius 在微软合同后发行 31.6 亿美元可转债 (amount_text, amount_usd, sources, summary_en, summary_zh, title_en, title_zh)
+[changed] Nebius $4.34B convertible notes / 更新 Nebius 发行 43.4 亿美元可转债 (amount_text, amount_usd, sources, summary_en, summary_zh, title_en, title_zh)
+[changed] Microsoft contracts ~200,000 GB300 GPUs from Nscale / 更新 微软向 Nscale 采购约 20 万颗 GB300 GPU 算力 (sources, summary_en, summary_zh)
+[changed] Anthropic $15B revolving credit facility / 更新 Anthropic 150 亿美元循环信贷额度 (amount_text, amount_usd, summary_en, summary_zh, term, title_en, title_zh)
+[changed] Brookfield to fund up to $9B of compute for Naver's AI factory / 更新 布鲁克菲尔德为 NAVER AI 工厂提供最高 90 亿美元算力融资 (amount_text, sources, status, summary_en, summary_zh)
+[changed] Nvidia to invest $1B in Naver's AI factory buildout / 更新 英伟达拟为 NAVER 的 AI 工厂建设投资 10 亿美元 (amount_text, sources, status, summary_en, summary_zh)
+[added] Google backstops Fluidstack's River Bend lease with Hut 8 / 新增 谷歌为 Fluidstack 在 Hut 8 River Bend 的租约提供兜底
+[added] Riot leases 191 MW at Rockdale to a frontier AI lab, reported to be Anthropic (~$9.1B) / 新增 Riot 将 Rockdale 191 兆瓦租给前沿 AI 实验室（据报为 Anthropic，约 91 亿美元）
+[added] Anthropic leases ~401 MW at TeraWulf's Kentucky campus (~$19B) / 新增 Anthropic 租用 TeraWulf 肯塔基园区约 401 兆瓦（约 190 亿美元）
+[added] Oracle $10B revolving credit facility / 新增 甲骨文 100 亿美元循环信贷额度
+[added] Berkshire Hathaway buys $10B of Alphabet stock / 新增 伯克希尔·哈撒韦认购 100 亿美元 Alphabet 股票
+[added] Alphabet €9B euro bond / 新增 Alphabet 发行 90 亿欧元债券
+[added] Alphabet ¥576.5B (≈$3.6B) yen bond / 新增 Alphabet 发行 5765 亿日元（约 36 亿美元）日元债
+[added] Applied Digital $2.35B notes for CoreWeave's Polaris Forge 1 buildings / 新增 Applied Digital 为 CoreWeave 租用的 Polaris Forge 1 楼宇发行 23.5 亿美元票据
+[added] Applied Digital $2.15B notes for Oracle-leased Polaris Forge 2 / 新增 Applied Digital 为甲骨文租用的 Polaris Forge 2 发行 21.5 亿美元票据
+[added] Applied Digital $1.59B notes for the fourth CoreWeave building at Polaris Forge 1 / 新增 Applied Digital 为 Polaris Forge 1 第四栋楼发行 15.9 亿美元票据
+[added] Cipher Digital $850M convertible notes for Barber Lake / 新增 Cipher Digital 发行 8.5 亿美元可转换票据，投向 Barber Lake
+[added] CoreWeave $1.25B + €2B senior notes due 2032 / 新增 CoreWeave 发行 12.5 亿美元及 20 亿欧元 2032 年到期优先票据
+[added] Galaxy $3.5B notes for CoreWeave's Helios Phase II / 新增 Galaxy 为 CoreWeave 租用的 Helios 二期发行 35 亿美元票据
+[added] Hut 8 $3.25B notes for the River Bend (Fluidstack/Anthropic) campus / 新增 Hut 8 为 River Bend 园区（Fluidstack/Anthropic）发行 32.5 亿美元票据
+[added] Hut 8 $4.25B notes for its Beacon Point AI campus / 新增 Hut 8 为 Beacon Point AI 园区发行 42.5 亿美元票据
+[added] Broadcom backstops up to $29B of lease payments to its AI XPV SPV / 新增 博通为其 AI XPV 特殊目的实体的租金提供最高 290 亿美元兜底
+[added] Amazon $17.5B delayed-draw term loan led by Citibank / 新增 亚马逊获花旗牵头的 175 亿美元延迟提款定期贷款
+[added] CoreWeave leases 250 MW at Applied Digital's Polaris Forge 1 (~$7B) / 新增 CoreWeave 租用 Applied Digital Polaris Forge 1 园区 250 兆瓦（约 70 亿美元）
+[added] CoreWeave leases a further 150 MW at Polaris Forge 1 (~$4B) / 新增 CoreWeave 追加租用 Polaris Forge 1 园区 150 兆瓦（约 40 亿美元）
+[added] CoreWeave leases all 526 MW at Galaxy's Helios campus / 新增 CoreWeave 租下 Galaxy Helios 园区全部 526 兆瓦
+[added] Deutsche Bank $1.4B project loan for Galaxy's Helios (CoreWeave) campus / 新增 德意志银行为 Galaxy Helios 园区（CoreWeave 租用）提供 14 亿美元项目贷款
+[added] Fluidstack leases 245 MW at Hut 8's River Bend campus ($7B) / 新增 Fluidstack 租用 Hut 8 River Bend 园区 245 兆瓦（70 亿美元）
+[added] Goldman Sachs and JPMorgan arrange $3.6B for IREN's Microsoft GPUs / 新增 高盛与摩根大通为 IREN 微软项目 GPU 安排 36 亿美元融资
+[added] IREN buys $1.6B of Blackwell systems from Dell / 新增 IREN 向戴尔采购 16 亿美元 Blackwell 系统
+[added] Jane Street $6B AI cloud deal with CoreWeave / 新增 Jane Street 与 CoreWeave 签订 60 亿美元 AI 云合同
+[added] Jane Street invests $1B in CoreWeave / 新增 Jane Street 向 CoreWeave 投资 10 亿美元
+[added] Jane Street's ~$13B five-year cloud compute contract with Crusoe / 新增 Jane Street 与 Crusoe 签订约 130 亿美元、为期五年的云算力合同
+[added] NVIDIA's $1.5B packaging prepayment to Amkor (Arizona) / 新增 英伟达向安靠预付 15 亿美元锁定美国（亚利桑那）封装产能
+[added] NVIDIA prepays Amkor $1.3B for advanced-packaging capacity in Korea / 新增 英伟达向安靠预付 13 亿美元锁定韩国先进封装产能
+[added] NVIDIA $3.4B GPU cloud contract with IREN / 新增 英伟达与 IREN 签订 34 亿美元 GPU 云合同
+[added] NVIDIA can invest up to $2.1B in IREN / 新增 英伟达可向 IREN 投资最多 21 亿美元
+[added] NVIDIA advances KYEC $1.1B to reserve chip-testing capacity / 新增 英伟达向京元电子预付 11 亿美元锁定芯片测试产能
+[added] Oracle leases 200 MW at Applied Digital's Polaris Forge 2 (~$5B) / 新增 甲骨文租用 Applied Digital Polaris Forge 2 园区 200 兆瓦（约 50 亿美元）
+[added] Crusoe raises over $3B at a ~$30B valuation / 新增 Crusoe 以约 300 亿美元估值融资逾 30 亿美元
+[added] Alphabet raises ~$40B in stock and mandatory convertibles / 新增 Alphabet 通过股票和强制可转换优先股募资约 400 亿美元
+[added] Meta's $37.5B share and mandatory convertible offerings / 新增 Meta 发行 375 亿美元普通股与强制可转换优先股
+[added] Volta leases 121 MW at Bitdeer's Tydal, Norway campus (~$4.7B) / 新增 Volta 租用 Bitdeer 挪威 Tydal 园区 121 兆瓦（约 47 亿美元）</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/8fa29a1a3a1ca8a4109973d2a12f854296e2e221</id>
+    <title>0 deals added · 2 changed · 新增 0 笔，更新 2 笔</title>
+    <updated>2026-10-28T21:44:26Z</updated>
+    <published>2026-10-28T21:44:26Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[changed] Alphabet C$8.5B maple bond / 更新 Alphabet 发行 85 亿加元枫叶债 (amount_text, amount_usd, sources, summary_en, summary_zh, title_en, title_zh)
+[changed] Amazon C$14B (≈US$10B) maple bond, a Canadian record / 更新 亚马逊发行 140 亿加元（约 100 亿美元）枫叶债，创加拿大纪录 (amount_text, amount_usd, sources, summary_en, summary_zh, title_en, title_zh)</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/0015dcbaeb4ccd420025cab82b7792ac80a57680</id>
+    <title>1 deals added · 0 changed · 新增 1 笔，更新 0 笔</title>
+    <updated>2026-10-28T04:05:54Z</updated>
+    <published>2026-10-28T04:05:54Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[added] JPMorgan-led $5B revolving credit facility for AMD / 新增 摩根大通牵头为 AMD 提供 50 亿美元循环信贷</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/e8c4c6fcf545ac1aea7e151f9e9cbae895ad8a27</id>
+    <title>20 deals added · 10 changed · 3 removed · 新增 20 笔，更新 10 笔，移除 3 笔</title>
+    <updated>2026-10-28T03:43:00Z</updated>
+    <published>2026-10-28T03:43:00Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[removed] Blackstone leads $18B junior debt for Anthropic chips / 移除 黑石牵头为 Anthropic 芯片提供 180 亿美元次级债务
+[removed] Broadcom to lend Anthropic up to $42B for TPU chips / 移除 博通向 Anthropic 提供最高 420 亿美元芯片融资
+[removed] AMD credit facility / 移除 AMD（超威半导体） 信贷安排
+[changed] Amazon to invest up to $25B more in Anthropic / 更新 亚马逊再向 Anthropic 投资最多 250 亿美元 (amount_text, sources)
+[changed] Anthropic 5 GW TPU deal with Google and Broadcom / 更新 Anthropic 与谷歌、博通的 5 吉瓦 TPU 协议 (amount_text, amount_usd, confidence, sources, summary_en, summary_zh, term)
+[changed] Anthropic commits &gt;$100B to AWS over 10 years / 更新 Anthropic 承诺 10 年内在 AWS 支出逾 1000 亿美元 (amount_text, sources)
+[changed] Anthropic commits $30B to Microsoft Azure / 更新 Anthropic 承诺采购 300 亿美元微软 Azure 算力 (amount_text, sources)
+[changed] Anthropic rents SpaceX/xAI Colossus compute (~$1.25B a month) / 更新 Anthropic 租用 SpaceX/xAI Colossus 算力（每月约 12.5 亿美元） (amount_text, sources, summary_en, summary_zh, term)
+[changed] Alphabet $25B bond sale / 更新 Alphabet 发行 250 亿美元债券 (amount_text, confidence, sources, term)
+[changed] CoreWeave $4.2B convertible notes / 更新 CoreWeave 发行 42 亿美元可转换票据 (amount_text, amount_usd, sources, summary_en, summary_zh, title_en, title_zh)
+[changed] Nvidia guarantees up to $105B of OpenAI's Ohio lease payments to SB Energy / 更新 英伟达为 OpenAI 向 SB Energy 支付的俄亥俄园区租金提供最高 1050 亿美元担保 (confidence, sources)
+[changed] Intel raises $20B in upsized share sale / 更新 英特尔增发股票募资 200 亿美元 (sources)
+[changed] SpaceX (xAI) signs $40B Apollo-led GPU lease financing / 更新 SpaceX（xAI）签署阿波罗牵头的 400 亿美元 GPU 租赁融资 (sources, summary_en, summary_zh)
+[added] Google takes a stake in Intersect Power in $800M round / 新增 谷歌在 8 亿美元融资中入股 Intersect Power
+[added] AWS signs $2B+ AI infrastructure deal with Verizon / 新增 AWS 与威瑞森签署逾 20 亿美元 AI 基础设施协议
+[added] Anthropic's S-1 shows ~$161B of Broadcom chip-equipment leases / 新增 Anthropic 招股书显示约 1612 亿美元博通芯片设备租赁
+[added] Banks lend AirTrunk A$4.25B green loan for Sydney SYD3 campus / 新增 银行向 AirTrunk 提供 42.5 亿澳元绿色贷款，用于悉尼 SYD3 园区
+[added] Bank of America, Citi and Morgan Stanley arrange ~$43.5B first lien for Anthropic chip SPV / 新增 美国银行、花旗和摩根士丹利为 Anthropic 芯片 SPV 安排约 435 亿美元第一留置权贷款
+[added] Blackstone provides second-lien debt in $63B Anthropic chip financing / 新增 黑石在 Anthropic 630 亿美元芯片融资中提供第二留置权债务
+[added] Amazon's debut £4.25B sterling bond sale / 新增 亚马逊首次发行 42.5 亿英镑英镑债
+[added] AMD $4.75B senior notes / 新增 AMD 发行 47.5 亿美元优先票据
+[added] Broadcom backs Anthropic chip-lease financing with up to $43B residual value support / 新增 博通为 Anthropic 芯片租赁融资提供最高 430 亿美元残值支持
+[added] Citi provides Nebius a $3.5B senior secured facility / 新增 花旗向 Nebius 提供 35 亿美元优先担保贷款
+[added] Deutsche Bank lends EcoDataCenter €600M / 新增 德意志银行向 EcoDataCenter 提供 6 亿欧元贷款
+[added] Fluidstack leases 224 MW at Cipher's Barber Lake (~$3.8B) / 新增 Fluidstack 租用 Cipher Barber Lake 园区 224 兆瓦（约 38 亿美元）
+[added] Fluidstack leases 360 MW at TeraWulf's Lake Mariner (~$6.7B) / 新增 Fluidstack 租用 TeraWulf Lake Mariner 园区 360 兆瓦（约 67 亿美元）
+[added] Oracle expands Nvidia deal to multi-gigawatt Vera Rubin superclusters / 新增 甲骨文将英伟达合作扩大至数吉瓦级 Vera Rubin 超级集群
+[added] Firmus raises $505M led by Coatue / 新增 Firmus 获 Coatue 领投 5.05 亿美元融资
+[added] Firmus raises $2B equity at $10.5B+ valuation / 新增 Firmus 完成 20 亿美元股权融资，估值逾 105 亿美元
+[added] Fluidstack raises $830M Series A at $7.5B / 新增 Fluidstack 完成 8.3 亿美元 A 轮融资，估值 75 亿美元
+[added] Fluidstack raises $1.5B led by Jane Street at $18B+ / 新增 Fluidstack 获 Jane Street 领投 15 亿美元融资，估值逾 180 亿美元
+[added] Groq raises $750M at $6.9B valuation / 新增 Groq 融资 7.5 亿美元，估值 69 亿美元
+[added] Meta launches $35B stock offering to fund AI build-out / 新增 Meta 启动 350 亿美元股票发行，为 AI 扩张融资</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/e9fbf37f26a14ac587aa6a8632d53e1c55c8e2ee</id>
+    <title>1 deals added · 0 changed · 新增 1 笔，更新 0 笔</title>
+    <updated>2026-10-28T03:33:41Z</updated>
+    <published>2026-10-28T03:33:41Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[added] AMD credit facility / 新增 AMD（超威半导体） 信贷安排</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/b2a80d9fa577cff1796ece3361732d9fffb38e19</id>
+    <title>4 deals added · 1 changed · 新增 4 笔，更新 1 笔</title>
+    <updated>2026-10-28T03:29:49Z</updated>
+    <published>2026-10-28T03:29:49Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[changed] Core Scientific $3.3B senior secured notes due 2031 / 更新 Core Scientific 发行 33 亿美元优先担保票据（2031 年到期） (amount_text, subkind, summary_en, summary_zh, term, title_en, title_zh)
+[added] AMD invests $1B in Meta's share offering / 新增 AMD 向 Meta 股票发行投资 10 亿美元
+[added] JPMorgan $500M bridge loan to Core Scientific (repaid) / 新增 摩根大通向 Core Scientific 提供 5 亿美元过桥贷款（已偿还）
+[added] Morgan Stanley $500M bridge loan to Core Scientific (repaid) / 新增 摩根士丹利向 Core Scientific 提供 5 亿美元过桥贷款（已偿还）
+[added] NVIDIA invests $3B in Meta's share offering, expands Muse partnership / 新增 英伟达向 Meta 股票发行投资 30 亿美元，扩大 Muse 合作</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/6c8f065b3b78190a56833e2c839e9485db0ee250</id>
+    <title>1 deals added · 0 changed · 新增 1 笔，更新 0 笔</title>
+    <updated>2026-10-28T03:20:39Z</updated>
+    <published>2026-10-28T03:20:39Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[added] Core Scientific financing / 新增 Core Scientific 融资</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/54903fc1c1bcb15124ccd50ecb06a7f2ab11b606</id>
+    <title>3 deals added · 0 changed · 新增 3 笔，更新 0 笔</title>
+    <updated>2026-10-28T00:58:56Z</updated>
+    <published>2026-10-28T00:58:56Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[added] Alphabet / Google $8.5B notes offering / 新增 谷歌（Alphabet）发行 85 亿美元票据
+[added] Amazon / AWS $14B notes offering / 新增 亚马逊（AWS）发行 140 亿美元票据
+[added] NVIDIA $25B notes offering / 新增 英伟达发行 250 亿美元票据</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/feeed5acd4a69e8d82e2eb4d572f9336ea75cb66</id>
+    <title>3 deals added · 0 changed · 新增 3 笔，更新 0 笔</title>
+    <updated>2026-10-27T10:18:25Z</updated>
+    <published>2026-10-27T10:18:25Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[added] Arm buys AI networking chipmaker DreamBig for $265M / 新增 Arm 以 2.65 亿美元收购 AI 网络芯片商 DreamBig
+[added] Apple $4.5B bond sale, its first in two years / 新增 苹果发行 45 亿美元债券，两年来首次
+[added] Malaysia pays Arm $250M for chip design licences / 新增 马来西亚向 Arm 支付 2.5 亿美元购买芯片设计授权</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/c37d9ec04508d38fbc53ca8846ddf62d5c587b98</id>
+    <title>24 deals added · 0 changed · 新增 24 笔，更新 0 笔</title>
+    <updated>2026-10-27T10:16:40Z</updated>
+    <published>2026-10-27T10:16:40Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[added] Google locks in Broadcom for TPUs through 2031 / 新增 谷歌与博通签署至 2031 年的 TPU 长期协议
+[added] AMD and Samsung MOU for primary HBM4 supply / 新增 AMD 与三星签署 HBM4 主力供应谅解备忘录
+[added] AMD makes 2nm EPYC Venice and US-built CPUs at TSMC / 新增 AMD 在台积电生产 2 纳米 EPYC Venice 及美国制造 CPU
+[added] Apple extends Broadcom chip deal through 2031 / 新增 苹果与博通芯片合作延长至 2031 年
+[added] Apple to have Samsung make new chips in Austin, Texas / 新增 苹果委托三星在德州奥斯汀生产新型芯片
+[added] Apple paid TSMC about $20.6B in 2025 / 新增 苹果 2025 年向台积电支付约 206 亿美元
+[added] Apple to buy 100M+ chips from TSMC Arizona in 2026 / 新增 苹果 2026 年将从台积电亚利桑那厂采购逾 1 亿颗芯片
+[added] Broadcom $5B bond sale (July 2024) / 新增 博通发行 50 亿美元债券（2024 年 7 月）
+[added] Broadcom $5B bond sale (September 2024) / 新增 博通发行 50 亿美元债券（2024 年 9 月）
+[added] Broadcom $3B bond sale (January 2025) / 新增 博通发行 30 亿美元债券（2025 年 1 月）
+[added] Broadcom $4.5B bond sale (January 2026) / 新增 博通发行 45 亿美元债券（2026 年 1 月）
+[added] Micron $1.75B senior notes / 新增 美光发行 17.5 亿美元优先票据
+[added] SK hynix $1.5B dollar bond sale / 新增 SK 海力士发行 15 亿美元美元债
+[added] Broadcom and Samsung sign $200B memory and foundry MOU / 新增 博通与三星签署 2000 亿美元存储与代工合作备忘录
+[added] Meta is first customer for Arm's own AGI CPU / 新增 Meta 成为 Arm 自研 AGI CPU 首个客户
+[added] Meta commits to multi-gigawatt MTIA custom chips with Broadcom / 新增 Meta 与博通签署数吉瓦 MTIA 定制芯片合作
+[added] Micron buys PSMC's Tongluo fab for $1.8B to add DRAM/HBM capacity / 新增 美光以 18 亿美元收购力积电铜锣晶圆厂，扩充 DRAM/HBM 产能
+[added] Micron supplies HBM4 for Nvidia's Vera Rubin / 新增 美光为英伟达 Vera Rubin 供应 HBM4
+[added] Samsung starts HBM4 shipments to Nvidia / 新增 三星开始向英伟达供应 HBM4
+[added] Nvidia becomes TSMC's largest customer ($23B in 2025) / 新增 英伟达成为台积电最大客户（2025 年约 232 亿美元）
+[added] OpenAI named as early customer for Arm's AGI CPU / 新增 OpenAI 被列为 Arm AGI CPU 的早期客户
+[added] Samsung builds an AI Megafactory on 50,000+ Nvidia GPUs / 新增 三星以 5 万余块英伟达 GPU 打造 AI 超级工厂
+[added] Tesla $16.5B AI6 chip foundry contract with Samsung / 新增 特斯拉与三星的 165 亿美元 AI6 芯片代工合同
+[added] US CHIPS award gives TSMC Arizona $5B of loans / 新增 美国芯片法案向台积电亚利桑那提供 50 亿美元贷款</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/a45d2c6ec38122bba4c863b3bf7341a7baeda5e9</id>
+    <title>22 deals added · 0 changed · 新增 22 笔，更新 0 笔</title>
+    <updated>2026-10-27T10:11:59Z</updated>
+    <published>2026-10-27T10:11:59Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[added] Google invests another $1B in Anthropic / 新增 谷歌再向 Anthropic 投资 10 亿美元
+[added] Alphabet buys data-centre power developer Intersect for $4.75B / 新增 Alphabet 以 47.5 亿美元收购数据中心电力开发商 Intersect
+[added] AWS multi-billion custom-chip deal with Intel (18A AI fabric chip) / 新增 AWS 与英特尔数十亿美元定制芯片合作（18A AI 互连芯片）
+[added] Apollo pays $11B for 49% of Intel's Fab 34 venture in Ireland / 新增 阿波罗以 110 亿美元收购英特尔爱尔兰 Fab 34 合资企业 49% 股权
+[added] Apple reaches preliminary deal for Intel to make some of its chips / 新增 苹果与英特尔达成初步代工协议
+[added] Bank of America extends OpenAI a $520M credit line / 新增 美国银行向 OpenAI 提供 5.2 亿美元授信
+[added] Disney invests $1B in OpenAI and licenses characters to Sora / 新增 迪士尼向 OpenAI 投资 10 亿美元并授权角色用于 Sora
+[added] Meta acquires AI agent startup Manus / 新增 Meta 收购 AI 智能体初创公司 Manus
+[added] Microsoft chooses Intel 18A to make an in-house chip / 新增 微软选择英特尔 18A 工艺生产自研芯片
+[added] Nvidia multi-year HBM supply partnership with SK hynix / 新增 英伟达与 SK 海力士的多年期 HBM 供应合作
+[added] OpenAI buys Jony Ive's io for $6.5B in stock / 新增 OpenAI 以约 65 亿美元股票收购乔尼·艾维的 io
+[added] OpenAI invests $500M in Stargate partner SB Energy / 新增 OpenAI 向星际之门合作方 SB Energy 投资 5 亿美元
+[added] Anthropic $3.5B Series E at $61.5B / 新增 Anthropic 35 亿美元 E 轮融资（估值 615 亿美元）
+[added] OpenAI raises $6.6B at a $157B valuation / 新增 OpenAI 以 1570 亿美元估值融资 66 亿美元
+[added] OpenAI extends its round by ~$12B to $122B / 新增 OpenAI 融资轮追加约 120 亿美元至 1220 亿美元
+[added] Intel raises $20B in upsized share sale / 新增 英特尔增发股票募资 200 亿美元
+[added] SK hynix raises $26.5B in record US listing / 新增 SK 海力士赴美上市募资 265 亿美元，创纪录
+[added] SK hynix completes purchase of Intel's NAND business / 新增 SK 海力士完成收购英特尔 NAND 业务
+[added] SoftBank invests $2B in Intel / 新增 软银向英特尔投资 20 亿美元
+[added] SoftBank puts $500M more into SB Energy for Stargate Texas / 新增 软银再向 SB Energy 注资 5 亿美元支持得州星际之门
+[added] Tesla picks Intel 14A for its Terafab chips / 新增 特斯拉选择英特尔 14A 工艺生产 Terafab 芯片
+[added] US government takes a 9.9% stake in Intel for $8.9B / 新增 美国政府以 89 亿美元入股英特尔 9.9%</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/ab0a16e62570a8d85fc1f612201e9ccc8dd84ffb</id>
+    <title>23 deals added · 0 changed · 新增 23 笔，更新 0 笔</title>
+    <updated>2026-10-27T10:08:12Z</updated>
+    <published>2026-10-27T10:08:12Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[added] AWS signs $5.5B, 15-year lease with Cipher Mining / 新增 亚马逊 AWS 与 Cipher Mining 签订 55 亿美元 15 年租约
+[added] ASML leads Mistral AI's Series C with €1.3B / 新增 阿斯麦以 13 亿欧元领投 Mistral AI C 轮
+[added] Mistral AI raises $830M of debt for Paris-area data centre / 新增 Mistral AI 为巴黎附近数据中心举债 8.3 亿美元
+[added] Brookfield provides Crusoe a $750M credit facility / 新增 布鲁克菲尔德向 Crusoe 提供 7.5 亿美元信贷额度
+[added] MGX co-leads Anthropic's Series G / 新增 MGX 联合领投 Anthropic G 轮
+[added] MGX co-founds Campus AI, Europe's largest AI campus, in France / 新增 MGX 联合创立法国 AI 园区（欧洲最大 AI 园区）
+[added] MGX, Bpifrance and Mistral expand Campus AI with a second French site / 新增 MGX、Bpifrance 与 Mistral 为法国 AI 园区增建第二个站点
+[added] MGX invests in xAI's Series C / 新增 MGX 参投 xAI C 轮
+[added] Microsoft's multibillion-dollar compute deal with Mistral AI / 新增 微软与 Mistral AI 签订数十亿美元算力协议
+[added] Mistral AI co-founds the Campus AI joint venture / 新增 Mistral AI 联合创立法国 AI 园区合资公司
+[added] Mistral AI's $1.4B AI data centre in Sweden with EcoDataCenter / 新增 Mistral AI 与 EcoDataCenter 在瑞典投资 14 亿美元建设 AI 数据中心
+[added] Nvidia to invest $1B in Naver's AI factory buildout / 新增 英伟达拟为 NAVER 的 AI 工厂建设投资 10 亿美元
+[added] OpenAI adds Google Cloud as a compute supplier / 新增 OpenAI 将谷歌云纳入算力供应商
+[added] Mistral AI raises €600M at €5.8B valuation / 新增 Mistral AI 以 58 亿欧元估值融资 6 亿欧元
+[added] Mistral AI raises €3B Series D led by Samsung / 新增 Mistral AI 完成三星领投的 30 亿欧元 D 轮
+[added] xAI raises $6B Series B / 新增 xAI 完成 60 亿美元 B 轮融资
+[added] xAI raises $6B Series C / 新增 xAI 完成 60 亿美元 C 轮融资
+[added] xAI raises $20B Series E / 新增 xAI 完成 200 亿美元 E 轮融资
+[added] Oracle raises $5B with mandatory convertible preferred stock / 新增 甲骨文发行 50 亿美元强制可转换优先股
+[added] Oracle raises $19.9B of new equity through an at-the-market programme / 新增 甲骨文通过按市价发行计划募集 199 亿美元股本
+[added] Samsung leads Mistral AI's Series D / 新增 三星领投 Mistral AI D 轮
+[added] Tesla invests about $2B in xAI / 新增 特斯拉向 xAI 投资约 20 亿美元
+[added] xAI joins the AI Infrastructure Partnership / 新增 xAI 加入 AI 基础设施合作伙伴关系（AIP）</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/d9b7a5104685c66a8f01e6019bc7d488ae72ef29</id>
+    <title>24 deals added · 0 changed · 新增 24 笔，更新 0 笔</title>
+    <updated>2026-10-27T10:04:25Z</updated>
+    <published>2026-10-27T10:04:25Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[added] Apollo and Blackstone lend $35B to Broadcom's chip SPV for Anthropic / 新增 阿波罗与黑石向博通为 Anthropic 设立的芯片 SPV 贷款 350 亿美元
+[added] Apollo funds to buy majority of Stream Data Centers / 新增 阿波罗基金收购 Stream 数据中心多数股权
+[added] Banks line up $22B chip loan for Blackstone-Google Crux AI / 新增 银行为黑石与谷歌的 Crux AI 安排 220 亿美元芯片贷款
+[added] Blackstone buys AirTrunk for A$24B / 新增 黑石以 240 亿澳元收购 AirTrunk
+[added] Blackstone commits $5B to Crux AI, its TPU cloud with Google / 新增 黑石向与谷歌合办的 TPU 云 Crux AI 注资 50 亿美元
+[added] Blackstone leads $10B debt facility for Australia's Firmus / 新增 黑石牵头为澳大利亚 Firmus 提供 100 亿美元债务融资
+[added] Blue Owl funds take an 80% stake in Meta's Hyperion data-centre JV / 新增 Blue Owl 基金入股 Meta Hyperion 数据中心合资公司 80%
+[added] Blue Owl, Chirisa and PowerHouse JV for CoreWeave data centres / 新增 Blue Owl、Chirisa 与 PowerHouse 为 CoreWeave 设立数据中心合资
+[added] Blue Owl-led $4B JV funds CoreWeave's Lancaster campus / 新增 Blue Owl 牵头的 40 亿美元合资为 CoreWeave 兰开斯特园区融资
+[added] Blue Owl co-sponsors Crusoe's $15B Abilene campus joint venture / 新增 Blue Owl 联合投资 Crusoe 阿比林园区 150 亿美元合资项目
+[added] Blue Owl leads $2.4B GPU financing for IREN / 新增 Blue Owl 牵头为 IREN 提供 24 亿美元 GPU 融资
+[added] Blue Owl's ~$3B equity in Oracle's Project Jupiter campus / 新增 Blue Owl 在甲骨文 Project Jupiter 园区约 30 亿美元股权投资
+[added] Baidu CNY 4.4B dim sum bonds for AI / 新增 百度 44 亿元离岸人民币债券支持 AI
+[added] $1.1B junk bonds for Blue Owl-backed CoreWeave data centre / 新增 Blue Owl 支持的 CoreWeave 数据中心发行 11 亿美元垃圾债
+[added] Brookfield's $5B Bloom Energy fuel-cell deal for AI data centres / 新增 布鲁克菲尔德与 Bloom Energy 签订 50 亿美元 AI 数据中心燃料电池协议
+[added] Brookfield expands Bloom Energy partnership to $25B / 新增 布鲁克菲尔德将与 Bloom Energy 的合作扩大至 250 亿美元
+[added] Baidu's Kunlunxin wins &gt;CNY 1B China Mobile AI chip orders / 新增 百度昆仑芯中标中国移动逾 10 亿元 AI 芯片订单
+[added] CoreWeave 15-year, $2.94B lease of Richmond Digital Drive campus / 新增 CoreWeave 以 29.4 亿美元租用里士满 Digital Drive 园区 15 年
+[added] KKR launches Helix AI infrastructure platform with $10B+ / 新增 KKR 以逾 100 亿美元启动 Helix AI 基础设施平台
+[added] Brookfield to fund up to $9B of compute for Naver's AI factory / 新增 布鲁克菲尔德为 NAVER AI 工厂提供最高 90 亿美元算力融资
+[added] Nvidia joins Brookfield's $100B AI infrastructure programme / 新增 英伟达加入布鲁克菲尔德 1000 亿美元 AI 基础设施计划
+[added] Cambricon CNY 3.99B private placement for large-model chips / 新增 寒武纪 39.85 亿元定增投向大模型芯片
+[added] Samsung commits $1B to KKR-led Helix / 新增 三星向 KKR 牵头的 Helix 投资 10 亿美元
+[added] SpaceX (xAI) signs $40B Apollo-led GPU lease financing / 新增 SpaceX（xAI）签署阿波罗牵头的 400 亿美元 GPU 租赁融资</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/4ceb55bd96e1ddd24953e0ebf686b2d0c760683c</id>
+    <title>22 deals added · 0 changed · 新增 22 笔，更新 0 笔</title>
+    <updated>2026-10-27T09:59:05Z</updated>
+    <published>2026-10-27T09:59:05Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[added] Alibaba leads $600M round in MiniMax / 新增 阿里巴巴领投 MiniMax 6 亿美元融资
+[added] Alibaba is cornerstone investor in MiniMax Hong Kong IPO / 新增 阿里巴巴作为基石投资者认购 MiniMax 港股 IPO
+[added] Alibaba leads $1B round in Moonshot AI / 新增 阿里巴巴领投月之暗面 10 亿美元融资
+[added] Alibaba $5B convertible notes / 新增 阿里巴巴 50 亿美元可转换票据
+[added] Alibaba $5B dual-currency bond sale / 新增 阿里巴巴约 50 亿美元双币种债券
+[added] Alibaba HK$12B exchangeable bonds for cloud and commerce / 新增 阿里巴巴 120 亿港元可交换债券用于云与国际电商
+[added] Alibaba $3.2B convertible to fund cloud and AI / 新增 阿里巴巴 32 亿美元可转债投向云与 AI
+[added] Baidu CNY 10B dim sum bonds / 新增 百度 100 亿元离岸人民币债券
+[added] Baidu $2B exchangeable bonds into Trip.com / 新增 百度 20 亿美元可交换债（可换携程股份）
+[added] Tencent CNY 9B debut dim sum bonds / 新增 腾讯首发 90 亿元离岸人民币债券
+[added] Tencent $4.66B dual-currency bond sale / 新增 腾讯 46.6 亿美元双币种债券
+[added] Tencent ~$5.7B bond sale amid AI spending / 新增 腾讯约 57 亿美元发债应对 AI 支出
+[added] ByteDance rents Nvidia Blackwell cluster from Aolani Cloud in Malaysia / 新增 字节跳动向 Aolani Cloud 租用马来西亚英伟达 Blackwell 算力
+[added] ByteDance plans ~$14B of Nvidia H200 purchases in 2026 / 新增 字节跳动计划 2026 年采购约 140 亿美元英伟达 H200
+[added] MGX takes 15% of TikTok US joint venture / 新增 MGX 持有 TikTok 美国合资公司 15% 股权
+[added] Oracle takes 15% of TikTok US joint venture / 新增 甲骨文持有 TikTok 美国合资公司 15% 股权
+[added] Moonshot AI $500M Series C / 新增 月之暗面 5 亿美元 C 轮融资
+[added] Moonshot AI raises $2B at $20B valuation / 新增 月之暗面以 200 亿美元估值融资 20 亿美元
+[added] Moonshot AI raises $3.5B at $35B valuation / 新增 月之暗面以 350 亿美元估值融资 35 亿美元
+[added] Tencent invests in Moonshot AI / 新增 腾讯投资月之暗面
+[added] Tencent buys Nvidia H200 chips after approvals / 新增 腾讯获批后采购英伟达 H200
+[added] Tencent leases 100,000 AI chips from Oracle for ~$7B / 新增 腾讯以约 70 亿美元向甲骨文租用 10 万颗 AI 芯片</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/1697c3075de30395b40e0d57e7a03e5218dccd60</id>
+    <title>2 deals added · 0 changed · 新增 2 笔，更新 0 笔</title>
+    <updated>2026-10-27T09:21:17Z</updated>
+    <published>2026-10-27T09:21:17Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[added] ByteDance $10.8B offshore syndicated loan / 新增 字节跳动 108 亿美元境外银团贷款
+[added] ByteDance $29.6B syndicated loan for AI push / 新增 字节跳动 296 亿美元银团贷款支持 AI 扩张</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/28052d77bcdba3205691f7c58c2e69ed9944b909</id>
+    <title>3 deals added · 4 changed · 新增 3 笔，更新 4 笔</title>
+    <updated>2026-10-27T08:16:25Z</updated>
+    <published>2026-10-27T08:16:25Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[changed] Google rents SpaceX/xAI compute ($920M a month) / 更新 谷歌租用 SpaceX/xAI 算力（每月 9.2 亿美元） (summary_zh)
+[changed] Amazon invests $50B in OpenAI / 更新 亚马逊向 OpenAI 投资 500 亿美元 (summary_zh)
+[changed] MGX is an initial equity funder of Stargate / 更新 MGX 为星际之门（Stargate）初始股权出资方 (title_zh)
+[changed] OpenAI is an initial equity funder of Stargate / 更新 OpenAI 为星际之门（Stargate）初始股权出资方 (title_zh)
+[added] Micron invests in Anthropic's Series H / 新增 美光参投 Anthropic H 轮融资
+[added] Samsung Electronics invests in Anthropic's Series H / 新增 三星电子参投 Anthropic H 轮融资
+[added] SK hynix invests in Anthropic's Series H / 新增 SK 海力士参投 Anthropic H 轮融资</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/5b52dbec47c3294a4d812a4e368064720e25287e</id>
+    <title>15 deals added · 46 changed · 4 removed · 新增 15 笔，更新 46 笔，移除 4 笔</title>
+    <updated>2026-10-27T08:03:50Z</updated>
+    <published>2026-10-27T08:03:50Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[removed] Google backstops $3.2B of Fluidstack leases at TeraWulf / 移除 谷歌为 Fluidstack 在 TeraWulf 的租约提供 32 亿美元兜底
+[removed] Google backstops $1.73B of Fluidstack leases at Cipher / 移除 谷歌为 Fluidstack 在 Cipher 的租约提供 17.3 亿美元兜底
+[removed] Nvidia $6.3B backstop for CoreWeave's unsold capacity / 移除 英伟达为 CoreWeave 闲置算力提供 63 亿美元兜底
+[removed] Nvidia guarantees up to $105B of OpenAI's Ohio campus lease / 移除 英伟达为 OpenAI 俄亥俄园区租约提供最高 1050 亿美元担保
+[changed] Google to invest up to $40B in Anthropic / 更新 谷歌向 Anthropic 投资最多 400 亿美元 (confidence, sources, summary_en, summary_zh)
+[changed] Google rents SpaceX/xAI compute ($920M a month) / 更新 谷歌租用 SpaceX/xAI 算力（每月 9.2 亿美元） (confidence, sources, summary_en, summary_zh)
+[changed] Amazon's $8B investment in Anthropic / 更新 亚马逊对 Anthropic 的 80 亿美元投资 (sources)
+[changed] Amazon to invest up to $25B more in Anthropic / 更新 亚马逊再向 Anthropic 投资最多 250 亿美元 (summary_en, summary_zh)
+[changed] Amazon invests $50B in OpenAI / 更新 亚马逊向 OpenAI 投资 500 亿美元 (amount_text, status, summary_en, summary_zh)
+[changed] AMD to invest up to $5B in Anthropic / 更新 AMD 向 Anthropic 投资最多 50 亿美元 (confidence)
+[changed] Anthropic 5 GW TPU deal with Google and Broadcom / 更新 Anthropic 与谷歌、博通的 5 吉瓦 TPU 协议 (amount_text, sources, summary_en, summary_zh, title_en, title_zh)
+[changed] Anthropic buys $21B of Google Ironwood TPU racks from Broadcom / 更新 Anthropic 向博通采购 210 亿美元谷歌 Ironwood TPU 机架 (confidence)
+[changed] Anthropic multi-year cloud deal with CoreWeave / 更新 Anthropic 与 CoreWeave 的多年期云合同 (confidence)
+[changed] Anthropic's $50B US data-centre build with Fluidstack / 更新 Anthropic 与 Fluidstack 合作的 500 亿美元美国数据中心建设 (amount_text)
+[changed] Anthropic commits $30B to Microsoft Azure / 更新 Anthropic 承诺采购 300 亿美元微软 Azure 算力 (summary_en, summary_zh)
+[changed] Anthropic rents SpaceX/xAI Colossus compute (~$1.25B a month) / 更新 Anthropic 租用 SpaceX/xAI Colossus 算力（每月约 12.5 亿美元） (amount_text, amount_usd, sources, summary_en, summary_zh)
+[changed] Apple licenses Google Gemini for Siri and Apple Foundation Models / 更新 苹果授权使用谷歌 Gemini 打造 Siri 与苹果基础模型 (amount_text, amount_usd, confidence)
+[changed] CoreWeave $7.5B debt facility led by Blackstone / 更新 黑石牵头向 CoreWeave 提供 75 亿美元债务融资 (summary_en)
+[changed] Alphabet ~$25B US and euro bond sales / 更新 谷歌母公司 Alphabet 在美欧发行约 250 亿美元债券 (confidence)
+[changed] Alphabet ~$32B multi-currency bonds incl. century bond / 更新 Alphabet 发行近 320 亿美元多币种债券（含百年期债券） (confidence)
+[changed] Alphabet $25B bond sale / 更新 Alphabet 发行 250 亿美元债券 (confidence, sources, summary_en, summary_zh)
+[changed] Amazon $15B bond sale, first US deal in three years / 更新 亚马逊发行 150 亿美元债券（三年来首次美元发债） (confidence)
+[changed] Amazon ~$54B dollar and euro bond sales / 更新 亚马逊发行约 540 亿美元美元及欧元债券 (amount_text, confidence)
+[changed] Amazon $25B bond sale as demand cools / 更新 亚马逊在需求降温中发行 250 亿美元债券 (confidence)
+[changed] Meta $30B bond sale / 更新 Meta 发行 300 亿美元债券 (confidence)
+[changed] Meta $25B bond sale / 更新 Meta 发行 250 亿美元债券 (confidence)
+[changed] Oracle $18B bond sale for AI infrastructure / 更新 甲骨文发行 180 亿美元债券为 AI 基础设施融资 (confidence)
+[changed] Oracle $25B bond sale in $45–50B 2026 funding plan / 更新 甲骨文发行 250 亿美元债券（2026 年 450–500 亿美元融资计划的一部分） (confidence, sources, summary_en, summary_zh)
+[changed] Broadcom to lend Anthropic up to $42B for TPU chips / 更新 博通向 Anthropic 提供最高 420 亿美元芯片融资 (amount_text, confidence, summary_en, summary_zh)
+[changed] SoftBank $10B loan backed by its OpenAI stake / 更新 软银以 OpenAI 股份质押获 100 亿美元贷款 (confidence)
+[changed] SpaceX $20B bridge loan to refinance xAI and X debt / 更新 SpaceX 200 亿美元过桥贷款为 xAI 和 X 债务再融资 (confidence)
+[changed] SoftBank $40B bridge loan for its $30B OpenAI follow-on / 更新 软银 400 亿美元过桥贷款用于追加投资 OpenAI 300 亿美元 (sources)
+[changed] AMD grants Meta warrant for up to 160M shares / 更新 AMD 向 Meta 授予最多 1.6 亿股认股权证 (confidence)
+[changed] Meta $14.2B cloud contract with CoreWeave / 更新 Meta 与 CoreWeave 的 142 亿美元云合同 (confidence)
+[changed] Meta ~$3B AI infrastructure contract with Nebius / 更新 Meta 与 Nebius 约 30 亿美元的 AI 基础设施合同 (confidence)
+[changed] Microsoft to invest up to $5B in Anthropic / 更新 微软向 Anthropic 投资最多 50 亿美元 (sources)
+[changed] Microsoft's ~27% stake in OpenAI / 更新 微软持有 OpenAI 约 27% 股权 (confidence)
+[changed] SoftBank $15B bridge loan for OpenAI and Ampere / 更新 软银 150 亿美元过桥贷款用于 OpenAI 与 Ampere 投资 (sources)
+[changed] CoreWeave $3.1B GPU-backed term loan / 更新 CoreWeave 获 31 亿美元 GPU 抵押定期贷款 (sources)
+[changed] xAI $5B bonds and loans via Morgan Stanley (repaid) / 更新 xAI 经摩根士丹利发行 50 亿美元债券及贷款（已偿还） (confidence)
+[changed] Nvidia $6.3B backstop for CoreWeave's unsold capacity / 更新 英伟达为 CoreWeave 未售出算力提供 63 亿美元兜底采购 (sources, summary_en, summary_zh)
+[changed] Nvidia invests $2B in Nebius / 更新 英伟达向 Nebius 投资 20 亿美元 (confidence)
+[changed] Nvidia letter of intent to invest up to $100B in OpenAI (superseded) / 更新 英伟达拟向 OpenAI 投资最多 1000 亿美元的意向书（已被取代） (amount_text)
+[changed] Nvidia invests $30B in OpenAI / 更新 英伟达向 OpenAI 投资 300 亿美元 (confidence)
+[changed] Nvidia invests in xAI's $20B Series E / 更新 英伟达参与 xAI 200 亿美元 E 轮融资 (confidence)
+[changed] OpenAI cloud compute contract with Oracle (Stargate 4.5 GW) / 更新 OpenAI 与甲骨文的云算力合同（星际之门 4.5 吉瓦） (amount_text, confidence)
+[changed] OpenAI memory-supply letter of intent with Samsung / 更新 OpenAI 与三星的存储芯片供应意向书 (confidence)
+[changed] OpenAI memory-supply letter of intent with SK hynix / 更新 OpenAI 与 SK 海力士的存储芯片供应意向书 (confidence)
+[changed] SoftBank invests a further $30B in OpenAI / 更新 软银再向 OpenAI 投资 300 亿美元 (amount_text, confidence, status)
+[changed] SpaceX acquires xAI / 更新 SpaceX 收购 xAI (amount_text, confidence)
+[added] BlackRock-led AI Infrastructure Partnership to buy Aligned Data Centers (~$40B) / 新增 贝莱德牵头的 AI 基础设施合作伙伴以约 400 亿美元收购 Aligned 数据中心
+[added] Google backstops $1.73B of Fluidstack leases at Cipher / 新增 谷歌为 Fluidstack 在 Cipher 的租约提供 17.3 亿美元兜底
+[added] Google backstops $3.2B of Fluidstack leases at TeraWulf / 新增 谷歌为 Fluidstack 在 TeraWulf 的租约提供 32 亿美元兜底
+[added] CoreWeave's $9B bid for Core Scientific (terminated) / 新增 CoreWeave 90 亿美元收购 Core Scientific（已终止）
+[added] Meta takes a 49% stake in Scale AI / 新增 Meta 入股 Scale AI 49%
+[added] MGX is an initial equity funder of Stargate / 新增 MGX为星际之门（Stargate）初始股权出资方
+[added] Nvidia licenses Groq's inference technology / 新增 英伟达获得 Groq 推理技术授权
+[added] Nvidia guarantees up to $105B of OpenAI's Ohio lease payments to SB Energy / 新增 英伟达为 OpenAI 向 SB Energy 支付的俄亥俄园区租金提供最高 1050 亿美元担保
+[added] OpenAI is an initial equity funder of Stargate / 新增 OpenAI为星际之门（Stargate）初始股权出资方
+[added] Oracle is an initial equity funder of Stargate / 新增 甲骨文为星际之门（Stargate）初始股权出资方
+[added] Anthropic $13B Series F at $183B / 新增 Anthropic 130 亿美元 F 轮融资（估值 1830 亿美元）
+[added] Anthropic $30B Series G at $380B / 新增 Anthropic 300 亿美元 G 轮融资（估值 3800 亿美元）
+[added] Anthropic $65B Series H at $965B / 新增 Anthropic 650 亿美元 H 轮融资（估值 9650 亿美元）
+[added] SoftBank to spend $3B a year on OpenAI products (Cristal intelligence) / 新增 软银每年斥资 30 亿美元采购 OpenAI 产品（Cristal intelligence）
+[added] SoftBank is an initial equity funder of Stargate / 新增 软银为星际之门（Stargate）初始股权出资方</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/8ddb40ed76f283d5990a128b932315113f5f374a</id>
+    <title>60 deals added · 0 changed · 新增 60 笔，更新 0 笔</title>
+    <updated>2026-10-27T07:27:00Z</updated>
+    <published>2026-10-27T07:27:00Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[added] Google backstops $3.2B of Fluidstack leases at TeraWulf / 新增 谷歌为 Fluidstack 在 TeraWulf 的租约提供 32 亿美元兜底
+[added] Google backstops $1.73B of Fluidstack leases at Cipher / 新增 谷歌为 Fluidstack 在 Cipher 的租约提供 17.3 亿美元兜底
+[added] Apollo $3.5B financing for xAI GPU vehicle / 新增 阿波罗为 xAI 的 GPU 载体提供 35 亿美元融资
+[added] SoftBank $25B margin loan backed by Arm shares / 新增 软银以 Arm 股份质押的 250 亿美元保证金贷款
+[added] Blackstone leads $18B junior debt for Anthropic chips / 新增 黑石牵头为 Anthropic 芯片提供 180 亿美元次级债务
+[added] CoreWeave $7.5B debt facility led by Blackstone / 新增 黑石牵头向 CoreWeave 提供 75 亿美元债务融资
+[added] Alphabet ~$25B US and euro bond sales / 新增 谷歌母公司 Alphabet 在美欧发行约 250 亿美元债券
+[added] Alphabet ~$32B multi-currency bonds incl. century bond / 新增 Alphabet 发行近 320 亿美元多币种债券（含百年期债券）
+[added] Alphabet $25B bond sale / 新增 Alphabet 发行 250 亿美元债券
+[added] Amazon $15B bond sale, first US deal in three years / 新增 亚马逊发行 150 亿美元债券（三年来首次美元发债）
+[added] Amazon ~$54B dollar and euro bond sales / 新增 亚马逊发行约 540 亿美元美元及欧元债券
+[added] Amazon $25B bond sale as demand cools / 新增 亚马逊在需求降温中发行 250 亿美元债券
+[added] Other investors in Meta Hyperion SPV bonds / 新增 其他投资者认购 Meta Hyperion SPV 债券
+[added] Cipher $1.4B secured notes for Barber Lake AI campus / 新增 Cipher 发行 14 亿美元有担保票据建设 Barber Lake AI 园区
+[added] CoreWeave $2B high-yield bond debut / 新增 CoreWeave 首发 20 亿美元高收益债
+[added] CoreWeave $1.75B senior notes / 新增 CoreWeave 发行 17.5 亿美元优先票据
+[added] CoreWeave $2.25B convertible notes / 新增 CoreWeave 发行 22.5 亿美元可转换票据
+[added] CoreWeave $3.5B convertible notes / 新增 CoreWeave 发行 35 亿美元可转换票据
+[added] CoreWeave $2.75B 9.75% senior notes / 新增 CoreWeave 发行 27.5 亿美元 9.75% 优先票据
+[added] CoreWeave $3.7B convertible notes / 新增 CoreWeave 发行 37 亿美元可转换票据
+[added] IREN $2.3B convertible notes for Microsoft build-out / 新增 IREN 发行 23 亿美元可转债支持微软项目
+[added] IREN $3B convertible notes / 新增 IREN 发行 30 亿美元可转债
+[added] Meta $30B bond sale / 新增 Meta 发行 300 亿美元债券
+[added] Meta $25B bond sale / 新增 Meta 发行 250 亿美元债券
+[added] Nebius $2.75B convertible notes after Microsoft deal / 新增 Nebius 在微软合同后发行 27.5 亿美元可转债
+[added] Nebius $4B convertible notes / 新增 Nebius 发行 40 亿美元可转债
+[added] Nebius $5B convertible notes / 新增 Nebius 发行 50 亿美元可转债
+[added] Oracle $18B bond sale for AI infrastructure / 新增 甲骨文发行 180 亿美元债券为 AI 基础设施融资
+[added] Oracle $25B bond sale in $45–50B 2026 funding plan / 新增 甲骨文发行 250 亿美元债券（2026 年 450–500 亿美元融资计划的一部分）
+[added] SoftBank ~$11B junk bond sale to fund OpenAI payment / 新增 软银发行约 111 亿美元高收益债以支付 OpenAI 投资款
+[added] $12.3B SPV bonds for Meta's El Paso campus / 新增 123 亿美元 SPV 债券支持 Meta 埃尔帕索园区
+[added] SpaceX (xAI parent) $25B debut bond / 新增 SpaceX（xAI 母公司）首发 250 亿美元债券
+[added] TeraWulf $3.2B secured notes for Lake Mariner AI campus / 新增 TeraWulf 发行 32 亿美元有担保票据建设 Lake Mariner AI 园区
+[added] Broadcom to lend Anthropic up to $42B for TPU chips / 新增 博通向 Anthropic 提供最高 420 亿美元芯片融资
+[added] SoftBank $10B loan backed by its OpenAI stake / 新增 软银以 OpenAI 股份质押获 100 亿美元贷款
+[added] SpaceX $20B bridge loan to refinance xAI and X debt / 新增 SpaceX 200 亿美元过桥贷款为 xAI 和 X 债务再融资
+[added] CoreWeave $2.6B DDTL 5.5 loan / 新增 CoreWeave 获 26 亿美元 DDTL 5.5 贷款
+[added] JPMorgan $2.3B loan for Abilene Stargate phase 1 / 新增 摩根大通为阿比林星际之门一期提供 23 亿美元贷款
+[added] JPMorgan-led $7.1B loan for Abilene Stargate phase 2 / 新增 摩根大通牵头 71 亿美元贷款支持阿比林星际之门二期
+[added] Lambda ~$1B private debt for GPUs leased to Microsoft / 新增 Lambda 约 10 亿美元私募债务用于租给微软的 GPU
+[added] OpenAI $4B revolving credit facility / 新增 OpenAI 40 亿美元循环信贷额度
+[added] SoftBank $40B bridge loan for its $30B OpenAI follow-on / 新增 软银 400 亿美元过桥贷款用于追加投资 OpenAI 300 亿美元
+[added] $38B bank loans for Oracle-leased Vantage data centres / 新增 380 亿美元银行贷款支持甲骨文租用的 Vantage 数据中心
+[added] CoreWeave $2.3B GPU-backed loan (Magnetar, Blackstone) / 新增 CoreWeave 获 23 亿美元 GPU 抵押贷款（Magnetar、黑石牵头）
+[added] Meta leases Hyperion campus from Blue Owl JV / 新增 Meta 向 Blue Owl 合资公司租用 Hyperion 园区
+[added] Meta residual value guarantee to Hyperion JV / 新增 Meta 向 Hyperion 合资公司提供剩余价值担保
+[added] Meta leases El Paso campus from BlackRock JV / 新增 Meta 向贝莱德合资公司租用埃尔帕索园区
+[added] SoftBank $15B bridge loan for OpenAI and Ampere / 新增 软银 150 亿美元过桥贷款用于 OpenAI 与 Ampere 投资
+[added] Anthropic revolving credit facility ($2.5B, expanding to ~$15B) / 新增 Anthropic 循环信贷额度（25 亿美元，拟扩至约 150 亿美元）
+[added] CoreWeave $2.6B loan to serve OpenAI contract / 新增 CoreWeave 获 26 亿美元贷款以履行 OpenAI 合同
+[added] CoreWeave $3.1B GPU-backed term loan / 新增 CoreWeave 获 31 亿美元 GPU 抵押定期贷款
+[added] Lambda $926M GPU loan backed by Nvidia lease-back / 新增 Lambda 获 9.26 亿美元 GPU 贷款（以英伟达回租合同支撑）
+[added] xAI $5B bonds and loans via Morgan Stanley (repaid) / 新增 xAI 经摩根士丹利发行 50 亿美元债券及贷款（已偿还）
+[added] CoreWeave $8.5B investment-grade GPU loan / 新增 CoreWeave 获 85 亿美元投资级 GPU 抵押贷款
+[added] Nvidia $6.3B backstop for CoreWeave's unsold capacity / 新增 英伟达为 CoreWeave 闲置算力提供 63 亿美元兜底
+[added] Nvidia guarantees up to $105B of OpenAI's Ohio campus lease / 新增 英伟达为 OpenAI 俄亥俄园区租约提供最高 1050 亿美元担保
+[added] PIMCO buys ~$18B of Meta Hyperion SPV bonds / 新增 PIMCO 认购约 180 亿美元 Meta Hyperion SPV 债券
+[added] PIMCO-anchored debt for Oracle's $16B Michigan campus / 新增 PIMCO 牵头认购甲骨文密歇根 160 亿美元园区的债务融资
+[added] $18B bank loan for Oracle-linked Project Jupiter, New Mexico / 新增 180 亿美元银团贷款支持甲骨文相关的新墨西哥州 Jupiter 项目
+[added] xAI leases Nvidia GPUs from Valor vehicle / 新增 xAI 向 Valor 载体租用英伟达 GPU</summary>
+  </entry>
+  <entry>
+    <id>tag:helajo.github.io,2026:ai-orders-debt/changes/b63d63bca0899b8c38ce9477d82104344d9788fe</id>
+    <title>60 deals added · 0 changed · 新增 60 笔，更新 0 笔</title>
+    <updated>2026-10-27T07:25:02Z</updated>
+    <published>2026-10-27T07:25:02Z</published>
+    <link rel="alternate" href="https://helajo.github.io/ai-orders-debt-live/" />
+    <summary type="text">[added] Google to invest up to $40B in Anthropic / 新增 谷歌向 Anthropic 投资最多 400 亿美元
+[added] Google rents SpaceX/xAI compute ($920M a month) / 新增 谷歌租用 SpaceX/xAI 算力（每月 9.2 亿美元）
+[added] Amazon's $8B investment in Anthropic / 新增 亚马逊对 Anthropic 的 80 亿美元投资
+[added] Amazon to invest up to $25B more in Anthropic / 新增 亚马逊再向 Anthropic 投资最多 250 亿美元
+[added] Amazon invests $50B in OpenAI / 新增 亚马逊向 OpenAI 投资 500 亿美元
+[added] AMD to invest up to $5B in Anthropic / 新增 AMD 向 Anthropic 投资最多 50 亿美元
+[added] Anthropic expands Google Cloud TPU use to up to 1M chips / 新增 Anthropic 将谷歌云 TPU 用量扩大至最多 100 万颗
+[added] Anthropic multi-gigawatt TPU deal with Google and Broadcom / 新增 Anthropic 与谷歌、博通的多吉瓦 TPU 协议
+[added] Anthropic commits &gt;$100B to AWS over 10 years / 新增 Anthropic 承诺 10 年内在 AWS 支出逾 1000 亿美元
+[added] Anthropic deal for up to 2 GW of AMD MI450 GPUs / 新增 Anthropic 采购最多 2 吉瓦 AMD MI450 GPU
+[added] Anthropic buys $21B of Google Ironwood TPU racks from Broadcom / 新增 Anthropic 向博通采购 210 亿美元谷歌 Ironwood TPU 机架
+[added] Anthropic multi-year cloud deal with CoreWeave / 新增 Anthropic 与 CoreWeave 的多年期云合同
+[added] Anthropic's $50B US data-centre build with Fluidstack / 新增 Anthropic 与 Fluidstack 合作的 500 亿美元美国数据中心建设
+[added] Anthropic $35B cloud deal with Lambda / 新增 Anthropic 与 Lambda 的 350 亿美元云合同
+[added] Anthropic commits $30B to Microsoft Azure / 新增 Anthropic 承诺采购 300 亿美元微软 Azure 算力
+[added] Anthropic $45B compute rental from Nscale / 新增 Anthropic 向 Nscale 租用 450 亿美元算力
+[added] Anthropic rents SpaceX/xAI Colossus compute (~$1.25B a month) / 新增 Anthropic 租用 SpaceX/xAI Colossus 算力（每月约 12.5 亿美元）
+[added] Apple licenses Google Gemini for Siri and Apple Foundation Models / 新增 苹果授权使用谷歌 Gemini 打造 Siri 与苹果基础模型
+[added] Meta $10B+ Google Cloud deal / 新增 Meta 与谷歌云逾 100 亿美元的合同
+[added] Meta rents Google TPUs in multi-billion deal / 新增 Meta 签署数十亿美元谷歌 TPU 租用协议
+[added] Meta deal for up to 6 GW of AMD GPUs / 新增 Meta 采购最多 6 吉瓦 AMD GPU
+[added] AMD grants Meta warrant for up to 160M shares / 新增 AMD 向 Meta 授予最多 1.6 亿股认股权证
+[added] Meta $14.2B cloud contract with CoreWeave / 新增 Meta 与 CoreWeave 的 142 亿美元云合同
+[added] Meta expands CoreWeave contract by $21B / 新增 Meta 追加 210 亿美元 CoreWeave 合同
+[added] Meta ~$3B AI infrastructure contract with Nebius / 新增 Meta 与 Nebius 约 30 亿美元的 AI 基础设施合同
+[added] Meta up to $27B AI infrastructure deal with Nebius / 新增 Meta 与 Nebius 最高 270 亿美元的 AI 基础设施协议
+[added] Meta multiyear deal for millions of Nvidia GPUs / 新增 Meta 与英伟达签署数百万颗 GPU 的多年期协议
+[added] Meta ~$20B cloud contract with Oracle / 新增 Meta 与甲骨文约 200 亿美元的云合同
+[added] Microsoft to invest up to $5B in Anthropic / 新增 微软向 Anthropic 投资最多 50 亿美元
+[added] Microsoft $9.7B AI cloud contract with IREN / 新增 微软与 IREN 的 97 亿美元 AI 云合同
+[added] Microsoft multibillion-dollar GPU deal with Lambda / 新增 微软与 Lambda 的数十亿美元 GPU 协议
+[added] Microsoft $17.4B GPU capacity contract with Nebius / 新增 微软与 Nebius 的 174 亿美元 GPU 算力合同
+[added] Microsoft contracts ~200,000 GB300 GPUs from Nscale / 新增 微软向 Nscale 采购约 20 万颗 GB300 GPU 算力
+[added] Microsoft's ~27% stake in OpenAI / 新增 微软持有 OpenAI 约 27% 股权
+[added] Nvidia to invest up to $10B in Anthropic / 新增 英伟达向 Anthropic 投资最多 100 亿美元
+[added] Nvidia $6.3B backstop for CoreWeave's unsold capacity / 新增 英伟达为 CoreWeave 未售出算力提供 63 亿美元兜底采购
+[added] Nvidia invests $2B more in CoreWeave / 新增 英伟达再向 CoreWeave 投资 20 亿美元
+[added] Nvidia invests $5B in Intel / 新增 英伟达向英特尔投资 50 亿美元
+[added] Nvidia leases back its own GPUs from Lambda (~$1.5B) / 新增 英伟达向 Lambda 回租自家 GPU（约 15 亿美元）
+[added] Nvidia invests $2B in Nebius / 新增 英伟达向 Nebius 投资 20 亿美元
+[added] Nvidia letter of intent to invest up to $100B in OpenAI (superseded) / 新增 英伟达拟向 OpenAI 投资最多 1000 亿美元的意向书（已被取代）
+[added] Nvidia invests $30B in OpenAI / 新增 英伟达向 OpenAI 投资 300 亿美元
+[added] Nvidia invests in xAI's $20B Series E / 新增 英伟达参与 xAI 200 亿美元 E 轮融资
+[added] OpenAI $38B AWS cloud contract / 新增 OpenAI 与 AWS 的 380 亿美元云合同
+[added] OpenAI expands AWS commitment by $100B (Trainium) / 新增 OpenAI 追加 1000 亿美元 AWS 承诺（Trainium 芯片）
+[added] OpenAI 6 GW AMD Instinct GPU agreement / 新增 OpenAI 与 AMD 的 6 吉瓦 Instinct GPU 协议
+[added] AMD grants OpenAI warrant for up to 160M shares / 新增 AMD 向 OpenAI 授予最多 1.6 亿股认股权证
+[added] OpenAI and Broadcom 10 GW custom accelerator deal / 新增 OpenAI 与博通的 10 吉瓦定制加速器协议
+[added] OpenAI compute deal with Cerebras (&gt;$20B) / 新增 OpenAI 与 Cerebras 的算力合同（逾 200 亿美元）
+[added] OpenAI warrant and stake in Cerebras / 新增 OpenAI 持有 Cerebras 认股权证及股份
+[added] OpenAI cloud contracts with CoreWeave (~$22.4B) / 新增 OpenAI 与 CoreWeave 的云算力合同（约 224 亿美元）
+[added] OpenAI commits an extra $250B to Microsoft Azure / 新增 OpenAI 追加 2500 亿美元微软 Azure 采购承诺
+[added] OpenAI cloud compute contract with Oracle (Stargate 4.5 GW) / 新增 OpenAI 与甲骨文的云算力合同（星际之门 4.5 吉瓦）
+[added] OpenAI memory-supply letter of intent with Samsung / 新增 OpenAI 与三星的存储芯片供应意向书
+[added] OpenAI memory-supply letter of intent with SK hynix / 新增 OpenAI 与 SK 海力士的存储芯片供应意向书
+[added] Oracle deploys 50,000 AMD MI450 GPUs / 新增 甲骨文部署 5 万颗 AMD MI450 GPU
+[added] Oracle buys ~$40B of Nvidia chips for OpenAI's Abilene site / 新增 甲骨文为 OpenAI 阿比林站点采购约 400 亿美元英伟达芯片
+[added] SoftBank leads OpenAI's $41B round / 新增 软银领投 OpenAI 410 亿美元融资
+[added] SoftBank invests a further $30B in OpenAI / 新增 软银再向 OpenAI 投资 300 亿美元
+[added] SpaceX acquires xAI / 新增 SpaceX 收购 xAI</summary>
+  </entry>
+</feed>
