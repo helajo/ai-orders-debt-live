@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-28T22:48:39Z",
+ "generated_at": "2026-10-29T00:24:34Z",
  "monitor": {
   "last_run": "2026-10-28T22:48:18Z",
   "sec_items": 186,
@@ -40,6 +40,55 @@
   }
  },
  "entities": [
+  {
+   "id": "aep",
+   "name": "American Electric Power (AEP)",
+   "name_zh": "美国电力公司（AEP）",
+   "group": "energy",
+   "ticker": "AEP",
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 1,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "counterparties": 1,
+    "inflow_total_usd": 0,
+    "outflow_total_usd": 0
+   }
+  },
   {
    "id": "aip",
    "name": "AI Infrastructure Partnership (BlackRock, GIP, MGX, Microsoft, NVIDIA)",
@@ -255,14 +304,14 @@
     },
     "outflow_usd": {
      "order": 30000000000,
-     "investment": 45750000000,
+     "investment": 47750000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
-     "guarantee": 4930000000
+     "guarantee": 6230000000
     },
     "inflow_count": {
-     "order": 6,
+     "order": 7,
      "investment": 2,
      "debt": 6,
      "lease": 0,
@@ -270,19 +319,19 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 2,
-     "investment": 4,
+     "order": 4,
+     "investment": 5,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
-     "guarantee": 3
+     "guarantee": 4
     },
-    "degree": 23,
-    "degree_curated": 23,
+    "degree": 28,
+    "degree_curated": 28,
     "candidate_edges": 0,
-    "counterparties": 13,
+    "counterparties": 16,
     "inflow_total_usd": 259480000000,
-    "outflow_total_usd": 80680000000
+    "outflow_total_usd": 83980000000
    }
   },
   {
@@ -303,10 +352,10 @@
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 2000000000,
+     "order": 4400000000,
      "investment": 83000000000,
      "debt": 0,
-     "lease": 5500000000,
+     "lease": 7500000000,
      "vendor_financing": 0,
      "guarantee": 0
     },
@@ -319,19 +368,19 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 2,
+     "order": 3,
      "investment": 3,
      "debt": 0,
-     "lease": 1,
+     "lease": 3,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 15,
-    "degree_curated": 15,
+    "degree": 18,
+    "degree_curated": 18,
     "candidate_edges": 0,
-    "counterparties": 7,
+    "counterparties": 9,
     "inflow_total_usd": 375100000000,
-    "outflow_total_usd": 90500000000
+    "outflow_total_usd": 94900000000
    }
   },
   {
@@ -355,7 +404,7 @@
      "order": 0,
      "investment": 6000000000,
      "debt": 0,
-     "lease": 0,
+     "lease": 636000000,
      "vendor_financing": 0,
      "guarantee": 0
     },
@@ -371,16 +420,16 @@
      "order": 2,
      "investment": 2,
      "debt": 0,
-     "lease": 0,
+     "lease": 1,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 12,
-    "degree_curated": 12,
+    "degree": 13,
+    "degree_curated": 13,
     "candidate_edges": 0,
-    "counterparties": 8,
+    "counterparties": 9,
     "inflow_total_usd": 9750000000,
-    "outflow_total_usd": 6000000000
+    "outflow_total_usd": 6636000000
    }
   },
   {
@@ -443,14 +492,14 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 160500000000,
+     "investment": 186220000000,
      "debt": 15000000000,
      "lease": 0,
-     "vendor_financing": 0,
+     "vendor_financing": 42000000000,
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 536200000000,
+     "order": 535800000000,
      "investment": 0,
      "debt": 0,
      "lease": 189300000000,
@@ -459,10 +508,10 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 15,
+     "investment": 16,
      "debt": 1,
      "lease": 0,
-     "vendor_financing": 0,
+     "vendor_financing": 1,
      "guarantee": 0
     },
     "outflow_count": {
@@ -473,12 +522,12 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 31,
-    "degree_curated": 31,
+    "degree": 33,
+    "degree_curated": 33,
     "candidate_edges": 0,
     "counterparties": 20,
-    "inflow_total_usd": 175500000000,
-    "outflow_total_usd": 725500000000
+    "inflow_total_usd": 243220000000,
+    "outflow_total_usd": 725100000000
    }
   },
   {
@@ -844,7 +893,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 101210000000,
+     "debt": 104310000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -860,17 +909,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 7,
+     "debt": 8,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 7,
-    "degree_curated": 7,
+    "degree": 8,
+    "degree_curated": 8,
     "candidate_edges": 0,
-    "counterparties": 6,
+    "counterparties": 7,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 101210000000
+    "outflow_total_usd": 104310000000
    }
   },
   {
@@ -1128,7 +1177,7 @@
    "origin": "research",
    "stats": {
     "inflow_usd": {
-     "order": 25000000000,
+     "order": 27600000000,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -1144,7 +1193,7 @@
      "guarantee": 0
     },
     "inflow_count": {
-     "order": 2,
+     "order": 4,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -1159,11 +1208,11 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 2,
-    "degree_curated": 2,
+    "degree": 4,
+    "degree_curated": 4,
     "candidate_edges": 0,
-    "counterparties": 1,
-    "inflow_total_usd": 25000000000,
+    "counterparties": 3,
+    "inflow_total_usd": 27600000000,
     "outflow_total_usd": 0
    }
   },
@@ -1236,7 +1285,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 497382500000.0,
+     "debt": 500517500000.0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1252,17 +1301,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 61,
+     "debt": 64,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 61,
-    "degree_curated": 61,
+    "degree": 64,
+    "degree_curated": 64,
     "candidate_edges": 0,
     "counterparties": 27,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 497382500000.0
+    "outflow_total_usd": 500517500000.0
    }
   },
   {
@@ -1287,7 +1336,7 @@
      "investment": 0,
      "debt": 0,
      "lease": 0,
-     "vendor_financing": 0,
+     "vendor_financing": 42000000000,
      "guarantee": 72000000000
     },
     "inflow_count": {
@@ -1303,15 +1352,15 @@
      "investment": 0,
      "debt": 0,
      "lease": 0,
-     "vendor_financing": 0,
+     "vendor_financing": 1,
      "guarantee": 2
     },
-    "degree": 13,
-    "degree_curated": 13,
+    "degree": 14,
+    "degree_curated": 14,
     "candidate_edges": 0,
     "counterparties": 9,
     "inflow_total_usd": 178700000000,
-    "outflow_total_usd": 272000000000
+    "outflow_total_usd": 314000000000
    }
   },
   {
@@ -1637,6 +1686,55 @@
      "order": 1,
      "investment": 1,
      "debt": 0,
+     "lease": 1,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "degree": 3,
+    "degree_curated": 3,
+    "candidate_edges": 0,
+    "counterparties": 2,
+    "inflow_total_usd": 20000000000,
+    "outflow_total_usd": 0
+   }
+  },
+  {
+   "id": "chevron",
+   "name": "Chevron",
+   "name_zh": "雪佛龙",
+   "group": "energy",
+   "ticker": "CVX",
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 1,
+     "investment": 0,
+     "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -1649,11 +1747,11 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 2,
-    "degree_curated": 2,
+    "degree": 1,
+    "degree_curated": 1,
     "candidate_edges": 0,
     "counterparties": 1,
-    "inflow_total_usd": 20000000000,
+    "inflow_total_usd": 0,
     "outflow_total_usd": 0
    }
   },
@@ -1767,8 +1865,8 @@
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 2250000000,
-     "lease": 9300000000,
+     "debt": 3060000000,
+     "lease": 11300000000,
      "vendor_financing": 0,
      "guarantee": 1730000000
     },
@@ -1783,8 +1881,8 @@
     "inflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 2,
-     "lease": 2,
+     "debt": 3,
+     "lease": 3,
      "vendor_financing": 0,
      "guarantee": 1
     },
@@ -1796,11 +1894,11 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 5,
-    "degree_curated": 5,
+    "degree": 7,
+    "degree_curated": 7,
     "candidate_edges": 0,
     "counterparties": 4,
-    "inflow_total_usd": 13280000000,
+    "inflow_total_usd": 16090000000,
     "outflow_total_usd": 0
    }
   },
@@ -1851,6 +1949,55 @@
     "counterparties": 2,
     "inflow_total_usd": 0,
     "outflow_total_usd": 21000000000
+   }
+  },
+  {
+   "id": "constellation-energy",
+   "name": "Constellation Energy",
+   "name_zh": "Constellation 能源",
+   "group": "energy",
+   "ticker": "CEG",
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 1,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "counterparties": 1,
+    "inflow_total_usd": 0,
+    "outflow_total_usd": 0
    }
   },
   {
@@ -2034,17 +2181,17 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 0,
+     "order": 1,
      "investment": 0,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 2,
-    "degree_curated": 2,
+    "degree": 3,
+    "degree_curated": 3,
     "candidate_edges": 0,
-    "counterparties": 2,
+    "counterparties": 3,
     "inflow_total_usd": 27000000000,
     "outflow_total_usd": 0
    }
@@ -2362,9 +2509,9 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 530000000,
      "debt": 0,
-     "lease": 17500000000,
+     "lease": 27000000000,
      "vendor_financing": 0,
      "guarantee": 0
     },
@@ -2378,18 +2525,18 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 0,
+     "investment": 1,
      "debt": 0,
-     "lease": 3,
+     "lease": 4,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 6,
-    "degree_curated": 6,
+    "degree": 8,
+    "degree_curated": 8,
     "candidate_edges": 0,
     "counterparties": 5,
     "inflow_total_usd": 52330000000,
-    "outflow_total_usd": 17500000000
+    "outflow_total_usd": 27530000000
    }
   },
   {
@@ -2438,6 +2585,55 @@
     "candidate_edges": 0,
     "counterparties": 3,
     "inflow_total_usd": 4907000000,
+    "outflow_total_usd": 0
+   }
+  },
+  {
+   "id": "generac",
+   "name": "Generac",
+   "name_zh": "Generac（发电机制造商）",
+   "group": "other",
+   "ticker": "GNRC",
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 2400000000,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 1,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "counterparties": 1,
+    "inflow_total_usd": 2400000000,
     "outflow_total_usd": 0
    }
   },
@@ -2589,6 +2785,55 @@
    }
   },
   {
+   "id": "hugging-face",
+   "name": "Hugging Face",
+   "name_zh": "Hugging Face（AI 模型平台）",
+   "group": "other",
+   "ticker": null,
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 12900000000,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 0,
+     "investment": 1,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "counterparties": 1,
+    "inflow_total_usd": 12900000000,
+    "outflow_total_usd": 0
+   }
+  },
+  {
    "id": "hut-8",
    "name": "Hut 8",
    "name_zh": "Hut 8",
@@ -2601,7 +2846,7 @@
      "order": 0,
      "investment": 0,
      "debt": 7500000000,
-     "lease": 7000000000,
+     "lease": 26600000000,
      "vendor_financing": 0,
      "guarantee": 0
     },
@@ -2617,7 +2862,7 @@
      "order": 0,
      "investment": 0,
      "debt": 2,
-     "lease": 1,
+     "lease": 3,
      "vendor_financing": 0,
      "guarantee": 1
     },
@@ -2629,11 +2874,11 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 4,
-    "degree_curated": 4,
+    "degree": 6,
+    "degree_curated": 6,
     "candidate_edges": 0,
-    "counterparties": 3,
-    "inflow_total_usd": 14500000000,
+    "counterparties": 4,
+    "inflow_total_usd": 34100000000,
     "outflow_total_usd": 0
    }
   },
@@ -3455,17 +3700,17 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 6,
+     "order": 7,
      "investment": 2,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 10,
-    "degree_curated": 10,
+    "degree": 11,
+    "degree_curated": 11,
     "candidate_edges": 0,
-    "counterparties": 8,
+    "counterparties": 9,
     "inflow_total_usd": 294900000000,
     "outflow_total_usd": 45100000000
    }
@@ -3481,7 +3726,7 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
+     "investment": 1220000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -3497,7 +3742,7 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 2,
+     "investment": 3,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -3511,11 +3756,11 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 2,
-    "degree_curated": 2,
+    "degree": 3,
+    "degree_curated": 3,
     "candidate_edges": 0,
-    "counterparties": 1,
-    "inflow_total_usd": 0,
+    "counterparties": 2,
+    "inflow_total_usd": 1220000000,
     "outflow_total_usd": 0
    }
   },
@@ -3686,7 +3931,7 @@
     "outflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 27126000000,
+     "debt": 43799000000,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
@@ -3702,17 +3947,17 @@
     "outflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 6,
+     "debt": 9,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 6,
-    "degree_curated": 6,
+    "degree": 9,
+    "degree_curated": 9,
     "candidate_edges": 0,
-    "counterparties": 5,
+    "counterparties": 8,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 27126000000
+    "outflow_total_usd": 43799000000
    }
   },
   {
@@ -3831,7 +4076,7 @@
      "guarantee": 0
     },
     "outflow_usd": {
-     "order": 0,
+     "order": 2600000000,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -3847,6 +4092,39 @@
      "guarantee": 0
     },
     "outflow_count": {
+     "order": 1,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "degree": 9,
+    "degree_curated": 9,
+    "candidate_edges": 0,
+    "counterparties": 6,
+    "inflow_total_usd": 65397500000,
+    "outflow_total_usd": 2600000000
+   }
+  },
+  {
+   "id": "nexus-data-centers",
+   "name": "Nexus Data Centers",
+   "name_zh": "Nexus 数据中心",
+   "group": "datacenter",
+   "ticker": null,
+   "country": "US",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 15600000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
      "order": 0,
      "investment": 0,
      "debt": 0,
@@ -3854,11 +4132,27 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 8,
-    "degree_curated": 8,
+    "inflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 1,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "degree": 1,
+    "degree_curated": 1,
     "candidate_edges": 0,
-    "counterparties": 5,
-    "inflow_total_usd": 65397500000,
+    "counterparties": 1,
+    "inflow_total_usd": 15600000000,
     "outflow_total_usd": 0
    }
   },
@@ -3872,7 +4166,7 @@
    "origin": "core",
    "stats": {
     "inflow_usd": {
-     "order": 45000000000,
+     "order": 44600000000,
      "investment": 0,
      "debt": 0,
      "lease": 0,
@@ -3907,7 +4201,7 @@
     "degree_curated": 2,
     "candidate_edges": 0,
     "counterparties": 2,
-    "inflow_total_usd": 45000000000,
+    "inflow_total_usd": 44600000000,
     "outflow_total_usd": 0
    }
   },
@@ -3930,9 +4224,9 @@
     },
     "outflow_usd": {
      "order": 36800000000,
-     "investment": 55100000000,
+     "investment": 68000000000,
      "debt": 0,
-     "lease": 1500000000,
+     "lease": 21100000000,
      "vendor_financing": 0,
      "guarantee": 105000000000
     },
@@ -3946,18 +4240,18 @@
     },
     "outflow_count": {
      "order": 10,
-     "investment": 11,
+     "investment": 12,
      "debt": 0,
-     "lease": 1,
+     "lease": 3,
      "vendor_financing": 0,
      "guarantee": 1
     },
-    "degree": 30,
-    "degree_curated": 30,
+    "degree": 33,
+    "degree_curated": 33,
     "candidate_edges": 0,
-    "counterparties": 23,
+    "counterparties": 25,
     "inflow_total_usd": 65000000000.0,
-    "outflow_total_usd": 198400000000
+    "outflow_total_usd": 230900000000
    }
   },
   {
@@ -4043,17 +4337,17 @@
      "guarantee": 0
     },
     "outflow_count": {
-     "order": 3,
+     "order": 4,
      "investment": 2,
      "debt": 0,
      "lease": 1,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 14,
-    "degree_curated": 14,
+    "degree": 15,
+    "degree_curated": 15,
     "candidate_edges": 0,
-    "counterparties": 11,
+    "counterparties": 12,
     "inflow_total_usd": 404909000000,
     "outflow_total_usd": 45000000000
    }
@@ -4175,7 +4469,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 136390000000,
+     "investment": 160110000000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -4202,7 +4496,7 @@
     "candidate_edges": 0,
     "counterparties": 10,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 136390000000
+    "outflow_total_usd": 160110000000
    }
   },
   {
@@ -4273,7 +4567,7 @@
     },
     "outflow_usd": {
      "order": 0,
-     "investment": 148866100000,
+     "investment": 150086100000,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
@@ -4289,18 +4583,18 @@
     },
     "outflow_count": {
      "order": 0,
-     "investment": 6,
+     "investment": 7,
      "debt": 0,
      "lease": 0,
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 6,
-    "degree_curated": 6,
+    "degree": 7,
+    "degree_curated": 7,
     "candidate_edges": 0,
-    "counterparties": 5,
+    "counterparties": 6,
     "inflow_total_usd": 0,
-    "outflow_total_usd": 148866100000
+    "outflow_total_usd": 150086100000
    }
   },
   {
@@ -4364,8 +4658,8 @@
     "inflow_usd": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
-     "lease": 9100000000,
+     "debt": 573000000,
+     "lease": 9736000000,
      "vendor_financing": 0,
      "guarantee": 0
     },
@@ -4380,8 +4674,8 @@
     "inflow_count": {
      "order": 0,
      "investment": 0,
-     "debt": 0,
-     "lease": 1,
+     "debt": 1,
+     "lease": 2,
      "vendor_financing": 0,
      "guarantee": 0
     },
@@ -4393,11 +4687,11 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 1,
-    "degree_curated": 1,
+    "degree": 3,
+    "degree_curated": 3,
     "candidate_edges": 0,
-    "counterparties": 1,
-    "inflow_total_usd": 9100000000,
+    "counterparties": 3,
+    "inflow_total_usd": 10309000000,
     "outflow_total_usd": 0
    }
   },
@@ -5000,11 +5294,11 @@
    "stats": {
     "inflow_usd": {
      "order": 0,
-     "investment": 0,
-     "debt": 3200000000,
-     "lease": 25700000000,
+     "investment": 530000000,
+     "debt": 6025000000,
+     "lease": 35200000000,
      "vendor_financing": 0,
-     "guarantee": 3200000000
+     "guarantee": 4500000000
     },
     "outflow_usd": {
      "order": 0,
@@ -5016,11 +5310,11 @@
     },
     "inflow_count": {
      "order": 0,
-     "investment": 0,
-     "debt": 1,
-     "lease": 2,
+     "investment": 1,
+     "debt": 4,
+     "lease": 3,
      "vendor_financing": 0,
-     "guarantee": 1
+     "guarantee": 2
     },
     "outflow_count": {
      "order": 0,
@@ -5030,11 +5324,11 @@
      "vendor_financing": 0,
      "guarantee": 0
     },
-    "degree": 4,
-    "degree_curated": 4,
+    "degree": 10,
+    "degree_curated": 10,
     "candidate_edges": 0,
-    "counterparties": 4,
-    "inflow_total_usd": 32100000000,
+    "counterparties": 5,
+    "inflow_total_usd": 46255000000,
     "outflow_total_usd": 0
    }
   },
@@ -5478,6 +5772,55 @@
     "inflow_total_usd": 289000000000,
     "outflow_total_usd": 0
    }
+  },
+  {
+   "id": "zankore",
+   "name": "Zankore",
+   "name_zh": "Zankore（印尼 AI 云）",
+   "group": "neocloud",
+   "ticker": null,
+   "country": "ID",
+   "origin": "research",
+   "stats": {
+    "inflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 3100000000,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_usd": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "inflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 1,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "outflow_count": {
+     "order": 0,
+     "investment": 0,
+     "debt": 0,
+     "lease": 0,
+     "vendor_financing": 0,
+     "guarantee": 0
+    },
+    "degree": 1,
+    "degree_curated": 1,
+    "candidate_edges": 0,
+    "counterparties": 1,
+    "inflow_total_usd": 3100000000,
+    "outflow_total_usd": 0
+   }
   }
  ],
  "edges": [
@@ -5851,6 +6194,18 @@
      "publisher": "CNBC",
      "date": "2026-10-26",
      "title": "Meta launches $35 billion stock offering to fund AI expansion"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526436410/d94886d424b5.htm",
+     "publisher": "Meta Platforms (SEC 424B5, final)",
+     "date": "2026-10-28",
+     "title": "Meta Platforms final prospectus supplement: 40,000,000 Class A shares (forward sale)"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526436405/d133631d424b5.htm",
+     "publisher": "Meta Platforms (SEC 424B5, final)",
+     "date": "2026-10-28",
+     "title": "Meta Platforms final prospectus supplement: 250,000,000 Series A depositary shares, 6.50% mandatory convertible preferred"
     }
    ],
    "origin": "curated"
@@ -5938,27 +6293,27 @@
    "from": "nvidia",
    "to": "amkor",
    "amount_usd": 1300000000,
-   "amount_text": "$1.3B for packaging capacity in South Korea; Amkor puts its multi-year NVIDIA agreements at $3B in all (after the $1.5B Arizona deal of Jul 2026)",
+   "amount_text": "$1.3B for packaging capacity in South Korea (Amkor's announcement as reported; NVIDIA's release confirms the Korea expansion but gives no amount); Amkor puts its multi-year NVIDIA agreements at $3B in all, after the $1.5B Arizona deal of Jul 2026",
    "announced": "2026-10-21",
    "term": "multi-year",
    "status": "signed",
-   "confidence": "confirmed",
+   "confidence": "reported",
    "title_en": "NVIDIA prepays Amkor $1.3B for advanced-packaging capacity in Korea",
    "title_zh": "英伟达向安靠预付 13 亿美元锁定韩国先进封装产能",
    "summary_en": "Amkor signed a new $1.3 billion agreement with NVIDIA, paid as prepayments, to add advanced-packaging capacity in South Korea, part of the supply-chain expansion NVIDIA announced at GTC on 21 October 2026.",
    "summary_zh": "安靠与英伟达签订新的 13 亿美元协议，以预付款形式锁定韩国先进封装新增产能，属英伟达 2026 年 10 月 21 日在 GTC 上宣布的供应链扩产计划。",
    "sources": [
     {
-     "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Supply-Chain-Partners-Expand-Capacity-to-Accelerate-AI-Infrastructure-Buildout/default.aspx",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
      "publisher": "NVIDIA",
      "date": "2026-10-21",
      "title": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout"
     },
     {
-     "url": "https://ir.amkor.com/node/24546",
-     "publisher": "Amkor Technology",
+     "url": "https://www.benzinga.com/trading-ideas/movers/26/10/62500685/amkor-secures-1-3-billion-nvidia-deal-to-expand-ai-packaging",
+     "publisher": "Benzinga",
      "date": "2026-10-21",
-     "title": "Amkor press release on the NVIDIA agreement"
+     "title": "Amkor secures $1.3 billion Nvidia deal to expand AI packaging"
     },
     {
      "url": "https://www.tikr.com/blog/amkor-rises-4-7-on-new-1-3-billion-nvidia-deal-highlighting-the-critical-role-of-packaging",
@@ -5987,7 +6342,7 @@
    "summary_zh": "英伟达向京元电子（KYEC）提供 11 亿美元产能预留预付款，支持其在美国新建测试厂及设备，目标 2027 年 4 月量产。",
    "sources": [
     {
-     "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-and-Supply-Chain-Partners-Expand-Capacity-to-Accelerate-AI-Infrastructure-Buildout/default.aspx",
+     "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
      "publisher": "NVIDIA",
      "date": "2026-10-21",
      "title": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout"
@@ -6003,6 +6358,38 @@
      "publisher": "The Star (Reuters)",
      "date": "2026-07-10",
      "title": "Nvidia supplier King Yuan Electronics to invest up to $1.4 billion in US facility"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "alphabet-aep-2026-10-cheyenne-fuel-cell-ppa",
+   "kind": "order",
+   "subkind": "power purchase agreement (fuel cells)",
+   "from": "alphabet",
+   "to": "aep",
+   "amount_usd": null,
+   "amount_text": "PPA value not disclosed; AEP plans to invest about $4B in the 702 MW Cheyenne Fuel Cell project (Bloom fuel cells, ~$2.65B purchase disclosed by AEP in Jan 2026)",
+   "announced": "2026-10-14",
+   "term": "20 years; full operation expected by end of 2028",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Google 20-year power purchase agreement with AEP's Cheyenne fuel-cell plant",
+   "title_zh": "谷歌与 AEP 夏延燃料电池电厂的 20 年购电协议",
+   "summary_en": "Google will buy the output of Cheyenne Fuel Cell, a 702 MW Bloom fuel-cell plant near Cheyenne, Wyoming, under a 20-year power purchase agreement; AEP owns about 92% (funds advised by Basalt the rest) and plans to invest about $4B. The plant serves Google's planned Cheyenne data-centre campus.",
+   "summary_zh": "谷歌将根据 20 年购电协议，购买怀俄明州夏延附近 702 兆瓦 Bloom 燃料电池电厂 Cheyenne Fuel Cell 的全部电力；AEP 持股约 92%（其余由 Basalt 管理的基金持有），计划投资约 40 亿美元。该电厂为谷歌规划中的夏延数据中心园区供电。",
+   "sources": [
+    {
+     "url": "https://www.aep.com/news/stories/view/12314/",
+     "publisher": "AEP",
+     "date": "2026-10-14",
+     "title": "AEP Advances Innovative Energy Solution for Google with 702MW of Bloom Fuel Cells"
+    },
+    {
+     "url": "https://www.powermag.com/aep-plans-4-billion-fuel-cell-power-plant-for-google-signs-up-to-1-6-gw-mainspring-generator-deal/",
+     "publisher": "POWER Magazine",
+     "date": "2026-10-14",
+     "title": "AEP Plans $4 Billion Fuel Cell Power Plant for Google, Signs Up to 1.6 GW Mainspring Generator Deal"
     }
    ],
    "origin": "curated"
@@ -6035,6 +6422,12 @@
      "publisher": "RTTNews",
      "date": "2026-10-14",
      "title": "Cipher Digital prices $850 mln convertible notes due 2032"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1819989/000119312526424297/d313847d8k.htm",
+     "publisher": "Cipher Digital (SEC 8-K)",
+     "date": "2026-10-16",
+     "title": "Cipher Digital 8-K: $850.0M 0.00% Convertible Senior Notes due 2032 issued; indenture"
     }
    ],
    "origin": "curated"
@@ -6067,6 +6460,38 @@
      "publisher": "BusinessDay (Reuters)",
      "date": "2026-10-13",
      "title": "Tencent raises $5.7bn in bonds as AI investment soars"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "alphabet-constellation-energy-2026-10-nuclear-ppa",
+   "kind": "order",
+   "subkind": "power purchase agreements (nuclear)",
+   "from": "alphabet",
+   "to": "constellation-energy",
+   "amount_usd": null,
+   "amount_text": "Not disclosed; 3,590 MW in total: 20-year PPA for 890 MW of new uprate capacity (Constellation investing >$4.3B) plus a 15-year deal for 2,700 MW of existing PJM output",
+   "announced": "2026-10-06",
+   "term": "20 years (890 MW uprates, first in 2028, all by 2032) and 15 years (2,700 MW)",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Google nuclear power agreements with Constellation (3.6 GW)",
+   "title_zh": "谷歌与 Constellation 的核电购电协议（3.6 吉瓦）",
+   "summary_en": "Google signed a 20-year power purchase agreement for 890 MW of new output from uprates at 11 Constellation reactors in Illinois, Pennsylvania and New Jersey, which Constellation says means more than $4.3B of investment, plus a separate 15-year agreement for 2,700 MW of existing Constellation generation in PJM. The price Google pays was not disclosed.",
+   "summary_zh": "谷歌与 Constellation 签署 20 年购电协议，购买其在伊利诺伊、宾夕法尼亚和新泽西 11 台反应堆增容改造带来的 890 兆瓦新增电力（Constellation 称将为此投资逾 43 亿美元），另签 15 年协议购买其在 PJM 电网的 2,700 兆瓦现有电力。谷歌支付的价格未披露。",
+   "sources": [
+    {
+     "url": "https://www.powermag.com/google-deal-backs-890-mw-of-constellation-nuclear-uprates-at-11-pjm-reactors/",
+     "publisher": "POWER Magazine",
+     "date": "2026-10-07",
+     "title": "Google Deal Backs 890 MW of Constellation Nuclear Uprates at 11 PJM Reactors"
+    },
+    {
+     "url": "https://thedailyrecord.com/2026/10/06/md-based-constellation-power-deal-google/",
+     "publisher": "The Daily Record",
+     "date": "2026-10-06",
+     "title": "MD-based Constellation enters massive power deal with Google"
     }
    ],
    "origin": "curated"
@@ -6322,6 +6747,38 @@
    "origin": "curated"
   },
   {
+   "id": "amazon-generac-2026-09-backup-generators",
+   "kind": "order",
+   "subkind": "backup generator supply agreement with warrant",
+   "from": "amazon",
+   "to": "generac",
+   "amount_usd": 2400000000,
+   "amount_text": "$2.4B of initial deliveries in 2027-2028; warrant vesting tied to up to $8B of payments (a ceiling)",
+   "announced": "2026-09-16",
+   "term": "long-term supply; initial deliveries 2027-2028; warrant exercisable to 2033",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Amazon backup-generator supply agreement with Generac",
+   "title_zh": "亚马逊与 Generac 的备用发电机供货协议",
+   "summary_en": "Amazon signed a long-term supply agreement with Generac for backup generators for its data centres, with initial deliveries of $2.4B expected in 2027 and 2028. Generac issued Amazon a warrant for up to 1.69 million shares at about $200.93, vesting as Amazon's generator payments rise toward $8B.",
+   "summary_zh": "亚马逊与 Generac 签署长期供货协议，为其数据中心采购备用发电机，首批交付预计 2027 至 2028 年共 24 亿美元。Generac 向亚马逊发行认股权证，可按约 200.93 美元认购最多 169 万股，随亚马逊发电机付款累计至最高 80 亿美元分批归属。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1474735/000143774926030550/gnrc20260915_8k.htm",
+     "publisher": "Generac Holdings (SEC 8-K)",
+     "date": "2026-09-16",
+     "title": "Generac Holdings Inc. Form 8-K, Item 1.01: Transaction Agreement and warrant with Amazon"
+    },
+    {
+     "url": "https://www.nasdaq.com/articles/generac-signs-amazon-generator-deal-24b-initial-deliveries",
+     "publisher": "Nasdaq",
+     "date": "2026-09-17",
+     "title": "Generac Signs Amazon Generator Deal With $2.4B of Initial Deliveries"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "bank-lenders-crux-ai-2026-09-tpu-loan",
    "kind": "debt",
    "subkind": "chip-backed bank loan",
@@ -6375,6 +6832,44 @@
      "publisher": "Oracle (Form 10-Q)",
      "date": "2026-09-10",
      "title": "Oracle Corp Form 10-Q for the quarter ended August 31, 2026"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bank-lenders-zankore-2026-09-term-loan",
+   "kind": "debt",
+   "subkind": "senior term loan facility",
+   "from": "bank-lenders",
+   "to": "zankore",
+   "amount_usd": 3100000000,
+   "amount_text": "Up to $3.1B senior term loan; Citi, ING, Natixis CIB, QNB and UOB as lead arrangers and underwriters; launched to syndication in late October 2026",
+   "announced": "2026-09-09",
+   "term": null,
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Zankore $3.1B senior term loan",
+   "title_zh": "Zankore 31 亿美元优先定期贷款",
+   "summary_en": "Zankore, the Indonesian AI cloud backed by Indosat Ooredoo Hutchison, Ooredoo, Nvidia and Nokia, signed a senior term loan of up to $3.1B underwritten by Citi, ING, Natixis CIB, QNB and UOB to buy and deploy Nvidia GPUs, starting with 100 MW toward a 1 GW AI factory. Reports say Nvidia supports the deal through a revenue-sharing and credit-support model; the banks launched it to syndication in late October.",
+   "summary_zh": "由 Indosat Ooredoo Hutchison、Ooredoo、英伟达和诺基亚支持的印尼 AI 云公司 Zankore 签署最高 31 亿美元优先定期贷款，由花旗、ING、法国外贸银行、卡塔尔国家银行和大华银行承销，用于采购和部署英伟达 GPU，首期 100 兆瓦，目标 1 吉瓦 AI 工厂。据报道英伟达以收入分成和信用支持方式为交易提供支撑；银行已于 10 月下旬启动银团分销。",
+   "sources": [
+    {
+     "url": "https://w.media/zankore-secures-us-3-1-billion-loan-to-develop-ai-infrastructure-in-indonesia/",
+     "publisher": "W.Media",
+     "date": "2026-09-10",
+     "title": "Zankore secures US$ 3.1 billion loan; targets 1GW AI Factory in Indonesia"
+    },
+    {
+     "url": "https://developingtelecoms.com/telecom-technology/data-centres-networks/20802-zankore-lands-us-3-1b-loan-facility-to-finance-nvidia-powered-ai-platform.html",
+     "publisher": "Developing Telecoms",
+     "date": "2026-09-10",
+     "title": "Zankore lands US$3.1b loan facility to finance Nvidia-powered AI platform"
+    },
+    {
+     "url": "https://thenextweb.com/news/zankore-3-1bn-gpu-loan-indonesia-nvidia",
+     "publisher": "The Next Web",
+     "date": "2026-09-10",
+     "title": "Nvidia-backed Zankore raises a $3.1bn loan to buy Nvidia GPUs for Indonesia"
     }
    ],
    "origin": "curated"
@@ -6529,6 +7024,38 @@
      "publisher": "The Next Web",
      "date": "2026-09-03",
      "title": "Jane Street signs $13bn five-year AI cloud deal with Crusoe"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "nvidia-hugging-face-2026-09-acquisition",
+   "kind": "investment",
+   "subkind": "acquisition",
+   "from": "nvidia",
+   "to": "hugging-face",
+   "amount_usd": 12900000000,
+   "amount_text": "$12.9B: about $11.9B to Hugging Face investors plus up to $1B of stock incentives for staff (as reported); pending regulatory review",
+   "announced": "2026-09-03",
+   "term": null,
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "NVIDIA acquisition of Hugging Face",
+   "title_zh": "英伟达收购 Hugging Face",
+   "summary_en": "After The Information reported the deal in late August 2026, Nvidia confirmed it is buying the AI model platform Hugging Face for $12.9B, roughly $11.9B to investors plus up to $1B in stock incentives for employees. In late October Reuters reported that the US Justice Department is asking questions about the deal.",
+   "summary_zh": "The Information 于 2026 年 8 月下旬率先报道后，英伟达确认以 129 亿美元收购 AI 模型平台 Hugging Face，其中约 119 亿美元支付给投资者，另有最多 10 亿美元股票激励给员工。10 月下旬路透社报道美国司法部正在就该交易进行问询。",
+   "sources": [
+    {
+     "url": "https://thestack.technology/nvidia-confirms-12-9bn-deal-for-hugging-face",
+     "publisher": "The Stack",
+     "date": "2026-09-03",
+     "title": "Nvidia confirms $12.9bn deal for Hugging Face"
+    },
+    {
+     "url": "https://tech.eu/2026/08/27/nvidia-agrees-to-buy-hugging-face-for-12-9bn-says-report/",
+     "publisher": "Tech.eu",
+     "date": "2026-08-27",
+     "title": "Nvidia agrees to buy Hugging Face for $12.9BN, says report"
     }
    ],
    "origin": "curated"
@@ -6699,16 +7226,16 @@
    "subkind": "cloud compute rental",
    "from": "anthropic",
    "to": "nscale",
-   "amount_usd": 45000000000,
-   "amount_text": "$45B over 6 years, ~460 MW at Monarch campus, West Virginia; a second ~$45B deal reported in talks (Oct 2026)",
+   "amount_usd": 44600000000,
+   "amount_text": "Up to ~$44.6B over terms into 2033 under the August 2026 Nscale Services Agreements, fees accruing only as capacity is delivered and accepted (Anthropic S-1); reported as $45B over 6 years for ~460 MW at the Monarch campus, West Virginia. A second ~$45B deal was reported in talks (Oct 2026)",
    "announced": "2026-08-26",
-   "term": "6 years; Vera Rubin capacity from late 2027",
+   "term": "Into 2033; Vera Rubin capacity from late 2027",
    "status": "signed",
-   "confidence": "reported",
+   "confidence": "confirmed",
    "title_en": "Anthropic $45B compute rental from Nscale",
    "title_zh": "Anthropic 向 Nscale 租用 450 亿美元算力",
-   "summary_en": "Bloomberg reported that Anthropic agreed to spend $45B over six years renting about 460 MW of Nvidia Vera Rubin capacity at Nscale's West Virginia campus. In October 2026 Bloomberg reported talks on a second deal of roughly the same size.",
-   "summary_zh": "据彭博报道，Anthropic 同意在六年内斥资 450 亿美元，租用 Nscale 西弗吉尼亚园区约 460 兆瓦英伟达 Vera Rubin 算力。2026 年 10 月彭博又报道双方正洽谈规模相近的第二笔交易。",
+   "summary_en": "Anthropic's S-1 says it agreed in August 2026 to spend up to about $44.6B with Nscale subsidiaries for NVIDIA GPU compute over terms into 2033, paying only as capacity is delivered; Nscale must use best efforts to line up financing for the GPUs and data centre in time. Bloomberg had reported the deal as $45B for about 460 MW at Nscale's West Virginia campus, and in October 2026 reported talks on a second deal of roughly the same size.",
+   "summary_zh": "Anthropic 的 S-1 显示，其于 2026 年 8 月与 Nscale 旗下子公司签约，在延续至 2033 年的期限内斥资最多约 446 亿美元租用英伟达 GPU 算力，仅在算力交付后付费；Nscale 须尽力按期为 GPU 和数据中心筹得融资。彭博此前报道该交易为 450 亿美元、约 460 兆瓦（西弗吉尼亚园区），并于 2026 年 10 月报道双方正洽谈规模相近的第二笔交易。",
    "sources": [
     {
      "url": "https://news.bgov.com/artificial-intelligence/anthropic-to-pay-nscale-45-billion-for-ai-computing-power",
@@ -6721,6 +7248,12 @@
      "publisher": "Baxtel (citing Bloomberg, Reuters)",
      "date": "2026-10-20",
      "title": "Anthropic, Nscale in talks for second $45B deal at West Virginia campus"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+     "publisher": "Anthropic (SEC S-1)",
+     "date": "2026-10-26",
+     "title": "Anthropic, PBC - Form S-1"
     }
    ],
    "origin": "curated"
@@ -6962,6 +7495,41 @@
    "origin": "curated"
   },
   {
+   "id": "morgan-stanley-riot-platforms-2026-08-rockdale-ddtl",
+   "kind": "debt",
+   "subkind": "senior secured delayed-draw term loan (project)",
+   "from": "morgan-stanley",
+   "to": "riot-platforms",
+   "amount_usd": 573000000,
+   "amount_text": "Up to $573.0M delayed-draw term loan to Riot DC Logistics; SOFR + 2.75%; matures 2026-12-31; non-recourse to Riot parent",
+   "announced": "2026-08-10",
+   "term": "matures 2026-12-31",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Morgan Stanley $573M loan for Riot's 191 MW Rockdale AI build",
+   "title_zh": "摩根士丹利向 Riot 提供 5.73 亿美元贷款，建设 Rockdale 191 兆瓦 AI 数据中心",
+   "summary_en": "Lenders led by Morgan Stanley Senior Funding gave Riot's subsidiary Riot DC Logistics a senior secured delayed-draw term loan of up to $573 million to buy long-lead equipment for the 191 MW data centre at Rockdale, Texas, leased to a frontier AI lab reported to be Anthropic. The loan is secured on the project companies only and matures at the end of 2026.",
+   "summary_zh": "以摩根士丹利为行政代理的银团向 Riot 子公司 Riot DC Logistics 提供最高 5.73 亿美元的优先担保延迟提款定期贷款，用于采购得州 Rockdale 191 兆瓦数据中心的长交期设备；该设施租给一家前沿 AI 实验室（据报为 Anthropic）。贷款仅以项目公司资产担保，2026 年底到期。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1167419/000110465926097330/riot-20260810x8k.htm",
+     "publisher": "Riot Platforms (SEC 8-K)",
+     "date": "2026-08-14",
+     "title": "Riot Platforms 8-K: $573.0M senior secured delayed-draw term loan facility (Morgan Stanley)"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1167419/000110465926093448/riot-20260630x10q.htm",
+     "publisher": "Riot Platforms (SEC 10-Q)",
+     "date": "2026-08-10",
+     "title": "Riot Platforms Form 10-Q for the quarter ended June 30, 2026"
+    }
+   ],
+   "distinct_from": [
+    "anthropic-riot-platforms-2026-08-rockdale-lease"
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "private-investors-firmus-2026-08-equity",
    "kind": "investment",
    "subkind": "equity round",
@@ -7117,6 +7685,44 @@
      "publisher": "DCD",
      "date": "2026-08-04",
      "title": "Volta launches out of stealth to lease capacity in Norway from Bitdeer for leading AI lab"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "morgan-stanley-nexus-data-centers-2026-07-hubbard-financing",
+   "kind": "debt",
+   "subkind": "construction financing (bank bridge loan and related facilities)",
+   "from": "morgan-stanley",
+   "to": "nexus-data-centers",
+   "amount_usd": 15600000000,
+   "amount_text": "$15.6B construction financing per Evercore (adviser to Nexus); reported as ~$15B from a bank group led by Morgan Stanley (bridge to be refinanced) alongside a $1.3B Eagle Point mezzanine loan; split not disclosed",
+   "announced": "2026-07-30",
+   "term": null,
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Morgan Stanley-led $15.6B financing for Nexus's Anthropic campus in Texas",
+   "title_zh": "摩根士丹利牵头为 Nexus 租给 Anthropic 的得州园区提供 156 亿美元融资",
+   "summary_en": "Nexus Data Centers raised about $15.6 billion of construction financing, led by a Morgan Stanley bank group, for its inaugural data-centre and gas-power campus in Hubbard, Texas, which WSJ and CNBC reported is leased to Anthropic with Google guaranteeing lease and power payments. Evercore, Nexus's adviser, listed the financing among its Q3 2026 deals.",
+   "summary_zh": "Nexus Data Centers 为其首个位于得州哈伯德、配套天然气电厂的数据中心园区筹得约 156 亿美元建设融资，由摩根士丹利牵头的银团提供；据《华尔街日报》和 CNBC 报道，该园区租给 Anthropic，谷歌为租金及电费提供担保。Nexus 的财务顾问 Evercore 在其 2026 年三季度业绩中列出了这笔融资。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1360901/000162828026067716/earningsrelease3q26.htm",
+     "publisher": "Evercore (SEC 8-K exhibit 99.1)",
+     "date": "2026-10-28",
+     "title": "Evercore Q3 2026 earnings release: advised Nexus Data Centers on the $15.6 billion construction financing"
+    },
+    {
+     "url": "https://qz.com/morgan-stanley-anthropic-nexus-data-centers-texas-loan-073126",
+     "publisher": "Quartz",
+     "date": "2026-07-31",
+     "title": "Morgan Stanley leading $15B loan for Anthropic Texas data center"
+    },
+    {
+     "url": "https://www.globaldatacenterhub.com/p/morgan-stanley-leads-15-billion-financing",
+     "publisher": "Global Data Center Hub",
+     "date": "2026-08-02",
+     "title": "Morgan Stanley Leads $15 Billion Financing Talks for Anthropic's Texas Campus"
     }
    ],
    "origin": "curated"
@@ -7416,21 +8022,27 @@
    "from": "amd",
    "to": "anthropic",
    "amount_usd": 5000000000,
-   "amount_text": "Up to $5B, tied to deployment milestones",
+   "amount_text": "Up to $5.0B of Anthropic Class N common stock, which Anthropic can draw in increments as AMD GPU delivery and deployment milestones are met (first milestone expected in 2027); after the IPO priced at the 30-day average share price (Anthropic S-1)",
    "announced": "2026-07-22",
    "term": null,
-   "status": "announced",
-   "confidence": "reported",
+   "status": "signed",
+   "confidence": "confirmed",
    "title_en": "AMD to invest up to $5B in Anthropic",
    "title_zh": "AMD 向 Anthropic 投资最多 50 亿美元",
-   "summary_en": "AMD said it would invest up to $5B in Anthropic alongside the 2 GW chip deal, a circular structure where the supplier funds its customer; reports describe the investment as tied to deployment milestones.",
-   "summary_zh": "AMD 表示将在 2 吉瓦芯片协议之外向 Anthropic 投资最多 50 亿美元，形成供应商出资支持客户的循环结构；报道称该投资与部署里程碑挂钩。",
+   "summary_en": "Under the July 2026 hardware supply agreement, AMD committed to buy up to $5B of Anthropic's Class N common stock, available to Anthropic in steps as AMD GPU capacity is delivered and deployed, the first expected in 2027 (Anthropic S-1). A circular structure: the chip supplier funds its customer.",
+   "summary_zh": "根据 2026 年 7 月的硬件供应协议，AMD 承诺购买最多 50 亿美元的 Anthropic N 类普通股，Anthropic 可随 AMD GPU 交付和部署里程碑分步提取，首个里程碑预计在 2027 年达成（Anthropic S-1）。这是芯片供应商出资支持客户的循环结构。",
    "sources": [
     {
      "url": "https://news.bgov.com/artificial-intelligence/amd-to-invest-up-to-5-billion-in-anthropic-deploy-chips",
      "publisher": "Bloomberg",
      "date": "2026-07-22",
      "title": "AMD to Invest Up to $5 Billion in Anthropic, Deploy Chips"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+     "publisher": "Anthropic (SEC S-1)",
+     "date": "2026-10-26",
+     "title": "Anthropic, PBC - Form S-1"
     }
    ],
    "origin": "curated"
@@ -7500,6 +8112,47 @@
    "origin": "curated"
   },
   {
+   "id": "nvidia-hut-8-2026-07-beacon-point-phase-2-lease",
+   "kind": "lease",
+   "subkind": "15-year triple-net data-centre lease",
+   "from": "nvidia",
+   "to": "hut-8",
+   "amount_usd": 9800000000,
+   "amount_text": "~$9.8B base contract value over the 15-year initial term for 352 MW critical IT (Beacon Point Phase 2); up to ~$25.1B with three 5-year renewals; campus total $19.6B base / ~$50.2B with renewals; tenant named by the FT, not by Hut 8",
+   "announced": "2026-07-20",
+   "term": "15 years from Q2 2028 (three 5-year renewal options)",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Hut 8's second 352 MW Beacon Point lease, same tenant reported to be NVIDIA (~$9.8B)",
+   "title_zh": "Hut 8 签订 Beacon Point 第二份 352 兆瓦租约，同一租户据报为英伟达（约 98 亿美元）",
+   "summary_en": "Hut 8 signed a second 15-year lease with the same high-investment-grade tenant for another 352 MW of critical IT capacity at Beacon Point, Texas, worth about $9.8 billion and fully contracting the ~1 GW campus ($19.6 billion across both leases); the Financial Times reported the tenant is NVIDIA, which has not confirmed it. Delivery is expected from Q2 2028.",
+   "summary_zh": "Hut 8 与同一家高投资级租户再签一份 15 年租约，出租得州 Beacon Point 园区另外 352 兆瓦关键 IT 容量，价值约 98 亿美元，使约 1 吉瓦的园区全部签约（两份租约合计 196 亿美元）；《金融时报》报道租户为英伟达，英伟达未予证实。预计 2028 年二季度起交付。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926090025/hut-20260630x10q.htm",
+     "publisher": "Hut 8 (SEC 10-Q)",
+     "date": "2026-08-04",
+     "title": "Hut 8 Form 10-Q for the quarter ended June 30, 2026 (Beacon Point Phase 2 Lease)"
+    },
+    {
+     "url": "https://thenextweb.com/news/nvidia-50bn-texas-data-centre",
+     "publisher": "The Next Web (citing FT)",
+     "date": "2026-07-28",
+     "title": "Nvidia is the mystery tenant behind Hut 8's $50bn Texas data centre, FT reports"
+    },
+    {
+     "url": "https://pulse2.com/nvidia-reportedly-behind-hut-8-texas-data-center-lease-worth-up-to-50-2-billion/",
+     "publisher": "Pulse 2.0",
+     "date": "2026-07-28",
+     "title": "NVIDIA Reportedly Behind Hut 8 Texas Data Center Lease Worth Up To $50.2 Billion"
+    }
+   ],
+   "distinct_from": [
+    "nvidia-hut-8-2026-05-beacon-point-phase-1-lease"
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "private-investors-fluidstack-2026-01-series-a",
    "kind": "investment",
    "subkind": "venture round (Series A)",
@@ -7521,6 +8174,38 @@
      "publisher": "Fluidstack",
      "date": "2026-07-20",
      "title": "Fluidstack Series A announcement"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "public-equity-investors-minimax-2026-07-placement",
+   "kind": "investment",
+   "subkind": "share placement",
+   "from": "public-equity-investors",
+   "to": "minimax",
+   "amount_usd": 1220000000,
+   "amount_text": "HK$9.54B gross (~US$1.22B at ~HK$7.8/US$): 35.6M new Class A shares at HK$268; issued with HK$6.5B (~US$0.83B) zero-coupon convertible bonds due 2027, ~HK$16B in total",
+   "announced": "2026-07-10",
+   "term": "placing completed 2026-07-14; bonds issued 2026-07-16",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "MiniMax share placement",
+   "title_zh": "MiniMax 配售新股",
+   "summary_en": "MiniMax placed 35.6 million new shares with at least six independent investors at HK$268 each, raising about HK$9.54B, alongside HK$6.5B of zero-coupon convertible bonds due 2027 (about HK$16B in all, through Morgan Stanley and UBS). The money goes to AI infrastructure, model R&D and its global rollout.",
+   "summary_zh": "MiniMax 以每股 268 港元向不少于六名独立投资者配售 3,560 万股新股，募资约 95.4 亿港元，同时发行 65 亿港元 2027 年到期零息可转债（合计约 160 亿港元，由摩根士丹利和瑞银承办）。资金用于 AI 基础设施、模型研发和全球推广。",
+   "sources": [
+    {
+     "url": "https://www1.hkexnews.hk/listedco/listconews/sehk/2026/0716/2026071601147.pdf",
+     "publisher": "MiniMax Group (HKEX announcement)",
+     "date": "2026-07-16",
+     "title": "Completion of placing of 35,600,000 new Class A shares and issue of HKD6,500 million zero coupon guaranteed convertible bonds due 2027"
+    },
+    {
+     "url": "https://maples.com/news/maples-group-advises-minimax-group-on-hk16-billion-share-placement-and-convertible-bond-offering",
+     "publisher": "Maples Group",
+     "date": "2026-07-30",
+     "title": "Maples Group advises MiniMax Group on HK$16 billion share placement and convertible bond offering"
     }
    ],
    "origin": "curated"
@@ -7692,6 +8377,38 @@
    "origin": "curated"
   },
   {
+   "id": "fluidstack-terawulf-2026-07-abernathy-stake-purchase",
+   "kind": "investment",
+   "subkind": "purchase of JV stake",
+   "from": "fluidstack",
+   "to": "terawulf",
+   "amount_usd": 530000000,
+   "amount_text": "~$530M for TeraWulf's entire 50.1% stake in the Abernathy JV (FS CS I LLC), paid by Fluidstack and other purchasers in three instalments ($250M, $150M by 2026-12-31, ~$130M by 2027-04-30)",
+   "announced": "2026-07-06",
+   "term": "instalments to April 2027",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Fluidstack and partners buy TeraWulf's Abernathy JV stake (~$530M)",
+   "title_zh": "Fluidstack 等买方收购 TeraWulf 所持 Abernathy 合资股权（约 5.3 亿美元）",
+   "summary_en": "TeraWulf agreed to sell its entire 50.1% stake in the Abernathy, Texas joint venture to Fluidstack and other purchasers for about $530 million, paid in instalments through April 2027, leaving Fluidstack's side in control of the 168 MW campus; TeraWulf said it will redeploy the cash into wholly owned sites.",
+   "summary_zh": "TeraWulf 同意以约 5.3 亿美元将其所持得州 Abernathy 合资公司 50.1% 股权全部出售给 Fluidstack 及其他买方，分期支付至 2027 年 4 月，此后 168 兆瓦园区由 Fluidstack 一方控制；TeraWulf 称将把资金投入全资项目。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465926080583/tm2619468d1_8k.htm",
+     "publisher": "TeraWulf (SEC 8-K)",
+     "date": "2026-07-06",
+     "title": "TeraWulf 8-K: Justified Data Campus lease and Abernathy transaction"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330126000166/wulf-20260630.htm",
+     "publisher": "TeraWulf (SEC 10-Q)",
+     "date": "2026-08-05",
+     "title": "TeraWulf Form 10-Q for the quarter ended June 30, 2026"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "brookfield-bloom-energy-2026-06-expansion",
    "kind": "order",
    "subkind": "fuel-cell power framework expansion",
@@ -7751,6 +8468,44 @@
      "publisher": "The Standard (Bloomberg)",
      "date": "2026-06-01",
      "title": "SpaceX's US$25b notes offering for debt repayment, AI faces greater skepticism"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "microsoft-chevron-2026-06-kilby-ppa",
+   "kind": "order",
+   "subkind": "power purchase agreement (behind-the-meter gas)",
+   "from": "microsoft",
+   "to": "chevron",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; 20-year PPA for up to ~2.67 GW from Chevron's Project Kilby gas plant (plant cost estimated at ~$7B; final investment decision expected by end-2026)",
+   "announced": "2026-06-22",
+   "term": "20 years; first power by 2028",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Microsoft's 20-year power deal with Chevron for a West Texas AI campus",
+   "title_zh": "微软与雪佛龙签订 20 年购电协议，为西得州 AI 园区供电",
+   "summary_en": "Chevron signed a 20-year power purchase agreement to supply Microsoft's data-centre campus near Pecos, West Texas, from Project Kilby, an off-grid gas plant in Reeves County developed with Engine No. 1 that ramps up to about 2.67 GW, with first power by 2028. Terms were not disclosed.",
+   "summary_zh": "雪佛龙与微软签订为期 20 年的购电协议，由其与 Engine No. 1 在里夫斯县开发的离网燃气电厂 Kilby 项目为微软位于西得州佩科斯附近的数据中心园区供电，装机逐步增至约 2.67 吉瓦，2028 年前首次供电。条款未披露。",
+   "sources": [
+    {
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/06/22/chevron-signs-power-supply-deal-with-microsoft-for-texas-data-center",
+     "publisher": "The Star (Reuters)",
+     "date": "2026-06-22",
+     "title": "Chevron signs power supply deal with Microsoft for Texas data center"
+    },
+    {
+     "url": "https://news.bloomberglaw.com/texas-brief/microsoft-chevron-sign-20-year-power-deal-for-texas-data-center",
+     "publisher": "Bloomberg",
+     "date": "2026-06-22",
+     "title": "Microsoft, Chevron Sign Power Deal for Texas Data Center"
+    },
+    {
+     "url": "https://www.eenews.net/articles/chevron-inks-deal-to-power-microsoft-data-center-in-texas/",
+     "publisher": "E&E News",
+     "date": "2026-06-23",
+     "title": "Chevron inks deal to power Microsoft data center in Texas"
     }
    ],
    "origin": "curated"
@@ -7939,6 +8694,12 @@
      "publisher": "Applied Digital (press release)",
      "date": "2026-06-09",
      "title": "Applied Digital Announces Pricing of $1.59 Billion of Senior Secured Notes"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000114487926000059/apld-20260831.htm",
+     "publisher": "Applied Digital (SEC 10-Q)",
+     "date": "2026-10-07",
+     "title": "Applied Digital Corp. - Form 10-Q for the quarter ended 31 August 2026"
     }
    ],
    "origin": "curated"
@@ -7997,6 +8758,38 @@
      "publisher": "FilingReader (HKEX filing summary)",
      "date": "2026-06-09",
      "title": "Tencent prices $2.45bn and 15bn yuan dual-currency note offering"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bond-investors-cipher-mining-2026-06-stingray-notes",
+   "kind": "debt",
+   "subkind": "senior secured notes (project)",
+   "from": "bond-investors",
+   "to": "cipher-mining",
+   "amount_usd": 810000000,
+   "amount_text": "$810.0M 6.000% senior secured notes due 2031, issued at 99.75% by Stingray Compute LLC; Morgan Stanley representative of initial purchasers; Cipher completion guarantee",
+   "announced": "2026-06-08",
+   "term": "due 2031-06-15",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Cipher Digital $810M notes for the AWS-leased Stingray data centre",
+   "title_zh": "Cipher Digital 发行 8.1 亿美元票据，建设 AWS 租用的 Stingray 数据中心",
+   "summary_en": "Cipher Digital's subsidiary Stingray Compute sold $810 million of 6% senior secured notes due 2031 to finance the remaining cost of the 70 MW Stingray data centre in Andrews, Texas, leased to AWS, reimburse Cipher's equity and fund debt reserves; the offering closed on 15 June 2026.",
+   "summary_zh": "Cipher Digital 子公司 Stingray Compute 发行 8.1 亿美元、票息 6%、2031 年到期的优先担保票据，用于支付租给 AWS 的得州安德鲁斯 70 兆瓦 Stingray 数据中心剩余建设成本、偿还 Cipher 前期股本投入并设立偿债准备金，于 2026 年 6 月 15 日完成发行。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010326008994/dp248453_8k.htm",
+     "publisher": "Cipher Digital (SEC 8-K)",
+     "date": "2026-06-15",
+     "title": "Cipher Digital 8-K: Stingray Compute $810.0M 6.000% Senior Secured Notes due 2031"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010326008678/dp248139_ex9901.htm",
+     "publisher": "Cipher Digital (SEC 8-K exhibit 99.1)",
+     "date": "2026-06-08",
+     "title": "Cipher Digital Inc. Announces Pricing of $810.0 Million of Senior Secured Notes"
     }
    ],
    "origin": "curated"
@@ -8251,22 +9044,28 @@
    "subkind": "equity funding round (Series H)",
    "from": "private-investors",
    "to": "anthropic",
-   "amount_usd": 50000000000,
-   "amount_text": "$65B round at $965B post-money, of which $15B is previously committed hyperscaler money (including $5B from Amazon) already counted on those edges; $50B from other investors",
+   "amount_usd": 50200000000,
+   "amount_text": "$65.2B gross at $589.01 a share ($965B post-money): ~$45.7B of voting Series H-1 from 305 investors + ~$19.5B of non-voting Series H-2 from 11 investors, which includes $10B from Google and $5B from Amazon already counted on their edges; ~$50.2B from other investors counted here (Anthropic S-1)",
    "announced": "2026-05-28",
    "term": null,
    "status": "completed",
    "confidence": "confirmed",
    "title_en": "Anthropic $65B Series H at $965B",
    "title_zh": "Anthropic 650 亿美元 H 轮融资（估值 9650 亿美元）",
-   "summary_en": "Anthropic raised $65B led by Altimeter, Dragoneer, Greenoaks and Sequoia at a $965B post-money valuation, including $15B of earlier hyperscaler commitments; Micron, Samsung and SK hynix joined as strategic investors.",
-   "summary_zh": "Anthropic 完成 650 亿美元 H 轮融资，由 Altimeter、Dragoneer、Greenoaks 和红杉领投，投后估值 9650 亿美元，其中含云巨头此前承诺的 150 亿美元；美光、三星和 SK 海力士作为战略投资者参投。",
+   "summary_en": "Anthropic raised $65.2B in May-June 2026 led by Altimeter, Dragoneer, Greenoaks and Sequoia at a $965B post-money valuation; per its S-1, $45.7B came as voting Series H-1 shares from 305 investors and $19.5B as non-voting Series H-2 shares, including $10B from Google and $5B from Amazon. Micron, Samsung and SK hynix joined as strategic investors.",
+   "summary_zh": "Anthropic 于 2026 年 5-6 月完成 652 亿美元 H 轮融资，由 Altimeter、Dragoneer、Greenoaks 和红杉领投，投后估值 9650 亿美元；据 S-1，其中 457 亿美元为 305 名投资者认购的有投票权 H-1 优先股，195 亿美元为无投票权 H-2 优先股（含谷歌 100 亿美元、亚马逊 50 亿美元）。美光、三星和 SK 海力士作为战略投资者参投。",
    "sources": [
     {
      "url": "https://www.anthropic.com/news/series-h",
      "publisher": "Anthropic",
      "date": "2026-05-28",
      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+     "publisher": "Anthropic (SEC S-1)",
+     "date": "2026-10-26",
+     "title": "Anthropic, PBC - Form S-1"
     }
    ],
    "origin": "curated"
@@ -8319,6 +9118,44 @@
      "publisher": "Anthropic",
      "date": "2026-05-28",
      "title": "Anthropic raises $65B in Series H funding at $965B post-money valuation"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "nebius-bloom-energy-2026-05-fuel-cell-capacity",
+   "kind": "order",
+   "subkind": "on-site fuel-cell power capacity agreement",
+   "from": "nebius",
+   "to": "bloom-energy",
+   "amount_usd": 2600000000,
+   "amount_text": "Monthly service fees of up to $2.6B in aggregate over the term (a ceiling, subject to commencement conditions); ~250 MW guaranteed / ~328 MW installed, three phases of 10 years each",
+   "announced": "2026-05-20",
+   "term": "three phases, each a 10-year supply term",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Nebius fuel-cell power capacity agreement with Bloom Energy",
+   "title_zh": "Nebius 与 Bloom Energy 的燃料电池供电容量协议",
+   "summary_en": "On 14 May 2026 a Nebius subsidiary signed a master fuel-cell capacity agreement under which Bloom Energy installs, operates and maintains on-site fuel cells at Nebius data centres (about 250 MW guaranteed, 328 MW installed) and Nebius pays monthly service fees of up to $2.6B over the term. In July 2026 Industrial Development Funding and Oaktree announced a $1.7B project investment to finance the Bloom fuel cells for Nebius.",
+   "summary_zh": "2026 年 5 月 14 日，Nebius 旗下子公司与 Bloom Energy 签署燃料电池容量主协议：Bloom 在 Nebius 数据中心现场安装、运营和维护燃料电池（保证容量约 250 兆瓦，装机约 328 兆瓦），Nebius 在合同期内按月支付服务费，总额最高 26 亿美元。2026 年 7 月，Industrial Development Funding 与橡树资本宣布投入 17 亿美元为这批供 Nebius 使用的 Bloom 燃料电池提供项目融资。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1513845/000110465926064092/nbis-20260331xex99d2.htm",
+     "publisher": "Nebius Group (SEC 6-K, Q1 2026 financial statements)",
+     "date": "2026-05-20",
+     "title": "Nebius Group N.V. unaudited condensed consolidated financial statements, subsequent events: Fuel Cell Capacity Agreement"
+    },
+    {
+     "url": "https://www.fierce-network.com/newswire/neocloud-nebius-inks-26b-deal-bloom-energy",
+     "publisher": "Fierce Network",
+     "date": "2026-05-20",
+     "title": "Neocloud Nebius inks $2.6B deal with Bloom Energy"
+    },
+    {
+     "url": "https://www.datacenterdynamics.com/en/news/idf-oaktree-to-invest-17bn-to-support-bloom-energys-fuel-cell-deployments-across-nebius-data-centers-in-us/",
+     "publisher": "Data Center Dynamics",
+     "date": "2026-07-17",
+     "title": "IDF, Oaktree to invest $1.7bn to support Bloom Energy's fuel cell deployments across Nebius data centers in US"
     }
    ],
    "origin": "curated"
@@ -8383,6 +9220,38 @@
      "publisher": "The Next Web",
      "date": "2026-05-18",
      "title": "Blackstone takes the majority position in Google's new TPU cloud"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "crux-ai-alphabet-2026-05-tpu-purchase",
+   "kind": "order",
+   "subkind": "TPU chip purchase",
+   "from": "crux-ai",
+   "to": "alphabet",
+   "amount_usd": null,
+   "amount_text": "Not disclosed; Crux AI buys Google TPUs for ~500 MW of capacity targeted in 2027, financed by Blackstone's $5B equity and a ~$22B bank loan",
+   "announced": "2026-05-18",
+   "term": "capacity from 2027",
+   "status": "in_progress",
+   "confidence": "reported",
+   "title_en": "Crux AI purchase of Google TPUs",
+   "title_zh": "Crux AI 采购谷歌 TPU",
+   "summary_en": "Crux AI, the TPU cloud venture of Blackstone and Google, buys Google's TPUs to rent them out as compute, aiming for 500 MW of capacity in 2027; the chips are financed by Blackstone's initial $5B of equity and a roughly $22B loan from ten banks. The purchase value was not disclosed.",
+   "summary_zh": "黑石与谷歌合资的 TPU 云公司 Crux AI 向谷歌采购 TPU 芯片并对外出租算力，目标是 2027 年达到 500 兆瓦容量；采购资金来自黑石首期 50 亿美元股权和十家银行约 220 亿美元贷款。采购金额未披露。",
+   "sources": [
+    {
+     "url": "https://www.datacenterknowledge.com/infrastructure/blackstone-google-launch-5b-tpu-infrastructure-venture",
+     "publisher": "Data Center Knowledge",
+     "date": "2026-05-21",
+     "title": "Does Google's $5B TPU Deal Signal a New Neocloud Era?"
+    },
+    {
+     "url": "https://pulse2.com/crux-ai-lines-up-22-billion-chip-loan-from-10-banks-to-buy-google-tpus/",
+     "publisher": "Pulse 2.0",
+     "date": "2026-09-16",
+     "title": "Crux AI Lines Up $22 Billion Chip Loan From 10 Banks To Buy Google TPUs"
     }
    ],
    "origin": "curated"
@@ -8743,6 +9612,50 @@
     }
    ],
    "added_by": "approved by helajo",
+   "origin": "curated"
+  },
+  {
+   "id": "nvidia-hut-8-2026-05-beacon-point-phase-1-lease",
+   "kind": "lease",
+   "subkind": "15-year triple-net data-centre lease",
+   "from": "nvidia",
+   "to": "hut-8",
+   "amount_usd": 9800000000,
+   "amount_text": "~$9.8B base contract value over the 15-year initial term for 352 MW critical IT (Beacon Point Phase 1); up to ~$25B with three 5-year renewals; tenant named by the FT, not by Hut 8",
+   "announced": "2026-05-06",
+   "term": "15 years (three 5-year renewal options)",
+   "status": "signed",
+   "confidence": "reported",
+   "title_en": "Hut 8 leases 352 MW at Beacon Point to an investment-grade tenant, reported to be NVIDIA (~$9.8B)",
+   "title_zh": "Hut 8 将 Beacon Point 352 兆瓦租给投资级租户（据报为英伟达，约 98 亿美元）",
+   "summary_en": "Hut 8 signed a 15-year triple-net lease for 352 MW of critical IT capacity in Phase 1 of its Beacon Point campus in Nueces County, Texas, worth about $9.8 billion, with what it called a high-investment-grade technology company; the Financial Times reported in July that the tenant is NVIDIA (not confirmed by the companies). The build is financed by $4.25 billion of notes (separate edge).",
+   "summary_zh": "Hut 8 与一家“高投资级科技公司”签订为期 15 年的三净租约，出租其得州纽埃塞斯县 Beacon Point 园区一期 352 兆瓦关键 IT 容量，价值约 98 亿美元；英国《金融时报》7 月报道租户为英伟达（公司未证实）。建设资金来自 42.5 亿美元票据（另列）。",
+   "sources": [
+    {
+     "url": "https://www.datacenterdynamics.com/en/news/hut-8-signs-352mw-lease-with-unnamed-hyperscaler-in-texas/",
+     "publisher": "DatacenterDynamics",
+     "date": "2026-05-07",
+     "title": "Hut 8 signs 352MW lease with unnamed hyperscaler in Texas"
+    },
+    {
+     "url": "https://thenextweb.com/news/nvidia-50bn-texas-data-centre",
+     "publisher": "The Next Web (citing FT)",
+     "date": "2026-07-28",
+     "title": "Nvidia is the mystery tenant behind Hut 8's $50bn Texas data centre, FT reports"
+    },
+    {
+     "url": "https://pulse2.com/nvidia-reportedly-behind-hut-8-texas-data-center-lease-worth-up-to-50-2-billion/",
+     "publisher": "Pulse 2.0",
+     "date": "2026-07-28",
+     "title": "NVIDIA Reportedly Behind Hut 8 Texas Data Center Lease Worth Up To $50.2 Billion"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1964789/000110465926090025/hut-20260630x10q.htm",
+     "publisher": "Hut 8 (SEC 10-Q)",
+     "date": "2026-08-04",
+     "title": "Hut 8 Form 10-Q for the quarter ended June 30, 2026"
+    }
+   ],
    "origin": "curated"
   },
   {
@@ -9141,6 +10054,56 @@
      "publisher": "CNBC",
      "date": "2026-04-14",
      "title": "Meta commits to 1 gigawatt of custom chips with Broadcom"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "oracle-bloom-energy-2026-04-fuel-cells",
+   "kind": "order",
+   "subkind": "on-site fuel-cell power supply (master agreement)",
+   "from": "oracle",
+   "to": "bloom-energy",
+   "amount_usd": null,
+   "amount_text": "Undisclosed; up to 2.8 GW of Bloom fuel cells (1.2 GW already contracted for 2026–27); Bloom issued Oracle a warrant for 3,531,073 shares at $113.28 (agreed Oct 2025, issued 2026-04-09, exercised cashless on 2026-05-01 for 1,905,433 shares)",
+   "announced": "2026-04-13",
+   "term": "deployment underway, continuing into 2027",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Oracle fuel-cell supply deal with Bloom Energy (up to 2.8 GW)",
+   "title_zh": "甲骨文与 Bloom Energy 的燃料电池供电协议（最高 2.8 吉瓦）",
+   "summary_en": "Bloom Energy said it will supply Oracle with up to 2.8 GW of fuel-cell capacity for its AI and cloud data centres under an expanded master agreement, of which 1.2 GW is already contracted and being deployed. The value was not disclosed; Bloom also issued Oracle a warrant.",
+   "summary_zh": "Bloom Energy 表示，根据扩大后的主协议，将为甲骨文的 AI 和云数据中心提供最高 2.8 吉瓦的燃料电池发电容量，其中 1.2 吉瓦已签约并在部署中。金额未披露；Bloom 还向甲骨文发行了认股权证。",
+   "sources": [
+    {
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/04/14/bloom-energy-to-supply-up-to-28-gw-of-fuel-cells-under-expanded-oracle-deal",
+     "publisher": "Reuters (via The Star)",
+     "date": "2026-04-13",
+     "title": "Bloom Energy to supply up to 2.8 GW of fuel cells under expanded Oracle deal"
+    },
+    {
+     "url": "https://convergedigest.com/bloom-energy-oracle-scale-fuel-cell-deal-to-2-8-gw/?amp=1",
+     "publisher": "Converge Digest",
+     "date": "2026-04-14",
+     "title": "Bloom Energy, Oracle scale fuel cell deal to 2.8 GW"
+    },
+    {
+     "url": "https://www.bloomenergy.com/news/bloom-energy-and-oracle-expand-strategic-partnership-to-deploy-up-to-2-8-gw-to-accelerate-ai-infrastructure-build-out/",
+     "publisher": "Bloom Energy (press release)",
+     "date": "2026-04-13",
+     "title": "Bloom Energy and Oracle Expand Strategic Partnership to Deploy up to 2.8 GW to Accelerate AI Infrastructure Build-Out"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026024896/be-20260413.htm",
+     "publisher": "Bloom Energy (SEC 8-K)",
+     "date": "2026-04-13",
+     "title": "Bloom Energy 8-K: warrant issued to Oracle Corporation"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1664703/000162828026066931/be-20260930.htm",
+     "publisher": "Bloom Energy (SEC 10-Q)",
+     "date": "2026-10-22",
+     "title": "Bloom Energy Form 10-Q for the quarter ended September 30, 2026"
     }
    ],
    "origin": "curated"
@@ -9717,6 +10680,38 @@
    "origin": "curated"
   },
   {
+   "id": "amazon-cerebras-2026-03-system-lease",
+   "kind": "lease",
+   "subkind": "hardware lease of AI systems with warrant",
+   "from": "amazon",
+   "to": "cerebras",
+   "amount_usd": null,
+   "amount_text": "Not disclosed; multi-year lease of Cerebras systems in AWS data centres with options for further purchases; Cerebras issued AWS a warrant for up to 2,696,678 shares at $100, vesting with AWS payments",
+   "announced": "2026-03-13",
+   "term": "initial multi-year lease (agreement signed June 2026; not yet commenced at 30 June 2026)",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "AWS lease of Cerebras AI systems, with a Cerebras warrant",
+   "title_zh": "AWS 租用 Cerebras AI 系统（附 Cerebras 认股权证）",
+   "summary_en": "Amazon and Cerebras announced in March 2026 a joint inference service pairing AWS Trainium3 with Cerebras systems inside AWS data centres; in June 2026 they signed a global hardware leasing agreement with exclusivity and minimum manufacturing capacity guarantees for AWS. Cerebras issued Amazon a warrant for up to about 2.7 million shares at $100, vesting as AWS payments reach set thresholds; the value was not disclosed.",
+   "summary_zh": "亚马逊与 Cerebras 于 2026 年 3 月宣布在 AWS 数据中心内将 Trainium3 与 Cerebras 系统结合提供推理服务；2026 年 6 月双方签署全球硬件租赁协议，包含对 AWS 的排他条款和最低产能保证。Cerebras 向亚马逊发行认股权证，可按每股 100 美元认购最多约 270 万股，随 AWS 付款达到门槛分批归属；金额未披露。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2021728/000162828026056357/cbrs-20260630.htm",
+     "publisher": "Cerebras Systems (SEC 10-Q)",
+     "date": "2026-08-12",
+     "title": "Cerebras Systems Form 10-Q for the quarter ended June 30, 2026"
+    },
+    {
+     "url": "https://www.thestar.com.my/tech/tech-news/2026/03/14/cerebras-systems-amazon-strike-deal-to-offer-cerebras-ai-chips-on-amazon039s-cloud-",
+     "publisher": "Reuters (via The Star)",
+     "date": "2026-03-13",
+     "title": "Cerebras Systems, Amazon strike deal to offer Cerebras AI chips on Amazon's cloud"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
    "id": "bytedance-aolani-cloud-2026-03-blackwell-rental",
    "kind": "order",
    "subkind": "offshore GPU compute rental (Nvidia B200, Malaysia)",
@@ -9750,6 +10745,32 @@
      "publisher": "Forbes Peru (citing WSJ)",
      "date": "2026-03-13",
      "title": "ByteDance compró chips de alta gama de Nvidia, informó The Wall Street Journal"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "morgan-stanley-terawulf-2026-03-hawesville-bridge",
+   "kind": "debt",
+   "subkind": "delayed-draw senior secured bridge loan",
+   "from": "morgan-stanley",
+   "to": "terawulf",
+   "amount_usd": 500000000,
+   "amount_text": "$500M 364-day delayed-draw senior secured bridge facility to Raylan Data LLC; SOFR + 2.75%",
+   "announced": "2026-03-13",
+   "term": "364 days",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Morgan Stanley $500M bridge loan for TeraWulf's Hawesville campus",
+   "title_zh": "摩根士丹利为 TeraWulf Hawesville 园区提供 5 亿美元过桥贷款",
+   "summary_en": "Lenders with Morgan Stanley Senior Funding as agent provided TeraWulf's subsidiary Raylan Data a 364-day, $500 million delayed-draw secured bridge loan to build its data centre in Hawesville, Kentucky, the campus later leased to Anthropic (separate edge).",
+   "summary_zh": "以摩根士丹利为代理行的贷款方向 TeraWulf 子公司 Raylan Data 提供为期 364 天、5 亿美元的延迟提款有担保过桥贷款，用于建设肯塔基州 Hawesville 数据中心；该园区后来租给 Anthropic（另列）。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1083301/000095014226000720/eh260751501_8k.htm",
+     "publisher": "TeraWulf (SEC 8-K)",
+     "date": "2026-03-16",
+     "title": "TeraWulf 8-K: $500M delayed-draw senior secured bridge credit agreement (Hawesville)"
     }
    ],
    "origin": "curated"
@@ -9840,6 +10861,12 @@
      "publisher": "Applied Digital (SEC 8-K)",
      "date": "2026-03-10",
      "title": "Applied Digital 8-K: $2.15B 6.750% Senior Secured Notes due 2031"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1144879/000149315226028993/form8-ka.htm",
+     "publisher": "Applied Digital (SEC 8-K/A)",
+     "date": "2026-06-17",
+     "title": "Applied Digital 8-K/A: escrow condition satisfied, 6.75% Senior Secured Notes due 2031 proceeds released"
     }
    ],
    "origin": "curated"
@@ -10000,6 +11027,67 @@
      "publisher": "The Next Web",
      "date": "2026-05-01",
      "title": "SpaceX used a $20 billion bridge loan to slash Musk's debt costs in half, IPO filing reveals"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "amazon-cipher-mining-2026-03-stingray-lease",
+   "kind": "lease",
+   "subkind": "15-year data-centre lease (triple net)",
+   "from": "amazon",
+   "to": "cipher-mining",
+   "amount_usd": 2000000000,
+   "amount_text": "~$2.0B contracted lease payments over the 15-year base term (~$5.7B if three 5-year extensions are exercised); 70 MW critical IT (100 MW gross); signed March 2026 (day not disclosed), tenant named 2026-06-08",
+   "announced": "2026-03-01",
+   "term": "15 years from April 2027 (three 5-year extension options)",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "AWS leases Cipher's 70 MW Stingray data centre in Texas (~$2.0B)",
+   "title_zh": "AWS 租用 Cipher 得州 Stingray 70 兆瓦数据中心（约 20 亿美元）",
+   "summary_en": "Amazon Data Services (AWS) signed a 15-year triple-net lease for 70 MW of critical IT capacity at Cipher Digital's Stingray site in Andrews, Texas, worth about $2.0 billion in base rent, with rent from April 2027; Amazon.com guarantees the rent and covers construction cost overruns above a cap. It is Cipher's second AWS lease after Black Pearl.",
+   "summary_zh": "亚马逊数据服务公司（AWS）与 Cipher Digital 签订为期 15 年的三净租约，租用其得州安德鲁斯 Stingray 园区 70 兆瓦关键 IT 容量，基础租金约 20 亿美元，2027 年 4 月起计租；亚马逊母公司为租金提供担保，并承担超出上限的建设成本。这是继 Black Pearl 之后 Cipher 与 AWS 的第二份租约。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1819989/000095010326008635/dp248110_ex9901.htm",
+     "publisher": "Cipher Digital (SEC 8-K exhibit 99.1, investor presentation)",
+     "date": "2026-06-08",
+     "title": "Stingray Compute: financing AWS-backed data center at Stingray"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1819989/000181998926000041/cifr-20260630.htm",
+     "publisher": "Cipher Digital (SEC 10-Q)",
+     "date": "2026-08-04",
+     "title": "Cipher Digital Form 10-Q for the quarter ended June 30, 2026"
+    }
+   ],
+   "distinct_from": [
+    "amazon-cipher-mining-2025-11-aws-lease"
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "broadcom-anthropic-2026-03-convertible-note-facility",
+   "kind": "vendor_financing",
+   "subkind": "convertible note facility (rent financing)",
+   "from": "broadcom",
+   "to": "anthropic",
+   "amount_usd": 42000000000,
+   "amount_text": "Up to $42.0B of 9% PIK convertible notes (13% and a deeper conversion discount if revenue conditions are missed), drawable for five years once the leased equipment is ready for service, solely to pay quarterly rent under the 2026 Broadcom equipment lease; undrawn at 30 June 2026 (Anthropic S-1). The rent itself is counted on anthropic-broadcom-2026-10-equipment-leases",
+   "announced": "2026-03-01",
+   "term": "Draw period 5 years from equipment readiness; notes mature 57-63 months from the start of the draw period",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Broadcom $42B convertible note facility for Anthropic's rack rent",
+   "title_zh": "博通为 Anthropic 机架租金提供 420 亿美元可转债融资额度",
+   "summary_en": "Under a March 2026 note purchase agreement (day not disclosed), Anthropic may issue up to $42B of convertible notes to Broadcom, or a financial partner Broadcom designates, solely to finance rent on the 2026 master equipment lease for Broadcom TPU racks; interest is 9% paid in kind and holders can convert into stock at 90% of the market price. Draws depend on revenue-growth and liquidity conditions, and none had been made at 30 June 2026.",
+   "summary_zh": "根据 2026 年 3 月签订的票据购买协议（具体日期未披露），Anthropic 可向博通或其指定的金融合作方发行最多 420 亿美元可转换票据，专门用于支付 2026 年博通 TPU 机架设备总租约的租金；利率 9%、以实物支付，持有人可按市价 90% 转股。提取须满足营收增长和流动性条件，截至 2026 年 6 月 30 日尚未提取。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+     "publisher": "Anthropic (SEC S-1)",
+     "date": "2026-10-26",
+     "title": "Anthropic, PBC - Form S-1"
     }
    ],
    "origin": "curated"
@@ -10350,22 +11438,28 @@
    "subkind": "equity funding round (Series G)",
    "from": "private-investors",
    "to": "anthropic",
-   "amount_usd": null,
-   "amount_text": "$30B round at $380B post-money; it includes an undisclosed portion of Microsoft's and NVIDIA's earlier commitments (their own edges), so the financial investors' share is not disclosed and no amount is counted here",
+   "amount_usd": 23450000000,
+   "amount_text": "$30.2B gross in Q1 2026 at $259.14 a share ($380B post-money): ~$23.45B of voting Series G-1 from 261 investors (counted here) + ~$6.7B of non-voting Series G-2 from strategic investors the S-1 does not name (not counted; reports said the round included part of Microsoft's and NVIDIA's commitments, which have their own edges). Google's $10B and Amazon's $5B of Series G-2 in Q2 are on their own edges",
    "announced": "2026-02-12",
    "term": null,
    "status": "completed",
    "confidence": "confirmed",
    "title_en": "Anthropic $30B Series G at $380B",
    "title_zh": "Anthropic 300 亿美元 G 轮融资（估值 3800 亿美元）",
-   "summary_en": "Anthropic raised $30B led by GIC and Coatue at a $380B post-money valuation; the round includes a portion of the previously announced Microsoft and NVIDIA investments.",
-   "summary_zh": "Anthropic 完成 300 亿美元 G 轮融资，由 GIC 与 Coatue 领投，投后估值 3800 亿美元；本轮包含微软和英伟达此前宣布投资的一部分。",
+   "summary_en": "Anthropic raised $30B led by GIC and Coatue at a $380B post-money valuation. Its S-1 shows $23.45B of voting Series G-1 shares sold to 261 investors in January-February 2026 and about $6.7B of non-voting Series G-2 shares to strategic investors; reports said the round included part of the Microsoft and NVIDIA investments.",
+   "summary_zh": "Anthropic 完成 300 亿美元 G 轮融资，由 GIC 与 Coatue 领投，投后估值 3800 亿美元。S-1 显示，2026 年 1-2 月向 261 名投资者出售了 234.5 亿美元有投票权的 G-1 优先股，另向战略投资者出售约 67 亿美元无投票权 G-2 优先股；报道称本轮包含微软和英伟达投资的一部分。",
    "sources": [
     {
      "url": "https://www.anthropic.com/news/anthropic-raises-30-billion-series-g-funding-380-billion-post-money-valuation",
      "publisher": "Anthropic",
      "date": "2026-02-12",
      "title": "Anthropic raises $30 billion in Series G funding at $380 billion post-money valuation"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+     "publisher": "Anthropic (SEC S-1)",
+     "date": "2026-10-26",
+     "title": "Anthropic, PBC - Form S-1"
     }
    ],
    "origin": "curated"
@@ -10826,6 +11920,50 @@
      "publisher": "StorageNewsletter",
      "date": "2026-03-24",
      "title": "Micron Completes Acquisition of PSMC's Tongluo P5 Site in Taiwan"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "amd-riot-platforms-2026-01-rockdale-lease",
+   "kind": "lease",
+   "subkind": "data-centre lease and services agreement",
+   "from": "amd",
+   "to": "riot-platforms",
+   "amount_usd": 636000000,
+   "amount_text": "~$636M total contract revenue over the 10-year initial terms for 50 MW ($311M for the first 25 MW signed Jan 2026 + $325M for a 25 MW expansion option exercised in Q1 2026); three 5-year extensions; AMD holds options for up to 150 MW more",
+   "announced": "2026-01-16",
+   "term": "10 years (three 5-year extension options); 25 MW from May 2026, 50 MW by May 2027",
+   "status": "in_progress",
+   "confidence": "confirmed",
+   "title_en": "AMD leases 50 MW at Riot's Rockdale site (~$636M)",
+   "title_zh": "AMD 租用 Riot Rockdale 园区 50 兆瓦（约 6.36 亿美元）",
+   "summary_en": "AMD signed Riot Platforms' first data-centre lease, for 25 MW of critical IT capacity at Rockdale, Texas (~$311 million over 10 years), and in Q1 2026 exercised an expansion option for another 25 MW, taking the lease to 50 MW and about $636 million. AMD keeps options for up to 150 MW more.",
+   "summary_zh": "AMD 与 Riot Platforms 签订其首份数据中心租约，租用得州 Rockdale 园区 25 兆瓦关键 IT 容量（10 年约 3.11 亿美元）；2026 年一季度 AMD 行使扩容选择权再增 25 兆瓦，租约增至 50 兆瓦、约 6.36 亿美元，并保留最多再增 150 兆瓦的选择权。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1167419/000110465926004551/riot-20260116xex99d1.htm",
+     "publisher": "Riot Platforms (SEC 8-K exhibit 99.1)",
+     "date": "2026-01-16",
+     "title": "Riot Announces Fee Simple Acquisition of Land and First Data Center Lease with AMD at the Rockdale Site"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1167419/000110465926052943/riot-20260430xex99d2.htm",
+     "publisher": "Riot Platforms (SEC 8-K exhibit 99.2)",
+     "date": "2026-04-30",
+     "title": "Riot Platforms Q1 2026 update: AMD expansion option exercised, 50 MW, $636M total contract revenue"
+    },
+    {
+     "url": "https://www.datacenterdynamics.com/en/news/amd-signs-additional-25mw-data-center-lease-with-riot-in-texas/",
+     "publisher": "DatacenterDynamics",
+     "date": "2026-04-30",
+     "title": "AMD signs additional 25MW data center lease with Riot in Texas"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1167419/000110465926093448/riot-20260630x10q.htm",
+     "publisher": "Riot Platforms (SEC 10-Q)",
+     "date": "2026-08-10",
+     "title": "Riot Platforms Form 10-Q for the quarter ended June 30, 2026"
     }
    ],
    "origin": "curated"
@@ -11294,6 +12432,32 @@
      "publisher": "Cleary Gottlieb",
      "date": "2026-03-10",
      "title": "Alphabet Completes $4.75 Billion Acquisition of Intersect Power"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bond-investors-terawulf-2025-12-abernathy-notes",
+   "kind": "debt",
+   "subkind": "senior secured notes (JV project)",
+   "from": "bond-investors",
+   "to": "terawulf",
+   "amount_usd": 1300000000,
+   "amount_text": "$1.3B 7.250% senior secured notes due 2030, issued at par by Flash Compute LLC (Abernathy JV subsidiary); Morgan Stanley representative of initial purchasers",
+   "announced": "2025-12-18",
+   "term": "due 2030",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "TeraWulf–Fluidstack JV $1.3B notes for the Abernathy campus",
+   "title_zh": "TeraWulf–Fluidstack 合资公司发行 13 亿美元票据建设 Abernathy 园区",
+   "summary_en": "Flash Compute, a subsidiary of the TeraWulf (50.1%) and Fluidstack (49.9%) joint venture, sold $1.3 billion of 7.25% senior secured notes due 2030 to fund part of the 168 MW Abernathy, Texas campus leased to Fluidstack, with Google's lease backstop supporting the credit; the offering closed on 29 December 2025.",
+   "summary_zh": "TeraWulf（持股 50.1%）与 Fluidstack（49.9%）合资公司旗下 Flash Compute 发行 13 亿美元、票息 7.25%、2030 年到期的优先担保票据，用于建设租给 Fluidstack 的得州 Abernathy 168 兆瓦园区，谷歌的租金兜底为其增信，于 2025 年 12 月 29 日完成发行。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925124839/tm2534384d1_8k.htm",
+     "publisher": "TeraWulf (SEC 8-K)",
+     "date": "2025-12-29",
+     "title": "TeraWulf 8-K: Flash Compute $1.3B 7.250% Senior Secured Notes due 2030"
     }
    ],
    "origin": "curated"
@@ -12026,6 +13190,93 @@
      "publisher": "Advisor Perspectives (Bloomberg)",
      "date": "2025-10-31",
      "title": "Meta defies AI spending gloom with record-breaking bond sale"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "bond-investors-terawulf-2025-10-convertible",
+   "kind": "debt",
+   "subkind": "convertible senior notes",
+   "from": "bond-investors",
+   "to": "terawulf",
+   "amount_usd": 1025000000,
+   "amount_text": "$1.025B 0.00% convertible senior notes due 2032-05-01 (incl. $125M option exercised in full); net proceeds ~$999.7M",
+   "announced": "2025-10-29",
+   "term": "due 2032-05-01",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "TeraWulf $1.025B convertible notes for the Abernathy campus",
+   "title_zh": "TeraWulf 发行 10.25 亿美元可转换票据，投向 Abernathy 园区",
+   "summary_en": "TeraWulf sold $1.025 billion of 0% convertible senior notes due 2032 (Morgan Stanley and Cantor as representatives); the proceeds fund part of the cost of the Abernathy, Texas AI campus leased to Fluidstack and general corporate purposes. The offering closed on 31 October 2025.",
+   "summary_zh": "TeraWulf 发行 10.25 亿美元、2032 年到期的零息可转换优先票据（摩根士丹利与 Cantor 为主承销代表），资金用于租给 Fluidstack 的得州 Abernathy AI 园区部分建设成本及一般用途，于 2025 年 10 月 31 日完成发行。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925104928/tm2529894d1_8k.htm",
+     "publisher": "TeraWulf (SEC 8-K)",
+     "date": "2025-10-31",
+     "title": "TeraWulf 8-K: $1.025B 0.00% Convertible Senior Notes due 2032"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "alphabet-terawulf-2025-10-abernathy-lease-backstop",
+   "kind": "guarantee",
+   "subkind": "lease obligation backstop",
+   "from": "alphabet",
+   "to": "terawulf",
+   "amount_usd": 1300000000,
+   "amount_text": "Google backs ~$1.3B of Fluidstack's long-term lease obligations at the Abernathy JV campus; no TeraWulf warrants issued",
+   "announced": "2025-10-28",
+   "term": "25-year lease",
+   "status": "signed",
+   "confidence": "confirmed",
+   "title_en": "Google backstops $1.3B of Fluidstack's Abernathy lease",
+   "title_zh": "谷歌为 Fluidstack 的 Abernathy 租约提供 13 亿美元兜底",
+   "summary_en": "Google agreed to back about $1.3 billion of Fluidstack's lease payments (Fluidstack is the obligor) to the TeraWulf–Fluidstack joint venture's Abernathy, Texas campus, to support the project's debt financing; unlike the Lake Mariner backstop, no TeraWulf warrants were issued.",
+   "summary_zh": "谷歌同意为 Fluidstack 向 TeraWulf–Fluidstack 合资公司得州 Abernathy 园区支付的约 13 亿美元租金提供兜底（付款义务人为 Fluidstack），以支持项目债务融资；与 Lake Mariner 兜底不同，此次 TeraWulf 未发行认股权证。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925102858/tm2529509d1_ex99-1.htm",
+     "publisher": "TeraWulf (SEC 8-K exhibit 99.1)",
+     "date": "2025-10-28",
+     "title": "TeraWulf Expands Strategic Partnership with Fluidstack Through New 168 MW AI Compute Joint Venture"
+    }
+   ],
+   "distinct_from": [
+    "alphabet-terawulf-2025-08-fluidstack-lease-backstop"
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "fluidstack-terawulf-2025-10-abernathy-lease",
+   "kind": "lease",
+   "subkind": "25-year AI data-centre lease (JV campus)",
+   "from": "fluidstack",
+   "to": "terawulf",
+   "amount_usd": 9500000000,
+   "amount_text": "~$9.5B contracted revenue to the joint venture over a 25-year term for 168 MW critical IT (240 MW gross); term may be shortened to 20 or 15 years",
+   "announced": "2025-10-28",
+   "term": "25 years from H2 2026 delivery",
+   "status": "in_progress",
+   "confidence": "confirmed",
+   "title_en": "Fluidstack leases TeraWulf's 168 MW Abernathy JV campus (~$9.5B)",
+   "title_zh": "Fluidstack 租用 TeraWulf 合资的 Abernathy 168 兆瓦园区（约 95 亿美元）",
+   "summary_en": "TeraWulf and Fluidstack formed a joint venture (TeraWulf 50.1%) to build a 168 MW AI campus in Abernathy, Texas, fully leased to Fluidstack for 25 years for about $9.5 billion, serving a frontier AI model developer; Google backs $1.3 billion of the lease (separate edge). In July 2026 TeraWulf agreed to sell its whole JV stake to Fluidstack and other buyers for about $530 million.",
+   "summary_zh": "TeraWulf 与 Fluidstack 成立合资公司（TeraWulf 持股 50.1%），在得州 Abernathy 建设 168 兆瓦 AI 园区，由 Fluidstack 整体租用 25 年，合同收入约 95 亿美元，服务一家前沿大模型开发商；谷歌为其中 13 亿美元租金提供兜底（另列）。2026 年 7 月 TeraWulf 同意以约 5.3 亿美元将所持合资股权全部出售给 Fluidstack 等买方。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1083301/000110465925102858/tm2529509d1_ex99-1.htm",
+     "publisher": "TeraWulf (SEC 8-K exhibit 99.1)",
+     "date": "2025-10-28",
+     "title": "TeraWulf Expands Strategic Partnership with Fluidstack Through New 168 MW AI Compute Joint Venture"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/1083301/000108330126000166/wulf-20260630.htm",
+     "publisher": "TeraWulf (SEC 10-Q)",
+     "date": "2026-08-05",
+     "title": "TeraWulf Form 10-Q for the quarter ended June 30, 2026"
     }
    ],
    "origin": "curated"
@@ -13211,7 +14462,7 @@
    "from": "private-investors",
    "to": "anthropic",
    "amount_usd": 13000000000,
-   "amount_text": "$13B at $183B post-money",
+   "amount_text": "$13.0B of Series F-1 shares at $140.97 a share, sold August-September 2025 ($183B post-money; Anthropic S-1)",
    "announced": "2025-09-02",
    "term": null,
    "status": "completed",
@@ -13226,6 +14477,12 @@
      "publisher": "Anthropic",
      "date": "2025-09-02",
      "title": "Anthropic raises $13B Series F at $183B post-money valuation"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+     "publisher": "Anthropic (SEC S-1)",
+     "date": "2026-10-26",
+     "title": "Anthropic, PBC - Form S-1"
     }
    ],
    "origin": "curated"
@@ -14163,15 +15420,15 @@
    "from": "bond-investors",
    "to": "micron",
    "amount_usd": 1750000000,
-   "amount_text": "$1.75B: $500M 5.65% notes due 2032 + $1.25B 6.05% notes due 2035",
+   "amount_text": "$1.75B: $500M 5.65% notes due Nov 2032 + $1.25B 6.05% notes due 2035. Micron prepaid $429M of the 2032 notes and $1,030M of the 2035 notes on 3 April 2026, leaving $71M and $220M (10-K for fiscal 2026)",
    "announced": "2025-04-24",
    "term": "2032 and 2035",
    "status": "completed",
    "confidence": "confirmed",
    "title_en": "Micron $1.75B senior notes",
    "title_zh": "美光发行 17.5 亿美元优先票据",
-   "summary_en": "Micron sold $1.75B of senior notes due 2032 and 2035 (closed 29 April 2025); proceeds were mainly to redeem its 2027 notes and unwind related swaps.",
-   "summary_zh": "美光发行 17.5 亿美元 2032 年及 2035 年到期优先票据（2025 年 4 月 29 日交割），所得主要用于赎回 2027 年到期票据及结清相关利率互换。",
+   "summary_en": "Micron sold $1.75B of senior notes due 2032 and 2035 (closed 29 April 2025); proceeds were mainly to redeem its 2027 notes and unwind related swaps. On 3 April 2026 Micron prepaid most of both series ($1.46B of principal), leaving $291M outstanding.",
+   "summary_zh": "美光发行 17.5 亿美元 2032 年及 2035 年到期优先票据（2025 年 4 月 29 日交割），所得主要用于赎回 2027 年到期票据及结清相关利率互换。2026 年 4 月 3 日美光提前偿还了两期票据的大部分（本金 14.6 亿美元），剩余 2.91 亿美元未偿。",
    "sources": [
     {
      "url": "https://www.sec.gov/Archives/edgar/data/723125/000110465925038821/tm2511594d5_fwp.htm",
@@ -14184,6 +15441,12 @@
      "publisher": "Micron (SEC 424B5)",
      "date": "2025-04-25",
      "title": "Micron prospectus supplement"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
+     "publisher": "Micron (SEC 10-K)",
+     "date": "2026-10-09",
+     "title": "Micron Technology, Inc. - Form 10-K for fiscal 2026"
     }
    ],
    "origin": "curated"
@@ -14467,16 +15730,16 @@
    "subkind": "equity funding round (Series E)",
    "from": "private-investors",
    "to": "anthropic",
-   "amount_usd": 3500000000,
-   "amount_text": "$3.5B at $61.5B post-money; Lightspeed led",
+   "amount_usd": 3570000000,
+   "amount_text": "~$3.57B of Series E-1 shares at $56.09 a share, sold January-March 2025 ($61.5B post-money; Lightspeed led; Anthropic S-1). Google's and Amazon's earlier convertible notes converted into non-voting Series E shares at the same time (no new cash; on their own edges)",
    "announced": "2025-03-03",
    "term": null,
    "status": "completed",
-   "confidence": "reported",
+   "confidence": "confirmed",
    "title_en": "Anthropic $3.5B Series E at $61.5B",
    "title_zh": "Anthropic 35 亿美元 E 轮融资（估值 615 亿美元）",
-   "summary_en": "Anthropic raised $3.5B led by Lightspeed Venture Partners, with Bessemer, Cisco, D1, Fidelity, General Catalyst, Jane Street, Menlo and Salesforce Ventures, to fund compute, research and international expansion.",
-   "summary_zh": "Anthropic 完成 35 亿美元融资，由 Lightspeed 领投，Bessemer、思科、D1、富达、General Catalyst、Jane Street、Menlo 和 Salesforce Ventures 参投，资金用于算力、研究和国际扩张。",
+   "summary_en": "Anthropic raised about $3.57B in Series E-1 shares (January-March 2025) led by Lightspeed Venture Partners, with Bessemer, Cisco, D1, Fidelity, General Catalyst, Jane Street, Menlo and Salesforce Ventures, to fund compute, research and international expansion.",
+   "summary_zh": "Anthropic 于 2025 年 1-3 月以 E-1 优先股融资约 35.7 亿美元，由 Lightspeed 领投，Bessemer、思科、D1、富达、General Catalyst、Jane Street、Menlo 和 Salesforce Ventures 参投，资金用于算力、研究和国际扩张。",
    "sources": [
     {
      "url": "https://www.bloomberg.com/news/articles/2025-03-03/anthropic-finalizes-megaround-at-61-5-billion-valuation",
@@ -14489,6 +15752,12 @@
      "publisher": "Orrick",
      "date": "2025-03-03",
      "title": "Anthropic Raises $3.5 Billion to Advance AI Development and Expand Compute Capacity"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+     "publisher": "Anthropic (SEC S-1)",
+     "date": "2026-10-26",
+     "title": "Anthropic, PBC - Form S-1"
     }
    ],
    "origin": "curated"
@@ -15432,15 +16701,15 @@
    "from": "amazon",
    "to": "anthropic",
    "amount_usd": 8000000000,
-   "amount_text": "$8B total: $1.25B (Sep 2023) + $2.75B (Mar 2024) + $4B (Nov 2024)",
+   "amount_text": "$8B in convertible notes: up to $4B under the Sept 2023 agreement ($1.2B Sept 2023 + $2.8B of proceeds in Mar 2024) and $4B under the Nov 2024 agreement ($1.3B Nov 2024, $1.3B May 2025, $1.4B Nov 2025). Part converted into non-voting preferred shares; ~$6.2B of non-interest rollover notes remained at 30 June 2026 because of Amazon's 12% ownership cap, converting at the IPO (Anthropic S-1)",
    "announced": "2023-09-25",
    "term": null,
    "status": "completed",
    "confidence": "confirmed",
    "title_en": "Amazon's $8B investment in Anthropic",
    "title_zh": "亚马逊对 Anthropic 的 80 亿美元投资",
-   "summary_en": "Amazon invested $8B in Anthropic in 2023-2024 as a minority investor without a board seat; AWS became Anthropic's primary cloud and training partner, using Trainium chips.",
-   "summary_zh": "亚马逊于 2023-2024 年向 Anthropic 投资 80 亿美元，为不占董事席位的少数股东；AWS 成为 Anthropic 主要云和训练合作方，使用 Trainium 芯片。",
+   "summary_en": "Amazon invested $8B in Anthropic through convertible notes under 2023 and 2024 agreements, the last tranche funded in November 2025; notes that could not convert under Amazon's 12% ownership cap were reissued as interest-free rollover notes (~$6.2B at 30 June 2026). AWS became Anthropic's primary cloud and training partner, using Trainium chips.",
+   "summary_zh": "亚马逊依据 2023 年和 2024 年协议，以可转换票据方式向 Anthropic 投资 80 亿美元，最后一笔于 2025 年 11 月到位；因亚马逊 12% 持股上限而无法转股的部分改为无息展期票据（2026 年 6 月 30 日约 62 亿美元）。AWS 成为 Anthropic 主要云和训练合作方，使用 Trainium 芯片。",
    "sources": [
     {
      "url": "https://www.anthropic.com/news/anthropic-amazon-trainium",
@@ -15453,6 +16722,38 @@
      "publisher": "NBC News",
      "date": "2024-11-22",
      "title": "Amazon to invest another $4 billion in Anthropic, OpenAI's biggest rival"
+    },
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+     "publisher": "Anthropic (SEC S-1)",
+     "date": "2026-10-26",
+     "title": "Anthropic, PBC - Form S-1"
+    }
+   ],
+   "origin": "curated"
+  },
+  {
+   "id": "alphabet-anthropic-2023-09-convertible-notes",
+   "kind": "investment",
+   "subkind": "equity investment (convertible notes)",
+   "from": "alphabet",
+   "to": "anthropic",
+   "amount_usd": 2000000000,
+   "amount_text": "$2.0B of 10% convertible notes in three tranches: $500M (Sept 2023), $750M (Sept 2024), $750M (Sept 2025); all converted into non-voting preferred shares by January 2026 (Anthropic S-1). Agreement dated September 2023, day not disclosed",
+   "announced": "2023-09-01",
+   "term": "Notes due 48 months after each issue; converted",
+   "status": "completed",
+   "confidence": "confirmed",
+   "title_en": "Google's $2B convertible-note investment in Anthropic",
+   "title_zh": "谷歌以可转换票据向 Anthropic 投资 20 亿美元",
+   "summary_en": "Under a September 2023 note purchase agreement Google lent Anthropic $2B in convertible notes, funded in three tranches through September 2025; the notes converted into non-voting Series E and Series G-4 preferred shares, the last in January 2026. Anthropic also has a commercial agreement with Google.",
+   "summary_zh": "根据 2023 年 9 月的票据购买协议，谷歌以可转换票据形式向 Anthropic 提供 20 亿美元，分三批于 2025 年 9 月前到位；票据已转为无投票权的 E 轮及 G-4 优先股，最后一批于 2026 年 1 月转换。Anthropic 与谷歌另有商业合作协议。",
+   "sources": [
+    {
+     "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026067168/anthropicpbc-sx1.htm",
+     "publisher": "Anthropic (SEC S-1)",
+     "date": "2026-10-26",
+     "title": "Anthropic, PBC - Form S-1"
     }
    ],
    "origin": "curated"
@@ -17541,44 +18842,44 @@
   }
  ],
  "stats": {
-  "entities": 111,
-  "edges": 318,
-  "curated_edges": 318,
+  "entities": 118,
+  "edges": 344,
+  "curated_edges": 344,
   "candidate_edges": 0,
   "by_kind": {
    "order": {
-    "count": 85,
-    "usd": 1792889000000,
-    "undisclosed": 40,
+    "count": 92,
+    "usd": 1797489000000,
+    "undisclosed": 45,
     "cancelled": 0
    },
    "investment": {
-    "count": 101,
-    "usd": 924391100000,
-    "undisclosed": 33,
+    "count": 105,
+    "usd": 964761100000,
+    "undisclosed": 32,
     "cancelled": 2
    },
    "debt": {
-    "count": 106,
-    "usd": 952891500000.0,
+    "count": 113,
+    "usd": 975799500000.0,
     "undisclosed": 5,
     "cancelled": 0
    },
    "lease": {
-    "count": 19,
-    "usd": 277440000000,
-    "undisclosed": 5,
+    "count": 25,
+    "usd": 309176000000,
+    "undisclosed": 6,
     "cancelled": 0
    },
    "vendor_financing": {
-    "count": 0,
-    "usd": 0,
+    "count": 1,
+    "usd": 42000000000,
     "undisclosed": 0,
     "cancelled": 0
    },
    "guarantee": {
-    "count": 7,
-    "usd": 181930000000,
+    "count": 8,
+    "usd": 183230000000,
     "undisclosed": 2,
     "cancelled": 0
    }
@@ -17609,7 +18910,7 @@
     "usd": 0
    }
   },
-  "total_usd": 4129541600000.0,
+  "total_usd": 4272455600000.0,
   "latest_announced": "2026-10-27"
  },
  "notes": {
