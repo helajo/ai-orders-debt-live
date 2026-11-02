@@ -2,290 +2,35 @@
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<!-- Everything the page runs is served next to it (d3 is vendored in vendor/); cdnjs is the fallback only.
-     Inline style attributes are set by app.js (bar widths, colour variables), hence 'unsafe-inline' for styles. -->
-<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdnjs.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self'">
-<title>AI Orders &amp; Debt Map · AI 巨头订单与债务关系图</title>
-<meta name="description" content="Live, bilingual relationship graph of orders, investments and debt among the AI giants: who owes what to whom, with sources. AI 巨头订单与债务关系图：谁欠谁，订单、投资与债务，每笔附来源。">
-<link rel="canonical" href="https://helajo.github.io/ai-orders-debt-live/">
-<meta property="og:type" content="website">
-<meta property="og:site_name" content="AI Orders &amp; Debt Map">
-<meta property="og:title" content="AI Orders &amp; Debt Map · AI 巨头订单与债务关系图">
-<meta property="og:description" content="Who owes what to whom among the AI giants: orders, investments and debt as a live, sourced relationship graph. AI 巨头之间谁欠谁：订单、投资与债务关系图，实时更新。">
-<meta property="og:url" content="https://helajo.github.io/ai-orders-debt-live/">
-<meta property="og:locale" content="en_US">
-<meta property="og:locale:alternate" content="zh_CN">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="AI Orders &amp; Debt Map · AI 巨头订单与债务关系图">
-<meta name="twitter:description" content="Who owes what to whom among the AI giants: orders, investments and debt as a live, sourced relationship graph. AI 巨头订单与债务关系图。">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&family=IBM+Plex+Mono:wght@400;500;600&display=swap">
-<link rel="stylesheet" href="style.css">
-<link rel="alternate" type="application/atom+xml" title="AI Orders &amp; Debt Map: changes" href="data/feed.xml">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AI Orders &amp; Debt Map has moved · 已迁移</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://heyneww.github.io/GL-AI-live/">
+<meta http-equiv="refresh" content="3; url=https://heyneww.github.io/GL-AI-live/">
+<script>
+  // Keep the path, ?snapshot= and #hash: /ai-orders-debt-live/<rest> -> the same <rest> on the new site.
+  (function () {
+    var NEW = "https://heyneww.github.io/GL-AI-live/";
+    var rest = location.pathname.replace(/^\/ai-orders-debt-live\/?/, "");
+    location.replace(NEW + rest + location.search + location.hash);
+  })();
+</script>
+<style>
+  :root { color-scheme: light dark; --bg: #fff; --fg: #1a1a1a; --link: #0b57d0; }
+  @media (prefers-color-scheme: dark) { :root { --bg: #121212; --fg: #e8e8e8; --link: #8ab4f8; } }
+  body { background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, sans-serif; margin: 0; padding: 48px 16px; }
+  main { max-width: 560px; margin: 0 auto; }
+  a { color: var(--link); }
+</style>
 </head>
 <body>
-<a class="skip" href="#workspace" data-i18n="skip_graph">Skip to graph</a>
-
-<header class="masthead">
-  <div class="masthead__inner">
-    <div class="brand">
-      <p class="brand__kicker" data-i18n="kicker">Live data · AI capital flows</p>
-      <h1 class="brand__title" data-i18n="brand">AI Orders &amp; Debt Map</h1>
-      <p class="brand__sub" data-i18n="brand_sub">Who owes whom among the AI giants: orders, investments and debt, monitored by Claude</p>
-    </div>
-    <div class="masthead__right">
-      <div class="lang" role="group" data-i18n-aria="aria_lang" aria-label="Language / 语言">
-        <button type="button" id="lang-en" class="lang__btn" lang="en" aria-pressed="true">English</button>
-        <button type="button" id="lang-zh" class="lang__btn" lang="zh-CN" aria-pressed="false">中文</button>
-      </div>
-      <div class="live-wrap">
-        <button type="button" class="live" id="live" data-state="loading" aria-expanded="false" aria-controls="live-pop">
-          <span class="live__dot" aria-hidden="true"></span>
-          <span class="live__state" id="live-state"></span>
-          <span class="live__text" id="live-text"></span>
-          <span class="live__chev" aria-hidden="true">▾</span>
-        </button>
-        <div class="live__pop" id="live-pop" hidden>
-          <dl class="live__dl" id="live-dl"></dl>
-          <button type="button" class="btn btn--sm" id="live-check" data-i18n="check_now">Check now</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</header>
-<p id="sr-status" class="sr-only" role="status" aria-live="polite"></p>
-
-<div class="banner" id="sample-banner" role="status" hidden></div>
-<div class="banner banner--error" id="error-banner" role="alert" hidden>
-  <span id="error-text" data-i18n="load_error"></span>
-  <a id="error-back" href="./" hidden data-i18n="snapshot_back">Back to the live map</a>
-  <button type="button" class="btn btn--sm" id="retry" data-i18n="retry">Retry</button>
-</div>
-<div class="banner banner--new" id="new-bar" role="status" hidden>
-  <span id="new-bar-text"></span>
-  <button type="button" class="linkbtn" id="new-show" data-i18n="new_show">Show them</button>
-  <button type="button" class="linkbtn linkbtn--muted" id="new-dismiss" data-i18n="new_dismiss">Dismiss</button>
-</div>
-
-<section class="summary" id="summary" data-i18n-aria="aria_summary" aria-label="Totals">
-  <div class="tile tile--money tile--order" id="tile-order"><span class="tile__label" data-i18n="sum_orders">Orders</span><span class="tile__value" id="sum-order">–</span><span class="tile__note" id="sum-order-note"></span></div>
-  <div class="tile tile--money tile--investment" id="tile-investment"><span class="tile__label" data-i18n="sum_investments">Investments</span><span class="tile__value" id="sum-investment">–</span><span class="tile__note" id="sum-investment-note"></span></div>
-  <div class="tile tile--money tile--debt" id="tile-debt"><span class="tile__label" data-i18n="sum_debt">Debt</span><span class="tile__value" id="sum-debt">–</span><span class="tile__note" id="sum-debt-note"></span></div>
-  <div class="tile tile--money tile--lease" id="tile-lease"><span class="tile__label" data-i18n="sum_leases">Leases</span><span class="tile__value" id="sum-lease">–</span><span class="tile__note" id="sum-lease-note"></span></div>
-  <div class="tile tile--money tile--guarantee" id="tile-guarantee"><span class="tile__label" data-i18n="sum_guarantees">Guarantees (contingent)</span><span class="tile__value" id="sum-guarantee">–</span><span class="tile__note" id="sum-guarantee-note"></span></div>
-  <div class="tile tile--mix"><span class="tile__label" data-i18n="sum_mix">Mix by deal type</span><span class="tile__total" id="sum-total"></span><div class="mix" id="sum-mix"></div><span class="tile__split" id="sum-split"></span><span class="tile__note" id="sum-scope"></span></div>
-</section>
-<p class="summary__foot" data-i18n="sum_foot"></p>
-
-<section class="timeline" id="timeline" data-i18n-aria="aria_timeline" aria-label="Timeline" hidden>
-  <div class="timeline__head">
-    <span class="timeline__h" data-i18n="tl_title">Deals by month</span>
-    <span class="timeline__range" id="tl-range"></span>
-    <button type="button" class="linkbtn linkbtn--muted timeline__clear" id="tl-clear" hidden data-i18n="tl_clear">Clear range</button>
-  </div>
-  <svg id="tl-svg" role="img"></svg>
-  <p class="timeline__note" id="tl-note"></p>
-</section>
-
-<section class="filters" id="filters" data-i18n-aria="aria_filters" aria-label="Filters">
-  <div class="filters__main">
-    <label class="field field--search">
-      <span class="sr-only" data-i18n="f_search">Search</span>
-      <input type="search" id="f-search" list="f-ents" autocomplete="off" spellcheck="false">
-      <datalist id="f-ents"></datalist>
-    </label>
-    <fieldset class="filters__kinds">
-      <legend class="sr-only" data-i18n="f_kinds">Deal type</legend>
-      <div class="chips" id="kind-chips"></div>
-    </fieldset>
-    <fieldset class="filters__toggles">
-      <legend class="sr-only" data-i18n="f_quality">Confidence and status</legend>
-      <div class="chips" id="quality-chips">
-        <button type="button" class="chip chip--toggle" id="f-confirmed" aria-pressed="false"><span class="chip__tick" aria-hidden="true"></span><span data-i18n="f_confirmed_only">Confirmed only</span></button>
-        <button type="button" class="chip chip--toggle" id="f-binding" aria-pressed="false"><span class="chip__tick" aria-hidden="true"></span><span data-i18n="f_binding_only">Binding only</span></button>
-      </div>
-    </fieldset>
-    <button type="button" class="btn filters__more" id="f-more" aria-expanded="false" aria-controls="filters-row"><span data-i18n="f_more">Filters</span><span class="filters__more-n" id="f-more-n"></span></button>
-  </div>
-  <div class="filters__row" id="filters-row">
-    <label class="field">
-      <span data-i18n="f_group">Sector</span>
-      <select id="f-group"></select>
-    </label>
-    <label class="field">
-      <span data-i18n="f_min">Minimum size</span>
-      <select id="f-min"></select>
-    </label>
-    <label class="field">
-      <span data-i18n="f_period">Period</span>
-      <select id="f-period"></select>
-    </label>
-    <label class="field field--date" id="f-from-field" hidden>
-      <span data-i18n="f_from">Start date</span>
-      <input type="date" id="f-from">
-    </label>
-    <label class="field field--date" id="f-to-field" hidden>
-      <span data-i18n="f_to">End date</span>
-      <input type="date" id="f-to">
-    </label>
-    <button type="button" class="linkbtn" id="f-reset" hidden></button>
-  </div>
-  <div class="fpills" id="f-pills"></div>
-</section>
-
-<main class="workspace" id="workspace">
-  <section class="viz" data-i18n-aria="aria_viz" aria-label="Relationship graph">
-    <div class="viz__bar">
-      <div class="seg" role="tablist" data-i18n-aria="aria_view" aria-label="View">
-        <button type="button" role="tab" id="tab-graph" class="seg__btn" aria-selected="true" aria-controls="graph-view" data-i18n="view_graph">Graph</button>
-        <button type="button" role="tab" id="tab-table" class="seg__btn" aria-selected="false" aria-controls="table-view" data-i18n="view_table">Table</button>
-        <button type="button" role="tab" id="tab-loops" class="seg__btn" aria-selected="false" aria-controls="loops-view"><span data-i18n="view_loops">Loops</span><span class="chip__n" id="loops-n"></span></button>
-        <button type="button" role="tab" id="tab-changes" class="seg__btn" aria-selected="false" aria-controls="changes-view" data-i18n="view_changes">Changes</button>
-      </div>
-      <div class="seg seg--sm" id="graph-scope" role="group" data-i18n-aria="aria_scope" aria-label="Companies shown">
-        <button type="button" class="seg__btn" data-scope="20" aria-pressed="false">Top 20</button>
-        <button type="button" class="seg__btn" data-scope="50" aria-pressed="false">Top 50</button>
-        <button type="button" class="seg__btn" data-scope="all" aria-pressed="true">All</button>
-      </div>
-      <span class="viz__count" id="viz-count"></span>
-      <div class="viz__tools" id="graph-tools">
-        <button type="button" class="icon-btn" id="zoom-in" data-i18n-title="zoom_in" aria-label="Zoom in">+</button>
-        <button type="button" class="icon-btn" id="zoom-out" data-i18n-title="zoom_out" aria-label="Zoom out">−</button>
-        <button type="button" class="icon-btn" id="zoom-fit" data-i18n-title="zoom_fit" aria-label="Fit to view">⤢</button>
-      </div>
-      <label class="field table-sort" id="table-sort-wrap" hidden>
-        <span data-i18n="sort_by">Sort by</span>
-        <select id="t-sort"></select>
-      </label>
-      <button type="button" class="btn" id="csv" hidden data-i18n="csv">Download CSV</button>
-    </div>
-    <a class="skip" id="skip-past" href="#side" data-i18n="skip_past">Skip the graph</a>
-
-    <div class="graph" id="graph-view" role="tabpanel" aria-labelledby="tab-graph">
-      <svg id="graph-svg" role="group" aria-label="Relationship graph"></svg>
-      <p class="graph__loading" id="graph-loading" data-i18n="graph_loading">Loading the map…</p>
-      <div class="empty graph__empty" id="graph-empty" hidden></div>
-      <div class="graph__gesture" id="graph-gesture" hidden data-i18n="graph_two_finger"></div>
-      <div class="tooltip" id="tooltip" role="tooltip" aria-hidden="true" hidden></div>
-    </div>
-
-    <div class="table-wrap" id="table-view" role="tabpanel" aria-labelledby="tab-table" hidden>
-      <table class="deals" id="deals-table">
-        <thead><tr id="deals-head"></tr></thead>
-        <tbody id="deals-body"></tbody>
-        <tfoot><tr><td colspan="6" id="deals-foot"></td></tr></tfoot>
-      </table>
-      <div class="empty" id="table-empty" hidden></div>
-    </div>
-
-    <div class="loops" id="loops-view" role="tabpanel" aria-labelledby="tab-loops" hidden>
-      <p class="loops__hint" id="loops-hint"></p>
-      <ol class="loops__list" id="loops-list"></ol>
-      <div class="empty" id="loops-empty" hidden></div>
-    </div>
-
-    <div class="changes" id="changes-view" role="tabpanel" aria-labelledby="tab-changes" hidden>
-      <p class="changes__hint" id="changes-hint"></p>
-      <ol class="changes__list" id="changes-list"></ol>
-      <div class="empty" id="changes-empty" hidden></div>
-    </div>
-
-    <details class="legend" id="legend" open>
-      <summary class="legend__sum" data-i18n="legend">Legend</summary>
-      <div class="legend__body">
-        <div class="legend__row">
-          <span class="legend__h" data-i18n="legend_lines">Lines</span>
-          <span class="legend__kinds" id="legend-kinds"></span>
-          <span class="legend__widths" id="legend-widths"></span>
-        </div>
-        <div class="legend__row">
-          <span class="legend__h" data-i18n="legend_circles">Circles</span>
-          <span class="legend__circles" id="legend-circles"></span>
-          <span class="legend__key"><svg width="16" height="16" aria-hidden="true"><circle cx="8" cy="8" r="6" class="lk-pool"/></svg><span data-i18n="legend_pool"></span></span>
-        </div>
-        <div class="legend__row legend__row--notes">
-          <span class="legend__key"><svg width="26" height="10" aria-hidden="true"><line x1="1" y1="5" x2="20" y2="5" class="lk-line"/><path d="M19 1 L25 5 L19 9 Z" class="lk-head"/></svg><span data-i18n="legend_arrow">Arrow points to who receives the money</span></span>
-          <span class="legend__key"><svg width="26" height="10" aria-hidden="true"><line x1="1" y1="5" x2="25" y2="5" class="lk-line lk-line--dashed"/></svg><span data-i18n="legend_undisclosed">Dashed line = amount undisclosed</span></span>
-          <span class="legend__key"><svg width="26" height="10" aria-hidden="true"><line x1="1" y1="5" x2="25" y2="5" class="lk-line lk-line--loop"/></svg><span data-i18n="legend_loop">Highlighted = part of a circular deal with the selected company</span></span>
-        </div>
-        <p class="legend__hint" id="graph-hint"></p>
-        <span class="sr-only" id="graph-kbd" data-i18n="graph_kbd"></span>
-      </div>
-    </details>
-  </section>
-
-  <div class="side" id="side" tabindex="-1">
-    <section class="overview" id="overview" aria-labelledby="ov-h"></section>
-    <aside class="panel" id="panel" tabindex="-1" aria-labelledby="panel-title"></aside>
-  </div>
+<main>
+  <h1>This site has moved · 本网站已迁移</h1>
+  <p>The AI Orders &amp; Debt Map is now published at
+    <a href="https://heyneww.github.io/GL-AI-live/">https://heyneww.github.io/GL-AI-live/</a>.
+    Please update your bookmarks and links.</p>
+  <p>AI 巨头订单与债务关系图现已发布于
+    <a href="https://heyneww.github.io/GL-AI-live/">https://heyneww.github.io/GL-AI-live/</a>，请更新书签和链接。</p>
 </main>
-
-<section class="latest" aria-labelledby="latest-h">
-  <h2 class="section-h" id="latest-h" data-i18n="latest">Latest from the monitor</h2>
-  <div class="latest__cols">
-    <div class="latest__col">
-      <h3 class="latest__h" data-i18n="latest_news">News</h3>
-      <ol class="feed" id="feed-news"></ol>
-    </div>
-    <div class="latest__col">
-      <h3 class="latest__h" data-i18n="latest_filings">SEC filings</h3>
-      <ol class="feed" id="feed-filings"></ol>
-    </div>
-  </div>
-</section>
-
-<footer class="footer">
-  <p class="footer__disc" id="disc-en" lang="en">For information only, not investment advice: this site describes deals and does not rate them. Amounts are nominal US dollars as disclosed by the companies or named outlets, and every deal links to its sources.</p>
-  <p class="footer__disc" id="disc-zh" lang="zh-CN">本站内容仅供参考，只作描述、不作评价，不构成任何投资建议。金额为公司公告或具名媒体披露的名义美元金额，每笔交易均附来源链接。</p>
-  <p class="footer__links">
-    <button type="button" class="linkbtn" id="about-open" data-i18n="about_link">About &amp; methodology</button>
-    <span class="footer__sep" aria-hidden="true">·</span>
-    <span class="footer__api"><span data-i18n="footer_api">Data &amp; API</span>:
-      <a href="data/graph.json" data-i18n="api_graph">graph.json</a>,
-      <a href="data/v1/README.md" data-i18n="api_v1">API v1 (JSON, CSV)</a>,
-      <a href="data/feed.xml" type="application/atom+xml" data-i18n="api_feed">changes feed</a>
-    </span>
-    <span class="footer__sep" aria-hidden="true">·</span>
-    <span data-i18n="footer_licence">Data CC BY 4.0, code MIT</span>
-  </p>
-  <p class="footer__meta" id="footer-meta" data-i18n="footer_built">Built from public filings and news.</p>
-</footer>
-
-<dialog class="about" id="about" aria-labelledby="about-title">
-  <div class="about__head">
-    <h2 class="about__title" id="about-title" data-i18n="about_title">About &amp; methodology</h2>
-    <button type="button" class="icon-btn" id="about-close" data-i18n-title="panel_close" aria-label="Close">×</button>
-  </div>
-  <div class="about__body">
-    <p data-i18n="about_intro"></p>
-    <h3 data-i18n="about_count_h"></h3>
-    <p data-i18n="about_count"></p>
-    <h3 data-i18n="about_dir_h"></h3>
-    <ul>
-      <li data-i18n="about_dir_order"></li>
-      <li data-i18n="about_dir_invest"></li>
-      <li data-i18n="about_dir_debt"></li>
-      <li data-i18n="about_dir_lease"></li>
-      <li data-i18n="about_dir_vf"></li>
-      <li data-i18n="about_dir_guar"></li>
-    </ul>
-    <h3 data-i18n="about_conf_h"></h3>
-    <p data-i18n="about_conf"></p>
-    <h3 data-i18n="about_cadence_h"></h3>
-    <p data-i18n="about_cadence"></p>
-    <h3 data-i18n="about_licence_h"></h3>
-    <p data-i18n="about_licence"></p>
-    <h3 data-i18n="about_cite_h"></h3>
-    <p class="about__cite"><code id="about-cite"></code> <button type="button" class="btn btn--sm" id="about-copy" data-i18n="about_copy">Copy</button><span class="about__copied" id="about-copied" role="status"></span></p>
-    <p class="about__disc" data-i18n="footer_disclaimer"></p>
-  </div>
-</dialog>
-
-<script src="vendor/d3.v7.min.js"></script>
-<script src="vendor/d3-fallback.js"></script>
-<script src="i18n.js"></script>
-<script src="app.js"></script>
 </body>
 </html>
